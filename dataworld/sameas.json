@@ -547,7 +547,7 @@
         {
             "Id": "dataworld.sameas.bbc_things_identifer_id",
             "Name": "BBC Things identifer Identifier",
-            "Description": "Identifier in the BBC Things database (see Q18336371)",
+            "Description": "Identifier in the BBC Things database",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -2899,7 +2899,7 @@
         {
             "Id": "dataworld.sameas.iata_airport_id",
             "Name": "IATA airport Identifier",
-            "Description": "Three-letter identifier for designating airports (for airlines, see P229)",
+            "Description": "Three-letter identifier for designating airports.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -2939,7 +2939,7 @@
         {
             "Id": "dataworld.sameas.icao_airport_id",
             "Name": "ICAO airport Identifier",
-            "Description": "Four-character alphanumeric identifier for designating airports (for airlines, see P230)",
+            "Description": "Four-character alphanumeric identifier for designating airports.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3083,7 +3083,7 @@
         {
             "Id": "dataworld.sameas.index_fungorum_id",
             "Name": "Index Fungorum Identifier",
-            "Description": "Identifier in Index Fungorum (see Q1860469)",
+            "Description": "Identifier in Index Fungorum.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -4771,7 +4771,7 @@
         {
             "Id": "dataworld.sameas.nla_australia_id",
             "Name": "NLA (Australia) Identifier",
-            "Description": "Identifier issued by the National Library of Australia (see also P1315 for the newer People Australia identifier)",
+            "Description": "Identifier issued by the National Library of Australia.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -5971,7 +5971,7 @@
         {
             "Id": "dataworld.sameas.sudoc_authorities_id",
             "Name": "SUDOC authorities Identifier",
-            "Description": "Identifier for authority control in the French collaborative library catalog (see also P1025)",
+            "Description": "Identifier for authority control in the French collaborative library catalog.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -5979,7 +5979,7 @@
         {
             "Id": "dataworld.sameas.sudoc_editions_id",
             "Name": "SUDOC editions Identifier",
-            "Description": "Identifier in the French union catalog (see also P269)",
+            "Description": "Identifier in the French union catalog.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
