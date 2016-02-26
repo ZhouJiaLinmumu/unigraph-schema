@@ -46,7 +46,7 @@ Measurement units now include all the conversion information between units
 {
     "Id": "measured_dimension.distance_unit",
     "Name": "Unit of Length",
-    "Description": "A Unit Of Length is any measure used for linear distance (height, width, etc.). If the unit is fixed, such as the American inch, its length in the SI base unit, meters, should be given. If it is variable or unknown, such as the Biblical cubit, then the meter equivalence should not be specified.",
+    "Description": "A Unit of length is any measure used for linear distance (height, width, etc.). If the unit is fixed, such as the American inch, its length in the SI base unit, meters, should be given. If it is variable or unknown, such as the Biblical cubit, then the meter equivalence should not be specified.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"
