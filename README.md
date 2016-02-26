@@ -97,10 +97,22 @@ Measurement units now include all the conversion information between units
 }
 ```
 
-Prevent domain leaking
-----------------------
+Domains no longer leak information. Cross-domain references are handled by type inheritance. In the below example the "book.book_edition_location" type will inherit all properties from its expected type: "location.location", while in the same time the particular location that the book was published will also be referenced as such and not just as "location.location":
 
-Domain no longer leak information. Information entered in a domain ....
+```
+{
+    "Id": "book.book_edition_location",
+    "Name": "Book Edition Location",
+    "Description": "The place, usually a city, where a book edition has been published.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}
+```
 
 SameAs
 ------
