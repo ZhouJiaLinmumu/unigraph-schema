@@ -8,7 +8,9 @@ Ward > dataworld.sameas.uk_ons_gss_code
 Births 2002 > measured_dimension.dated_float.value
 Ward Name > type.object.name
 Ward Name > location.statistical_region.births > measured_dimension.dated_float
+Ward Name > location.location
 Borough > type.object.name
+Borough > location.location
 Borough > location.location.contains > Ward Name
 ```
 
