@@ -136,4 +136,6 @@ In the domain Dataworld, we have created a type `dataworld.sameas` which contain
 Contributions are welcome
 -------------------------
 
-Passionate about a subject? Feel free to fork, edit and improve the schema. All pull requests are highly appreciated. You can always drop us a line on the contacts listed at [unigraph.rocks](http://unigraph.rocks) and follow us on [twitter](http://twitter.com/unigraphrocks)
+Passionate about a subject? Feel free to fork, edit and improve the schema. All pull requests are highly appreciated. You can always drop us a line on the contacts listed at [unigraph.rocks](http://unigraph.rocks) and follow us on [twitter](http://twitter.com/unigraphrocks).
+
+*Build with love in Slovakia. With the support of [ODINE](http://opendataincubator.eu)*
