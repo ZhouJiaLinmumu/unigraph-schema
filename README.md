@@ -1,7 +1,7 @@
 Unigraph Public Schema
 ======================
 
-The Unigraph Schema is the backbone of the Unigraph knolwedge graph. It is based on the Freebase Schema with major modifications in the following areas:
+The Unigraph Schema is the backbone of the UniGraph knowledge graph. It is inspired by the freebase schema with major modifications in the following areas:
 
 Measured dimensions
 -------------------
@@ -97,7 +97,7 @@ Measurement units now include all the conversion information between units
 }
 ```
 
-Prevent domain leaking
+Self contained domains
 ----------------------
 
 Domains no longer leak information. Cross-domain references are handled by type inheritance. In the below example the "book.book_edition_location" type will inherit all properties from its expected type: "location.location", while in the same time the particular location that the book was published will also be referenced as such and not just as "location.location":
@@ -120,7 +120,18 @@ Domains no longer leak information. Cross-domain references are handled by type 
 SameAs
 ------
 
-In the domain Dataworld, we have created a type `dataworld.sameas` which contains more than 800 properties linking data from external repositories of information to unigraph.
+In the domain Dataworld, we have created a type `dataworld.sameas` which contains more than 800 properties linking data from external repositories of information to UniGraph. Many include examples.
+
+```
+        {
+            "Id": "dataworld.sameas.uk_companies_house_id",
+            "Name": "UK Companies House Company ID",
+            "Description": "The assigned number of the company by the UK Companies House. Examples: 8209948, SC421617, FC031362, IP10067R",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        }
+```
 
 Contributions are welcome
 -------------------------
