@@ -1,0 +1,11 @@
+{
+    "Id": "theater.production_staff_role",
+    "Name": "Theater Production Staff Role",
+    "Description": "This type represents all positions someone can hold in a theatrical production that are not covered by other types. (Other types exist for director, choreographer, music director, producer, designers, and performers.)",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

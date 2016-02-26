@@ -1,0 +1,20 @@
+{
+    "Id": "sports.sports_position",
+    "Name": "Sports position",
+    "Description": "A sports position is a role that an athlete plays as part of a team.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "sports.sports_position.sport",
+            "Name": "Sport",
+            "Description": "The sport or sports in which this position is found.",
+            "ObjectType": "sports.sport",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "Id": "business.business_location",
+    "Name": "Business Location",
+    "Description": "A \"Business Location\" represents any physical location of a business - a store, an office, a campus, a factory, and so on.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.employer",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.business_location.address",
+            "Name": "Address",
+            "Description": "The street address for this business location",
+            "ObjectType": "location.mailing_address",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.business_location.date_closed",
+            "Name": "Closing date",
+            "Description": "The date this location closed. Blank if still operating.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.business_location.date_opened",
+            "Name": "Opening Date",
+            "Description": "The date this location opened.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.business_location.phone_number",
+            "Name": "Phone Number",
+            "Description": "The phone number for this business location",
+            "ObjectType": "common.phone_number",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.business_location.reviews",
+            "Name": "Reviews",
+            "Description": "Web pages which provide reviews for the business at this location",
+            "ObjectType": "type.uri",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.business_location.hours",
+            "Name": "Hours",
+            "Description": "During what hours is this business location open",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

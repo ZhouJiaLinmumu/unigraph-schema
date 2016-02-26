@@ -1,0 +1,11 @@
+{
+    "Id": "medicine.medical_trial_phase",
+    "Name": "Medical trial phase",
+    "Description": "A medical trial phase is a particular stage in the clinical evaluation of a treatment. Each phase has a different purpose and is designed to answer certain types of questions.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

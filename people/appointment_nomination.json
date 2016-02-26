@@ -1,0 +1,42 @@
+{
+    "Id": "people.appointment_nomination",
+    "Name": "Appointment Nomination",
+    "Description": "An appointment nomination is where a person has been nominated for the filling a role or position.  A nominee might not necessarily have been successfully appointed, only that they were officialy considered for the role.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "people.appointment_nomination.start_date",
+            "Name": "From",
+            "Description": "The date on which the were nominated",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "people.appointment_nomination.nominee",
+            "Name": "Nominee",
+            "Description": "The person nominated for the role",
+            "ObjectType": "people.appointment_nominee",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "people.appointment_nomination.position",
+            "Name": "Position",
+            "Description": "The role or position which this nominations is for",
+            "ObjectType": "people.appointed_role",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "people.appointment_nomination.end_date",
+            "Name": "To",
+            "Description": "The date on which the nominee was removed from the running",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

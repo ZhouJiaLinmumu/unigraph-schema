@@ -1,0 +1,11 @@
+{
+    "Id": "book.reviewed_work",
+    "Name": "Reviewed Work",
+    "Description": "Any type of media that has been reviewed somewhere can be a reviewed work.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

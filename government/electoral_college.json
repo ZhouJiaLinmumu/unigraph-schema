@@ -1,0 +1,11 @@
+{
+    "Id": "government.electoral_college",
+    "Name": "Electoral college",
+    "Description": "An electoral college is a group of people who cast the votes in an indirect election. In some cases, this may be a body specifically convened for the purposes of a single election; in others, it may be a governmental body that primarily serves another function, such as a legislature.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

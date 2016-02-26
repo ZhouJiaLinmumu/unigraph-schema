@@ -1,0 +1,45 @@
+{
+    "Id": "film.festival_event",
+    "Name": "Film festival event",
+    "Description": "This type is for a specific year's incarnation of a film festival - e.g. 2004 Cannes Film Festival, rather than for the recurring film festival itself. It can also be used for one-time festivals, and for incarnations of festivals held more frequently than once per year.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "event.event",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "film.festival_event.end_date",
+            "Name": "Closing date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.festival_event.start_date",
+            "Name": "Opening date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.festival_event.venues",
+            "Name": "Venues",
+            "Description": "The venues where films were shown during this occurrence of the festival.",
+            "ObjectType": "film.screening_venue",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.festival_event.festival",
+            "Name": "Festival",
+            "Description": "The film festival that this is an occurrence of.",
+            "ObjectType": "film.festival",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

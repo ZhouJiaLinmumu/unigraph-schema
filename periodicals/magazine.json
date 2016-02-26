@@ -1,0 +1,29 @@
+{
+    "Id": "periodicals.magazine",
+    "Name": "Magazine",
+    "Description": "The magazine type is for printed periodicals, typically bound in some way. Online periodicals will have their own type. This type was designed with professionally-published magazines in mind, but it could probably be used for some types of fanzines and zines.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "periodicals.periodical",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "periodicals.magazine.circulation",
+            "Name": "Circulation",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.magazine.genre",
+            "Name": "Genre",
+            "Description": "The genre of this magazine, e.g. News, Fashion, Cooking, Science Fiction, etc.",
+            "ObjectType": "periodicals.magazine_genre",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "aviation.flight_destination",
+    "Name": "Flight Destionation",
+    "Description": "This type represents the destination a flight is was intended for.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

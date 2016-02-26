@@ -1,0 +1,50 @@
+{
+    "Id": "opera.production_staff_gig",
+    "Name": "Opera Production Staff Gig",
+    "Description": "This is a compound-value type that holds information about the relationship between opera production staff, their role, and the production.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "opera.production_staff_gig.start_date",
+            "Name": "From",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "opera.production_staff_gig.opera",
+            "Name": "Opera",
+            "Description": "",
+            "ObjectType": "opera.production",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "opera.production_staff_gig.production_role",
+            "Name": "Production Role",
+            "Description": "",
+            "ObjectType": "opera.production_staff_role",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "opera.production_staff_gig.staff_member",
+            "Name": "Staff Member",
+            "Description": "",
+            "ObjectType": "opera.production_staff",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "opera.production_staff_gig.end_date",
+            "Name": "To",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "medicine.drug_dosage_flavor",
+    "Name": "Drug dosage flavor",
+    "Description": "The flavor of a drug's dosage form, when applicable.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

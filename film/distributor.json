@@ -1,0 +1,11 @@
+{
+    "Id": "film.distributor",
+    "Name": "Film distributor",
+    "Description": "A film distributor is any organization which has distributed a film in any medium, include theatrical distribution, television broadcast, or release on home video.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

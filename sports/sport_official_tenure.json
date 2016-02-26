@@ -1,0 +1,42 @@
+{
+    "Id": "sports.sport_official_tenure",
+    "Name": "Sports official tenure",
+    "Description": "A CVT which links together a sports official and the leagues/associations in which they adjudicated.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "sports.sport_official_tenure.start_date",
+            "Name": "From date",
+            "Description": "When this person began adjudicating in this league",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.sport_official_tenure.association",
+            "Name": "Sports Association",
+            "Description": "A league or other association which this person has adjudicated",
+            "ObjectType": "sports.league",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "sports.sport_official_tenure.end_date",
+            "Name": "To date",
+            "Description": "When this person stopped adjudicating in this league",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.sport_official_tenure.official",
+            "Name": "Sports official",
+            "Description": "The person this CVT refers to",
+            "ObjectType": "sports.sport_official",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

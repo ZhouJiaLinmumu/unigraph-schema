@@ -1,0 +1,70 @@
+{
+    "Id": "education.university",
+    "Name": "College/University",
+    "Description": "The College/University type is used for institutions that offer tertiary level education and grant degrees.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "education.educational_institution",
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "education.university.domestic_tuition",
+            "Name": "Domestic tuition",
+            "Description": "This is for full-time, undergraduate tuition. Some universities offer a tuition rate to students who are citizens or residents of a country or group of countries. If the university does not, leave this blank. For example, many universities offer one tuition for all students from the country the university is in; also, many universities in EU countries have one tuition for any student from an EU country.  The year value should be the calendar year that begins the academic year (e.g. for academic year 2011-2012, enter \"2011\").",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "education.university.fraternities_and_sororities",
+            "Name": "Fraternities and sororities",
+            "Description": "Social organizations associated with this college",
+            "ObjectType": "education.fraternity_sorority",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "education.university.international_tuition",
+            "Name": "International tuition",
+            "Description": "This is for full-time, undergraduate tuition. Some universities offer a tuition rate to students from countries outside the domestic region (which is defined differently from university to university). If the university does not, leave this blank. For example, many schools offer one rate to students from their country, and another to students from all other countries; also, many universities in EU countries offer one tuition to students from outside the EU.  The year value should be the calendar year that begins the academic year (e.g. for academic year 2011-2012, enter \"2011\").",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "education.university.local_tuition",
+            "Name": "Local tuition",
+            "Description": "This is for full-time, undergraduate tuition. Some universities offer a tuition rate to students who are from some region local (that is, smaller than the country) to the university. If the university does not, leave this blank. For example, many publicly-funded universities in the United States offer a reduced tuition for students living in the same state as the university.  The year value should be the calendar year that begins the academic year (e.g. for academic year 2011-2012, enter \"2011\").",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "education.university.number_of_doctoral_candidates",
+            "Name": "Number of doctoral candidates",
+            "Description": "The number of students on the body who are working towards an advanced academic degree, such as doctor of philosophy",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "education.university.number_of_postgraduates",
+            "Name": "Number of postgraduates",
+            "Description": "The number of students who are members of this college and have previously completed a degree",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "education.university.number_of_undergraduates",
+            "Name": "Number of undergraduates",
+            "Description": "The number of students on the body who have yet to gain their first degree.",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

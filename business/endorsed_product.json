@@ -1,0 +1,12 @@
+{
+    "Id": "business.endorsed_product",
+    "Name": "Endorsed Product",
+    "Description": "The product that is being endorsed by a product endorser on behalf of the product endorsee.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.consumer_product",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

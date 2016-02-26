@@ -1,0 +1,12 @@
+{
+    "Id": "government.language",
+    "Name": "Language",
+    "Description": "The language used by the government or government service",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "language.human_language"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

@@ -1,0 +1,42 @@
+{
+    "Id": "organization.acquisition",
+    "Name": "Acquisition",
+    "Description": "An acquisition takes place when one company completely buys out another company, and the former company remains.  Examples include:  - investment firm buys all the stock of a public company (Blackstone Group buys Harrah's Entertainment)  - company buys another company (Wachovia buys First Union) If the two companies join together to become a new company, it is then considered a merger (Arcelor and Mittal Steel merge and become ArcelorMittal).",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "organization.acquisition.acquiring_company",
+            "Name": "Acquiring organization",
+            "Description": "",
+            "ObjectType": "organization.organization",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "organization.acquisition.company_acquired",
+            "Name": "Organization acquired",
+            "Description": "",
+            "ObjectType": "organization.organization",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "organization.acquisition.date",
+            "Name": "Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "organization.acquisition.divisions_formed",
+            "Name": "Divisions formed",
+            "Description": "If the acquired company became a division of the acquirer, enter that division here. (If it became a subsidiary company, enter it under the property \"subsidiary companies\" instead.)",
+            "ObjectType": "organization.organization",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

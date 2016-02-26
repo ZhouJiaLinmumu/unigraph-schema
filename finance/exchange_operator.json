@@ -1,0 +1,12 @@
+{
+    "Id": "finance.exchange_operator",
+    "Name": "Exchange operator",
+    "Description": "An organization that operates an exchange.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

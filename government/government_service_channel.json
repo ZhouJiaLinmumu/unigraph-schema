@@ -1,0 +1,68 @@
+{
+    "Id": "government.government_service_channel",
+    "Name": "Government Service Channel",
+    "Description": "A means of delivering a government service to the intended audience.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "government.government_service_channel.available_language",
+            "Name": "Available language",
+            "Description": "A language that may be used to access the service channel.",
+            "ObjectType": "government.language",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.government_service_channel.estimated_processing_time",
+            "Name": "Estimated processing time",
+            "Description": "The estimated processing time of the service through this channel.",
+            "ObjectType": "measured_dimension.time",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.government_service_channel.mailing_address_access",
+            "Name": "Mailing address access",
+            "Description": "The address where forms may be sent to access the service.",
+            "ObjectType": "location.mailing_address",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.government_service_channel.phone_access",
+            "Name": "Phone access",
+            "Description": "The telephone number where the service may be accessed.",
+            "ObjectType": "common.phone_number",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.government_service_channel.physical_location_access",
+            "Name": "Physical location access",
+            "Description": "The physical location where the service can be accessed.",
+            "ObjectType": "government.location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.government_service_channel.sms_access",
+            "Name": "SMS access",
+            "Description": "The SMS number where the service can be accessed.",
+            "ObjectType": "common.phone_number",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.government_service_channel.website_access",
+            "Name": "Website access",
+            "Description": "The website where the service may be accessed.",
+            "ObjectType": "type.uri",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

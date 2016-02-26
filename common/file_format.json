@@ -1,0 +1,11 @@
+{
+    "Id": "common.file_format",
+    "Name": "File Format",
+    "Description": "The computer format of the file",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "computer.file_format"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

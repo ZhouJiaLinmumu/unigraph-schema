@@ -1,0 +1,12 @@
+{
+    "Id": "business.profession",
+    "Name": "Profession",
+    "Description": "Profession",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.profession"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "education.school_mascot",
+    "Name": "School mascot",
+    "Description": "A mascot is a symbol used to represent a school or its athletic teams.We currently have only a handful of these, and only those that are unique, such as Yale's bulldog, Handsome Dan. More common mascots, such as Bears or Trojans, have not yet been added.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

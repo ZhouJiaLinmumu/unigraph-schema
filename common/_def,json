@@ -1,0 +1,5 @@
+{
+  "Id": "common",
+  "Name": "Common",
+  "Description": "The common commons (how's that for redundant?) is a collection of the most common shared types that are used throughout UniGraph. The types here form a foundational organizational structure for things in UniGraph:A Topic is the most fundamental user-visible thing. A Topic gives something the ability to have a name, links to images, articles and webpages.A Document is the type that describes a user-editable chunk of text. It includes authorship and a history of edits.An Image is the type that describes a user-uploaded image. The rest of the types here are utility types for use in the types described above."
+}

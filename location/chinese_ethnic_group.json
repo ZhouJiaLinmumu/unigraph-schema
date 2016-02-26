@@ -1,0 +1,12 @@
+{
+    "Id": "location.chinese_ethnic_group",
+    "Name": "Chinese ethnic group",
+    "Description": "Ethnic groups officially recognized by the government of China.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.ethnicity"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

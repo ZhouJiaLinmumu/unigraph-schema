@@ -1,0 +1,11 @@
+{
+    "Id": "business.sponsor",
+    "Name": "Sponsor",
+    "Description": "A sponsor is an entity that supports a sponsored recipient (event, activity, person, or organization) financially or through the provision of products or services.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

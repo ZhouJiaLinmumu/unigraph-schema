@@ -1,0 +1,11 @@
+{
+    "Id": "architecture.museum_type",
+    "Name": "Type of museum",
+    "Description": "This type is used for a categorization of a museum based on the primary focus of collections held and curated by the museum.  Due to the variety of collections held by various museums, Type of Museum can vary from the broad \"Culture\", \"Art\", \"Archaeology\" to more obscure and specific examples, e.g. \"Victorian Children's Toys\", \"Shetland Model Yachts\" etc..",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

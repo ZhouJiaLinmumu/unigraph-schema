@@ -1,0 +1,42 @@
+{
+    "Id": "business.company_product_line_relationship",
+    "Name": "Company-product-line relationship",
+    "Description": "This type associates a company with a particular product line, and can also be used to show when the product line was first associated (generally either by the product line's initial release or by an acquisition of the product line's previous company) and last associated (e.g. by the product line being taken off the market or the company going out of business or being aquired) with that company.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.company_product_line_relationship.company",
+            "Name": "Company",
+            "Description": "",
+            "ObjectType": "business.consumer_company",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "business.company_product_line_relationship.start_date",
+            "Name": "From date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.company_product_line_relationship.end_date",
+            "Name": "To date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.company_product_line_relationship.product_line",
+            "Name": "Product line",
+            "Description": "",
+            "ObjectType": "business.product_line",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

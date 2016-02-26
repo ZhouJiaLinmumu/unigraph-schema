@@ -1,0 +1,12 @@
+{
+    "Id": "medicine.medical_university",
+    "Name": "University",
+    "Description": "A medical university is often affiliated with a hospital or run one in conjunction with its area of studies.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "education.university",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

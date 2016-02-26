@@ -1,0 +1,11 @@
+{
+    "Id": "book.editor",
+    "Name": "Editor",
+    "Description": "Contains editors of books and written work.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

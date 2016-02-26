@@ -1,0 +1,36 @@
+{
+    "Id": "medicine.routed_drug",
+    "Name": "Routed drug",
+    "Description": "A routed drug is a drug as administered to the body via a particular route (such as orally or intravenously).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.routed_drug.marketed_formulations",
+            "Name": "Marketed formulations",
+            "Description": "Formulations of this routed drug that are available in the market.",
+            "ObjectType": "medicine.drug_formulation",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.routed_drug.route_of_administration",
+            "Name": "Route of administration",
+            "Description": "The route of administration, or path by which this drug is brought into contact with the body.",
+            "ObjectType": "medicine.drug_administration_route",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.routed_drug.routed_drug_of",
+            "Name": "Routed drug of",
+            "Description": "The drug that this is a routed version of.",
+            "ObjectType": "medicine.drug",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

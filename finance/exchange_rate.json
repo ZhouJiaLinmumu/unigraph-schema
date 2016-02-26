@@ -1,0 +1,42 @@
+{
+    "Id": "finance.exchange_rate",
+    "Name": "Exchange rate",
+    "Description": "This type is used to record historical rates of exchange between currencies.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "finance.exchange_rate.amount",
+            "Name": "Amount",
+            "Description": "The amount for which one unit of the source currency is equal to the target currency",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "finance.exchange_rate.date_of_rate",
+            "Name": "Date of rate",
+            "Description": "The date for which this was the exchange rate",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "finance.exchange_rate.source_of_exchange",
+            "Name": "Source of exchange",
+            "Description": "",
+            "ObjectType": "finance.currency",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "finance.exchange_rate.target_of_exchange",
+            "Name": "Target of exchange",
+            "Description": "",
+            "ObjectType": "finance.currency",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

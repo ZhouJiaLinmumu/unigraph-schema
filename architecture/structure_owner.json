@@ -1,0 +1,11 @@
+{
+    "Id": "architecture.structure_owner",
+    "Name": "Structure owner",
+    "Description": "An structure owner is a person or organization which has ownership of a structure in the built environment. This should primarily denote the legal owner as recognized by the nation in which the structure is located.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

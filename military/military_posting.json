@@ -1,0 +1,42 @@
+{
+    "Id": "military.military_posting",
+    "Name": "Military posting",
+    "Description": "This type connects military personnel with their posts.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "military.military_posting.start_date",
+            "Name": "From date",
+            "Description": "Began post",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.military_posting.person",
+            "Name": "Person",
+            "Description": "Who",
+            "ObjectType": "military.military_person",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "military.military_posting.post",
+            "Name": "Post",
+            "Description": "Where",
+            "ObjectType": "military.military_post",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "military.military_posting.end_date",
+            "Name": "To date",
+            "Description": "Ended post",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.wavenumber",
+    "Name": "Wavenumber",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.wavenumber.measurement_unit",
+            "Name": "Unit of Wavenumber",
+            "Description": "",
+            "ObjectType": "measured_dimension.wavenumber_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.wavenumber.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

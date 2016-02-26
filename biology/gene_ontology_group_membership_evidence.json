@@ -1,0 +1,34 @@
+{
+    "Id": "biology.gene_ontology_group_membership_evidence",
+    "Name": "Gene Ontology Group Membership Evidence",
+    "Description": "A mediator to link the status of evidence for the assertion of a gene ontological group membership with a scientific publication of evidence.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "biology.gene_ontology_group_membership_evidence.evidence_type",
+            "Name": "Evidence Type",
+            "Description": "",
+            "ObjectType": "biology.gene_ontology_group_membership_evidence_type",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "biology.gene_ontology_group_membership_evidence.pubmed_id",
+            "Name": "Pubmed ID",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "biology.gene_ontology_group_membership_evidence.pubmed_link",
+            "Name": "Pubmed Link",
+            "Description": "",
+            "ObjectType": "type.uri",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

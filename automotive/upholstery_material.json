@@ -1,0 +1,12 @@
+{
+    "Id": "automotive.upholstery_material",
+    "Name": "Upholstery Material",
+    "Description": "A type describing the materials of an automobile trim level.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "engineering.material"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

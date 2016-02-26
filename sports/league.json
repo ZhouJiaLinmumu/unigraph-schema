@@ -1,0 +1,30 @@
+{
+    "Id": "sports.league",
+    "Name": "Sports Association",
+    "Description": "This type represents a collection of teams. There are also general 'contains' and 'contained by' properties that can be used to represent a hierarchy such as 'league', 'conference', 'division'.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.employer",
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "sports.league.championship",
+            "Name": "Championship",
+            "Description": "",
+            "ObjectType": "sports.championship",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.league.sport",
+            "Name": "Sport",
+            "Description": "",
+            "ObjectType": "sports.sport",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

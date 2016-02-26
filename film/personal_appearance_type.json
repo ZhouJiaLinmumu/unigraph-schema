@@ -1,0 +1,11 @@
+{
+    "Id": "film.personal_appearance_type",
+    "Name": "Personal film appearance type",
+    "Description": "This type is a list of different ways a person can appear as him- or herself in a film. This includes as the narrator (e.g. of a documentary), in an interview, in archival footage, etc. New instances of this type should be added sparingly.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

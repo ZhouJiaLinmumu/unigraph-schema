@@ -1,0 +1,11 @@
+{
+    "Id": "opera.genre",
+    "Name": "Opera Genre",
+    "Description": "This type is for the various different genres of opera.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "location.us_metropolitan_division",
+    "Name": "US Metropolitan Division",
+    "Description": "A Metropolitan Division is a statistical area defined by the United States Office of Budget and Management as a county or group of counties within a Metropolitan Statistical Area that has a population core of at least 2.5 million.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

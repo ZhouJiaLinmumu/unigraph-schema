@@ -1,0 +1,12 @@
+{
+    "Id": "meteorology.cyclone_affected_area",
+    "Name": "Cyclone-affected area",
+    "Description": "Any area that has been affected by a cyclone.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

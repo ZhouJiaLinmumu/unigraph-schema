@@ -1,0 +1,11 @@
+{
+    "Id": "music.album_content_type",
+    "Name": "Album content type",
+    "Description": "",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

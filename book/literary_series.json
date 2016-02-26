@@ -1,0 +1,28 @@
+{
+    "Id": "book.literary_series",
+    "Name": "Literary Series",
+    "Description": "A literary series is any series of written works (books, plays, stories, poems, essays, etc.). Examples of things that could use this type include: novels or stories that share a setting or characters; a sonnet cycle; articles or essays published in a recurring column; a series of yearly anthologies.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "book.literary_series.author",
+            "Name": "Author(s)",
+            "Description": "Authors who have written books or stories in this series.",
+            "ObjectType": "book.author",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "book.literary_series.part_of_series",
+            "Name": "Part of Series",
+            "Description": "If this series is a sub-series of a larger series, the larger series are listed here.",
+            "ObjectType": "book.literary_series",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

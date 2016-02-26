@@ -1,0 +1,21 @@
+{
+    "Id": "people.family_member",
+    "Name": "Family member",
+    "Description": "This type is used to capture the members of notable families. It is connected to the Family type.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "people.family_member.family",
+            "Name": "Family",
+            "Description": "If this person is the member of a prominent or notable family.",
+            "ObjectType": "people.family",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

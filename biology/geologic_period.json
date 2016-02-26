@@ -1,0 +1,12 @@
+{
+    "Id": "biology.geologic_period",
+    "Name": "Geologic Time Period",
+    "Description": "The geologic time period during which a fossil formed.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "time.geologic_period",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

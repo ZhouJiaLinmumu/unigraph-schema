@@ -1,0 +1,13 @@
+{
+    "Id": "education.school_newspaper",
+    "Name": "School newspaper",
+    "Description": "The \"school newspaper\" type contains newspapers published by a school's students, and whose primary readership is the student body. Magazines published by the students should use the type School magazine; publications with a broader academic or professional readership, even those produced by students, are not included.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "periodicals.newspaper",
+        "periodicals.periodical",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

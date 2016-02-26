@@ -1,0 +1,11 @@
+{
+    "Id": "architecture.building_function",
+    "Name": "Building function",
+    "Description": "The general reason, purpose for the building at any time. Usually, it is why it was built.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

@@ -1,0 +1,124 @@
+{
+    "Id": "religion.religion",
+    "Name": "Religion",
+    "Description": "According to Wikipedia: \"A religion is a set of beliefs and practices generally held by a community, involving adherence to codified beliefs and rituals and study of ancestral or cultural traditions, writings, history, and mythology, as well as personal faith and mystic experience. The term 'religion' refers to both the personal practices related to communal faith and to group rituals and communication stemming from shared conviction.\"This is main type of the /religion domain - most of the other types are expected types of properties of this type. Detailed descriptions of the properties can be found here.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "religion.religion.beliefs",
+            "Name": "Beliefs",
+            "Description": "The ideas or creeds shared by adherents of a religion. Examples: monotheism, atheism, reincarnation.",
+            "ObjectType": "religion.belief",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.religion.branched_into",
+            "Name": "Branched Into",
+            "Description": "Used when a group takes some of elements of a particular religion and forms a new one. This property should used when the branch represents a significant idealogical split, and the adherents of the new religion no longer identify themselves as members of the older religions. (For denominations within a particular religion use the \"Is Part Of/Includes\" properties  below.) Example: Judaism branched into Christianity.",
+            "ObjectType": "religion.religion",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.religion.collective_term_for_adherents",
+            "Name": "Adherents",
+            "Description": "Examples: The Adherents of Hinduism are called Hindu; the Adherents of the Baptism Church are called Baptists.",
+            "ObjectType": "religion.adherents",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.religion.deities",
+            "Name": "Deity Or Deities",
+            "Description": "The sacred beings (such as gods or goddesses) revered by adherents of a religion. Examples: Shiva, Allah, The Three Pure Ones.",
+            "ObjectType": "religion.deity",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.religion.founding_figures",
+            "Name": "Founding Figures",
+            "Description": "",
+            "ObjectType": "religion.founding_figure",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.religion.holidays",
+            "Name": "Holidays",
+            "Description": "Calendar days of particular significance to adherents of a religion. Examples: Christmas, Yom Kippur, Eid ul-Fitr.",
+            "ObjectType": "religion.holiday",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.religion.includes",
+            "Name": "Includes",
+            "Description": "Used for denominations or schools within a particular religion, when the adherents still consider themselves members of the parent religion. (In cases where a deeper idealogical split occurred, use the \"Branched From/Branched Into\" properties above.) Example: Hinduism includes.",
+            "ObjectType": "religion.religion",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.religion.notable_figures",
+            "Name": "Notable Figures",
+            "Description": "Individuals who were notable for the role they played in the development or practice of a particular religion: Mother Teresa, the Dalai Lama.",
+            "ObjectType": "religion.leader",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.religion.number_of_adherents",
+            "Name": "Number Of Adherents",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.religion.organizations",
+            "Name": "Organizations",
+            "Description": "Administrative bodies, charities, houses of worship, congregations, etc. associated with a particular religion. See the Religious Organization type description for more detail. Examples: the Archdiocese of San Francisco, Bialystoker Synagogue, Foundation for the Preservation of the Mahayana Tradition.",
+            "ObjectType": "religion.organization",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.religion.practices",
+            "Name": "Practices",
+            "Description": "The rituals or actions regularly performed by adherents of a religion. Examples: prayer, meditation, ritual purification",
+            "ObjectType": "religion.practice",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.religion.sacred_sites",
+            "Name": "Sacred Sites",
+            "Description": "A place held to be holy by adherents of a religion. Examples: Jerusalem, Calvary, Itsukushima Shrine.",
+            "ObjectType": "religion.location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.religion.texts",
+            "Name": "Texts",
+            "Description": "The core texts or collections of texts associated with particular religion. Examples: the Bible, the Qur'an, the Analects of Confucius.",
+            "ObjectType": "religion.religious_text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.religion.worship_place_type",
+            "Name": "Types of places of worship",
+            "Description": "",
+            "ObjectType": "religion.worship_place_type",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

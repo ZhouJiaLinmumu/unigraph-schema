@@ -1,0 +1,58 @@
+{
+    "Id": "organization.leadership",
+    "Name": "Organization leadership",
+    "Description": "A date-mediated compound-value type that holds information about the relationship between leaders of organizations and the roles and titles they've held at those organizations. Leadership roles are typically executive level roles/titles such as CEO, president, vice-president, director, etc. Announced future leadership roles will have an announcement date (if known) and no values set for '/organization/leadership/from'. This type is not meant for board membership (use '/organization/organization_board_membership') or committee membership ('/organization/organization_committee_membership').",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "organization.leadership.start_date",
+            "Name": "From",
+            "Description": "Starting date for this person's leadership relationship with the organization for this role.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "organization.leadership.organization",
+            "Name": "Organization",
+            "Description": "The organization for which this person has held a leadership role.",
+            "ObjectType": "organization.organization",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "organization.leadership.person",
+            "Name": "Person",
+            "Description": "The person who has held a leadership role for this organization. Non-consecutive leadership roles should be entered separately. Similarly, leadership roles with different titles should also be entered separately.",
+            "ObjectType": "organization.board_member",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "organization.leadership.role",
+            "Name": "Role",
+            "Description": "The leadership role this person has held for this organization.",
+            "ObjectType": "organization.role",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "organization.leadership.title",
+            "Name": "Title",
+            "Description": "The title given for this leadership role for this organization. If the title associated for this person in a leadership relationship with this organization changes a new leadership relationship should be created.",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "organization.leadership.end_date",
+            "Name": "To",
+            "Description": "Ending date for this person's leadership relationship with the organization for this role.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

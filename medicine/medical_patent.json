@@ -1,0 +1,12 @@
+{
+    "Id": "medicine.medical_patent",
+    "Name": "Medical Patent",
+    "Description": "Medical and drug related patents",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "law.patent",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

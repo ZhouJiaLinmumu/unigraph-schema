@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.luminous_intensity",
+    "Name": "Luminous intensity",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.luminous_intensity.measurement_unit",
+            "Name": "Unit of Luminous intensity",
+            "Description": "",
+            "ObjectType": "measured_dimension.luminous_intensity_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.luminous_intensity.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

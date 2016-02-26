@@ -1,0 +1,12 @@
+{
+    "Id": "opera.librettist",
+    "Name": "Librettist",
+    "Description": "A librettist is any person who has written a libretto.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.person"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

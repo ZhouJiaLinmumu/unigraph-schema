@@ -1,0 +1,12 @@
+{
+    "Id": "location.industry",
+    "Name": "Industry",
+    "Description": "",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.industry",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

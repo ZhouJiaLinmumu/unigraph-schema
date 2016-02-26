@@ -1,0 +1,20 @@
+{
+    "Id": "medicine.drug_legal_status",
+    "Name": "Drug legal status",
+    "Description": "Drug legal status is the legal classification of a drug, as defined by government bodies that regulate therapeutic goods. A drug may have different legal classifications in different countries or territories.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.drug_legal_status.country",
+            "Name": "Country",
+            "Description": "The country origin of this drug legal status classification.",
+            "ObjectType": "medicine.drug_distribution_country",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

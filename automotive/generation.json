@@ -1,0 +1,84 @@
+{
+    "Id": "automotive.generation",
+    "Name": "Automobile generation",
+    "Description": "An automotive generation describes a group of years in which a car line maintained the same general platform, size, shape and features.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "automotive.generation.generation_number",
+            "Name": "Generation Number",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.generation.make",
+            "Name": "Make",
+            "Description": "",
+            "ObjectType": "automotive.make",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.generation.manufacturing_plant",
+            "Name": "Manufacturing Plant",
+            "Description": "",
+            "ObjectType": "automotive.manufacturing_plant",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.generation.market",
+            "Name": "Markets",
+            "Description": "",
+            "ObjectType": "automotive.generation_market",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.generation.platform",
+            "Name": "Platforms",
+            "Description": "",
+            "ObjectType": "automotive.platform",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.generation.successor",
+            "Name": "Successor",
+            "Description": "",
+            "ObjectType": "automotive.generation",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.generation.years",
+            "Name": "Model Years",
+            "Description": "",
+            "ObjectType": "automotive.model_year",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.generation.years_produced",
+            "Name": "Years Produced",
+            "Description": "",
+            "ObjectType": "measured_dimension.time_interval",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.generation.designer",
+            "Name": "Designer",
+            "Description": "",
+            "ObjectType": "automotive.designer",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

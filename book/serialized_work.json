@@ -1,0 +1,11 @@
+{
+    "Id": "book.serialized_work",
+    "Name": "Serialized Work",
+    "Description": "A \"serialized work\" is any work of literature which has been published in installments. Works from which stand-alone excerpts have been taken should use the \"excerpted work\" type.  Note that works which, by their very nature, are serial in form, such as comic books, should not use this type. See Entering Serialized and Excerpted Works of Literature for more information on how to use this type.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

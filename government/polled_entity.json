@@ -1,0 +1,11 @@
+{
+    "Id": "government.polled_entity",
+    "Name": "Polled entity",
+    "Description": "A polled entity is any entity that has been the subject of an election poll, specifically one that asks if respondents are in favor of, or would vote for, this entity. Categories of polled entities include candidates (and potential candidates), ballot initiatives, and political parties.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,26 @@
+{
+    "Id": "film.film_song_relationship",
+    "Name": "Film song relationship",
+    "Description": "A type to connect films to the music that appears in them.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "film.film_song_relationship.composition",
+            "Name": "Composition",
+            "Description": "A song or musical composition in this film.",
+            "ObjectType": "film.film_song",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "film.film_song_relationship.performers",
+            "Name": "Performers",
+            "Description": "The person or people who performed this song in this film (including cast members, pre-recorded music, playback singers, etc.).",
+            "ObjectType": "film.film_song_performer",
+            "Unique": false,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "Id": "aviation.aircraft_accident_relationship",
+    "Name": "Aviation incident/aircraft relationship",
+    "Description": "This is a compound-value type containing information about aircraft that have been involved in accidents, crashes, and other incidents.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "aviation.aircraft_accident_relationship.aircraft_model",
+            "Name": "Aircraft model",
+            "Description": "The model of (one of) the aircraft involved in this incident. Note that this should be a model, such as Boeing 747 or Sopwith Camel.",
+            "ObjectType": "aviation.aircraft_model",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "aviation.aircraft_accident_relationship.crew",
+            "Name": "Crew",
+            "Description": "The number of crew on this flight.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_accident_relationship.flight_destination",
+            "Name": "Flight destination",
+            "Description": "The airport (helipad, carrier, etc.) to which the aircraft was headed.",
+            "ObjectType": "aviation.airport",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_accident_relationship.flight_origin",
+            "Name": "Flight origin",
+            "Description": "The airport (helipad, carrier, etc.) from which the aircraft took off.",
+            "ObjectType": "aviation.airport",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_accident_relationship.operator",
+            "Name": "Operator",
+            "Description": "The owner of this aircraft. This will usually be a company (such as an airline) or a military service, but owners of private aircraft can also be entered.",
+            "ObjectType": "aviation.aircraft_owner",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_accident_relationship.passengers",
+            "Name": "Passengers",
+            "Description": "The number of passengers on this flight. (Different from the \"passengers\" property of Aviation Incident, which is the sum of the passengers of all aircraft involved.)",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_accident_relationship.survivors",
+            "Name": "Survivors",
+            "Description": "The total number of passengers and crew of this aircraft who survived this incident. (Different from \"total_survivors\" property of Aviation Incident, which is the sum of survivors of all aircraft involved.)",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_accident_relationship.tail_number",
+            "Name": "Tail number",
+            "Description": "The tail number (if any) of this aircraft.",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

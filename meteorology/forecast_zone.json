@@ -1,0 +1,21 @@
+{
+    "Id": "meteorology.forecast_zone",
+    "Name": "Forecast Zone",
+    "Description": "A forecast zone is an area for which a weather service makes meteorological forecasts.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "meteorology.forecast_zone.weather_service",
+            "Name": "Weather Service",
+            "Description": "The meteorological service that uses this forecast zone.",
+            "ObjectType": "meteorology.meteorological_service",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

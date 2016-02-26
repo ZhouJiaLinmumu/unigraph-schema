@@ -1,0 +1,20 @@
+{
+    "Id": "biology.plant_disease",
+    "Name": "Plant Disease",
+    "Description": "A plant disease is an abnormal condition of a plant that causes dysfunction.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "biology.plant_disease.plant_disease_triangle",
+            "Name": "Plant Disease Triangle",
+            "Description": "The cause (agent) and conditions necessary for this disease.",
+            "ObjectType": "biology.plant_disease_triangle",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "theater.designer",
+    "Name": "Theater Designer",
+    "Description": "A theater designer is someone who creates the design elements (such as lighting, sound, scenery, props, costumes, and make-up) of a theatrical production. This type should be used both for the main designers and people in less senior roles such as design assistants.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

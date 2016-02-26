@@ -1,0 +1,61 @@
+{
+    "Id": "music.concert",
+    "Name": "Concert",
+    "Description": "A concert is a live musical performance, in which the music is the primary feature. Live musical accompaniment for, e.g. dance or theatrical performance, should not be typed as a concert.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "event.event",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.concert.concert_recording",
+            "Name": "Concert Recording",
+            "Description": "",
+            "ObjectType": "music.live_album",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.concert.concert_video",
+            "Name": "Concert Video",
+            "Description": "",
+            "ObjectType": "music.concert_film",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.concert.cost",
+            "Name": "Cost",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.concert.end_date",
+            "Name": "End Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "music.concert.start_date",
+            "Name": "Start Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "music.concert.venue",
+            "Name": "Venue",
+            "Description": "Performance Venue",
+            "ObjectType": "music.concert_venue",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

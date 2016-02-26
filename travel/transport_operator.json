@@ -1,0 +1,11 @@
+{
+    "Id": "travel.transport_operator",
+    "Name": "Transport operator",
+    "Description": "A transport operator is a company or organization who owns or operates one or more vehicles used to transport passengers between locations.  Examples would be Eurostar and Air Jamaica.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

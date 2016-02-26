@@ -1,0 +1,11 @@
+{
+    "Id": "event.speech_topic",
+    "Name": "Speech topic",
+    "Description": "The subject or subjects of a speech or other public presentation.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

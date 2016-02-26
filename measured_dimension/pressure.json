@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.pressure",
+    "Name": "Pressure",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.pressure.measurement_unit",
+            "Name": "Unit of Pressure",
+            "Description": "",
+            "ObjectType": "measured_dimension.pressure_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.pressure.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

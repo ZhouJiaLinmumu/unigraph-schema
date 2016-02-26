@@ -1,0 +1,12 @@
+{
+    "Id": "biology.owned_animal",
+    "Name": "Owned animal",
+    "Description": "This type can be applied to any individual animal that has been owned by a person or organization. This can include pets, sporting animals, performing animals, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "biology.organism"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

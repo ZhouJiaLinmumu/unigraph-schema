@@ -1,0 +1,12 @@
+{
+    "Id": "music.musical_group",
+    "Name": "Musical Group",
+    "Description": "A musical group is a Musical Artist that consists of more than one person. Instances can include everything from pop duos to orchestras and artists that only record or publicly perform together once. When multiple Artists or Musical Groups collaborate, they should only be typed as a Musical Group if they have designated a new name for their Musical Group.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "music.artist"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

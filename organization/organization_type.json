@@ -1,0 +1,11 @@
+{
+    "Id": "organization.organization_type",
+    "Name": "Organization type",
+    "Description": "An \"organization type\" describes the sort of organization: fraternal organization, an NGO, a trade union, a writers' group, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

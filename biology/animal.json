@@ -1,0 +1,12 @@
+{
+    "Id": "biology.animal",
+    "Name": "Animal",
+    "Description": "This is a collection of common-sense animals, more understandable to children than biologists. It's OK to include both general kinds of animals, such as bird, but also common varieties of birds such as finch and robin.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "biology.organism_classification",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,42 @@
+{
+    "Id": "business.company_brand_relationship",
+    "Name": "Company-brand relationship",
+    "Description": "This type holds information about the relationship between companies and their brands.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.company_brand_relationship.company",
+            "Name": "Company",
+            "Description": "",
+            "ObjectType": "business.consumer_company",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "business.company_brand_relationship.start_date",
+            "Name": "From date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.company_brand_relationship.end_date",
+            "Name": "To date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.company_brand_relationship.brand",
+            "Name": "Brand",
+            "Description": "",
+            "ObjectType": "business.brand",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

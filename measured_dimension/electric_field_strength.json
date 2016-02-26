@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.electric_field_strength",
+    "Name": "Electric field strength",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.electric_field_strength.measurement_unit",
+            "Name": "Unit of Electric field strength",
+            "Description": "",
+            "ObjectType": "measured_dimension.electric_field_strength_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.electric_field_strength.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

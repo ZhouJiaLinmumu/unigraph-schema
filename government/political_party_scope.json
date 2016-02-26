@@ -1,0 +1,12 @@
+{
+    "Id": "government.political_party_scope",
+    "Name": "Political party",
+    "Description": "The geographical scope of a political party",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization_scope"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

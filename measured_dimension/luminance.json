@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.luminance",
+    "Name": "Luminance",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.luminance.measurement_unit",
+            "Name": "Unit of Luminance",
+            "Description": "",
+            "ObjectType": "measured_dimension.luminance_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.luminance.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

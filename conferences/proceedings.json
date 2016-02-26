@@ -1,0 +1,21 @@
+{
+    "Id": "conferences.proceedings",
+    "Name": "Conference proceedings",
+    "Description": "Conference proceedings are publications of papers in the context of a (typically academic) conference.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "book.written_work"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "conferences.proceedings.conference",
+            "Name": "Conference",
+            "Description": "The conference that this is a proceedings of. This should link to a specific year's conference, rather than to a series of conferences (",
+            "ObjectType": "conferences.conference",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

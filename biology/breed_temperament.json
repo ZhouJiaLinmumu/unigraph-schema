@@ -1,0 +1,11 @@
+{
+    "Id": "biology.breed_temperament",
+    "Name": "Breed temperament",
+    "Description": "An animal breed temperament is a type of behavior or personality that can describe a domesticated animal.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "periodicals.magazine_genre",
+    "Name": "Magazine genre",
+    "Description": "Magazine genre describes the type or variety of a magazine (such as a computer magazine or literary magazine or newsmagazine). Magazines that specialize in specific subcategories of a genre can use the \"subject\" property of the Magazine type for that information (for example, a magazine about Macintosh computers would have computer magazine as the genre, and Macintosh as the subject.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

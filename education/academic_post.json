@@ -1,0 +1,50 @@
+{
+    "Id": "education.academic_post",
+    "Name": "Academic post",
+    "Description": "This is a compound value type that contains information about any sort academic appointment, such as being a visiting scholar, having a fellowship, having a placement under a research grant, etc., that does not fall under the \"employment history\" property (which is on the \"person\" type). For example, a professor's job at a university would usually be entered under \"employment history\"; however, if that professor receives a grant to do research at another institute for a semester, that posting should be entered under \"appointments, fellowships, etc.\" See the types academic and academic institution for more information.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "education.academic_post.start_date",
+            "Name": "Start date",
+            "Description": "The date the appointment began.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "education.academic_post.institution",
+            "Name": "Institution",
+            "Description": "The school or other institution at which this posting occurred.",
+            "ObjectType": "education.academic_institution",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "education.academic_post.person",
+            "Name": "Person",
+            "Description": "",
+            "ObjectType": "education.academic",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "education.academic_post.position_or_title",
+            "Name": "Position or title",
+            "Description": "The name of the title or position held; if there was no formal title, a simple descriptive phrase, such as \"researcher\" or \"visiting scholar\" can be used.",
+            "ObjectType": "education.academic_post_title",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "education.academic_post.end_date",
+            "Name": "End date",
+            "Description": "The date the appointment ended.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

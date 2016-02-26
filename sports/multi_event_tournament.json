@@ -1,0 +1,77 @@
+{
+    "Id": "sports.multi_event_tournament",
+    "Name": "Multi-event tournament",
+    "Description": "This type is for specific (typically by year) sporting tournaments that consist of multiple different sporting events. Only particular instances of a recurring tournament should use this type (e.g. Alpine World Ski Championships 2005, rather than just \"Alpine World Ski Championships\"). Tournaments using this type can be multi-sport tournaments, such as the Commonwealth Games and Paralympics, or single-sport tournaments, such as the World Track Cycling Championships. Note that in this context, an \"event\" is a way in which a sport can be competed - this can include variations based on the participants' gender, weight (e.g. in wrestling), course distance (for races), equipment type (e.g. in rowing or sailing) or particular sub-disciplines of a sport. Sporting tournaments which consist of multiple competitions, but only one \"event\" should not use this type; examples include the FIFA World Cup (men's football), WNBA Finals (women's basketball), and PGA Masters Tournament (men's golf).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "event.event",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "sports.multi_event_tournament.athletic_performances",
+            "Name": "Athletic Performances",
+            "Description": "",
+            "ObjectType": "sports.competitor_competition_relationship",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "sports.multi_event_tournament.competitors",
+            "Name": "Competitors",
+            "Description": "",
+            "ObjectType": "sports.competitor_country_relationship",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "sports.multi_event_tournament.competitors_number",
+            "Name": "Number of Competitors",
+            "Description": "The total number of individuals that competed in this tournament.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.multi_event_tournament.events_number",
+            "Name": "Number of Events",
+            "Description": "The number of events contested in this tournament.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.multi_event_tournament.participating_nations",
+            "Name": "Number of Nations",
+            "Description": "For competitions in which athletes are representing their countries, the number of countries represented. For tournaments where athletes compete as individuals (or for non-international competitions), this can be blank.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.multi_event_tournament.participating_countries",
+            "Name": "Participating countries",
+            "Description": "For competitions in which athletes are representing their countries, the countries can be entered here. For tournaments where athletes compete as individuals (or for non-international competitions), the country should be blank.",
+            "ObjectType": "sports.sport_country",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "sports.multi_event_tournament.sports",
+            "Name": "Sports",
+            "Description": "The sport or sports that were contested in this tournament. Note that \"sport\" should be a general sport (such as \"Swimming\") rather than a specific way of competing in that sport (e.g. \"women's 100m freestyle\").",
+            "ObjectType": "sports.sport",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "sports.multi_event_tournament.venues",
+            "Name": "Venues",
+            "Description": "Venues where the tournament was held. This can include sports facilities as well as other, non-sporting, facilities used in this competition.",
+            "ObjectType": "sports.venue",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

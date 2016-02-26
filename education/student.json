@@ -1,0 +1,12 @@
+{
+    "Id": "education.student",
+    "Name": "Student",
+    "Description": "The student or graduate of an educational institution.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.person"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

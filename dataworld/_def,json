@@ -1,0 +1,5 @@
+{
+  "Id": "dataworld",
+  "Name": "Dataworld",
+  "Description": "The domain Dataworld holds all the definition for the main sources of information, bots and statistics used to import and update Unigraph"
+}

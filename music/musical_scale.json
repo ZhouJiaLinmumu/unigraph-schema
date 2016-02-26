@@ -1,0 +1,11 @@
+{
+    "Id": "music.musical_scale",
+    "Name": "Musical scale",
+    "Description": "A Musical scale is a set of musical notes that provides material for part or all of a musical work; it may also be called a key or a key signature in reference to a particular work.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

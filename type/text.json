@@ -1,0 +1,9 @@
+{
+    "Id": "type.text",
+    "Name": "Text",
+    "Description": "The concept type of language-specific text. note that text looks like a string in the json representation unless someone asks for the type and/or language. language choices will be handled very specially by the middle tier, based on external data like the HTTP Accept-Language header.",
+    "Mediator": false,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": null
+}

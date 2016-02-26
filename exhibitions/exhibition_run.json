@@ -1,0 +1,58 @@
+{
+    "Id": "exhibitions.exhibition_run",
+    "Name": "Exhibition run",
+    "Description": "An exhibition run is a compound-value type that holds information about when and where an exhibition was exhibited.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "exhibitions.exhibition_run.admission_fee",
+            "Name": "Admission fee?",
+            "Description": "",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "exhibitions.exhibition_run.closed_on",
+            "Name": "Closed on",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "exhibitions.exhibition_run.exhibition",
+            "Name": "Exhibition",
+            "Description": "",
+            "ObjectType": "exhibitions.exhibition",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "exhibitions.exhibition_run.opened_on",
+            "Name": "Opened on",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "exhibitions.exhibition_run.sponsor",
+            "Name": "Sponsor",
+            "Description": "",
+            "ObjectType": "exhibitions.sponsor",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "exhibitions.exhibition_run.venue",
+            "Name": "Venue",
+            "Description": "",
+            "ObjectType": "exhibitions.venue",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

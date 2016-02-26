@@ -1,0 +1,76 @@
+{
+    "Id": "music.album",
+    "Name": "Musical Album",
+    "Description": "A Musical Album refers to a collection of Musical Tracks (recordings of Songs) released in a common format such as Compact Disc or LP. An album is typically associated with a single Musical Artist unless it is a compilation, which is a collection of tracks by various artists. (These albums will not have a value for the Artist property at all.)This type is distinct from Musical Release which represents the various “pressings” or releases of an album. Musical Album is the more general type, and is probably the appropriate place for comments on the artistic work it represents.Please do not use this type for spoken word recordings, including stand-up comedy and audiobooks.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.album.acquire_page",
+            "Name": "Buy or download Web page",
+            "Description": "Web page where one can buy or download this album release",
+            "ObjectType": "type.uri",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.album.album_content_type",
+            "Name": "Album content type",
+            "Description": "Classification of the album by it's type of content: soundtrack, live album, studio album, etc.",
+            "ObjectType": "music.album_content_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.album.artist",
+            "Name": "Artist",
+            "Description": "The primary recording artist of this album; should be a single artist except in the case of split albums; should be empty for “Various Artists” albums",
+            "ObjectType": "music.artist",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.album.featured_artists",
+            "Name": "Featured artists",
+            "Description": "Artists who are credited as as being \"featured\" on this album. (Albums with a \"featuring\" credit are typically, but not exclusively, singles.)",
+            "ObjectType": "music.featured_artist",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.album.genre",
+            "Name": "Genre",
+            "Description": "The genre(s) of this album",
+            "ObjectType": "music.genre",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.album.primary_release",
+            "Name": "Primary release",
+            "Description": "The first release of this album, or in cases of simultaneous issues, the one regarded as most canonical. One of the primary uses of this property is to allow users to query for the songs or tracks on an album, without having to worry about, for example, the extra tracks often included on reissues or slightly variant track lists on releases in different countries.",
+            "ObjectType": "music.release",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "music.album.release_date",
+            "Name": "Initial release date",
+            "Description": "The initial release of this album",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "music.album.release_type",
+            "Name": "Release type",
+            "Description": "The kind of release which this album is: single, EP or album.",
+            "ObjectType": "music.album_release_type",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

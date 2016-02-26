@@ -1,0 +1,69 @@
+{
+    "Id": "business.shopping_center",
+    "Name": "Shopping center",
+    "Description": "A shopping center is a building or group of buildings containing many stores, restaurants, and businesses.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.shopping_center.address",
+            "Name": "Address",
+            "Description": "",
+            "ObjectType": "location.mailing_address",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.shopping_center.mall_id",
+            "Name": "Mall ID",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.shopping_center.number_of_anchors",
+            "Name": "Number of anchors",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.shopping_center.stores",
+            "Name": "Number of stores",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.shopping_center.owner",
+            "Name": "Owner",
+            "Description": "",
+            "ObjectType": "business.shopping_center_owner",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.shopping_center.retail_space",
+            "Name": "Retail floor space",
+            "Description": "",
+            "ObjectType": "measured_dimension.area",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.shopping_center.store",
+            "Name": "Stores",
+            "Description": "",
+            "ObjectType": "business.business_location",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

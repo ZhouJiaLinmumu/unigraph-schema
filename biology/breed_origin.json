@@ -1,0 +1,12 @@
+{
+    "Id": "biology.breed_origin",
+    "Name": "Breed origin",
+    "Description": "This type holds the general location from which a breed of domesticated animals originated. It can be as broad or narrow as is accurate.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

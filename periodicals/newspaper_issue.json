@@ -1,0 +1,36 @@
+{
+    "Id": "periodicals.newspaper_issue",
+    "Name": "Newspaper Issue",
+    "Description": "A newspaper issue is a specific issue of a newspaper. Because most newspapers will have thousands upon thousands of individual issues, it will usually only be necessary to create a newspaper issue if you want to indicate its contents, or more likely, a small portion of its contents.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "periodicals.newspaper_issue.cover_price",
+            "Name": "Cover Price",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.newspaper_issue.newspaper",
+            "Name": "Newspaper",
+            "Description": "",
+            "ObjectType": "periodicals.newspaper",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.newspaper_issue.publication_date",
+            "Name": "Publication info",
+            "Description": "The date, volume, and number of this issue.",
+            "ObjectType": "periodicals.periodical_publication_date",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

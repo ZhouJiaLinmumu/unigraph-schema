@@ -1,0 +1,12 @@
+{
+    "Id": "medicine.drug_color",
+    "Name": "Drug Color",
+    "Description": "The color of a drug form",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "visual_art.color",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

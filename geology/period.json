@@ -1,0 +1,12 @@
+{
+    "Id": "geology.period",
+    "Name": "Geological time period",
+    "Description": "Geological period a rock formed",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "time.geologic_period",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

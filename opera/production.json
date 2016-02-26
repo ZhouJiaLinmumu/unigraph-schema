@@ -1,0 +1,76 @@
+{
+    "Id": "opera.production",
+    "Name": "Opera Production",
+    "Description": "A Production is a staging of an opera. Typically, the production will have the same name as the opera itself.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "opera.production.conductor",
+            "Name": "Conductor",
+            "Description": "",
+            "ObjectType": "opera.conductor",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "opera.production.date_closed",
+            "Name": "Date Closed",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "opera.production.date_opened",
+            "Name": "Date Opened",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "opera.production.opera",
+            "Name": "Opera",
+            "Description": "",
+            "ObjectType": "opera.opera",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "opera.production.producer",
+            "Name": "Producer",
+            "Description": "",
+            "ObjectType": "opera.producer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "opera.production.producing_company",
+            "Name": "Producing Company",
+            "Description": "",
+            "ObjectType": "opera.opera_company",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "opera.production.recordings",
+            "Name": "Recordings",
+            "Description": "",
+            "ObjectType": "opera.opera_recording",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "opera.production.stage_director",
+            "Name": "Stage Director",
+            "Description": "",
+            "ObjectType": "opera.production_director",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

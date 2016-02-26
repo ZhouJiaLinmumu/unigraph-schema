@@ -1,0 +1,11 @@
+{
+    "Id": "periodicals.newspaper_edition_type",
+    "Name": "Newspaper edition type",
+    "Description": "Newspapers are published in a variety of different editions, such as daily and Sunday. The instances of this type comprise a list of possible kinds of newspaper editions.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

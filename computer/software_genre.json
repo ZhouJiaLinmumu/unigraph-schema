@@ -1,0 +1,20 @@
+{
+    "Id": "computer.software_genre",
+    "Name": "Software Genre",
+    "Description": "The general top-level description of the function of a piece of software.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "computer.software_genre.parent_genre",
+            "Name": "Parent genre",
+            "Description": "Software genres that include or contain this genre as a subgenre.",
+            "ObjectType": "computer.software_genre",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "common.image_tag",
+    "Name": "Image tag",
+    "Description": "Tags (i.e. terms) used to describe an image.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,18 @@
+{
+    "Id": "people.sibling_relationship",
+    "Name": "Sibling Relationship",
+    "Description": "Sibling relationship is used to create a link between two people who are brother/sister to each other.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "people.sibling_relationship.sibling",
+            "Name": "Sibling",
+            "Description": "",
+            "ObjectType": "people.sibling",
+            "Unique": false,
+            "Required": true
+        }
+    ]
+}

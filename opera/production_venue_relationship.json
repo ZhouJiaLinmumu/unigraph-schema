@@ -1,0 +1,42 @@
+{
+    "Id": "opera.production_venue_relationship",
+    "Name": "Opera production venue relationship",
+    "Description": "A mediator recording a venue where a particular opera production took place, and the start date and end date of its occupancy.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "opera.production_venue_relationship.end_date",
+            "Name": "End date",
+            "Description": "The end date of the production's occupancy of this venue. This may not be the same as /opera/opera_production/date_closed if the production occupied more than one venue during its run.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "opera.production_venue_relationship.opera_house",
+            "Name": "Opera house",
+            "Description": "The location at which the opera production was performed between the given start and end dates.",
+            "ObjectType": "opera.opera_house",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "opera.production_venue_relationship.production",
+            "Name": "Opera production",
+            "Description": "The opera production which took place at this venue between the given start and end dates.",
+            "ObjectType": "opera.production",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "opera.production_venue_relationship.start_date",
+            "Name": "Start date",
+            "Description": "The start date of the production's occupancy of this venue. This may not be the same as /opera/opera_production/date_opened if the production occupied more than one venue during its run.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

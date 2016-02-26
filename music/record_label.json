@@ -1,0 +1,13 @@
+{
+    "Id": "music.record_label",
+    "Name": "Record label",
+    "Description": "ARecord label is a brand of an organization, usually a company, that finances the release of musical albums. Traditionally, a record label will sign a Musical Artist to a contract to release one or more Musical Albums and will also provide marketing support to pay for promoting the album. A company may have multiple record labels.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.business_operation",
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

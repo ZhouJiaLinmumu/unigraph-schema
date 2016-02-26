@@ -1,0 +1,12 @@
+{
+    "Id": "event.presented_work_text",
+    "Name": "Presented work text",
+    "Description": "This is about the text, not the event. It is for famous speeches etc, that have their own topics.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "book.written_work"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

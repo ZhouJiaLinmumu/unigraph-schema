@@ -1,0 +1,12 @@
+{
+    "Id": "architecture.museum_director",
+    "Name": "Museum director",
+    "Description": "A museum is usually run by a director, who manages a curatorial staff that cares for the objects and arranges their display. The director usually reports to a higher body, such as a governmental department or a board of trustees.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,42 @@
+{
+    "Id": "periodicals.periodical_publisher_period",
+    "Name": "Periodical Publisher Period",
+    "Description": "This is a compound-value type that contains information about a periodical's publishing company, and the dates that that company published the periodical.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "periodicals.periodical_publisher_period.start_date",
+            "Name": "From",
+            "Description": "For periodicals which have had more than one publisher, the date the publisher began its publication",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.periodical_publisher_period.periodical",
+            "Name": "Periodical",
+            "Description": "The periodical being published",
+            "ObjectType": "periodicals.periodical",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "periodicals.periodical_publisher_period.publisher",
+            "Name": "Publisher",
+            "Description": "The company that publishes the periodical",
+            "ObjectType": "periodicals.publisher",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "periodicals.periodical_publisher_period.end_date",
+            "Name": "To",
+            "Description": "For periodicals which have had more than one publisher, the date the publisher ended its publication; if still published by this publisher, leave blank",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

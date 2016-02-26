@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.capacitance",
+    "Name": "Capacitance",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.capacitance.measurement_unit",
+            "Name": "Unit of Capacitance",
+            "Description": "",
+            "ObjectType": "measured_dimension.capacitance_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.capacitance.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

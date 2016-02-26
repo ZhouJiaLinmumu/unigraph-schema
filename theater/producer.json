@@ -1,0 +1,12 @@
+{
+    "Id": "theater.producer",
+    "Name": "Theater Producer",
+    "Description": "A theater producer is a person who is responsible for producing a particular production of a play.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

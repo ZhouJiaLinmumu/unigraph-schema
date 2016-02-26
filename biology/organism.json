@@ -1,0 +1,68 @@
+{
+    "Id": "biology.organism",
+    "Name": "Organism",
+    "Description": "This type is for individual, non-human, organisms, such as household pets, animal performers, racehorses, even named plants.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "biology.organism.date_of_birth",
+            "Name": "Date of Birth",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.organism.height",
+            "Name": "Height",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.organism.organism_type",
+            "Name": "Organism type",
+            "Description": "The species (or other Organism Classification) for this organism",
+            "ObjectType": "biology.organism_classification",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.organism.parents",
+            "Name": "Parents",
+            "Description": "",
+            "ObjectType": "biology.organism",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "biology.organism.place_of_birth",
+            "Name": "Place of Birth",
+            "Description": "",
+            "ObjectType": "biology.organism_place_of_birth",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.organism.sex",
+            "Name": "Sex",
+            "Description": "Male or Female",
+            "ObjectType": "biology.gender",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.organism.weight",
+            "Name": "Weight",
+            "Description": "",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

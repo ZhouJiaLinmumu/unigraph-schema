@@ -1,0 +1,44 @@
+{
+    "Id": "biology.gene",
+    "Name": "Gene",
+    "Description": "A gene is a unit of heredity in a living organism. It normally resides on a stretch of DNA that codes for a type of protein or for an RNA chain that has a function in the organism.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "biology.gene.alternate_symbol",
+            "Name": "Alternate Symbol",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "biology.gene.chromosome",
+            "Name": "Chromosome",
+            "Description": "",
+            "ObjectType": "biology.chromosome",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.gene.locus",
+            "Name": "Locus",
+            "Description": "",
+            "ObjectType": "biology.genomic_locus",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.gene.symbol",
+            "Name": "Symbol",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

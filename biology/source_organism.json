@@ -1,0 +1,12 @@
+{
+    "Id": "biology.source_organism",
+    "Name": "Source organism",
+    "Description": "A \"source organism\" is any classification or group of classifications of organisms of which parts are used by humans for food, medicine, industry, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "biology.organism_classification",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

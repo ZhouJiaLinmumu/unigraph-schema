@@ -1,0 +1,12 @@
+{
+    "Id": "location.government_form",
+    "Name": "Form of government",
+    "Description": "",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "government.government_form",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

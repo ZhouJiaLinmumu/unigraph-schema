@@ -1,0 +1,12 @@
+{
+    "Id": "military.conflict_location",
+    "Name": "Military Conflict Location",
+    "Description": "The Military Conflict Location type holds information about the theater of the battle operations",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

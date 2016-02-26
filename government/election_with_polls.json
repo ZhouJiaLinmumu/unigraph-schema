@@ -1,0 +1,11 @@
+{
+    "Id": "government.election_with_polls",
+    "Name": "Election with polls",
+    "Description": "An \"election with polls\" is either an Election Contest or a General Election that has polling data associated with it.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "film.casting_director",
+    "Name": "Film casting director",
+    "Description": "The lead person (or group of people) responsible for assembling the list of potential actors for a film's pre-production. Often the casting director will oversee/run the casting calls where a the film's lead pre-production team (usually involving the directors and lead producers) will audition the potential cast.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

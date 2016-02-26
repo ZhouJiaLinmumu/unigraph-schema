@@ -1,0 +1,36 @@
+{
+    "Id": "medicine.medical_treatment",
+    "Name": "Medical Treatment",
+    "Description": "For any medical intervention designed to treat and cure human diseases and medical conditions. This type includes both curative and palliative treatments.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.medical_treatment.contraindications",
+            "Name": "Contraindications",
+            "Description": "Condition or factors that increase the risks involved in using this medical treatment.",
+            "ObjectType": "medicine.contraindication",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_treatment.side_effects",
+            "Name": "Side effects",
+            "Description": "Side effects, or symptoms that are unintended by-products of a medical treatment.",
+            "ObjectType": "medicine.symptom",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_treatment.trials",
+            "Name": "Trials",
+            "Description": "Trials of this medical treatment.",
+            "ObjectType": "medicine.medical_trial",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

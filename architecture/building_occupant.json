@@ -1,0 +1,11 @@
+{
+    "Id": "architecture.building_occupant",
+    "Name": "Building Occupant",
+    "Description": "The entity that occupies a building.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

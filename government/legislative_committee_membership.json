@@ -1,0 +1,58 @@
+{
+    "Id": "government.legislative_committee_membership",
+    "Name": "Legislative committee membership",
+    "Description": "This is a compound-value type that records information about a person's membership on a committee that is part of a legislative body. It connects the person to the committee served on, along with the title, legislative session, and dates served. If a person has served on a committee in more than one capacity, that should be entered as separate instances. E.g., if a person was a member of a committee for three legislative sessions, and the chair for a fourth, two separate memberships should be created. There is, perhaps, an apparent redundancy between the legislative session and start and end date properties. That is, since legislative sessions should also have their own start and end dates, either the session or dates served could be inferred. The start and end date properties allow for a great deal of precision, and may be particularly useful in cases where a person did not serve on a committee for the full session or if you want to compare total length of service. The legislative session property permits easy access to the membership of committees within a given session or sessions.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "government.legislative_committee_membership.committee",
+            "Name": "Committee",
+            "Description": "The name of the committee.",
+            "ObjectType": "government.legislative_committee",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "government.legislative_committee_membership.end_date",
+            "Name": "End date",
+            "Description": "The date this person ended this role on this committee.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.legislative_committee_membership.member",
+            "Name": "Member",
+            "Description": "The name of the person who served on this committee.",
+            "ObjectType": "government.politician",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "government.legislative_committee_membership.session",
+            "Name": "Session",
+            "Description": "The legislative session(s) this person held this role on the committee.  Create multiple instances for different roles (e.g. \"chair\" and \"member\").",
+            "ObjectType": "government.legislative_session",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.legislative_committee_membership.start_date",
+            "Name": "Start date",
+            "Description": "The date this person began in this role on this committee. Along with the \"end date\" property, this can show if the person did not serve for a complete session, and can also provide a quick way to see the total length of time served if it was for more than one session.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.legislative_committee_membership.title",
+            "Name": "Title",
+            "Description": "The person's title on this committee, if any.",
+            "ObjectType": "government.legislative_committee_title",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

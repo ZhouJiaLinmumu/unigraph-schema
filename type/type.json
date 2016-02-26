@@ -1,0 +1,26 @@
+{
+    "Id": "type.type",
+    "Name": "Type",
+    "Description": "The type of which all other types are instances.",
+    "Mediator": false,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "type.type.domain",
+            "Name": "Domain",
+            "Description": "The domain containing this type",
+            "ObjectType": "type.domain",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "type.type.expected_types",
+            "Name": "Expected types",
+            "Description": "Used as internal hierarchy of types and data management types.",
+            "ObjectType": "type.type",
+            "Unique": false,
+            "Required": true
+        }
+    ]
+}

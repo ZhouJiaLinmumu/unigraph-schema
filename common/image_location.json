@@ -1,0 +1,12 @@
+{
+    "Id": "common.image_location",
+    "Name": "Image location",
+    "Description": "The location an image has been taken.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

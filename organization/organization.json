@@ -1,0 +1,124 @@
+{
+    "Id": "organization.organization",
+    "Name": "Organization",
+    "Description": "An organization is an organized body of members or people with a particular purpose; in the UniGraph context, a organization doesn't have a business association, like a company.  Companies have their own type in the business domain, located here. In addition, many types of organizations have their own, more specialized co-types that give them additional properties.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "organization.organization.advisors",
+            "Name": "Advisors",
+            "Description": "",
+            "ObjectType": "organization.organization_advisor",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization.date_founded",
+            "Name": "Date founded",
+            "Description": "The date this organization first came into being.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization.email",
+            "Name": "Email",
+            "Description": "Email addresses for this organization. These should be general-purpose email addresses, wherever possible, rather than email addresses assigned to a specific person, since the former are going to be more stable.",
+            "ObjectType": "organization.email_contact",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization.founders",
+            "Name": "Founders",
+            "Description": "The person or people who founded the organization.",
+            "ObjectType": "organization.organization_founder",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization.geographic_scope",
+            "Name": "Geographic scope",
+            "Description": "The area(s) in which this organization operates.",
+            "ObjectType": "organization.organization_scope",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization.headquarters",
+            "Name": "Headquarters",
+            "Description": "",
+            "ObjectType": "location.mailing_address",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization.involved_in_merger",
+            "Name": "Involved in merger",
+            "Description": "If this organization was involved in a merger with two or more other organizations, you can enter information about the merger here.",
+            "ObjectType": "organization.organization_merger",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization.legal_structure",
+            "Name": "Legal structure",
+            "Description": "",
+            "ObjectType": "organization.organization_legal_structure",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization.locations",
+            "Name": "Organization locations",
+            "Description": "Offices, stores, outlets, plants, campuses, etc. run by this company. These might not always have obvious names, but names like \"X Company Headquarters\" or \"Y Store, Fifth Ave., New York\" are perfectly acceptable.",
+            "ObjectType": "organization.organization_location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization.organization_type",
+            "Name": "Organization type",
+            "Description": "The kind of organization this is, such as Professional Association or NGO or Fraternal Organization.",
+            "ObjectType": "organization.organization_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization.phone_number",
+            "Name": "Phone number",
+            "Description": "Phone numbers for this organization. General-purpose phone numbers, rather than phone numbers for a specific person.",
+            "ObjectType": "common.phone_number",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization.place_founded",
+            "Name": "Place founded",
+            "Description": "The location this organization was in when it was first founded. Use a city if known, otherwise the smallest location known.",
+            "ObjectType": "organization.founding_place",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization.sectors",
+            "Name": "Sectors",
+            "Description": "The sector, or area of focus, of this organization. Examples: \"Human Rights\" or \"Medical Research\".",
+            "ObjectType": "organization.organization_sector",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization.slogan",
+            "Name": "Slogan",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "Id": "theater.play_author",
+    "Name": "Play author",
+    "Description": "The person(s) who wrote the play, or, for musicals - wrote the book.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "book.author",
+        "common.topic",
+        "people.person"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

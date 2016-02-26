@@ -1,0 +1,12 @@
+{
+    "Id": "people.religion",
+    "Name": "Religion",
+    "Description": "A person is a human being (man, woman or child) known to have actually existed. Living persons, celebrities and politicians are persons, as are deceased persons.  Note: A person topic is distinct from a user in UniGraph. Users have profiles that can only be edited by the users themselves. A person topic can be edited by anyone and is intended as a factual representation of details about a person.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "religion.religion"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

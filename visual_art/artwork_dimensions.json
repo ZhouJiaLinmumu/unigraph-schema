@@ -1,0 +1,36 @@
+{
+    "Id": "visual_art.artwork_dimensions",
+    "Name": "Artwork dimensions",
+    "Description": "Width, Height, Depth of an artwork",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "visual_art.artwork_dimensions.height",
+            "Name": "Height",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "visual_art.artwork_dimensions.width",
+            "Name": "Height",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "visual_art.artwork_dimensions.depth",
+            "Name": "Height",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

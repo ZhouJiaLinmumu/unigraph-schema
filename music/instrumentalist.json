@@ -1,0 +1,23 @@
+{
+    "Id": "music.instrumentalist",
+    "Name": "Singer",
+    "Description": "An instrumentalist is anyone who plays a music instrument",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "music.artist",
+        "music.group_member",
+        "people.person"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.instrumentalist.instruments_played",
+            "Name": "Instruments Played",
+            "Description": "Instruments regularly played by this artist.",
+            "ObjectType": "music.instrument",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

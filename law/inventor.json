@@ -1,0 +1,12 @@
+{
+    "Id": "law.inventor",
+    "Name": "Inventor",
+    "Description": "An inventor is any person or organization that has invented or patented something.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

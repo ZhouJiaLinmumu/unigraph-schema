@@ -1,0 +1,12 @@
+{
+    "Id": "religion.holiday",
+    "Name": "Holidays",
+    "Description": "Calendar days of particular significance to adherents of a religion. Examples: Christmas, Yom Kippur, Eid ul-Fitr.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "time.holiday"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

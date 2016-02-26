@@ -1,0 +1,12 @@
+{
+    "Id": "opera.opera_language",
+    "Name": "Opera Language",
+    "Description": "The language in which an opera or operetta was written in",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "language.human_language",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

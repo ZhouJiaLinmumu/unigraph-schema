@@ -1,0 +1,11 @@
+{
+    "Id": "music.video_character",
+    "Name": "Music video character",
+    "Description": "This type is for fictional characters portrayed in music videos.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

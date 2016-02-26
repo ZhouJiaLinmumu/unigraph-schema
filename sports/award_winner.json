@@ -1,0 +1,11 @@
+{
+    "Id": "sports.award_winner",
+    "Name": "Sports League Award Winner",
+    "Description": "Any entity which has won a sports award. For example, Michael Jordan is typed as this as he won multiple MVP honors and the like.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

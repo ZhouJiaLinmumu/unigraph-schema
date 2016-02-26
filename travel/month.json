@@ -1,0 +1,12 @@
+{
+    "Id": "travel.month",
+    "Name": "Month",
+    "Description": "The month of the year",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "time.month"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

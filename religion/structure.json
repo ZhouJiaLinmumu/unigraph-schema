@@ -1,0 +1,12 @@
+{
+    "Id": "religion.structure",
+    "Name": "Religious structure",
+    "Description": "A structure serving religious purpose",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "architecture.structure"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

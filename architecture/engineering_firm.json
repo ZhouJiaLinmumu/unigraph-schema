@@ -1,0 +1,14 @@
+{
+    "Id": "architecture.engineering_firm",
+    "Name": "Engineering firm",
+    "Description": "This type specifies a collection of topics of the type \"Engineer\". Topics of the type \"Structure\" can list either \"Engineering Firm\" or \"Engineer\" as properties to give attribution.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.employer",
+        "business.business_operation",
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

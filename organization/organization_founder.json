@@ -1,0 +1,11 @@
+{
+    "Id": "organization.organization_founder",
+    "Name": "Organization founder",
+    "Description": "This type is primarily for people who have founded organizations. However, many organizations can be seen as having been founded by groups of other organizations, companies, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

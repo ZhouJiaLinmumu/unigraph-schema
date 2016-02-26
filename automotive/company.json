@@ -1,0 +1,23 @@
+{
+    "Id": "automotive.company",
+    "Name": "Automobile Company",
+    "Description": "A company that manufactures motor-powered vehicles (eg., cars, motorcycles, buses, trucks and motorized bikes).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.employer",
+        "business.business_operation",
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "automotive.company.make",
+            "Name": "Make(s)",
+            "Description": "",
+            "ObjectType": "automotive.make",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "music.lyricist",
+    "Name": "Lyricist",
+    "Description": "A lyricist is a person or a group who writes words that are put to music. Lyricists include both those who wrote lyrics specifically for a piece of music (often in collaboration with a composer, or for a piece they themselves have composed, or for a piece of pre-existing music) and those who wrote poetry or prose that was not originally intended to be sung, but which was later set to music. This means that a song can have a composer and a lyricist who were not contemporaries of each other.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

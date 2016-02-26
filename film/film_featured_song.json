@@ -1,0 +1,20 @@
+{
+    "Id": "film.film_featured_song",
+    "Name": "Film featured song",
+    "Description": "A featured song of the film, mostly meant for Hollywood films of the early talkies of the 1930's up to the late 1980's used to have at least one or two musical numbers, often as distinct set pieces in the musical films, and would be noted in the credits. The songs were often composed and/or arranged specifically for the film. This practice has died out mostly since the introduction of complete multi-artist-pop-song soundtracks introduced in the 1980's (Top Gun Flashdance for example)",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "film.film_featured_song.performed_by",
+            "Name": "Performed by",
+            "Description": "Who performed this for the version appearing in the film",
+            "ObjectType": "film.film_song_performer",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

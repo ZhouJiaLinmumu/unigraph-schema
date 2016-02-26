@@ -1,0 +1,76 @@
+{
+    "Id": "engineering.battery",
+    "Name": "Battery",
+    "Description": "An electrical battery is used to store electrical charge for later use.  This type should be used for specific batteries using a specific cell technology. e.g. the iPod Nano battery or a Duracell AA battery.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "engineering.battery.capacity",
+            "Name": "Capacity",
+            "Description": "The maximum charge of this battery.",
+            "ObjectType": "measured_dimension.charge",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.battery.cell_type",
+            "Name": "Cell type",
+            "Description": "The cell type of this battery",
+            "ObjectType": "engineering.battery_cell_type",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.battery.chemistry",
+            "Name": "Chemistry",
+            "Description": "The chemicals used in this battery",
+            "ObjectType": "engineering.material_composition",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "engineering.battery.energy",
+            "Name": "Energy",
+            "Description": "The maximum energy stored in this battery",
+            "ObjectType": "measured_dimension.energy",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.battery.mass",
+            "Name": "Mass",
+            "Description": "The mass (weight) of the battery",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.battery.number_of_cells",
+            "Name": "Number of cells",
+            "Description": "The number of cells used in this battery",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.battery.size",
+            "Name": "Size",
+            "Description": "The size of the battery if an internationally recognized size (if applicable)",
+            "ObjectType": "engineering.battery_size",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.battery.voltage",
+            "Name": "Voltage",
+            "Description": "The electrical potential difference of this battery (in Volts)",
+            "ObjectType": "measured_dimension.potential",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

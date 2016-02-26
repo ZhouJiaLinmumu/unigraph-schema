@@ -1,0 +1,34 @@
+{
+    "Id": "location.population_growth_rate",
+    "Name": "Population growth rate",
+    "Description": "This type holds data about the population growth rate of different locations, expressed as a percentage change between two dates.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "location.population_growth_rate.date_one",
+            "Name": "Date one",
+            "Description": "The first date for which population was measured for this comparison.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "location.population_growth_rate.date_two",
+            "Name": "Date two",
+            "Description": "The final date for which population was measured for this comparison.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "location.population_growth_rate.percent_growth",
+            "Name": "Percent growth",
+            "Description": "The percent growth (negative numbers mean a population decrease) of this location over this period.",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

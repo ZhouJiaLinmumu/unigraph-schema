@@ -1,0 +1,28 @@
+{
+    "Id": "biology.cytogenetic_band",
+    "Name": "Cytogenetic Band",
+    "Description": "Any of the sub-regions of a chromosome that are visible under a microscope after staining.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "biology.cytogenetic_band.identifier",
+            "Name": "Identifier",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.cytogenetic_band.locus",
+            "Name": "Locus",
+            "Description": "",
+            "ObjectType": "biology.genomic_locus",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

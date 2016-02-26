@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.floating_point_ratio",
+    "Name": "Floating point ratio",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.floating_point_ratio.denominator",
+            "Name": "Floating point Denominator",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.floating_point_ratio.numerator",
+            "Name": "Floating point Numerator",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

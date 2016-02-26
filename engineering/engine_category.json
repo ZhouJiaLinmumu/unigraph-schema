@@ -1,0 +1,21 @@
+{
+    "Id": "engineering.engine_category",
+    "Name": "Engine category",
+    "Description": "There are many types of engines, including turboprops, Jet engines, Rocket engines, turbojets, turbofans, Ramjets and Scramjets.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "law.invention",
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": [
+        {
+            "Id": "engineering.engine_category.sub_categories",
+            "Name": "Sub-categories",
+            "Description": "More specific categories which fall into this category",
+            "ObjectType": "engineering.engine_category",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "government.location",
+    "Name": "Location",
+    "Description": "The physical  location a government or a government agency redises",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

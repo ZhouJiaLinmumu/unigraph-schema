@@ -1,0 +1,11 @@
+{
+    "Id": "law.legal_subject",
+    "Name": "Legal subject",
+    "Description": "A legal subject is any subject that can be addressed by a legal case, law, bill, or other legal document or process.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

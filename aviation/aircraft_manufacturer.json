@@ -1,0 +1,22 @@
+{
+    "Id": "aviation.aircraft_manufacturer",
+    "Name": "Aircraft manufacturer",
+    "Description": "An Aircraft manufacturer is a company that builds aircraft.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.business_operation",
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "aviation.aircraft_manufacturer.aircraft_models_made",
+            "Name": "Aircraft Models Manufactured",
+            "Description": "",
+            "ObjectType": "aviation.aircraft_model",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

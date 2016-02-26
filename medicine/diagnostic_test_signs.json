@@ -1,0 +1,34 @@
+{
+    "Id": "medicine.diagnostic_test_signs",
+    "Name": "Diagnostic Test Sign",
+    "Description": "Relates medical tests, diagnostic signs, and medical conditions together.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.diagnostic_test_signs.sign",
+            "Name": "Sign",
+            "Description": "Test result",
+            "ObjectType": "medicine.diagnostic_sign",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "medicine.diagnostic_test_signs.test",
+            "Name": "Test",
+            "Description": "",
+            "ObjectType": "medicine.diagnostic_test",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "medicine.diagnostic_test_signs.disease",
+            "Name": "Disease",
+            "Description": "Related disease",
+            "ObjectType": "medicine.disease",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

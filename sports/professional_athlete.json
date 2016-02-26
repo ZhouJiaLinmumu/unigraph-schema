@@ -1,0 +1,13 @@
+{
+    "Id": "sports.professional_athlete",
+    "Name": "Professional Athlete",
+    "Description": "An athlete is a person who participates in a sport for personal fitness or as part of an amateur or professional competition or contest.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "people.measured_person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,50 @@
+{
+    "Id": "location.imports_and_exports",
+    "Name": "Imports and exports",
+    "Description": "This is a compound-value type that holds information about the total value of imports and exports between regions.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "location.imports_and_exports.amount",
+            "Name": "Amount",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "location.imports_and_exports.exported_to",
+            "Name": "Exported to",
+            "Description": "",
+            "ObjectType": "location.statistical_region",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "location.imports_and_exports.imported_from",
+            "Name": "Imported from",
+            "Description": "",
+            "ObjectType": "location.statistical_region",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "location.imports_and_exports.currency",
+            "Name": "Currency",
+            "Description": "",
+            "ObjectType": "location.currency",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "location.imports_and_exports.date",
+            "Name": "Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "Id": "education.grade_level",
+    "Name": "Grade level",
+    "Description": "Grade levels are primarily used in pre-primary (e.g. preschool), primary, and secondary education. Grade levels tend to vary from country to country (and sometimes within countries). Grade levels should only be considered the same between educational systems if they have the same typical minimum and maximum ages.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "education.grade_level.locations_used",
+            "Name": "Locations used",
+            "Description": "Locations (usually countries, unless divisions of a country have very different systems) that use this grade level.",
+            "ObjectType": "education.educational_location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "education.grade_level.max_typical_age",
+            "Name": "Typical age (maximum)",
+            "Description": "The oldest age typically enrolled in this grade.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "education.grade_level.min_typical_age",
+            "Name": "Typical age (minimum)",
+            "Description": "The youngest age typically enrolled in this grade.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "Id": "aviation.airport",
+    "Name": "Airport",
+    "Description": "An airport is a facility where aircraft such as airplanes and helicopters can take off and land.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "aviation.airport.airport_type",
+            "Name": "Airport type",
+            "Description": "",
+            "ObjectType": "aviation.airport_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airport.amount_of_cargo",
+            "Name": "Amount of cargo per year",
+            "Description": "",
+            "ObjectType": "aviation.cargo_by_year",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airport.focus_city_for",
+            "Name": "Focus city for",
+            "Description": "",
+            "ObjectType": "aviation.airline",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airport.hub_for",
+            "Name": "Hub for",
+            "Description": "",
+            "ObjectType": "aviation.airline",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airport.aircraft_movements",
+            "Name": "Number of aircraft movements",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airport.passengers",
+            "Name": "Number of passengers",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airport.runways",
+            "Name": "Number of runways",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airport.serving",
+            "Name": "Serves",
+            "Description": "",
+            "ObjectType": "aviation.airport_serving",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airport.terminals",
+            "Name": "Terminals",
+            "Description": "The terminals in this airport.",
+            "ObjectType": "aviation.airport_terminal",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airport.operator",
+            "Name": "Operator",
+            "Description": "",
+            "ObjectType": "aviation.airport_operator",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

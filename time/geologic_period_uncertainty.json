@@ -1,0 +1,26 @@
+{
+    "Id": "time.geologic_period_uncertainty",
+    "Name": "Geologic time period uncertainty",
+    "Description": "This type was designed for recording the uncertainty of geologic dates (in units of millions of years), although it could be used for any other kind of uncertain dating that needs to be expressed in millions of years.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "time.geologic_period_uncertainty.time",
+            "Name": "Million years ago",
+            "Description": "How long ago this was",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "time.geologic_period_uncertainty.x",
+            "Name": "+/-",
+            "Description": "The uncertainty (plus or minus) of this value.",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

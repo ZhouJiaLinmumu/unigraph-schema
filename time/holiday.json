@@ -1,0 +1,44 @@
+{
+    "Id": "time.holiday",
+    "Name": "Holiday",
+    "Description": "A holiday is a day set aside for celebration or observance. It usually occurs at a regular time in the calendar, and may be religious or secular. When holidays are grouped together, they may form a holiday period.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "time.holiday.day_of_year",
+            "Name": "Day Of Year",
+            "Description": "",
+            "ObjectType": "time.day_of_year",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "time.holiday.holiday_period",
+            "Name": "Part Of Holiday Period",
+            "Description": "",
+            "ObjectType": "time.holiday_period",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "time.holiday.related_event",
+            "Name": "Related Event",
+            "Description": "",
+            "ObjectType": "time.event",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "time.holiday.type_of_holiday",
+            "Name": "Holiday Category",
+            "Description": "",
+            "ObjectType": "time.holiday_category",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

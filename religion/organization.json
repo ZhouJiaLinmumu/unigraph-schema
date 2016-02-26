@@ -1,0 +1,29 @@
+{
+    "Id": "religion.organization",
+    "Name": "Religious Organization",
+    "Description": "A religious organization can be an administrative body, a charity, a house of worship, a congregation, or any other type of organization affiliated with a particular religion. The properties of this type are: Associated With (expected type: Religion): the religion this organization is most closely affiliated withLeaders (expected type: Religious Organization Leadership): the expected type is a compound value type (CVT) consisting of a leader, a role, a start date, and end date. This property can therefore describe any kind of leadership role over any span of time. Example: John Paul II was the Pope of the Roman Catholic Church from October 16, 1978 until April 2, 2005.Address (expected type: Mailing Address): if the organization has a mailing address, it can be entered here.Building (expected type: Structure): if the organization has a particular building associated with it (for example, a church), it can be added here.Member Organizations/Is Member Of (expected type: Religious Organization): when different organizations are arranged in a hierarchy, you can use these properties to model the structure. Example: The Roman Catholic Archdiocese of San Francisco has St. Anne of the Sunset Church in San Francisco as a member organization. \"Is Member Of\" is the reverse property of \"Member Organizations\" - in our example, adding St. Anne of the Sunset to the \"Member Organizations\" property of the Archdiocese of San Francisco automatically results in the Archdiocese of San Francisco being added to the \"Is Member Of\" property of St. Anne of the Sunset, and vice versa.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "religion.organization.building",
+            "Name": "Building",
+            "Description": "",
+            "ObjectType": "religion.structure",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.organization.member_organizations",
+            "Name": "Member Organizations",
+            "Description": "",
+            "ObjectType": "religion.organization",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

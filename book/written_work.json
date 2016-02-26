@@ -1,0 +1,100 @@
+{
+    "Id": "book.written_work",
+    "Name": "Written Work",
+    "Description": "A written work is any type of intellectual work expressed through writing. It is a fairly generic or abstract type that contains information common to all or most types of written works, including (but not limited to) books, plays, poems, stories, scholarly articles, book reviews, and essays. Written Work should not be co-typed with Publication.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "book.written_work.copyright_date",
+            "Name": "Copyright date",
+            "Description": "The date or dates that this work was copyrighted",
+            "ObjectType": "type.datetime",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "book.written_work.date_of_first_publication",
+            "Name": "Date of first publication",
+            "Description": "The date that this work was first published, in any form.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "book.written_work.date_written",
+            "Name": "Date written",
+            "Description": "The date this work was completed, if known.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "book.written_work.next_in_series",
+            "Name": "Next in series",
+            "Description": "If this work is part of a series, the work that occurs next in that series. For works of fiction, this should usually follow the internal chronology.",
+            "ObjectType": "book.written_work",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "book.written_work.online_versions",
+            "Name": "Online versions",
+            "Description": "Links to online versions of this work.",
+            "ObjectType": "type.uri",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "book.written_work.original_language",
+            "Name": "Original language",
+            "Description": "The language(s) in which this work was first composed.",
+            "ObjectType": "book.written_work_language",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "book.written_work.part_of_series",
+            "Name": "Part of series",
+            "Description": "A literary series can be a variety of things: a series of novels or other works of fiction that tell a continuing story such as Frank Herbert's \"Dune\" series, Lawrence Durrell's \"Alexandria Quartet,\" or Aeschylus' \"Oresteia\"; a poem cycle; a set of related essays; and so on.",
+            "ObjectType": "book.literary_series",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "book.written_work.subjects",
+            "Name": "Subjects",
+            "Description": "A list of topics that this work is about.",
+            "ObjectType": "book.written_work_subject",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "book.written_work.translations",
+            "Name": "Translations",
+            "Description": "Translations of this work. The translation's name as it is given in the target language of the translation.",
+            "ObjectType": "book.translation",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "book.written_work.author",
+            "Name": "Author",
+            "Description": "",
+            "ObjectType": "book.author",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "book.written_work.editor",
+            "Name": "Editor",
+            "Description": "",
+            "ObjectType": "book.editor",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

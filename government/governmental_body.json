@@ -1,0 +1,60 @@
+{
+    "Id": "government.governmental_body",
+    "Name": "Governmental Body",
+    "Description": "This type is for legislative and executive bodies that make up a government. This type should not be used for legislative committees, government agencies, departments, etc. The properties of this type include: Component bodies: if a governmental body, such as a bicameral legislature, is composed of more than one legislative body, they go here.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "government.governmental_body.component_bodies",
+            "Name": "Component bodies",
+            "Description": "Use this for, e.g., a legislature that has more than one house, such as the House of Lords and House of Commons within the UK Parliament.",
+            "ObjectType": "government.governmental_body",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.governmental_body.numeric_identification",
+            "Name": "Number",
+            "Description": "If the governmental body has a number, like the 47th parliament, enter it here.",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.governmental_body.date_dissolved",
+            "Name": "Date dissolved",
+            "Description": "If this body no longer exists, the date it was dissolved.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.governmental_body.date_formed",
+            "Name": "Date formed",
+            "Description": "The date when this governmental body was formed.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.governmental_body.offices_positions",
+            "Name": "Offices/Positions Within the Body",
+            "Description": "The names of the different positions that can be held by members of this body, including the basic \"Member of X\" position. (Note that titles based on committee membership should not be included here; there is a separate type for committees.)",
+            "ObjectType": "government.government_office_or_title",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.governmental_body.jurisdiction",
+            "Name": "Jurisdiction",
+            "Description": "The location that this body has jurisdiction over.",
+            "ObjectType": "government.governmental_jurisdiction",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

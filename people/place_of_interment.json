@@ -1,0 +1,12 @@
+{
+    "Id": "people.place_of_interment",
+    "Name": "Place of interment",
+    "Description": "A Place of Interment is any location where someone's remains have been consigned. Most commonly this will be cemeteries, mausoleums, churches, and the like. It should not be used for the more general area that contains the place of interment, such as the city or country.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

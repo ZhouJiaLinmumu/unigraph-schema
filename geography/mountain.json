@@ -1,0 +1,78 @@
+{
+    "Id": "geography.mountain",
+    "Name": "Mountain",
+    "Description": "A mountain is a large and steep landform that rises high above its surrounding terrain. A mountain is generally steeper than a hill, but there is considerable overlap, and usage often depends on local custom.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "geography.geographical_feature",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "geography.mountain.age_of_rock",
+            "Name": "Age of rock",
+            "Description": "",
+            "ObjectType": "measured_dimension.time",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "geography.mountain.date_of_first_ascent",
+            "Name": "Date of first ascent",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "geography.mountain.elevation",
+            "Name": "Elevation",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "geography.mountain.first_ascenders",
+            "Name": "First ascenders",
+            "Description": "The person or people who first ascended this mountain (if known).",
+            "ObjectType": "geography.mountaineer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "geography.mountain.last_eruption",
+            "Name": "Last eruption",
+            "Description": "For volcanoes only.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "geography.mountain.listings",
+            "Name": "Listings",
+            "Description": "Listings are categories of mountains and hills used in peakbagging.",
+            "ObjectType": "geography.mountain_listing",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "geography.mountain.mountain_type",
+            "Name": "Mountain type",
+            "Description": "",
+            "ObjectType": "geography.mountain_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "geography.mountain.prominence",
+            "Name": "Prominence",
+            "Description": "The prominence is the difference in height of the summit and the lowest col, pass or saddle connecting it to a higher summit. If there is no higher summit on surrounding landmass (eg. the highest summit on an island or Mount Everest in Eurasia landmass) then the prominence is determined to be the difference in in height from the surface elevation of the surrounding body of water.",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

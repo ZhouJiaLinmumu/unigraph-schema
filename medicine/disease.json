@@ -1,0 +1,92 @@
+{
+    "Id": "medicine.disease",
+    "Name": "Disease or medical condition",
+    "Description": "This type also includes medical conditions such as injuries, disabilities, disorders, syndromes, etc. that affect the normal functioning of a person, whether physically or mentally.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.disease.includes_diseases",
+            "Name": "Includes Diseases",
+            "Description": "Diseases that are part of or a type of this disease. For example, cancer includes breast cancer.",
+            "ObjectType": "medicine.disease",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.disease.people_with_this_condition",
+            "Name": "People with this condition",
+            "Description": "Please enter only people who are notable or famous in some way here.",
+            "ObjectType": "medicine.person_with_medical_condition",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.disease.prevention_factors",
+            "Name": "Prevention factors",
+            "Description": "Ways of preventing a disease, including vaccines and precautions such as hand washing.",
+            "ObjectType": "medicine.prevention_factor",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.disease.risk_factors",
+            "Name": "Risk Factors",
+            "Description": "Predisposing factors, including genetic, environmental, and lifestyle risk factors.",
+            "ObjectType": "medicine.risk_factor",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.disease.stages",
+            "Name": "Stages",
+            "Description": "Stages of severity",
+            "ObjectType": "medicine.disease_stage",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.disease.survival_rates",
+            "Name": "Survival Rates",
+            "Description": "",
+            "ObjectType": "medicine.survival_rate",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.disease.symptoms",
+            "Name": "Symptoms",
+            "Description": "",
+            "ObjectType": "medicine.symptom",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.disease.treatments",
+            "Name": "Treatments",
+            "Description": "Medical treatments, such as drugs and procedures to target the illness.",
+            "ObjectType": "medicine.medical_treatment",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.disease.trials",
+            "Name": "Trials",
+            "Description": "Medical trials targeting the detection and/or treatment of this disease.",
+            "ObjectType": "medicine.medical_trial",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.disease.medical_specialty",
+            "Name": "Associated medical specialty",
+            "Description": "Medical specialty associated with this disease. Oncology is an associated medical specialty of cancer.",
+            "ObjectType": "medicine.medical_specialty",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

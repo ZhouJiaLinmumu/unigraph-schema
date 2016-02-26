@@ -1,0 +1,11 @@
+{
+    "Id": "music.composer",
+    "Name": "Composer",
+    "Description": "A composer is a person or group who has created the music for a musical composition. For more information, please see the UniGraph wiki page on Composer.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

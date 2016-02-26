@@ -1,0 +1,11 @@
+{
+    "Id": "transportation.transit_service_type",
+    "Name": "Transit Service Type",
+    "Description": "A Transit Service Type is a general description of the kind of service offered by a particular transit line: bus, light rail, ferry, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

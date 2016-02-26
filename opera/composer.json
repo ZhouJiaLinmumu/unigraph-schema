@@ -1,0 +1,13 @@
+{
+    "Id": "opera.composer",
+    "Name": "Opera Composer",
+    "Description": "An opera composer is a person who composed an opera or operetta",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "music.composer",
+        "common.topic",
+        "people.person"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

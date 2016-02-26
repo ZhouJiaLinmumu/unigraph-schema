@@ -1,0 +1,12 @@
+{
+    "Id": "film.director",
+    "Name": "Film director",
+    "Description": "A film director is the person or persons credited with directing the cast and crew in the making of a film and whose vision guides the creative side of the production.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

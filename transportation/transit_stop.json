@@ -1,0 +1,12 @@
+{
+    "Id": "transportation.transit_stop",
+    "Name": "Transit Stop",
+    "Description": "A Transit Stop is a station or street side location where a transit line stops so that a mass transit vehicle (e.g. bus or commuter rail) can pick up and drop off passengers. This type also includes Location and its properties for identifying where the stop is.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

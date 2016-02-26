@@ -1,0 +1,28 @@
+{
+    "Id": "organization.registration_status",
+    "Name": "Registration Status",
+    "Description": "This type represents the status of an organization as reported by its official registrar. Examples include: 'Active', 'Dormant', 'Active - Proposal to Strike off', etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": [
+        {
+            "Id": "organization.registration_status.code",
+            "Name": "Code",
+            "Description": "The code or verbatim status",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "organization.registration_status.authority",
+            "Name": "Registrar",
+            "Description": "The official registrar reporting this status",
+            "ObjectType": "organization.registration_authority",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

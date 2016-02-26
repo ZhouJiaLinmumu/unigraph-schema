@@ -1,0 +1,11 @@
+{
+    "Id": "education.educational_degree",
+    "Name": "Degree",
+    "Description": "A degree is any of a wide range of status levels conferred by educational institutions, such as universities, normally as the result of successfully completing a program of study.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

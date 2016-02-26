@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.permittivity",
+    "Name": "Permittivity",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.permittivity.measurement_unit",
+            "Name": "Unit of Permittivity",
+            "Description": "",
+            "ObjectType": "measured_dimension.permittivity_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.permittivity.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

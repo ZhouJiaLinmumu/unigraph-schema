@@ -1,0 +1,52 @@
+{
+    "Id": "measured_dimension.temperature_unit",
+    "Name": "Unit of Temperature",
+    "Description": "AUnit Of Temperature is a linear measure of heat; that is, arithmetically analogous to the SI base unit, Kelvins.The Zero Point in Kelvins is the temperature, in Kelvins, which is 0 in the given scale; the Kelvins Multiplier is the size of a degree in the given scale, in Kelvins.TheZero Point in Kelvins and Kelvins Multiplier properties should be used such that a measure in the given units, times the multiplier, plus the zero point, gives the temperature in Kelvins. For example, (32 F  0.55555 K/F) + 255.37222 K = 273.15 K, the proper freezing point of water.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": [
+        {
+            "Id": "measured_dimension.temperature_unit.abbreviations",
+            "Name": "Abbreviations",
+            "Description": "Abbreviated text representations for this unit",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "measured_dimension.temperature_unit.canonical_abbreviation",
+            "Name": "Canonical abbreviation",
+            "Description": "Globally recognised abbreviated text representation for this unit.",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "measured_dimension.temperature_unit.measurement_system",
+            "Name": "Measurement System",
+            "Description": "The measurement system this unit belongs to",
+            "ObjectType": "measured_dimension.measurement_system",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "measured_dimension.temperature_unit.dimension",
+            "Name": "Measured dimension",
+            "Description": "The dimension measured by this unit",
+            "ObjectType": "measured_dimension.dimension",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "measured_dimension.temperature_unit.si_base_conversion_formula",
+            "Name": "Convertion formula",
+            "Description": "Convertion formula to the System International base unit",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

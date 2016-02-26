@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.energy_density",
+    "Name": "Energy density",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.energy_density.measurement_unit",
+            "Name": "Unit of Energy density",
+            "Description": "",
+            "ObjectType": "measured_dimension.energy_density_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.energy_density.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

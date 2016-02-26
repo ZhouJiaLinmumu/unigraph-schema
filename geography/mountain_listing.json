@@ -1,0 +1,11 @@
+{
+    "Id": "geography.mountain_listing",
+    "Name": "Mountain Listing",
+    "Description": "Mountains and hills are often classified into various groupings based on such measurements as height or prominence, and usually within a specific geographical area. These lists are primarily used in the sport of peak-bagging, in which people attempt to climb as many mountains as possible of a given category.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

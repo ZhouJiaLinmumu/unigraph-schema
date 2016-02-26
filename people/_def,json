@@ -1,0 +1,5 @@
+{
+  "Id": "people",
+  "Name": "People",
+  "Description": "The people commons is a collection of common types that describe people in the system. The properties of person should be common across all people, i.e. birth date, birth place, relatives.   People will often carry other types as well, such as author, basketball player, or recording artist. Properties that are particular to those pursuits should be included in those types, not in the person type. Similarly, it is recommend that 'birth date' and properties of the person schema not be replicated in other Types. Instead, 'person' should be an 'included type' for these types, which means that when a topic is typed 'author' it will also be automatically typed 'person' and the properties of person will be added as well."
+}

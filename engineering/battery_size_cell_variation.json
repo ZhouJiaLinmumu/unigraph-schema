@@ -1,0 +1,42 @@
+{
+    "Id": "engineering.battery_size_cell_variation",
+    "Name": "Battery size cell variation",
+    "Description": "The electrical properties of a standard battery size vary and are dependent on the cell technology used.  This type allows these variations to be noted.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "engineering.battery_size_cell_variation.capacity",
+            "Name": "Capacity",
+            "Description": "The charge deliverable from this battery",
+            "ObjectType": "measured_dimension.charge",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "engineering.battery_size_cell_variation.cell_type",
+            "Name": "Cell type",
+            "Description": "The cell technology used in this battery size cell variation",
+            "ObjectType": "engineering.battery_cell_type",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.battery_size_cell_variation.energy",
+            "Name": "Energy",
+            "Description": "The maximum energy stored in this battery",
+            "ObjectType": "measured_dimension.energy",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.battery_size_cell_variation.voltage",
+            "Name": "Voltage",
+            "Description": "The maximum electric potential difference achievable across the battery under normal operating conditions",
+            "ObjectType": "measured_dimension.potential",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

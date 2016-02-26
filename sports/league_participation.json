@@ -1,0 +1,42 @@
+{
+    "Id": "sports.league_participation",
+    "Name": "Sports league participation",
+    "Description": "This is a compound-value type that connects sports teams to the league or leagues they've belonged to.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "sports.league_participation.start_date",
+            "Name": "From",
+            "Description": "The season this team began playing in this league (e.g. 2003–04 FA Premier League or 2006-07 NBA season).",
+            "ObjectType": "sports.league_season",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.league_participation.league",
+            "Name": "League",
+            "Description": "The sports league or association to which this team belongs or belonged.",
+            "ObjectType": "sports.league",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "sports.league_participation.team",
+            "Name": "Team",
+            "Description": "The sports team that is or was a part of this league.",
+            "ObjectType": "sports.team",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "sports.league_participation.end_date",
+            "Name": "To",
+            "Description": "The last season this team spent in the league during this period of participation  (e.g. 2003–04 FA Premier League or 2006-07 NBA season).",
+            "ObjectType": "sports.league_season",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

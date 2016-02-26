@@ -1,0 +1,28 @@
+{
+    "Id": "measured_dimension.measuring_instrument",
+    "Name": "Measuring Instrument",
+    "Description": "This type is for any type of device that can be said to measure something.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": [
+        {
+            "Id": "measured_dimension.measuring_instrument.dimension_measured",
+            "Name": "Dimension measured",
+            "Description": "The dimension (e.g. length, mass, pressure, flow rate, etc.) measured by this instrument.",
+            "ObjectType": "measured_dimension.dimension",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "measured_dimension.measuring_instrument.subclasses",
+            "Name": "Subclasses",
+            "Description": "Subclasses of this instrument. For example, an alcohol thermometer is a subclass of thermometer.",
+            "ObjectType": "measured_dimension.measuring_instrument",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

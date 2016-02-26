@@ -1,0 +1,11 @@
+{
+    "Id": "biology.breed_coloring",
+    "Name": "Breed coloring",
+    "Description": "A breed coloring is a solid color (such as chestnut or black) or pattern (such as tabby, brindle, or pinto) of the coat, scales, or hide of a breed of domesticated animal.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

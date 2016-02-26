@@ -1,0 +1,20 @@
+{
+    "Id": "medicine.icd_9_cm_classification",
+    "Name": "ICD-9-CM Classification",
+    "Description": "This type is for classifications of diseases used in the ICD-9-CM (International Classification of Diseases, Clinical Modification).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.icd_9_cm_classification.includes_classifications",
+            "Name": "Includes classifications",
+            "Description": "Child nodes of this node in the ICD-9-CM hierarchy",
+            "ObjectType": "medicine.icd_9_cm_classification",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "film.filming_location",
+    "Name": "Filming location",
+    "Description": "The Filming Location type holds places in the world in which a film was shot. Examples include The Empire State Building and the Golden Gate Bridge.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

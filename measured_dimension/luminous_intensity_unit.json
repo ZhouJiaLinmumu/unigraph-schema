@@ -1,0 +1,52 @@
+{
+    "Id": "measured_dimension.luminous_intensity_unit",
+    "Name": "Unit of Luminous Intensity",
+    "Description": "A unit of luminous intensity is a measure of the wavelength-weighted power emitted by a light source in a particular direction per unit solid angle, based on the luminosity function, a standardized model of the sensitivity of the human eye.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": [
+        {
+            "Id": "measured_dimension.luminous_intensity_unit.abbreviations",
+            "Name": "Abbreviations",
+            "Description": "Abbreviated text representations for this unit",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "measured_dimension.luminous_intensity_unit.canonical_abbreviation",
+            "Name": "Canonical abbreviation",
+            "Description": "Globally recognised abbreviated text representation for this unit.",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "measured_dimension.luminous_intensity_unit.measurement_system",
+            "Name": "Measurement System",
+            "Description": "The measurement system this unit belongs to",
+            "ObjectType": "measured_dimension.measurement_system",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "measured_dimension.luminous_intensity_unit.dimension",
+            "Name": "Measured dimension",
+            "Description": "The dimension measured by this unit",
+            "ObjectType": "measured_dimension.dimension",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "measured_dimension.luminous_intensity_unit.si_base_conversion_formula",
+            "Name": "Convertion formula",
+            "Description": "Convertion formula to the System International base unit",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

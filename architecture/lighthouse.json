@@ -1,0 +1,94 @@
+{
+    "Id": "architecture.lighthouse",
+    "Name": "Lighthouse",
+    "Description": "A lighthouse is a fixed structure typically on a coastline or waterway designed and built to emit light from a system of lamps and lenses and used as a navigation aid for mariners and pilots at sea.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "architecture.structure",
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "architecture.lighthouse.automated",
+            "Name": "Automated date",
+            "Description": "Date or Year that the lighthouse lantern was automated with a modern strobe light assembly.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "architecture.lighthouse.construction_material",
+            "Name": "Construction material",
+            "Description": "The construction material used for the structure of this lighthouse.",
+            "ObjectType": "architecture.lighthouse_construction_material",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "architecture.lighthouse.focal_height",
+            "Name": "Focal height of light",
+            "Description": "Height of the light above mean sea-level (it's Focal Height).",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "architecture.lighthouse.light_intensity",
+            "Name": "Light intensity",
+            "Description": "Light intensity. This is different from Range.",
+            "ObjectType": "measured_dimension.luminous_intensity",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "architecture.lighthouse.light_attributes",
+            "Name": "Light attributes",
+            "Description": "Links to compound value that holds the Light characteristic type, sequence duration, and any remarks",
+            "ObjectType": "architecture.lighthouse_light_attributes",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "architecture.lighthouse.light_color_range",
+            "Name": "Light color range",
+            "Description": "Links to compound value that holds Light color(s) and range(s).",
+            "ObjectType": "architecture.lighthouse_light_color_range",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "architecture.lighthouse.light_sequence",
+            "Name": "Light sequence",
+            "Description": "Links to compound value that holds the lighthouses' flash sequence in seconds, and the eclipse seconds (dark seconds).",
+            "ObjectType": "architecture.lighthouse_light_sequence",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "architecture.lighthouse.out_of_service_date",
+            "Name": "Out of service date",
+            "Description": "Date the Lighthouse became non-operational and was classified as out of service. This is a useful property for those lighthouses that are still standing historic structures but no longer emit a light beam.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "architecture.lighthouse.tower_shape",
+            "Name": "Tower shape",
+            "Description": "The general shape or form used in the lighthouses' tower design (Pyramidal, Conical, etc)",
+            "ObjectType": "architecture.tower_shape",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "architecture.lighthouse.year_first_lit",
+            "Name": "Year first lit",
+            "Description": "Year that the lighthouse's lantern was first lit (Considered for historical reference versus the year the lantern assembly was Automated)",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

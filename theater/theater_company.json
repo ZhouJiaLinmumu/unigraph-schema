@@ -1,0 +1,12 @@
+{
+    "Id": "theater.theater_company",
+    "Name": "Theater Company",
+    "Description": "A theater company is a group of people who are organized to produce plays. This can include for-profit companies, non-profit organizations, as well as less formally-constituted groups.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,29 @@
+{
+    "Id": "book.book",
+    "Name": "Book",
+    "Description": "A book is a written work or a collection of written works in book form. \"Book\" represents the abstract notion of a particular book, rather than a particular edition. It is on this level that articles or discussion about a book should generally occur (e.g., the article about Mary Shelley's \"Frankenstein\" is on the book topic, rather than on one or more of the hundreds of editions it has gone through).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "book.written_work"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "book.book.first_edition",
+            "Name": "First edition",
+            "Description": "The first edition of this book, in any state. While there is usually only one first edition, it is possible for books to have multiple first editions; for example, simultaneous release in two or more countries (such as the later \"Harry Potter\" books); simultaneous paperback and hardcover editions; or simultaneous limited and trade editions.",
+            "ObjectType": "book.book_edition",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "book.book.interior_illustrations_by",
+            "Name": "Interior illustrations by",
+            "Description": "",
+            "ObjectType": "book.illustrator",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

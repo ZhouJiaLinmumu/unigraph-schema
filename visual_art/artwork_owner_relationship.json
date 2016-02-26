@@ -1,0 +1,66 @@
+{
+    "Id": "visual_art.artwork_owner_relationship",
+    "Name": "Artwork/owner relationship",
+    "Description": "This is a compound-value type is used to create a relationship between an artwork and owner of that artwork. The owner can be a person, a group of people, an institution, or a combination thereof. The information this type can contain, in addition to the artwork and owner(s) includes: Method of acquisition (such as purchase, gift, or bequest)Price of purchaseDate acquiredLast date ownedNote that all information is for a single periond of ownership. If the same person, group, or institution re-aquires an artwork after not owning it for a period of time, that should be entered as a separate artwork/owner relationship.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "visual_art.artwork_owner_relationship.artwork",
+            "Name": "Artwork",
+            "Description": "",
+            "ObjectType": "visual_art.artwork",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "visual_art.artwork_owner_relationship.date_acquired",
+            "Name": "Date acquired",
+            "Description": "The date the artwork was acquired by this owner.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "visual_art.artwork_owner_relationship.last_date_owned",
+            "Name": "Last date owned",
+            "Description": "The date the artwork was sold, donated, etc. by this owner.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "visual_art.artwork_owner_relationship.method_of_acquisition",
+            "Name": "Method of acquisition",
+            "Description": "The manner in which the artwork was aquired (e.g. purchase, gift, bequest, etc.).",
+            "ObjectType": "visual_art.acquisition_method",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "visual_art.artwork_owner_relationship.owner",
+            "Name": "Owner",
+            "Description": "The person, people, institution, or institutions that own the artwork.",
+            "ObjectType": "visual_art.owner",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "visual_art.artwork_owner_relationship.price",
+            "Name": "Purchase price",
+            "Description": "If the artwork was purchased, the amount the owner(s) paid for it.",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "visual_art.artwork_owner_relationship.currency",
+            "Name": "Purchase currency",
+            "Description": "If the artwork was purchased, the currency in which the transaction occurred.",
+            "ObjectType": "visual_art.currency",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

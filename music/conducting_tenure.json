@@ -1,0 +1,42 @@
+{
+    "Id": "music.conducting_tenure",
+    "Name": "Conducting Tenure",
+    "Description": "This compound-value type holds information about the period of time a conductor was associated with an ensemble.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.conducting_tenure.conductor",
+            "Name": "Conductor",
+            "Description": "The person who conducted this group during this period.",
+            "ObjectType": "music.conductor",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "music.conducting_tenure.ensemble",
+            "Name": "Ensemble",
+            "Description": "The group conducted by this person during this period.",
+            "ObjectType": "music.ensemble",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "music.conducting_tenure.start_date",
+            "Name": "From",
+            "Description": "The start of the period during which this person conducted this group.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "music.conducting_tenure.end_date",
+            "Name": "To",
+            "Description": "The end of the period during which this person conducted this group.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

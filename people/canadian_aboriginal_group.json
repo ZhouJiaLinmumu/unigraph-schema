@@ -1,0 +1,21 @@
+{
+    "Id": "people.canadian_aboriginal_group",
+    "Name": "Canadian aboriginal group",
+    "Description": "Intended to work with the existing Canadian Indian Reserve type in the Location domain.Currently the properties on this type are:Canadian Indian reserve(s) -- what Canadian Indian Reserves, if any, these people live on. If a group is spread across the border into the US, you can co-type them as an American Indian group.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.ethnicity"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "people.canadian_aboriginal_group.canadian_indian_reserves",
+            "Name": "Canadian Indian Reserve(s)",
+            "Description": "",
+            "ObjectType": "people.geographic_distribution",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

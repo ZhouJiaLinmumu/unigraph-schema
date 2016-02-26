@@ -1,0 +1,36 @@
+{
+    "Id": "organization.organization_committee",
+    "Name": "Organization committee",
+    "Description": "This type can be used for committees of any organization.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "organization.organization_committee.date_dissolved",
+            "Name": "Date dissolved",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization_committee.date_formed",
+            "Name": "Date formed",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization_committee.committee_of",
+            "Name": "Committee of",
+            "Description": "The organization of which this is a committee.",
+            "ObjectType": "organization.organization",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

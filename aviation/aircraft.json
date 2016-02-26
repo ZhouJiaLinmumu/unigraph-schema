@@ -1,0 +1,37 @@
+{
+    "Id": "aviation.aircraft",
+    "Name": "Aircraft",
+    "Description": "An aircraft is a machine capable of atmospheric flight, including fixed-wing aircraft (such as airplanes and gliders), lighter-than-air aircraft (such as airships and balloons), and rotary-wing aircraft (such as helicopters and autogyros). The Aircraft type can include both instances of a particular model of aircraft and unique aircraft (i.e. those that are the only example of their model).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.asset",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "aviation.aircraft.date_manufactured",
+            "Name": "Date manufactured",
+            "Description": "The date on which manufacture of this aircraft was completed.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft.first_flight",
+            "Name": "First flight",
+            "Description": "The date of this aircraft's first flight",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft.model",
+            "Name": "Model",
+            "Description": "The model of the aircraft. If this aircraft is the only example of its model, a separate model topic should still be created for it, since certain information is only found on the Aircraft Model type.",
+            "ObjectType": "aviation.aircraft_model",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

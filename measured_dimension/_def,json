@@ -1,0 +1,5 @@
+{
+  "Id": "measured_dimension",
+  "Name": "Measured Dimension",
+  "Description": "Types in this commons are generally-applicable units. They include some compound value types such as Rectangle Size and Dated Money Value, and more traditional units and their dimensions (which can be used for unit-valued properties on other types).For a unit type to be usable for other properties, its dimension must be an instance of Common Dimension, and it must have a value for its Canonical Abbreviation property."
+}

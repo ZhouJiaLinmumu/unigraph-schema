@@ -1,0 +1,11 @@
+{
+    "Id": "business.product_theme",
+    "Name": "Product theme",
+    "Description": "Product themes can be general or specific. For products related to a media franchise (such as a TV show or movie), they can refer to the movie, the series, or even a character or object in the franchise. It can also be used for more general themes, such as 'Vampires' or 'Pirates'. Many types of products and product lines will not have themes.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "aviation.aircraft_line",
+    "Name": "Aircraft Line",
+    "Description": "An aircraft line is a collection of aircraft (models).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "military.military_rank",
+    "Name": "Military rank",
+    "Description": "A military rank is a position in the hierarchy of an armed force.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

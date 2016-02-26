@@ -1,0 +1,12 @@
+{
+    "Id": "visual_art.artwork_location",
+    "Name": "Artwork location",
+    "Description": "Location(s) related to an artwork",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

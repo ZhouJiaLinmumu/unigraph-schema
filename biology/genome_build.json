@@ -1,0 +1,36 @@
+{
+    "Id": "biology.genome_build",
+    "Name": "Genome Build",
+    "Description": "An assembled view of a genomic sequence.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "biology.genome_build.curator",
+            "Name": "Curator",
+            "Description": "",
+            "ObjectType": "biology.genome_curator",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.genome_build.release_date",
+            "Name": "Release Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.genome_build.version",
+            "Name": "Version",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

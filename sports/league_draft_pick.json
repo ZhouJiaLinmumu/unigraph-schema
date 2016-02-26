@@ -1,0 +1,74 @@
+{
+    "Id": "sports.league_draft_pick",
+    "Name": "Sports League Draft Pick",
+    "Description": "Sports League Draft Pick is a compound value type used to capture individual draft picks. Properties such as nationality and college exist on the person type and are not duplicated here.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "sports.league_draft_pick.draft",
+            "Name": "Draft",
+            "Description": "",
+            "ObjectType": "sports.league_draft",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.league_draft_pick.notes",
+            "Name": "Notes",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "sports.league_draft_pick.pick",
+            "Name": "Pick",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.league_draft_pick.pick_overall",
+            "Name": "Pick (overall)",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.league_draft_pick.player",
+            "Name": "Player",
+            "Description": "",
+            "ObjectType": "sports.drafted_athlete",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "sports.league_draft_pick.round",
+            "Name": "Round",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.league_draft_pick.school",
+            "Name": "School/Institution",
+            "Description": "",
+            "ObjectType": "sports.educational_institution",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.league_draft_pick.team",
+            "Name": "Team",
+            "Description": "",
+            "ObjectType": "sports.professional_team",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

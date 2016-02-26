@@ -1,0 +1,9 @@
+{
+    "Id": "type.int",
+    "Name": "Integer",
+    "Description": "The concept type of integers.",
+    "Mediator": false,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": null
+}

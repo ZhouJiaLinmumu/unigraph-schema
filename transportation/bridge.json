@@ -1,0 +1,70 @@
+{
+    "Id": "transportation.bridge",
+    "Name": "Bridge",
+    "Description": "A bridge is a structure across water, valleys, railway cuts,areas of low elevation, or other features which are difficult to cross.In UniGraph, we record the longest span of the bridge (distance between two supports touching the ground), the total length, the clearance below the bridge, the body of water spanned (if appropriate), and what type of bridge it is.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "architecture.structure",
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "transportation.bridge.bridge_type",
+            "Name": "Bridge Type",
+            "Description": "",
+            "ObjectType": "transportation.bridge_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "transportation.bridge.clearance_below",
+            "Name": "Clearance Below",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "transportation.bridge.location",
+            "Name": "Locale",
+            "Description": "",
+            "ObjectType": "transportation.bridge_location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "transportation.bridge.longest_span",
+            "Name": "Longest Span",
+            "Description": "The greatest distance, on any given bridge, between two supports touching the ground.",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "transportation.bridge.spans",
+            "Name": "Number of spans",
+            "Description": "The total number of spans this bridge has.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "transportation.bridge.length",
+            "Name": "Total Length",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "transportation.bridge.width",
+            "Name": "Width",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

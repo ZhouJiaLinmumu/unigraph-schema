@@ -1,0 +1,68 @@
+{
+    "Id": "common.document",
+    "Name": "Document",
+    "Description": "For documents of any kind",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "common.document.author",
+            "Name": "Author",
+            "Description": "",
+            "ObjectType": "common.document_author",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.document.language",
+            "Name": "Language",
+            "Description": "The language of this document.",
+            "ObjectType": "common.document_language",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "common.document.date_published",
+            "Name": "Published",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "common.document.source_uri",
+            "Name": "Source URI",
+            "Description": "",
+            "ObjectType": "type.uri",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "common.document.summary",
+            "Name": "Summary",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.document.size",
+            "Name": "Document Size",
+            "Description": "",
+            "ObjectType": "measured_dimension.data_size",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "common.document.file_format",
+            "Name": "Document File format",
+            "Description": "",
+            "ObjectType": "common.file_format",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

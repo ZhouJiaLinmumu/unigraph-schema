@@ -1,0 +1,11 @@
+{
+    "Id": "measured_dimension.si_base_unit",
+    "Name": "SI Base Unit",
+    "Description": "The Metric System or Système International (SI) base or derived unit for measuring this dimension or quantity, if one exists.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

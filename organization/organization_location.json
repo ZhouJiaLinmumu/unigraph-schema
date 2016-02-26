@@ -1,0 +1,12 @@
+{
+    "Id": "organization.organization_location",
+    "Name": "Organization locations",
+    "Description": "The organization's locations",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

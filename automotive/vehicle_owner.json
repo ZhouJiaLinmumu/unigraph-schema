@@ -1,0 +1,11 @@
+{
+    "Id": "automotive.vehicle_owner",
+    "Name": "Vehicle owner",
+    "Description": "Denotes the owner of a car",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

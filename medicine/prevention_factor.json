@@ -1,0 +1,11 @@
+{
+    "Id": "medicine.prevention_factor",
+    "Name": "Prevention factors",
+    "Description": "Methods by which a disease or condition may be prevented. For example, a healthy diet is a prevention factor of type 2 diabetes, and hand washing is a prevention factor of many infectious diseases such as the flu.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

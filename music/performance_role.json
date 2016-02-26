@@ -1,0 +1,11 @@
+{
+    "Id": "music.performance_role",
+    "Name": "Musical Performance Role",
+    "Description": "AMusical Performance Role is the role played (typically on a Musical instrument or a Musical voice part, for which they should be co-typed) on a piece of music or as a member of band. This is an included type of Musical instrument and Musical voice. The performance role is used by Musical Group Memberships to reflect the part played by each member of a band, and by Musical Contributions and Track Contributions to reflect the nature of the contribution.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

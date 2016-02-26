@@ -1,0 +1,45 @@
+{
+    "Id": "law.legal_case",
+    "Name": "Legal case",
+    "Description": "A legal case is a legal action brought before a court of law.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "event.event",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "law.legal_case.citations",
+            "Name": "Citations",
+            "Description": "Legal citations for this case. This is a machine-readable string. Enter one citation per row.",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "law.legal_case.court",
+            "Name": "Court",
+            "Description": "The court in which this case was heard.",
+            "ObjectType": "law.court",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "law.legal_case.judges",
+            "Name": "Judges",
+            "Description": "The judge or judges who sat on this case.",
+            "ObjectType": "law.judge",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "law.legal_case.subject",
+            "Name": "Subject",
+            "Description": "The broad subject matter of the court case, eg. abortion, discrimination, taxation",
+            "ObjectType": "law.legal_subject",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

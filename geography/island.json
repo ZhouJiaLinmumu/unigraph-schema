@@ -1,0 +1,46 @@
+{
+    "Id": "geography.island",
+    "Name": "Island",
+    "Description": "An island is any piece of land surrounded entirely by water. Archipelagoes and other named groups of islands should be typed as \"island group\", rather than as \"island\".The majority of topics currently typed as islands come from Wikipedia categories (e.g., \"Islands of Antarctica\"); because of this, there are probably still a small number of topics that have the \"island\" type, but which are not actually islands. These are mostly island groups, but a wide variety of types such as cities, buildings, and even political parties, have turned up. If you encounter one of these, please change the type accordingly.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "geography.geographical_feature",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "geography.island.body_of_water",
+            "Name": "Body Of Water",
+            "Description": "The body of water this island is in.",
+            "ObjectType": "geography.body_of_water",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "geography.island.island_group",
+            "Name": "Island Group",
+            "Description": "If this island is a member of an archipelago or other group, enter its name.",
+            "ObjectType": "geography.island_group",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "geography.island.max_length",
+            "Name": "Max. Length",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "geography.island.max_width",
+            "Name": "Max. Width",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

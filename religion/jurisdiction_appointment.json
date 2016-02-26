@@ -1,0 +1,42 @@
+{
+    "Id": "religion.jurisdiction_appointment",
+    "Name": "Religious Title Jurisdiction",
+    "Description": "Religious Leadership Jurisdiction Appointment is a time-mediated link between a Religious Title and the location to which the title holder has jurisdiction.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "religion.jurisdiction_appointment.start_date",
+            "Name": "From",
+            "Description": "The date the appointment began",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "religion.jurisdiction_appointment.title",
+            "Name": "Leadership title",
+            "Description": "The title given to the religious leader appointed to this jurisdiction",
+            "ObjectType": "religion.leader_title",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "religion.jurisdiction_appointment.end_date",
+            "Name": "To",
+            "Description": "The date the appointment ended",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "religion.jurisdiction_appointment.jurisdiction",
+            "Name": "Jurisdiction",
+            "Description": "The jurisdiction this leader is appointed to.",
+            "ObjectType": "religion.jurisdiction",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

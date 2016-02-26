@@ -1,0 +1,50 @@
+{
+    "Id": "common.phone_number",
+    "Name": "Phone Number",
+    "Description": "'Phone Number' is a common type, used by many other types in the system. The format is simplified in an effort to most easily support many international formats. It consists of only two properties, a country code and a number - which can also include other local information such as area codes. This is captured as a raw string to support as many formats as possible.  Note: this is a compound value type, which means it is typically not a named topic but instead is referenced by properties in other topics. For instance, a restaurant type might include a phone number.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "common.phone_number.category",
+            "Name": "Category",
+            "Description": "The type of phone (or fax) number this is. For example, a company might have different phone numbers for general information, customer service, and human resources.",
+            "ObjectType": "common.contact_category",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.phone_number.country_code",
+            "Name": "Country Code",
+            "Description": "Country code of the phone number. This is the number or numbers that must be added as a prefix for international callers. It should not include a \"+\".",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "common.phone_number.note",
+            "Name": "Note",
+            "Description": "Additional notes describing this phone number. To be used for idiosyncratic roles and categories and other disambiguation information that doesn't belong in the \"category\" property.",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "common.phone_number.number",
+            "Name": "Number",
+            "Description": "The number including area code or other prefix numbers (but not the country code, that should be entered into the country code property).",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "common.phone_number.service_location",
+            "Name": "Service location",
+            "Description": "The caller location served by this phone number. E.g., if the number is intended to be called by people in Europe, the service location would be \"Europe\", even if the organization being called is located in North America.",
+            "ObjectType": "common.contact_service_location",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "medicine.medical_gender",
+    "Name": "Medical gender",
+    "Description": "The gender of a person",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.gender"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

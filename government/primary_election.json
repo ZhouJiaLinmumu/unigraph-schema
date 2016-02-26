@@ -1,0 +1,29 @@
+{
+    "Id": "government.primary_election",
+    "Name": "Primary election",
+    "Description": "A primary election is one in which voters select a single candidate to run for office in a subsequent election. The primary election type has election as an included type, and has additional properties for political party and the subsequent election.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "government.election",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "government.primary_election.follow_on_election",
+            "Name": "Follow-on election",
+            "Description": "The name of the general election that this is a primary for, e.g. \"Argentine presidential election, 2007\".",
+            "ObjectType": "government.election",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.primary_election.party",
+            "Name": "Party",
+            "Description": "If this primary is limited to a single political party",
+            "ObjectType": "government.political_party",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

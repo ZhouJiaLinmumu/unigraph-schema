@@ -1,0 +1,58 @@
+{
+    "Id": "measured_dimension.adjusted_currency_amount",
+    "Name": "Adjusted money value",
+    "Description": "For reporting both measured and adjusted money values",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.adjusted_currency_amount.adjusted_value",
+            "Name": "Adjusted value",
+            "Description": "The value of this measurement after being adjusted for time and currency.",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "measured_dimension.adjusted_currency_amount.adjustment_currency",
+            "Name": "Adjustment currency",
+            "Description": "The currency into which the original measure value has been adjusted.",
+            "ObjectType": "measured_dimension.currency",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.adjusted_currency_amount.adjustment_date",
+            "Name": "Adjustment date",
+            "Description": "The date to which the original measured value has been adjusted.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.adjusted_currency_amount.measurement_currency",
+            "Name": "Measurement currency",
+            "Description": "The currency in which the value was originally measured.",
+            "ObjectType": "measured_dimension.currency",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "measured_dimension.adjusted_currency_amount.measurement_date",
+            "Name": "Measurement date",
+            "Description": "The date the measurement was taken",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "measured_dimension.adjusted_currency_amount.measurement_value",
+            "Name": "Measurement value",
+            "Description": "The value as it was originally measured",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

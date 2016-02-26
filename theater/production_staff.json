@@ -1,0 +1,12 @@
+{
+    "Id": "theater.production_staff",
+    "Name": "Theater Production Staffmember",
+    "Description": "This type is for any person who worked on a theatrical production in any capacity for which there is no other property. Examples might include casting directors, stage managers, assistant directors, running crew, and board operators.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

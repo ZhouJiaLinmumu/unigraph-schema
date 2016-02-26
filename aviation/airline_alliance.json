@@ -1,0 +1,84 @@
+{
+    "Id": "aviation.airline_alliance",
+    "Name": "Airline alliance",
+    "Description": "An airline alliance is an agreement between two or more airlines to cooperate for the foreseeable future on a substantial level. The degree of cooperation differs between alliances.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "aviation.airline_alliance.fleet_size",
+            "Name": "Fleet size",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airline_alliance.members",
+            "Name": "Member airlines",
+            "Description": "",
+            "ObjectType": "aviation.airline",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airline_alliance.airports_served",
+            "Name": "Number of airports served",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airline_alliance.passengers_served",
+            "Name": "Number of annual passengers",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airline_alliance.countries_served",
+            "Name": "Number of countries served",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airline_alliance.full_members",
+            "Name": "Number of full members",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airline_alliance.non_voting_members",
+            "Name": "Number of non-voting members",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airline_alliance.pending_members",
+            "Name": "Number of pending members",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.airline_alliance.launch_date",
+            "Name": "Official launch date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

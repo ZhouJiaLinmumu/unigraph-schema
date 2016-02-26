@@ -1,0 +1,300 @@
+{
+    "Id": "film.film",
+    "Name": "Film",
+    "Description": "Film is a release of a visual narrative composed of a series of moving images that is considered a complete presentation and is intended to be classified as a film. A film can be of any length of running time and presented in a theatrical, television, internet-streaming and direct-to-home-video presentation. For more information, please see the UniGraph wiki page on Film.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "film.film.cinematography",
+            "Name": "Cinematography",
+            "Description": "",
+            "ObjectType": "film.cinematographer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.costume_design_by",
+            "Name": "Costume design by",
+            "Description": "Responsible for the overall design of costumes of the film, individual designs/gowns for a star should be listed in Other crew",
+            "ObjectType": "film.costume_designer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.country",
+            "Name": "Country of origin",
+            "Description": "The country (or countries) of origin of this film.",
+            "ObjectType": "film.film_country",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.directed_by",
+            "Name": "Directed by",
+            "Description": "The person(s) who directed the making of the film.",
+            "ObjectType": "film.director",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.edited_by",
+            "Name": "Edited by",
+            "Description": "",
+            "ObjectType": "film.editor",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.estimated_budget",
+            "Name": "Estimated budget",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.executive_produced_by",
+            "Name": "Executive produced by",
+            "Description": "The executive producer(s) for the film",
+            "ObjectType": "film.producer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.film_locations",
+            "Name": "Notable filming locations",
+            "Description": "Enter places in which the film was filmed \"on location.\"",
+            "ObjectType": "film.filming_location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.featured_song",
+            "Name": "Featured Song",
+            "Description": "Song(s) that were written specifically for the film (or pre-existing song(s) used for great effect within the film). This is meant for the notable (or so noted in the credits for pre-1980's films) and not every single song that is placed within a production (think of Casablanca's \"As Time Goes By,\" Dirty Dancing's \"We're Having the Time of Our Lives,\" Goldfinger's \"Goldfinger,\" Mortal Kombat's \"Theme From Mortal Kombat,\" and Ghostbuster's \"Ghostbusters\").",
+            "ObjectType": "film.film_featured_song",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.art_direction_by",
+            "Name": "Art direction by",
+            "Description": "The art director(s) of this film production",
+            "ObjectType": "film.art_director",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.casting_director",
+            "Name": "Casting director",
+            "Description": "The lead person(s) involved in casting of this film production",
+            "ObjectType": "film.casting_director",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.collections",
+            "Name": "Film Collections",
+            "Description": "",
+            "ObjectType": "film.film_collection",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.festivals",
+            "Name": "Film festivals",
+            "Description": "Festivals in which this film has been screened. The specific festival (e.g. 2007 Cannes Film Festival) rather than the name of the festival itself.",
+            "ObjectType": "film.festival_event",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.format",
+            "Name": "Film format",
+            "Description": "",
+            "ObjectType": "film.format",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.production_design_by",
+            "Name": "Production design by",
+            "Description": "The lead production designer(s) responsible on the film production",
+            "ObjectType": "film.production_designer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.set_decoration_by",
+            "Name": "Set Decoration by",
+            "Description": "Set designer for film production (assistants and other associated set designer roles are to be listed in Other crew)",
+            "ObjectType": "film.film_set_designer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.filming",
+            "Name": "Filming",
+            "Description": "The start and end dates for the production (shooting film) phase of creating the the film.",
+            "ObjectType": "measured_dimension.time_interval",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.film.genre",
+            "Name": "Genres",
+            "Description": "",
+            "ObjectType": "film.genre",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.gross_revenue",
+            "Name": "Gross revenue",
+            "Description": "The current domestic gross revenue of the film (USA region)",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.film.initial_release_date",
+            "Name": "Initial release date",
+            "Description": "The earliest official initial film screening date in any country whether it's a premiere or a film festival (test screenings and private showings should not be used to determine this).",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.film.language",
+            "Name": "Languages",
+            "Description": "The language (or sometimes languages) spoken (or, for silent movies, written) in the original release of the film.",
+            "ObjectType": "film.film_language",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.music_contributor",
+            "Name": "Music by",
+            "Description": "The composer(s) of the music in this film.",
+            "ObjectType": "film.music_contributor",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.other_crew",
+            "Name": "Other crew",
+            "Description": "Used for all the other crew members of a film production that do not have an existing specifically named crew property (eg. gaffer, best boy, greens supervisor, make-up artist, etc.).",
+            "ObjectType": "film.film_crew_gig",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.produced_by",
+            "Name": "Produced by",
+            "Description": "Credited as a producer in the film (this property is not meant for executive, associate, or assistant producers. The former has it's own property, the latter two should be part of the other crew property of this film).",
+            "ObjectType": "film.producer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.production_company",
+            "Name": "Production companies",
+            "Description": "",
+            "ObjectType": "film.production_company",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.content_rating",
+            "Name": "Rated",
+            "Description": "",
+            "ObjectType": "film.content_rating",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.sequel",
+            "Name": "Sequel",
+            "Description": "The film that comes next within the series.",
+            "ObjectType": "film.film",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.songs",
+            "Name": "Songs",
+            "Description": "Songs or instrumental music played as part of the film, including music performed by members of the cast as part of their performances and incidental or background music.",
+            "ObjectType": "film.film_song_relationship",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.soundtrack",
+            "Name": "Soundtrack",
+            "Description": "",
+            "ObjectType": "film.soundtrack",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.story_by",
+            "Name": "Story by",
+            "Description": "",
+            "ObjectType": "film.story_contributor",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.subjects",
+            "Name": "Subjects",
+            "Description": "This property is for anything that a film can be said to be about or which features strongly in a film. This can be the subject of a documentary, the person (or people) whose life is the basis of a biopic, or simply a topic that is dealt with in a film.",
+            "ObjectType": "film.film_subject",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.tagline",
+            "Name": "Tagline",
+            "Description": "The text of the tag line or slogan used to promote the film.",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.trailers",
+            "Name": "Trailers",
+            "Description": "Links to trailers for this film (eg. film trailer \"bar\" on foo.com: http://www.foo.com/bar.htm)",
+            "ObjectType": "type.uri",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.written_by",
+            "Name": "Screenplay by",
+            "Description": "Film Writer type includes people who are accredited to have worked upon the screenplay for the film. Sometimes multiple people are listed even if their contributions were never included in the final shooting script for the film.",
+            "ObjectType": "film.writer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film.post_production",
+            "Name": "Post-production",
+            "Description": "The start and end dates for the post-production (effects, editing, scoring etc.).",
+            "ObjectType": "measured_dimension.time_interval",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.film.pre_production",
+            "Name": "Pre-production",
+            "Description": "The start and end dates of the film's pre-production (includes all phases of development for the film) before actual filming begins.",
+            "ObjectType": "measured_dimension.time_interval",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

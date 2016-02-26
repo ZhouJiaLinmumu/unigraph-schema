@@ -1,0 +1,84 @@
+{
+    "Id": "computer.software",
+    "Name": "Software",
+    "Description": "Any software which runs on a computer, excluding games (which should use the Video Game type instead).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "computer.software.developer",
+            "Name": "Developer",
+            "Description": "",
+            "ObjectType": "computer.software_developer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.software.first_released",
+            "Name": "First Released",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "computer.software.languages_used",
+            "Name": "Programming languages used",
+            "Description": "",
+            "ObjectType": "computer.programming_language",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.software.latest_release_date",
+            "Name": "Latest Release Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "computer.software.latest_version",
+            "Name": "Latest Version",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.software.license",
+            "Name": "License",
+            "Description": "",
+            "ObjectType": "computer.software_license",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.software.protocols_used",
+            "Name": "Protocols Used",
+            "Description": "",
+            "ObjectType": "computer.internet_protocol",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.software.service_network",
+            "Name": "Protocols Provider",
+            "Description": "",
+            "ObjectType": "computer.protocol_provider",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.software.software_genre",
+            "Name": "Software Genre",
+            "Description": "",
+            "ObjectType": "computer.software_genre",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

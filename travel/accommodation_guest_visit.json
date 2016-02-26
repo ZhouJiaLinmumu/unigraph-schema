@@ -1,0 +1,34 @@
+{
+    "Id": "travel.accommodation_guest_visit",
+    "Name": "Hotel Guest Visit",
+    "Description": "A CVT to note the accommodation which had a recorded visit to it, by a \"famous\" person who was the guest, and the date(s) of the guests stay.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "travel.accommodation_guest_visit.date_of_stays",
+            "Name": "Date of Stays",
+            "Description": "The date on which the person began their stay(s)",
+            "ObjectType": "type.datetime",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "travel.accommodation_guest_visit.guest",
+            "Name": "Notable Guest",
+            "Description": "The Notable person who stayed at the hotel",
+            "ObjectType": "travel.accommodation_guest",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "travel.accommodation_guest_visit.accommodation",
+            "Name": "Hotel Visited",
+            "Description": "The Hotel which the Notable Person (the guest) stayed at",
+            "ObjectType": "travel.hotel",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

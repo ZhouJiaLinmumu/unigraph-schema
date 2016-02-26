@@ -1,0 +1,42 @@
+{
+    "Id": "military.military_post_use",
+    "Name": "Military post use",
+    "Description": "This type connects military posts with the armed forces that have used them.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "military.military_post_use.armed_force",
+            "Name": "Armed force",
+            "Description": "",
+            "ObjectType": "military.armed_force",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "military.military_post_use.start_date",
+            "Name": "From date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.military_post_use.military_post",
+            "Name": "Military post",
+            "Description": "",
+            "ObjectType": "military.military_post",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "military.military_post_use.end_date",
+            "Name": "To date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

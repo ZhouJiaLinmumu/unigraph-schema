@@ -1,0 +1,11 @@
+{
+    "Id": "travel.restaurant",
+    "Name": "Restaurant",
+    "Description": "The restaurant type represents restaurant and diners. Could also be located and within a hotel, casino, hostel.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

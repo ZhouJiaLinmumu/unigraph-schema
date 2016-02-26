@@ -1,0 +1,21 @@
+{
+    "Id": "organization.registration_authority",
+    "Name": "Organization registration authority",
+    "Description": "An organization registration authority is an organization that registers other organizations",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "organization.registration_authority.territory",
+            "Name": "Territory",
+            "Description": "",
+            "ObjectType": "organization.registration_authority_territory",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

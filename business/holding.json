@@ -1,0 +1,58 @@
+{
+    "Id": "business.holding",
+    "Name": "Holding",
+    "Description": "This type is used to record information about the issues (such as stock) of an organization that are or were held by a shareholder (e.g. a person or organization) of that issue.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.holding.amount",
+            "Name": "Amount",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.holding.as_of_date",
+            "Name": "As of Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.holding.currency",
+            "Name": "Currency",
+            "Description": "",
+            "ObjectType": "business.currency",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.holding.holder",
+            "Name": "Holder",
+            "Description": "",
+            "ObjectType": "business.shareholder",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "business.holding.issue",
+            "Name": "Issue",
+            "Description": "",
+            "ObjectType": "business.issue",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "business.holding.units",
+            "Name": "Units",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

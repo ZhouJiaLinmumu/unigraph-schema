@@ -1,0 +1,60 @@
+{
+    "Id": "automotive.model_year",
+    "Name": "Automobile Model Year",
+    "Description": "The Model Year type should be used to describe a specific model year release of a vehicle. This type has a property trim levels, which further divides the model years.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "automotive.model_year.body_style",
+            "Name": "Body Style",
+            "Description": "",
+            "ObjectType": "automotive.body_style",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.model_year.make",
+            "Name": "Make",
+            "Description": "",
+            "ObjectType": "automotive.make",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.model_year.model",
+            "Name": "Model",
+            "Description": "",
+            "ObjectType": "automotive.model",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.model_year.previous_model_year",
+            "Name": "Previous Model Year",
+            "Description": "",
+            "ObjectType": "automotive.model_year",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.model_year.warranty",
+            "Name": "Warranty",
+            "Description": "",
+            "ObjectType": "automotive.warranty",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.model_year.year",
+            "Name": "Year",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

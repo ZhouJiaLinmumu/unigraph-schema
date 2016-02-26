@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.conductivity",
+    "Name": "Conductivity",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.conductivity.measurement_unit",
+            "Name": "Unit of Conductivity",
+            "Description": "",
+            "ObjectType": "measured_dimension.conductivity_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.conductivity.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

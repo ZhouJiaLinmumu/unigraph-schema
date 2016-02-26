@@ -1,0 +1,11 @@
+{
+    "Id": "computer.programming_language_paradigm",
+    "Name": "Programming Language Paradigm",
+    "Description": "A fundamental style of computer programming.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "law.judicial_title",
+    "Name": "Judicial title",
+    "Description": "A judicial title is any title held by a judge. Titles are typically either attached to a particular court (e.g. \"Chief Justice of the Philippine Supreme Court\") or, if not attached to a particular court, entitles a judge to hear certain types of cases or to sit on particular courts or types of courts (e.g. Circuit Judge.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,21 @@
+{
+    "Id": "opera.singer",
+    "Name": "Opera singer",
+    "Description": "Opera singerAnOpera singer is a person who sings opera. He or she is typically also a Musical Artist.PropertiesVoice Type: expects Musical voice; the vocal range in which this singer sings.Opera Roles: expects Opera Role (in the Opera domain); prominent roles portrayed by this singer.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "opera.singer.voice_type",
+            "Name": "Voice Type",
+            "Description": "",
+            "ObjectType": "opera.voice",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

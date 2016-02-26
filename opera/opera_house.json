@@ -1,0 +1,15 @@
+{
+    "Id": "opera.opera_house",
+    "Name": "Opera House",
+    "Description": "An opera house is a theater in which operas are performed.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "architecture.structure",
+        "location.location",
+        "architecture.building",
+        "architecture.venue",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

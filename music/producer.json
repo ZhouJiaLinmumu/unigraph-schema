@@ -1,0 +1,11 @@
+{
+    "Id": "music.producer",
+    "Name": "Record Producer",
+    "Description": "A Record Producer is a person, group, or company responsible for overseeing all aspects of the music recording process. This includes the creative and practical day-to-day activities such as controlling the recording sessions, coaching and guiding the performers, and supervising the recording, mixing and mastering processes.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

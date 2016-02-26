@@ -1,0 +1,11 @@
+{
+    "Id": "film.special_film_performance_type",
+    "Name": "Special film performance type",
+    "Description": "This type is an enumerated list of different kinds of film performances. It is used to provide additional information about someone's performance in a film. Examples include providing the voice for an animated character, a cameo appearance, uncredited appearances, and a person portraying him- or herself. Additional instances should be added to this list sparingly.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

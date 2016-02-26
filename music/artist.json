@@ -1,0 +1,84 @@
+{
+    "Id": "music.artist",
+    "Name": "Musical Artist",
+    "Description": "A musical artist can be an individual or a group that performs or makes music. Musical artists should typically have performed in front of an audience on a regular basis or have recorded musical tracks or musical albums.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.artist.acquire_page",
+            "Name": "Buy or download Web page",
+            "Description": "Web page where one can buy or download recordings by this artist",
+            "ObjectType": "type.uri",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.artist.career_end",
+            "Name": "Active as Musical Artist (end)",
+            "Description": "The date on which this artist ceased activity",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "music.artist.career_start",
+            "Name": "Active as Musical Artist (start)",
+            "Description": "The date on which this artist became active",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "music.artist.genre",
+            "Name": "Musical Genres",
+            "Description": "Genre(s) of music recorded by this artist",
+            "ObjectType": "music.genre",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.artist.homepage",
+            "Name": "Musical Artist Home Page",
+            "Description": "Official home page for this artist",
+            "ObjectType": "type.uri",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.artist.label",
+            "Name": "Record Labels",
+            "Description": "The record company labels under which this artist has released work",
+            "ObjectType": "music.record_label",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.artist.origin",
+            "Name": "Place Musical Career Began",
+            "Description": "The place of origin of this artist as a musician (not necessarily place of birth)",
+            "ObjectType": "music.artist_origin",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.artist.supporting_artists",
+            "Name": "Supporting artists",
+            "Description": "Musicians who have performed live or on recordings with this artist. Note that, for bands, this property should only be used for musicians who are not also members of the band (this includes members of a band whose name includes that of one of the members such as Tom Petty and the Heartbreakers).",
+            "ObjectType": "music.group_member",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.artist.tribute_acts",
+            "Name": "Tribute acts",
+            "Description": "Musical artists that perform or record as tribute acts of this artist.",
+            "ObjectType": "music.tribute_act",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

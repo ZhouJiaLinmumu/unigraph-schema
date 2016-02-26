@@ -1,0 +1,11 @@
+{
+    "Id": "venture_capital.venture_investor",
+    "Name": "Venture Investor",
+    "Description": "A venture investor is any entity that provides or has made a venture capital investment in one or more companies.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

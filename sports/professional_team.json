@@ -1,0 +1,21 @@
+{
+    "Id": "sports.professional_team",
+    "Name": "Professional Team",
+    "Description": "A sports team that pays its players in order to perform.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "sports.team"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "sports.professional_team.owner",
+            "Name": "Owner(s)",
+            "Description": "",
+            "ObjectType": "sports.team_owner",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

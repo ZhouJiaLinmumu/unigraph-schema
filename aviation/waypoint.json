@@ -1,0 +1,29 @@
+{
+    "Id": "aviation.waypoint",
+    "Name": "Aviation waypoint",
+    "Description": "Experimental.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "aviation.waypoint.id",
+            "Name": "Aviation ID",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.waypoint.waypoint_type",
+            "Name": "Waypoint type",
+            "Description": "",
+            "ObjectType": "aviation.waypoint_type",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

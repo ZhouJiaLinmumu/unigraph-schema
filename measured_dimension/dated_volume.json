@@ -1,0 +1,34 @@
+{
+    "Id": "measured_dimension.dated_volume",
+    "Name": "Volume",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.dated_volume.measurement_unit",
+            "Name": "Unit of Volume",
+            "Description": "",
+            "ObjectType": "measured_dimension.volume_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.dated_volume.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.dated_volume.date",
+            "Name": "Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "sports.color",
+    "Name": "Sports Colors",
+    "Description": "Color(s) and color combination used in sports.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "visual_art.color"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

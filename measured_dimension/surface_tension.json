@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.surface_tension",
+    "Name": "Surface tension",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.surface_tension.measurement_unit",
+            "Name": "Unit of Surface tension",
+            "Description": "",
+            "ObjectType": "measured_dimension.surface_tension_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.surface_tension.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "education.school_color",
+    "Name": "School color",
+    "Description": "A color that is used within an educational institution.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "visual_art.color"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

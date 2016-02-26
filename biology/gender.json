@@ -1,0 +1,11 @@
+{
+    "Id": "biology.gender",
+    "Name": "Organism gender",
+    "Description": "The gender of the organism",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

@@ -1,0 +1,13 @@
+{
+    "Id": "geography.island_group",
+    "Name": "Island Group",
+    "Description": "An island group is a chain or other grouping of islands.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "geography.geographical_feature",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

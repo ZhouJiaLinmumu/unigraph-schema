@@ -1,0 +1,11 @@
+{
+    "Id": "common.document_author",
+    "Name": "Document Author",
+    "Description": "The author of a document",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

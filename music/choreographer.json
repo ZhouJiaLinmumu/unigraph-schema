@@ -1,0 +1,12 @@
+{
+    "Id": "music.choreographer",
+    "Name": "MChoreographer",
+    "Description": "Choreographer of the dancing or movement by the performers in the music video or concert.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

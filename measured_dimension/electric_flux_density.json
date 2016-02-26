@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.electric_flux_density",
+    "Name": "Electric flux density",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.electric_flux_density.measurement_unit",
+            "Name": "Unit of Electric flux density",
+            "Description": "",
+            "ObjectType": "measured_dimension.electric_flux_density_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.electric_flux_density.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

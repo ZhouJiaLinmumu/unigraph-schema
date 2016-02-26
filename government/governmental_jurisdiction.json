@@ -1,0 +1,12 @@
+{
+    "Id": "government.governmental_jurisdiction",
+    "Name": "Governmental Jurisdiction",
+    "Description": "A governmental jurisdiction is any location that a governmental body or office has jurisdiction over. This includes cities, countries, and various types of administrative divisions such as counties, states, provinces, departments, oblasts, etc. Topics of this type will typically be co-typed with one or more types from the \"location\" domain, such as \"city/town\", \"administrative division\", and \"country\". This type permits information about the government and leaders of a location to be recorded, without requiring specific types or properties on every type that could potentially be co-typed with this one.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

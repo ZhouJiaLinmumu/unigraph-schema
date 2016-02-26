@@ -1,0 +1,58 @@
+{
+    "Id": "religion.organization_leadership",
+    "Name": "Religious Organization Leadership",
+    "Description": "This is a compound value type (CVT) used by the Religious Organization type. It represents a person's tenure of leadership with a particular organization.Leader (expects: Religious Leader): the person who held the leadership roleRole (expects: Religious Leadership Role): the role that the leader heldStart Date (expects: Date/Time): when the tenure beganEnd Date (expects: Date/Time): when the tenure ended",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "religion.organization_leadership.end_date",
+            "Name": "End Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "religion.organization_leadership.jurisdiction",
+            "Name": "Jurisdiction",
+            "Description": "The jurisdiction to which this appointment relates",
+            "ObjectType": "religion.jurisdiction",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "religion.organization_leadership.leader",
+            "Name": "Leader",
+            "Description": "",
+            "ObjectType": "religion.leader",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "religion.organization_leadership.role",
+            "Name": "Role",
+            "Description": "",
+            "ObjectType": "religion.leader_title",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "religion.organization_leadership.start_date",
+            "Name": "Start Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "religion.organization_leadership.organization",
+            "Name": "Organization",
+            "Description": "",
+            "ObjectType": "religion.organization",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

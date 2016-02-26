@@ -1,0 +1,50 @@
+{
+    "Id": "business.product_endorsement",
+    "Name": "Product Endorsement",
+    "Description": "The relationship between an endorser, the company, and the product endorsed.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.product_endorsement.endorsee",
+            "Name": "Endorsee",
+            "Description": "",
+            "ObjectType": "business.product_endorsee",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "business.product_endorsement.endorser",
+            "Name": "Endorser",
+            "Description": "",
+            "ObjectType": "business.product_endorser",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "business.product_endorsement.start_date",
+            "Name": "From",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.product_endorsement.product",
+            "Name": "Product",
+            "Description": "",
+            "ObjectType": "business.endorsed_product",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "business.product_endorsement.end_date",
+            "Name": "To",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

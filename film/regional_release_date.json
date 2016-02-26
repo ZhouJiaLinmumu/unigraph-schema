@@ -1,0 +1,50 @@
+{
+    "Id": "film.regional_release_date",
+    "Name": "Film regional release date",
+    "Description": "This type connects films to their dates of release in different regions and in different formats.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "film.regional_release_date.film_regional_debut_venue",
+            "Name": "Film regional debut venue",
+            "Description": "The venue at which this film was first released in this location.",
+            "ObjectType": "film.screening_venue",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.regional_release_date.film_release_distribution_medium",
+            "Name": "Film release distribution medium",
+            "Description": "",
+            "ObjectType": "film.distribution_medium",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.regional_release_date.film_release_region",
+            "Name": "Film release region",
+            "Description": "",
+            "ObjectType": "film.film_release_region",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "film.regional_release_date.release_date",
+            "Name": "Release Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.regional_release_date.film",
+            "Name": "Film",
+            "Description": "",
+            "ObjectType": "film.film",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

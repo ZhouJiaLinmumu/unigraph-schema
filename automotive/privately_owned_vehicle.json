@@ -1,0 +1,68 @@
+{
+    "Id": "automotive.privately_owned_vehicle",
+    "Name": "Privately Owned Vehicle",
+    "Description": "Use the Privately Owned Vehicle to describe your car, your friend's car or one off custom vehicles.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "automotive.privately_owned_vehicle.exterior_color",
+            "Name": "Exterior Color",
+            "Description": "",
+            "ObjectType": "automotive.exterior_color",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.privately_owned_vehicle.interior",
+            "Name": "Interior",
+            "Description": "",
+            "ObjectType": "automotive.upholstery",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.privately_owned_vehicle.make",
+            "Name": "Make",
+            "Description": "",
+            "ObjectType": "automotive.make",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.privately_owned_vehicle.mileage",
+            "Name": "Mileage",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.privately_owned_vehicle.model",
+            "Name": "Model",
+            "Description": "",
+            "ObjectType": "automotive.model",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.privately_owned_vehicle.model_year",
+            "Name": "Model Year",
+            "Description": "",
+            "ObjectType": "automotive.model_year",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.privately_owned_vehicle.owner",
+            "Name": "Owner",
+            "Description": "Who owns this vehicle?",
+            "ObjectType": "automotive.vehicle_owner",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

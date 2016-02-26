@@ -1,0 +1,50 @@
+{
+    "Id": "opera.role",
+    "Name": "Opera Role",
+    "Description": "This is a compound-value type that holds information about a singer's performance in a particular opera production.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "opera.role.start_date",
+            "Name": "From",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "opera.role.opera",
+            "Name": "Opera",
+            "Description": "",
+            "ObjectType": "opera.production",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "opera.role.performer",
+            "Name": "Performer",
+            "Description": "",
+            "ObjectType": "opera.singer",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "opera.role.role",
+            "Name": "Role",
+            "Description": "",
+            "ObjectType": "opera.opera_character",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "opera.role.end_date",
+            "Name": "To",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

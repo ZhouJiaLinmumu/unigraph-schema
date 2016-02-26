@@ -1,0 +1,11 @@
+{
+    "Id": "military.military_unit_origin_place",
+    "Name": "Military unit place of origin",
+    "Description": "The place of origin of a military unit.  For instance, the Royal Berkshire Regiment's place of origin is Berkshire.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,9 @@
+{
+    "Id": "type.rawstring",
+    "Name": "Machine readable string",
+    "Description": "The concept type of raw strings",
+    "Mediator": false,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": null
+}

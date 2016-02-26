@@ -1,0 +1,12 @@
+{
+    "Id": "geography.road",
+    "Name": "Road",
+    "Description": "Roads.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "transportation.road",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

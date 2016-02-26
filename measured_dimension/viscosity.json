@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.viscosity",
+    "Name": "Viscosity",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.viscosity.measurement_unit",
+            "Name": "Unit of Viscosity",
+            "Description": "",
+            "ObjectType": "measured_dimension.viscosity_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.viscosity.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "Id": "type.property",
+    "Name": "Property",
+    "Description": "The concept type for property descriptors in schemas.",
+    "Mediator": false,
+    "ExpectedTypes": null,
+    "Enumerated": true,
+    "Properties": [
+        {
+            "Id": "type.property.object_type",
+            "Name": "Type",
+            "Description": "The expected type of the object referred to by this property",
+            "ObjectType": "type.type",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "type.property.schema",
+            "Name": "Schema",
+            "Description": "The link from a property to its underlying type. This forces a property to only belong to a single type.",
+            "ObjectType": "type.type",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "type.property.unique",
+            "Name": "Unique",
+            "Description": "If this is true, the property can point to only one object. By default, properties can point to multiple objects.",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "type.property.required",
+            "Name": "Required",
+            "Description": "If this is true, the property has to be set in order for the type to be valid. It's used in CVT ONLY",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

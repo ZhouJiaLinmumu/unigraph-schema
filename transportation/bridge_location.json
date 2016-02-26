@@ -1,0 +1,12 @@
+{
+    "Id": "transportation.bridge_location",
+    "Name": "Bridge Location",
+    "Description": "The location of a bridge",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

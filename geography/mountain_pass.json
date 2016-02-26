@@ -1,0 +1,30 @@
+{
+    "Id": "geography.mountain_pass",
+    "Name": "Mountain pass",
+    "Description": "In a range of hills, or especially of mountains, a pass is a lower point that allows easier access through the range. On the route through the range, it is locally the highest point on the route.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "geography.geographical_feature",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "geography.mountain_pass.elevation",
+            "Name": "Elevation",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "geography.mountain_pass.transversed_by",
+            "Name": "Transversed By Road",
+            "Description": "Any roads that go through this pass.",
+            "ObjectType": "geography.road",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

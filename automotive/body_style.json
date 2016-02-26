@@ -1,0 +1,172 @@
+{
+    "Id": "automotive.body_style",
+    "Name": "Body Style",
+    "Description": "Body styles are the particular modifications that may be offered as a model range of a particular vehicle model (a car model may be available with multiple body styles such as a two-door hatchback, four-door sedan and station wagon).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": [
+        {
+            "Id": "automotive.body_style.curb_weight",
+            "Name": "Curb Weight",
+            "Description": "",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.exterior_height",
+            "Name": "Exterior Height",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.exterior_length",
+            "Name": "Exterior Length",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.exterior_width",
+            "Name": "Exterior Width",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.front_headroom",
+            "Name": "Front Headroom",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.front_legroom",
+            "Name": "Front Leg Room",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.front_shoulder_room",
+            "Name": "Front Shoulder Room",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.front_track",
+            "Name": "Front Track",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.fuel_tank_capacity",
+            "Name": "Fuel Tank Capacity",
+            "Description": "",
+            "ObjectType": "measured_dimension.volume",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.generation",
+            "Name": "Generation",
+            "Description": "",
+            "ObjectType": "automotive.generation",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.luggage_capacity",
+            "Name": "Luggage Capacity",
+            "Description": "",
+            "ObjectType": "measured_dimension.volume",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.maximum_seating",
+            "Name": "Maximum Seating",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.passenger_volume",
+            "Name": "Passenger Volume",
+            "Description": "",
+            "ObjectType": "measured_dimension.volume",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.range",
+            "Name": "Range",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.rear_headroom",
+            "Name": "Rear Headroom",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.rear_legroom",
+            "Name": "Rear Leg Room",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.rear_shoulder_room",
+            "Name": "Rear Shoulder Room",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.rear_track",
+            "Name": "Rear Track",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.turning_circle",
+            "Name": "Turning Circle",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.body_style.wheelbase",
+            "Name": "Wheelbase",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

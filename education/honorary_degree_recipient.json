@@ -1,0 +1,12 @@
+{
+    "Id": "education.honorary_degree_recipient",
+    "Name": "Honorary Degree Recipient",
+    "Description": "An Honorary Degree Recipient is a person who has been awarded an honorary degree by a degree awarding academic institution.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

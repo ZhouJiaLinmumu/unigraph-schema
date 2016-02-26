@@ -1,0 +1,42 @@
+{
+    "Id": "law.court_courthouse_relationship",
+    "Name": "Court-courthouse relationship",
+    "Description": "This type connects courts to their courthouses, both current and historical.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "law.court_courthouse_relationship.court",
+            "Name": "Court",
+            "Description": "A court that heard cases in this courthouse.",
+            "ObjectType": "law.court",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "law.court_courthouse_relationship.start_date",
+            "Name": "From date",
+            "Description": "The date that this court first occupied this courthouse. If the court occupied this courthouse multiple, non-contiguous times, enter separate records for each.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "law.court_courthouse_relationship.end_date",
+            "Name": "To date",
+            "Description": "The date after which the court no longer occupied this courthouse.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "law.court_courthouse_relationship.courthouse",
+            "Name": "Courthouse",
+            "Description": "The courthouse that this court used. Courthouses can be any building in which cases are heard, regardless of whether the building's sole function is as a courthouse or whether the building serves many functions.",
+            "ObjectType": "law.courthouse",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

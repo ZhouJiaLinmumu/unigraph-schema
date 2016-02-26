@@ -1,0 +1,12 @@
+{
+    "Id": "theater.choreographer",
+    "Name": "Theater Choreographer",
+    "Description": "A theater choreographer is someone who choreographs a production of a play.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

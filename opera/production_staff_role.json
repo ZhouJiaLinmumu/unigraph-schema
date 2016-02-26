@@ -1,0 +1,11 @@
+{
+    "Id": "opera.production_staff_role",
+    "Name": "Opera Production Staff Role",
+    "Description": "This type is for any role in an opera production that does not have any other type (other types include Performer, Conductor, Designer, Producer, and Director).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

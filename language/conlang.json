@@ -1,0 +1,29 @@
+{
+    "Id": "language.conlang",
+    "Name": "Conlang",
+    "Description": "A conlang is a language which was created by an individual or group.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "language.human_language",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "language.conlang.date_created",
+            "Name": "Date created",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "language.conlang.created_by",
+            "Name": "Created by",
+            "Description": "",
+            "ObjectType": "language.language_creator",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

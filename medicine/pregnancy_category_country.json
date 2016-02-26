@@ -1,0 +1,12 @@
+{
+    "Id": "medicine.pregnancy_category_country",
+    "Name": "Drug pregnancy category",
+    "Description": "Countries with designated pregnancy categories",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.country"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

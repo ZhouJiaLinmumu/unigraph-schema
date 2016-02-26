@@ -1,0 +1,11 @@
+{
+    "Id": "medicine.cancer_center_constituent",
+    "Name": "Cancer Center Constituent",
+    "Description": "A cancer center constituent is any sub-organization or child institute that is part of a cancer center.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

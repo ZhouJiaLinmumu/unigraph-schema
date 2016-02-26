@@ -1,0 +1,12 @@
+{
+    "Id": "conferences.geoscope",
+    "Name": "Conference series",
+    "Description": "Conferences may happen at different locations, and visitors from elsewhere can participate, but often conferences fall within some geographical scope. if not - list as 'international'",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

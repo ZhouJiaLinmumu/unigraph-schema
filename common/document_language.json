@@ -1,0 +1,11 @@
+{
+    "Id": "common.document_language",
+    "Name": "Document Language",
+    "Description": "The language of the document",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "language.human_language"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

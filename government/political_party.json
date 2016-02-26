@@ -1,0 +1,30 @@
+{
+    "Id": "government.political_party",
+    "Name": "Political party",
+    "Description": "The political party type is used for any organized political group that primarily aims for the attainment of political power and public office for its designated members. This type includes both active and inactive political parties.  Note: This type also has a property for \"country\"; this is important to fill in because there are many parties with the same or similar names operating in different countries.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.employer",
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "government.political_party.country",
+            "Name": "Country",
+            "Description": "The country in which the party operates. This is important to list because many there are many parties with similar names operating in different countries.",
+            "ObjectType": "government.political_party_scope",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.political_party.ideology",
+            "Name": "Ideology",
+            "Description": "The political ideology of this party (if it has one), such as Liberal, Conservative, Libertarian, Green, etc. This property should not be used for party issues.",
+            "ObjectType": "government.political_ideology",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

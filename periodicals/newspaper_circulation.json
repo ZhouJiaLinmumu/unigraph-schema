@@ -1,0 +1,42 @@
+{
+    "Id": "periodicals.newspaper_circulation",
+    "Name": "Newspaper circulation",
+    "Description": "This type contains information about the circulations of newspapers, specifically for the different editions of a newspaper (such as daily or Sunday).",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "periodicals.newspaper_circulation.circulation",
+            "Name": "Circulation",
+            "Description": "The circulation of this edition of the newspaper.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "periodicals.newspaper_circulation.date",
+            "Name": "Date",
+            "Description": "The date for which the circulation number is valid.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.newspaper_circulation.edition",
+            "Name": "Edition",
+            "Description": "The edition, such as daily, Sunday, weekly, etc. that this circulation is for.",
+            "ObjectType": "periodicals.newspaper_edition_type",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "periodicals.newspaper_circulation.newspaper",
+            "Name": "Newspaper",
+            "Description": "",
+            "ObjectType": "periodicals.newspaper",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

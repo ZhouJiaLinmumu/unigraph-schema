@@ -1,0 +1,36 @@
+{
+    "Id": "biology.chromosome",
+    "Name": "Chromosome",
+    "Description": "Chromosome is an organized strand of DNA and associated proteins found in the nucleus of eukaryotic cells that contains the genes which are the means of transmission of hereditary information.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "biology.chromosome.band",
+            "Name": "Band",
+            "Description": "",
+            "ObjectType": "biology.cytogenetic_band",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "biology.chromosome.identifier",
+            "Name": "Identifier",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.chromosome.locus",
+            "Name": "Locus",
+            "Description": "",
+            "ObjectType": "biology.genomic_locus",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "people.language",
+    "Name": "Language",
+    "Description": "The language spoken by that ethnical group",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "language.human_language"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

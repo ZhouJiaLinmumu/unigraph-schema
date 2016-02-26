@@ -1,0 +1,13 @@
+{
+    "Id": "music.instrument_manufacturer",
+    "Name": "Musical instrument company",
+    "Description": "AMusical instrument company is a company that manufactures and sells musical instruments.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.business_operation",
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

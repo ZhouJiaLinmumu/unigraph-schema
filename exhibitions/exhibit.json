@@ -1,0 +1,11 @@
+{
+    "Id": "exhibitions.exhibit",
+    "Name": "Exhibit",
+    "Description": "An exhibit is an item that has been displayed as part of an exhibition. Note that this should only be used for single items, not for classes of items.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

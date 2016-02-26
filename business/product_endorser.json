@@ -1,0 +1,12 @@
+{
+    "Id": "business.product_endorser",
+    "Name": "Product Endorser",
+    "Description": "The person figure endorsing a product for another entity.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.person"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

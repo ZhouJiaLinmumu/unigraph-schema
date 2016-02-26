@@ -1,0 +1,44 @@
+{
+    "Id": "biology.amino_acid",
+    "Name": "Amino Acid",
+    "Description": "Amino acids are molecules composed of an amine group, a carboxylic acid group and a side chain that varies between different amino acids. These molecules contain the key elements of carbon, hydrogen, oxygen, and nitrogen. Amino acids serve an important role in the biological metabolism of life on earth.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "biology.amino_acid.codons",
+            "Name": "DNA Codons",
+            "Description": "The standard three-letter codon sequences that code this amino acid in DNA",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "biology.amino_acid.rna_codons",
+            "Name": "RNA Codons",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "biology.amino_acid.single_letter_abbreviation",
+            "Name": "Single letter abbreviation",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.amino_acid.three_letter_abbreviation",
+            "Name": "Three letter abbreviation",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

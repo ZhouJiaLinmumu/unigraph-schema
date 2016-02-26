@@ -1,0 +1,13 @@
+{
+    "Id": "business.consumer_company",
+    "Name": "Consumer company",
+    "Description": "A consumer company is any corporate entity that produces products for sale to consumers.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.business_operation",
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

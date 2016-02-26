@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.ratio",
+    "Name": "Ratio",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.ratio.denominator",
+            "Name": "Denominator",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.ratio.numerator",
+            "Name": "Numerator",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

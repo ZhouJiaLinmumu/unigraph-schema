@@ -1,0 +1,68 @@
+{
+    "Id": "event.event",
+    "Name": "Event",
+    "Description": "An event is a topic that can be described by the time or date at which it happened. Long-lasting events may be described as occurring between two dates.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "event.event.comment",
+            "Name": "Comment",
+            "Description": "Comments, disclaimers or notes about this event.",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "event.event.end_date",
+            "Name": "End date",
+            "Description": "When it ended. Blank if it continues",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "event.event.included_in_event",
+            "Name": "Included in event",
+            "Description": "If it is part of a larger event, like 'battle of vimy ridge' is part of 'ww1'",
+            "ObjectType": "event.event",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "event.event.instance_of_recurring_event",
+            "Name": "Instance of recurring event",
+            "Description": "If this event is one in a series of recurring events, the general name of the recurring event.",
+            "ObjectType": "event.recurring_event",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "event.event.locations",
+            "Name": "Location(s)",
+            "Description": "Where this event happened; this can be in multiple locations. When deciding which location to list, it is best to use the most specific location that makes sense.  E.g., for the event \"Assassination of Abraham Lincoln,\" the best location to use would be \"Ford's Theatre;\" \"Washington, DC\" would be okay, and \"United States,\" while strictly accurate, would be a poorer choice. However, for an event like the the Chinese Civil War, \"China\" would be the best location, since the event occurred throughout China.",
+            "ObjectType": "event.location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "event.event.people_involved",
+            "Name": "People involved",
+            "Description": "",
+            "ObjectType": "event.participant",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "event.event.start_date",
+            "Name": "Start date",
+            "Description": "When it began",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

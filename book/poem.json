@@ -1,0 +1,38 @@
+{
+    "Id": "book.poem",
+    "Name": "Poem",
+    "Description": "This type is for all kinds of poems, from epics to doggerel.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "book.written_work",
+        "book.published_work"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "book.poem.characters",
+            "Name": "Characters",
+            "Description": "Characters who appear in this poem. This will primarily apply to epic and other narrative forms of poetry.",
+            "ObjectType": "book.poem_character",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "book.poem.meter",
+            "Name": "Meter",
+            "Description": "",
+            "ObjectType": "book.poetic_meter",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "book.poem.verse_form",
+            "Name": "Verse Form",
+            "Description": "",
+            "ObjectType": "book.poetic_verse_form",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

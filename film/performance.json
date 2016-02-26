@@ -1,0 +1,50 @@
+{
+    "Id": "film.performance",
+    "Name": "Film performance",
+    "Description": "The performance type is a mediator that connects a film to an actor who starred in the film. Normally this would be a direct relationship, but a mediator was needed to hold the character name. Some performances, particularly famous ones (eg. Laurence Olivier in Hamlet) can be turned into full-fledged Topics and given titles, images, articles, etc. Additionally there is the Special Performance type for performances that are non-standard (notable examples would be Motion Capture for the role of Gollum in the Lord of the Rings trilogy or Voice or Seiyu for animated/foreign films )",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "film.performance.actor",
+            "Name": "Actor",
+            "Description": "",
+            "ObjectType": "film.actor",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "film.performance.character",
+            "Name": "Character",
+            "Description": "",
+            "ObjectType": "film.film_character",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.performance.character_note",
+            "Name": "Character note",
+            "Description": "For example, \"young\", \"old.\"",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.performance.film",
+            "Name": "Film",
+            "Description": "",
+            "ObjectType": "film.film",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "film.performance.special_performance_type",
+            "Name": "Special Performance Type",
+            "Description": "Used to note that a performer was used in a particular way -- voice actors, motion-capture models, appearances from archive footage, etc.",
+            "ObjectType": "film.special_film_performance_type",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

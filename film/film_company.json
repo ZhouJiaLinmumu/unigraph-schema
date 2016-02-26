@@ -1,0 +1,14 @@
+{
+    "Id": "film.film_company",
+    "Name": "Film company",
+    "Description": "The Film Company type holds companies that have funded or released films.  It also includes movie studios.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.employer",
+        "business.business_operation",
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

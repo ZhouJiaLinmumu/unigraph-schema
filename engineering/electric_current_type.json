@@ -1,0 +1,11 @@
+{
+    "Id": "engineering.electric_current_type",
+    "Name": "Electric current type",
+    "Description": "Either an alternating current or direct current.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

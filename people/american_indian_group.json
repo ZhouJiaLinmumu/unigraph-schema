@@ -1,0 +1,21 @@
+{
+    "Id": "people.american_indian_group",
+    "Name": "American Indian group",
+    "Description": "Intended to work with the US Indian Reservation type in the location domain. Currently the properties on this type are: US Indian Reservations -- what US Indian Reservations, if any, these people live on If a group spreads across the border into Canada, you can co-type them with Canadian aboriginal group.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.ethnicity"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "people.american_indian_group.us_indian_reservations",
+            "Name": "US Indian Reservations",
+            "Description": "",
+            "ObjectType": "people.geographic_distribution",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

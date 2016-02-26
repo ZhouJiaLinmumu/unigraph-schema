@@ -1,0 +1,26 @@
+{
+    "Id": "architecture.lighthouse_light_color_range",
+    "Name": "Light color range",
+    "Description": "The compound value that holds a lighthouse's beam of light color (typically White, Red, or Green) along with the colored light beams' corresponding range.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "architecture.lighthouse_light_color_range.color",
+            "Name": "Color",
+            "Description": "The color of the light beam. (Typically White, Red, or Green. Note: some lighthouses emit all 3 colors in different sector areas)",
+            "ObjectType": "architecture.lighthouse_light_color",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "architecture.lighthouse_light_color_range.light_range",
+            "Name": "Light range",
+            "Description": "The distance that the light beam can be seen from.",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "Id": "people.profession",
+    "Name": "Profession",
+    "Description": "A person's profession is the career or job which they perform for most of their working life, or for which they are best known. It is broader-ranging than a single instance of employment; one person might be a Software Engineer by profession but have differing titles (\"Junior Programmer\", \"Lead Developer\", \"Chief Architect\", etc) over the course of her working life.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "people.profession.corresponding_type",
+            "Name": "Corresponding type",
+            "Description": "The type (if any -- most professions may not directly map to a type) in UniGraph that best corresponds to this profession.",
+            "ObjectType": "type.type",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "people.profession.part_of_professional_field",
+            "Name": "Part of professional field",
+            "Description": "",
+            "ObjectType": "people.professional_field",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "people.profession.specializations",
+            "Name": "Specializations",
+            "Description": "More specialised forms of this profession",
+            "ObjectType": "people.profession",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

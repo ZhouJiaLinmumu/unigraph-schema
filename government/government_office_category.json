@@ -1,0 +1,11 @@
+{
+    "Id": "government.government_office_category",
+    "Name": "Government office category",
+    "Description": "This type is for general categories of government offices or positions, such as \"Mayor\", \"Prime Minister\", \"City Councillor\", \"Member of Parliament\", \"Governor-General\", etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

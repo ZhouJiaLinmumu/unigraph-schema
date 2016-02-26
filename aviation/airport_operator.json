@@ -1,0 +1,11 @@
+{
+    "Id": "aviation.airport_operator",
+    "Name": "Airport operator",
+    "Description": "Representing the company operating the airport.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

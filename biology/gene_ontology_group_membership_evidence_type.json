@@ -1,0 +1,11 @@
+{
+    "Id": "biology.gene_ontology_group_membership_evidence_type",
+    "Name": "Gene Ontology Group Membership Evidence Type",
+    "Description": "Type of evidence supporting the gene ontological group membership placement.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

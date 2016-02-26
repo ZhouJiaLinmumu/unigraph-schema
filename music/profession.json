@@ -1,0 +1,21 @@
+{
+    "Id": "music.profession",
+    "Name": "Musician profession",
+    "Description": "A profession where the professional is defined by their usage of an instrument.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.profession"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.profession.instrument",
+            "Name": "Instrument",
+            "Description": "The defining instrument for this type of profession.",
+            "ObjectType": "music.instrument",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "Id": "government.general_election",
+    "Name": "General election",
+    "Description": "The general election type is for elections in which more than one office is being contested (e.g., mayor and sheriff, or an entire legislature). General elections can include other general elections. These included elections can be for different bodies, such as two houses in a bicameral legislature, or can be for general elections at a more local level, so that a national general election might include state or province-level general elections (presuming that they are held at the same time), which might in turn include general elections for local government.Election Contests are for the individual races of a general election; there can be a very large number of these, if necessary. For example, the general election for a legislature with 200 seats in which all seats are up for election might have 200 contests.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "event.event",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "government.general_election.includes_general_elections",
+            "Name": "Includes general election",
+            "Description": "If there are general elections that comprise this election (a national general election may include state or province-level general elections, for example).",
+            "ObjectType": "government.general_election",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.general_election.legislative_results",
+            "Name": "Legislative results",
+            "Description": "For legislative elections only.",
+            "ObjectType": "government.legislative_election_results",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.general_election.turnout",
+            "Name": "Turnout",
+            "Description": "The percentage of registered voters voting in this election.",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

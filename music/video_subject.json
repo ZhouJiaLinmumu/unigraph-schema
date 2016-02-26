@@ -1,0 +1,11 @@
+{
+    "Id": "music.video_subject",
+    "Name": "Music video subject",
+    "Description": "Subject or topic represented in a music video.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

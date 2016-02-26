@@ -1,0 +1,11 @@
+{
+    "Id": "business.product_category",
+    "Name": "Product category",
+    "Description": "A product category represents a type or classification of consumer products.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,21 @@
+{
+    "Id": "book.excerpt",
+    "Name": "Excerpt",
+    "Description": "The \"excerpt\" type is used for sections of larger literary works (the \"excerpted work\") that have been published separately. It should not be used for works that have appeared serially (use the \"serial installment\" type for those).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "book.published_work"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "book.excerpt.work_excerpted",
+            "Name": "Work Excerpted",
+            "Description": "The title of the work from which this excerpt was taken.",
+            "ObjectType": "book.excerpted_work",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

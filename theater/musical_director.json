@@ -1,0 +1,12 @@
+{
+    "Id": "theater.musical_director",
+    "Name": "Musical Director",
+    "Description": "A musical director is a person who is responsible for the musical elements of a play or musical.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

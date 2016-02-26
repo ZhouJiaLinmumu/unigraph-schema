@@ -1,0 +1,5 @@
+{
+  "Id": "automotive",
+  "Name": "Automotive",
+  "Description": "Welcome to the Automotive domain. Here you'll find anything and everything about cars.Contribute your favorite makes and models. Get down to the details by contributing yearly exterior colors, interior colors and option packages. The general type hierarchy is as follows:Automobile Company (Ford Motor Company)  Make (Ford)  Model (Ford Mustang) Generation (First Generation Ford Mustang) Model Year (1964 Ford Mustang) Body Style (1964-1966 Ford Mustang Convertible)."
+}

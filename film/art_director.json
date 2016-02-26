@@ -1,0 +1,12 @@
+{
+    "Id": "film.art_director",
+    "Name": "Film art director",
+    "Description": "A film's art director works under the production designer of the film and alongside the set decorator. The AD is responsible for the day to day operations, communications, and quality of executing the design of the 'look' of a film.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

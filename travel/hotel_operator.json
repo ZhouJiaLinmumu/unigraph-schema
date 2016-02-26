@@ -1,0 +1,14 @@
+{
+    "Id": "travel.hotel_operator",
+    "Name": "Hotel Operator",
+    "Description": "This is a company which operates a hotel. This company may have licenced/franchised a brand from a Hotel Brand Owner.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.employer",
+        "business.business_operation",
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

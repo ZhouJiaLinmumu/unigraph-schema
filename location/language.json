@@ -1,0 +1,12 @@
+{
+    "Id": "location.language",
+    "Name": "Language",
+    "Description": "",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "language.human_language",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

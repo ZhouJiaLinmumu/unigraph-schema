@@ -1,0 +1,5 @@
+{
+  "Id": "meteorology",
+  "Name": "Meteorology",
+  "Description": "There are currently only a few cloud types.  The quality of structured data in Wikipedia is generally pretty poor, so comparisons against external data sources will be needed.  Programmatic names for some properties do not match display names.  These will have to be corrected before any external applications depend on them.  The Cloud precipitation boolean seems to not work in most cases and may have to be refactored into a different form.  If you are a weather/meteorology geek who would like to help fill this out, please let me know in the discussion area below or just dig right in!"
+}

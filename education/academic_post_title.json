@@ -1,0 +1,11 @@
+{
+    "Id": "education.academic_post_title",
+    "Name": "Academic post title",
+    "Description": "This is the title given to, or position held by, an academic for positions that fall outside of ordinary employment, such as appointments, fellowships, visiting professorships, etc. For example, a professor's job at a university would fall under \"employment history\", and the job title entered there. however, if that professor receives a grant to do research at another institute for a semester, that title can be entered here.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

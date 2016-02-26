@@ -1,0 +1,11 @@
+{
+    "Id": "film.soundtrack",
+    "Name": "Film soundtrack",
+    "Description": "The film soundtrack",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

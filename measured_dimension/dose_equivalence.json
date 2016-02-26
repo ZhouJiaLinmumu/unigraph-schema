@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.dose_equivalence",
+    "Name": "Dose equivalence",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.dose_equivalence.measurement_unit",
+            "Name": "Unit of Dose equivalence",
+            "Description": "",
+            "ObjectType": "measured_dimension.dose_equivalence_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.dose_equivalence.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

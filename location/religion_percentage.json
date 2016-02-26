@@ -1,0 +1,34 @@
+{
+    "Id": "location.religion_percentage",
+    "Name": "Religion percentage",
+    "Description": "This type is used to document how many people living in a given location are of a certain religion. It is a compound value type, with the following fields:ReligionPercentageDate These can be used to express such facts as, in 1969, 25% of the population of Springfield were Catholic.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "location.religion_percentage.date",
+            "Name": "As of date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "location.religion_percentage.percentage",
+            "Name": "Percent of population",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "location.religion_percentage.religion",
+            "Name": "Religion",
+            "Description": "",
+            "ObjectType": "location.religion",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

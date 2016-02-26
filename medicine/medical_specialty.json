@@ -1,0 +1,11 @@
+{
+    "Id": "medicine.medical_specialty",
+    "Name": "Medical specialty",
+    "Description": "A medical specialty is any field of medicine that a doctor, dentist, nurse, or other medical practitioner can have as a specialization. This type links to the diseases or conditions treated by a given specialty.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

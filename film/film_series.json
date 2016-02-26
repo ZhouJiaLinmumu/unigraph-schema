@@ -1,0 +1,20 @@
+{
+    "Id": "film.film_series",
+    "Name": "Film series",
+    "Description": "The Film Series type is used to organize films and their sequels, such as the Star Wars and Toy Story series.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "film.film_series.films_in_series",
+            "Name": "Films In Series",
+            "Description": "",
+            "ObjectType": "film.film",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

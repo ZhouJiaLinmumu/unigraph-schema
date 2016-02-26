@@ -1,0 +1,11 @@
+{
+    "Id": "architecture.landscape_architect",
+    "Name": "Landscape architect",
+    "Description": "A landscape architect is a person involved in the planning, design and sometimes oversight of an exterior landscape or space.Their professional practice is known as landscape architecture.  The term landscape architect is sometimes mistakenly used to refer to landscape gardeners, landscape designers, architects, surveyors and engineers, probably because this is a relatively recent profession in terms of licensing. Landscape architecture was not commonly recognised in developed nations as a distinct profession until the early twentieth century. Despite the efforts of landscape architects, it is still not unusual for a building architect to be commissioned to provide landscape architectural services.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

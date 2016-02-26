@@ -1,0 +1,20 @@
+{
+    "Id": "engineering.material",
+    "Name": "Material",
+    "Description": "This type is intended for all kinds of physical materials, such as stone, steel or silk.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "engineering.material.subclass",
+            "Name": "Child material class",
+            "Description": "The hyponym material of this.  e.g. Carbon steel and Stainless steel are subclasses of Steel",
+            "ObjectType": "engineering.material",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

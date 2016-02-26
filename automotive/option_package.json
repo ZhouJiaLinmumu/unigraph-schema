@@ -1,0 +1,28 @@
+{
+    "Id": "automotive.option_package",
+    "Name": "Option Package",
+    "Description": "Option package is a set of additional parts, modifications and equipment available as an optional add-on to the standard package of a vehicle.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "automotive.option_package.msrp",
+            "Name": "Manufacturer's suggested retail price",
+            "Description": "",
+            "ObjectType": "measured_dimension.currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.option_package.options",
+            "Name": "Options Included",
+            "Description": "",
+            "ObjectType": "automotive.option",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

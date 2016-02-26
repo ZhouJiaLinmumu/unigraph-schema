@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.substance",
+    "Name": "Substance",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.substance.measurement_unit",
+            "Name": "Unit of Substance",
+            "Description": "",
+            "ObjectType": "measured_dimension.substance_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.substance.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

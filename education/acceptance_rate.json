@@ -1,0 +1,34 @@
+{
+    "Id": "education.acceptance_rate",
+    "Name": "Acceptance rate",
+    "Description": "This type holds information about the acceptance rate of schools, expressed as the percentage of students who applied that were actually admitted (e.g., a value between 0 - 100, where 100 means 100% meaning all students who applied were accepted.)",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "education.acceptance_rate.rate",
+            "Name": "Rate",
+            "Description": "The percentage of people who applied in a given year that were actually admitted (i.e., a value between 0 and 100, where 100 means all students who applied were accepted).",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "education.acceptance_rate.year",
+            "Name": "Year",
+            "Description": "The beginning year of the academic year this data is valid for. E.g., for academic year 2011-2012, enter \"2011\".",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "education.acceptance_rate.university",
+            "Name": "University",
+            "Description": "",
+            "ObjectType": "education.university",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

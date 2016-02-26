@@ -1,0 +1,12 @@
+{
+    "Id": "law.judge",
+    "Name": "Judge",
+    "Description": "A judge is a public official with the authority to pass judgements on issues brought before a court of law.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

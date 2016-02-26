@@ -1,0 +1,11 @@
+{
+    "Id": "travel.accommodation_price_range",
+    "Name": "Accommodation price range",
+    "Description": "This is an enumerated type intended to give a rough indication of the cost of accommodation in a hotel, resort, campsite, etc.  The only options are \"budget\", \"midrange\", and \"high end\".",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

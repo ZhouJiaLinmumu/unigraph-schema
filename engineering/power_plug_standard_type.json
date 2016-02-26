@@ -1,0 +1,20 @@
+{
+    "Id": "engineering.power_plug_standard_type",
+    "Name": "Power plug standard type",
+    "Description": "There are a number of various power plug standards, and these are grouped into a defined set of plug types. Types are labelled A through to M. Type A is commonly known as a NEMA connector, and Type D is commonly known as BS 546.  A hybrid E+F also exists. Some plug standards do not have a type.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": [
+        {
+            "Id": "engineering.power_plug_standard_type.compatible_power_systems",
+            "Name": "Compatible power systems",
+            "Description": "The mains power systems where this plug type can be safely used",
+            "ObjectType": "engineering.mains_power",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

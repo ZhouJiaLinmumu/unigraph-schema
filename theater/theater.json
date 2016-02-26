@@ -1,0 +1,12 @@
+{
+    "Id": "theater.theater",
+    "Name": "Theater",
+    "Description": "The theater type is for performance venues for theater productions. A theater may be a building, a performance space within a building, or a non-traditional performance space.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "architecture.venue",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

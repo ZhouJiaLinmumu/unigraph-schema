@@ -1,0 +1,11 @@
+{
+    "Id": "exhibitions.producer",
+    "Name": "Exhibition producer",
+    "Description": "An exhibition producer is an entity (often a museum or gallery) that produces an exhibition.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

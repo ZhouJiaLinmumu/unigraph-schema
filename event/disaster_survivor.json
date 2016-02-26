@@ -1,0 +1,12 @@
+{
+    "Id": "event.disaster_survivor",
+    "Name": "Disaster survivor",
+    "Description": "A person who survived a disaster, including people with injuries who did not die.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

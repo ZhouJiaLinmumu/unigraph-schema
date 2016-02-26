@@ -1,0 +1,12 @@
+{
+    "Id": "education.student_organization",
+    "Name": "Student organization",
+    "Description": "A Student organization is any group primarily affiliated with students at a school and run primarily by the students, as opposed to chartered athletic teams, faculty associations, degree programs, or alumni groups.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

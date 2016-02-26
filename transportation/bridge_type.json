@@ -1,0 +1,11 @@
+{
+    "Id": "transportation.bridge_type",
+    "Name": "Bridge Type",
+    "Description": "Bridge type describes the structural form of a bridge. Examples are log bridge, suspension bridge or truss bridge.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

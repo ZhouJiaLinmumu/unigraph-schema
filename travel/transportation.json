@@ -1,0 +1,34 @@
+{
+    "Id": "travel.transportation",
+    "Name": "Transportation",
+    "Description": "The transportation type in the travel commons is used to describe a means of getting to a destination from a travel terminus. Examples would be travel to Glasgow from London Heathrow by air with British Airways. The mode of transport can be noted.  This allows an adaption of the example of travel to Glasgow from London Heathrow by bus with Stagecoach.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "travel.transportation.mode_of_transportation",
+            "Name": "Mode of transportation",
+            "Description": "",
+            "ObjectType": "travel.transportation_mode",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "travel.transportation.transport_operator",
+            "Name": "Transport operator",
+            "Description": "Eg. the name of an airline, railway, or bus line",
+            "ObjectType": "travel.transport_operator",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "travel.transportation.transport_terminus",
+            "Name": "Transport terminus",
+            "Description": "A transport terminus eg. bus terminus, train station, airport",
+            "ObjectType": "travel.transport_terminus",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

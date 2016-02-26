@@ -1,0 +1,9 @@
+{
+    "Id": "type.enumeration",
+    "Name": "Enumerated",
+    "Description": "Instances with this type are finite - usually up to 200. All enumerated types are monitored manually for erroneous data.",
+    "Mediator": false,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": null
+}

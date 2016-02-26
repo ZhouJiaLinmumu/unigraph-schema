@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.data_size",
+    "Name": "Data size",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.data_size.measurement_unit",
+            "Name": "Unit of Data size",
+            "Description": "",
+            "ObjectType": "measured_dimension.data_size_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.data_size.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "Id": "business.product_with_ingredients",
+    "Name": "Product with ingredients",
+    "Description": "This type is intended to be used with any product or brand that has ingredients. This will typically be processed foods, cosmetics, cleaning products, and the like. This type can be added as a co-type to consumer products or to brands, depending on the nature of the products involved. For example, a breakfast cereal is typically modeled as a brand, since different package sizes would represent the consumer product, and the ingredients for the cereal are the same no matter which size package it's in.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.product_with_ingredients.ingredients",
+            "Name": "Ingredients",
+            "Description": "The ingredients of this product. Ingredients should be entered in the order they appear on the package. Ingredients should also be entered as closely as possible to the way they appear on the package - e.g. if an igredient is listed as \"milled corn\", do not enter \"corn\" instead. (The exception is for true synonyms: what appears as \"salt\" on most packages is the same as \"table salt\"; what is known as \"high fructose corn syrup\" in the USA is called \"isoglucose\" in Europe. These should use the same topic.) Note also that compound ingredients (such as \"cheddar cheese (milk, salt, cheese cultures)\") should be entered verbatim; the ingredient can later be edited to show that it is both a variety of \"cheddar cheese\" and includes \"milk\", \"salt\", and \"cheese cultures\" as ingredients.",
+            "ObjectType": "business.product_ingredient",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

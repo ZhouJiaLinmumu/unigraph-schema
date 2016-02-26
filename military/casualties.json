@@ -1,0 +1,58 @@
+{
+    "Id": "military.casualties",
+    "Name": "Casualties",
+    "Description": "Holds information about reported casualties in a military conflict.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "military.casualties.combatant",
+            "Name": "Combatant",
+            "Description": "",
+            "ObjectType": "military.combatant",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "military.casualties.estimated_by",
+            "Name": "Estimated by",
+            "Description": "",
+            "ObjectType": "military.casualties_reporter",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "military.casualties.lower_estimate",
+            "Name": "Estimate",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.casualties.military_conflict",
+            "Name": "Military Conflict",
+            "Description": "",
+            "ObjectType": "military.conflict",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.casualties.casualties_type",
+            "Name": "Type Of Casualties",
+            "Description": "",
+            "ObjectType": "military.casualties_type",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.casualties.upper_estimate",
+            "Name": "Upper Estimate",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

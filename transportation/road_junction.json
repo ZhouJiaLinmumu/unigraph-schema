@@ -1,0 +1,34 @@
+{
+    "Id": "transportation.road_junction",
+    "Name": "Road junction",
+    "Description": "A mediator for major junction of two roads with notable locations at or near the juncture.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "transportation.road_junction.at_or_near",
+            "Name": "At or near",
+            "Description": "",
+            "ObjectType": "transportation.road_location",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "transportation.road_junction.road",
+            "Name": "Road",
+            "Description": "",
+            "ObjectType": "transportation.road",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "transportation.road_junction.road1",
+            "Name": "Road1",
+            "Description": "",
+            "ObjectType": "transportation.road",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

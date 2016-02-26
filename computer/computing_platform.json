@@ -1,0 +1,11 @@
+{
+    "Id": "computer.computing_platform",
+    "Name": "Computing Platform",
+    "Description": "Computing platform is a category of devices that run computer programs.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

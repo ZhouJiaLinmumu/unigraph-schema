@@ -1,0 +1,12 @@
+{
+    "Id": "geography.river_origin",
+    "Name": "River origin",
+    "Description": "The source of a river",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

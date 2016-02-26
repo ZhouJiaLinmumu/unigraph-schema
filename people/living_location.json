@@ -1,0 +1,12 @@
+{
+    "Id": "people.living_location",
+    "Name": "Living location",
+    "Description": "A habitable location",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

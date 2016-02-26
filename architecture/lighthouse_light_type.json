@@ -1,0 +1,11 @@
+{
+    "Id": "architecture.lighthouse_light_type",
+    "Name": "Light type",
+    "Description": "Lights exhibit a distinctive appearance by which they are recognized, e.g. Fixed, Flashing, Group Flashing, etc.  The properties of their appearance, by which they are distinguished, are referred to as the characteristics of the light which is captured with the light_attributes type.  The principal characteristics are generally the sequence of intervals of light and darkness, and, in some cases, the sequence of colors of light exhibited, which is captured with the light_sequence type.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "opera.voice",
+    "Name": "Opera voice",
+    "Description": "The voice or range of the role, e.g. baritone or soprano.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "music.voice"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

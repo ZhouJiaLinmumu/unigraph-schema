@@ -1,0 +1,12 @@
+{
+    "Id": "law.constitutional_convention_delegate",
+    "Name": "Constitutional Convention Delegate",
+    "Description": "A delegate to a constitutional convention.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,34 @@
+{
+    "Id": "military.command",
+    "Name": "Military Command",
+    "Description": "Leadership of a specific military conflict",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "military.command.military_combatant",
+            "Name": "Military Combatant",
+            "Description": "Leader of which group",
+            "ObjectType": "military.combatant",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "military.command.military_commander",
+            "Name": "Military Commander",
+            "Description": "Who",
+            "ObjectType": "military.commander",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "military.command.military_conflict",
+            "Name": "Military Conflict",
+            "Description": "Which battle",
+            "ObjectType": "military.conflict",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

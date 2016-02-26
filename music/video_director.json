@@ -1,0 +1,12 @@
+{
+    "Id": "music.video_director",
+    "Name": "Music video director",
+    "Description": "A music video director is anyone who has directed a music video.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

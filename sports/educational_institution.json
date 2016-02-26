@@ -1,0 +1,12 @@
+{
+    "Id": "sports.educational_institution",
+    "Name": "Educational Institution",
+    "Description": "Colleges, Universities, Schools...",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "organization.organization",
+        "education.educational_institution"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

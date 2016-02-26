@@ -1,0 +1,42 @@
+{
+    "Id": "organization.organization_committee_membership",
+    "Name": "Organization committee membership",
+    "Description": "This is a compound-value type that holds information about the relationship between a committee of an organization and its members.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "organization.organization_committee_membership.start_date",
+            "Name": "From",
+            "Description": "The date the member joined the committee.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization_committee_membership.end_date",
+            "Name": "To",
+            "Description": "The date the member left the committee.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization_committee_membership.member",
+            "Name": "Member",
+            "Description": "The person serving on this committee. If the person served several non-consecutive terms, enter those separately.",
+            "ObjectType": "organization.organization_member",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "organization.organization_committee_membership.committee",
+            "Name": "Committee",
+            "Description": "The committee this person is or was a member of.",
+            "ObjectType": "organization.organization_committee",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "Id": "medicine.drug_label_section",
+    "Name": "Drug label section",
+    "Description": "Section of a drug label",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.drug_label_section.prominent_warning",
+            "Name": "Prominent warning",
+            "Description": "If Y, this section is a prominent warning, such as an FDA \"boxed warning\"",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.drug_label_section.section_loinc_code",
+            "Name": "Section LOINC code",
+            "Description": "If available, a LOINC code describing the contents of the section.",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.drug_label_section.section_name",
+            "Name": "Section name",
+            "Description": "Name of the label section, such as Indications, Contraindications, etc.",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "medicine.drug_label_section.section_text",
+            "Name": "Highlight text",
+            "Description": "Human-readable highlight text for the label section, if available.",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "medicine.drug_label_section.section_uri",
+            "Name": "Section URI",
+            "Description": "Direct link to the section in an online version of the drug label",
+            "ObjectType": "type.uri",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

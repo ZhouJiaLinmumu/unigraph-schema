@@ -1,0 +1,12 @@
+{
+    "Id": "film.film_set_designer",
+    "Name": "Film set decorator",
+    "Description": "A set decorator is in charge of the set dressing on a film set, which includes the furnishings, wallpaper, lighting fixtures, and many of the other objects that will be seen in the film. A set decorator works in conjunction with the props master under a production designer.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

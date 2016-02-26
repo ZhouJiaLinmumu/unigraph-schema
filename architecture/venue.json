@@ -1,0 +1,21 @@
+{
+    "Id": "architecture.venue",
+    "Name": "Venue",
+    "Description": "A venue is any location that people can go to in order to watch something, such as a film or a performance. Examples of venues include movie theaters, concert halls, theaters, auditoriums, and opera houses.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "architecture.venue.capacity",
+            "Name": "Seating capacity",
+            "Description": "The current maximum number of people that this venue can seat.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

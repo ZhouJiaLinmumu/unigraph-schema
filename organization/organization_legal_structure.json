@@ -1,0 +1,11 @@
+{
+    "Id": "organization.organization_legal_structure",
+    "Name": "Organization legal structure",
+    "Description": "Designation or classification of company generally having to do with differing legal or tax status. It can vary by country and region.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

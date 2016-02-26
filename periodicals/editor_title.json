@@ -1,0 +1,11 @@
+{
+    "Id": "periodicals.editor_title",
+    "Name": "Editor title",
+    "Description": "This type holds the titles of editors of periodicals.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

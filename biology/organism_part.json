@@ -1,0 +1,20 @@
+{
+    "Id": "biology.organism_part",
+    "Name": "Organism part",
+    "Description": "An organism part is a specific structure or part of an organism (e.g. a plant or animal) that is or has been used by humans for such things as food, medicine, textiles, manufacturing, rituals, etc. Organism parts are specific to a classification of organisms, rather than general structures. For example, \"apple\" rather than \"fruit\", or \"cow tongue\" rather than \"tongue\". Note that this type can include both general parts, such as \"beef\" (the muscles and fat of cattle) and more specific parts, such as cuts of beef.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "biology.organism_part.from_organism",
+            "Name": "From organism",
+            "Description": "The classification of organism that this part comes from. E.g. the apple fruit comes from the apple tree (Malus domestica).",
+            "ObjectType": "biology.source_organism",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

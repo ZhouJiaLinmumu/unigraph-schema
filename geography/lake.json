@@ -1,0 +1,103 @@
+{
+    "Id": "geography.lake",
+    "Name": "Lake",
+    "Description": "A lake is a body of water surrounded entirely by land. For the purposes of this schema, any such body, regardless of size, should be considered a lake. Thisincludes ponds, but excludes such bodies as marshes, bogs, fens, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "geography.body_of_water",
+        "location.location",
+        "geography.geographical_feature",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "geography.lake.basin_countries",
+            "Name": "Basin countries",
+            "Description": "",
+            "ObjectType": "geography.basin_country",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "geography.lake.catchment_area",
+            "Name": "Catchment area",
+            "Description": "",
+            "ObjectType": "measured_dimension.area",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "geography.lake.cities",
+            "Name": "Cities",
+            "Description": "Cities on the shore of this lake.",
+            "ObjectType": "geography.basin_citytown",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "geography.lake.inflow",
+            "Name": "Inflow source(s)",
+            "Description": "",
+            "ObjectType": "geography.body_of_water",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "geography.lake.lake_type",
+            "Name": "Lake Type",
+            "Description": "",
+            "ObjectType": "geography.lake_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "geography.lake.length",
+            "Name": "Max. length",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "geography.lake.no_islands",
+            "Name": "Number of islands (approx.)",
+            "Description": "The approximate number of islands in this lake.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "geography.lake.outflow",
+            "Name": "Outflow location",
+            "Description": "",
+            "ObjectType": "geography.body_of_water",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "geography.lake.shore_length",
+            "Name": "Shore length",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "geography.lake.surface_elevation",
+            "Name": "Surface elevation",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "geography.lake.width",
+            "Name": "Max. width",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

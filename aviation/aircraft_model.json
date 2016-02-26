@@ -1,0 +1,156 @@
+{
+    "Id": "aviation.aircraft_model",
+    "Name": "Aircraft model",
+    "Description": "The aircraft model type refers to a specific commercial model of machines capable of atmospheric flight. This type includes models of both manned and unmanned aircraft.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "aviation.aircraft_model.aircraft_type",
+            "Name": "Aircraft type",
+            "Description": "",
+            "ObjectType": "aviation.aircraft_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.cargo_capacity",
+            "Name": "Cargo Capacity",
+            "Description": "",
+            "ObjectType": "measured_dimension.volume",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.cruise_speed",
+            "Name": "Cruise Speed",
+            "Description": "",
+            "ObjectType": "measured_dimension.speed",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.engine_type",
+            "Name": "Engine Type",
+            "Description": "",
+            "ObjectType": "aviation.aircraft_engine_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.introduced",
+            "Name": "Introduced",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.length",
+            "Name": "Length",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.maiden_flight",
+            "Name": "Maiden flight",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.max_speed",
+            "Name": "Maximum Speed",
+            "Description": "",
+            "ObjectType": "measured_dimension.speed",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.number_built",
+            "Name": "Number built",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.passengers",
+            "Name": "Passenger Capacity",
+            "Description": "",
+            "ObjectType": "measured_dimension.integer_range",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.range",
+            "Name": "Range",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.retired",
+            "Name": "Retired",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.status",
+            "Name": "Military Use",
+            "Description": "",
+            "ObjectType": "aviation.aircraft_status",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.unit_cost",
+            "Name": "Unit cost",
+            "Description": "",
+            "ObjectType": "measured_dimension.monetary_range",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.variants",
+            "Name": "Variants",
+            "Description": "",
+            "ObjectType": "aviation.aircraft_model",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.wingspan",
+            "Name": "Wingspan",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.designer",
+            "Name": "Designed by",
+            "Description": "",
+            "ObjectType": "aviation.aircraft_designer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "aviation.aircraft_model.part_of_line",
+            "Name": "Part Of Line",
+            "Description": "",
+            "ObjectType": "aviation.aircraft_line",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

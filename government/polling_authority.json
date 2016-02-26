@@ -1,0 +1,11 @@
+{
+    "Id": "government.polling_authority",
+    "Name": "Polling authority",
+    "Description": "A polling authority is an organization that conducts polls.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

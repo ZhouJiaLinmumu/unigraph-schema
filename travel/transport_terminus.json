@@ -1,0 +1,11 @@
+{
+    "Id": "travel.transport_terminus",
+    "Name": "Transport terminus",
+    "Description": "A transport terminus is an embarkation point for passengers travelling to or from a destination.  These are normally airports, ferry ports, bus terminals or railway stations.  An example would be Heathrow Airport.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

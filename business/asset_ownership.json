@@ -1,0 +1,50 @@
+{
+    "Id": "business.asset_ownership",
+    "Name": "Asset Ownership",
+    "Description": "This compound value type can be used to capture the details of a joint venture.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.asset_ownership.start_date",
+            "Name": "From",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.asset_ownership.asset",
+            "Name": "Owned Asset",
+            "Description": "",
+            "ObjectType": "business.asset",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "business.asset_ownership.owner",
+            "Name": "Owner",
+            "Description": "",
+            "ObjectType": "business.asset_owner",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "business.asset_ownership.ownership_percentage",
+            "Name": "Percentage ownership",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.asset_ownership.end_date",
+            "Name": "To",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

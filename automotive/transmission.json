@@ -1,0 +1,52 @@
+{
+    "Id": "automotive.transmission",
+    "Name": "Transmission",
+    "Description": "",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": [
+        {
+            "Id": "automotive.transmission.forward_gears",
+            "Name": "Number Of Forward Gears",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.transmission.reverse_gears",
+            "Name": "Number Of Reverse Gears",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.transmission.overdrive",
+            "Name": "Overdrive",
+            "Description": "",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.transmission.shift_selection",
+            "Name": "Select Shift",
+            "Description": "",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.transmission.used_in",
+            "Name": "Used In",
+            "Description": "",
+            "ObjectType": "automotive.model_year",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

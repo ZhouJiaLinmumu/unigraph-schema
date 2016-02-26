@@ -1,0 +1,11 @@
+{
+    "Id": "computer.software_developer",
+    "Name": "Software Developer",
+    "Description": "Any entity (person, company or anything else) which has developed computer software (other than games; they use the Computer Game Developer type).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

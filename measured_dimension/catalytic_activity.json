@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.catalytic_activity",
+    "Name": "Catalytic activity",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.catalytic_activity.measurement_unit",
+            "Name": "Unit of Catalytic activity",
+            "Description": "",
+            "ObjectType": "measured_dimension.catalytic_activity_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.catalytic_activity.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

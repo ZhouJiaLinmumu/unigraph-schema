@@ -1,0 +1,12 @@
+{
+    "Id": "location.religion",
+    "Name": "Religion",
+    "Description": "The religion or religions with followers on this location",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "religion.religion",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

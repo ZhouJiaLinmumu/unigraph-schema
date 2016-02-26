@@ -1,0 +1,34 @@
+{
+    "Id": "automotive.warranty",
+    "Name": "Warranty",
+    "Description": "Mediator type that links warranty information like coverage, mileage limit and year limit data.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "automotive.warranty.covers",
+            "Name": "Covers",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "automotive.warranty.mileage_limit",
+            "Name": "Mileage Limit",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "automotive.warranty.year_limit",
+            "Name": "Year Limit",
+            "Description": "",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

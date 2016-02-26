@@ -1,0 +1,20 @@
+{
+    "Id": "computer.peripheral_class",
+    "Name": "Computer Peripheral Class",
+    "Description": "A generic class of peripherals, for example \"joystick\" or \"light gun\". Specific peripherals should use the Computer Peripheral type.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": [
+        {
+            "Id": "computer.peripheral_class.instances",
+            "Name": "Instances",
+            "Description": "Peripheral classes that are more specific than this one, but aren't yet at the Consumer Product level.",
+            "ObjectType": "computer.peripheral_class",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

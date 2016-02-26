@@ -1,0 +1,11 @@
+{
+    "Id": "aviation.airport_type",
+    "Name": "Airport type",
+    "Description": "Airport type represents either public airports or governmental (military) airports.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

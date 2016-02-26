@@ -1,0 +1,12 @@
+{
+    "Id": "people.geographic_distribution",
+    "Name": "Geographic distribution",
+    "Description": "The geographical area where an ethnical group spread.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

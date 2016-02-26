@@ -1,0 +1,68 @@
+{
+    "Id": "business.issue",
+    "Name": "Issue",
+    "Description": "An issue represents stock or debt issued by a corporation. Many issues are traded on public exchanges.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.issue.cancellation_date",
+            "Name": "Cancellation date",
+            "Description": "The date after which this issue was no longer valid.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.issue.first_issued",
+            "Name": "First issued",
+            "Description": "The date that this issue was first issued.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.issue.market_capitalization",
+            "Name": "Market capitalization",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.issue.shares_floating",
+            "Name": "Shares floating",
+            "Description": "The number of shares that are available for public trading in a market.",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.issue.shares_outstanding",
+            "Name": "Shares outstanding",
+            "Description": "The number of shares held by investors, including shares held by the public as well as restricted shares held by the company's insiders (e.g. employees and executives).",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.issue.trading_symbol",
+            "Name": "Trading symbol",
+            "Description": "",
+            "ObjectType": "business.stock_ticker",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.issue.type_of_issue",
+            "Name": "Type of Issue",
+            "Description": "",
+            "ObjectType": "business.issue_type",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

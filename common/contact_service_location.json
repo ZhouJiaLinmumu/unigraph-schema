@@ -1,0 +1,12 @@
+{
+    "Id": "common.contact_service_location",
+    "Name": "Contact service location",
+    "Description": "The location served by the contact medium (phone, email, website etc). E.g. dedicated customer support for EU clients might be different from this for the US and Asia.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

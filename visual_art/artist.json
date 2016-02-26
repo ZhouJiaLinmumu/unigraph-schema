@@ -1,0 +1,29 @@
+{
+    "Id": "visual_art.artist",
+    "Name": "Visual Artist",
+    "Description": "A visual artist is anyone (including people, animals, groups or companies) that has created a  visual artwork. For more information, please see the UniGraph wiki page on visual artist.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "visual_art.artist.art_forms",
+            "Name": "Art Forms",
+            "Description": "The medium or form of expression the artist chooses to employ. Examples: photography, painting, sculpture, etc.",
+            "ObjectType": "visual_art.form",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "visual_art.artist.periods_or_movements",
+            "Name": "Associated periods or movements",
+            "Description": "The school or style of the artwork, commonly associated with a distinct period in history, and often end in \"-ism\". Examples: Impressionism, Cubism, Expressionism.",
+            "ObjectType": "visual_art.period_movement",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

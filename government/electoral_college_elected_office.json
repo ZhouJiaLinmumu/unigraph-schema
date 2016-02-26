@@ -1,0 +1,42 @@
+{
+    "Id": "government.electoral_college_elected_office",
+    "Name": "Electoral college elected office",
+    "Description": "This is a compound-value type that holds information about which offices are elected by electoral colleges (that is via indirect election), and over what periods.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "government.electoral_college_elected_office.start_date",
+            "Name": "From",
+            "Description": "The date of the first election in which this electoral college voted for this office.  (Some offices have changed from being indirectly to directly elected or vice versa.)",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "government.electoral_college_elected_office.office",
+            "Name": "Office",
+            "Description": "The office that this electoral college is (or was) responsible for electing.",
+            "ObjectType": "government.government_office_or_title",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.electoral_college_elected_office.end_date",
+            "Name": "To",
+            "Description": "The date of the final election in which this electoral college voted for this office. Only enter a value here if this office is no longer elected by this body; reasons for this can include a change from indirect to direct elections, a change in which electoral college casts the votes, or the dissolution of this office.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.electoral_college_elected_office.electoral_college",
+            "Name": "Electoral college",
+            "Description": "The electoral college that elects this office.",
+            "ObjectType": "government.electoral_college",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

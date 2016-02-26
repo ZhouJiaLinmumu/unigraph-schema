@@ -1,0 +1,12 @@
+{
+    "Id": "measured_dimension.currency",
+    "Name": "Currency",
+    "Description": "A currency is money that is used (or has been used) as a medium of exchange. Additional information about currency is defined in finance.currency",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "finance.currency"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

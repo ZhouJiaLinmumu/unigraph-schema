@@ -1,0 +1,11 @@
+{
+    "Id": "organization.contact_category",
+    "Name": "Contact category",
+    "Description": "This type is used to categorize or disambiguate different types of information or services one might seek when contacting (such as by phone or email). It will frequently correspond to a department or function within an organization (such as customer service).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

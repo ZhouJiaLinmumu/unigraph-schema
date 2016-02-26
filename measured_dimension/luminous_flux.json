@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.luminous_flux",
+    "Name": "Luminous flux",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.luminous_flux.measurement_unit",
+            "Name": "Unit of Luminous flux",
+            "Description": "",
+            "ObjectType": "measured_dimension.luminous_flux_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.luminous_flux.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

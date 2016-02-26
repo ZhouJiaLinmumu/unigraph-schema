@@ -1,0 +1,11 @@
+{
+    "Id": "opera.opera_recording",
+    "Name": "Opera Recording",
+    "Description": "A recording of an opera's music. It can be either a recording of a particular production of an opera, or simply a recording of the score by people outside of a production.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

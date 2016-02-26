@@ -1,0 +1,12 @@
+{
+    "Id": "time.event",
+    "Name": "Event",
+    "Description": "A specific event occurring through time.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "event.event"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

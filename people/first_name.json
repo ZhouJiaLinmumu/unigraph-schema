@@ -1,0 +1,11 @@
+{
+    "Id": "people.first_name",
+    "Name": "First Name",
+    "Description": "The first name given to a person.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

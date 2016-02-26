@@ -1,0 +1,11 @@
+{
+    "Id": "book.poem_character",
+    "Name": "Poem character",
+    "Description": "This type is for characters who appear in poems.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

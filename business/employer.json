@@ -1,0 +1,20 @@
+{
+    "Id": "business.employer",
+    "Name": "Employer",
+    "Description": "An employer is any entity that can or has paid people to work for it.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.employer.number_of_employees",
+            "Name": "Number of employees",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "Id": "type.datetime",
+    "Name": "Date/Time",
+    "Description": "The concept type of dates.",
+    "Mediator": false,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": null
+}

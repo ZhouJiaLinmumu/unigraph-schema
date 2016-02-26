@@ -1,0 +1,13 @@
+{
+    "Id": "medicine.drug_manufacturer",
+    "Name": "Drug manufacturer",
+    "Description": "A manufacturer, distributor, or marketer of human medical drugs / drug formulations.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization",
+        "business.consumer_company"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

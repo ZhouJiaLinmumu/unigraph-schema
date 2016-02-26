@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.specific_volume",
+    "Name": "Specific volume",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.specific_volume.measurement_unit",
+            "Name": "Unit of Specific volume",
+            "Description": "",
+            "ObjectType": "measured_dimension.specific_volume_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.specific_volume.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

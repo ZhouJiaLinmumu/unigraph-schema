@@ -1,0 +1,11 @@
+{
+    "Id": "business.issue_type",
+    "Name": "Issue Type",
+    "Description": "An issue type is a kind of security, such as common stock, preferred stock, bond, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

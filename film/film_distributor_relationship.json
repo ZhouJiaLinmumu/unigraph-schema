@@ -1,0 +1,58 @@
+{
+    "Id": "film.film_distributor_relationship",
+    "Name": "Film distributor relationship",
+    "Description": "This type connects films and their distributors in different regions and locations.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "film.film_distributor_relationship.distributor",
+            "Name": "Distributor",
+            "Description": "",
+            "ObjectType": "film.distributor",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "film.film_distributor_relationship.film",
+            "Name": "Film",
+            "Description": "",
+            "ObjectType": "film.film",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "film.film_distributor_relationship.film_cut",
+            "Name": "Film cut",
+            "Description": "",
+            "ObjectType": "film.film_cut_type",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.film_distributor_relationship.film_distribution_medium",
+            "Name": "Film distribution medium",
+            "Description": "",
+            "ObjectType": "film.distribution_medium",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.film_distributor_relationship.region",
+            "Name": "Region",
+            "Description": "",
+            "ObjectType": "film.film_release_region",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "film.film_distributor_relationship.year",
+            "Name": "Year",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

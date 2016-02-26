@@ -1,0 +1,12 @@
+{
+    "Id": "medicine.ethnicity",
+    "Name": "Ethnicity",
+    "Description": "A type that links particular ethnicity to a medical condition, trial, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.ethnicity"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

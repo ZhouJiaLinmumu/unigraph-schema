@@ -1,0 +1,12 @@
+{
+    "Id": "film.editor",
+    "Name": "Film editor",
+    "Description": "The Film Editor type includes people who have edited films.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

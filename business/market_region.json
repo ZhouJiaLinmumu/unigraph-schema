@@ -1,0 +1,12 @@
+{
+    "Id": "business.market_region",
+    "Name": "Market region",
+    "Description": "Region",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "venture_capital.investment_round",
+    "Name": "Investment Round",
+    "Description": "An investment round is a securities offering by which a company seeks to raise capital.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

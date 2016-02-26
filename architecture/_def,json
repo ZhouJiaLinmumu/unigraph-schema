@@ -1,0 +1,5 @@
+{
+  "Id": "architecture",
+  "Name": "Architecture",
+  "Description": "This is the domain for Architecture and the Built Environment. The key type is \"Structure\" which encompasses all built things: from houses to skyscrapers. ArchiPortal (generation 2) is a google map mashup: a window into the UniGraph architecture data.We encourage you to add data!"
+}

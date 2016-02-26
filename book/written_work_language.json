@@ -1,0 +1,12 @@
+{
+    "Id": "book.written_work_language",
+    "Name": "Written Work Language",
+    "Description": "The language(s) in which a written work was originally composed.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "language.human_language"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

@@ -1,0 +1,28 @@
+{
+    "Id": "music.recording_cluster",
+    "Name": "Recording Cluster",
+    "Description": "A recording cluster represents all recordings of a particular work by a particular artist. For example, the song \"Yesterday\" as recorded (multiple times) by The Beatles is one recording cluster; each of the many artists who have also recorded \"Yesterday\" would have their own cluster for their versions.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.recording_cluster.primary_recording",
+            "Name": "Primary recording",
+            "Description": "The recording in this cluster that is considered \"primary\".",
+            "ObjectType": "music.recording",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "music.recording_cluster.recordings",
+            "Name": "Recordings",
+            "Description": "Recordings in this cluster.",
+            "ObjectType": "music.recording",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

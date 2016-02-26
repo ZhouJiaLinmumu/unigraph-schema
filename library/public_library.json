@@ -1,0 +1,44 @@
+{
+    "Id": "library.public_library",
+    "Name": "Public Library",
+    "Description": "A public library is a library that is accessible to the public and is generally supported by public funds. A topic of this type refers to a physical library building, whether it be a central library or a branch library. Library statistics such as circulation and collection size are almost always reported at the system-wide level, so belong to the Public Library System type.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "library.public_library.address",
+            "Name": "Address",
+            "Description": "",
+            "ObjectType": "location.mailing_address",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "library.public_library.established_in",
+            "Name": "Established in",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "library.public_library.library_system",
+            "Name": "Library System",
+            "Description": "",
+            "ObjectType": "library.public_library_system",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "library.public_library.phone_number",
+            "Name": "Phone Number",
+            "Description": "",
+            "ObjectType": "common.phone_number",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

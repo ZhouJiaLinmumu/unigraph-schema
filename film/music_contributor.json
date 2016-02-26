@@ -1,0 +1,11 @@
+{
+    "Id": "film.music_contributor",
+    "Name": "Film music contributor",
+    "Description": "The Film Music Contributor type includes people who have composed music for a film. This may also include people who composed works long before the film was made (such as classical composers.)",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

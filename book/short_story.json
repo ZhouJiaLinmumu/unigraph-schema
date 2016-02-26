@@ -1,0 +1,13 @@
+{
+    "Id": "book.short_story",
+    "Name": "Short Story",
+    "Description": "The \"short story\" type is for works of prose fiction that are shorter than a novel in length.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "book.written_work",
+        "book.published_work"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

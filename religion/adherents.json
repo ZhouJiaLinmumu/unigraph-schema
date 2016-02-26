@@ -1,0 +1,11 @@
+{
+    "Id": "religion.adherents",
+    "Name": "Adherents",
+    "Description": "This type is for the collective group of people who subscribe to a religion. (E.g. Catholics, Buddhists, Muslims, etc.)",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

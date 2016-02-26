@@ -1,0 +1,26 @@
+{
+    "Id": "organization.email_contact",
+    "Name": "Email contact",
+    "Description": "This type is used to associate an entity of some kind (typically an organization) to an email address, and allows for a description of the kind of email address it is (such as customer service or human resources).",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "organization.email_contact.category",
+            "Name": "Category",
+            "Description": "The type of email address this is. For example, a company might have different email addresses for general information, customer service, and human resources.",
+            "ObjectType": "organization.contact_category",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "organization.email_contact.email_address",
+            "Name": "Email address",
+            "Description": "An email address",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

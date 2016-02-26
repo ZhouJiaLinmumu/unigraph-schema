@@ -1,0 +1,12 @@
+{
+    "Id": "theater.actor",
+    "Name": "Theater Actor",
+    "Description": "People who have performed in a play or musical.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

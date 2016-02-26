@@ -1,0 +1,11 @@
+{
+    "Id": "film.distribution_medium",
+    "Name": "Film distribution medium",
+    "Description": "A film distribution medium is any way in which a film has been distributed, including theatrical release, television, streaming, as well as various home video formats such as VHS and DVD.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

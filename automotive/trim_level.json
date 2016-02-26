@@ -1,0 +1,276 @@
+{
+    "Id": "automotive.trim_level",
+    "Name": "Trim Level",
+    "Description": "A trim level is a version or level of a particular automotive model year. Trim levels are usually defined by different combinations of dimensions, equipment, driveline, engine, transmission, top speed and acceleration.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "automotive.trim_level.acceleration",
+            "Name": "Acceleration",
+            "Description": "The time in seconds it takes this trim level to go from 0 to 100 km/hr",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.cargo_volume",
+            "Name": "Cargo Volume",
+            "Description": "The cargo volume",
+            "ObjectType": "measured_dimension.volume",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.doors",
+            "Name": "Number of doors",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.driveline",
+            "Name": "Driveline",
+            "Description": "",
+            "ObjectType": "automotive.driveline",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.engine",
+            "Name": "Engine",
+            "Description": "The engine associated with this trim level",
+            "ObjectType": "automotive.engine",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.exterior_colors",
+            "Name": "Exterior Colors",
+            "Description": "",
+            "ObjectType": "automotive.exterior_color",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.front_headroom",
+            "Name": "Front Headroom",
+            "Description": "The front headroom",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.front_legroom",
+            "Name": "Front Legroom",
+            "Description": "The front legroom",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.front_shoulder_room",
+            "Name": "Front Shoulder Room",
+            "Description": "The front shoulder room",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.front_track",
+            "Name": "Front Track",
+            "Description": "The width from the center of the left front tire's tracks to the center of the right front tire's tracks",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.ground_clearance",
+            "Name": "Ground Clearance",
+            "Description": "The ground clearance",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.height",
+            "Name": "Height",
+            "Description": "The overall height (unladen)",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.hybrid",
+            "Name": "Hybrid",
+            "Description": "Choose Yes if this trim level uses two or more distinct power sources to propel the vehicle",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.interior",
+            "Name": "Interior",
+            "Description": "",
+            "ObjectType": "automotive.upholstery",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.length",
+            "Name": "Length",
+            "Description": "The overall length",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.max_cargo_volume",
+            "Name": "Maximum Cargo Volume",
+            "Description": "The maximum cargo volume",
+            "ObjectType": "measured_dimension.volume",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.max_passengers",
+            "Name": "Maximum Number of Passengers",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.model_year",
+            "Name": "Model Year",
+            "Description": "",
+            "ObjectType": "automotive.model_year",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.msrp",
+            "Name": "MSRP",
+            "Description": "The manufacturer's suggested retail price for this trim level, without any additional options.",
+            "ObjectType": "measured_dimension.currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.option_package",
+            "Name": "Option Packages",
+            "Description": "",
+            "ObjectType": "automotive.option_package",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.options",
+            "Name": "Options",
+            "Description": "",
+            "ObjectType": "automotive.opt_trim_relationship",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.passenger_volume",
+            "Name": "Passenger Volume",
+            "Description": "The passenger volume",
+            "ObjectType": "measured_dimension.volume",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.rear_headroom",
+            "Name": "Rear Headroom",
+            "Description": "The rear headroom",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.rear_legroom",
+            "Name": "Rear Legroom",
+            "Description": "The rear legroom",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.rear_shoulder_room",
+            "Name": "Rear Shoulder Room",
+            "Description": "The rear shoulder room",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.rear_track",
+            "Name": "Rear Track",
+            "Description": "The width from the center of the left rear tire's tracks to the center of the right rear tire's tracks",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.top_speed",
+            "Name": "Top Speed",
+            "Description": "",
+            "ObjectType": "measured_dimension.speed",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.transmission",
+            "Name": "Transmission",
+            "Description": "The transmission associated with this trim level",
+            "ObjectType": "automotive.transmission",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.fuel_economy",
+            "Name": "US Fuel Economy",
+            "Description": "",
+            "ObjectType": "automotive.fuel_economy",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.weight",
+            "Name": "Base Curb Weight",
+            "Description": "The base curb weight",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.wheelbase",
+            "Name": "Wheelbase",
+            "Description": "The length of the wheelbase",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.width",
+            "Name": "Width",
+            "Description": "The overall width",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.trim_level.year",
+            "Name": "Year",
+            "Description": "The year this trim level was released, as designated by the manufacturer",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Id": "automotive.piston_engine",
+    "Name": "Piston Engine",
+    "Description": "This engine type describes internal combustion engines with piston configuration",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "engineering.piston_engine"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "automotive.piston_engine.forced_induction",
+            "Name": "Forced Induction",
+            "Description": "",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

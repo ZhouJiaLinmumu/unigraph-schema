@@ -1,0 +1,12 @@
+{
+    "Id": "music.composition_language",
+    "Name": "Composition",
+    "Description": "The language or languages of the lyrics to a composition.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "language.human_language"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "people.rise_to_prominence",
+    "Name": "Family Rise to Prominence",
+    "Description": "The period such as Renaissance during which a family became powerful and important",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "event.event"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,50 @@
+{
+    "Id": "type.object",
+    "Name": "Object",
+    "Description": "The most basic type in the system. This type contains the primitives necessary for UniGraph to function, and the details of the stuff (permission, creator, timestamp, id) contained directly in the primitives.",
+    "Mediator": false,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "type.object.creator",
+            "Name": "Creator",
+            "Description": "The user who initially created this object",
+            "ObjectType": "type.user",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "type.object.name",
+            "Name": "Name",
+            "Description": "A textual display name",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "type.object.permission",
+            "Name": "Permission",
+            "Description": "The users and usergroups who have write permissions for this object.",
+            "ObjectType": "type.usergroup",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "type.object.timestamp",
+            "Name": "Timestamp",
+            "Description": "The creation time of this primitive.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "type.object.type",
+            "Name": "Type",
+            "Description": "A type is a group of properties that describe a topic",
+            "ObjectType": "type.type",
+            "Unique": false,
+            "Required": true
+        }
+    ]
+}

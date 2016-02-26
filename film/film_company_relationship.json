@@ -1,0 +1,42 @@
+{
+    "Id": "film.film_company_relationship",
+    "Name": "Film company relationship",
+    "Description": "This type connects films to the various companies that working on their production.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "film.film_company_relationship.film",
+            "Name": "Film",
+            "Description": "",
+            "ObjectType": "film.film",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "film.film_company_relationship.film_company",
+            "Name": "Film company",
+            "Description": "",
+            "ObjectType": "film.film_company",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "film.film_company_relationship.film_cut",
+            "Name": "Film cut",
+            "Description": "",
+            "ObjectType": "film.film_cut_type",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.film_company_relationship.role_service",
+            "Name": "Role/service",
+            "Description": "",
+            "ObjectType": "film.film_company_role_or_service",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "computer.content_license",
+    "Name": "Content License",
+    "Description": "Type of license that denotes the rights and restrictions of usage of the content.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

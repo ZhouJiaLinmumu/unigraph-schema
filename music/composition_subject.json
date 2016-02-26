@@ -1,0 +1,12 @@
+{
+    "Id": "music.composition_subject",
+    "Name": "Composition",
+    "Description": "Topics of a composition, musical or lyrical.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "book.written_work_subject"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

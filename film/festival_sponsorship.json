@@ -1,0 +1,42 @@
+{
+    "Id": "film.festival_sponsorship",
+    "Name": "Film festival sponsorship",
+    "Description": "This is a compound-value type that holds information about the relationship between film festivals and the organizations that put them on.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "film.festival_sponsorship.start_date",
+            "Name": "From",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.festival_sponsorship.end_date",
+            "Name": "To",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.festival_sponsorship.festival",
+            "Name": "Festival",
+            "Description": "The name of the festival being sponsored.",
+            "ObjectType": "film.festival",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "film.festival_sponsorship.sponsor",
+            "Name": "Sponsor",
+            "Description": "The group that organized the festival.",
+            "ObjectType": "film.festival_sponsor",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "Id": "conferences.conference",
+    "Name": "Conference event",
+    "Description": "A particular instance of a recurring conference, like Linuxfest'09  or '5th Annual meeting of the Peru Veterinary Association'. May be used independently if there is only one meeting. A conference is an event whose primary focus is verbal presentation or discussion. Speaker information is handled by /event/public_speaking_event",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "time.event",
+        "event.public_speaking_event",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "conferences.conference.focus",
+            "Name": "Focus",
+            "Description": "Specific topic or subject, especially for conferences with a new specific focus each year",
+            "ObjectType": "conferences.subject",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "conferences.conference.series",
+            "Name": "Part of conference series",
+            "Description": "If this conference is part of a recurring series of conferences, enter the series name here. For example, TED 2008 is part of the TED series of conferences.",
+            "ObjectType": "conferences.series",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "conferences.conference.venue",
+            "Name": "Venue",
+            "Description": "The venue in which this conference was held. Please be specific; this should not simply be a city.",
+            "ObjectType": "conferences.venue",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "conferences.conference_series.sponsor",
+            "Name": "Sponsoring organization",
+            "Description": "The organization (company, group, agency, etc.) that sponsors or puts on the conference or convention.",
+            "ObjectType": "conferences.sponsor",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

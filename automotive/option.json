@@ -1,0 +1,11 @@
+{
+    "Id": "automotive.option",
+    "Name": "Option",
+    "Description": "The additional part, modification or equipment available in the option package for an automobile.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

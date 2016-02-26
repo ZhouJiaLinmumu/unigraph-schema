@@ -1,0 +1,13 @@
+{
+    "Id": "periodicals.publisher",
+    "Name": "Periodical Publisher",
+    "Description": "A periodical publisher is a company or organization that publishes a magazine, newspaper, journal, or other periodical publication.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization",
+        "business.employer"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

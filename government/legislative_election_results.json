@@ -1,0 +1,34 @@
+{
+    "Id": "government.legislative_election_results",
+    "Name": "Legislative election results",
+    "Description": "This is a compound-value type that holds the number of seats won by each party in a legislative election.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "government.legislative_election_results.legislature",
+            "Name": "Legislature",
+            "Description": "The legislature the election is for. The legislature must be entered in each line.",
+            "ObjectType": "government.governmental_body",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "government.legislative_election_results.number_of_seats",
+            "Name": "Number of seats",
+            "Description": "The number of seats won by this party in this legislature in this election.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "government.legislative_election_results.party",
+            "Name": "Party",
+            "Description": "",
+            "ObjectType": "government.political_party",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

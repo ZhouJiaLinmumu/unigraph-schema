@@ -1,0 +1,11 @@
+{
+    "Id": "biology.gene_ontology_group_type",
+    "Name": "Gene Ontology Group Type",
+    "Description": "The kind of process used to categorize a gene ontological group by biological processes, cellular components and molecular functions.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

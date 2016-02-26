@@ -1,0 +1,21 @@
+{
+    "Id": "sports.championship",
+    "Name": "Sports League Championship",
+    "Description": "The tournament used to determine the winner or winners of a sports league or other tournament. This type represents the general concept, for example the World Series. Specific instances of one team playing others should use the Sports League Championship Event type.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "event.recurring_event",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "sports.championship.events",
+            "Name": "Events",
+            "Description": "",
+            "ObjectType": "sports.championship_event",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

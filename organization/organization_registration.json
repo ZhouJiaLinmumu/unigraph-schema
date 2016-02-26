@@ -1,0 +1,42 @@
+{
+    "Id": "organization.organization_registration",
+    "Name": "Registered Organization",
+    "Description": "A compound value type containing the information about the registering authority, date and identifier of the registered organization.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "organization.organization_registration.id",
+            "Name": "ID",
+            "Description": "The identification number",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization_registration.organization",
+            "Name": "Registered Organization",
+            "Description": "",
+            "ObjectType": "organization.registered_organization",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "organization.organization_registration.authority",
+            "Name": "Registration Authority",
+            "Description": "",
+            "ObjectType": "organization.registration_authority",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "organization.organization_registration.registration_date",
+            "Name": "Registration date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

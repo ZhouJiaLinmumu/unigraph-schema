@@ -1,0 +1,77 @@
+{
+    "Id": "opera.opera",
+    "Name": "Opera",
+    "Description": "An opera is an art form which combines written text (the libretto) and a musical score. This type includes operas of all kinds, including operettas.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "music.composition",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "opera.opera.composer",
+            "Name": "Composer",
+            "Description": "",
+            "ObjectType": "opera.composer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "opera.opera.date_of_first_performance",
+            "Name": "Date of First Performance",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "opera.opera.date_written",
+            "Name": "Date Written",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "opera.opera.genre",
+            "Name": "Genre",
+            "Description": "",
+            "ObjectType": "opera.genre",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "opera.opera.language",
+            "Name": "Language",
+            "Description": "",
+            "ObjectType": "opera.opera_language",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "opera.opera.librettist",
+            "Name": "Librettist",
+            "Description": "",
+            "ObjectType": "opera.librettist",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "opera.opera.premiere_production",
+            "Name": "Premiere production",
+            "Description": "The first production of this opera.",
+            "ObjectType": "opera.production",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "opera.opera.recordings",
+            "Name": "Recordings",
+            "Description": "",
+            "ObjectType": "opera.opera_recording",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

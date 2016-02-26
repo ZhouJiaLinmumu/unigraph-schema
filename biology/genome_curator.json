@@ -1,0 +1,12 @@
+{
+    "Id": "biology.genome_curator",
+    "Name": "Genome Curator",
+    "Description": "Organization responsible for the genome build.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.volumetric_flow_rate",
+    "Name": "Volumetric flow rate",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.volumetric_flow_rate.measurement_unit",
+            "Name": "Unit of Volumetric flow rate",
+            "Description": "",
+            "ObjectType": "measured_dimension.volumetric_flow_rate_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.volumetric_flow_rate.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

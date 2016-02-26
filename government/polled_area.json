@@ -1,0 +1,12 @@
+{
+    "Id": "government.polled_area",
+    "Name": "Polled area",
+    "Description": "A Polled Area is the area in which the respondents of an election poll live.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

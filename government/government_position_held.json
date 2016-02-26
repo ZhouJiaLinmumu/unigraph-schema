@@ -1,0 +1,98 @@
+{
+    "Id": "government.government_position_held",
+    "Name": "Government Position Held",
+    "Description": "This is a compound-value type that connects information about a politician and the offices he or she has held.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "government.government_position_held.appointed_by",
+            "Name": "Appointed By (if Position is Appointed)",
+            "Description": "For appointees only, the name of the person or body that appointed them to this position; otherwise, blank.",
+            "ObjectType": "government.political_appointer",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.government_position_held.identification_number",
+            "Name": "ID",
+            "Description": "ID if given. Such as US senate ID",
+            "ObjectType": "government.governmental_identification_number",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.government_position_held.basic_title",
+            "Name": "Basic title",
+            "Description": "The basic title or role of the office, without the name of the jurisdiction or other qualification. E.g., \"Prime Minister\" rather than \"Prime Minister of Canada\" or \"Senator\" rather than \"U. S. Senator\".",
+            "ObjectType": "government.government_office_category",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.government_position_held.district_represented",
+            "Name": "District represented (if position is district-related)",
+            "Description": "The value if the position is related to a district, precinct, constituency, riding, etc. (e.g., the California 8th district). This is not the same as the jurisdiction of the office held; do NOT, for example, the name of the city if the information is for a mayor.",
+            "ObjectType": "government.political_district",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.government_position_held.start_date",
+            "Name": "From",
+            "Description": "The date when the officeholder started working in this government position.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.government_position_held.governmental_body",
+            "Name": "Governmental body (if position is part of one)",
+            "Description": "If the position held is part of a body of some kind, such as a legislature, enter that here. Otherwise, leave blank.",
+            "ObjectType": "government.governmental_body",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "government.government_position_held.jurisdiction_of_office",
+            "Name": "Jurisdiction of office",
+            "Description": "The area over which the office or position has jurisdiction; for national offices, this should be the country; for local offices, the city or municipality; etc.",
+            "ObjectType": "government.governmental_jurisdiction",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.government_position_held.legislative_sessions",
+            "Name": "Legislative sessions",
+            "Description": "For members of legislative bodies ONLY, the sessions for which they held this office. Consecutive sessions only; non-consecutive sessions should be captured in separate instances.",
+            "ObjectType": "government.legislative_session",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.government_position_held.office_holder",
+            "Name": "Officeholder",
+            "Description": "The politician who held this government position.",
+            "ObjectType": "government.politician",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "government.government_position_held.office_position_or_title",
+            "Name": "Office, position, or title",
+            "Description": "The name of the office (e.g., \"Prime Minister of Canada\") or the title of the position (e.g., U.S. Senator). The full name of the position, and include office's jurisdiction (e.g., \"Mayor of Queensborough\" rather than just \"Mayor\"); this will prevent us from having thousands of different topics for \"Mayor\", each with a different jurisdiction.",
+            "ObjectType": "government.government_office_or_title",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.government_position_held.end_date",
+            "Name": "To",
+            "Description": "The date when the officeholder ceasedworking in this government position.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

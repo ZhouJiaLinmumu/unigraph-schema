@@ -1,0 +1,36 @@
+{
+    "Id": "event.recurring_event",
+    "Name": "Recurring event",
+    "Description": "A Recurring Event represents a series of individual related events. An example is a film festival - the Berlin Film Festival is a recurring event; individual festivals, such as 1952 Berlin Film Festival, would then be typed as Events, and linked in with the \"instances\" property of Recurring Event. Other examples of recurring events include conferences, conventions, sports championships, other types of festivals, many contests, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "event.recurring_event.frequency",
+            "Name": "Current frequency",
+            "Description": "How often this event occurs (or occurred for defunct events).",
+            "ObjectType": "measured_dimension.frequency",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "event.recurring_event.final_occurance_date",
+            "Name": "Date of final occurrence",
+            "Description": "For former recurring events, the date of the final instance of this event.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "event.recurring_event.first_occurance_date",
+            "Name": "Date of first occurrence",
+            "Description": "The date this event first occurred.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

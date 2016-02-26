@@ -1,0 +1,42 @@
+{
+    "Id": "finance.exchange_operator_relationship",
+    "Name": "Exchange-operator relationship",
+    "Description": "The relationship between a financial exchange (stock exchange, futures market, ECN, etc.) and the organization that operates it.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "finance.exchange_operator_relationship.start_date",
+            "Name": "From",
+            "Description": "Start date of the exchange operation relationship.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "finance.exchange_operator_relationship.end_date",
+            "Name": "To",
+            "Description": "End date (only if this is a historical relationship) of the exchange operation relationship.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "finance.exchange_operator_relationship.exchange_operator",
+            "Name": "Exchange operator",
+            "Description": "Organization operating the exchange.",
+            "ObjectType": "finance.exchange_operator",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "finance.exchange_operator_relationship.exchange",
+            "Name": "Exchange",
+            "Description": "The exchange operated by the organization.",
+            "ObjectType": "finance.stock_exchange",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

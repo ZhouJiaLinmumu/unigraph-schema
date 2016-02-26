@@ -1,0 +1,11 @@
+{
+    "Id": "law.patent_category",
+    "Name": "Patent Category",
+    "Description": "A classification used by the Patent and Trademark Office.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

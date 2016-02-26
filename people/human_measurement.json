@@ -1,0 +1,34 @@
+{
+    "Id": "people.human_measurement",
+    "Name": "Human measurement",
+    "Description": "A compound-value type that is used to record the measurements of people.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "people.human_measurement.body_part",
+            "Name": "Body part",
+            "Description": "The body part being measured",
+            "ObjectType": "people.measured_body_part",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "people.human_measurement.date",
+            "Name": "Date",
+            "Description": "The earliest known date for which this measurement is accurate.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "people.human_measurement.measurement",
+            "Name": "Measurement",
+            "Description": "The linear measurement of the body part",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

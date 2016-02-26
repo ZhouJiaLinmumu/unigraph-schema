@@ -1,0 +1,58 @@
+{
+    "Id": "military.force_strength",
+    "Name": "Force Strength",
+    "Description": "What was deployed for a battle/war",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "military.force_strength.combatant",
+            "Name": "Combatant",
+            "Description": "Who, - usually a country",
+            "ObjectType": "military.combatant",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "military.force_strength.date",
+            "Name": "Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.force_strength.force_size",
+            "Name": "Force Size",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "military.force_strength.max_force_size",
+            "Name": "Maximum Force Size",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.force_strength.conflict",
+            "Name": "Military Conflict",
+            "Description": "",
+            "ObjectType": "military.conflict",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.force_strength.resource",
+            "Name": "Resource",
+            "Description": "Tanks, artillary...",
+            "ObjectType": "military.military_resource",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

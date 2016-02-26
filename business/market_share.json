@@ -1,0 +1,50 @@
+{
+    "Id": "business.market_share",
+    "Name": "Market share",
+    "Description": "This type is used to hold information about a particular company's percentage share of a particular competitive space.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.market_share.company",
+            "Name": "Company",
+            "Description": "",
+            "ObjectType": "business.business_operation",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.market_share.date",
+            "Name": "Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.market_share.percentage",
+            "Name": "Percentage",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "business.market_share.region",
+            "Name": "Region",
+            "Description": "",
+            "ObjectType": "business.market_region",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.market_share.space",
+            "Name": "Space",
+            "Description": "",
+            "ObjectType": "business.competitive_space",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

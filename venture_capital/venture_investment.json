@@ -1,0 +1,58 @@
+{
+    "Id": "venture_capital.venture_investment",
+    "Name": "Venture Investment",
+    "Description": "This type is used to record the amount of money invested in a company by a venture investor in a given round of financing.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "venture_capital.venture_investment.amount",
+            "Name": "Amount",
+            "Description": "The amount of the investment.",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "venture_capital.venture_investment.company",
+            "Name": "Company",
+            "Description": "",
+            "ObjectType": "venture_capital.venture_funded_company",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "venture_capital.venture_investment.investment_round",
+            "Name": "Investment Round",
+            "Description": "",
+            "ObjectType": "venture_capital.investment_round",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "venture_capital.venture_investment.investor",
+            "Name": "Investor",
+            "Description": "",
+            "ObjectType": "venture_capital.venture_investor",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "venture_capital.venture_investment.currency",
+            "Name": "Currency",
+            "Description": "If entering an investment amount, you should also enter the currency that amount is in.",
+            "ObjectType": "venture_capital.currency",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "venture_capital.venture_investment.date",
+            "Name": "Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

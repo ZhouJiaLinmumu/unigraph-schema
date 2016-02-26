@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.angular_acceleration",
+    "Name": "Angular acceleration",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.angular_acceleration.measurement_unit",
+            "Name": "Unit of Angular acceleration",
+            "Description": "",
+            "ObjectType": "measured_dimension.angular_acceleration_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.angular_acceleration.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "aviation.aircraft_military_service",
+    "Name": "Military Aircraft Use",
+    "Description": "The Military Aircraft Service type contains aircrafts used by armed forces.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "military.armed_force",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

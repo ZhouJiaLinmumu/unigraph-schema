@@ -1,0 +1,50 @@
+{
+    "Id": "theater.production_staff_gig",
+    "Name": "Theater Production Staff Gig",
+    "Description": "This type is a compound value type that connects information about a person, a theater production, and the position held for that production.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "theater.production_staff_gig.start_date",
+            "Name": "From",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "theater.production_staff_gig.play",
+            "Name": "Play",
+            "Description": "",
+            "ObjectType": "theater.production",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "theater.production_staff_gig.production_role",
+            "Name": "Production Role",
+            "Description": "",
+            "ObjectType": "theater.production_staff_role",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "theater.production_staff_gig.staff_member",
+            "Name": "Staff Member",
+            "Description": "",
+            "ObjectType": "theater.production_staff",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "theater.production_staff_gig.end_date",
+            "Name": "To",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

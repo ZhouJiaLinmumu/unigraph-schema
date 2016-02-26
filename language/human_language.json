@@ -1,0 +1,52 @@
+{
+    "Id": "language.human_language",
+    "Name": "Human Language",
+    "Description": "A human language is any language used by people to communicate or convey ideas. The human language type is used for languages that are members of the lowest-level language family.  For example, the Kapampangan language belongs to the hierarchy of language families Central Luzon (lowest level) - Northern Philippine - Philippine - Malayo-Polynesian - Austronesian (highest level).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "language.human_language.countries_spoken_in",
+            "Name": "Spoken in countries",
+            "Description": "",
+            "ObjectType": "language.language_country",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "language.human_language.dialects",
+            "Name": "Dialects",
+            "Description": "",
+            "ObjectType": "language.language_dialect",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "language.human_language.main_country",
+            "Name": "Main Country",
+            "Description": "",
+            "ObjectType": "language.language_country",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "language.human_language.region",
+            "Name": "Region",
+            "Description": "",
+            "ObjectType": "language.language_region",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "language.human_language.regulator",
+            "Name": "Regulator",
+            "Description": "The body regulating this language",
+            "ObjectType": "language.human_language",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

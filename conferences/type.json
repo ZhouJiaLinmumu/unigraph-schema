@@ -1,0 +1,11 @@
+{
+    "Id": "conferences.type",
+    "Name": "Type of conference",
+    "Description": "A format of a conference or convention. Opensource fest is an 'unconference'. harrypotter fest is a 'fan convention'",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

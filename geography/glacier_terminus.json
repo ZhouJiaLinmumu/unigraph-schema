@@ -1,0 +1,11 @@
+{
+    "Id": "geography.glacier_terminus",
+    "Name": "Glacier terminus",
+    "Description": "\"Glacier terminus\" describes the type of landform or body of water found at the foot of a glacier.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

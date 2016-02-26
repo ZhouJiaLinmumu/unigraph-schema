@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.speed",
+    "Name": "Speed",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.speed.measurement_unit",
+            "Name": "Unit of Speed",
+            "Description": "",
+            "ObjectType": "measured_dimension.speed_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.speed.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

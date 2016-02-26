@@ -1,0 +1,12 @@
+{
+    "Id": "language.language_country",
+    "Name": "Language countries spoken",
+    "Description": "Country(ies), a language is spoken in.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.country"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

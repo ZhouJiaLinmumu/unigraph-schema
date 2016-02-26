@@ -1,0 +1,34 @@
+{
+    "Id": "measured_dimension.dated_distance",
+    "Name": "Distance",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.dated_distance.measurement_unit",
+            "Name": "Unit of Distance",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.dated_distance.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.dated_distance.date",
+            "Name": "Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

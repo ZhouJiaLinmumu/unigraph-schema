@@ -1,0 +1,20 @@
+{
+    "Id": "geology.rock_type",
+    "Name": "Rock type",
+    "Description": "This type is for different varieties of rocks, which are aggregates of minerals or mineraloids.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "geology.rock_type.parent_rock_type",
+            "Name": "Parent rock type",
+            "Description": "",
+            "ObjectType": "geology.rock_type",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

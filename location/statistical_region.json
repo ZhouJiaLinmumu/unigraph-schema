@@ -1,0 +1,453 @@
+{
+    "Id": "location.statistical_region",
+    "Name": "Statistical region",
+    "Description": "A Statistical Region is any area of the earth for statistics have been or may be gathered. These include political divisions (such as countries, cities, provinces, etc.) and regions created specifically for statistical purposes, such as census areas.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "location.statistical_region.agriculture_as_percent_of_gdp",
+            "Name": "Agriculture (% of GDP)",
+            "Description": "Net output of the Agriculture sector as percentage of GDP.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.population_density",
+            "Name": "Arithmetic population density (per km²)",
+            "Description": "The arithmetic population density of this location, measured in people per square kilometer of land.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.automobiles_per_capita",
+            "Name": "Automobiles per capita",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.births",
+            "Name": "Births",
+            "Description": "The number of live births occurring during a given time period.",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.broadband_penetration",
+            "Name": "Broadband penetration rate",
+            "Description": "Number of high-speed internet connections (capacity equal or higher than 144 kbit/s) per 100 inhabitants.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.co2_emissions_commercial",
+            "Name": "CO2 emissions - commercial",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.co2_emissions_industrial",
+            "Name": "CO2 emissions - industrial",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.co2_emissions_mobile",
+            "Name": "CO2 emissions - mobile",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.co2_emissions_mass_per_capita",
+            "Name": "CO2 emissions per capita",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_mass",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.co2_emissions_residential",
+            "Name": "CO2 emissions - residential",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.co2_emissions_total",
+            "Name": "CO2 emissions - total",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.cpi_inflation_rate",
+            "Name": "Inflation rate",
+            "Description": "Inflation as measured by the consumer price index reflects the annual percentage change in the cost to the average consumer of acquiring a basket of goods and services that may be fixed or changed at specified intervals, such as yearly.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.crude_birth_rate",
+            "Name": "Crude birth rate",
+            "Description": "Crude birth rate indicates the number of live births occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate of population change in the absence of migration.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.crude_death_rate",
+            "Name": "Crude death rate",
+            "Description": "Crude death rate indicates the number of deaths occurring during the year, per 1,000 population estimated at midyear. Subtracting the crude death rate from the crude birth rate provides the rate of natural increase, which is equal to the rate of population change in the absence of migration.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.deaths",
+            "Name": "Deaths",
+            "Description": "The number of deaths occurring during a given time period.",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.debt_service_as_percent_of_trade_volume",
+            "Name": "Debt service (% of trade volume)",
+            "Description": "Principal repayments and interest paid on long-term debt and interest paid on short-term debt. Trade volume includes income and workers' remittances.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.deposit_interest_rate",
+            "Name": "Deposit interest rate",
+            "Description": "Deposit interest rate is the rate paid by commercial or similar banks for demand, time, or savings deposits.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.electricity_consumption_per_capita",
+            "Name": "Electricity consumption per capita",
+            "Description": "Electricity consumption in kilowatt-hours per capita.",
+            "ObjectType": "measured_dimension.dated_energy",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.electricity_production",
+            "Name": "Electricity production",
+            "Description": "Total annual regional electricity generated in kilowatt-hours.",
+            "ObjectType": "measured_dimension.dated_energy",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.energy_use_per_capita",
+            "Name": "Energy use per capita",
+            "Description": "Primary energy use (before transformation to other end-use fuels) in kilograms of oil equivalent, per capita.",
+            "ObjectType": "measured_dimension.dated_energy",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.external_debt_stock",
+            "Name": "External debt stock",
+            "Description": "Total external debt owed to nonresidents repayable in foreign currency, goods, or services.",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.fertility_rate",
+            "Name": "Fertility rate",
+            "Description": "The average number of births per woman.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.gdp_growth_rate",
+            "Name": "GDP growth rate",
+            "Description": "Percentage change of real GDP compared to previous year. Real GDP is adjusted for inflation.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.gdp_nominal",
+            "Name": "GDP (nominal)",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.gdp_nominal_per_capita",
+            "Name": "GDP (nominal per capita)",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.gdp_real",
+            "Name": "GDP real",
+            "Description": "Gross Domestic Product at constant prices",
+            "ObjectType": "measured_dimension.adjusted_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.gni_in_ppp_dollars",
+            "Name": "GNI in PPP dollars",
+            "Description": "Gross National Income, expressed in purchasing power parity dollars to adjust for price level differences across countries. Not adjusted for inflation.",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.gni_per_capita_in_ppp_dollars",
+            "Name": "GNI per capita in PPP dollars",
+            "Description": "Gross National Income per capita, expressed in purchasing power parity dollars to adjust for price level differences across countries. Not adjusted for inflation.",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.government_debt_percent_gdp",
+            "Name": "Government debt as percent of GDP",
+            "Description": "General government debt as percent of Gross Domestic Product.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.hiv_prevalence_rate",
+            "Name": "HIV prevalence rate",
+            "Description": "Prevalence of HIV is the percentage of people who are infected with HIV.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.hospital_beds_relative",
+            "Name": "Hospital beds",
+            "Description": "Hospital beds include inpatient beds available in public, private, general, and specialized hospitals and rehabilitation centers. In most cases beds for both acute and chronic care are included.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.industry_as_percent_of_gdp",
+            "Name": "Industry (% of GDP)",
+            "Description": "Net output of the Industry sector (Mining, Manufacturing, Utilities) as percentage of GDP.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.internet_users",
+            "Name": "Internet users",
+            "Description": "People with access to the Internet.",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.internet_users_percent_population",
+            "Name": "Internet users as percentage of population",
+            "Description": "People with access to the Internet per 100 inhabitants.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.life_expectancy",
+            "Name": "Life expectancy",
+            "Description": "The average number of years a newborn is expected to live with current mortality patterns remaining the same.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.literacy_rate",
+            "Name": "Literacy rate",
+            "Description": "The literacy rate is the percentage of people who can, with understanding, both read and write a short, simple statement about their everyday life.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.major_exports",
+            "Name": "Major exports",
+            "Description": "",
+            "ObjectType": "location.imports_exports_by_industry",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.major_imports",
+            "Name": "Major imports",
+            "Description": "",
+            "ObjectType": "location.imports_exports_by_industry",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.military_expenditure_percent_gdp",
+            "Name": "Military expenditure as percentage of GDP",
+            "Description": "Military expenditure as percentage of Gross Domestic Product.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.minimum_wage",
+            "Name": "Minimum wage",
+            "Description": "The minimum wage of this jurisdiction, for most employees. Does not include tips, allowances, or the value of additional benefits.",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.natural_gas_production",
+            "Name": "Natural gas production",
+            "Description": "Natural gas production within the region (cubic metric volume extracted per year).",
+            "ObjectType": "measured_dimension.dated_volume",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.oil_production",
+            "Name": "Oil production",
+            "Description": "Oil production of the region as measured by the quantity of crude oil extracted (not refined).",
+            "ObjectType": "measured_dimension.dated_volume",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.part_time_employment_percent",
+            "Name": "Part time employment",
+            "Description": "Part time employment refers to regular employment in which working time is substantially less than normal. Expressed as a percent of labour force.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.population",
+            "Name": "Population",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.population_growth_rate",
+            "Name": "Population growth rate",
+            "Description": "The annual population growth in this location.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.primary_education_completion_rate",
+            "Name": "Primary education completion rate",
+            "Description": "Total number of new entrants in the last grade of primary education, regardless of age, expressed as percentage of the total population of the theoretical entrance age to the last grade of primary.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.religions",
+            "Name": "Religions",
+            "Description": "",
+            "ObjectType": "location.religion_percentage",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.renewable_freshwater_per_capita",
+            "Name": "Renewable freshwater resources per capita",
+            "Description": "Available renewable freshwater flows in rivers and groundwater from rainfall, in cubic meters per capita.",
+            "ObjectType": "measured_dimension.dated_volume",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.rent50_0",
+            "Name": "50th percentile rent - 0 br",
+            "Description": "The 50th percentile rent for a 0 bedroom",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.rent50_1",
+            "Name": "50th percentile rent - 1 br",
+            "Description": "The 50th percentile rent for a 1 bedroom",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.rent50_2",
+            "Name": "50th percentile rent - 2 br",
+            "Description": "The 50th percentile rent for a 2 bedroom",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.rent50_3",
+            "Name": "50th percentile rent - 3 br",
+            "Description": "The 50th percentile rent for a 3 bedroom",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.rent50_4",
+            "Name": "50th percentile rent - 4 br",
+            "Description": "The 50th percentile rent for a 4 bedroom",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.services_as_percent_of_gdp",
+            "Name": "Services (% of GDP)",
+            "Description": "Net output of the Service industry as percentage of GDP.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.unemployment_rate",
+            "Name": "Unemployment Rate",
+            "Description": "The unemployment rate for this location.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

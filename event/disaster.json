@@ -1,0 +1,93 @@
+{
+    "Id": "event.disaster",
+    "Name": "Disaster",
+    "Description": "A disaster is an event in which there is significant damage to structures or loss of life. It is usually characterized by loss of control.It includes all natural disasters and most man-made disasters, especially accidents. It is usually, but not necessarily, to be co-typed with Death-causing event, Injury-causing event, Structure damaging event, and 'structure destroying event'. Intentional disasters such as arsons, improvised explosives, and killing sprees can be modeled with this type, but more 'political' attacks are to be modeled with Military Conflict.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "event.event",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "event.disaster.areas_affected",
+            "Name": "Areas affected",
+            "Description": "Affected directly. location(s) it happened",
+            "ObjectType": "event.disaster_area",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "event.disaster.damage",
+            "Name": "Total damage",
+            "Description": "The official money value of damage, capital lost",
+            "ObjectType": "measured_dimension.currency_amount",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "event.disaster.fatalities",
+            "Name": "Total fatalities",
+            "Description": "How many people died",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "event.disaster.injuries",
+            "Name": "Total injuries",
+            "Description": "# of people seriously  hurt (requiring hospitalisation, where available) but not killed.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "event.disaster.structures_damaged",
+            "Name": "Structures damaged",
+            "Description": "",
+            "ObjectType": "event.disaster_affected_structure",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "event.disaster.structures_destroyed",
+            "Name": "Structures destroyed",
+            "Description": "",
+            "ObjectType": "event.disaster_affected_structure",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "event.disaster.surviving_structures",
+            "Name": "Surviving structures",
+            "Description": "Only notable structures affected by a disaster should be listed here.",
+            "ObjectType": "event.disaster_affected_structure",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "event.disaster.survivors",
+            "Name": "Survivors",
+            "Description": "",
+            "ObjectType": "event.disaster_survivor",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "event.disaster.disaster_type",
+            "Name": "Type of disaster",
+            "Description": "Earthquake? typhoon?",
+            "ObjectType": "event.disaster_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "event.disaster.victims",
+            "Name": "Victims",
+            "Description": "",
+            "ObjectType": "event.disaster_victim",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

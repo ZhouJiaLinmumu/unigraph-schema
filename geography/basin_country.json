@@ -1,0 +1,12 @@
+{
+    "Id": "geography.basin_country",
+    "Name": "Basin country",
+    "Description": "Country along a river or lake basin.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.country",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

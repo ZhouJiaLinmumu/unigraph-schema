@@ -1,0 +1,11 @@
+{
+    "Id": "medicine.drug_form_shape",
+    "Name": "Drug form shape",
+    "Description": "A shape in which a drug form (pill, tablet, capsule) is available, such as \"square\", \"hexagon\", etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

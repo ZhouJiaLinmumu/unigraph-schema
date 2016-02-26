@@ -1,0 +1,11 @@
+{
+    "Id": "geography.waterfall_type",
+    "Name": "Waterfall type",
+    "Description": "\"Waterfall type\" denotes the variety or class of a waterfall.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

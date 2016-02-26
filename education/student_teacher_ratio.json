@@ -1,0 +1,42 @@
+{
+    "Id": "education.student_teacher_ratio",
+    "Name": "Student:teacher ratio",
+    "Description": "A compound-value type that holds information about an educational institution's ratio of students to teachers.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "education.student_teacher_ratio.date",
+            "Name": "Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "education.student_teacher_ratio.students",
+            "Name": "Students",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "education.student_teacher_ratio.teachers",
+            "Name": "Teachers",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "education.student_teacher_ratio.school",
+            "Name": "School",
+            "Description": "",
+            "ObjectType": "education.school",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

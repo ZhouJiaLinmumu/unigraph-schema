@@ -1,0 +1,12 @@
+{
+    "Id": "film.festival_location",
+    "Name": "Film festival location",
+    "Description": "A location (e.g. a city or region) or locations in which a film festival is held.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

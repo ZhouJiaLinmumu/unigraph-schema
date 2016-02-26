@@ -1,0 +1,42 @@
+{
+    "Id": "people.place_lived",
+    "Name": "Place lived",
+    "Description": "Place lived is used to document places in which a person has lived. It can include their hometown or place of birth, as well as any subsequent place of residence.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "people.place_lived.end_date",
+            "Name": "End date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "people.place_lived.location",
+            "Name": "Location",
+            "Description": "",
+            "ObjectType": "people.living_location",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "people.place_lived.person",
+            "Name": "Person",
+            "Description": "",
+            "ObjectType": "people.person",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "people.place_lived.start_date",
+            "Name": "Start date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

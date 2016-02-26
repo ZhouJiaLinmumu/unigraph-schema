@@ -1,0 +1,68 @@
+{
+    "Id": "projects.project",
+    "Name": "Project",
+    "Description": "A project is a planned activity taken out to achieve some objective. Projects include things like the construction of the Golden Gate Bridge, or the release of Windows Vista.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "projects.project.actual_completion_date",
+            "Name": "Actual completion date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "projects.project.actual_cost",
+            "Name": "Actual cost",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "projects.project.budget",
+            "Name": "Budget (projected)",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "projects.project.includes_smaller_projects",
+            "Name": "Includes smaller projects",
+            "Description": "",
+            "ObjectType": "projects.project",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "projects.project.planned_completion_date",
+            "Name": "Planned completion date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "projects.project.project_focus",
+            "Name": "Project focus",
+            "Description": "The focus or subject of a project. For instance, for a project to renovate a building, the building would be the focus; for a software release project, the focus would be the software.",
+            "ObjectType": "projects.project_focus",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "projects.project.start_date",
+            "Name": "Start date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "Id": "people.appointment",
+    "Name": "Appointment",
+    "Description": "Appointment is where a party appoints a person to fill a role or position.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "people.appointment.appointed_by",
+            "Name": "Appointed by",
+            "Description": "The person or organization which gave direction to fill a role",
+            "ObjectType": "people.appointer",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "people.appointment.appointed_role",
+            "Name": "Appointed Role",
+            "Description": "A role, job or title to which a person can be appointed",
+            "ObjectType": "people.appointed_role",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "people.appointment.appointee",
+            "Name": "Appointee",
+            "Description": "The person appointed to the role",
+            "ObjectType": "people.appointee",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "people.appointment.declared_on",
+            "Name": "Declared on",
+            "Description": "The date on which the appointment was officialy declared by the appointer",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

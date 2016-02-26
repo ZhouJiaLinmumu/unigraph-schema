@@ -1,0 +1,12 @@
+{
+    "Id": "government.national_anthem",
+    "Name": "National Anthem",
+    "Description": "National anthems, past and present, of countries (past and present) should use this type. With this type, you can enter not only the country (or countries) that use the song as an anthem, but the dates during which the song was the anthem. Because this type includes the type composition, you can also enter data about the composer, lyricist, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "music.composition",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

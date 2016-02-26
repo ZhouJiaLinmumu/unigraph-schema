@@ -1,0 +1,11 @@
+{
+    "Id": "aviation.aircraft_owner",
+    "Name": "Aircraft Owner",
+    "Description": "An Aircraft owner is typically a company (such as United Airlines) but is sometimes a governmental organization such as the United States Navy.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

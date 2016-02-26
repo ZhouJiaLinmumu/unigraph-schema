@@ -1,0 +1,11 @@
+{
+    "Id": "medicine.drug_formulation_category",
+    "Name": "Drug formulation category",
+    "Description": "A drug formulation can belong to one or more categories based on its source, manufacturing method, ingredients, or use. Typical categories include Chemical, Vaccine, Plasma derivative, Cellular therapy, Allergenic.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

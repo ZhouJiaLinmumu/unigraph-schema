@@ -1,0 +1,12 @@
+{
+    "Id": "education.student_gender",
+    "Name": "Student gender",
+    "Description": "Student's gender admitted to a school",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.gender"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

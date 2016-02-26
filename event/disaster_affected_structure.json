@@ -1,0 +1,12 @@
+{
+    "Id": "event.disaster_affected_structure",
+    "Name": "Disaster-affected structure",
+    "Description": "This type is for any structure that was involved in a disaster in some way, such as having been destroyed or damaged, or even having survived a disaster (such as a major earthquake or tropical cyclone).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "architecture.structure",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,42 @@
+{
+    "Id": "location.imports_exports_by_industry",
+    "Name": "Imports/exports by industry",
+    "Description": "This is a compound-value type that holds information about imports and exports by industry.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "location.imports_exports_by_industry.amount",
+            "Name": "Amount",
+            "Description": "The monetary value of the import or export. (Should be used in conjunction with the Currency and Date properties.)",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "location.imports_exports_by_industry.industry",
+            "Name": "Industry",
+            "Description": "",
+            "ObjectType": "location.industry",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "location.imports_exports_by_industry.currency",
+            "Name": "Currency",
+            "Description": "The currency that this import/export amount is recorded in.",
+            "ObjectType": "location.currency",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "location.imports_exports_by_industry.date",
+            "Name": "Date",
+            "Description": "The year that this amount of import or export (in this industry) occurred.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

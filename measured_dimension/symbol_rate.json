@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.symbol_rate",
+    "Name": "Symbol rate",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.symbol_rate.measurement_unit",
+            "Name": "Unit of Symbol rate",
+            "Description": "",
+            "ObjectType": "measured_dimension.symbol_rate_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.symbol_rate.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

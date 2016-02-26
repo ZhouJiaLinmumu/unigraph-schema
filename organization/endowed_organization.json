@@ -1,0 +1,21 @@
+{
+    "Id": "organization.endowed_organization",
+    "Name": "Endowed Organization",
+    "Description": "An endowed organization is any organization which has, or has had, an endowment providing it with a permanent source of income.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "organization.endowed_organization.endowment",
+            "Name": "Endowment",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

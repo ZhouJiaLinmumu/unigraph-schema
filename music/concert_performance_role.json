@@ -1,0 +1,11 @@
+{
+    "Id": "music.concert_performance_role",
+    "Name": "Concert Performance Role",
+    "Description": "This type is for possible roles played by musical artists in concerts, based on how they are billed or whether they are part of the main act or only perform in some pieces.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

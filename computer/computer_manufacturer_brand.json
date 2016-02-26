@@ -1,0 +1,20 @@
+{
+    "Id": "computer.computer_manufacturer_brand",
+    "Name": "Computer Manufacturer/Brand",
+    "Description": "A company, organization or the like responsible for the manufacturing and/or sale of a computer to the public.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "computer.computer_manufacturer_brand.computer_lines",
+            "Name": "Computer Lines",
+            "Description": "",
+            "ObjectType": "computer.computer",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

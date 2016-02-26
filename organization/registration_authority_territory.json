@@ -1,0 +1,12 @@
+{
+    "Id": "organization.registration_authority_territory",
+    "Name": "Organization registration authority territory",
+    "Description": "The territory for which the registration authority is responsible",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

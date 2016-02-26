@@ -1,0 +1,12 @@
+{
+    "Id": "people.sibling",
+    "Name": "Sibling",
+    "Description": "Sibling",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.person"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

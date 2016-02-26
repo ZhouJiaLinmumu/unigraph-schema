@@ -1,0 +1,37 @@
+{
+    "Id": "travel.accommodation",
+    "Name": "Accommodation",
+    "Description": "This type is intended to be used for hotels, bed and breakfasts, backpacker hostels, or any other such place you might stay while travelling.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "travel.accommodation.accommodation_type",
+            "Name": "Accommodation type",
+            "Description": "",
+            "ObjectType": "travel.accommodation_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "travel.accommodation.features",
+            "Name": "Features",
+            "Description": "",
+            "ObjectType": "travel.accommodation_feature",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "travel.accommodation.price_range",
+            "Name": "Price range",
+            "Description": "",
+            "ObjectType": "travel.accommodation_price_range",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

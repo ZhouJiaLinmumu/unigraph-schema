@@ -1,0 +1,37 @@
+{
+    "Id": "government.government_agency",
+    "Name": "Government Agency",
+    "Description": "The Government agency type is used for any agency operated by the government. These are government units responsible for administering specific functions for a government.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "government.government_agency.date_founded",
+            "Name": "Date founded",
+            "Description": "The date when this agency was founded.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.government_agency.jurisdiction",
+            "Name": "Jurisdiction of agency's government",
+            "Description": "The place that the government of this agency has jurisdiction over. E.g., if it is an agency of the national government, enter the country; if it is part of a local government, enter the city or municipality.",
+            "ObjectType": "government.governmental_jurisdiction",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.government_agency.predecessor_agency",
+            "Name": "Predecessor agency",
+            "Description": "If this agency was formerly known as another agency, or if this agency took on the functions of a previous agency enter that agency. Mergers and spin-offs should be entered in the appropriate properties of the Organization type.",
+            "ObjectType": "government.government_agency",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "Id": "sports.sport_official",
+    "Name": "Sport official",
+    "Description": "A person adjudicates sporting events",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "sports.sport_official.sport",
+            "Name": "Sport",
+            "Description": "The sport which this person adjudicates",
+            "ObjectType": "sports.sport",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

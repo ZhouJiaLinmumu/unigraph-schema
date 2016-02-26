@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.charge",
+    "Name": "Charge",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.charge.measurement_unit",
+            "Name": "Unit of Charge",
+            "Description": "",
+            "ObjectType": "measured_dimension.charge_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.charge.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

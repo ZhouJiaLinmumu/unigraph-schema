@@ -1,0 +1,42 @@
+{
+    "Id": "music.concert_set_list",
+    "Name": "Concert Set List",
+    "Description": "This is a compound-value type that holds information about the compositions performed in a concert and the musical artists who performed them.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.concert_set_list.artist",
+            "Name": "Artist",
+            "Description": "The primary artist or artists that performed this piece.",
+            "ObjectType": "music.artist",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.concert_set_list.guest_artist",
+            "Name": "Guest Artist",
+            "Description": "A musical artist, which can be an individual or a group, who performed with the main act on a small number of pieces in this concert. This should not include backing musicians of the main act(s). An example is an opera singer who performs a single aria in an otherwise instrumental-only classical concert",
+            "ObjectType": "music.artist",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.concert_set_list.song",
+            "Name": "Song",
+            "Description": "A list of compositions performed by this combination of performers during this concert. E.g. if a band played 10 songs themselves, and were joined by a guest artist for an eleventh song, the 10 songs here, with just the band in the \"artist\" property. For the eleventh song, a whole new instance, with the song, the band, and the guest artist.",
+            "ObjectType": "music.composition",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "music.concert_set_list.concert",
+            "Name": "Concert",
+            "Description": "",
+            "ObjectType": "music.concert",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

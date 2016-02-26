@@ -1,0 +1,23 @@
+{
+    "Id": "location.administrative_division",
+    "Name": "Administrative Division",
+    "Description": "This type is for administrative divisions of countries of any level below the country itself and above city or town. Examples are Australian states, US states and counties, Canadian provinces, and French departments. This type should also be used for territories; many territories will be typed as both administrative division and country, since, depending on context, they may be considered as either.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.statistical_region",
+        "location.location",
+        "location.dated_location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "location.administrative_division.country",
+            "Name": "Country",
+            "Description": "",
+            "ObjectType": "location.country",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "biology.animal_owner",
+    "Name": "Animal owner",
+    "Description": "This type is for any person or organization that owns or has owned an animal.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

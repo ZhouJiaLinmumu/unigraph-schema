@@ -1,0 +1,58 @@
+{
+    "Id": "sports.competitor_competition_relationship",
+    "Name": "Competitor/competition relationship",
+    "Description": "This is a compound-value type that holds information about competitors and the competitions in which they compete in multi-event sporting tournaments.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "sports.competitor_competition_relationship.competition",
+            "Name": "Competition",
+            "Description": "The competition this person or team competed in. This is the specific competition at a specific tournament, e.g. Men's Welterweight Boxing at the 1999 Pan American Games.",
+            "ObjectType": "sports.tournament_event_competition",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "sports.competitor_competition_relationship.competitor",
+            "Name": "Competitors",
+            "Description": "An individual (or in the case of teams, individuals) who competed in this competition.",
+            "ObjectType": "sports.tournament_event_competitor",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "sports.competitor_competition_relationship.country",
+            "Name": "Country",
+            "Description": "The country (if any) this competitor or team was competing for. Leave blank if competitors in this tournament compete as individuals, rather than as representatives of a country.",
+            "ObjectType": "sports.sport_country",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.competitor_competition_relationship.medal",
+            "Name": "Medal",
+            "Description": "If this competitor won a medal. Otherwise, blank.",
+            "ObjectType": "sports.medal",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.competitor_competition_relationship.rank",
+            "Name": "Rank",
+            "Description": "The overall placing of this competitor in this event. Medalists should also be entered as 1, 2, or 3.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.competitor_competition_relationship.team",
+            "Name": "Team",
+            "Description": "For team competitions. This will frequently be used for national teams, such as the French Women's National Volleyball Team.",
+            "ObjectType": "sports.tournament_team",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

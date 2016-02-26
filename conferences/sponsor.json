@@ -1,0 +1,11 @@
+{
+    "Id": "conferences.sponsor",
+    "Name": "Conference sponsor",
+    "Description": "A group, company, or organization that sponsors (or has sponsored) a conference or convention.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

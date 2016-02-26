@@ -1,0 +1,13 @@
+{
+    "Id": "music.ensemble",
+    "Name": "Ensemble",
+    "Description": "An Ensemble is a musical group with a Conductor, connected using the Conducting Tenure compound value.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "music.musical_group",
+        "common.topic",
+        "music.artist"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,42 @@
+{
+    "Id": "sports.team_captain_tenure",
+    "Name": "Sports team captain tenure",
+    "Description": "This type connects team captains to their teams. It has \"from\" and \"to\" dates, and so can hold both current and former captains.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "sports.team_captain_tenure.captain",
+            "Name": "Captain",
+            "Description": "The person who is or was captain of this team.",
+            "ObjectType": "sports.team_captain",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "sports.team_captain_tenure.start_date",
+            "Name": "From",
+            "Description": "The date this person became captain.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.team_captain_tenure.end_date",
+            "Name": "To",
+            "Description": "The date after which this player was no longer captain.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.team_captain_tenure.team",
+            "Name": "Team",
+            "Description": "The team this person is or was a captain of.",
+            "ObjectType": "sports.team",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

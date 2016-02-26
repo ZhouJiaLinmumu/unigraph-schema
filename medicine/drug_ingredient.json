@@ -1,0 +1,20 @@
+{
+    "Id": "medicine.drug_ingredient",
+    "Name": "Drug ingredient",
+    "Description": "An active ingredient or active moiety of a drug or drug formulation. Ingredients may be chemical compounds, botanicals, polymers, and other substance forms.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.drug_ingredient.more_general_ingredient",
+            "Name": "More general ingredient",
+            "Description": "More general forms of this ingredient.",
+            "ObjectType": "medicine.drug_ingredient",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

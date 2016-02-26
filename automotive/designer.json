@@ -1,0 +1,11 @@
+{
+    "Id": "automotive.designer",
+    "Name": "Automotive Designer",
+    "Description": "Designer of an automobile (a person or an organization).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

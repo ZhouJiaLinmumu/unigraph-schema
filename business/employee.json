@@ -1,0 +1,12 @@
+{
+    "Id": "business.employee",
+    "Name": "Employee",
+    "Description": "An employee works for a company or organizaion.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.person"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

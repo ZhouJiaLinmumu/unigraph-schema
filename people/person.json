@@ -1,0 +1,108 @@
+{
+    "Id": "people.person",
+    "Name": "Person",
+    "Description": "A person is a human being (man, woman or child) known to have actually existed. Living persons, celebrities and politicians are persons, as are deceased persons.  Note: A person topic is distinct from a user in UniGraph. Users have profiles that can only be edited by the users themselves. A person topic can be edited by anyone and is intended as a factual representation of details about a person.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "people.person.date_of_birth",
+            "Name": "Date of birth",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "people.person.first_name",
+            "Name": "First Name",
+            "Description": "",
+            "ObjectType": "people.first_name",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "people.person.family_name",
+            "Name": "Family name",
+            "Description": "",
+            "ObjectType": "people.family_name",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "people.person.gender",
+            "Name": "Gender",
+            "Description": "",
+            "ObjectType": "people.gender",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "people.person.height",
+            "Name": "Height",
+            "Description": "Peak height during lifetime",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "people.person.languages",
+            "Name": "Languages",
+            "Description": "Languages that this person can communicate fluently in.",
+            "ObjectType": "people.language",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "people.person.nationality",
+            "Name": "Country of nationality",
+            "Description": "The country (or countries) that this person is a citizen of. For a person's ethnic background, use the property /people/person/ethnicity. For the places a person has lived, use /people/person/places_lived.",
+            "ObjectType": "people.nationality",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "people.person.parents",
+            "Name": "Parents",
+            "Description": "Includes biological parents and adoptive parents. Includes stepparents only if they have legally adopted the subject. Does not include stepparents or other guardians who have not legally adopted the subject.",
+            "ObjectType": "people.parent",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "people.person.place_of_birth",
+            "Name": "Place of birth",
+            "Description": "",
+            "ObjectType": "people.place_of_birth",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "people.person.profession",
+            "Name": "Profession",
+            "Description": "The name of this person's primary occupation(s), during their working life. This should be the general name (e.g. \"software engineer\" or \"politician\") rather than the name of a specific title or position (e.g. \"senior software engineer\" or \"governor\").",
+            "ObjectType": "people.profession",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "people.person.religion",
+            "Name": "Religion",
+            "Description": "",
+            "ObjectType": "people.religion",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "people.person.weight",
+            "Name": "Weight",
+            "Description": "",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

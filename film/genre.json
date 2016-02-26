@@ -1,0 +1,11 @@
+{
+    "Id": "film.genre",
+    "Name": "Film genre",
+    "Description": "The Film Genre type defines a finite set of topics that are used to classify films. Films can have multiple Film Genres.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

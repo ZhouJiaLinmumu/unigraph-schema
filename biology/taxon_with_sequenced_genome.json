@@ -1,0 +1,21 @@
+{
+    "Id": "biology.taxon_with_sequenced_genome",
+    "Name": "Taxon with Sequenced Genome",
+    "Description": "A taxon with a sequenced genome is a set of living things (an organism classification) whose genome (hereditary information) has been sequenced.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "biology.organism_classification",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "biology.taxon_with_sequenced_genome.genome",
+            "Name": "Genome",
+            "Description": "Genome of this organism",
+            "ObjectType": "biology.genome",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

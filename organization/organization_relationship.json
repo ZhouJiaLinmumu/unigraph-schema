@@ -1,0 +1,42 @@
+{
+    "Id": "organization.organization_relationship",
+    "Name": "Organization Relationship",
+    "Description": "This type holds information about parent/child (or parent/subsidiary) relationships between organizations.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "organization.organization_relationship.child",
+            "Name": "Child",
+            "Description": "",
+            "ObjectType": "organization.organization",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "organization.organization_relationship.start_date",
+            "Name": "From",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization_relationship.parent",
+            "Name": "Parent",
+            "Description": "",
+            "ObjectType": "organization.organization",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "organization.organization_relationship.end_date",
+            "Name": "To",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "business.asset",
+    "Name": "Asset",
+    "Description": "This is a general type that can be applied to anything which can be owned. It is especially useful for things that can be (or are, or have been) owned by multiple entities at once, since the \"owner(s)\" property can indicate percentages owned.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

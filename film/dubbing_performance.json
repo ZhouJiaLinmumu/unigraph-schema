@@ -1,0 +1,42 @@
+{
+    "Id": "film.dubbing_performance",
+    "Name": "Dubbing performance",
+    "Description": "\"Dubbing performance\" is a compound-value type that connects information about a film-dubbing role. This is intended to be used for instances of a film being dubbed into a foreign language. Other types of dubbing, such as voice actors for animated films, voice-overs, and dubbing a singer's voice over that actor who appears on-screen use the film performance type.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "film.dubbing_performance.actor",
+            "Name": "Actor",
+            "Description": "",
+            "ObjectType": "film.actor",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "film.dubbing_performance.character",
+            "Name": "Character",
+            "Description": "",
+            "ObjectType": "film.film_character",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "film.dubbing_performance.film",
+            "Name": "Film",
+            "Description": "",
+            "ObjectType": "film.film",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "film.dubbing_performance.language",
+            "Name": "Language",
+            "Description": "",
+            "ObjectType": "film.film_language",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

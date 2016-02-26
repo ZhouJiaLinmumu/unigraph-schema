@@ -1,0 +1,34 @@
+{
+    "Id": "engineering.mains_power",
+    "Name": "Mains power",
+    "Description": "Mains power systems vary between regions and countries. This type is used to note the voltage, current, and power socket types in use in a certain region.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "engineering.mains_power.ac_frequency",
+            "Name": "AC Frequency",
+            "Description": "The nominal frequency at which the AC current is supplied in this system",
+            "ObjectType": "measured_dimension.frequency",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "engineering.mains_power.location",
+            "Name": "Location",
+            "Description": "The region or country of use of this system. Each country's system should be in a different entry",
+            "ObjectType": "engineering.mains_power_location",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "engineering.mains_power.nominal_voltage",
+            "Name": "Nominal system voltage",
+            "Description": "The voltage used in this system. If two voltage are stated for a country, this means that two systems are in use.  The other system goes in separate entry for Mains power systems.",
+            "ObjectType": "measured_dimension.potential",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

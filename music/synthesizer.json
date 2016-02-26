@@ -1,0 +1,20 @@
+{
+    "Id": "music.synthesizer",
+    "Name": "Synthesizer",
+    "Description": "Synthesizer is a particular model of synthesizer (or synthesiser), an electronic musical instrument designed to produce electronically generated sound.PropertyBrand: expects Musical instrument company; the manufacturer of this particular model of synthesizer.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.synthesizer.brand",
+            "Name": "Brand",
+            "Description": "",
+            "ObjectType": "music.instrument_manufacturer",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

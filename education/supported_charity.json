@@ -1,0 +1,12 @@
+{
+    "Id": "education.supported_charity",
+    "Name": "Supported Charity",
+    "Description": "A charity (Non-profit Organization) which is supported by an educational institution.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

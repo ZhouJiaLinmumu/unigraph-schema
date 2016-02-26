@@ -1,0 +1,20 @@
+{
+    "Id": "book.translated_work",
+    "Name": "Translated Work",
+    "Description": "The type \"translated work\" can be added as a co-type to any work of media which has been translated into another language.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "book.translated_work.translations",
+            "Name": "Translations",
+            "Description": "The title of the translation (in the new language)",
+            "ObjectType": "book.translation",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

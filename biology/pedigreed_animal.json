@@ -1,0 +1,21 @@
+{
+    "Id": "biology.pedigreed_animal",
+    "Name": "Pedigreed animal",
+    "Description": "This type is for individual animals that can be said to belong to a breed. Despite the name, animals do not need to possess an official pedigree to have this type.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "biology.organism"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "biology.pedigreed_animal.breed",
+            "Name": "Breed",
+            "Description": "The breed of this animal.",
+            "ObjectType": "biology.animal_breed",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

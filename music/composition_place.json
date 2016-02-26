@@ -1,0 +1,12 @@
+{
+    "Id": "music.composition_place",
+    "Name": "Composition place",
+    "Description": "Location or locations where a composer wrote a composition.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

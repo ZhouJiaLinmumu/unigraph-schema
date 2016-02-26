@@ -1,0 +1,12 @@
+{
+    "Id": "finance.currency_country",
+    "Name": "Currency",
+    "Description": "Countries Used",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.country"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

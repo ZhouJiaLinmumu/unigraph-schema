@@ -1,0 +1,12 @@
+{
+    "Id": "sports.fight_song",
+    "Name": "Fight song",
+    "Description": "A fight song (also known as a team song or anthem), is a song that is associated with a sports team, and which is used as a cheer or to inspire enthusiasm in the fans.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "music.composition",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

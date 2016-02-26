@@ -1,0 +1,12 @@
+{
+    "Id": "film.cinematographer",
+    "Name": "Film cinematographer",
+    "Description": "The Cinematographer type holds people who have worked as a film cinematographer.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

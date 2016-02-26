@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.inverse_temperature",
+    "Name": "Inverse temperature",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.inverse_temperature.measurement_unit",
+            "Name": "Unit of Inverse temperature",
+            "Description": "",
+            "ObjectType": "measured_dimension.inverse_temperature_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.inverse_temperature.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

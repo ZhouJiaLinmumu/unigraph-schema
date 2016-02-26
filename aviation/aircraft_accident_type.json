@@ -1,0 +1,11 @@
+{
+    "Id": "aviation.aircraft_accident_type",
+    "Name": "Aircraft accident type",
+    "Description": "'Accident type' is a stub type used by the aircraft_accident type to classify an accident.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

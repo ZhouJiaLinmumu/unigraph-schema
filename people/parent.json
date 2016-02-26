@@ -1,0 +1,12 @@
+{
+    "Id": "people.parent",
+    "Name": "Parent",
+    "Description": "Parent",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.person"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

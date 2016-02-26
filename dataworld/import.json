@@ -1,0 +1,50 @@
+{
+    "Id": "dataworld.import",
+    "Name": "Import",
+    "Description": "An import is an import",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "dataworld.import.dataset",
+            "Name": "Dataset",
+            "Description": "",
+            "ObjectType": "dataworld.dataset",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "dataworld.import.data_source",
+            "Name": "Data Source",
+            "Description": "",
+            "ObjectType": "dataworld.data_source",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "dataworld.import.import_bot",
+            "Name": "Import Bot",
+            "Description": "",
+            "ObjectType": "dataworld.import_bot",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "dataworld.import.date",
+            "Name": "Import date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "dataworld.import.log",
+            "Name": "Log",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

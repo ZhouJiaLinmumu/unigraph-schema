@@ -1,0 +1,11 @@
+{
+    "Id": "geography.mountain_type",
+    "Name": "Mountain type",
+    "Description": "\"Mountain type\" is used to denote the variety (such as \"volcano\" or \"shield volcano\") or composition (such as \"granite\") of a mountain.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

@@ -1,0 +1,42 @@
+{
+    "Id": "visual_art.artwork_location_relationship",
+    "Name": "Artwork/location relationship",
+    "Description": "This type connects artworks to the different locations they've been in (such as different museums).",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "visual_art.artwork_location_relationship.artwork",
+            "Name": "Artwork",
+            "Description": "",
+            "ObjectType": "visual_art.artwork",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "visual_art.artwork_location_relationship.start_date",
+            "Name": "From",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "visual_art.artwork_location_relationship.location",
+            "Name": "Location",
+            "Description": "",
+            "ObjectType": "visual_art.artwork_location",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "visual_art.artwork_location_relationship.end_date",
+            "Name": "To",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

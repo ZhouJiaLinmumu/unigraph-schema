@@ -1,0 +1,42 @@
+{
+    "Id": "sports.professionally_played_sport",
+    "Name": "Sports played",
+    "Description": "This is a compound-value type that holds information about sports played by athletes.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "sports.professionally_played_sport.career_end",
+            "Name": "To",
+            "Description": "The date after which this athlete no longer played this sport.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.professionally_played_sport.career_start",
+            "Name": "From",
+            "Description": "The date on which this athlete began to play this sport.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "sports.professionally_played_sport.sport",
+            "Name": "Sport",
+            "Description": "A sport this athlete has played.",
+            "ObjectType": "sports.sport",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "sports.professionally_played_sport.athlete",
+            "Name": "Athlete",
+            "Description": "An athlete who has played this sport.",
+            "ObjectType": "sports.professional_athlete",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

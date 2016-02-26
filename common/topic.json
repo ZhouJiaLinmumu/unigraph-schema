@@ -1,0 +1,76 @@
+{
+    "Id": "common.topic",
+    "Name": "Topic",
+    "Description": "Topic is one of the core types in UniGraph. Topics contain a set of default properties that are generally useful when describing a topic: display name, alias, article, image or webpage. Most types in UniGraph carry these topic properties by default. If an item in UniGraph is typed 'topic' it will show up in search results. You will never see 'topic' as one of the available views, however as its properties are embedded in and shared with the other types applied to an item in UniGraph. This all may seem kind of abstract, but we do this in order to make it easy to share these common properties across types - so you don't end up with a bunch of different articles about the same thing.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "type.object"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "common.topic.alias",
+            "Name": "Also known as",
+            "Description": "For entering common spelling variations and alternate terms this topic is referred to or known as. Don't enter pronunciation guides, same term in another alphabet or language here unless it is a commonly used borrowed term (eg. Bodega is used commonly for a convenience store in some regions of the USA).",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.topic.description",
+            "Name": "Description",
+            "Description": "The descriptive text describing the object in the localized language of the client browser (eg. if the browser is localized for /lang/en the article should be in English).",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.topic.image",
+            "Name": "Image",
+            "Description": "'Image' is a commonly used type, typically appearing in all topics. Standard web image file formats are supported including .gif, .jpg and .png. It is also possible to capture other meta information about images such as size and date.",
+            "ObjectType": "common.image",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.topic.official_website",
+            "Name": "Official website",
+            "Description": "Officially-sanctioned websites for this entity, including the protocol (e.g. http://). This can include personal websites, corporate websites, and, for online services and products, the home URL for the service or product. It does not include fan websites or social media websites.",
+            "ObjectType": "type.uri",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.topic.social_media_presence",
+            "Name": "Social media presence",
+            "Description": "The URL for this entity (including the protocol, e.g. http://) as represented in any social media, including social networking sites (e.g. Facebook, LinkedIn, Google+), microblogs (e.g. Twitter), blogs, etc.",
+            "ObjectType": "type.uri",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.topic.subjects",
+            "Name": "Subjects",
+            "Description": "Subjects of this topic. This property is to be used as the basis of delegated \"subjects\" properties on other types.",
+            "ObjectType": "common.topic",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.topic.equivalent_webpage",
+            "Name": "Topic equivalent webpage",
+            "Description": "Webpages which are singular in focus describing a Topic. (i.e., a page which is only about the Topic.)",
+            "ObjectType": "type.uri",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.topic.topical_webpage",
+            "Name": "Topical webpage",
+            "Description": "Other webpages that are about or are related to this topic. URLs should include the protocol (e.g. http://).",
+            "ObjectType": "type.uri",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

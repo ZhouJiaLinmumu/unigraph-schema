@@ -1,0 +1,12 @@
+{
+    "Id": "medicine.person_with_medical_condition",
+    "Name": "Person with medical condition",
+    "Description": "\"Person with medical condition\" is used to link a person to a serious medical condition the person has or had.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

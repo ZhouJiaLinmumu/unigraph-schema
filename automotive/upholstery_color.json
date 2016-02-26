@@ -1,0 +1,12 @@
+{
+    "Id": "automotive.upholstery_color",
+    "Name": "Interior",
+    "Description": "Describe the interior colors of an automobile trim level.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "visual_art.color"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

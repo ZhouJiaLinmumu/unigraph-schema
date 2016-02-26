@@ -1,0 +1,12 @@
+{
+    "Id": "engineering.engine_designer",
+    "Name": "Engine designer",
+    "Description": "An engine designer is an individual or company which designs engines.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "projects.project_participant",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

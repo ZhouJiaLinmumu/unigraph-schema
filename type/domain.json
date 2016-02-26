@@ -1,0 +1,9 @@
+{
+    "Id": "type.domain",
+    "Name": "Domain",
+    "Description": "The concept of domains.",
+    "Mediator": false,
+    "ExpectedTypes": null,
+    "Enumerated": true,
+    "Properties": null
+}

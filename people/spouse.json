@@ -1,0 +1,12 @@
+{
+    "Id": "people.spouse",
+    "Name": "Spouse",
+    "Description": "Spouse",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.person"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

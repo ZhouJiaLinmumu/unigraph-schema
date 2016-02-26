@@ -1,0 +1,20 @@
+{
+    "Id": "automotive.transmission_type",
+    "Name": "Transmission Classification",
+    "Description": "Transmission type in vehicle (automatic transmission, manual transmission, etc.).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": [
+        {
+            "Id": "automotive.transmission_type.transmission",
+            "Name": "Transmissions of this type",
+            "Description": "",
+            "ObjectType": "automotive.transmission",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

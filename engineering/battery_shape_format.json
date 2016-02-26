@@ -1,0 +1,11 @@
+{
+    "Id": "engineering.battery_shape_format",
+    "Name": "Battery shape format",
+    "Description": "Batteries can come in a number of different geometric shapes. Cylinder, Rectangular and flat-pack being the most common for household use.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

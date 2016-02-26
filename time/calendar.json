@@ -1,0 +1,20 @@
+{
+    "Id": "time.calendar",
+    "Name": "Calendar System",
+    "Description": "A system for naming days of the year, called calendar dates.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "time.calendar.month_names",
+            "Name": "Month Names",
+            "Description": "",
+            "ObjectType": "time.month",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

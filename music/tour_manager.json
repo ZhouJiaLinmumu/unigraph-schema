@@ -1,0 +1,12 @@
+{
+    "Id": "music.tour_manager",
+    "Name": "Tour Manager",
+    "Description": "A tour manager is someone who helps organize and and provide the administration for a concert tour.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

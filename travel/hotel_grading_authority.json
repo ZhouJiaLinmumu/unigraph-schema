@@ -1,0 +1,11 @@
+{
+    "Id": "travel.hotel_grading_authority",
+    "Name": "Hotel Grading Authority",
+    "Description": "This is an authority (an organization, company or person) who grades the standards of hotels. An example would be the English Tourist Board in England, who rate hotels and award them with a grading. Hotels can be self-grading, and can therefore be typed as an Hotel Grading Authority.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

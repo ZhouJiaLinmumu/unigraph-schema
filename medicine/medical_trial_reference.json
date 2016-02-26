@@ -1,0 +1,12 @@
+{
+    "Id": "medicine.medical_trial_reference",
+    "Name": "Medical trial reference",
+    "Description": "A reference to a written work on the trial's subject.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "book.written_work"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

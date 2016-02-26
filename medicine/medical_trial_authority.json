@@ -1,0 +1,21 @@
+{
+    "Id": "medicine.medical_trial_authority",
+    "Name": "Medical trial health authority",
+    "Description": "A medical trial health authority is any health organization that has oversight authority over a medical trial.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.medical_trial_authority.region",
+            "Name": "Authority's Region",
+            "Description": "",
+            "ObjectType": "medicine.medical_trial_location",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "film.production_company",
+    "Name": "Production company",
+    "Description": "A production company is a company that makes films or movies.  These may be one-off companies formed for the production of a single film or a larger company that makes many films.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

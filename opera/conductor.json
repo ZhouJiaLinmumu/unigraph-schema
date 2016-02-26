@@ -1,0 +1,13 @@
+{
+    "Id": "opera.conductor",
+    "Name": "Opera Conductor",
+    "Description": "Persons conducting an opera",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.person",
+        "music.conductor"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

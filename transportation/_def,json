@@ -1,0 +1,5 @@
+{
+  "Id": "transportation",
+  "Name": "Transportation",
+  "Description": "There are currently only a few roads entered.  Please feel free to add major highways that you know.  Names of transportation systems and the roads themselves are often very verbose. Please feel free to trim down the names where necessary, provided that that the location is included in the name (eg. US Interstate 5 in the US Interstate System).  There will be roads and highways for many countries, states, provinces, counties, etc."
+}

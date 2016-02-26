@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.time",
+    "Name": "Time",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.time.measurement_unit",
+            "Name": "Unit of Time",
+            "Description": "",
+            "ObjectType": "measured_dimension.time_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.time.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "Id": "computer.programming_language",
+    "Name": "Programming Language",
+    "Description": "A language used to give instructions to a computer.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "computer.programming_language.developers",
+            "Name": "Developers",
+            "Description": "",
+            "ObjectType": "computer.programming_language_developer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.programming_language.influenced",
+            "Name": "Influenced",
+            "Description": "Programming languages influenced by this language.",
+            "ObjectType": "computer.programming_language",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.programming_language.introduced",
+            "Name": "Introduced",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "computer.programming_language.language_designers",
+            "Name": "Language Designers",
+            "Description": "",
+            "ObjectType": "computer.programming_language_designer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.programming_language.language_paradigms",
+            "Name": "Language Paradigms",
+            "Description": "",
+            "ObjectType": "computer.programming_language_paradigm",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.programming_language.parent_language",
+            "Name": "Parent Language",
+            "Description": "",
+            "ObjectType": "computer.programming_language",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

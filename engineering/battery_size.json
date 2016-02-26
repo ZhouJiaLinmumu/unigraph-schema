@@ -1,0 +1,52 @@
+{
+    "Id": "engineering.battery_size",
+    "Name": "Battery size",
+    "Description": "Battery size is used to describe the shape and terminal layout of a battery. A number of standards apply.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "engineering.battery_size.cell_variations",
+            "Name": "Cell variations",
+            "Description": "The differing electrical properties which are dependent on the cell type used",
+            "ObjectType": "engineering.battery_size_cell_variation",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "engineering.battery_size.diameter",
+            "Name": "Diameter or width",
+            "Description": "The diameter of a cylinder or button shaped battery or width of a cuboid (rectangular) shaped battery",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.battery_size.height",
+            "Name": "Height",
+            "Description": "The height of a cuboid (rectangular) shaped battery.  Leave blank if not applicable.",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.battery_size.length",
+            "Name": "Length",
+            "Description": "The typical geometric length of the battery size",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.battery_size.shape_format",
+            "Name": "Shape format",
+            "Description": "The shape format of the battery (e.g. cylinder)",
+            "ObjectType": "engineering.battery_shape_format",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

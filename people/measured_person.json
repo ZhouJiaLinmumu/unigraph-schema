@@ -1,0 +1,21 @@
+{
+    "Id": "people.measured_person",
+    "Name": "Measured person",
+    "Description": "This type is for people whose measurements and clothing sizes might be considered interesting. Examples might include, but are not limited to, models and athletes.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "people.measured_person.measurements",
+            "Name": "Measurements",
+            "Description": "",
+            "ObjectType": "people.human_measurement",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

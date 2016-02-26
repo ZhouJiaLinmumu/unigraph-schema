@@ -1,0 +1,11 @@
+{
+    "Id": "engineering.fuel_delivery_method",
+    "Name": "Fuel delivery method",
+    "Description": "Entry of fuel into a combustion chamber of a piston internal combustion engine can be controlled using a number of delivery methods.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

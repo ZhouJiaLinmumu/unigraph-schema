@@ -1,0 +1,26 @@
+{
+    "Id": "organization.organization_merger",
+    "Name": "Organization merger",
+    "Description": "This is a compound-value type that contains information about organizations that have merged.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "organization.organization_merger.became_organization",
+            "Name": "Became organization",
+            "Description": "The organization that was produced by the merger.",
+            "ObjectType": "organization.organization",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "organization.organization_merger.date",
+            "Name": "Date",
+            "Description": "The date the merger took place.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

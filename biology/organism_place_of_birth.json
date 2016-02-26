@@ -1,0 +1,12 @@
+{
+    "Id": "biology.organism_place_of_birth",
+    "Name": "Organism Place of Birth",
+    "Description": "This type links a location to an organism that was born on it.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

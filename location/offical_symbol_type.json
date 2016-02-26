@@ -1,0 +1,11 @@
+{
+    "Id": "location.offical_symbol_type",
+    "Name": "Official symbol variety",
+    "Description": "Many administrative divisions of countries (states, provinces, regions, departments, etc.) have official symbols of various varieties. This type contains the possible different varieties of symbols used.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

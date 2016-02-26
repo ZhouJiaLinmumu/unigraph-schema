@@ -1,0 +1,92 @@
+{
+    "Id": "government.election_poll",
+    "Name": "Election poll",
+    "Description": "An election poll is a poll taken about an election. While there are many kinds of polls, this type should only be used to represent polls about specific entities that are in an election, such as candidates (including potential candidates), ballot measures, and political parties.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "government.election_poll.election",
+            "Name": "Election",
+            "Description": "The election contest that this poll is regarding.",
+            "ObjectType": "government.election_with_polls",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.election_poll.location",
+            "Name": "Location",
+            "Description": "The location(s) that this poll was conducted in; that is, the place(s) where the respondents were located.",
+            "ObjectType": "government.polled_area",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.election_poll.margin_of_error",
+            "Name": "Margin of error",
+            "Description": "The margin of error for the results of this poll.",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.election_poll.number_polled",
+            "Name": "Number polled",
+            "Description": "The number of people who responded to the poll.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.election_poll.end_date",
+            "Name": "Poll end date",
+            "Description": "The date that polling for this poll ended.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.election_poll.start_date",
+            "Name": "Poll start date",
+            "Description": "The date that polling began for this poll.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.election_poll.release_date",
+            "Name": "Release date",
+            "Description": "The date that this poll's results were released.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "government.election_poll.subject",
+            "Name": "Subject",
+            "Description": "The entities (such as candidates) that respondents were asked about.",
+            "ObjectType": "government.election_poll_score",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.election_poll.taken_by",
+            "Name": "Taken by",
+            "Description": "The organization that conducted the poll.",
+            "ObjectType": "government.polling_authority",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "government.election_poll.type_of_people_polled",
+            "Name": "Type of people polled",
+            "Description": "The category or categories of the polls respondents (such as \"registered voters\" or \"adults\").",
+            "ObjectType": "government.poll_respondent_category",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

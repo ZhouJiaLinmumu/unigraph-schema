@@ -1,0 +1,13 @@
+{
+    "Id": "sports.tournament_event_competitor",
+    "Name": "Tournament event competitor",
+    "Description": "This type is for any person who has competed in a multi-event sporting tournament. This type is for people only; teams can be entered using the Tournament Team type.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic",
+        "sports.professional_athlete"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

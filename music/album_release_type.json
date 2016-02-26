@@ -1,0 +1,11 @@
+{
+    "Id": "music.album_release_type",
+    "Name": "Musical Album Type",
+    "Description": "A Musical Album Type is a classification of Musical Album; an album is a release in the broad sense from an artist; the Musical Album Type is used to clarify the artists output by full-length album, singles, live albums, compilations, etc. It can be useful to filter a list of albums by musical album type. There should not be a lot of different instances of Musical Album Type;",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

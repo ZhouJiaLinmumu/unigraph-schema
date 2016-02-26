@@ -1,0 +1,11 @@
+{
+    "Id": "government.political_ideology",
+    "Name": "Political ideology",
+    "Description": "This type is for ideologies that are primarily political in nature, as opposed to purely philosophical or religious ideologies, although there is obviously some degree of overlap between them.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

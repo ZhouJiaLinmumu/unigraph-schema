@@ -1,0 +1,24 @@
+{
+    "Id": "architecture.skyscraper",
+    "Name": "Skyscraper",
+    "Description": "What constitutes a skyscraper is up for debate. They should be co-typed \"Building\" and \"Structure.\" The \"Building\" type has the \"Occupied Height\".",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "architecture.structure",
+        "location.location",
+        "architecture.building",
+        "projects.project_focus",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "architecture.skyscraper.height_with_antenna_spire",
+            "Name": "Height with antenna/spire",
+            "Description": "Building height including an antenna or spire that extends the height of the building",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

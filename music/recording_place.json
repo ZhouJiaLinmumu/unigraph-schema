@@ -1,0 +1,12 @@
+{
+    "Id": "music.recording_place",
+    "Name": "Recording Place",
+    "Description": "Place(s) (studio, city or country) where this recording was recorded.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "automotive.fuel_economy_authority",
+    "Name": "Fuel Economy Authority",
+    "Description": "The manufacturer or an official, independent authority reporting the fuel economy of the vehicle.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,103 @@
+{
+    "Id": "location.country",
+    "Name": "Country",
+    "Description": "The most common objects are the current and former independent nations, potentially including composite entities such as empires. It can also be used for autonomous entities within such a composite, such as the four current constituent countries (England, Northern Ireland, Scotland, and Wales) of the United Kingdom.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.statistical_region",
+        "location.location",
+        "location.dated_location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "location.country.calling_code",
+            "Name": "Calling Code",
+            "Description": "The country code needed to make a telephone call to this country from another country.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "location.country.capital",
+            "Name": "Capital",
+            "Description": "",
+            "ObjectType": "location.citytown",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.country.first_level_divisions",
+            "Name": "First level divisions",
+            "Description": "The first level administrative divisions of this country, typically regions, states, provinces, etc...",
+            "ObjectType": "location.administrative_division",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.country.government_form",
+            "Name": "Form of Government",
+            "Description": "The form or style of government (i.e. federal republic, monarchy, etc.) of this country.",
+            "ObjectType": "location.government_form",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.country.fourth_level_divisions",
+            "Name": "Fourth level divisions",
+            "Description": "Fourth-level administrative divisions of this country. Administratively, fourth-level divisions have three levels of administration between their governments and the national government.",
+            "ObjectType": "location.administrative_division",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.country.gdp_nominal",
+            "Name": "GDP (nominal)",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.country.gdp_nominal_per_capita",
+            "Name": "GDP (nominal per capita)",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.country.internet_tld",
+            "Name": "Internet TLD",
+            "Description": "The top-level domain(s) specific to this country.",
+            "ObjectType": "location.top_level_domain",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.country.official_language",
+            "Name": "Official Language",
+            "Description": "",
+            "ObjectType": "location.language",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.country.second_level_divisions",
+            "Name": "Second level divisions",
+            "Description": "The second level administrative divisions of this country, typically counties, cantons, departments, districts, etc...",
+            "ObjectType": "location.administrative_division",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.country.third_level_divisions",
+            "Name": "Third level divisions",
+            "Description": "Third-level administrative divisions of this country. Administratively, third-level divisions have two levels of administration between their governments and the national government.",
+            "ObjectType": "location.administrative_division",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

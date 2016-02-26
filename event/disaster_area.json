@@ -1,0 +1,12 @@
+{
+    "Id": "event.disaster_area",
+    "Name": "Disaster area",
+    "Description": "Area affected",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

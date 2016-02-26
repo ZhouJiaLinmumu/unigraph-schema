@@ -1,0 +1,61 @@
+{
+    "Id": "biology.animal_breed",
+    "Name": "Animal breed",
+    "Description": "An animal breed is a group of domesticated animals that share a set of similar traits. Animal breeds are generally created by selective breeding, but also include groups that developed from feral stock.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "biology.animal"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "biology.animal_breed.breed_of",
+            "Name": "Breed of",
+            "Description": "The type of animal this is a breed of (e.g. dog, cat, horse).",
+            "ObjectType": "biology.domesticated_animal",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.animal_breed.coloring",
+            "Name": "Color",
+            "Description": "The color or colors particular to, or commonly found in, this breed. Note that a breed coloring can represent a mix of colors or pattern (such as tabby, brindle, or pinto), as well as a solid coloring (such as black or chestnut).",
+            "ObjectType": "biology.breed_coloring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "biology.animal_breed.hypoallergenic",
+            "Name": "Hypoallergenic",
+            "Description": "\"True\" if this breed is considered to be more compatible with people who have allergies to animal dander than most. \"False\" if not.",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.animal_breed.light_shedder",
+            "Name": "Light shedder",
+            "Description": "\"True\" if this breed is a light shedder (for breeds of mammals only).",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.animal_breed.temperament",
+            "Name": "Temperament",
+            "Description": "The typical disposition or demeanor possessed by individuals of this breed.",
+            "ObjectType": "biology.breed_temperament",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "biology.animal_breed.place_of_origin",
+            "Name": "Place of origin",
+            "Description": "The place in which this breed was first bred.",
+            "ObjectType": "biology.breed_origin",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

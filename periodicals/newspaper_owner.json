@@ -1,0 +1,11 @@
+{
+    "Id": "periodicals.newspaper_owner",
+    "Name": "Newspaper Owner",
+    "Description": "This is the person, organization, or company that owns a newspaper.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

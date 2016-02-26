@@ -1,0 +1,11 @@
+{
+    "Id": "travel.tourist_attraction",
+    "Name": "Tourist attraction",
+    "Description": "A tourist attraction is a sight or feature that you might visit as a tourist.  Examples include monuments, parks, museums, and the like.  This type includes Location, which means it is usually used for things which are themselves locations (like those described above). There are cases where the attraction is not a location, eg. festivals or other events.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

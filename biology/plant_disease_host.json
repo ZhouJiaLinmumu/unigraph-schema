@@ -1,0 +1,12 @@
+{
+    "Id": "biology.plant_disease_host",
+    "Name": "Plant Disease Host",
+    "Description": "A plant with a known disease.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "biology.organism_classification",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

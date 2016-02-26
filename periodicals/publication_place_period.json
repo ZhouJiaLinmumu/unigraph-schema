@@ -1,0 +1,42 @@
+{
+    "Id": "periodicals.publication_place_period",
+    "Name": "Place of Publication Period",
+    "Description": "This is a compound-value type that contains information about a periodical's place of publication and the dates it was published there. The preferred level of precision place of publication is the city, but state/province or country is better than nothing, and will often be the most precise location.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "periodicals.publication_place_period.start_date",
+            "Name": "From",
+            "Description": "For periodicals which have had more than one place of publication, the date it was first published here",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.publication_place_period.place",
+            "Name": "Place of Publication",
+            "Description": "The city if known, otherwise the state/province or country",
+            "ObjectType": "periodicals.periodical_location",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "periodicals.publication_place_period.end_date",
+            "Name": "To",
+            "Description": "For periodicals which have had more than one place of publication, the date it was last published here; if still published at this location, leave blank",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.publication_place_period.magazine",
+            "Name": "Magazine",
+            "Description": "The magazine published",
+            "ObjectType": "periodicals.magazine",
+            "Unique": false,
+            "Required": true
+        }
+    ]
+}

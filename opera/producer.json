@@ -1,0 +1,12 @@
+{
+    "Id": "opera.producer",
+    "Name": "Opera Producer",
+    "Description": "This type is for anyone who has acted as a producer for an opera production.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

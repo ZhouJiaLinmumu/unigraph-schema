@@ -1,0 +1,12 @@
+{
+    "Id": "architecture.engineer",
+    "Name": "Engineer",
+    "Description": "\"Engineer\" is the core type for engineers of the built environment. \"Structure\" lists \"Engineer\" as a property to impart attribution. This is quite flexible: whether an engineer designed a Skyscraper (e.g. a Structural Engineer) or Bridge (e.g. a Civil Engineer) this type can be used (as the target property for \"Structure\"). You can more accurately type an Engineer with the \"co-types\": \"Civil Engineer\" or \"Structural Engineer.\"",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

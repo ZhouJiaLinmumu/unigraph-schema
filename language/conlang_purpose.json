@@ -1,0 +1,20 @@
+{
+    "Id": "language.conlang_purpose",
+    "Name": "Conlang type",
+    "Description": "This type is for ways of classifying constructed languages.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "language.conlang_purpose.languages_of_this_type",
+            "Name": "Languages of this type",
+            "Description": "",
+            "ObjectType": "language.conlang",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "Id": "medicine.vaccine",
+    "Name": "Vaccine",
+    "Description": "A vaccine is a biological preparation that improves immunity to a particular disease.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "medicine.medical_treatment",
+        "common.topic",
+        "medicine.drug",
+        "medicine.prevention_factor"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.vaccine.developed_by",
+            "Name": "Developed by",
+            "Description": "Person or organization that developed the vaccine.",
+            "ObjectType": "medicine.vaccine_developer",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

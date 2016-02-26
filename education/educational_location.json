@@ -1,0 +1,12 @@
+{
+    "Id": "education.educational_location",
+    "Name": "Educational location",
+    "Description": "Locations (usually countries, unless divisions of a country have very different systems).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

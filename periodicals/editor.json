@@ -1,0 +1,12 @@
+{
+    "Id": "periodicals.editor",
+    "Name": "Periodical editor",
+    "Description": "A periodical editor is anyone who has served in any editorial capacity (whether editor-in-chief, an editor for a particular subject or section, assistant editor, etc.) on any periodical (including newspapers, magazines, journals, and zines), whether the position was paid or not.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

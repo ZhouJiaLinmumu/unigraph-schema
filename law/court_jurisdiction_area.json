@@ -1,0 +1,12 @@
+{
+    "Id": "law.court_jurisdiction_area",
+    "Name": "Court jurisdiction area",
+    "Description": "A court jurisdiction area is a location from which claims may be brought before a particular court.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

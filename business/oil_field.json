@@ -1,0 +1,54 @@
+{
+    "Id": "business.oil_field",
+    "Name": "Oil Field",
+    "Description": "An oilfield is a region from which petroleum can be (is being, has been) extracted.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.asset",
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.oil_field.production",
+            "Name": "Annual Production",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.oil_field.cumulative_production",
+            "Name": "Cumulative production",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.oil_field.reserves",
+            "Name": "Estimated reserves",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.oil_field.wells",
+            "Name": "Producing Wells",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.oil_field.year_discovered",
+            "Name": "Year discovered",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

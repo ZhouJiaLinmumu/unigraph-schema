@@ -1,0 +1,68 @@
+{
+    "Id": "medicine.drug",
+    "Name": "Drug",
+    "Description": "A drug is a chemical substance that has a physiological effect on an organism. Medicinal, herbal, and illegal drugs can be included in this type.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.drug.active_moieties",
+            "Name": "Active moieties",
+            "Description": "The active moiety or moieties of this drug.",
+            "ObjectType": "medicine.drug_ingredient",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.drug.drug_class",
+            "Name": "Pharmacological class",
+            "Description": "A drug class is a method of identifying and grouping drugs by chemical type, active ingredients, or by medical condition it treats. A drug can belong to more than one drug class.",
+            "ObjectType": "medicine.drug_class",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.drug.legal_status",
+            "Name": "Legal status",
+            "Description": "The legal status of this drug, as defined by government bodies that regulate therapeutic goods.",
+            "ObjectType": "medicine.drug_legal_status",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.drug.marketed_formulations",
+            "Name": "Marketed formulations",
+            "Description": "Formulations of this drug that are available in the market. This property includes only drug formulations that uniquely include this drug as an active moiety. Drug formulations that are a combination of this drug with others can be found via the active_moiety_of property.",
+            "ObjectType": "medicine.drug_formulation",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.drug.action_mechanism",
+            "Name": "Mechanism of action",
+            "Description": "The biological or chemical mechanism by which the drug acts in the body. Example, \"Corticosteroid hormone receptor agonist\"",
+            "ObjectType": "medicine.drug_action_mechanism",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.drug.physiologic_effect",
+            "Name": "Physiologic effect",
+            "Description": "The physiological effect of the drug in the body, example: \"Decreased platelet production\"",
+            "ObjectType": "medicine.drug_physiologic_effect",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.drug.pregnancy_category",
+            "Name": "Pregnancy category",
+            "Description": "The pregnancy category of a drug is an assessment of the risk of fetal injury due to the drug, when used by the mother during pregnancy.",
+            "ObjectType": "medicine.drug_pregnancy_category",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

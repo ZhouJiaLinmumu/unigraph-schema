@@ -1,0 +1,11 @@
+{
+    "Id": "organization.organization_sector",
+    "Name": "Organization sector",
+    "Description": "This is a sector, or area of focus, of organizations (of any kind).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

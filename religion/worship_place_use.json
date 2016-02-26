@@ -1,0 +1,34 @@
+{
+    "Id": "religion.worship_place_use",
+    "Name": "Place of worship historical use",
+    "Description": "This type connects places of worship to the religions which have used them.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "religion.worship_place_use.start_date",
+            "Name": "From date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "religion.worship_place_use.religion",
+            "Name": "Religion",
+            "Description": "",
+            "ObjectType": "religion.religion",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "religion.worship_place_use.end_date",
+            "Name": "To date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

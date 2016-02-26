@@ -1,0 +1,11 @@
+{
+    "Id": "people.family_name",
+    "Name": "Family name",
+    "Description": "Also known as \"surname\" or \"last name\" in many western cultures. This type is different from the type \"family\" which is used for notable families that can be discretely defined (such as royal houses, the Guggenheim family, the Sulzbergers, etc.)",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

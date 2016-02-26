@@ -1,0 +1,12 @@
+{
+    "Id": "law.governmental_jurisdiction",
+    "Name": "Constitution",
+    "Description": "The governmental jurisdiction over which a constitution is enforced.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "government.governmental_jurisdiction"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

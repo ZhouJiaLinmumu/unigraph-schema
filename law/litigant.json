@@ -1,0 +1,11 @@
+{
+    "Id": "law.litigant",
+    "Name": "Litigant",
+    "Description": "A litigant is any party to a legal case. This includes both the parties that brought the case and the parties against who the case has been brought, as well as cross-claimants, third parties, and the like.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

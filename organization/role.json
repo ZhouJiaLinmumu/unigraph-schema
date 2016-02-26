@@ -1,0 +1,11 @@
+{
+    "Id": "organization.role",
+    "Name": "Leadership Role",
+    "Description": "A leadership role describes a particular type of role that a leader of an organization can fill. It is used to normalize roles across languages and between organizations which may have slightly different terminology for what is essentially the same role. It is distinct from someone's title, although the two may be related, and may sometimes be the same.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

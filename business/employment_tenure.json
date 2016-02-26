@@ -1,0 +1,50 @@
+{
+    "Id": "business.employment_tenure",
+    "Name": "Employment tenure",
+    "Description": "'Employment tenure' represents the relationship between a company and a person who has worked there. The company type typically tracks key employees, such as the management team, not all employees who have worked for a company.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.employment_tenure.company",
+            "Name": "Employer",
+            "Description": "",
+            "ObjectType": "business.employer",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "business.employment_tenure.start_date",
+            "Name": "From",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.employment_tenure.person",
+            "Name": "Person",
+            "Description": "",
+            "ObjectType": "business.employee",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "business.employment_tenure.title",
+            "Name": "Title",
+            "Description": "The title this person held with this employer. If they had more than one title (e.g., due to promotion), enter that as a separate employment tenure. For politicians, please consider adding the \"politician\" type to this person to capture elected or appointed offices.",
+            "ObjectType": "business.job_title",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "business.employment_tenure.end_date",
+            "Name": "To",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

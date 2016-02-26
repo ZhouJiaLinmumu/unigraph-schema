@@ -1,0 +1,20 @@
+{
+    "Id": "medicine.symptom",
+    "Name": "Symptom",
+    "Description": "A symptom is a sign or indication of the existence of a disease or medical condition.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.symptom.includes_symptoms",
+            "Name": "Includes symptoms",
+            "Description": "Symptoms that are a part of or a type of this symptom.",
+            "ObjectType": "medicine.symptom",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

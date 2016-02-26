@@ -1,0 +1,11 @@
+{
+    "Id": "law.legal_party_role",
+    "Name": "Litigation role",
+    "Description": "A litigation role is a role that a party to a legal case can hold, such as plaintiff (claimant, petitioner, etc.) or defendant.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

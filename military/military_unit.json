@@ -1,0 +1,37 @@
+{
+    "Id": "military.military_unit",
+    "Name": "Military unit",
+    "Description": "A military unit is any division of an Armed Force. Common terms for military units include (but are not limited to) division, battalion, brigade, regiment, unit, fleet, wing, squadron, company, and field army. This type includes specific named military units, rather than general types of military units.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "military.military_unit.armed_force",
+            "Name": "Armed force",
+            "Description": "What armed force is this unit part of?",
+            "ObjectType": "military.armed_force",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.military_unit.formed",
+            "Name": "Formed",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.military_unit.place_of_origin",
+            "Name": "Place of origin",
+            "Description": "",
+            "ObjectType": "military.military_unit_origin_place",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

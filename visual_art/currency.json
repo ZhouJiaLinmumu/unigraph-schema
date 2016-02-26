@@ -1,0 +1,12 @@
+{
+    "Id": "visual_art.currency",
+    "Name": "Currency",
+    "Description": "The currency of the particular transaction",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "finance.currency"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

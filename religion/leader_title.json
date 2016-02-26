@@ -1,0 +1,20 @@
+{
+    "Id": "religion.leader_title",
+    "Name": "Religious Leadership Title",
+    "Description": "Religious Leadership Title is a specific title given to a leader within a religious organization.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "religion.leader_title.role",
+            "Name": "Rank or Role",
+            "Description": "The rank, or role, that this title denotes",
+            "ObjectType": "religion.leader_role",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

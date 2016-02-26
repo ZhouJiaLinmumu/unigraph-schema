@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.integer_range",
+    "Name": "Integer range",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.integer_range.high_value",
+            "Name": "Integer High value",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.integer_range.low_value",
+            "Name": "Integer Low value",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

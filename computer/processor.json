@@ -1,0 +1,36 @@
+{
+    "Id": "computer.processor",
+    "Name": "Computer Processor",
+    "Description": "The device which acts as the central core in a computer.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "computer.processor.introduced",
+            "Name": "Introduced",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "computer.processor.manufacturers",
+            "Name": "Manufacturers",
+            "Description": "",
+            "ObjectType": "computer.processor_manufacturer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.processor.processor_family",
+            "Name": "Processor Family",
+            "Description": "",
+            "ObjectType": "computer.processor",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

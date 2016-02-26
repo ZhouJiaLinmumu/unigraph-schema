@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.irradiance",
+    "Name": "Irradiance",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.irradiance.measurement_unit",
+            "Name": "Unit of Irradiance",
+            "Description": "",
+            "ObjectType": "measured_dimension.irradiance_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.irradiance.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

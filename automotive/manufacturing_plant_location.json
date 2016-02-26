@@ -1,0 +1,14 @@
+{
+    "Id": "automotive.manufacturing_plant_location",
+    "Name": "Manufacturing Plant Location",
+    "Description": "The Manufacturing plant's physical location where the vehicle is assembled into it's final operational configuration.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "architecture.structure",
+        "location.location",
+        "projects.project_focus",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

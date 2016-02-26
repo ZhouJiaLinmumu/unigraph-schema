@@ -1,0 +1,26 @@
+{
+    "Id": "aviation.cargo_by_year",
+    "Name": "Cargo moved by year",
+    "Description": "Captures the weight and year of cargo shipped for an airport.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "aviation.cargo_by_year.date",
+            "Name": "Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "aviation.cargo_by_year.weight",
+            "Name": "Weight",
+            "Description": "",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

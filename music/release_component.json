@@ -1,0 +1,21 @@
+{
+    "Id": "music.release_component",
+    "Name": "Musical Release Component",
+    "Description": "A Musical Release Component is a single physical medium that was packaged with others as part of a Multi-Part Release Package. Examples include disc 3 of a 5-CD box set, or the first LP of a 2-LP album release. Although this type includes the Musical Release type, it should not connect directly back to an album, but only to a Multi-Part Release Package. The exception is if a box set includes remasterings of an artists earlier albums, and this component is both part of a package and a release of an album.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "music.release"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.release_component.package",
+            "Name": "Package",
+            "Description": "The multi-part release of which this component (disc, cassette, LP) was a part.",
+            "ObjectType": "music.multipart_release",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

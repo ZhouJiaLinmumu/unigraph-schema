@@ -1,0 +1,12 @@
+{
+    "Id": "geography.basin_citytown",
+    "Name": "Basin city",
+    "Description": "Cities and towns along a river or lake basin.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.citytown",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,34 @@
+{
+    "Id": "type.schema",
+    "Name": "Schema",
+    "Description": "Includes types, domains, properties.",
+    "Mediator": false,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "type.schema.id",
+            "Name": "Id",
+            "Description": "Friendly identifier for the schema object.",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "type.schema.name",
+            "Name": "Name",
+            "Description": "A textual display name for the schema object",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "type.schema.description",
+            "Name": "Name",
+            "Description": "Description of the schema object",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

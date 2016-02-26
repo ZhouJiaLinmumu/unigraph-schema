@@ -1,0 +1,12 @@
+{
+    "Id": "transportation.road_location",
+    "Name": "Road Location",
+    "Description": "The geographic location that the road spans",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

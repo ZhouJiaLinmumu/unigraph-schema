@@ -1,0 +1,84 @@
+{
+    "Id": "common.image",
+    "Name": "Image",
+    "Description": "'Image' is a commonly used type, typically appearing in all topics. Standard web image file formats are supported including .gif, .jpg and .png. It is also possible to capture other meta information about images such as size and date. Images may be promoted to topics, either by adding type 'topic' to the types list for an image or by adding an article description to the image when uploading it.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "type.object"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "common.image.creation_date",
+            "Name": "Creation Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "common.image.image_caption",
+            "Name": "Image Caption",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.image.image_location",
+            "Name": "Image Location",
+            "Description": "",
+            "ObjectType": "common.image_location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.image.image_tags",
+            "Name": "Image Tags",
+            "Description": "",
+            "ObjectType": "common.image_tag",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.image.rights_holder",
+            "Name": "Rights holder (user/topic)",
+            "Description": "",
+            "ObjectType": "common.media_rights_holder",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "common.image.rights_holder_text_attribution",
+            "Name": "Rights holder (text attribution)",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "common.image.size",
+            "Name": "Image Dimensions",
+            "Description": "",
+            "ObjectType": "measured_dimension.pixels_rect_size",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "common.image.uri",
+            "Name": "Image URI",
+            "Description": "",
+            "ObjectType": "type.uri",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "common.image.file_format",
+            "Name": "Image File Format",
+            "Description": "",
+            "ObjectType": "common.file_format",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "Id": "book.publisher_imprint_tenure",
+    "Name": "Publisher/imprint tenure",
+    "Description": "This type is used to connect imprints to their publishers over a period of time.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "book.publisher_imprint_tenure.start_date",
+            "Name": "From",
+            "Description": "The date that the imprint became an imprint of this publisher.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "book.publisher_imprint_tenure.end_date",
+            "Name": "To",
+            "Description": "The date after which the imprint was no longer an imprint of this publisher.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "book.publisher_imprint_tenure.imprints",
+            "Name": "Imprints",
+            "Description": "An imprint of this publisher.",
+            "ObjectType": "book.publishing_company",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "book.publisher_imprint_tenure.publisher",
+            "Name": "Publisher",
+            "Description": "The publisher that this is, or was, an imprint of.",
+            "ObjectType": "book.publishing_company",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "Id": "architecture.building_occupancy",
+    "Name": "Occupancy",
+    "Description": "This is a compound value type describing the entity that occupies a building and the time frame of occupancy.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "architecture.building_occupancy.start_date",
+            "Name": "Start date",
+            "Description": "Occupancy from date",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "architecture.building_occupancy.occupant",
+            "Name": "Occupant",
+            "Description": "Entity that occupies a building",
+            "ObjectType": "architecture.building_occupant",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "architecture.building_occupancy.end_date",
+            "Name": "End date",
+            "Description": "Occupancy to date",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "architecture.building_occupancy.building",
+            "Name": "Building",
+            "Description": "The building that is occupied.",
+            "ObjectType": "architecture.building",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "Id": "finance.stock_exchange",
+    "Name": "Stock exchange",
+    "Description": "A marketplace that facilitates the trading of securities, commodities, derivatives and other financial instruments.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "finance.stock_exchange.open_times",
+            "Name": "Open times",
+            "Description": "The times during which this exchange is open for trading.",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "finance.stock_exchange.primary_regions",
+            "Name": "Primary Regions",
+            "Description": "Regions covered by this exchange",
+            "ObjectType": "finance.stock_exchange_region",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

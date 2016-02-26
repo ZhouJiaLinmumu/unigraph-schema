@@ -1,0 +1,30 @@
+{
+    "Id": "geography.mountain_range",
+    "Name": "Mountain range",
+    "Description": "A mountain range is a group of mountains bordered by lowlands or separated from other mountain ranges by passes or rivers.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "geography.geographical_feature",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "geography.mountain_range.mountains",
+            "Name": "Mountains",
+            "Description": "Mountains in this range.",
+            "ObjectType": "geography.mountain",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "geography.mountain_range.passes",
+            "Name": "Passes",
+            "Description": "Mountain passes through this range.",
+            "ObjectType": "geography.mountain_pass",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

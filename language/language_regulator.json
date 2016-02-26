@@ -1,0 +1,12 @@
+{
+    "Id": "language.language_regulator",
+    "Name": "Language Regulator",
+    "Description": "A language regulator is an organization that attempts to regulate one or more aspects of a language.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,20 @@
+{
+    "Id": "theater.theater_character",
+    "Name": "Theater Character",
+    "Description": "This type is for all characters that appear in plays.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "theater.theater_character.plays_appears_in",
+            "Name": "Plays Appears In",
+            "Description": "Plays that this character appears in.",
+            "ObjectType": "theater.play",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

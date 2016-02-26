@@ -1,0 +1,40 @@
+{
+    "Id": "religion.worship_place",
+    "Name": "Place of worship",
+    "Description": "A place of worship is a location (typically a building) which is used by members of a religion for worship.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "architecture.structure",
+        "location.location",
+        "architecture.building",
+        "projects.project_focus",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "religion.worship_place.used_by_religions",
+            "Name": "Historically used by religions",
+            "Description": "",
+            "ObjectType": "religion.worship_place_use",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.worship_place.religion",
+            "Name": "Currently used by religion(s)",
+            "Description": "",
+            "ObjectType": "religion.religion",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "religion.worship_place.worship_place_type",
+            "Name": "Type of place of worship",
+            "Description": "",
+            "ObjectType": "religion.worship_place_type",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

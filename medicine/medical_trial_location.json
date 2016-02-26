@@ -1,0 +1,12 @@
+{
+    "Id": "medicine.medical_trial_location",
+    "Name": "Medical gender",
+    "Description": "The location a medical trial was carried",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

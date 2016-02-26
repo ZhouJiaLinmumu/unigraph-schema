@@ -1,0 +1,12 @@
+{
+    "Id": "music.voice",
+    "Name": "Musical voice",
+    "Description": "A Musical voice is the singing role of a vocalist in a piece of music. Vocalists often specialize based on their vocal range. A Musical voice is also always a Musical Performance Role, so that a Musical Artist can easily be credited with singing that voice part in a performance.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "music.performance_role",
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "music.tribute_act",
+    "Name": "Musical tribute act",
+    "Description": "A musical tribute act is a musical artist (performing either as a solo artist or a group) that exclusively or primarily performs or records the music of another musical artist.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

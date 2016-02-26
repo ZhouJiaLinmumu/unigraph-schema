@@ -1,0 +1,11 @@
+{
+    "Id": "law.constitutional_amendment_proposer",
+    "Name": "Constitutional Amendment Proposer",
+    "Description": "A person or group who has proposed a constitutional amendment.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

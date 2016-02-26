@@ -1,0 +1,11 @@
+{
+    "Id": "business.asset_owner",
+    "Name": "Asset Owner",
+    "Description": "Often, though not always, a company - this type is used to identify any entity that owns an asset. It connects to the asset through the compound value type: Asset Ownership",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

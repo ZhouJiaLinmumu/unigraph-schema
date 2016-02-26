@@ -1,0 +1,11 @@
+{
+    "Id": "film.person_or_entity_appearing_in_film",
+    "Name": "Person or entity appearing in film",
+    "Description": "This type is for people, named animals, and groups (such as bands, collectives, etc.) that have appeared in films in non-acting roles (especially in non-fictional film types such as documentaries and concert films). Animals using this type should be individual creatures, rather than just a species (for example, Koko the Gorilla could incude this type since she was the subject of a documentary film, but the classification Gorilla would not have this type).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

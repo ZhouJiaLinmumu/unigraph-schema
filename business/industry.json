@@ -1,0 +1,28 @@
+{
+    "Id": "business.industry",
+    "Name": "Industry",
+    "Description": "An 'Industry' is generally any grouping of businesses that share a common method of generating profits, such as the \"music industry\", the \"automobile industry\", or the \"cattle industry\".",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "business.industry.parent_industry",
+            "Name": "Parent Industry",
+            "Description": "",
+            "ObjectType": "business.industry",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "business.industry.competitive_space",
+            "Name": "Competitive space",
+            "Description": "",
+            "ObjectType": "business.competitive_space",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

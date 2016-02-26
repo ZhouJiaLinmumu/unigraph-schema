@@ -1,0 +1,148 @@
+{
+    "Id": "medicine.medical_trial",
+    "Name": "Medical trial",
+    "Description": "A medical trial is a research study relating to human medicine or health, including both observational and interventional trials.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.medical_trial.design",
+            "Name": "Design",
+            "Description": "",
+            "ObjectType": "medicine.medical_trial_design",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.eligibile_genders",
+            "Name": "Eligibile genders",
+            "Description": "",
+            "ObjectType": "medicine.medical_gender",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.eligibility_exclusion_criteria",
+            "Name": "Eligibility exclusion criteria",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.eligibility_inclusion_criteria",
+            "Name": "Eligibility inclusion criteria",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.end_date",
+            "Name": "End date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.expected_total_enrollment",
+            "Name": "Expected total enrollment",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.authority",
+            "Name": "Health authority",
+            "Description": "",
+            "ObjectType": "medicine.medical_trial_authority",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.location",
+            "Name": "Location",
+            "Description": "",
+            "ObjectType": "medicine.medical_trial_location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.max_eligibility_age",
+            "Name": "Maximum age for eligibility",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.min_eligibility_age",
+            "Name": "Minimum age for eligibility",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.phase",
+            "Name": "Phase",
+            "Description": "",
+            "ObjectType": "medicine.medical_trial_phase",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.primary_outcome",
+            "Name": "Primary outcomes",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.reference",
+            "Name": "References",
+            "Description": "",
+            "ObjectType": "medicine.medical_trial_reference",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.secondary_outcome",
+            "Name": "Secondary outcomes",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.sponsor",
+            "Name": "Sponsor",
+            "Description": "",
+            "ObjectType": "medicine.medical_trial_sponsor",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.start_date",
+            "Name": "Start date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.medical_trial.type_of_trial",
+            "Name": "Type of trial",
+            "Description": "",
+            "ObjectType": "medicine.medical_trial_type",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

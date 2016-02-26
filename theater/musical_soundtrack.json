@@ -1,0 +1,21 @@
+{
+    "Id": "theater.musical_soundtrack",
+    "Name": "Musical Soundtrack",
+    "Description": "A musical soundtrack is a recording of a specific production of a stage musical (although any play that has released a soundtrack, whether or not it would normally be considered a musical, should use this type as well). This type can also be used for recordings of a plays music that are not related to a specific production.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "music.album",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "theater.musical_soundtrack.production",
+            "Name": "Production",
+            "Description": "For cast recordings, the production that this cast performed in.",
+            "ObjectType": "theater.production",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

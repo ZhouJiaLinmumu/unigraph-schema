@@ -1,0 +1,12 @@
+{
+    "Id": "automotive.generation_market",
+    "Name": "Automobile generation market",
+    "Description": "The  automotive generation market describes the countries where a particular car generation have been sold.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.country"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

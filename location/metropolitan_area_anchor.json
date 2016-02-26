@@ -1,0 +1,12 @@
+{
+    "Id": "location.metropolitan_area_anchor",
+    "Name": "Metropolitan area anchor",
+    "Description": "A Metropolitan Area Anchor is a population center for a metropolitan area.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

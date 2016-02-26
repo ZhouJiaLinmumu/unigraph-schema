@@ -1,0 +1,31 @@
+{
+    "Id": "automotive.manufacturing_plant",
+    "Name": "Manufacturing Plant",
+    "Description": "Manufacturing plant is the location where the vehicle is assembled into it's final operational configuration.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "architecture.structure",
+        "location.location",
+        "projects.project_focus",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "automotive.manufacturing_plant.company",
+            "Name": "Company",
+            "Description": "",
+            "ObjectType": "automotive.company",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "automotive.manufacturing_plant.location",
+            "Name": "Location",
+            "Description": "",
+            "ObjectType": "automotive.manufacturing_plant_location",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

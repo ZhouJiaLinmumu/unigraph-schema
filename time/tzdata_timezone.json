@@ -1,0 +1,12 @@
+{
+    "Id": "time.tzdata_timezone",
+    "Name": "Tzdata time zone",
+    "Description": "Tz data (aka Zoneinfo or IANA) time zones are those time zones defined in the IANA Time Zone Database.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "time.timezone",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

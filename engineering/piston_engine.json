@@ -1,0 +1,86 @@
+{
+    "Id": "engineering.piston_engine",
+    "Name": "Piston engine",
+    "Description": "A piston internal combustion engine is a common engine found in the majority of automobiles, ships and propeller driven aircraft. This type is for use with various topics of engines.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "projects.project_focus",
+        "common.topic",
+        "engineering.engine"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "engineering.piston_engine.brake_specific_fuel_consumption",
+            "Name": "Brake specific fuel consumption",
+            "Description": "The brake specific fuel consumption",
+            "ObjectType": "measured_dimension.brake_specific_fuel_consumption",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.piston_engine.capacity",
+            "Name": "Capacity",
+            "Description": "The volume of the engine (in liters)",
+            "ObjectType": "measured_dimension.volume",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.piston_engine.cooling_method",
+            "Name": "Cooling method",
+            "Description": "",
+            "ObjectType": "engineering.engine_cooling_method",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "engineering.piston_engine.cylinder_bore",
+            "Name": "Cylinder bore",
+            "Description": "The maximum bore diameter of the piston cylinders",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.piston_engine.fuel_delivery",
+            "Name": "Fuel delivery method",
+            "Description": "The method in which the fuel is controlled in the piston cylinders",
+            "ObjectType": "engineering.fuel_delivery_method",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.piston_engine.piston_configuration",
+            "Name": "Piston configuration",
+            "Description": "",
+            "ObjectType": "engineering.piston_configuration",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "engineering.piston_engine.piston_stroke",
+            "Name": "Piston stroke",
+            "Description": "The maximum stroke length of the piston",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.piston_engine.torque",
+            "Name": "Torque",
+            "Description": "The maximum torque produced by this engine",
+            "ObjectType": "measured_dimension.force_moment",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "engineering.piston_engine.valvetrain_configuration",
+            "Name": "Valvetrain configuration",
+            "Description": "The position of the valves in relation to the pistons",
+            "ObjectType": "engineering.valvetrain_configuration",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

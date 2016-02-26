@@ -1,0 +1,37 @@
+{
+    "Id": "computer.emulator",
+    "Name": "Computer Emulator",
+    "Description": "A computer emulator is a system, usually implemented in software, that is designed to simulate the behavior of a computer.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "computer.software",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "computer.emulator.computer",
+            "Name": "Emulated Computer",
+            "Description": "The computer system this emulator imitates.",
+            "ObjectType": "computer.computer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.emulator.peripheral_classes",
+            "Name": "Emulated Peripheral Classes",
+            "Description": "Any peripheral classes this emulator imitates",
+            "ObjectType": "computer.peripheral_class",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.emulator.peripherals",
+            "Name": "Emulated Peripherals",
+            "Description": "Any specific peripherals this emulator imitates",
+            "ObjectType": "computer.peripheral",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

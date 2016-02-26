@@ -1,0 +1,12 @@
+{
+    "Id": "music.live_album",
+    "Name": "Live Album",
+    "Description": "A Live Album is any musical album that features tracks recorded from a live concert or series of concerts.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "music.album",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

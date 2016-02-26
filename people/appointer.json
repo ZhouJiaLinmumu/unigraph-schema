@@ -1,0 +1,11 @@
+{
+    "Id": "people.appointer",
+    "Name": "Appointer",
+    "Description": "An appointer is a person or body which gives direction on how a position or role should be filled.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

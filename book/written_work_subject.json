@@ -1,0 +1,11 @@
+{
+    "Id": "book.written_work_subject",
+    "Name": "Literature Subject",
+    "Description": "This type can be used for the subjects of all written works, not just books.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

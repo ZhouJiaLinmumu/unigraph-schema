@@ -1,0 +1,11 @@
+{
+    "Id": "location.top_level_domain",
+    "Name": "Form of government",
+    "Description": "",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

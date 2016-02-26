@@ -1,0 +1,34 @@
+{
+    "Id": "measured_dimension.dated_currency_amount",
+    "Name": "Dated currency amount",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.dated_currency_amount.currency",
+            "Name": "Currency",
+            "Description": "",
+            "ObjectType": "measured_dimension.currency",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.dated_currency_amount.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.dated_currency_amount.date",
+            "Name": "Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

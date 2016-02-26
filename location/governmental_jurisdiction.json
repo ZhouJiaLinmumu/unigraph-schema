@@ -1,0 +1,12 @@
+{
+    "Id": "location.governmental_jurisdiction",
+    "Name": "Governmental jurisdiction",
+    "Description": "",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "government.governmental_jurisdiction",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

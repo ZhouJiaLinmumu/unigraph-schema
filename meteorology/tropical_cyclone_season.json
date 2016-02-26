@@ -1,0 +1,76 @@
+{
+    "Id": "meteorology.tropical_cyclone_season",
+    "Name": "Tropical cyclone season",
+    "Description": "A tropical cyclone season is the period of time in a given year (or years) during which cyclones typically form, or from the formation of the first storm to the dissipation of the last storm. Seasons have both years and locactions since the seasons vary between different parts of the world.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "meteorology.tropical_cyclone_season.first_storm_formed",
+            "Name": "First storm formed",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "meteorology.tropical_cyclone_season.last_storm_dissipated",
+            "Name": "Last storm dissipated",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "meteorology.tropical_cyclone_season.major_storms",
+            "Name": "Major storms (cat. 3 or higher)",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "meteorology.tropical_cyclone_season.strongest_storm",
+            "Name": "Strongest storm",
+            "Description": "",
+            "ObjectType": "meteorology.tropical_cyclone",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "meteorology.tropical_cyclone_season.total_damages",
+            "Name": "Total damages",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "meteorology.tropical_cyclone_season.total_fatalities",
+            "Name": "Total fatalities",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "meteorology.tropical_cyclone_season.total_storms",
+            "Name": "Total storms",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "meteorology.tropical_cyclone_season.tropical_cyclones",
+            "Name": "Tropical cyclones",
+            "Description": "The cyclones that occurred within this season.",
+            "ObjectType": "meteorology.tropical_cyclone",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "Id": "type.boolean",
+    "Name": "Boolean",
+    "Description": "The concept type of booleans",
+    "Mediator": false,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": null
+}

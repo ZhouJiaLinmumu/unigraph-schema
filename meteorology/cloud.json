@@ -1,0 +1,68 @@
+{
+    "Id": "meteorology.cloud",
+    "Name": "Cloud",
+    "Description": "A cloud is a visible mass of condensed droplets or frozen crystals suspended in the atmosphere above the surface of the Earth.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "meteorology.cloud.abbreviation",
+            "Name": "Abbreviation",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "meteorology.cloud.appearance",
+            "Name": "Appearance",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "meteorology.cloud.classification",
+            "Name": "Classification",
+            "Description": "",
+            "ObjectType": "meteorology.cloud_classification",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "meteorology.cloud.max_altitude",
+            "Name": "Maximum Altitude",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "meteorology.cloud.min_altitude",
+            "Name": "Minimum Altitude",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "meteorology.cloud.precipitation",
+            "Name": "Precipitation cloud?",
+            "Description": "",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "meteorology.cloud.varieties",
+            "Name": "Varieties",
+            "Description": "",
+            "ObjectType": "meteorology.cloud",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

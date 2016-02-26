@@ -1,0 +1,34 @@
+{
+    "Id": "music.track_contribution",
+    "Name": "Recording contribution",
+    "Description": "This is a compound-value type that holds information about musical contributions made to a recording by an individual artist.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.track_contribution.contributor",
+            "Name": "Contributor",
+            "Description": "Musical artist contributing to the recording.",
+            "ObjectType": "music.artist",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "music.track_contribution.role",
+            "Name": "Role",
+            "Description": "Musical artist's performance role in contributing to the recording.",
+            "ObjectType": "music.performance_role",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.track_contribution.track",
+            "Name": "Recording",
+            "Description": "Recording contributed to in this role by the artist.",
+            "ObjectType": "music.recording",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

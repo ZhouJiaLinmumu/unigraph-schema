@@ -1,0 +1,21 @@
+{
+    "Id": "law.constitutional_convention",
+    "Name": "Constitutional Convention",
+    "Description": "Meeting with the purpose of creating a new constitution or revising an existing constitution.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "event.event",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "law.constitutional_convention.delegates",
+            "Name": "Delegates",
+            "Description": "Delegates to this convention.",
+            "ObjectType": "law.constitutional_convention_delegate",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

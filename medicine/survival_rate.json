@@ -1,0 +1,50 @@
+{
+    "Id": "medicine.survival_rate",
+    "Name": "Survival Rate",
+    "Description": "This type stores information about survival rates for medical conditions.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.survival_rate.disease_stage",
+            "Name": "Disease Stage",
+            "Description": "",
+            "ObjectType": "medicine.disease_stage",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.survival_rate.gender",
+            "Name": "Gender",
+            "Description": "",
+            "ObjectType": "medicine.medical_gender",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.survival_rate.race",
+            "Name": "Race",
+            "Description": "",
+            "ObjectType": "medicine.ethnicity",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.survival_rate.rate",
+            "Name": "Rate",
+            "Description": "Percentage of people who live the number of years of this survival rate",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "medicine.survival_rate.time",
+            "Name": "Years",
+            "Description": "For example, use \"5\"for a five-year surival rate",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

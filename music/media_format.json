@@ -1,0 +1,11 @@
+{
+    "Id": "music.media_format",
+    "Name": "Media Format",
+    "Description": "This type is for different recording media that has been used for sound recordings.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

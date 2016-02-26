@@ -1,0 +1,11 @@
+{
+    "Id": "conferences.subject",
+    "Name": "Conference subject",
+    "Description": "Academic field etc, what the conference is about.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

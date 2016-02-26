@@ -1,0 +1,21 @@
+{
+    "Id": "geography.geographical_feature",
+    "Name": "Geographical Feature",
+    "Description": "This type captures geographical features of the Earth, including landforms, bodies of water, underwater landforms, caves, and similar locations.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "geography.geographical_feature.category",
+            "Name": "Category",
+            "Description": "The type of feature that this is: e.g., a mountain, lake, escarpment, cave, etc.",
+            "ObjectType": "geography.geographical_feature_category",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

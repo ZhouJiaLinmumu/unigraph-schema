@@ -1,0 +1,22 @@
+{
+    "Id": "book.review",
+    "Name": "Review",
+    "Description": "This type is used for book reviews.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "book.written_work",
+        "book.published_work"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "book.review.work_reviewed",
+            "Name": "Work Reviewed",
+            "Description": "The work under review. Review columns that cover multiple works should include all of them in this property",
+            "ObjectType": "book.reviewed_work",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

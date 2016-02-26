@@ -1,0 +1,11 @@
+{
+    "Id": "organization.organization_termination_type",
+    "Name": "Organization termination type",
+    "Description": "The organization termination type houses the different reason a company no longer exists: Merger, Acquisition, Fraud, Bankruptcy, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

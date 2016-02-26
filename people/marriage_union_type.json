@@ -1,0 +1,11 @@
+{
+    "Id": "people.marriage_union_type",
+    "Name": "Marriage/union type",
+    "Description": "Marriage/union type is used to document the type of partnership formed between two people. It can include such straightforward relationships as legal marriage as well as de facto relationships, civil unions, and other such forms of partnership.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

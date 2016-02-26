@@ -1,0 +1,36 @@
+{
+    "Id": "book.school_or_movement",
+    "Name": "Literary School Or Movement",
+    "Description": "A grouping of a specific tendency, style or theme in literature for a period of time involving a group of writers in some sort of common association (eg., the Beat Generation, Dada, Pre-Raphaelites, Russian Futurists, etc.).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "book.school_or_movement.associated_authors",
+            "Name": "Associated Authors",
+            "Description": "",
+            "ObjectType": "book.author",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "book.school_or_movement.associated_period",
+            "Name": "Associated Period",
+            "Description": "",
+            "ObjectType": "measured_dimension.time_interval",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "book.school_or_movement.associated_works",
+            "Name": "Associated Works",
+            "Description": "",
+            "ObjectType": "book.written_work",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

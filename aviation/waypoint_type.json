@@ -1,0 +1,11 @@
+{
+    "Id": "aviation.waypoint_type",
+    "Name": "Waypoint type",
+    "Description": "Kind of aviation waypoint.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

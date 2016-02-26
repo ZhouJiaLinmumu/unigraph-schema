@@ -1,0 +1,50 @@
+{
+    "Id": "automotive.fuel_economy",
+    "Name": "Fuel Economy",
+    "Description": "This compound value type to represents estimates for fuel economy for a vehicle based on laboratory tests conducted by manufacturers according to federal regulations.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "automotive.fuel_economy.city",
+            "Name": "City MPG",
+            "Description": "The fuel economy of the model year driving in the city",
+            "ObjectType": "measured_dimension.fuel_economy",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "automotive.fuel_economy.fuel",
+            "Name": "Fuel",
+            "Description": "",
+            "ObjectType": "automotive.fuel",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "automotive.fuel_economy.highway",
+            "Name": "Highway MPG",
+            "Description": "The fuel economy of the model year driving on the highway",
+            "ObjectType": "measured_dimension.fuel_economy",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "automotive.fuel_economy.combined",
+            "Name": "The combined fuel consumption of the vehicle",
+            "Description": "",
+            "ObjectType": "measured_dimension.fuel_economy",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "automotive.fuel_economy.authority",
+            "Name": "The authority reporting the fuel economy values. Could be the manufacturer, an official testing facility, etc.",
+            "Description": "",
+            "ObjectType": "automotive.fuel_economy_authority",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

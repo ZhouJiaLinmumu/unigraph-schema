@@ -1,0 +1,12 @@
+{
+    "Id": "music.album_release_region",
+    "Name": "Album Release Region",
+    "Description": "Locations where this album release has been made available",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

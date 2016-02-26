@@ -1,0 +1,12 @@
+{
+    "Id": "opera.production_director",
+    "Name": "Opera Director",
+    "Description": "This type is for anyone who has directed an opera production.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

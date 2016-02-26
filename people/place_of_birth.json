@@ -1,0 +1,12 @@
+{
+    "Id": "people.place_of_birth",
+    "Name": "Place of birth",
+    "Description": "The place a person was born.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

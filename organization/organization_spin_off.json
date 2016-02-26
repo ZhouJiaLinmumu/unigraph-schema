@@ -1,0 +1,34 @@
+{
+    "Id": "organization.organization_spin_off",
+    "Name": "Organization spin-off",
+    "Description": "This is a compound-value type that contains information about organizations that have spun off of from other organizations.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "organization.organization_spin_off.date",
+            "Name": "Date",
+            "Description": "The date the spin-off occurred.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "organization.organization_spin_off.parent_company",
+            "Name": "Parent organization",
+            "Description": "The organization from which the child company was spun off.",
+            "ObjectType": "organization.organization",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "organization.organization_spin_off.child_company",
+            "Name": "Child organization",
+            "Description": "The organization that was created by the spin-off",
+            "ObjectType": "organization.organization",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

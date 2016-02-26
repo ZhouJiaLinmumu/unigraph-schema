@@ -1,0 +1,9 @@
+{
+    "Id": "type.uri",
+    "Name": "URI",
+    "Description": "The concept type of URIs. note that uris look like strings in the json representation unless someone asks what type they are.",
+    "Mediator": false,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": null
+}

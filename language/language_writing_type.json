@@ -1,0 +1,11 @@
+{
+    "Id": "language.language_writing_type",
+    "Name": "Language Writing Type",
+    "Description": "This type is for classifications of writing systems based on what the written symbols represent.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

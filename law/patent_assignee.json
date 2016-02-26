@@ -1,0 +1,11 @@
+{
+    "Id": "law.patent_assignee",
+    "Name": "Patent Assignee",
+    "Description": "A patent assignee is a person or organization to which the rights of a patent have been transferred.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

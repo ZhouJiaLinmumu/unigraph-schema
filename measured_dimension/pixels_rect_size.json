@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.pixels_rect_size",
+    "Name": "Integer range",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.pixels_rect_size.x",
+            "Name": "Pixels X axis",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.pixels_rect_size.y",
+            "Name": "Pixels Y axis",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "sports.medal",
+    "Name": "Sport Medal",
+    "Description": "This type is for medals that are awarded to the winners of sporting events.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

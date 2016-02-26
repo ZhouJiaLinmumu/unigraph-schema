@@ -1,0 +1,26 @@
+{
+    "Id": "religion.deity_child_relationship",
+    "Name": "Deity child relationship",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "religion.deity_child_relationship.child",
+            "Name": "Child",
+            "Description": "",
+            "ObjectType": "religion.deity",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "religion.deity_child_relationship.parent",
+            "Name": "Parent",
+            "Description": "",
+            "ObjectType": "religion.deity",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "Id": "travel.travel_destination",
+    "Name": "Travel destination",
+    "Description": "A travel destination is a location that you might go to for a vacation/holiday, eg. Paris or Bali.  Usually it is a city or region, rather than a whole country (unless the country is very small, eg. some island nations.)",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "travel.travel_destination.accommodation",
+            "Name": "Accommodation",
+            "Description": "",
+            "ObjectType": "travel.accommodation",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "travel.travel_destination.climate",
+            "Name": "Climate",
+            "Description": "The expected climate, month by month, of the given location.",
+            "ObjectType": "travel.travel_destination_monthly_climate",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "travel.travel_destination.guidebooks",
+            "Name": "Guidebooks",
+            "Description": "",
+            "ObjectType": "travel.guidebook",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "travel.travel_destination.how_to_get_here",
+            "Name": "How to get here",
+            "Description": "",
+            "ObjectType": "travel.transportation",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "travel.travel_destination.tour_operators",
+            "Name": "Tour operators",
+            "Description": "",
+            "ObjectType": "travel.tour_operator",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "travel.travel_destination.tourist_attractions",
+            "Name": "Tourist attractions",
+            "Description": "",
+            "ObjectType": "travel.tourist_attraction",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

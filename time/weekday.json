@@ -1,0 +1,28 @@
+{
+    "Id": "time.weekday",
+    "Name": "Day Of Week",
+    "Description": "A week is a period longer than a day and shorter than a month. In most modern societies the week is a period of seven days, each of which is named. This type is used for these named days.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "time.weekday.calendar_system",
+            "Name": "Calendar System",
+            "Description": "",
+            "ObjectType": "time.calendar",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "time.weekday.sequence_number",
+            "Name": "Sequence Number",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

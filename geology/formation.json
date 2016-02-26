@@ -1,0 +1,30 @@
+{
+    "Id": "geology.formation",
+    "Name": "Geological formation",
+    "Description": "This is a general type for all kinds of geological formations. Its properties indicate the geological period during which a formation formed, and the types of rocks of which it is formed. This type includes Location, so you can specify the geocoordinates of the formation and pinpoint it on a map. You may also wish to co-type with types like Mountain or Cave.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "geography.geographical_feature",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "geology.formation.formed_during_period",
+            "Name": "Formed during period",
+            "Description": "",
+            "ObjectType": "geology.period",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "geology.formation.type_of_rock",
+            "Name": "Type of rock",
+            "Description": "",
+            "ObjectType": "geology.rock_type",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.current",
+    "Name": "Current",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.current.measurement_unit",
+            "Name": "Unit of Current",
+            "Description": "",
+            "ObjectType": "measured_dimension.current_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.current.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

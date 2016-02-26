@@ -1,0 +1,5 @@
+{
+  "Id": "sports",
+  "Name": "Sports",
+  "Description": "The sports commons contains types common across sports as well as sports-related types that do not (at least at this point) have their own base."
+}

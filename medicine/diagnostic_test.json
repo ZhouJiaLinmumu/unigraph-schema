@@ -1,0 +1,20 @@
+{
+    "Id": "medicine.diagnostic_test",
+    "Name": "Diagnostic Test",
+    "Description": "A medical test, performed for diagnostic purposes.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.diagnostic_test.parent_test",
+            "Name": "Parent test",
+            "Description": "",
+            "ObjectType": "medicine.diagnostic_test",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

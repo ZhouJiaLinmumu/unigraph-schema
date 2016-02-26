@@ -1,0 +1,12 @@
+{
+    "Id": "opera.opera_company",
+    "Name": "Opera Company",
+    "Description": "This type is for any group that has staged a production of an opera.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

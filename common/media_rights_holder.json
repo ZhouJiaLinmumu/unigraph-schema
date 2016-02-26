@@ -1,0 +1,11 @@
+{
+    "Id": "common.media_rights_holder",
+    "Name": "Media Rights Holder",
+    "Description": "The person or organization holding the rights to the media.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

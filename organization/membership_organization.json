@@ -1,0 +1,21 @@
+{
+    "Id": "organization.membership_organization",
+    "Name": "Membership organization",
+    "Description": "A membership organization is any organization that has members. Members can be individual people or can be other organizations, governments, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "organization.membership_organization.number_of_members",
+            "Name": "Number of members",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

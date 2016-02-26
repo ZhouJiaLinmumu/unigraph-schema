@@ -1,0 +1,29 @@
+{
+    "Id": "architecture.building_complex",
+    "Name": "Building complex",
+    "Description": "\"Building Complex\" allows you to define collections of topics of the type \"Building\". An example being The World Trade Center.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "architecture.building_complex.complex_function",
+            "Name": "Complex function",
+            "Description": "The function(s) of this building complex like a convention center, education or fortification.",
+            "ObjectType": "architecture.building_complex_function",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "architecture.building_complex.floor_space",
+            "Name": "Floor Space",
+            "Description": "",
+            "ObjectType": "measured_dimension.area",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

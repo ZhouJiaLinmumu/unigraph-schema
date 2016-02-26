@@ -1,0 +1,11 @@
+{
+    "Id": "film.festival_focus",
+    "Name": "Film festival focus",
+    "Description": "Some film festivals only screen films based on certain criteria, such as subject matter or genre or language or format. This type is for those kinds of criteria.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

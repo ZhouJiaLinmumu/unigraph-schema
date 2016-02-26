@@ -1,0 +1,11 @@
+{
+    "Id": "dataworld.data_source",
+    "Name": "Data source",
+    "Description": "A governmental agency, group, company or person who has authored the information",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

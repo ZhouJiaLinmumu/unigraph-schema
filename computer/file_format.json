@@ -1,0 +1,92 @@
+{
+    "Id": "computer.file_format",
+    "Name": "File Format",
+    "Description": "A way that data is encoded in a computer file.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "computer.file_format.container_for",
+            "Name": "Container For",
+            "Description": "",
+            "ObjectType": "computer.file_format",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.file_format.creation_date",
+            "Name": "Creation Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "computer.file_format.extended_to",
+            "Name": "Extended To",
+            "Description": "",
+            "ObjectType": "computer.file_format",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.file_format.extension",
+            "Name": "Extension",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.file_format.format_creator",
+            "Name": "Format Creator",
+            "Description": "",
+            "ObjectType": "computer.software_developer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.file_format.genre",
+            "Name": "Genre",
+            "Description": "",
+            "ObjectType": "computer.file_format_class",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.file_format.mime_type",
+            "Name": "MIME Type",
+            "Description": "",
+            "ObjectType": "computer.mime_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.file_format.read_by",
+            "Name": "Read By",
+            "Description": "",
+            "ObjectType": "computer.software",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.file_format.used_on",
+            "Name": "Used On",
+            "Description": "",
+            "ObjectType": "computer.computing_platform",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "computer.file_format.written_by",
+            "Name": "Written By",
+            "Description": "",
+            "ObjectType": "computer.software",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

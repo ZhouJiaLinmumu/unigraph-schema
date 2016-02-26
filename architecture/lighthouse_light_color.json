@@ -1,0 +1,12 @@
+{
+    "Id": "architecture.lighthouse_light_color",
+    "Name": "Engineer",
+    "Description": "The color of the light beam. (Typically White, Red, or Green. Note: some lighthouses emit all 3 colors in different sector areas)",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "visual_art.color",
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

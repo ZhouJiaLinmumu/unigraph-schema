@@ -1,0 +1,11 @@
+{
+    "Id": "law.international_patent_category",
+    "Name": "International Patent Category",
+    "Description": "The International Patent Classification is a classification system for patents maintained by the World Intellectual Property Organization.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

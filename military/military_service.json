@@ -1,0 +1,58 @@
+{
+    "Id": "military.military_service",
+    "Name": "Military Service",
+    "Description": "Someone's tenure as a specific military rank in a particular unit.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "military.military_service.start_date",
+            "Name": "From date",
+            "Description": "The date this person attained this rank. (If this person held this rank multiple times, separately.)",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.military_service.military_force",
+            "Name": "Military Force",
+            "Description": "The armed force that this person served in. (Armed forces are the highest level of a country or other organization's military, such as the RAF, US Army, or Japanese Imperial Navy.) This property could be considered redundant with the \"unit\" property (since units should be linked to their armed forces) but many sources only list a person's armed force and not their unit.",
+            "ObjectType": "military.armed_force",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "military.military_service.rank",
+            "Name": "Rank",
+            "Description": "The rank this person held in this armed force for this period.",
+            "ObjectType": "military.military_rank",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.military_service.end_date",
+            "Name": "To date",
+            "Description": "The date after which this person no longer held this rank.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.military_service.unit",
+            "Name": "Unit",
+            "Description": "The military unit this person belonged to (e.g. a regiment, division, brigade, etc.). The lowest hierarchical level known.",
+            "ObjectType": "military.military_unit",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "military.military_service.military_person",
+            "Name": "Military Person",
+            "Description": "The person holding this rank, in this armed force, for this period.",
+            "ObjectType": "military.military_person",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

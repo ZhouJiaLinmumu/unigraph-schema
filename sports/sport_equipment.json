@@ -1,0 +1,20 @@
+{
+    "Id": "sports.sport_equipment",
+    "Name": "Sports Equipment",
+    "Description": "Anything which is used to play a sport.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "sports.sport_equipment.sport_used_for",
+            "Name": "Sport used for",
+            "Description": "The sport(s) this thing is used to play",
+            "ObjectType": "sports.sport",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

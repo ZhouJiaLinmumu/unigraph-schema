@@ -1,0 +1,34 @@
+{
+    "Id": "measured_dimension.dated_energy",
+    "Name": "Energy",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.dated_energy.measurement_unit",
+            "Name": "Unit of Energy",
+            "Description": "",
+            "ObjectType": "measured_dimension.energy_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.dated_energy.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.dated_energy.date",
+            "Name": "Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

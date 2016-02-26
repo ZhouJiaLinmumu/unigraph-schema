@@ -1,0 +1,21 @@
+{
+    "Id": "medicine.drug_regulating_authority",
+    "Name": "Drug regulating authority",
+    "Description": "An authority that regulates medical drugs and/or information about medical drugs.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.drug_regulating_authority.region",
+            "Name": "Regulated Region",
+            "Description": "",
+            "ObjectType": "medicine.drug_distribution_country",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

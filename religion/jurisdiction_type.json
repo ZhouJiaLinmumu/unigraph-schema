@@ -1,0 +1,11 @@
+{
+    "Id": "religion.jurisdiction_type",
+    "Name": "Religious Jurisdiction Category",
+    "Description": "A religious jurisdiction category is a way of categorizing an area within the administration of a religion. The category may reflect the size or importance of the area, or the rank of the leader appointed to the area. e.g. Archdiocese, Diocese, Vicarage.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

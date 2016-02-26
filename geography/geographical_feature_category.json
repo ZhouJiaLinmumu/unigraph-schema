@@ -1,0 +1,20 @@
+{
+    "Id": "geography.geographical_feature_category",
+    "Name": "Geographical feature category",
+    "Description": "A geographical feature category is any type of natural feature on the earth. These can be very general (e.g. mountain) or more specific (e.g. shield volcano).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "geography.geographical_feature_category.subcategories",
+            "Name": "Subcategories",
+            "Description": "Subcategories of this feature type. For example, subcategories of \"cave\" might include \"sea cave\" and \"lava tube\".",
+            "ObjectType": "geography.geographical_feature_category",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

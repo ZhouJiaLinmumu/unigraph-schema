@@ -1,0 +1,12 @@
+{
+    "Id": "music.concert_venue",
+    "Name": "Concert Venue",
+    "Description": "A concert venue is any location at which a musical concert has been performed. This includes dedicated, traditional venues such as concert halls, clubs, and bandshells as well as mixed-use and non-traditional venues, such as sports arenas and parks.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

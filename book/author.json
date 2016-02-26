@@ -1,0 +1,11 @@
+{
+    "Id": "book.author",
+    "Name": "Author",
+    "Description": "An author is a creator of a written or published work. The Author type is used for anyone who has written prose (whether fiction, essay, journalism, or scholarship), poetry, drama, or written or edited a book of any sort. This therefore includes editors of anthologies, whether or not the editor has written any material included in the anthology, and also includes artists in other media such as the fine arts and music, who may have had monographs or songbooks (for example) published. It also can include corporate authors, such as organizations, companies and government agencies, when a written work is credited to one, rather than to a person. It does not include scriptwriters for television and film (use TV Writer and Film Writer for these).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

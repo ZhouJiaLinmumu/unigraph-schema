@@ -1,0 +1,11 @@
+{
+    "Id": "military.casualties_reporter",
+    "Name": "Casualties",
+    "Description": "Holds information about reported casualties in a military conflict.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

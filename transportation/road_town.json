@@ -1,0 +1,12 @@
+{
+    "Id": "transportation.road_town",
+    "Name": "Major cities along a road",
+    "Description": "Cities and towns along the span of a particular road.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.citytown",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

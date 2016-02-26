@@ -1,0 +1,12 @@
+{
+    "Id": "sports.venue",
+    "Name": "Sport venue",
+    "Description": "From indoor swimming pools and halls to ski slopes. For marathons and multistage cycling events - this could be cities, roads, etc. For a specific facility the facility type should be used.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

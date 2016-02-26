@@ -1,0 +1,12 @@
+{
+    "Id": "event.participant",
+    "Name": "Event participant(s)",
+    "Description": "People involved in an event",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "people.person"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

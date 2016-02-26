@@ -1,0 +1,12 @@
+{
+    "Id": "music.multipart_release",
+    "Name": "Multi-Part Musical Release",
+    "Description": "A Multi-Part Musical Release is a release of an album that is split into multiple physical media. Examples include a 5-CD box set or a 2-LP album release. The release components can describe which tracks were on which physical part of the release.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "music.release"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

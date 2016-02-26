@@ -1,0 +1,12 @@
+{
+    "Id": "people.nationality",
+    "Name": "Nationality",
+    "Description": "The person's nationality",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.country",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

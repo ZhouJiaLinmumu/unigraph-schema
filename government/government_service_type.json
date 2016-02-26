@@ -1,0 +1,11 @@
+{
+    "Id": "government.government_service_type",
+    "Name": "Government Service Type",
+    "Description": "The type of service provided.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

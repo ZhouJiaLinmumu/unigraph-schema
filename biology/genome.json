@@ -1,0 +1,36 @@
+{
+    "Id": "biology.genome",
+    "Name": "Genome",
+    "Description": "The genome is the entirety of an organism's hereditary information. It is encoded either in DNA or, for many types of virus, in RNA. The genome includes both the genes and the non-coding sequences of the DNA.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "biology.genome.build",
+            "Name": "Build",
+            "Description": "",
+            "ObjectType": "biology.genome_build",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "biology.genome.chromosome",
+            "Name": "Chromosome",
+            "Description": "",
+            "ObjectType": "biology.chromosome",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "biology.genome.gene",
+            "Name": "Gene",
+            "Description": "",
+            "ObjectType": "biology.gene",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

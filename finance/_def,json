@@ -1,0 +1,5 @@
+{
+  "Id": "finance",
+  "Name": "Venture Capital",
+  "Description": "This domain contains financial information, mainly stock_exchanges, currencies, etc."
+}

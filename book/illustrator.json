@@ -1,0 +1,11 @@
+{
+    "Id": "book.illustrator",
+    "Name": "Illustrator",
+    "Description": "The Illustrator type is for anyone who has illustrated (which includes cover art) a book. Most instances will be people, but it is possible for a company or studio to be credited as an illustrator as well.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

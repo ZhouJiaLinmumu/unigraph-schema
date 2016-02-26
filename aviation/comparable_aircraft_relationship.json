@@ -1,0 +1,18 @@
+{
+    "Id": "aviation.comparable_aircraft_relationship",
+    "Name": "Comparable Aircraft Relationship",
+    "Description": "A mediator type for linking the aircraft model to comparable (comparable by aircraft configuration, capacity and purpose) aircraft models from same or different manufacturers.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "aviation.comparable_aircraft_relationship.aircraft",
+            "Name": "Aircraft",
+            "Description": "",
+            "ObjectType": "aviation.aircraft_model",
+            "Unique": false,
+            "Required": true
+        }
+    ]
+}

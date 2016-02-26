@@ -1,0 +1,11 @@
+{
+    "Id": "organization.organization_member",
+    "Name": "Organization member",
+    "Description": "An organization member is, simply put, anyone or anything that belongs to an organization. It can be a person, company, city, country, other organization, etc. Most topics with this type will probably have another, more specific type as well.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

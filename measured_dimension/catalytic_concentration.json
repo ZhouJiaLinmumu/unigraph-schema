@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.catalytic_concentration",
+    "Name": "Catalytic concentration",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.catalytic_concentration.measurement_unit",
+            "Name": "Unit of Catalytic concentration",
+            "Description": "",
+            "ObjectType": "measured_dimension.catalytic_concentration_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.catalytic_concentration.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

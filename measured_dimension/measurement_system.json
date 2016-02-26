@@ -1,0 +1,11 @@
+{
+    "Id": "measured_dimension.measurement_system",
+    "Name": "Measurement System",
+    "Description": "A Measurement System is an interrelated set of units for measuring the world: time and space, mass, speed, radiation, etc. A system may be as comprehensive as the metric system, or as limited in scope as the astronomical units of length or the troy system of weights.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

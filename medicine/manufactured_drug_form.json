@@ -1,0 +1,173 @@
+{
+    "Id": "medicine.manufactured_drug_form",
+    "Name": "Manufactured drug form",
+    "Description": "A manufactured drug form is a specific version of a drug formulation that is manufactured, packaged, labeled, marketed, and made available by a specific organization within a given market, region, or jurisdiction. Manufactured drug forms are typically named by the combination of their trade name, dosage strength, and dosage form, for example \"Advil 200mg tablet\"",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.consumer_product",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "medicine.manufactured_drug_form.available_in",
+            "Name": "Available in",
+            "Description": "The country or countries in which this specific labeled drug form is available.",
+            "ObjectType": "medicine.drug_distribution_country",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.coating",
+            "Name": "Coating",
+            "Description": "For solid oral dosage forms, 'Yes' if it has one or more coatings, such as sugar coating, film coating, or enteric coating.  Only coatings to the external surface or the dosage form are considered.",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.color",
+            "Name": "Color",
+            "Description": "For solid oral dosage forms (tablets, etc), color of product.",
+            "ObjectType": "medicine.drug_color",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.discontinued",
+            "Name": "Discontinued",
+            "Description": "Yes if this drug form is discontinued, No if actively marketed/sold.",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.flavor",
+            "Name": "Flavor",
+            "Description": "The flavor of this drug's dosage form, if applicable. For example, cherry, strawberry, etc.",
+            "ObjectType": "medicine.drug_dosage_flavor",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.generic_drug",
+            "Name": "Generic drug",
+            "Description": "'Yes' if this topic is known to be a generic form of a drug. 'No' if this topic is known to be a non-generic (proprietary) form of a drug.",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.imprint",
+            "Name": "Imprint",
+            "Description": "The imprint on the manufactured dosage form.",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.label_date",
+            "Name": "Label date",
+            "Description": "Revision date of the label information for this drug",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.label_link",
+            "Name": "Label link",
+            "Description": "Link to this dosage form's drug label on the corresponding regulatory authority's web site, e.g. US NLM DailyMed site.",
+            "ObjectType": "type.uri",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.label_sections",
+            "Name": "Label sections",
+            "Description": "Sections of information contained in the drug label, such as Indications, Contraindications, Box warning, etc.",
+            "ObjectType": "medicine.drug_label_section",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.manufacturer",
+            "Name": "Manufacturer",
+            "Description": "The manufacturer of this version of a drug formulation. As there may be many organizations that cooperate to bring a drug to market, this property is to reflect the organization that ultimately markets the drug to users, typically also the one that is listed on the drug's label.",
+            "ObjectType": "medicine.drug_manufacturer",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.marketing_end_date",
+            "Name": "Marketing end date",
+            "Description": "Date on which this drug form was, or is planned to be, discontinued (if applicable).",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.marketing_start_date",
+            "Name": "Marketing start date",
+            "Description": "Date on which this drug form was first marketed / made available.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.patent_expiry_date",
+            "Name": "Patent expiry date",
+            "Description": "Date on which the last patent(s) protecting this drug/drug form expire",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.patents",
+            "Name": "Patents",
+            "Description": "Any patents that protect this drug/drug form.",
+            "ObjectType": "medicine.medical_patent",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.scoring",
+            "Name": "Scoring",
+            "Description": "For solid oral dosage forms (tablets, etc), scoring of product. The value is the number of equal-sized pieces the product can be broken into using score marks. So a \"1\" represents a non-scored product, \"2\" can be broken into two equal pieces, \"3\" can be broken into 3 equal pieces, etc.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.shape",
+            "Name": "Shape",
+            "Description": "For solid oral dosage forms (tablets, etc), shape of product.",
+            "ObjectType": "medicine.drug_form_shape",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.size",
+            "Name": "Size",
+            "Description": "For solid oral dosage forms (tablets, etc), size of product",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.symbol_mark",
+            "Name": "Symbol mark",
+            "Description": "For solid oral dosage forms, 'Yes' if the medicinal product has a mark or symbol appearing on it for easy and definite recognition.",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "medicine.manufactured_drug_form.therapeutic_equivalents",
+            "Name": "Therapeutic equivalents",
+            "Description": "Other manufactured drug forms that are therapeutically equivalent, or bio equivalent, to this form. Therapeutic equivalence is defined as being pharmaceutically equivalent and being demonstrated through in vitro or in vivo studies to have the same clinical effect and safety profile.",
+            "ObjectType": "medicine.drug_therapeutic_equivalence",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

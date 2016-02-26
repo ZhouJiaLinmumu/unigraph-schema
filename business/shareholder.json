@@ -1,0 +1,11 @@
+{
+    "Id": "business.shareholder",
+    "Name": "Shareholder",
+    "Description": "A shareholder is a person or corporation who is known to have owned corporate issues at a given time.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.acceleration",
+    "Name": "Acceleration",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.acceleration.measurement_unit",
+            "Name": "Unit of Acceleration",
+            "Description": "",
+            "ObjectType": "measured_dimension.acceleration_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.acceleration.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

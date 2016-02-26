@@ -1,0 +1,12 @@
+{
+    "Id": "theater.play_country",
+    "Name": "Play country",
+    "Description": "The country a play was written in.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.country",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

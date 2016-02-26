@@ -1,0 +1,68 @@
+{
+    "Id": "music.video",
+    "Name": "Music video",
+    "Description": "Music video for the promotion of music in video form.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.video.artist",
+            "Name": "Artist",
+            "Description": "Artist that performs the song (but may or not be performing it in the video)",
+            "ObjectType": "music.artist",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.video.choreographer",
+            "Name": "Choreographer",
+            "Description": "Person who designs the choreography that appears in the music video.",
+            "ObjectType": "music.choreographer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.video.directed_by",
+            "Name": "Directed by",
+            "Description": "The director of the music video.",
+            "ObjectType": "music.video_director",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.video.initial_release_date",
+            "Name": "Initial release date",
+            "Description": "The first time this video was aired/displayed to the public.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "music.video.video_genre",
+            "Name": "Music video genre",
+            "Description": "Genre of this music video (concert performance, comedy, parody, dystopian, etc.)",
+            "ObjectType": "music.video_genre",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.video.song",
+            "Name": "Song",
+            "Description": "The composition ('song') this video is based upon. Note this is not a unique property, rarely there could be multiple songs included in a single music video if the video is a collection of several songs joined in some manner other than a medley (A medley is usually in of itself a single musical track, eg. David Lee Roth's I Ain't Got Nobody/Just A Gigolo\" is a single track comprised of a well-known Louis Prima medley of two jazz compositions). Modern examples of multiple song videos are the mashup videos.",
+            "ObjectType": "music.composition",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.video.video_subject",
+            "Name": "Music video subject",
+            "Description": "Subject or ideas represented in this music video",
+            "ObjectType": "music.video_subject",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

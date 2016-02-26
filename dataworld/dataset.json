@@ -1,0 +1,20 @@
+{
+    "Id": "dataworld.dataset",
+    "Name": "Dataset",
+    "Description": "A web resource (csv, xlsx, json) which holds the knowledge",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.document"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "dataworld.dataset.data_source",
+            "Name": "Data Source",
+            "Description": "",
+            "ObjectType": "dataworld.data_source",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

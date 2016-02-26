@@ -1,0 +1,53 @@
+{
+    "Id": "periodicals.magazine_issue",
+    "Name": "Magazine Issue",
+    "Description": "This type represents individual issues of magazines, and can be used to show the contents or cover artist, as well as any discussion or written description that might be interesting or useful. (The description field, might, for example, be used to mark issues that are notable for some reason -- the first publication of an important author, first or last issues, etc.)When naming an issue, please use a short form of the magazine's title and the issue date; it's a good idea to use the same basic format for all issues of the same magazine.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "book.published_work",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "periodicals.magazine_issue.cover_price",
+            "Name": "Cover Price",
+            "Description": "The cover price (as displayed on the issue); multiple prices can be listed if they are given",
+            "ObjectType": "measured_dimension.currency_amount",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.magazine_issue.magazine",
+            "Name": "Magazine",
+            "Description": "The magazine that this is an issue of",
+            "ObjectType": "periodicals.magazine",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.magazine_issue.publication_date",
+            "Name": "Publication info",
+            "Description": "The date, volume, and number of this issue.",
+            "ObjectType": "periodicals.periodical_publication_date",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.magazine_issue.cover_artist",
+            "Name": "Cover artist",
+            "Description": "",
+            "ObjectType": "periodicals.illustrator",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.magazine_issue.interior_illustrations_by",
+            "Name": "Interior illustrations by",
+            "Description": "",
+            "ObjectType": "periodicals.illustrator",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

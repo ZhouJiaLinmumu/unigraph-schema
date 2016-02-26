@@ -1,0 +1,11 @@
+{
+    "Id": "music.video_performer",
+    "Name": "Music video performer",
+    "Description": "Person or animal that appears in the music video in some role (either acting, singing, cameo appearance, etc.).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

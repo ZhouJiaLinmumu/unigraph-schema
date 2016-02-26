@@ -1,0 +1,42 @@
+{
+    "Id": "music.concert_performance",
+    "Name": "Concert Performance",
+    "Description": "This type connects musical artists to concert performances.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.concert_performance.artist",
+            "Name": "Artist",
+            "Description": "",
+            "ObjectType": "music.artist",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "music.concert_performance.band_members",
+            "Name": "Band Members",
+            "Description": "",
+            "ObjectType": "music.artist",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.concert_performance.performance_role",
+            "Name": "Performance Role",
+            "Description": "",
+            "ObjectType": "music.concert_performance_role",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "music.concert_performance.concert",
+            "Name": "Concert",
+            "Description": "The concert this performance was a part of. This should be a specific concert that occurred on a specific date; do not enter tours or series here.",
+            "ObjectType": "music.concert",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

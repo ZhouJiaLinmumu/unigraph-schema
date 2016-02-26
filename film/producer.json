@@ -1,0 +1,12 @@
+{
+    "Id": "film.producer",
+    "Name": "Film producer",
+    "Description": "The Film Producer type includes people who produced films. This includes the Executive producer credit.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

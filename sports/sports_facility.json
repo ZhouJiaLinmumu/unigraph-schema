@@ -1,0 +1,15 @@
+{
+    "Id": "sports.sports_facility",
+    "Name": "Sports Facility",
+    "Description": "A location where sporting events occur.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "architecture.structure",
+        "location.location",
+        "architecture.venue",
+        "projects.project_focus",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,21 @@
+{
+    "Id": "location.hud_section_8_area",
+    "Name": "HUD Section 8 Area",
+    "Description": "A region defined by HUD for computing median family income, for purposes of qualifying for Section 8 housing.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "location.hud_section_8_area.median_family_income",
+            "Name": "Median Family Income",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_currency_amount",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

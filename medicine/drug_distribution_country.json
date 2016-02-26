@@ -1,0 +1,12 @@
+{
+    "Id": "medicine.drug_distribution_country",
+    "Name": "Drug Country",
+    "Description": "Countries where a drug is approved for distribution.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.country"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "transportation.highway_system",
+    "Name": "Highway system",
+    "Description": "Highway systems are operated by governments to provide an integrated system of major roads within an area.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

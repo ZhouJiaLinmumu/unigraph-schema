@@ -1,0 +1,11 @@
+{
+    "Id": "education.fraternity_sorority_type",
+    "Name": "Fraternity/sorority type",
+    "Description": "\"Fraternity/sorority type\" applies to the collegiate social organizations; it is used to describe the variety or class of a fraternity or sorority, such as \"service\" or \"social.\"",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

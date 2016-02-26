@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.force_moment",
+    "Name": "Force moment",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.force_moment.measurement_unit",
+            "Name": "Unit of Force moment",
+            "Description": "",
+            "ObjectType": "measured_dimension.force_moment_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.force_moment.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

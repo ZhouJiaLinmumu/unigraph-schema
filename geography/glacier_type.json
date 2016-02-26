@@ -1,0 +1,11 @@
+{
+    "Id": "geography.glacier_type",
+    "Name": "Glacier type",
+    "Description": "\"Glacier type\" denotes the variety or class of a glacier.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

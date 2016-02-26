@@ -1,0 +1,11 @@
+{
+    "Id": "music.featured_artist",
+    "Name": "Featured artist",
+    "Description": "A featured artist is any musical artist that is credited on an album or recording as being \"featured.\" Featured artists are not the primary artist, but they have a greater role than that of other contributors to the album or recording. Note that while artists credited as featured are typically musicians or groups, they may also be engineers, producers, mixers, or other roles.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

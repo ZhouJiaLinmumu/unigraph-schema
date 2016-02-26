@@ -1,0 +1,11 @@
+{
+    "Id": "travel.tour_operator",
+    "Name": "Tour operator",
+    "Description": "A tour operator is a company that runs guided tours for visitors to a travel destination.  Tours may be short (eg. a walking tour of a neighbourhood) or long (eg. a month-long tour of Eastern Europe) and may be by any means of transport including bus, boat, walking, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

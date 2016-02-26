@@ -1,0 +1,12 @@
+{
+    "Id": "automotive.fuel_delivery_method",
+    "Name": "Fuel Delivery Method",
+    "Description": "Kind of fuel delivery system that meters and prepares the fuel for a controlled delivery to the motor (used to mostly be carburetors, it is now fuel injection systems).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "engineering.fuel_delivery_method"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

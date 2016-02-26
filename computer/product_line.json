@@ -1,0 +1,11 @@
+{
+    "Id": "computer.product_line",
+    "Name": "Computer Product Line",
+    "Description": "The line or brand name of related computer-based products from a manufacturer such as the Apple II (Apple II, Apple IIe, etc.) or a smartphone like the BlackBerry.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

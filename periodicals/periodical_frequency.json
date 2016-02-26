@@ -1,0 +1,42 @@
+{
+    "Id": "periodicals.periodical_frequency",
+    "Name": "Periodical Frequency",
+    "Description": "This is a compound value type that captures the frequency of a periodical's publication either as a frequency (e.g. \"daily,\" \"weekly,\" etc.) or as a number of issues per year (for periodicals published irregularly or on a non-periodic schedule). By including a date range, the type also allows changes in a periodical's frequency to be tracked over time.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "periodicals.periodical_frequency.frequency",
+            "Name": "Frequency",
+            "Description": "If the periodical is published on a regular (i.e. periodic) schedule, select the frequency. Otherwise, use the \"issues per year\" property",
+            "ObjectType": "measured_dimension.frequency",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "periodicals.periodical_frequency.start_date",
+            "Name": "From",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.periodical_frequency.issues_per_year",
+            "Name": "Issues Per Year",
+            "Description": "If the periodical is not published on a regular (i.e. periodic) schedule, the number of issues per year. Otherwise use the \"frequency\" property.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "periodicals.periodical_frequency.end_date",
+            "Name": "To",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

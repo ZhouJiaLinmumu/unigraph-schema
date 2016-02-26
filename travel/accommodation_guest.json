@@ -1,0 +1,12 @@
+{
+    "Id": "travel.accommodation_guest",
+    "Name": "Hotel Guest",
+    "Description": "This type is for recorded visits of people of general interest (celebrities, politicians) that have stayed at a particular accommodation.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

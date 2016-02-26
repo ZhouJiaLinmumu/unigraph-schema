@@ -1,0 +1,11 @@
+{
+    "Id": "film.story_contributor",
+    "Name": "Film story contributor",
+    "Description": "A film story contributor is typically a person whose work in another medium (such as a novel or comic book) has been adapted for film; they are not generally the same as the screenwriter.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

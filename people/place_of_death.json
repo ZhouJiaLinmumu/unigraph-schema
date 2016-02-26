@@ -1,0 +1,12 @@
+{
+    "Id": "people.place_of_death",
+    "Name": "Place of death",
+    "Description": "The place a person died.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

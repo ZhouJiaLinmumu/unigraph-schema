@@ -1,0 +1,42 @@
+{
+    "Id": "travel.travel_destination_monthly_climate",
+    "Name": "Travel destination monthly climate",
+    "Description": "A travel destination monthly climate is a way of capturing data relevant to a tourist or traveller at a location, and captures average max temperatures, average minimum temperature and average rainfall for each month at each destination.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "travel.travel_destination_monthly_climate.avg_max_temp",
+            "Name": "Average max temp",
+            "Description": "Average daily maximum temperature (in degrees celsius)",
+            "ObjectType": "measured_dimension.temperature",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "travel.travel_destination_monthly_climate.avg_min_temp",
+            "Name": "Average min temp",
+            "Description": "Average daily minimum temperature (in degrees celsius)",
+            "ObjectType": "measured_dimension.temperature",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "travel.travel_destination_monthly_climate.avg_rainfall",
+            "Name": "Average rainfall",
+            "Description": "Average daily rainfall",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "travel.travel_destination_monthly_climate.month",
+            "Name": "Month",
+            "Description": "",
+            "ObjectType": "travel.month",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

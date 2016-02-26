@@ -1,0 +1,11 @@
+{
+    "Id": "projects.project_role",
+    "Name": "Project role",
+    "Description": "The role that someone has played as part of a project.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

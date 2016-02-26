@@ -1,0 +1,20 @@
+{
+    "Id": "music.engineer",
+    "Name": "Recording Engineer",
+    "Description": "A recording engineer is someone (or a group such as a band or studio) who records, processes, masters, mixes, or otherwise engineers the sound of an audio recording.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "music.engineer.releases_engineered",
+            "Name": "Releases engineered",
+            "Description": "Releases on which this person was an engineer",
+            "ObjectType": "music.release",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

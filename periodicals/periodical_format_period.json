@@ -1,0 +1,42 @@
+{
+    "Id": "periodicals.periodical_format_period",
+    "Name": "Periodical Format Period",
+    "Description": "This is a compound-value type that contains information about a periodical's format (i.e., paper size) and the period that that format was used.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "periodicals.periodical_format_period.format",
+            "Name": "Format",
+            "Description": "This usually refers to the size of the paper used to print the periodical",
+            "ObjectType": "periodicals.periodical_format",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "periodicals.periodical_format_period.start_date",
+            "Name": "From",
+            "Description": "For periodicals which have had more than one format, the date that this format was first used",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.periodical_format_period.end_date",
+            "Name": "To",
+            "Description": "For periodicals which have had more than one format, the date that this format was last used; if the format is still in use, leave blank.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "periodicals.periodical_format_period.periodical",
+            "Name": "Periodical",
+            "Description": "The periodical published in this format during this period.",
+            "ObjectType": "periodicals.periodical",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}
