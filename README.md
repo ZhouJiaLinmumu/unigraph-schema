@@ -1,7 +1,7 @@
 The Unigraph Schema
 ======================
 
-The Unigraph Schema is the backbone of the UniGraph knowledge graph. It is inspired by the freebase schema with major modifications in the areas described below. You can use the schema to map the objects and their relations from the world we live in. For example, the data from the London DataStore about the  [Birth and Death rates by Ward](http://data.london.gov.uk/dataset/birth-and-death-rates-ward) can be represented like this:
+The Unigraph Schema is the backbone of the UniGraph Knowledge Graph. It is inspired by the freebase schema with major modifications in the areas described below. You can use the schema to map the objects and their relations from the world we live in. For example, the data from the London DataStore about the  [Birth and Death rates by Ward](http://data.london.gov.uk/dataset/birth-and-death-rates-ward) can be represented like this:
 
 ```
 Ward > dataworld.sameas.uk_ons_gss_code
