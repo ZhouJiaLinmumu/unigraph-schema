@@ -1,7 +1,7 @@
 Unigraph Public Schema
 ======================
 
-The Unigraph Schema is the backbone of the UniGraph knowledge graph. It is inspired by the freebase schema with major modifications in the following areas:
+The Unigraph Schema is the backbone of the UniGraph knowledge graph. It is inspired by the freebase schema with major modifications in the areas described below.
 
 Measured dimensions
 -------------------
