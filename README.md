@@ -107,7 +107,7 @@ SameAs
 
 In the domain Dataworld, we have created a type `dataworld.sameas` which contains more than 800 properties linking data from external repositories of information to unigraph.
 
-Measured dimension
-------------------
+Contributions are welcome
+-------------------------
 
-Measured dimensions are everywhere: people height, mountain elevation, engine power etc. We have rewritten all measured dimensions from scratch and we have made huge logical improvements compared to freebase.
+You are passionate about a subject? Please feel free to fork, edit, improve it. All pull requests are highly appreciated. You can always drop us a line on the contacts listed on [http://unigraph.rocks](http://unigraph.rocks)
