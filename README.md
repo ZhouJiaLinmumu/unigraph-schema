@@ -17,7 +17,7 @@ Borough > location.location.contains > Ward Name
 Measured dimensions
 -------------------
 
-Measured dimensions are everywhere: people height, mountain elevation, engine power etc. We have rewritten all measured dimensions from scratch and we have made huge logical improvements compared to freebase.
+Measured dimensions are everywhere: people height, mountain elevation, engine power etc. We've created all measured dimensions from scratch and combined them in a single domain together with their respective measurement_unit.
 
 ```
 {
@@ -51,7 +51,7 @@ Measured dimensions are everywhere: people height, mountain elevation, engine po
 Measurement Units
 -----------------
 
-Measurement units now include all the conversion information between units
+Measurement units include all necessary conversion information to the International System of Units (SI).
 
 ```
 {
@@ -96,14 +96,14 @@ Measurement units now include all the conversion information between units
             "Unique": true,
             "Required": false
         },
-        {
+        **{
             "Id": "measured_dimension.distance_unit.si_base_conversion_formula",
             "Name": "Convertion formula",
             "Description": "Convertion formula to the System International base unit",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
-        }
+        }**
     ]
 }
 ```
