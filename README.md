@@ -179,6 +179,9 @@ Unified periods representation
 ----
 With small exceptions all references to a date that something started or ended follow the same pattern:
 
+.start_date - denoting the beginning of the period
+.end_date - denoting the end of the period
+
 ```
 {
     "Id": "business.employment_tenure",
