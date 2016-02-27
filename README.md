@@ -19,7 +19,7 @@ Measured dimensions
 
 Measured dimensions are everywhere: people height, mountain elevation, engine power etc. We've created all measured dimensions from scratch and combined them in a single domain together with their respective measurement_unit.
 
-```
+```json
 {
     "Id": "measured_dimension.distance",
     "Name": "Distance",
@@ -53,7 +53,7 @@ Measurement Units
 
 Measurement units include all necessary conversion information to the International System of Units (SI).
 
-```
+```json
 {
     "Id": "measured_dimension.distance_unit",
     "Name": "Unit of Length",
@@ -113,7 +113,7 @@ Self contained domains
 
 Domains no longer leak information. Cross-domain references are handled by type inheritance. In the below example the "book.book_edition_location" type will inherit all properties from its expected type: "location.location", while in the same time the particular location that the book was published will also be referenced as such and not just as "location.location":
 
-```
+```json
 {
     "Id": "book.book_edition_location",
     "Name": "Book Edition Location",
@@ -134,7 +134,7 @@ SameAs
 
 In the domain Dataworld, we have created a type `dataworld.sameas` which contains more than 800 properties linking data from external repositories of information to UniGraph. Many include examples.
 
-```
+```json
         {
             "Id": "dataworld.sameas.uk_companies_house_id",
             "Name": "UK Companies House Company ID",
@@ -148,7 +148,7 @@ Strict one to one connections
 ----
 We've done out best to keep all connections one to one. An example of this is the "book.author" type which has no properties of its own:
 
-```
+```json
 {
     "Id": "book.author",
     "Name": "Author",
@@ -164,7 +164,7 @@ We've done out best to keep all connections one to one. An example of this is th
 
 It has many incoming properties though, for example from the "book.written_work" type:
 
-```
+```json
         {
             "Id": "book.written_work.author",
             "Name": "Author",
@@ -180,9 +180,10 @@ Unified periods representation
 With small exceptions all references to a date that something started or ended follow the same pattern:
 
 .start_date - denoting the beginning of the period
+
 .end_date - denoting the end of the period
 
-```
+```json
 {
     "Id": "business.employment_tenure",
     "Name": "Employment tenure",
@@ -214,7 +215,7 @@ With small exceptions all references to a date that something started or ended f
 ```
 The few exceptions are easy to predict:
 
-```
+```json
 {
     "Id": "organization.organization",
     "Name": "Organization",
