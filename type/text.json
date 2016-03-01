@@ -1,9 +1,26 @@
 {
-    "Id": "type.text",
-    "Name": "Text",
-    "Description": "The concept type of language-specific text. note that text looks like a string in the json representation unless someone asks for the type and/or language. language choices will be handled very specially by the middle tier, based on external data like the HTTP Accept-Language header.",
-    "Mediator": false,
-    "ExpectedTypes": null,
-    "Enumerated": false,
-    "Properties": null
+	"Id": "type.text",
+	"Name": "Text",
+	"Description": "The concept type of language-specific text.",
+	"Mediator": true,
+	"ExpectedTypes": null,
+	"Enumerated": false,
+	"Properties": [
+		{
+			"Id": "type.text.value",
+			"Name": "The text",
+			"Description": "",
+			"ObjectType": "type.rawstring",
+			"Unique": true,
+			"Required": true
+		},
+		{
+			"Id": "type.text.language",
+			"Name": "Language in ISO 639-1 two letter format",
+			"Description": "Example: 'en'",
+			"ObjectType": "type.rawstring",
+			"Unique": true,
+			"Required": true
+		}
+	]
 }

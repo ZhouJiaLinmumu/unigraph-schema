@@ -547,7 +547,7 @@
         {
             "Id": "dataworld.sameas.bbc_things_identifer_id",
             "Name": "BBC Things identifer Identifier",
-            "Description": "Identifier in the BBC Things database",
+            "Description": "Identifier in the BBC Things database.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -612,6 +612,14 @@
             "Id": "dataworld.sameas.beilstein_registry_number_id",
             "Name": "Beilstein Registry Number Identifier",
             "Description": "Identifier for organic chemical compounds in the Beilstein database",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.belgium_central_enterprise_databank_id",
+            "Name": "CBE/BCE Identifier",
+            "Description": "Company Identifier in the Central Enterprise Databank of Belgium. Example: 0200.171.970.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -996,14 +1004,6 @@
             "Id": "dataworld.sameas.celex_id",
             "Name": "CELEX Identifier",
             "Description": "Identifier for European legal texts in EUR-Lex database. Examples: L032, C047",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.central_enterprise_databank_id",
-            "Name": "CBE/BCE Identifier",
-            "Description": "Company Identifier in the Central Enterprise Databank of Belgium. Example: 0200.171.970.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -2939,7 +2939,7 @@
         {
             "Id": "dataworld.sameas.icao_airport_id",
             "Name": "ICAO airport Identifier",
-            "Description": "Four-character alphanumeric identifier for designating airports.",
+            "Description": "Four-character alphanumeric identifier for designating airports",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3083,7 +3083,7 @@
         {
             "Id": "dataworld.sameas.index_fungorum_id",
             "Name": "Index Fungorum Identifier",
-            "Description": "Identifier in Index Fungorum.",
+            "Description": "Identifier in Index Fungorum",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3134,6 +3134,22 @@
             "Description": "Identifier for a municipality per the National Institute of Statistics and Economic Studies in France",
             "ObjectType": "type.rawstring",
             "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.insee_siren_id",
+            "Name": "INSEE SIREN code",
+            "Description": "9 Digit code issued to business and organizations by INSEE. Système informatique du répertoire des entreprises, numéro SIREN. Example: 552100554",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.insee_ape_id",
+            "Name": "INSEE APE Code",
+            "Description": "Main activity Exercised - Activité Principale Exercée, 4 digits and a letter. Example: 5610C",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
             "Required": false
         },
         {
@@ -6373,7 +6389,7 @@
             "Name": "UK Condensed SIC 2007",
             "Description": "UK condensed standard industrial classification of economic activities (SIC) 2007 codes",
             "ObjectType": "type.rawstring",
-            "Unique": true,
+            "Unique": false,
             "Required": false
         },
         {
