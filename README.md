@@ -1,5 +1,4 @@
-The Unigraph Schema
-======================
+# The Unigraph Schema
 
 The Unigraph Schema is the backbone of the UniGraph Knowledge Graph. It is inspired by the freebase schema with major modifications in the areas described below.  
 You can use the schema to map the objects and their relations from the world we live in. For example, the data from the London DataStore about the  [Birth and Death rates by Ward](http://data.london.gov.uk/dataset/birth-and-death-rates-ward/resource/97375da0-d625-4e2f-aa35-a77d106b3d85) can be represented like this:
@@ -15,8 +14,18 @@ Borough > location.location
 Borough > location.location.contains > Ward Name
 ```
 
-Measured dimensions
-----
+## Key Concepts & Differentiators
+[Measured dimensions](#dimensions)  
+[Measured units](#units)  
+[Self Contained Domains](#domains)
+[SameAs](#sameas)  
+[Strictly One to One connections](#one)  
+[Unified Time Periods Representation](#periods) 
+
+[Contributions](#contribute)
+
+<a name="dimensions"/>
+### Measured dimensions
 
 Measured dimensions are everywhere: people height, mountain elevation, engine power etc. We've created all measured dimensions from scratch and combined them in a single domain together with their respective measurement_unit.
 
@@ -49,8 +58,8 @@ Measured dimensions are everywhere: people height, mountain elevation, engine po
 }
 ```
 
-Measurement Units
-----
+<a name="units"/>
+### Measurement Units
 
 Measurement units include all necessary conversion information to the International System of Units (SI).
 
@@ -109,8 +118,8 @@ Measurement units include all necessary conversion information to the Internatio
 }
 ```
 
-Self contained domains
-----
+<a name="domains"/>
+### Self contained domains
 
 Domains no longer leak information. Cross-domain references are handled by type inheritance. In the below example the "book.book_edition_location" type will inherit all properties from its expected type: "location.location", while in the same time the particular location that the book was published will also be referenced as such and not just as "location.location":
 
@@ -130,8 +139,8 @@ Domains no longer leak information. Cross-domain references are handled by type 
 ```
 This makes domains indipendant and keeps the schema clean.
 
-SameAs
-----
+<a name="sameas"/>
+###SameAs
 
 In the domain Dataworld, we have created a type `dataworld.sameas` which contains more than 800 properties linking data from external repositories of information to UniGraph. Many include examples.
 
@@ -145,8 +154,10 @@ In the domain Dataworld, we have created a type `dataworld.sameas` which contain
             "Required": false
         }
 ```
-Strict one to one connections
-----
+
+<a name="one"/>
+### Strict one to one connections
+
 We've done out best to keep all connections one to one. An example of this is the "book.author" type which has no properties of its own:
 
 ```json
@@ -176,8 +187,9 @@ It has many incoming properties though, for example from the "book.written_work"
         }
 ```
 
-Unified periods representation
-----
+<a name="periods"/>
+### Unified periods representation
+
 With small exceptions all references to a date that something started or ended follow the same pattern:
 
 .start_date - denoting the beginning of the period  
@@ -237,9 +249,8 @@ The few exceptions are easy to predict:
         }
 ```
 
-
-Contributions are welcome
-----
+<a name="contribute"/>
+## Contributions are welcome
 
 Passionate about a subject? Feel free to fork, edit and improve the schema. All pull requests are highly appreciated. You can always drop us a line on the contacts listed at [unigraph.rocks](http://unigraph.rocks) and follow us on [twitter](http://twitter.com/unigraphrocks).
 
