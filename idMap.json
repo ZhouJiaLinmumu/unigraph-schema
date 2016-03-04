@@ -344,7 +344,7 @@
 	"aviation.airline_alliance.pending_members": "rh",
 	"aviation.airport": "di",
 	"aviation.airport.aircraft_movements": "RV",
-	"aviation.airport.airport_type": "1ih",
+	"aviation.airport.type": "1ih",
 	"aviation.airport.amount_of_cargo": "10q",
 	"aviation.airport.focus_city_for": "rg",
 	"aviation.airport.hub_for": "1eX",
