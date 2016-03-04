@@ -4225,6 +4225,14 @@
             "Required": false
         },
         {
+			"Id": "dataworld.sameas.moldova_company_id",
+			"Name": "IDNO/Codul Fiscal",
+			"Description": "Example: 1005600061656",
+			"ObjectType": "type.rawstring",
+			"Unique": true,
+			"Required": false
+		},
+        {
             "Id": "dataworld.sameas.moldova_econonic_activities_classifier_id",
             "Name": "Classifier of Economic Activities of Moldova",
             "Description": "Examples: 01, 0311, 774, 01131, 28112",
