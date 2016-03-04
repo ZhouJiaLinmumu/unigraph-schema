@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "aviation.airport.airport_type",
+            "Id": "aviation.airport.type",
             "Name": "Airport type",
             "Description": "",
             "ObjectType": "aviation.airport_type",
