@@ -2657,7 +2657,7 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.gps_code",
+            "Id": "dataworld.sameas.gps_code_id",
             "Name": "GPS Code",
             "Description": "The GPS Code of a location. Example: 00A, 00AK",
             "ObjectType": "type.rawstring",
