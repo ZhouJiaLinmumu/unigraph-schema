@@ -362,29 +362,29 @@
             "Required": false
         },
         {
-			"Id": "location.statistical_region.population_density",
-			"Name": "Arithmetic population density (per km²)",
-			"Description": "The arithmetic population density of this location, measured in people per square kilometer of land.",
-			"ObjectType": "measured_dimension.dated_float",
-			"Unique": false,
-			"Required": false
-		},
-		{
-			"Id": "location.statistical_region.population_men",
-			"Name": "Population",
-			"Description": "",
-			"ObjectType": "measured_dimension.dated_int",
-			"Unique": false,
-			"Required": false
-		},
-		{
-			"Id": "location.statistical_region.population_women",
-			"Name": "Population",
-			"Description": "",
-			"ObjectType": "measured_dimension.dated_int",
-			"Unique": false,
-			"Required": false
-		},
+		"Id": "location.statistical_region.population_density",
+		"Name": "Arithmetic population density (per km²)",
+		"Description": "The arithmetic population density of this location, measured in people per square kilometer of land.",
+		"ObjectType": "measured_dimension.dated_float",
+		"Unique": false,
+		"Required": false
+	},
+	{
+		"Id": "location.statistical_region.population_men",
+		"Name": "Population",
+		"Description": "",
+		"ObjectType": "measured_dimension.dated_int",
+		"Unique": false,
+		"Required": false
+	},
+	{
+		"Id": "location.statistical_region.population_women",
+		"Name": "Population",
+		"Description": "",
+		"ObjectType": "measured_dimension.dated_int",
+		"Unique": false,
+		"Required": false
+	},
         {
             "Id": "location.statistical_region.primary_education_completion_rate",
             "Name": "Primary education completion rate",
