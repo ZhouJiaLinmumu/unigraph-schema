@@ -70,7 +70,7 @@
             "Description": "",
             "ObjectType": "type.uri",
             "Unique": true,
-            "Required": false
+            "Required": true
         },
         {
             "Id": "common.image.file_format",

@@ -1,18 +1,18 @@
 {
-	"Id": "type.lang",
-	"Name": "Language",
-	"Description": "The type of which all languages are instances.",
-	"Mediator": false,
-	"ExpectedTypes": null,
-	"Enumerated": true,
-	"Properties": [
-		{
-			"Id": "type.lang.iso639",
-			"Name": "ISO639",
-			"Description": "",
-			"ObjectType": "type.rawstring",
-			"Unique": false,
-			"Required": true
-		}
-	]
+    "Id": "type.lang",
+    "Name": "Language",
+    "Description": "The type of which all languages are instances.",
+    "Mediator": false,
+    "ExpectedTypes": null,
+    "Enumerated": true,
+    "Properties": [
+        {
+            "Id": "type.lang.iso639",
+            "Name": "ISO639",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": true
+        }
+    ]
 }

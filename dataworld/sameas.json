@@ -547,7 +547,7 @@
         {
             "Id": "dataworld.sameas.bbc_things_identifer_id",
             "Name": "BBC Things identifer Identifier",
-            "Description": "Identifier in the BBC Things database.",
+            "Description": "Identifier in the BBC Things database (see Q18336371)",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -2907,7 +2907,7 @@
         {
             "Id": "dataworld.sameas.iata_airport_id",
             "Name": "IATA airport Identifier",
-            "Description": "Three-letter identifier for designating airports.",
+            "Description": "Three-letter identifier for designating airports (for airlines, see P229)",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -2947,7 +2947,7 @@
         {
             "Id": "dataworld.sameas.icao_airport_id",
             "Name": "ICAO airport Identifier",
-            "Description": "Four-character alphanumeric identifier for designating airports",
+            "Description": "Four-character alphanumeric identifier for designating airports (for airlines, see P230)",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3091,7 +3091,7 @@
         {
             "Id": "dataworld.sameas.index_fungorum_id",
             "Name": "Index Fungorum Identifier",
-            "Description": "Identifier in Index Fungorum",
+            "Description": "Identifier in Index Fungorum (see Q1860469)",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3395,7 +3395,7 @@
         {
             "Id": "dataworld.sameas.iso_3166_1_alpha_2_id",
             "Name": "ISO 3166-1 alpha-2 Identifier",
-            "Description": "Identifier for a country in two-letter format per ISO 3166-1",
+            "Description": "Identifier for a country in two-letter format per ISO 3166-1: Example: US",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3419,7 +3419,7 @@
         {
             "Id": "dataworld.sameas.iso_3166_2_id",
             "Name": "ISO 3166-2 Identifier",
-            "Description": "Identifier for a country subdivision per ISO 3166-2 (include country code)",
+            "Description": "Identifier for a country subdivision per ISO 3166-2. Example: US-AL",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -4233,13 +4233,13 @@
             "Required": false
         },
         {
-			"Id": "dataworld.sameas.moldova_company_id",
-			"Name": "IDNO/Codul Fiscal",
-			"Description": "Example: 1005600061656",
-			"ObjectType": "type.rawstring",
-			"Unique": true,
-			"Required": false
-		},
+            "Id": "dataworld.sameas.moldova_company_id",
+            "Name": "IDNO/Codul Fiscal",
+            "Description": "Example: 1005600061656",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
         {
             "Id": "dataworld.sameas.moldova_econonic_activities_classifier_id",
             "Name": "Classifier of Economic Activities of Moldova",
@@ -4803,7 +4803,7 @@
         {
             "Id": "dataworld.sameas.nla_australia_id",
             "Name": "NLA (Australia) Identifier",
-            "Description": "Identifier issued by the National Library of Australia.",
+            "Description": "Identifier issued by the National Library of Australia (see also P1315 for the newer People Australia identifier)",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -6003,7 +6003,7 @@
         {
             "Id": "dataworld.sameas.sudoc_authorities_id",
             "Name": "SUDOC authorities Identifier",
-            "Description": "Identifier for authority control in the French collaborative library catalog.",
+            "Description": "Identifier for authority control in the French collaborative library catalog (see also P1025)",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -6011,7 +6011,7 @@
         {
             "Id": "dataworld.sameas.sudoc_editions_id",
             "Name": "SUDOC editions Identifier",
-            "Description": "Identifier in the French union catalog.",
+            "Description": "Identifier in the French union catalog (see also P269)",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false

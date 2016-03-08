@@ -1,26 +1,26 @@
 {
-	"Id": "type.text",
-	"Name": "Text",
-	"Description": "The concept type of language-specific text.",
-	"Mediator": true,
-	"ExpectedTypes": null,
-	"Enumerated": false,
-	"Properties": [
-		{
-			"Id": "type.text.value",
-			"Name": "The text",
-			"Description": "",
-			"ObjectType": "type.rawstring",
-			"Unique": true,
-			"Required": true
-		},
-		{
-			"Id": "type.text.language",
-			"Name": "Language in ISO 639-1 two letter format",
-			"Description": "Example: 'en'",
-			"ObjectType": "type.rawstring",
-			"Unique": true,
-			"Required": true
-		}
-	]
+    "Id": "type.text",
+    "Name": "Text",
+    "Description": "The concept type of language-specific text.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "type.text.value",
+            "Name": "The text",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "type.text.language",
+            "Name": "Language in ISO 639-1 two letter format",
+            "Description": "Example: 'en'",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": true
+        }
+    ]
 }

@@ -67,7 +67,7 @@
         {
             "Id": "location.location.geometry",
             "Name": "Geometry",
-            "Description": "A link to a GeoJSON description of the locations' 2D boundary.  The property points to a content object that can be used with the Blob API to retrieve the raw GeoJSON.  The boundary is most easily utilized via the GeoSearch API.",
+            "Description": "Link to a GeoJSON description of the locations' 2D boundary.  The property points to a content object that can be used with the Blob API to retrieve the raw GeoJSON. The boundary is most easily utilized via the GeoSearch API.",
             "ObjectType": "location.geometry",
             "Unique": false,
             "Required": false
@@ -75,7 +75,7 @@
         {
             "Id": "location.location.mean_elevation",
             "Name": "Mean elevation",
-            "Description": "The mean terrain elevation measured for the area of this location from above or below the mean sea level (for body of water depth use /geography/body_of_water/mean_depth).",
+            "Description": "The mean terrain elevation measured for the area of this location from above or below the mean sea level.",
             "ObjectType": "measured_dimension.distance",
             "Unique": true,
             "Required": false

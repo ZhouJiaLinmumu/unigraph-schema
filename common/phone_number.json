@@ -17,7 +17,7 @@
         {
             "Id": "common.phone_number.country_code",
             "Name": "Country Code",
-            "Description": "Country code of the phone number. This is the number or numbers that must be added as a prefix for international callers. It should not include a \"+\".",
+            "Description": "Country code of the phone number. Without the \"+\".",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": true

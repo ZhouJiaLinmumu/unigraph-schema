@@ -18,6 +18,14 @@
             "Required": false
         },
         {
+            "Id": "location.statistical_region.population_density",
+            "Name": "Arithmetic population density (per km²)",
+            "Description": "The arithmetic population density of this location, measured in people per square kilometer of land.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
             "Id": "location.statistical_region.automobiles_per_capita",
             "Name": "Automobiles per capita",
             "Description": "",
@@ -29,6 +37,22 @@
             "Id": "location.statistical_region.births",
             "Name": "Births",
             "Description": "The number of live births occurring during a given time period.",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.births_female",
+            "Name": "Births Female",
+            "Description": "The number of live births of female babies occurring during a given time period.",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.births_male",
+            "Name": "Births Male",
+            "Description": "The number of live births of male babies occurring during a given time period.",
             "ObjectType": "measured_dimension.dated_int",
             "Unique": false,
             "Required": false
@@ -117,6 +141,22 @@
             "Id": "location.statistical_region.deaths",
             "Name": "Deaths",
             "Description": "The number of deaths occurring during a given time period.",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.deaths_female",
+            "Name": "Deaths Female",
+            "Description": "The number of deaths of female individuals occurring during a given time period.",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.deaths_male",
+            "Name": "Deaths Male",
+            "Description": "The number of deaths of male individuals occurring during a given time period.",
             "ObjectType": "measured_dimension.dated_int",
             "Unique": false,
             "Required": false
@@ -361,30 +401,6 @@
             "Unique": false,
             "Required": false
         },
-        {
-		"Id": "location.statistical_region.population_density",
-		"Name": "Arithmetic population density (per km²)",
-		"Description": "The arithmetic population density of this location, measured in people per square kilometer of land.",
-		"ObjectType": "measured_dimension.dated_float",
-		"Unique": false,
-		"Required": false
-	},
-	{
-		"Id": "location.statistical_region.population_female",
-		"Name": "Population",
-		"Description": "",
-		"ObjectType": "measured_dimension.dated_int",
-		"Unique": false,
-		"Required": false
-	},
-	{
-		"Id": "location.statistical_region.population_male",
-		"Name": "Population",
-		"Description": "",
-		"ObjectType": "measured_dimension.dated_int",
-		"Unique": false,
-		"Required": false
-	},
         {
             "Id": "location.statistical_region.primary_education_completion_rate",
             "Name": "Primary education completion rate",
