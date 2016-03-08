@@ -370,7 +370,7 @@
 		"Required": false
 	},
 	{
-		"Id": "location.statistical_region.population_men",
+		"Id": "location.statistical_region.population_female",
 		"Name": "Population",
 		"Description": "",
 		"ObjectType": "measured_dimension.dated_int",
@@ -378,7 +378,7 @@
 		"Required": false
 	},
 	{
-		"Id": "location.statistical_region.population_women",
+		"Id": "location.statistical_region.population_male",
 		"Name": "Population",
 		"Description": "",
 		"ObjectType": "measured_dimension.dated_int",
