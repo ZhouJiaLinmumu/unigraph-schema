@@ -52,22 +52,6 @@
             "Required": false
         },
         {
-            "Id": "location.country.gdp_nominal",
-            "Name": "GDP (nominal)",
-            "Description": "",
-            "ObjectType": "measured_dimension.dated_currency_amount",
-            "Unique": false,
-            "Required": false
-        },
-        {
-            "Id": "location.country.gdp_nominal_per_capita",
-            "Name": "GDP (nominal per capita)",
-            "Description": "",
-            "ObjectType": "measured_dimension.dated_currency_amount",
-            "Unique": false,
-            "Required": false
-        },
-        {
             "Id": "location.country.internet_tld",
             "Name": "Internet TLD",
             "Description": "The top-level domain(s) specific to this country.",
