@@ -10,7 +10,7 @@
     "Properties": [
         {
             "Id": "projects.project_identification.id",
-            "Name": "Contracting Authority or Entity",
+            "Name": "Project ID",
             "Description": "",
             "ObjectType": "type.rawstring",
             "Unique": false,
@@ -18,7 +18,7 @@
         },
         {
             "Id": "projects.project_identification.authority",
-            "Name": "Winning Bidder",
+            "Name": "Authority",
             "Description": "",
             "ObjectType": "projects.project_participant",
             "Unique": false,
