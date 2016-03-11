@@ -51,7 +51,7 @@
         {
             "Id": "projects.project.project_focus",
             "Name": "Project focus",
-            "Description": "The focus or subject of a project. For instance, for a project to renovate a building, the building would be the focus; for a software release project, the focus would be the software.",
+            "Description": "The focus or subject of a project. For instance, for a project to renovate a building, the building is the focus;",
             "ObjectType": "projects.project_focus",
             "Unique": false,
             "Required": false
@@ -61,6 +61,22 @@
             "Name": "Start date",
             "Description": "",
             "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "projects.project.locations",
+            "Name": "Geographical Locations",
+            "Description": "For geographically bound projects",
+            "ObjectType": "projects.project_location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "projects.project.identification",
+            "Name": "Project ID or Name",
+            "Description": "",
+            "ObjectType": "projects.project_identification",
             "Unique": true,
             "Required": false
         }

@@ -1,0 +1,28 @@
+{
+    "Id": "projects.project_identification",
+    "Name": "Project Identification",
+    "Description": "This type holds together a project ID and its issuing Authority.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "projects.project_identification.id",
+            "Name": "Contracting Authority or Entity",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "projects.project_identification.authority",
+            "Name": "Winning Bidder",
+            "Description": "",
+            "ObjectType": "projects.project_participant",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

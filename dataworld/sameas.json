@@ -547,7 +547,7 @@
         {
             "Id": "dataworld.sameas.bbc_things_identifer_id",
             "Name": "BBC Things identifer Identifier",
-            "Description": "Identifier in the BBC Things database (see Q18336371)",
+            "Description": "Identifier in the BBC Things database",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -1329,6 +1329,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.cpv_id",
+            "Name": "Common Procurement Vocabulary ID",
+            "Description": "An ID in the Common Procurement Vocabulary of the European Union. Examples: 35112200-4, AA01-1",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.cristin_id",
             "Name": "CRIStin Identifier",
             "Description": "ID in the database for Norwegian scientists",
@@ -1395,31 +1403,31 @@
         {
             "Id": "dataworld.sameas.cvr_number_id",
             "Name": "CVR number Identifier",
-            "Description": "The Central Business Register identifier. Number for the official database of Danish companies/organizations",
+            "Description": "The Central Business Register identifier. Number for the official database of Danish companies/organizations: Example: 10003202",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.cycling_archives_id_cyclist_id",
-            "Name": "Cycling Archives ID (cyclist) Identifier",
-            "Description": "Identifier in the Cycling Archives",
+            "Id": "dataworld.sameas.cycling_archives_cyclist_id",
+            "Name": "Cycling Archives (cyclist) Identifier",
+            "Description": "Cyclist Identifier in the Cycling Archives",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.cycling_archives_id_race_id",
-            "Name": "Cycling Archives ID (race) Identifier",
-            "Description": "Identifier in the Cycling Archives",
+            "Id": "dataworld.sameas.cycling_archives_race_id",
+            "Name": "Cycling Archives (race) Identifier",
+            "Description": "Race identifier in the Cycling Archives",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.cycling_archives_id_team_id",
-            "Name": "Cycling Archives ID (team) Identifier",
-            "Description": "Identifier in the Cycling Archives",
+            "Id": "dataworld.sameas.cycling_archives_team_id",
+            "Name": "Cycling Archives (team) Identifier",
+            "Description": "Team identifier in the Cycling Archives",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -2082,26 +2090,10 @@
         },
         {
             "Id": "dataworld.sameas.facebook_id",
-            "Name": "Facebook Identifier",
-            "Description": "Identifier for a person or organization in Facebook",
+            "Name": "FBID - Facebook Identifier",
+            "Description": "Universal identifier for a person, organization, group or place on Facebook. Examples: Person: 739595471, linkov, Page: stratupbg, Group: 196009253759775, Place: 115498741794980",
             "ObjectType": "type.rawstring",
             "Unique": false,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.facebook_page_id",
-            "Name": "Facebook Pages Identifier",
-            "Description": "Identifier for a page in Facebook",
-            "ObjectType": "type.rawstring",
-            "Unique": false,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.facebook_places_id",
-            "Name": "Facebook Places Identifier",
-            "Description": "Identifier for a place in Facebook",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
             "Required": false
         },
         {
@@ -2643,7 +2635,7 @@
         {
             "Id": "dataworld.sameas.google_plus_id",
             "Name": "Google Plus ID",
-            "Description": "The numeric identifier of a Google+ account",
+            "Description": "The numeric identifier of a Google+ account. Example: 109936836907132434202, +RichardBranson",
             "ObjectType": "type.rawstring",
             "Unique": false,
             "Required": false
@@ -2907,7 +2899,7 @@
         {
             "Id": "dataworld.sameas.iata_airport_id",
             "Name": "IATA airport Identifier",
-            "Description": "Three-letter identifier for designating airports (for airlines, see P229)",
+            "Description": "Three-letter identifier for designating airports",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -2915,7 +2907,7 @@
         {
             "Id": "dataworld.sameas.iata_airline_id",
             "Name": "IATA airline Identifier",
-            "Description": "IATA airline designators, sometimes called IATA reservation codes, are two-character codes assigned by the International Air Transport Association (IATA) to the world's airlines in accordance with the provisions of Resolution 762. They form the first two characters of the flight number. Airline designator codes follow the format xx(a), i.e., two alphanumeric characters (letters or digits) followed by an optional letter. Note there can be duplicate codes issued to regional airlines where there is no known overlap (controlled duplicates).",
+            "Description": "IATA airline designators, (IATA reservation codes), are two-character codes assigned by the International Air Transport Association. They form the first two characters of the flight number. Airline designator codes follow the format xx(a), i.e., two alphanumeric characters (letters or digits) followed by an optional letter. Note there can be duplicate codes issued to regional airlines where there is no known overlap (controlled duplicates). Examples: MH, TK",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -2947,7 +2939,7 @@
         {
             "Id": "dataworld.sameas.icao_airport_id",
             "Name": "ICAO airport Identifier",
-            "Description": "Four-character alphanumeric identifier for designating airports (for airlines, see P230)",
+            "Description": "Four-character alphanumeric identifier for designating airports",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3091,7 +3083,7 @@
         {
             "Id": "dataworld.sameas.index_fungorum_id",
             "Name": "Index Fungorum Identifier",
-            "Description": "Identifier in Index Fungorum (see Q1860469)",
+            "Description": "Identifier in Index Fungorum",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3593,8 +3585,8 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.jewish_encyclopedia_id_russian_id",
-            "Name": "Jewish Encyclopedia ID (Russian) Identifier",
+            "Id": "dataworld.sameas.jewish_encyclopedia_russian_id",
+            "Name": "Jewish Encyclopedia (Russian) Identifier",
             "Description": "Identifier on the Electronic Jewish Encyclopedia (Elektronnaja Evrejskaja Entsiklopedia)",
             "ObjectType": "type.rawstring",
             "Unique": true,
@@ -4241,9 +4233,9 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.moldova_econonic_activities_classifier_id",
+            "Id": "dataworld.sameas.moldova_economic_activity_id",
             "Name": "Classifier of Economic Activities of Moldova",
-            "Description": "Examples: 01, 0311, 774, 01131, 28112",
+            "Description": "Examples: 01, 0311, 774, 01131, 28112. The two digits codes are for activities requiring license, like pawnshop. The 4 digits and above are for activities that does not require license.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -4553,6 +4545,22 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.national_library_of_australia_id",
+            "Name": "NLA (Australia) Identifier",
+            "Description": "Identifier issued by the National Library of Australia",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.national_library_of_australia_people_id",
+            "Name": "People Australia Identifier",
+            "Description": "Identifier for people per National Library of Australia",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.national_library_of_ireland_authority_id",
             "Name": "National Library of Ireland authority Identifier",
             "Description": "National Library of Ireland (N6I) authority identifier",
@@ -4801,14 +4809,6 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.nla_australia_id",
-            "Name": "NLA (Australia) Identifier",
-            "Description": "Identifier issued by the National Library of Australia (see also P1315 for the newer People Australia identifier)",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
             "Id": "dataworld.sameas.nlc_authorities_id",
             "Name": "NLC authorities Identifier",
             "Description": "Identifier for a person per National Library of China",
@@ -4979,7 +4979,7 @@
         {
             "Id": "dataworld.sameas.nuts_id",
             "Name": "NUTS Identifier",
-            "Description": "Identifier for a region per NUTS. Now LAU",
+            "Description": "Identifier for a region per NUTS. Now LAU. Example: DE245",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -5225,14 +5225,6 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.people_australia_id",
-            "Name": "People Australia Identifier",
-            "Description": "Identifier for people per National Library of Australia",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
             "Id": "dataworld.sameas.perlentaucher_id",
             "Name": "Perlentaucher Identifier",
             "Description": "Identifier in Perlentaucher",
@@ -5345,8 +5337,8 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.procyclingstats_id_cyclist_id",
-            "Name": "ProCyclingStats ID (cyclist) Identifier",
+            "Id": "dataworld.sameas.procyclingstats_cyclist_id",
+            "Name": "ProCyclingStats (cyclist) Identifier",
             "Description": "Identifier on the website ProCyclingStats (www.procyclingstats.com)",
             "ObjectType": "type.rawstring",
             "Unique": true,
@@ -5625,8 +5617,8 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.rsl_id_person_id",
-            "Name": "RSL ID (person) Identifier",
+            "Id": "dataworld.sameas.rsl_person_id",
+            "Name": "RSL (person) Identifier",
             "Description": "Identifier of the Russian State Library",
             "ObjectType": "type.rawstring",
             "Unique": true,
@@ -5969,8 +5961,8 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.structurae_id_structure_id",
-            "Name": "Structurae ID (structure) Identifier",
+            "Id": "dataworld.sameas.structurae_structure_id",
+            "Name": "Structurae (structure) Identifier",
             "Description": "Identifier for a building in the Structurae database",
             "ObjectType": "type.rawstring",
             "Unique": true,
@@ -6003,7 +5995,7 @@
         {
             "Id": "dataworld.sameas.sudoc_authorities_id",
             "Name": "SUDOC authorities Identifier",
-            "Description": "Identifier for authority control in the French collaborative library catalog (see also P1025)",
+            "Description": "Identifier for authority control in the French collaborative library catalog",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -6011,7 +6003,7 @@
         {
             "Id": "dataworld.sameas.sudoc_editions_id",
             "Name": "SUDOC editions Identifier",
-            "Description": "Identifier in the French union catalog (see also P269)",
+            "Description": "Identifier in the French union catalog",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -6174,6 +6166,14 @@
             "Description": "Identifer for a person, in the Talouselämän vaikuttajat database",
             "ObjectType": "type.rawstring",
             "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.ted_cad_id",
+            "Name": "Contract Award Notice ID",
+            "Description": "Contract Award Notice ID in TED - Tenders Electronic Daily of the EU. Example: 201493",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
             "Required": false
         },
         {
@@ -6827,7 +6827,7 @@
         {
             "Id": "dataworld.sameas.youtube_channel_id",
             "Name": "YouTube channel Identifier",
-            "Description": "ID of the YouTube channel of a person, or organisation (not to be mixed up with the name of the channel)",
+            "Description": "ID of the YouTube channel of a person, or organization. Example: UCUaiGrBfRCaC6pL7ZnZjWbg",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -6835,7 +6835,15 @@
         {
             "Id": "dataworld.sameas.youtube_video_id",
             "Name": "YouTube video Identifier",
-            "Description": "Identifier of a notable video on YouTube",
+            "Description": "Identifier of a video on YouTube. Example: chFF_t79qOM",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.youtube_user_id",
+            "Name": "YouTube user Identifier",
+            "Description": "The ID of a YouTube user: ebizroi, marfuzii",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
