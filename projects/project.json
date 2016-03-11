@@ -73,11 +73,11 @@
             "Required": false
         },
         {
-            "Id": "projects.project.identification",
-            "Name": "Project ID or Name",
+            "Id": "projects.project.id",
+            "Name": "Project ID",
             "Description": "",
-            "ObjectType": "projects.project_identification",
-            "Unique": true,
+            "ObjectType": "type.rawstring",
+            "Unique": false,
             "Required": false
         }
     ]
