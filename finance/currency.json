@@ -25,14 +25,6 @@
             "Required": false
         },
         {
-            "Id": "finance.currency.currency_code",
-            "Name": "Currency Code",
-            "Description": "",
-            "ObjectType": "type.rawstring",
-            "Unique": false,
-            "Required": false
-        },
-        {
             "Id": "finance.currency.prefix_symbol",
             "Name": "Prefix Symbol",
             "Description": "",

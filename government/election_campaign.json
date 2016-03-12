@@ -34,7 +34,7 @@
         },
         {
             "Id": "government.election_campaign.party",
-            "Name": "Party (if partisan)",
+            "Name": "Party",
             "Description": "",
             "ObjectType": "government.political_party",
             "Unique": false,
@@ -43,7 +43,7 @@
         {
             "Id": "government.election_campaign.total_amount_raised",
             "Name": "Total amount raised",
-            "Description": "The amount of money raised, and the date as of which that was true. If there is data for more than one date, enter as many separate instances as necessary.",
+            "Description": "The amount of money raised, and the date as of which that was true.",
             "ObjectType": "measured_dimension.dated_currency_amount",
             "Unique": false,
             "Required": false

@@ -1,5 +1,5 @@
 {
-    "Id": "language.language_writing_system",
+    "Id": "language.writing_system",
     "Name": "Language Writing System",
     "Description": "A language writing system is the system of visual marks used to record expressions in a language in lasting form, whether on paper, a computer, carved in stone, or otherwise.",
     "Mediator": false,
@@ -9,31 +9,23 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "language.language_writing_system.child_writing_systems",
+            "Id": "language.writing_system.child_writing_systems",
             "Name": "Child writing systems",
             "Description": "",
-            "ObjectType": "language.language_writing_system",
+            "ObjectType": "language.writing_system",
             "Unique": false,
             "Required": false
         },
         {
-            "Id": "language.language_writing_system.languages",
-            "Name": "Languages",
-            "Description": "",
-            "ObjectType": "language.human_language",
-            "Unique": false,
-            "Required": false
-        },
-        {
-            "Id": "language.language_writing_system.writting_type",
+            "Id": "language.writing_system.writting_type",
             "Name": "Type of writing",
             "Description": "",
-            "ObjectType": "language.language_writing_type",
+            "ObjectType": "language.writing_type",
             "Unique": false,
             "Required": false
         },
         {
-            "Id": "language.language_writing_system.start_date",
+            "Id": "language.writing_system.start_date",
             "Name": "Used from",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -41,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "language.language_writing_system.end_date",
+            "Id": "language.writing_system.end_date",
             "Name": "Used until",
             "Description": "",
             "ObjectType": "type.datetime",

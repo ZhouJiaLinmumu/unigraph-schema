@@ -17,14 +17,6 @@
             "Required": false
         },
         {
-            "Id": "language.language_family.languages",
-            "Name": "Languages",
-            "Description": "",
-            "ObjectType": "language.human_language",
-            "Unique": false,
-            "Required": false
-        },
-        {
             "Id": "language.language_family.sub_families",
             "Name": "Sub-families",
             "Description": "",

@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "business.issue.type_of_issue",
+            "Id": "business.issue.issue_type",
             "Name": "Type of Issue",
             "Description": "",
             "ObjectType": "business.issue_type",

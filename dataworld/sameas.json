@@ -3043,7 +3043,7 @@
         {
             "Id": "dataworld.sameas.imdb_id",
             "Name": "IMDb Identifier",
-            "Description": "Identifier from the Internet Movie Database (IMDb) with prefix (tt-, nm-, ch-, co-, ev-)",
+            "Description": "Identifier from the Internet Movie Database (IMDb) with prefix (tt-, nm-, ch-, co-, ev-).",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3379,7 +3379,7 @@
         {
             "Id": "dataworld.sameas.iso_15924_alpha_4_or_numeric_id",
             "Name": "ISO 15924 alpha-4 or numeric Identifier",
-            "Description": "Identifier for a writing system",
+            "Description": "Identifier for a writing system.",
             "ObjectType": "type.rawstring",
             "Unique": false,
             "Required": false

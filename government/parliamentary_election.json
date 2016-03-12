@@ -21,7 +21,7 @@
         {
             "Id": "government.parliamentary_election.resulting_head_of_government",
             "Name": "Resulting head of government",
-            "Description": "If, as the result of this election, a head of government was chosen (e.g. by the newly-elected parliament), enter that person here.  Do not enter anything if this election did not result in a head of government (in some parliamentary systems, the head of government is selected independently of the parliament).",
+            "Description": "If, as the result of this election, a head of government was chosen (e.g. by the newly-elected parliament), enter that person here.",
             "ObjectType": "government.politician",
             "Unique": true,
             "Required": false
@@ -29,7 +29,7 @@
         {
             "Id": "government.parliamentary_election.resulting_head_of_state",
             "Name": "Resulting head of state",
-            "Description": "If, as the result of this election, a head of state was chosen (e.g. by the newly-elected parliament), enter that person here.  Do not enter anything if this election did not result in a head of state (in many parliamentary systems, the head of state is selected independently of the parliament).",
+            "Description": "If, as the result of this election, a head of state was chosen (e.g. by the newly-elected parliament), enter that person here.",
             "ObjectType": "government.politician",
             "Unique": true,
             "Required": false
