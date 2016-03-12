@@ -2272,7 +2272,7 @@
 	"finance.stock_exchange_region": "Eu",
 	"finance.stock_ticker_symbol": "qO",
 	"finance.stock_ticker_symbol.end_date": "U8",
-	"finance.stock_ticker_symbol.non_numeric_short_name": "fu",
+	"finance.stock_ticker_symbol.short_name": "fu",
 	"finance.stock_ticker_symbol.start_date": "Fu",
 	"finance.stock_ticker_symbol.stock_exchange": "12W",
 	"finance.stock_ticker_symbol.ticker_symbol": "rj",
