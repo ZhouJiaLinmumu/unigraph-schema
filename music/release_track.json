@@ -1,7 +1,7 @@
 {
     "Id": "music.release_track",
     "Name": "Release track",
-    "Description": "A Release Track is a track as it appears on a particular music release. A release track may only appear on a single release. However, a single recording of a piece of music may have several release tracks -- one for each release the recording is used on.",
+    "Description": "A Release Track is a track as it appears on a particular music release. A release track may only appear on a single release. However, a single recording of a piece of music may have several release tracks - one for each release the recording is used on.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"
@@ -11,7 +11,7 @@
         {
             "Id": "music.release_track.length",
             "Name": "Length",
-            "Description": "The length of this release track. (Note that this may differ from the length of the associated recording, since there is some degree of variability in the length of a given recording on different releases and media.)",
+            "Description": "The length of this release track.",
             "ObjectType": "measured_dimension.time",
             "Unique": true,
             "Required": false

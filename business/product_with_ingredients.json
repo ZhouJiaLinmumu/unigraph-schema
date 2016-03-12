@@ -11,7 +11,7 @@
         {
             "Id": "business.product_with_ingredients.ingredients",
             "Name": "Ingredients",
-            "Description": "The ingredients of this product. Ingredients should be entered in the order they appear on the package. Ingredients should also be entered as closely as possible to the way they appear on the package - e.g. if an igredient is listed as \"milled corn\", do not enter \"corn\" instead. (The exception is for true synonyms: what appears as \"salt\" on most packages is the same as \"table salt\"; what is known as \"high fructose corn syrup\" in the USA is called \"isoglucose\" in Europe. These should use the same topic.) Note also that compound ingredients (such as \"cheddar cheese (milk, salt, cheese cultures)\") should be entered verbatim; the ingredient can later be edited to show that it is both a variety of \"cheddar cheese\" and includes \"milk\", \"salt\", and \"cheese cultures\" as ingredients.",
+            "Description": "The ingredients of this product. Ingredients should be entered in the order they appear on the package. Ingredients should also be entered as closely as possible to the way they appear on the package.",
             "ObjectType": "business.product_ingredient",
             "Unique": false,
             "Required": false

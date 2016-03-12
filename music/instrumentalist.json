@@ -1,6 +1,6 @@
 {
     "Id": "music.instrumentalist",
-    "Name": "Singer",
+    "Name": "Instrumentalist",
     "Description": "An instrumentalist is anyone who plays a music instrument",
     "Mediator": false,
     "ExpectedTypes": [

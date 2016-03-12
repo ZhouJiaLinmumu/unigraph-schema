@@ -11,7 +11,7 @@
         {
             "Id": "dataworld.sameas.aat_id",
             "Name": "AAT Identifier",
-            "Description": "Identifier in the Art \u0026 Architecture Thesaurus by the Getty Research Institute",
+            "Description": "Identifier in the Art Architecture Thesaurus by the Getty Research Institute",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -467,7 +467,7 @@
         {
             "Id": "dataworld.sameas.balat_person_organisation_id",
             "Name": "BALaT person/organisation Identifier",
-            "Description": "Identifier for person or organisation in the People \u0026 Institutions database of Belgian Art Links \u0026 Tools (BALaT), maintained by KIK-IRPA, Belgium's Royal Institute for Cultural Heritage.",
+            "Description": "Identifier for person or organisation in the People Institutions database of Belgian Art Links Tools (BALaT), maintained by KIK-IRPA, Belgium's Royal Institute for Cultural Heritage.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -514,7 +514,7 @@
         },
         {
             "Id": "dataworld.sameas.bav_vatican_library_id",
-            "Name": "BAV (Vatican Library) Identifier",
+            "Name": "Vatican Library Identifier",
             "Description": "Identifier for authority control used at the Vatican Library",
             "ObjectType": "type.rawstring",
             "Unique": true,
@@ -739,7 +739,7 @@
         {
             "Id": "dataworld.sameas.bmlo_id",
             "Name": "BMLO Identifier",
-            "Description": "Identifier per Bayerisches Musiker-Lexikon Online (Q47191)",
+            "Description": "Identifier per Bayerisches Musiker-Lexikon Online",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -859,7 +859,7 @@
         {
             "Id": "dataworld.sameas.calis_id",
             "Name": "CALIS Identifier",
-            "Description": "Identifier for authority control per CALIS (China Academic Library \u0026 Information System)",
+            "Description": "Identifier for authority control per CALIS (China Academic Library Information System)",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -1139,7 +1139,7 @@
         {
             "Id": "dataworld.sameas.cinii_author_id",
             "Name": "CiNii author Identifier",
-            "Description": "Identifier for an author in CiNii (Scholarly and Academic Information Navigator)  (\"DA\" + 8 digits)",
+            "Description": "Identifier for an author in CiNii (Scholarly and Academic Information Navigator)  \"DA\" + 8 digits, DA01926703",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -1459,7 +1459,7 @@
         {
             "Id": "dataworld.sameas.daao_id",
             "Name": "DAAO Identifier",
-            "Description": "Identifier per Design \u0026 Art Australia Online",
+            "Description": "Identifier per Design Art Australia Online",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -1467,7 +1467,7 @@
         {
             "Id": "dataworld.sameas.danish_bibliometric_research_indicator_bfi_sno_cno_id",
             "Name": "Danish Bibliometric Research Indicator (BFI) SNO/CNO Identifier",
-            "Description": "Serial \u0026 conference identifier",
+            "Description": "Serial conference identifier",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3381,7 +3381,7 @@
             "Name": "ISO 15924 alpha-4 or numeric Identifier",
             "Description": "Identifier for a writing system",
             "ObjectType": "type.rawstring",
-            "Unique": true,
+            "Unique": false,
             "Required": false
         },
         {
@@ -3492,14 +3492,6 @@
             "Id": "dataworld.sameas.istat_id",
             "Name": "ISTAT Identifier",
             "Description": "Identifier for municipalities in Italy",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.iswc_id",
-            "Name": "ISWC Identifier",
-            "Description": "Identifier for musical works, adopted as international standard ISO 15707",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3811,7 +3803,7 @@
         {
             "Id": "dataworld.sameas.latvian_cultural_heritage_register_id",
             "Name": "Latvian cultural heritage register Identifier",
-            "Description": "ID of the cultural heritage on http://saraksts.mantojums.lv/",
+            "Description": "ID of the cultural heritage on http://saraksts.mantojums.lv/, Example: 392",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3854,6 +3846,14 @@
             "Description": "",
             "ObjectType": "type.rawstring",
             "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.iso_15707_iswc_id",
+            "Name": "International Standard Musical Work Code Identifier",
+            "Description": "Identifier for musical works, adopted as international standard ISO 15707",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
             "Required": false
         },
         {
@@ -5099,7 +5099,7 @@
         {
             "Id": "dataworld.sameas.orc_id",
             "Name": "ORC Identifier",
-            "Description": "Identifier for a person",
+            "Description": "Open Research Contributor ID, person. Example: 0000-0002-1003-5675",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -5154,8 +5154,8 @@
         },
         {
             "Id": "dataworld.sameas.parlement_and_politiek_id",
-            "Name": "Parlement \u0026 Politiek Identifier",
-            "Description": "Entry of described object on Parlement \u0026 Politiek, website describing Dutch politic",
+            "Name": "Parlement Politiek Identifier",
+            "Description": "Entry of described object on Parlement Politiek, website describing Dutch politic",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -5387,7 +5387,7 @@
         {
             "Id": "dataworld.sameas.pss_archi_id",
             "Name": "PSS-archi Identifier",
-            "Description": "Identifier for a building in the PSS-archi database",
+            "Description": "Identifier for a building in the PSS-archi database. Example: FR-75056-19",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -6658,8 +6658,8 @@
         },
         {
             "Id": "dataworld.sameas.watson_and_dallwitz_family_id",
-            "Name": "Watson \u0026 Dallwitz family Identifier",
-            "Description": "FamilyID in Watson \u0026 Dallwitz: The families of flowering plants",
+            "Name": "Watson Dallwitz family Identifier",
+            "Description": "FamilyID in Watson Dallwitz: The families of flowering plants",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false

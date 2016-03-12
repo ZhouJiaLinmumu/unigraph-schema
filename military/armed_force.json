@@ -12,7 +12,7 @@
         {
             "Id": "military.armed_force.sub_divisions",
             "Name": "Sub-divisions",
-            "Description": "Armed forces that comprise this force (e.g. a division might comprise several brigades). Only list those that are immedately below this one in the command structure.",
+            "Description": "Armed forces that comprise this force (e.g. a division might comprise several brigades). Only list those that are immediately below this one in the command structure.",
             "ObjectType": "military.armed_force",
             "Unique": false,
             "Required": false

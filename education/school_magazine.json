@@ -1,7 +1,7 @@
 {
     "Id": "education.school_magazine",
     "Name": "School magazine",
-    "Description": "This type is for magazines published by the students of a school (primary, secondary, or college-level). Professionally published magazines and journals that are affiliated with a school should not use this type, but rather just use the general Magazine or Journal type, and list the school or its press as the publisher. Note that the school property of this type expects an educational institution; the publisher property of the magazine type may also have the institution as a value, or the publisher could be a department or club. See also School Newspaper.",
+    "Description": "This type is for magazines published by the students of a school (primary, secondary, or college-level). Professionally published magazines and journals that are affiliated with a school should not use this type, but rather just use the general Magazine or Journal type, and list the school or its press as the publisher.",
     "Mediator": false,
     "ExpectedTypes": [
         "periodicals.periodical",

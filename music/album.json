@@ -1,7 +1,7 @@
 {
     "Id": "music.album",
     "Name": "Musical Album",
-    "Description": "A Musical Album refers to a collection of Musical Tracks (recordings of Songs) released in a common format such as Compact Disc or LP. An album is typically associated with a single Musical Artist unless it is a compilation, which is a collection of tracks by various artists. (These albums will not have a value for the Artist property at all.)This type is distinct from Musical Release which represents the various “pressings” or releases of an album. Musical Album is the more general type, and is probably the appropriate place for comments on the artistic work it represents.Please do not use this type for spoken word recordings, including stand-up comedy and audiobooks.",
+    "Description": "A Musical Album refers to a collection of Musical Tracks (recordings of Songs) released in a common format such as Compact Disc or LP. An album is typically associated with a single Musical Artist unless it is a compilation, which is a collection of tracks by various artists. (These albums will not have a value for the Artist property at all.)This type is distinct from Musical Release which represents the various “pressings” or releases of an album. Musical Album is the more general type, and is probably the appropriate place for comments on the artistic work it represents. This type is not for spoken word recordings, including stand-up comedy and audiobooks.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"

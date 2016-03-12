@@ -27,7 +27,7 @@
         {
             "Id": "time.timezone.dst_utc_offset",
             "Name": "DST offset from UTC",
-            "Description": "Offset in hours from UTC during observance of daylight saving time (ie. for PDT in Los Angeles, USA it is -7.00 hours \u0026 for CHADT in the Chatham Islands it is +13.75).",
+            "Description": "Offset in hours from UTC during observance of daylight saving time (ie. for PDT in Los Angeles, USA it is -7.00 hours for CHADT in the Chatham Islands it is +13.75).",
             "ObjectType": "measured_dimension.time",
             "Unique": true,
             "Required": false
@@ -51,7 +51,7 @@
         {
             "Id": "time.timezone.timezone_abbreviation_dst",
             "Name": "Time zone abbreviation (DST)",
-            "Description": "DST abbreviation for this timezone (ie. PDT for Pacific Daylight Time or CEST for Central European Summer Time). Obsolete abbreviations should be listed in /common/topic/alias. If there's no observance of DST, assert the \"flag as having no values.\"",
+            "Description": "DST abbreviation for this timezone (ie. PDT for Pacific Daylight Time or CEST for Central European Summer Time). Obsolete abbreviations should be listed in /common/topic/alias.",
             "ObjectType": "type.text",
             "Unique": true,
             "Required": false

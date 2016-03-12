@@ -1,7 +1,7 @@
 {
     "Id": "people.marriage",
     "Name": "Marriage",
-    "Description": "'Marriage' defines a relationship between two people. The person type uses it to store the two people in the relationship as well as a beginning and end date (if applicable) for the marriage.   It is a compound value type which means that it it not typically a named topic in its own right. Some famous marriages may be promoted to topics, but this is less common.",
+    "Description": "'Marriage' defines a relationship between two people.",
     "Mediator": true,
     "ExpectedTypes": null,
     "Enumerated": false,

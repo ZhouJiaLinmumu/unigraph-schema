@@ -1,7 +1,7 @@
 {
     "Id": "measured_dimension.force_moment_unit",
     "Name": "Unit of Moment of Force",
-    "Description": "Units of moment of force -- also known simply as moment -- are used to measure torque, or the magnitude of force applied to a rotational system at a distance from the axis of rotation.",
+    "Description": "Units of moment of force - also known simply as moment - are used to measure torque, or the magnitude of force applied to a rotational system at a distance from the axis of rotation.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"

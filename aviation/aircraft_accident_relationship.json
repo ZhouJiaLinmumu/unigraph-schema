@@ -9,7 +9,7 @@
         {
             "Id": "aviation.aircraft_accident_relationship.aircraft_model",
             "Name": "Aircraft model",
-            "Description": "The model of (one of) the aircraft involved in this incident. Note that this should be a model, such as Boeing 747 or Sopwith Camel.",
+            "Description": "The model of (one of) the aircraft involved in this incident: Boeing 747 or Sopwith Camel.",
             "ObjectType": "aviation.aircraft_model",
             "Unique": true,
             "Required": true

@@ -1,7 +1,7 @@
 {
     "Id": "people.canadian_aboriginal_group",
     "Name": "Canadian aboriginal group",
-    "Description": "Intended to work with the existing Canadian Indian Reserve type in the Location domain.Currently the properties on this type are:Canadian Indian reserve(s) -- what Canadian Indian Reserves, if any, these people live on. If a group is spread across the border into the US, you can co-type them as an American Indian group.",
+    "Description": "Intended to work with the existing Canadian Indian Reserve type in the Location domain.Currently the properties on this type are:Canadian Indian reserve(s) - what Canadian Indian Reserves, if any, these people live on. If a group is spread across the border into the US, you can co-type them as an American Indian group.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic",

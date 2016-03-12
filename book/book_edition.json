@@ -1,7 +1,7 @@
 {
     "Id": "book.book_edition",
     "Name": "Book Edition",
-    "Description": "A Book Edition represents a specific publication of a book. Print, audio, and electronic versions of books can all be represented as book editions.The title of a book edition should be the title of that particular edition, which may vary from other editions of the same book.  Mary Shelley's novel \"Frankenstein,\" for example, has been published both as \"Frankenstein\" and \"Frankenstein, or A Modern Prometheus.\"",
+    "Description": "A Book Edition represents a specific publication of a book. Print, audio, and electronic versions of books can all be represented as book editions. The title of a book edition should be the title of that particular edition, which may vary from other editions of the same book. Mary Shelley's novel \"Frankenstein,\" for example, has been published both as \"Frankenstein\" and \"Frankenstein, or A Modern Prometheus.\"",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"
@@ -19,7 +19,7 @@
         {
             "Id": "book.book_edition.book",
             "Name": "Edition Of",
-            "Description": "The book (or written work) that this is an edition of. The \"Book\" type represents the most abstract level of thinking about the work - unlike the Book Edition type, which has properties that will vary from publication to publication, the properties of Book represent those which are always true - author, date of first publication, series membership, etc. Note also that one Book may have been published under a variety of titles, so the title of the Book that this is an edition of may be different from that of the edition (e.g. U.S. editions of \"Harry Potter and the Philosopher's Stone\" have all been titled \"Harry Potter and the Sorcerer's Stone\").",
+            "Description": "The book (or written work) that this is an edition of.",
             "ObjectType": "book.book",
             "Unique": true,
             "Required": false
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "book.book_edition.place_of_publication",
+            "Id": "book.book_edition.publication_place",
             "Name": "Place of publication",
             "Description": "This will usually be a city, listed on the title page.",
             "ObjectType": "book.book_edition_location",

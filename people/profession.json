@@ -11,7 +11,7 @@
         {
             "Id": "people.profession.corresponding_type",
             "Name": "Corresponding type",
-            "Description": "The type (if any -- most professions may not directly map to a type) in UniGraph that best corresponds to this profession.",
+            "Description": "The type (if any - most professions may not directly map to a type) in UniGraph that best corresponds to this profession.",
             "ObjectType": "type.type",
             "Unique": true,
             "Required": false

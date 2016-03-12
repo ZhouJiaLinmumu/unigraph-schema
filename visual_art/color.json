@@ -1,7 +1,7 @@
 {
     "Id": "visual_art.color",
     "Name": "Color",
-    "Description": "'Color' is a type in the visual arts, but can also be applied more generally to other types in the system. Color (or colour) is the visual perceptual property corresponding in humans to the categories called red, yellow, white, etc. Color derives from the spectrum of light (distribution of light energy versus wavelength) interacting in the eye with the spectral sensitivities of the light receptors. Color categories and physical specifications of color are also associated with objects, materials, light sources, etc., based on their physical properties such as light absorption, reflection, or emission spectra.Please enter new color topics one color at a time: i.e. if you need maroon and gold, enter one topic for Maroon, one topic for Gold. Maroon and Gold is not a color.",
+    "Description": "'Color' is a type in the visual arts, but can also be applied more generally to other types in the system. Color (or colour) is the visual perceptual property corresponding in humans to the categories called red, yellow, white, etc. Color derives from the spectrum of light (distribution of light energy versus wavelength) interacting in the eye with the spectral sensitivities of the light receptors. Color categories and physical specifications of color are also associated with objects, materials, light sources, etc., based on their physical properties such as light absorption, reflection, or emission spectra.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"

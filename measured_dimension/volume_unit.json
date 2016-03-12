@@ -1,7 +1,7 @@
 {
     "Id": "measured_dimension.volume_unit",
     "Name": "Unit Of Volume",
-    "Description": "A Unit Of Volume is a measurement of 3-dimensional spatial size. Units should have their equivalent given in the SI base unit, cubic meters (which, please note, is 1,000 liters).",
+    "Description": "A Unit Of Volume is a measurement of 3-dimensional spatial size. Units should have their equivalent given in the SI base unit, cubic meters (which is 1,000 liters).",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"

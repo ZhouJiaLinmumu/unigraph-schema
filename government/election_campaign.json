@@ -1,7 +1,7 @@
 {
     "Id": "government.election_campaign",
     "Name": "Election campaign",
-    "Description": "The election campaign type contains information about a politician's campaign for a government office or position in a specific election. If the election includes a primary, candidates may have two separate campaigns -- one for the primary and one for the general election.",
+    "Description": "The election campaign type contains information about a politician's campaign for a government office or position in a specific election. If the election includes a primary, candidates may have two separate campaigns - one for the primary and one for the general election.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"

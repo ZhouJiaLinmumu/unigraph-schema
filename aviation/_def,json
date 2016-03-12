@@ -1,5 +1,0 @@
-{
-  "Id": "aviation",
-  "Name": "Aviation",
-  "Description": "The aviation domain currently has a lot of schemas, but very few instances.  Very soon, we will do a mass typing to fill these out so autocompletion will work better.  In the meantime, please fill out your favorite aircraft, and the airports you know (such as the one from your hometown.)"
-}

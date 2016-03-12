@@ -19,7 +19,7 @@
         {
             "Id": "medicine.disease.people_with_this_condition",
             "Name": "People with this condition",
-            "Description": "Please enter only people who are notable or famous in some way here.",
+            "Description": "",
             "ObjectType": "medicine.person_with_medical_condition",
             "Unique": false,
             "Required": false

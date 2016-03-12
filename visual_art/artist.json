@@ -1,7 +1,7 @@
 {
     "Id": "visual_art.artist",
     "Name": "Visual Artist",
-    "Description": "A visual artist is anyone (including people, animals, groups or companies) that has created a  visual artwork. For more information, please see the UniGraph wiki page on visual artist.",
+    "Description": "A visual artist is anyone (including people, animals, groups or companies) that has created a visual artwork.",
     "Mediator": false,
     "ExpectedTypes": [
         "people.person",

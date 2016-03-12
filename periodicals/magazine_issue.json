@@ -1,7 +1,7 @@
 {
     "Id": "periodicals.magazine_issue",
     "Name": "Magazine Issue",
-    "Description": "This type represents individual issues of magazines, and can be used to show the contents or cover artist, as well as any discussion or written description that might be interesting or useful. (The description field, might, for example, be used to mark issues that are notable for some reason -- the first publication of an important author, first or last issues, etc.)When naming an issue, please use a short form of the magazine's title and the issue date; it's a good idea to use the same basic format for all issues of the same magazine.",
+    "Description": "This type represents individual issues of magazines, and can be used to show the contents or cover artist, as well as any discussion or written description that might be interesting or useful. (The description field, might, for example, be used to mark issues that are notable for some reason - the first publication of an important author, first or last issues, etc.)",
     "Mediator": false,
     "ExpectedTypes": [
         "book.published_work",

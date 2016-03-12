@@ -18,14 +18,6 @@
             "Required": false
         },
         {
-            "Id": "location.statistical_region.population_density",
-            "Name": "Arithmetic population density (per km²)",
-            "Description": "The arithmetic population density of this location, measured in people per square kilometer of land.",
-            "ObjectType": "measured_dimension.dated_float",
-            "Unique": false,
-            "Required": false
-        },
-        {
             "Id": "location.statistical_region.automobiles_per_capita",
             "Name": "Automobiles per capita",
             "Description": "",
@@ -394,6 +386,30 @@
             "Required": false
         },
         {
+            "Id": "location.statistical_region.population_density",
+            "Name": "Arithmetic population density (per km²)",
+            "Description": "The arithmetic population density of this location, measured in people per square kilometer of land.",
+            "ObjectType": "measured_dimension.dated_float",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.population_female",
+            "Name": "Population",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.population_male",
+            "Name": "Population",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
             "Id": "location.statistical_region.population_growth_rate",
             "Name": "Population growth rate",
             "Description": "The annual population growth in this location.",
@@ -410,7 +426,15 @@
             "Required": false
         },
         {
-            "Id": "location.statistical_region.religions",
+            "Id": "location.statistical_region.religion_adherents",
+            "Name": "Religions",
+            "Description": "",
+            "ObjectType": "location.religion_adherents",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "location.statistical_region.religions_ratio",
             "Name": "Religions",
             "Description": "",
             "ObjectType": "location.religion_percentage",

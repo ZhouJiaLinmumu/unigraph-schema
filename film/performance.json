@@ -41,7 +41,7 @@
         {
             "Id": "film.performance.special_performance_type",
             "Name": "Special Performance Type",
-            "Description": "Used to note that a performer was used in a particular way -- voice actors, motion-capture models, appearances from archive footage, etc.",
+            "Description": "Used to note that a performer was used in a particular way - voice actors, motion-capture models, appearances from archive footage, etc.",
             "ObjectType": "film.special_film_performance_type",
             "Unique": false,
             "Required": false

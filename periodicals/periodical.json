@@ -1,7 +1,7 @@
 {
     "Id": "periodicals.periodical",
     "Name": "Periodical",
-    "Description": "A periodical is a written work or collection of written works that is typically published on a regular schedule. This includes magazines, newspapers, journals, fanzines, zines, school newspapers, etc. This type holds all the properties common across all types of periodicals. If there is another type within UniGraph that is more specific to the topic (for example magazines and newspapers), all applicable types should be used. Comic books, though often published on a regular schedule, have their own type and are specifically NOT periodicals.  For more information, please see the UniGraph wiki page on Periodical.",
+    "Description": "A periodical is a written work or collection of written works that is typically published on a regular schedule. This includes magazines, newspapers, journals, fanzines, zines, school newspapers, etc. This type holds all the properties common across all types of periodicals. If there is another type within UniGraph that is more specific to the topic (for example magazines and newspapers), all applicable types should be used. Comic books, though often published on a regular schedule, have their own type and are specifically NOT periodicals.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"

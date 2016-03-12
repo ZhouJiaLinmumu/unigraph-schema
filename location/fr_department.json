@@ -11,14 +11,5 @@
         "location.administrative_division"
     ],
     "Enumerated": false,
-    "Properties": [
-        {
-            "Id": "location.fr_department.code_insee",
-            "Name": "Code Insee",
-            "Description": "Department number, specified by INSEE",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        }
-    ]
+    "Properties": null
 }

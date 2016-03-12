@@ -1,7 +1,7 @@
 {
     "Id": "conferences.conference",
     "Name": "Conference event",
-    "Description": "A particular instance of a recurring conference, like Linuxfest'09  or '5th Annual meeting of the Peru Veterinary Association'. May be used independently if there is only one meeting. A conference is an event whose primary focus is verbal presentation or discussion. Speaker information is handled by /event/public_speaking_event",
+    "Description": "A particular instance of a recurring conference, like Linuxfest'09 or '5th Annual meeting of the Peru Veterinary Association'. May be used independently if there is only one meeting. A conference is an event whose primary focus is verbal presentation or discussion. Speaker information is handled by /event/public_speaking_event",
     "Mediator": false,
     "ExpectedTypes": [
         "time.event",
@@ -29,7 +29,7 @@
         {
             "Id": "conferences.conference.venue",
             "Name": "Venue",
-            "Description": "The venue in which this conference was held. Please be specific; this should not simply be a city.",
+            "Description": "The venue in which this conference was held.",
             "ObjectType": "conferences.venue",
             "Unique": false,
             "Required": false

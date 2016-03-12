@@ -1,7 +1,7 @@
 {
     "Id": "location.symbol_of_administrative_division",
     "Name": "Official symbol",
-    "Description": "This type is for official symbols of governmental jurisdictions only. These include empires, countries, administrative divisions of countries (such as provinces, states, regions, etc.), cities, towns, etc. These are frequently known as \"national flower\" or \"state tree\" or \"provincial animal\". This type should be applied to the official symbols (such as \"Maple tree\" or \"Jaguar\").  Note: it should not be used for flags or coats of arms as these have their own types in UniGraph.",
+    "Description": "This type is for official symbols of governmental jurisdictions only. These include empires, countries, administrative divisions of countries (such as provinces, states, regions, etc.), cities, towns, etc. These are frequently known as \"national flower\" or \"state tree\" or \"provincial animal\". This type should be applied to the official symbols (such as \"Maple tree\" or \"Jaguar\"). Note: it should not be used for flags or coats of arms as these have their own types in UniGraph.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"

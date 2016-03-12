@@ -1,7 +1,7 @@
 {
     "Id": "architecture.structure",
     "Name": "Architectural structure",
-    "Description": "A structure is a large, outdoor and immobile man-made object that is constructed or built. A structure has a fixed location. Buildings, bridges, tunnels, dams, prehistoric structures, tombs and monuments are structures.   Note: All buildings are considered as structures but not all structures are buildings.",
+    "Description": "A structure is a large, outdoor and immobile man-made object that is constructed or built. A structure has a fixed location. Buildings, bridges, tunnels, dams, prehistoric structures, tombs and monuments are structures. All buildings are structures, not all structures are buildings.",
     "Mediator": false,
     "ExpectedTypes": [
         "location.location",

@@ -16,7 +16,7 @@
         {
             "Id": "travel.hotel.drinking_establishments",
             "Name": "Drinking Establishments",
-            "Description": "Bars \u0026 Pubs in the Hotel",
+            "Description": "Bars, Pubs in the Hotel",
             "ObjectType": "travel.drinking_establishment",
             "Unique": false,
             "Required": false

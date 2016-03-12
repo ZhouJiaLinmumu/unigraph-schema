@@ -1,7 +1,7 @@
 {
     "Id": "medicine.hospital",
     "Name": "Hospital",
-    "Description": "A hospital is an institution for health care, often but not always providing for longer-term patient stays. All varieties of hospitals -- private, public, military, etc. -- are included in this type.",
+    "Description": "A hospital is an institution for health care, often but not always providing for longer-term patient stays. All varieties of hospitals - private, public, military, etc. - are included in this type.",
     "Mediator": false,
     "ExpectedTypes": [
         "architecture.structure",

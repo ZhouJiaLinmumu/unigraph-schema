@@ -30,7 +30,7 @@
         {
             "Id": "location.country.first_level_divisions",
             "Name": "First level divisions",
-            "Description": "The first level administrative divisions of this country, typically regions, states, provinces, etc...",
+            "Description": "The first level administrative divisions of this country, typically regions, states, provinces, etc.",
             "ObjectType": "location.administrative_division",
             "Unique": false,
             "Required": false

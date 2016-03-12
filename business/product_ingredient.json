@@ -11,7 +11,7 @@
         {
             "Id": "business.product_ingredient.derived_from",
             "Name": "Derived from",
-            "Description": "Ingredients that this is derived from. For example, 'milled corn' is derived from 'corn'. Note that some ingredients can potentially be derived from more than one source; please enter only the source or sources specified on the product itself.",
+            "Description": "Ingredients that this is derived from. For example, 'milled corn' is derived from 'corn'. Some ingredients can potentially be derived from more than one source;.",
             "ObjectType": "business.product_ingredient",
             "Unique": false,
             "Required": false
@@ -19,7 +19,7 @@
         {
             "Id": "business.product_ingredient.ingredients",
             "Name": "Ingredients",
-            "Description": "Use this property with compound ingredients -- those ingredients that are listed as containing other ingredients, as in \"cheddar cheese (milk, salt, cheese cultures)\". Each sub-ingredient can be listed here.",
+            "Description": "Use this property with compound ingredients - those ingredients that are listed as containing other ingredients, as in \"cheddar cheese (milk, salt, cheese cultures)\". Each sub-ingredient can be listed here.",
             "ObjectType": "business.product_ingredient",
             "Unique": false,
             "Required": false

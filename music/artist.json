@@ -67,7 +67,7 @@
         {
             "Id": "music.artist.supporting_artists",
             "Name": "Supporting artists",
-            "Description": "Musicians who have performed live or on recordings with this artist. Note that, for bands, this property should only be used for musicians who are not also members of the band (this includes members of a band whose name includes that of one of the members such as Tom Petty and the Heartbreakers).",
+            "Description": "Musicians who have performed live or on recordings with this artist. For bands, this property should only be used for musicians who are not also members of the band (this includes members of a band whose name includes that of one of the members such as Tom Petty and the Heartbreakers).",
             "ObjectType": "music.group_member",
             "Unique": false,
             "Required": false

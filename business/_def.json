@@ -1,0 +1,5 @@
+{
+  "Id": "business",
+  "Name": "Business",
+  "Description": "Business contains types related to business such as 'Company', 'Industry' and 'Retail Location'."
+}

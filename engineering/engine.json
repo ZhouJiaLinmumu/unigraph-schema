@@ -1,7 +1,7 @@
 {
     "Id": "engineering.engine",
     "Name": "Engine",
-    "Description": "An engine is a device that converts fuel to kinetic energy. Please use this type for all engines, including product lines such as Rolls Royce Merlin.",
+    "Description": "An engine is a device that converts fuel to kinetic energy. This type is for all engines, including product lines such as the Rolls Royce Merlin.",
     "Mediator": false,
     "ExpectedTypes": [
         "projects.project_focus",

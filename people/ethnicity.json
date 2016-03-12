@@ -33,14 +33,6 @@
             "Required": false
         },
         {
-            "Id": "people.ethnicity.people",
-            "Name": "People of this ethnicity",
-            "Description": "",
-            "ObjectType": "people.person",
-            "Unique": false,
-            "Required": false
-        },
-        {
             "Id": "people.ethnicity.population",
             "Name": "Population",
             "Description": "",

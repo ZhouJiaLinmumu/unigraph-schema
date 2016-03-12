@@ -1,7 +1,7 @@
 {
     "Id": "people.person",
     "Name": "Person",
-    "Description": "A person is a human being (man, woman or child) known to have actually existed. Living persons, celebrities and politicians are persons, as are deceased persons.  Note: A person topic is distinct from a user in UniGraph. Users have profiles that can only be edited by the users themselves. A person topic can be edited by anyone and is intended as a factual representation of details about a person.",
+    "Description": "A person is a human being (man, woman or child) known to have existed. Living persons, celebrities and politicians are persons, as are deceased persons.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"
@@ -14,6 +14,14 @@
             "Description": "",
             "ObjectType": "type.datetime",
             "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "people.person.ethnicity",
+            "Name": "Ethnicity",
+            "Description": "",
+            "ObjectType": "people.ethnicity",
+            "Unique": false,
             "Required": false
         },
         {
@@ -59,7 +67,7 @@
         {
             "Id": "people.person.nationality",
             "Name": "Country of nationality",
-            "Description": "The country (or countries) that this person is a citizen of. For a person's ethnic background, use the property /people/person/ethnicity. For the places a person has lived, use /people/person/places_lived.",
+            "Description": "The country (or countries) that this person is a citizen of.",
             "ObjectType": "people.nationality",
             "Unique": false,
             "Required": false
@@ -67,7 +75,7 @@
         {
             "Id": "people.person.parents",
             "Name": "Parents",
-            "Description": "Includes biological parents and adoptive parents. Includes stepparents only if they have legally adopted the subject. Does not include stepparents or other guardians who have not legally adopted the subject.",
+            "Description": "Includes biological parents and adoptive parents.",
             "ObjectType": "people.parent",
             "Unique": false,
             "Required": false

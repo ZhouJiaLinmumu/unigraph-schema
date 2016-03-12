@@ -59,7 +59,7 @@
         {
             "Id": "visual_art.artwork.edition_of",
             "Name": "Edition of",
-            "Description": "If this artwork is an edition of a work of art, for example, a cast of a sculpture or a print of a photograph, you can enter a topic for the \"abstract\" or \"canonical\" work of art -- the artwork that this is an edition of.",
+            "Description": "If this artwork is an edition of a work of art, for example, a cast of a sculpture or a print of a photograph, you can enter a topic for the \"abstract\" or \"canonical\" work of art - the artwork that this is an edition of.",
             "ObjectType": "visual_art.artwork",
             "Unique": false,
             "Required": false

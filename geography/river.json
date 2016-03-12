@@ -70,7 +70,7 @@
         {
             "Id": "geography.river.mouth_long_lat",
             "Name": "Mouth (long./lat./elev.)",
-            "Description": "The longitude \u0026 latitude of the river's mouth.",
+            "Description": "The longitude, latitude of the river's mouth.",
             "ObjectType": "location.geocode",
             "Unique": false,
             "Required": false

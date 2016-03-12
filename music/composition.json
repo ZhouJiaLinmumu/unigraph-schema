@@ -35,7 +35,7 @@
         {
             "Id": "music.composition.form",
             "Name": "Kind of composition",
-            "Description": "The kind or type of composition this is -- e.g. symphony, tone poem, concerto, string quartet, etc.",
+            "Description": "The kind or type of composition this is - e.g. symphony, tone poem, concerto, string quartet, etc.",
             "ObjectType": "music.compositional_form",
             "Unique": false,
             "Required": false

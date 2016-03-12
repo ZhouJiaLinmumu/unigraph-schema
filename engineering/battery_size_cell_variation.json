@@ -1,7 +1,7 @@
 {
     "Id": "engineering.battery_size_cell_variation",
     "Name": "Battery size cell variation",
-    "Description": "The electrical properties of a standard battery size vary and are dependent on the cell technology used.  This type allows these variations to be noted.",
+    "Description": "The electrical properties of a standard battery size vary and are dependent on the cell technology used.",
     "Mediator": true,
     "ExpectedTypes": null,
     "Enumerated": false,

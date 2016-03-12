@@ -1,13 +1,13 @@
 {
-    "Id": "location.religion_percentage",
+    "Id": "location.religion_adherents",
     "Name": "Religion percentage",
-    "Description": "This type documents the percentage of religious adherents living in a given location at a certain time.",
+    "Description": "Documents how many people living in a given location are of a certain religion.",
     "Mediator": true,
     "ExpectedTypes": null,
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.religion_percentage.date",
+            "Id": "location.religion_adherents.date",
             "Name": "As of date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,15 +15,15 @@
             "Required": false
         },
         {
-            "Id": "location.religion_percentage.percentage",
-            "Name": "Percent of population",
+            "Id": "location.religion_adherents.adherents",
+            "Name": "Number of people",
             "Description": "",
-            "ObjectType": "type.float",
+            "ObjectType": "type.int",
             "Unique": true,
             "Required": true
         },
         {
-            "Id": "location.religion_percentage.religion",
+            "Id": "location.religion_adherents.religion",
             "Name": "Religion",
             "Description": "",
             "ObjectType": "location.religion",

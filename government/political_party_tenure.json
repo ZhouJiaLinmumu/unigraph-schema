@@ -1,7 +1,7 @@
 {
     "Id": "government.political_party_tenure",
     "Name": "Political Party Tenure",
-    "Description": "This is a compound-value type which allows us to record when politicians have switched parties, rather than simply recording the fact that they have belonged to multiple parties.",
+    "Description": "A compound-value type which allows us to record when politicians have switched parties, rather than simply recording the fact that they have belonged to multiple parties.",
     "Mediator": true,
     "ExpectedTypes": null,
     "Enumerated": false,

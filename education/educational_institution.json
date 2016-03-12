@@ -21,7 +21,7 @@
         {
             "Id": "education.educational_institution.colors",
             "Name": "Colors",
-            "Description": "The school's colors. Please enter each color separately.",
+            "Description": "The school's colors. Each color separately.",
             "ObjectType": "education.school_color",
             "Unique": false,
             "Required": false
@@ -61,7 +61,7 @@
         {
             "Id": "education.educational_institution.nickname",
             "Name": "Nickname",
-            "Description": "The nickname for the students or sports teams. This is often different from (or a variant of) the mascot name -- e.g. the University of Oklahoma mascot is the Sooner Schooner; the nickname is the Sooners.",
+            "Description": "The nickname for the students or sports teams. This is often different from (or a variant of) the mascot name - e.g. the University of Oklahoma mascot is the Sooner Schooner; the nickname is the Sooners.",
             "ObjectType": "type.text",
             "Unique": false,
             "Required": false

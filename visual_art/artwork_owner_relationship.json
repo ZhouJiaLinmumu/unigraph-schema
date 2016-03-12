@@ -1,7 +1,7 @@
 {
     "Id": "visual_art.artwork_owner_relationship",
     "Name": "Artwork/owner relationship",
-    "Description": "This is a compound-value type is used to create a relationship between an artwork and owner of that artwork. The owner can be a person, a group of people, an institution, or a combination thereof. The information this type can contain, in addition to the artwork and owner(s) includes: Method of acquisition (such as purchase, gift, or bequest)Price of purchaseDate acquiredLast date ownedNote that all information is for a single periond of ownership. If the same person, group, or institution re-aquires an artwork after not owning it for a period of time, that should be entered as a separate artwork/owner relationship.",
+    "Description": "This is a compound-value type is used to create a relationship between an artwork and owner of that artwork. The owner can be a person, a group of people, an institution, or a combination thereof. The information this type can contain, in addition to the artwork and owner(s) includes: Method of acquisition (such as purchase, gift, or bequest) Price of purchaseDate acquiredLast date owned Note that all information is for a single period of ownership. If the same person, group, or institution re-acquires an artwork after not owning it for a period of time, that should be entered as a separate artwork/owner relationship.",
     "Mediator": true,
     "ExpectedTypes": null,
     "Enumerated": false,

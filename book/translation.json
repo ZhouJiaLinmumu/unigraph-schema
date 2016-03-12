@@ -28,7 +28,7 @@
         {
             "Id": "book.translation.translator",
             "Name": "Translator",
-            "Description": "The person(s) or company that made the translation; this property assumes a person -- if it is a company, please edit the company after you click \"save\" and remove \"person\" from its list of types.",
+            "Description": "The person(s) or company that made the translation; this property assumes a person - if it is a company, please edit the company after you click \"save\" and remove \"person\" from its list of types.",
             "ObjectType": "book.translator",
             "Unique": false,
             "Required": false

@@ -1,7 +1,7 @@
 {
     "Id": "sports.team",
     "Name": "Sports Team",
-    "Description": "Sports team refers to an athletic team comprised of athletes. This type is intended to provide shared properties across different sports. Properties being considered for addition: 'Previously known as', 'Later know as' -- although we may use aliases for this instead. Also considering: sports media affiliate",
+    "Description": "Sports team refers to an athletic team comprised of athletes. This type is intended to provide shared properties across different sports. Properties being considered for addition: 'Previously known as', 'Later know as' - although we may use aliases for this instead. Also considering: sports media affiliate",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"
@@ -43,7 +43,7 @@
         {
             "Id": "sports.team.gender",
             "Name": "Gender",
-            "Description": "The gender of the sports team's athletes (male, female or mixed gender) when specified by a governing body or when they are gender-specific teams of a sport representing the same association (eg. California Golden Bears women's basketball \u0026 California Golden Bears men's basketball for UC Berkeley). Coaches and other support staff of the team may or may not be of the same gender as the athletes of the team.",
+            "Description": "The gender of the sports team's athletes (male, female or mixed gender) when specified by a governing body or when they are gender-specific teams of a sport representing the same association (eg. California Golden Bears women's basketball California Golden Bears men's basketball for UC Berkeley).",
             "ObjectType": "sports.gender",
             "Unique": true,
             "Required": false
@@ -51,7 +51,7 @@
         {
             "Id": "sports.team.location",
             "Name": "Sports Team Location",
-            "Description": "City or other location that the team represents. This should be the location called out in the team's name, which may be different from where their home venue is. For example, the US basketball team Detroit Pistons should have a \"sports team location\" of \"Detroit,\" even though their home venue is in a different (nearby) city. Note that many teams, such as collegiate teams, do not have a location. For such teams, this can be flagged as \"having no value.\"",
+            "Description": "City or other location that the team represents. This should be the location called out in the team's name, which may be different from where their home venue is. For example, the US basketball team Detroit Pistons should have a \"sports team location\" of \"Detroit,\" even though their home venue is in a different (nearby) city. Note that many teams, such as collegiate teams, do not have a location.",
             "ObjectType": "sports.team_location",
             "Unique": false,
             "Required": false

@@ -20,7 +20,7 @@
         {
             "Id": "biology.animal_breed.coloring",
             "Name": "Color",
-            "Description": "The color or colors particular to, or commonly found in, this breed. Note that a breed coloring can represent a mix of colors or pattern (such as tabby, brindle, or pinto), as well as a solid coloring (such as black or chestnut).",
+            "Description": "The color or colors particular to, or commonly found in, this breed.",
             "ObjectType": "biology.breed_coloring",
             "Unique": false,
             "Required": false

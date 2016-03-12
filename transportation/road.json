@@ -1,7 +1,7 @@
 {
     "Id": "transportation.road",
     "Name": "Road",
-    "Description": "A road is a route used for land transport and along which motor vehicles can be driven. The type includes both paved and unpaved roads.  For more information, please see the UniGraph wiki page on Road.",
+    "Description": "A road is a route used for land transport and along which motor vehicles can be driven. The type includes both paved and unpaved roads.",
     "Mediator": false,
     "ExpectedTypes": [
         "location.location",

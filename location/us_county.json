@@ -1,7 +1,7 @@
 {
     "Id": "location.us_county",
     "Name": "US County",
-    "Description": "A US County is an administrative division smaller than a state.  While most US states use the name \"county\", there are exceptions: Alaska has \"boroughs\" and Louisiana has \"parishes\". This type is also used for \"county-equivalent\" entities in US territories and possessions.  In some states, counties may be divided into yet smaller divisions.  Most counties are governed by a county council, board of supervisors, or similar.  In UniGraph, the County Seat is the location of the county's governmental body -- essentially the \"capital\" of a county; note, however, that some county-equivalent entities, such as independent cities and Washington, DC, won't have a county seat.",
+    "Description": "A US County is an administrative division smaller than a state. While most US states use the name \"county\", there are exceptions: Alaska has \"boroughs\" and Louisiana has \"parishes\". This type is also used for \"county-equivalent\" entities in US territories and possessions. In some states, counties may be divided into yet smaller divisions. Most counties are governed by a county council, board of supervisors, or similar. In UniGraph, the County Seat is the location of the county's governmental body - essentially the \"capital\" of a county; note, however, that some county-equivalent entities, such as independent cities and Washington, DC, won't have a county seat.",
     "Mediator": false,
     "ExpectedTypes": [
         "location.statistical_region",

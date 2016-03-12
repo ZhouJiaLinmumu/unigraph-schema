@@ -9,7 +9,7 @@
         {
             "Id": "location.imports_exports_by_industry.amount",
             "Name": "Amount",
-            "Description": "The monetary value of the import or export. (Should be used in conjunction with the Currency and Date properties.)",
+            "Description": "The monetary value of the import or export.",
             "ObjectType": "type.float",
             "Unique": true,
             "Required": true
@@ -25,7 +25,7 @@
         {
             "Id": "location.imports_exports_by_industry.currency",
             "Name": "Currency",
-            "Description": "The currency that this import/export amount is recorded in.",
+            "Description": "The currency of this import/export.",
             "ObjectType": "location.currency",
             "Unique": true,
             "Required": false

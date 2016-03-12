@@ -44,7 +44,7 @@
         {
             "Id": "people.deceased_person.place_of_burial",
             "Name": "Place of burial",
-            "Description": "The place where the body or ashes were interred or are kept. Note that this should be the specific place of burial (e.g. Vladimir Lenin is \"buried\" in Lenin's Mausoleum, not the city of Moscow).",
+            "Description": "The place where the body or ashes were interred or are kept. This should be the specific place of burial (e.g. Vladimir Lenin is \"buried\" in Lenin's Mausoleum, not the city of Moscow).",
             "ObjectType": "people.place_of_interment",
             "Unique": false,
             "Required": false

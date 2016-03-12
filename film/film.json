@@ -1,7 +1,7 @@
 {
     "Id": "film.film",
     "Name": "Film",
-    "Description": "Film is a release of a visual narrative composed of a series of moving images that is considered a complete presentation and is intended to be classified as a film. A film can be of any length of running time and presented in a theatrical, television, internet-streaming and direct-to-home-video presentation. For more information, please see the UniGraph wiki page on Film.",
+    "Description": "Film is a release of a visual narrative composed of a series of moving images that is considered a complete presentation and is intended to be classified as a film. A film can be of any length of running time and presented in a theatrical, television, internet-streaming and direct-to-home-video presentation.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"
@@ -75,7 +75,7 @@
         {
             "Id": "film.film.featured_song",
             "Name": "Featured Song",
-            "Description": "Song(s) that were written specifically for the film (or pre-existing song(s) used for great effect within the film). This is meant for the notable (or so noted in the credits for pre-1980's films) and not every single song that is placed within a production (think of Casablanca's \"As Time Goes By,\" Dirty Dancing's \"We're Having the Time of Our Lives,\" Goldfinger's \"Goldfinger,\" Mortal Kombat's \"Theme From Mortal Kombat,\" and Ghostbuster's \"Ghostbusters\").",
+            "Description": "Song(s) that were written specifically for the film (or pre-existing song(s) used for great effect within the film). This is meant for the notable (or so noted in the credits for pre-1980's films) and not every single song that is placed within a production (think of Casablanca's \"As Time Goes By,\" Dirty Dancing's \"We're Having the Time of Our Lives,\").",
             "ObjectType": "film.film_featured_song",
             "Unique": false,
             "Required": false

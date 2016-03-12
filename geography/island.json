@@ -1,7 +1,7 @@
 {
     "Id": "geography.island",
     "Name": "Island",
-    "Description": "An island is any piece of land surrounded entirely by water. Archipelagoes and other named groups of islands should be typed as \"island group\", rather than as \"island\".The majority of topics currently typed as islands come from Wikipedia categories (e.g., \"Islands of Antarctica\"); because of this, there are probably still a small number of topics that have the \"island\" type, but which are not actually islands. These are mostly island groups, but a wide variety of types such as cities, buildings, and even political parties, have turned up. If you encounter one of these, please change the type accordingly.",
+    "Description": "An island is any piece of land surrounded entirely by water. Archipelagoes and other named groups of islands should be typed as \"island group\", rather than \"island\".",
     "Mediator": false,
     "ExpectedTypes": [
         "location.location",

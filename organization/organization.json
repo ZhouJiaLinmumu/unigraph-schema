@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "organization.organization.organization_type",
+            "Id": "organization.organization.type",
             "Name": "Organization type",
             "Description": "The kind of organization this is, such as Professional Association or NGO or Fraternal Organization.",
             "ObjectType": "organization.organization_type",

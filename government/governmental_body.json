@@ -43,7 +43,7 @@
         {
             "Id": "government.governmental_body.offices_positions",
             "Name": "Offices/Positions Within the Body",
-            "Description": "The names of the different positions that can be held by members of this body, including the basic \"Member of X\" position. (Note that titles based on committee membership should not be included here; there is a separate type for committees.)",
+            "Description": "The names of the different positions that can be held by members of this body, including the basic \"Member of X\" position. Titles based on committee membership should not be included here; there is a separate type for committees.",
             "ObjectType": "government.government_office_or_title",
             "Unique": false,
             "Required": false

@@ -1,7 +1,7 @@
 {
     "Id": "education.education",
     "Name": "Education",
-    "Description": "This is a compound value type that contains information about a person's education -- the educational instution, the dates they attended, degrees obtained, fields of study, and dissertation topics. The data can be entered from either the person's or the institution's topic.",
+    "Description": "This is a compound value type that contains information about a person's education -- the educational institution, the dates they attended, degrees obtained, fields of study, and dissertation topics. The data can be entered from either the person's or the institution's topic.",
     "Mediator": true,
     "ExpectedTypes": null,
     "Enumerated": false,
@@ -25,7 +25,7 @@
         {
             "Id": "education.education.institution",
             "Name": "Institution",
-            "Description": "The institution this person's education took place at. This can be for any level of eduction -- primary, secondary, or post-secondary.",
+            "Description": "The institution this person's education took place at. At any level of education - primary, secondary, or post-secondary.",
             "ObjectType": "education.educational_institution",
             "Unique": true,
             "Required": true

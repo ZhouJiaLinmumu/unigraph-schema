@@ -1,5 +1,0 @@
-{
-  "Id": "business",
-  "Name": "Business",
-  "Description": "Business contains types related to business such as 'Company', 'Industry' and 'Retail Location'. Note, this category doesn't include types specific to Finance (stock exchange and currency)  Still to do:  populate example company types capture more companies"
-}

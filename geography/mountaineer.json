@@ -1,7 +1,7 @@
 {
     "Id": "geography.mountaineer",
     "Name": "Mountaineer",
-    "Description": "A mountaineer is anyone who climbs mountains, either for sport or exploration.Most mountaineers currently listed are those who can claim first ascent for a peak. You can help by adding other mountaineers.",
+    "Description": "A mountaineer is anyone who climbs mountains, either for sport or exploration.Most mountaineers currently listed are those who can claim first ascent for a peak.",
     "Mediator": false,
     "ExpectedTypes": [
         "people.person",
