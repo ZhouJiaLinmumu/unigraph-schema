@@ -17,7 +17,7 @@
         {
             "Id": "finance.stock_ticker_symbol.non_numeric_short_name",
             "Name": "Non Numeric Short Name",
-            "Description": "A shortened form of the company name used in place of the stock ticker symbol where the ticker symbol is numeric and not easily interpreted, in space-limited contexts such as newspaper listings. This property should only be used for shortened names that are actually attested in external stock listings; it should not be used for short names that you generate yourself or for names that happen to be short but are not observed in a stock listing context. This property should not be used unless it is clear that the short name is associated with the stick issue itself rather than with the company.",
+            "Description": "A shortened form of the company name used in place of the stock ticker symbol where the ticker symbol is numeric and not easily interpreted, in space-limited contexts such as newspaper listings.",
             "ObjectType": "type.rawstring",
             "Unique": false,
             "Required": false
