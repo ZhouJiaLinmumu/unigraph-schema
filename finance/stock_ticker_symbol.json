@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "finance.stock_ticker_symbol.non_numeric_short_name",
+            "Id": "finance.stock_ticker_symbol.short_name",
             "Name": "Non Numeric Short Name",
             "Description": "A shortened form of the company name used in place of the stock ticker symbol where the ticker symbol is numeric and not easily interpreted, in space-limited contexts such as newspaper listings.",
             "ObjectType": "type.rawstring",
