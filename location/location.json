@@ -67,7 +67,7 @@
         {
             "Id": "location.location.geometry",
             "Name": "Geometry",
-            "Description": "Link to a GeoJSON description of the locations' 2D boundary.  The property points to a content object that can be used with the Blob API to retrieve the raw GeoJSON. The boundary is most easily utilized via the GeoSearch API.",
+            "Description": "Link to a GeoJSON description of the locations' 2D boundary. The property points to a content object that can be used with the Blob API to retrieve the raw GeoJSON. The boundary is most easily utilized via the GeoSearch API.",
             "ObjectType": "location.geometry",
             "Unique": false,
             "Required": false
@@ -94,6 +94,14 @@
             "Description": "The street address of this location (if any - many kinds of locations do not have street addresses). Not the mailing address, unless it happens to be the same as the street address.",
             "ObjectType": "location.mailing_address",
             "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "location.location.timezone",
+            "Name": "Time zone(s)",
+            "Description": "The time zone or zones that affect this location.",
+            "ObjectType": "location.timezone",
+            "Unique": false,
             "Required": false
         }
     ]

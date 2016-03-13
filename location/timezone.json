@@ -1,0 +1,12 @@
+{
+    "Id": "location.timezone",
+    "Name": "Time zone",
+    "Description": "The time zones",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "time.timezone"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

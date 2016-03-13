@@ -1,7 +1,7 @@
 {
     "Id": "sports.team_captain_tenure",
     "Name": "Sports team captain tenure",
-    "Description": "This type connects team captains to their teams. It has \"from\" and \"to\" dates, and so can hold both current and former captains.",
+    "Description": "This type connects team captains to their teams.",
     "Mediator": true,
     "ExpectedTypes": null,
     "Enumerated": false,

@@ -33,14 +33,6 @@
             "Required": false
         },
         {
-            "Id": "time.timezone.timezone_locations",
-            "Name": "Locations in this time zone",
-            "Description": "",
-            "ObjectType": "time.timezone_location",
-            "Unique": false,
-            "Required": false
-        },
-        {
             "Id": "time.timezone.offset_from_uct",
             "Name": "Offset from UTC",
             "Description": "Offset in hours from UTC during non-daylight savings time (ie. CHAST in the Chatham Islands, New Zealand it is +12.45 and for BOT in La Paz, Bolivia it is -4.00).",

@@ -51,7 +51,7 @@
         {
             "Id": "sports.team.location",
             "Name": "Sports Team Location",
-            "Description": "City or other location that the team represents. This should be the location called out in the team's name, which may be different from where their home venue is. For example, the US basketball team Detroit Pistons should have a \"sports team location\" of \"Detroit,\" even though their home venue is in a different (nearby) city. Note that many teams, such as collegiate teams, do not have a location.",
+            "Description": "City or other location that the team represents. This should be the location called out in the team's name, which may be different from where their home venue is. For example, the US basketball team Detroit Pistons should have a \"sports team location\" of \"Detroit,\" even though their home venue is in a different (nearby) city.",
             "ObjectType": "sports.team_location",
             "Unique": false,
             "Required": false

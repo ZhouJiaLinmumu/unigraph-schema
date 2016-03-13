@@ -43,7 +43,7 @@
         {
             "Id": "business.consumer_product.product_number",
             "Name": "Product number",
-            "Description": "A unique identifier for this product issued by the manufacturer, based on the manufacturer's own numbering system. (UPC, EAN, and GTIN codes should use the GTIN property. Identifiers issued by retailers, i.e. SKUs, should not be entered here.) Product numbers, despite the name, may contain non-numeric digits.",
+            "Description": "A unique identifier for this product issued by the manufacturer, based on the manufacturer's own numbering system. (UPC, EAN, and GTIN codes should use the GTIN property. Product numbers, despite the name, may contain non-numeric digits.",
             "ObjectType": "type.rawstring",
             "Unique": false,
             "Required": false
