@@ -60,7 +60,7 @@
             "Id": "opera.production.recordings",
             "Name": "Recordings",
             "Description": "",
-            "ObjectType": "opera.opera_recording",
+            "ObjectType": "opera.recording",
             "Unique": false,
             "Required": false
         },

@@ -1,0 +1,11 @@
+{
+    "Id": "book.binding",
+    "Name": "Book Binding",
+    "Description": "\"Book Binding\" refers to the format of an edition of a book.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

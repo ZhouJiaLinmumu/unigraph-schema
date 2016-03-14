@@ -1,0 +1,21 @@
+{
+    "Id": "tv.soundtrack",
+    "Name": "TV soundtrack",
+    "Description": "A music album that contains music created for or featured in a television program.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "music.album",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.soundtrack.program",
+            "Name": "TV program",
+            "Description": "Television program that is the source of the soundtrack.",
+            "ObjectType": "tv.program",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

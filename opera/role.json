@@ -34,7 +34,7 @@
             "Id": "opera.role.role",
             "Name": "Role",
             "Description": "",
-            "ObjectType": "opera.opera_character",
+            "ObjectType": "opera.character",
             "Unique": true,
             "Required": false
         },

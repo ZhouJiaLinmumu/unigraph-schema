@@ -1,0 +1,12 @@
+{
+    "Id": "broadcast.tv_network",
+    "Name": "TV Network",
+    "Description": "A TV Network operates more than one TV channel",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "tv.network",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

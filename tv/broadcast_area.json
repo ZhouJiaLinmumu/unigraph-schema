@@ -1,0 +1,12 @@
+{
+    "Id": "tv.broadcast_area",
+    "Name": "Broadcast Location",
+    "Description": "Location of TV channel availability",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

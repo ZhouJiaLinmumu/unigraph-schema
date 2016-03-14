@@ -1,0 +1,11 @@
+{
+    "Id": "broadcast.content_advisory",
+    "Name": "Content Advisory",
+    "Description": "Advisory tag for Broadcast Content. For example, Explicit, Nudity, Foreign, Black  White, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

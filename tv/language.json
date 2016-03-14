@@ -1,0 +1,12 @@
+{
+    "Id": "tv.language",
+    "Name": "TV Language",
+    "Description": "The dominant spoken languages used in a tv content.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "language.human_language"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

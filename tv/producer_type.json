@@ -1,0 +1,11 @@
+{
+    "Id": "tv.producer_type",
+    "Name": "TV Producer type",
+    "Description": "This is an enumerated list of different varieties of television producers (e.g., \"executive producer\").",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

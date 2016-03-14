@@ -1,0 +1,58 @@
+{
+    "Id": "tv.video",
+    "Name": "Video",
+    "Description": "A video of a TV episode, film, or other types of media that can be watched online.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.video.duration",
+            "Name": "Duration",
+            "Description": "The length of this video",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.video.expires",
+            "Name": "Expires",
+            "Description": "When access to this video will cease.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.video.service",
+            "Name": "Service",
+            "Description": "The service upon which this video is hosted.",
+            "ObjectType": "tv.video_host",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.video.video_of",
+            "Name": "Video of",
+            "Description": "The TV episode, film, etc. that this is a video of.",
+            "ObjectType": "tv.program",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.video.video_type",
+            "Name": "Video Type",
+            "Description": "The \"type\" of video this is (whether it's the full content, or just a clip, etc.)",
+            "ObjectType": "tv.video_type",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.video.weblink",
+            "Name": "Weblink",
+            "Description": "The web address where this video can be seen.",
+            "ObjectType": "type.uri",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

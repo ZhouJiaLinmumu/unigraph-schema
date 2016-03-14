@@ -1,0 +1,11 @@
+{
+    "Id": "tv.content_rating",
+    "Name": "TV Rating",
+    "Description": "Some locations have TV rating systems for episodes of television programs. This type is for those ratings.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

@@ -1,0 +1,12 @@
+{
+    "Id": "tv.song",
+    "Name": "TV song",
+    "Description": "A TV song is any musical composition that is played in an episode of a TV program (including both vocal and instrumental music). These recordings can be performed by the cast as part of their performance in the episode or as incidental or background music (including music played during the credits). TV songs may not necessarily appear on a TV program's soundtrack.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "music.composition",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -10,9 +10,9 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "education.academic.advisors",
-            "Name": "Academic advisors",
-            "Description": "People who have served as advisors (usually for post-graduate-level education) for this person.",
+            "Id": "education.academic.advisor",
+            "Name": "Academic advisor",
+            "Description": "Person or people who have served as advisors (usually for post-graduate-level education) for this person.",
             "ObjectType": "education.academic",
             "Unique": false,
             "Required": false

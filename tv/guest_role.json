@@ -1,0 +1,42 @@
+{
+    "Id": "tv.guest_role",
+    "Name": "TV episode performance",
+    "Description": "\"TV Guest Performance\" is a compound value type storing information about guest (i.e., non-starring) appearances on television programs. It applies specifically to actors playing characters; non-character guest appearances use the \"TV Guest personal appearance\" type.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.guest_role.actor",
+            "Name": "Actor",
+            "Description": "The actor who portrayed this character in a guest (opposed to regular) role.",
+            "ObjectType": "tv.actor",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.guest_role.character",
+            "Name": "Character",
+            "Description": "The character portrayed by this actor in a guest (opposed to regular) role.",
+            "ObjectType": "tv.fictional_character",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.guest_role.episodes_appeared_in",
+            "Name": "Episode",
+            "Description": "An episode this actor appeared as this character; create a new entry for each episode.",
+            "ObjectType": "tv.series_episode",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.guest_role.special_performance_type",
+            "Name": "Special performance type",
+            "Description": "",
+            "ObjectType": "tv.special_performance_type",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

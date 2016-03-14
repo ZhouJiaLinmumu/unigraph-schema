@@ -1,0 +1,11 @@
+{
+    "Id": "tv.program_creator",
+    "Name": "TV Program Creator",
+    "Description": "A TV program creator is the person or company credited with conceiving the initial concept for a television program.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

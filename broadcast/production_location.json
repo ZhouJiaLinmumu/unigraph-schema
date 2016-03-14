@@ -1,0 +1,12 @@
+{
+    "Id": "broadcast.production_location",
+    "Name": "Broadcast Production Location",
+    "Description": "The location(s) where the content is produced.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

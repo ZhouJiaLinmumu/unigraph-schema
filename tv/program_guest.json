@@ -1,0 +1,11 @@
+{
+    "Id": "tv.program_guest",
+    "Name": "TV program guest",
+    "Description": "This type is for people who appear on television programs in non-acting roles, and who are also not regular performers on the program. Examples include contestants, talk show guests, and interviewees.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

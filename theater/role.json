@@ -34,7 +34,7 @@
             "Id": "theater.role.role",
             "Name": "Role",
             "Description": "",
-            "ObjectType": "theater.theater_character",
+            "ObjectType": "theater.character",
             "Unique": true,
             "Required": false
         },

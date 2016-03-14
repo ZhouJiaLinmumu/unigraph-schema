@@ -1403,7 +1403,7 @@
         {
             "Id": "dataworld.sameas.cvr_number_id",
             "Name": "CVR number Identifier",
-            "Description": "The Central Business Register identifier. Number for the official database of Danish companies/organizations: Example: 10003202",
+            "Description": "The Central Business Register identifier. Number for the official database of Danish companies/organizations: Example: 10003202. Equals the TIN - Tax Identification Number.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -2857,6 +2857,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.hulu_id",
+            "Name": "Hulu.com Identifier",
+            "Description": "Example: chicago-hope",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.hurdat_id",
             "Name": "HURDAT Identifier",
             "Description": "Identifier per HURDAT (North Atlantic hurricane database)",
@@ -2985,7 +2993,7 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.identifier_of_comite_des_travaux_historiques_et_scientifiques_id",
+            "Id": "dataworld.sameas.comite_des_travaux_historiques_et_scientifiques_id",
             "Name": "Identifier of Comité des travaux historiques et scientifiques Identifier",
             "Description": "Identifier of documents edited by a French scientific society",
             "ObjectType": "type.rawstring",
@@ -4737,7 +4745,7 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.nga_number",
+            "Id": "dataworld.sameas.nga_number_id",
             "Name": "NGA number",
             "Description": "The ID number of a lighthouse in the National Geospatial-Intelligence Agency's \"List of Lights\" publications. (E.g. 110-7188)",
             "ObjectType": "type.rawstring",
@@ -6250,6 +6258,14 @@
         },
         {
             "Id": "dataworld.sameas.theatricalia_theatre_id",
+            "Name": "TheTVDB.com ID",
+            "Description": "Identifier for a TV show. Example: 74889",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.thetvdb_id",
             "Name": "Theatricalia theatre Identifier",
             "Description": "Identifier for a theatre, in the theatricalia.com database",
             "ObjectType": "type.rawstring",
@@ -6321,9 +6337,25 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.tvguide_id",
+            "Name": "TVGuide ID",
+            "Description": "Example: 191530",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.tvrage_id",
+            "Name": "TV Rage Series ID",
+            "Description": "Example: 20948",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.twitter_id",
             "Name": "Twitter handle",
-            "Description": "",
+            "Description": "Example: marfuzii",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false

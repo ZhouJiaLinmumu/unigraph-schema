@@ -1,0 +1,36 @@
+{
+    "Id": "tv.network",
+    "Name": "TV Network",
+    "Description": "This type is for TV networks.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.network.areas_served",
+            "Name": "Areas Served",
+            "Description": "",
+            "ObjectType": "tv.broadcast_area",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "tv.network.channels",
+            "Name": "Channels",
+            "Description": "",
+            "ObjectType": "tv.channel",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "tv.network.former_names",
+            "Name": "Former Names",
+            "Description": "Names previously used by this network.",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

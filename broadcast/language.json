@@ -1,0 +1,12 @@
+{
+    "Id": "broadcast.language",
+    "Name": "Broadcast Language",
+    "Description": "The dominant spoken languages used in a broadcasted content.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "language.human_language"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

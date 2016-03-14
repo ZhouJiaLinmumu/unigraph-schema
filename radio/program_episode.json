@@ -1,0 +1,36 @@
+{
+    "Id": "radio.program_episode",
+    "Name": "Radio program episode",
+    "Description": "A Radio Program Episode is any single episode of a radio program.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "radio.program_episode.air_date",
+            "Name": "Air date",
+            "Description": "The date on which this episode was first broadcast.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "radio.program_episode.segments",
+            "Name": "Segments",
+            "Description": "If this episode comprises two or more individual segments, enter their names here.",
+            "ObjectType": "radio.episode_segment",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "radio.program_episode.subjects",
+            "Name": "Subjects",
+            "Description": "Subjects addressed in this episode.",
+            "ObjectType": "radio.radio_subject",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

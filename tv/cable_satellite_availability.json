@@ -1,0 +1,26 @@
+{
+    "Id": "tv.cable_satellite_availability",
+    "Name": "Cable/satellite availability",
+    "Description": "Cable/satellite availability is a compound-value type that shows the carriers and sometimes the numeric channels for a given cable or satellite TV channel.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.cable_satellite_availability.channel",
+            "Name": "Channel",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.cable_satellite_availability.provider",
+            "Name": "Provider",
+            "Description": "",
+            "ObjectType": "tv.cable_satellite_provider",
+            "Unique": false,
+            "Required": true
+        }
+    ]
+}

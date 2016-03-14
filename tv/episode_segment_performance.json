@@ -1,0 +1,42 @@
+{
+    "Id": "tv.episode_segment_performance",
+    "Name": "TV segment performance",
+    "Description": "This is a compound-value type that contains information about actors and characters in TV Episode Segments.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.episode_segment_performance.special_performance_type",
+            "Name": "Special performance type",
+            "Description": "If this performance was anything other than a straight acting performance (such as providing the voice for an animated character, a cameo, etc.), specify that here.",
+            "ObjectType": "tv.special_performance_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "tv.episode_segment_performance.segment",
+            "Name": "Segment",
+            "Description": "The name of the segment this actor performed in.",
+            "ObjectType": "tv.episode_segment",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.episode_segment_performance.actor",
+            "Name": "Actor",
+            "Description": "The actor who appeared in this segment",
+            "ObjectType": "tv.actor",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.episode_segment_performance.character",
+            "Name": "Character",
+            "Description": "The character played by this actor in this segment",
+            "ObjectType": "tv.fictional_character",
+            "Unique": false,
+            "Required": true
+        }
+    ]
+}

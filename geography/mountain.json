@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "geography.mountain.date_of_first_ascent",
+            "Id": "geography.mountain.first_ascent_date",
             "Name": "Date of first ascent",
             "Description": "",
             "ObjectType": "type.datetime",

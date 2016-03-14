@@ -1,0 +1,45 @@
+{
+    "Id": "broadcast.internet_stream",
+    "Name": "Internet Stream",
+    "Description": "A real-time Audio or Video stream distributed over the Internet.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "broadcast.broadcast",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "broadcast.internet_stream.playlist_format",
+            "Name": "Playlist Format",
+            "Description": "The mime-type of the stream container.",
+            "ObjectType": "broadcast.media_type",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.internet_stream.bitrate",
+            "Name": "Stream Bitrate",
+            "Description": "The bit-rate of the stream",
+            "ObjectType": "measured_dimension.data_transmission_rate",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.internet_stream.format",
+            "Name": "Stream Format",
+            "Description": "The mime-types of the media streams contained within this stream.",
+            "ObjectType": "broadcast.media_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.internet_stream.uri",
+            "Name": "URI",
+            "Description": "The stream URL",
+            "ObjectType": "type.uri",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -21,7 +21,7 @@
             "Id": "book.translation.language",
             "Name": "Target language",
             "Description": "The language that the work was translated INTO.",
-            "ObjectType": "book.written_work_language",
+            "ObjectType": "book.language",
             "Unique": false,
             "Required": false
         },

@@ -1,0 +1,26 @@
+{
+    "Id": "tv.episode_song_relationship",
+    "Name": "TV episode song relationship",
+    "Description": "A type to connect TV episodes to the music that appears in them.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.episode_song_relationship.song",
+            "Name": "Song",
+            "Description": "A song or composition that was played during this episode.",
+            "ObjectType": "tv.song",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.episode_song_relationship.performers",
+            "Name": "Performers",
+            "Description": "The person or group that performed this music (live or pre-recorded) in this episode.",
+            "ObjectType": "tv.song_performer",
+            "Unique": false,
+            "Required": true
+        }
+    ]
+}

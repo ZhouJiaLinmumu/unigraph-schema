@@ -1,0 +1,42 @@
+{
+    "Id": "tv.network_affiliation",
+    "Name": "Affiliation duration",
+    "Description": "Affiliation duration is a compound value type that shows when a broadcaster was affiliated with a given network or other organization.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.network_affiliation.start_date",
+            "Name": "From",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.network_affiliation.network",
+            "Name": "Network",
+            "Description": "",
+            "ObjectType": "tv.network",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.network_affiliation.station",
+            "Name": "Station",
+            "Description": "",
+            "ObjectType": "tv.station",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.network_affiliation.end_date",
+            "Name": "To",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "Id": "tv.station",
+    "Name": "TV Station",
+    "Description": "A TV station is a type of broadcaster that broadcasts both audio and video to television receivers in a particular area.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "broadcast.broadcast",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.station.branding",
+            "Name": "Branding",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "tv.station.callsign_meaning",
+            "Name": "Callsign meaning",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "tv.station.founded",
+            "Name": "Founded",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.station.slogan",
+            "Name": "Slogan",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "tv.station.owner",
+            "Name": "Owner",
+            "Description": "",
+            "ObjectType": "tv.station_owner",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

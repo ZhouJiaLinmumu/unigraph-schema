@@ -1,0 +1,12 @@
+{
+    "Id": "tv.filming_location",
+    "Name": "TV Location",
+    "Description": "A \"TV Location\" is any location in which a TV program, episode, or segment was filmed. This can include both studios and places where TV shows were filmed \"on location\".",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

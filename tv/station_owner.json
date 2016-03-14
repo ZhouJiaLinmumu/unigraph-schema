@@ -1,0 +1,12 @@
+{
+    "Id": "tv.station_owner",
+    "Name": "TV station owner",
+    "Description": "TV station owner is any entity that owns a TV station - a network, another company, a person, a university, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

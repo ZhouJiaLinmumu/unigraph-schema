@@ -1,0 +1,12 @@
+{
+    "Id": "tv.theme_song",
+    "Name": "TV theme song",
+    "Description": "Any song or musical composition (regardless of whether it has words) that has been used as the theme song for a television program should use this type. The theme song typically plays over the opening credits; incidental music used in a television program should not use this type. This type has the Composition type as an included type, to allow for entering information such as composer, lyricist, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "music.composition",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

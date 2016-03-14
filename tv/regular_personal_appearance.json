@@ -1,0 +1,58 @@
+{
+    "Id": "tv.regular_personal_appearance",
+    "Name": "TV regular personal appearance",
+    "Description": "\"TV Regular personal appearance\" is a compound-value type that contains information about regular (as opposed to guest) appearances by people in television series in non-character roles (such as \"sports announcer\" or \"talk show host\"). For actors playing characters, use the \"TV Regular Performance\" type.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.regular_personal_appearance.type",
+            "Name": "Appearance type",
+            "Description": "The type of appearance or \"role\" this person fills on the show, such as \"anchor\", \"host\", or \"announcer\".",
+            "ObjectType": "tv.personal_appearance_role",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.regular_personal_appearance.start_date",
+            "Name": "From",
+            "Description": "The date this person began as a regular (as opposed to a guest) on this program.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.regular_personal_appearance.person",
+            "Name": "Person",
+            "Description": "",
+            "ObjectType": "tv.tv_personality",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.regular_personal_appearance.program",
+            "Name": "Program",
+            "Description": "",
+            "ObjectType": "tv.program",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.regular_personal_appearance.seasons",
+            "Name": "Seasons",
+            "Description": "The seasons in which this person appeared on this show in a regularcapacity.",
+            "ObjectType": "tv.series_season",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "tv.regular_personal_appearance.end_date",
+            "Name": "To",
+            "Description": "The final date this person appeared as a regular (as opposed to a guest) on this program.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

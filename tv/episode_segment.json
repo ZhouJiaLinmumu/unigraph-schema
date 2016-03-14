@@ -1,0 +1,60 @@
+{
+    "Id": "tv.episode_segment",
+    "Name": "TV episode segment",
+    "Description": "This type is for any discrete sub-section of a television episode. Examples of types of episodes that have segments include sketch comedy shows, anthology shows, and many cartoon shows. This type is primarily to allow the recording of greater detail about the roles of writers, directors, and performers in TV episodes. That is, while it is accurate to say that an actor appeared in an episode, in some cases, it would be more accurate to say that an actor only appeared in a particular segment of that episode. While it may be somewhat redundant to include information at both the episode and segment level (for directors, writers, and actors), it is not wrong to do so, and in some cases may be useful: because only a minority of episodes have segments.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.episode_segment.director",
+            "Name": "Director",
+            "Description": "The director(s) of this segment.",
+            "ObjectType": "tv.director",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "tv.episode_segment.episodes",
+            "Name": "Episodes",
+            "Description": "The episode or episodes that this segment is part of.",
+            "ObjectType": "tv.series_episode",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "tv.episode_segment.sequence",
+            "Name": "Sequence",
+            "Description": "If this segment is one of a series or sequence of segments, enter the name of the sequence here.",
+            "ObjectType": "tv.episode_segments_sequence",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "tv.episode_segment.songs",
+            "Name": "Songs",
+            "Description": "Music that is played during this segment.",
+            "ObjectType": "tv.episode_segment_song_relationship",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "tv.episode_segment.writer",
+            "Name": "Writer",
+            "Description": "The writer(s) of this segment.",
+            "ObjectType": "tv.writer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "tv.episode_segment.filming_location",
+            "Name": "Filming location(s)",
+            "Description": "Location(s) where this TV episode segment was filmed.",
+            "ObjectType": "tv.filming_location",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

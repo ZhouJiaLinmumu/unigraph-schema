@@ -1,0 +1,12 @@
+{
+    "Id": "tv.content_rating_jurisdiction",
+    "Name": "TV Content Rating Jurisdiction",
+    "Description": "Region where this film rating system has jurisdiction (eg. the TV Censorship Board of Malaysia's jurisdiction is Malaysia).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.country"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

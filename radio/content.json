@@ -1,0 +1,12 @@
+{
+    "Id": "radio.content",
+    "Name": "Content",
+    "Description": "A show, program, content - anything that can be broadcasted over radio.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "broadcast.content",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

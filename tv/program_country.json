@@ -1,0 +1,12 @@
+{
+    "Id": "tv.program_country",
+    "Name": "Program Country of Origin",
+    "Description": "The country of origin of this TV program.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.country"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

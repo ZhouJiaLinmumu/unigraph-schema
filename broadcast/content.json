@@ -1,0 +1,92 @@
+{
+    "Id": "broadcast.content",
+    "Name": "Broadcast Content",
+    "Description": "A Show, Program, Channel, Game, Lesson, or Performance that can be broadcast.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "broadcast.content.advisory",
+            "Name": "Advisory",
+            "Description": "Advisory notice for this content.",
+            "ObjectType": "broadcast.content_advisory",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.content.artist",
+            "Name": "Artists",
+            "Description": "Artists appearing in this content.",
+            "ObjectType": "broadcast.artist",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.content.broadcast",
+            "Name": "Broadcasts",
+            "Description": "Identifies the broadcasts where this content can be found/received",
+            "ObjectType": "broadcast.broadcast",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.content.genre",
+            "Name": "Genres",
+            "Description": "Genres under which this content should be listed.",
+            "ObjectType": "broadcast.genre",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.content.language",
+            "Name": "Language",
+            "Description": "The dominant spoken languages used in this content.",
+            "ObjectType": "broadcast.language",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.content.location",
+            "Name": "Location(s)",
+            "Description": "The location(s) where the content is produced.",
+            "ObjectType": "broadcast.production_location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.content.production_end",
+            "Name": "Production End",
+            "Description": "Approximate date at which production of this content stopped.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.content.production_start",
+            "Name": "Production Start",
+            "Description": "Approximate date on which production of this content started.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.content.summary",
+            "Name": "Summary",
+            "Description": "Short description",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.content.producer",
+            "Name": "Producer",
+            "Description": "Producer(s) of this content.",
+            "ObjectType": "broadcast.producer",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

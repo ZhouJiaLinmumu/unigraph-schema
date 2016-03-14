@@ -1,0 +1,12 @@
+{
+    "Id": "broadcast.location",
+    "Name": "Broadcast Location",
+    "Description": "Areas in which a broadcast is available",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

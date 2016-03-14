@@ -1,0 +1,12 @@
+{
+    "Id": "tv.crewmember",
+    "Name": "TV crewmember",
+    "Description": "All people who have performed some task involved in the creation of a television episode, other than the actors, directors, writers, and producers.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

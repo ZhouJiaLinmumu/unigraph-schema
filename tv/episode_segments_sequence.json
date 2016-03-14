@@ -1,0 +1,20 @@
+{
+    "Id": "tv.episode_segments_sequence",
+    "Name": "Sequence of tv episode segments",
+    "Description": "This type is for sequences or series of TV episode segments. These can range from a multi-part investigative news report to a series of segments that regularly appear on an anthology show.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.episode_segments_sequence.series",
+            "Name": "TV series",
+            "Description": "The TV series that this sequence of segments was aired on.",
+            "ObjectType": "tv.program",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

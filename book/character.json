@@ -1,0 +1,28 @@
+{
+    "Id": "book.character",
+    "Name": "Book Character",
+    "Description": "Any character who appears in a book or a short story.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "book.character.appears_in_book",
+            "Name": "Appears In Books",
+            "Description": "",
+            "ObjectType": "book.book",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "book.character.appears_in_short_stories",
+            "Name": "Appears In Short Stories",
+            "Description": "",
+            "ObjectType": "book.short_story",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

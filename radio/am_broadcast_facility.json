@@ -1,0 +1,22 @@
+{
+    "Id": "radio.am_broadcast_facility",
+    "Name": "AM terrestrial broadcast facility",
+    "Description": "This type is for Earth-based facilities that broadcast in the AM band of the electromagnetic spectrum.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "broadcast.distributor",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "radio.am_broadcast_facility.frequency",
+            "Name": "Frequency",
+            "Description": "",
+            "ObjectType": "measured_dimension.frequency",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

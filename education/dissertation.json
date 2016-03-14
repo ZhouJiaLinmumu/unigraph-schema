@@ -1,7 +1,7 @@
 {
     "Id": "education.dissertation",
     "Name": "Dissertation",
-    "Description": "This type is for doctoral dissertations, master's theses, and similar graduate-level theses. The student should be entered as the author (under the Written Work type).  This type includes the types Written Work and Scholarly Work.",
+    "Description": "This type is for doctoral dissertations, master's theses, and similar graduate-level theses. The student should be entered as the author (under the Written Work type). This type includes the types Written Work and Scholarly Work.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic",
@@ -12,7 +12,7 @@
         {
             "Id": "education.dissertation.defense_date",
             "Name": "Defense date",
-            "Description": "The date on which this disseration was defended.",
+            "Description": "The date on which this dissertation was defended.",
             "ObjectType": "type.datetime",
             "Unique": true,
             "Required": false

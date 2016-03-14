@@ -1,0 +1,11 @@
+{
+    "Id": "radio.radio_subject",
+    "Name": "Radio subject",
+    "Description": "A subject that a radio program is typically about, or that a specific episode of a program is about.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

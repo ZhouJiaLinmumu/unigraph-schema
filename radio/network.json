@@ -1,0 +1,11 @@
+{
+    "Id": "radio.network",
+    "Name": "Radio network",
+    "Description": "A radio network is a system that distributes radio programming to multiple radio stations.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

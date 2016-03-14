@@ -1,0 +1,50 @@
+{
+    "Id": "broadcast.callsign_duration",
+    "Name": "Callsign duration",
+    "Description": "Callsign duration is a compound value type that shows when a broadcaster used a given callsign.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "broadcast.callsign_duration.callsign",
+            "Name": "Former callsign",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "broadcast.callsign_duration.start_date",
+            "Name": "From",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "broadcast.callsign_duration.end_date",
+            "Name": "To",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.callsign_duration.radio_station",
+            "Name": "Radio Station",
+            "Description": "",
+            "ObjectType": "broadcast.radio_station",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.callsign_duration.tv_station",
+            "Name": "TV Station",
+            "Description": "",
+            "ObjectType": "broadcast.tv_station",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

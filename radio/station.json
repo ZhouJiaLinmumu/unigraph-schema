@@ -1,0 +1,69 @@
+{
+    "Id": "radio.station",
+    "Name": "Radio Station",
+    "Description": "A radio station is a specific type of broadcaster which transmits primarily audio via radio waves, satellite or the internet.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "broadcast.broadcast",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "radio.station.branding",
+            "Name": "Branding",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "radio.station.callsign_meaning",
+            "Name": "Callsign meaning",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "radio.station.format",
+            "Name": "Format",
+            "Description": "",
+            "ObjectType": "radio.format",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "radio.station.founded",
+            "Name": "Founded",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "radio.station.serves_area",
+            "Name": "Serves area",
+            "Description": "",
+            "ObjectType": "radio.location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "radio.station.slogan",
+            "Name": "Slogan",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "radio.station.owner",
+            "Name": "Owner",
+            "Description": "",
+            "ObjectType": "radio.station_owner",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

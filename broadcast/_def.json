@@ -1,0 +1,5 @@
+{
+  "Id": "broadcast",
+  "Name": "Broadcast",
+  "Description": "The broadcast domain covers the general shared information between broadcasted types - radio and tv. For more specific information per sector there are the radio and tv domains."
+}

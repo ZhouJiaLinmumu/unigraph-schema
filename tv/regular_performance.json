@@ -1,0 +1,66 @@
+{
+    "Id": "tv.regular_performance",
+    "Name": "TV Regular Performance",
+    "Description": "\"TV Regular Performance\" is a compound-value type that contains information about starring performances in television series. This type is specifically used for actors playing characters; non-character appearances (e.g., hosts, newscasters, announcers, etc.) use the \"TV Regular Personal Appearance\" type.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.regular_performance.actor",
+            "Name": "Actor",
+            "Description": "The actor playing this character.",
+            "ObjectType": "tv.actor",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.regular_performance.character",
+            "Name": "Character",
+            "Description": "The character played by this actor as a regular (as opposed to guest) on this series.",
+            "ObjectType": "tv.fictional_character",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.regular_performance.start_date",
+            "Name": "From",
+            "Description": "The airdate of the episode in which this actor first played this character on this show as a regular cast member.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.regular_performance.seasons",
+            "Name": "Seasons",
+            "Description": "The seasons that the actor portrayed this character as a series regular (rather than in guest appearances).",
+            "ObjectType": "tv.series_season",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "tv.regular_performance.series",
+            "Name": "Series",
+            "Description": "",
+            "ObjectType": "tv.program",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.regular_performance.special_performance_type",
+            "Name": "Special performance type",
+            "Description": "",
+            "ObjectType": "tv.special_performance_type",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.regular_performance.end_date",
+            "Name": "To",
+            "Description": "The airdate of the episode in which this actor had their last performance of this character on this show as a regular cast member.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

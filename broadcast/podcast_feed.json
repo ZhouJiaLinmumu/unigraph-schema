@@ -1,0 +1,61 @@
+{
+    "Id": "broadcast.podcast_feed",
+    "Name": "Podcast Feed",
+    "Description": "A feed for an audio or video Podcast.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "broadcast.broadcast",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "broadcast.podcast_feed.avg_media_length",
+            "Name": "Average Media Length",
+            "Description": "Approx. avg. episode length",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.podcast_feed.date_published",
+            "Name": "Date Published",
+            "Description": "Date this feed was last published.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.podcast_feed.media_format",
+            "Name": "Media Format",
+            "Description": "The mime types of the episodes of the podcast.",
+            "ObjectType": "broadcast.media_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.podcast_feed.items_number",
+            "Name": "Number Of Items",
+            "Description": "Approx. number of episodes.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.podcast_feed.publication_frequency",
+            "Name": "Publication Frequency",
+            "Description": "Approx. frequency of publications.",
+            "ObjectType": "measured_dimension.frequency",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.podcast_feed.uri",
+            "Name": "URI",
+            "Description": "The feed URL.",
+            "ObjectType": "type.uri",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

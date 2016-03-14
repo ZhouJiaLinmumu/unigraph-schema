@@ -1,0 +1,12 @@
+{
+    "Id": "radio.location",
+    "Name": "Radio Location",
+    "Description": "Areas in which a radio station is available",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

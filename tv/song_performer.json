@@ -1,0 +1,11 @@
+{
+    "Id": "tv.song_performer",
+    "Name": "TV song performer",
+    "Description": "A person or group which performs music that is played during an episode of a TV program. This includes performers who perform the music as part of their appearance in the episode, playback singers, and musical artists whose music is played during the episode (e.g. as incidental or background music).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,42 @@
+{
+    "Id": "tv.program_network_duration",
+    "Name": "TV Program Duration At Network",
+    "Description": "This is a compound-value type that contains information about how long a TV series aired at a given network.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.program_network_duration.start_date",
+            "Name": "From",
+            "Description": "Air date of the first episode broadcast on this network.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.program_network_duration.network",
+            "Name": "Network",
+            "Description": "The network that the show first aired on (i.e., not in syndication).",
+            "ObjectType": "tv.network",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.program_network_duration.program",
+            "Name": "Program",
+            "Description": "The name of the TV program.",
+            "ObjectType": "tv.program",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.program_network_duration.end_date",
+            "Name": "To",
+            "Description": "Air date of the last episode broadcast on this network.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

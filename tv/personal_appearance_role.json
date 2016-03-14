@@ -1,0 +1,11 @@
+{
+    "Id": "tv.personal_appearance_role",
+    "Name": "Personal appearance",
+    "Description": "Examples include game show and talk show hosts, news anchors and correspondents, talk show guests, game show contestants, announcers, commentators, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

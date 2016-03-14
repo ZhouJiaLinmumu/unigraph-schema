@@ -1,0 +1,11 @@
+{
+    "Id": "tv.video_type",
+    "Name": "Video Type",
+    "Description": "Is the video a segment of or full content.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

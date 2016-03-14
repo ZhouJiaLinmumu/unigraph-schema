@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "book.written_work.date_of_first_publication",
+            "Id": "book.written_work.first_publication_date",
             "Name": "Date of first publication",
             "Description": "The date that this work was first published, in any form.",
             "ObjectType": "type.datetime",
@@ -52,7 +52,7 @@
             "Id": "book.written_work.original_language",
             "Name": "Original language",
             "Description": "The language(s) in which this work was first composed.",
-            "ObjectType": "book.written_work_language",
+            "ObjectType": "book.language",
             "Unique": false,
             "Required": false
         },

@@ -188,7 +188,7 @@
             "Id": "film.film.other_crew",
             "Name": "Other crew",
             "Description": "Used for all the other crew members of a film production that do not have an existing specifically named crew property (eg. gaffer, best boy, greens supervisor, make-up artist, etc.).",
-            "ObjectType": "film.film_crew_gig",
+            "ObjectType": "film.crew_gig",
             "Unique": false,
             "Required": false
         },

@@ -1,0 +1,11 @@
+{
+    "Id": "tv.tv_personality",
+    "Name": "TV Personality",
+    "Description": "A TV personality is anyone who makes a non-acting appearance on a non-fiction television show as part of the show's permanent or seasonal cast.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

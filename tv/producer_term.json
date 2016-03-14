@@ -1,0 +1,50 @@
+{
+    "Id": "tv.producer_term",
+    "Name": "TV Producer term",
+    "Description": "\"TV Producer term\" is a compound value type connecting a television producer to the TV series' produced, including information about the type of production role (e.g. \"executive producer\") and dates served.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "tv.producer_term.start_date",
+            "Name": "From",
+            "Description": "The first date this person acted as this type of producer on this TV show.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.producer_term.producer",
+            "Name": "Producer",
+            "Description": "The name of the producer of the TV program.",
+            "ObjectType": "tv.producer",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.producer_term.producer_type",
+            "Name": "Producer type",
+            "Description": "The type or role of producer performed for this show. (Multiple types should be entered separately.)",
+            "ObjectType": "tv.producer_type",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "tv.producer_term.program",
+            "Name": "Program",
+            "Description": "The title of the TV program produced.",
+            "ObjectType": "tv.program",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "tv.producer_term.end_date",
+            "Name": "To",
+            "Description": "The final date this person acted as this type of producer on this TV show.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

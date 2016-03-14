@@ -1,0 +1,28 @@
+{
+    "Id": "broadcast.producer",
+    "Name": "Broadcast Producer",
+    "Description": "Producer of Broadcast Content.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "broadcast.producer.location",
+            "Name": "Location",
+            "Description": "",
+            "ObjectType": "broadcast.production_location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "broadcast.producer.produces",
+            "Name": "Produces",
+            "Description": "Broadcast Content produced by this Producer.",
+            "ObjectType": "broadcast.content",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

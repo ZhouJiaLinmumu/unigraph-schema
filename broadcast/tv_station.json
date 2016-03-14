@@ -1,0 +1,13 @@
+{
+    "Id": "broadcast.tv_station",
+    "Name": "TV Station",
+    "Description": "TV station is a type of broadcaster that broadcasts both audio and video to television receivers in a particular area.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "broadcast.broadcast",
+        "common.topic",
+        "tv.station"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

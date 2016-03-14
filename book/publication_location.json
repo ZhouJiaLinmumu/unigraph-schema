@@ -1,0 +1,12 @@
+{
+    "Id": "book.publication_location",
+    "Name": "Book Edition Publication Location",
+    "Description": "The place, usually a city, where a book edition has been published.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}
