@@ -1,0 +1,78 @@
+{
+    "Id": "astronomy.star",
+    "Name": "Star",
+    "Description": "A star is really meant to be a single stellar object, not just something that looks like a star from earth. However, in many cases, other objects, such as multi-star systems, were originally thought to be stars. Because people have historically believed these to be stars, they are type as such, but they are also typed as what we now know them to be.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "astronomy.orbital_relationship",
+        "common.topic",
+        "astronomy.celestial_object"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.star.constellation",
+            "Name": "Constellation",
+            "Description": "",
+            "ObjectType": "astronomy.constellation",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.star.luminosity",
+            "Name": "Luminosity",
+            "Description": "",
+            "ObjectType": "measured_dimension.power",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.star.mass",
+            "Name": "Mass",
+            "Description": "",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.star.radius",
+            "Name": "Radius",
+            "Description": "The equatorial radius of the star.",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.star.rotation",
+            "Name": "Rotation Rate",
+            "Description": "",
+            "ObjectType": "measured_dimension.speed",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.star.spectral_type",
+            "Name": "Spectral Type",
+            "Description": "Classification of stars based on their spectral characteristics.",
+            "ObjectType": "astronomy.spectral_type",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.star.temperature",
+            "Name": "Temperature",
+            "Description": "",
+            "ObjectType": "measured_dimension.temperature",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.star.system",
+            "Name": "Star System",
+            "Description": "The star system this star belongs to",
+            "ObjectType": "astronomy.star_system",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

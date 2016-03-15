@@ -1,0 +1,26 @@
+{
+    "Id": "astronomy.celestial_object_age",
+    "Name": "Celestial object age",
+    "Description": "The age of the celestial object",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.celestial_object_age.age",
+            "Name": "Age",
+            "Description": "The apparent age",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "astronomy.celestial_object_age.uncertainty",
+            "Name": "Uncertainty",
+            "Description": "The estimated error +/-",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

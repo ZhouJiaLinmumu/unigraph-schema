@@ -1,0 +1,11 @@
+{
+    "Id": "astronomy.galactic_interaction_type",
+    "Name": "Galactic interaction type",
+    "Description": "The type of interaction of two galaxies, from tidal attraction to merger.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

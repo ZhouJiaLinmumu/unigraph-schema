@@ -1,0 +1,12 @@
+{
+    "Id": "astronomy.meteorite_source",
+    "Name": "Meteorite Source",
+    "Description": "A meteorite source is a celestial body from which meteorites originated.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "astronomy.celestial_object"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

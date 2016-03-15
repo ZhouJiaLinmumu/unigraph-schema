@@ -1,0 +1,20 @@
+{
+    "Id": "astronomy.meteoric_composition",
+    "Name": "Meteorite classfication",
+    "Description": "Meteorite classfication is a way of classifying meteorites, usually based on the content of the meteorite or the meteorite's origin.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.meteoric_composition.notes",
+            "Name": "Notes",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "astronomy.constellation",
+    "Name": "Constellation",
+    "Description": "This type is for the 88 constellations recognized by the International Astronomical Union, and represent regions of the sky. For other groupings of stars that appear to form a pattern is the Asterism type.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

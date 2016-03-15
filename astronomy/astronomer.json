@@ -1,0 +1,12 @@
+{
+    "Id": "astronomy.astronomer",
+    "Name": "Astronomer",
+    "Description": "An astronomer is a person who studies celestial bodies such as planets, stars, and galaxies.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

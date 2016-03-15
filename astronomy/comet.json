@@ -1,0 +1,39 @@
+{
+    "Id": "astronomy.comet",
+    "Name": "Comet",
+    "Description": "A type describing comets",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "astronomy.astronomical_discovery",
+        "astronomy.orbital_relationship",
+        "common.topic",
+        "astronomy.celestial_object"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.comet.group",
+            "Name": "Comet group",
+            "Description": "The family grouping this comet belongs within",
+            "ObjectType": "astronomy.comet_group",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.comet.last_perihelion",
+            "Name": "Last perihelion",
+            "Description": "The full date (month, day, year) of the comet's last closest visit to the Earth's sun.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.comet.next_perihelion",
+            "Name": "Next perihelion (predicted)",
+            "Description": "The predicted date of the comet's next closet visit to the Earth's sun.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

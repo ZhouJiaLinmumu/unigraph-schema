@@ -1,0 +1,11 @@
+{
+    "Id": "astronomy.galactic_shape",
+    "Name": "Galactic shape",
+    "Description": "As based upon the Hubble-modified de Vaucouleurs/Sandage scheme, a galaxy can be represented by a code based upon it's perceived visual appearance.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

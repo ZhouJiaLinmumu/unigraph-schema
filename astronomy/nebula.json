@@ -1,0 +1,12 @@
+{
+    "Id": "astronomy.nebula",
+    "Name": "Nebula",
+    "Description": "A nebula is an interstellar cloud of dust, hydrogen gas, helium gas and other ionized gases.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "astronomy.celestial_object"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

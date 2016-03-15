@@ -1,0 +1,42 @@
+{
+    "Id": "astronomy.galactic_interaction",
+    "Name": "Galactic interaction",
+    "Description": "Galaxies interact in many ways, from the subtle tidal affect's of gravitational attraction causing a deformation of the structure of the galaxies, to cannibalism of one galaxy's stars by another interacting galaxy, to the collision and possible merging of galaxies into a larger single resultant galaxy.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.galactic_interaction.duration",
+            "Name": "Duration",
+            "Description": "For how long will/did this interaction occur?",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.galactic_interaction.interaction_type",
+            "Name": "Interaction type",
+            "Description": "Type of galactic interaction",
+            "ObjectType": "astronomy.galactic_interaction_type",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "astronomy.galactic_interaction.status",
+            "Name": "Status",
+            "Description": "What is the status of this interaction: occurred in the past, ongoing, predicted",
+            "ObjectType": "astronomy.galactic_interaction_status",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "astronomy.galactic_interaction.when",
+            "Name": "When",
+            "Description": "If this is not an ongoing interaction, when did it occur or will it occur in millions of years? Use - values for interactions that occurred previously.",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

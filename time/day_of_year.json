@@ -1,12 +1,12 @@
 {
     "Id": "time.day_of_year",
     "Name": "Day Of Year",
-    "Description": "A day of that occures annually according to specific rule such as \"The first day of May\", or \"The Tuesday following the first Monday in November.\"",
+    "Description": "A day of that occurs annually according to specific rule such as \"The first day of May\", or \"The Tuesday following the first Monday in November.\"",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"
     ],
-    "Enumerated": false,
+    "Enumerated": true,
     "Properties": [
         {
             "Id": "time.day_of_year.calendar_system",

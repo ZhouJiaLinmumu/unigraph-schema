@@ -1,0 +1,11 @@
+{
+    "Id": "astronomy.asteroid_spectral_type",
+    "Name": "Asteroid Spectral Type",
+    "Description": "Asteroids are assigned a type based on spectral shape, color, and sometimes albedo. These types are thought to correspond to an asteroid's surface composition.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -2809,6 +2809,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.hipparcos_catalog_number_id",
+            "Name": "Hipparcos Catalog Number",
+            "Description": "This catalog contains 118,218 stars that were observed by the European Space Agency's Hipparcos Satellite from late 1989 to 1993.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.historic_scotland_id",
             "Name": "Historic Scotland Identifier",
             "Description": "Identifier for a building in the Historic Scotland database",
@@ -3164,6 +3172,14 @@
             "Id": "dataworld.sameas.integrated_postsecondary_education_data_system_id",
             "Name": "Integrated Postsecondary Education Data System Identifier",
             "Description": "Identifier for colleges and universities in the United States",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.internationa_astronomical_union_id",
+            "Name": "International Astronomical Union (IAU) ID",
+            "Description": "The International Astronomical Union (IAU) is the officially recognized authority in astronomy for assigning designations to celestial bodies such as stars, planets, and minor planets, including any surface features on them.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -6989,7 +7005,7 @@
             "Name": "Wikipedia Page Title Identifier",
             "Description": "Page Title identifier for all language editions of Wikipedia. The id should contain the edition. ex: en/Google and fr/Google",
             "ObjectType": "type.rawstring",
-            "Unique": true,
+            "Unique": false,
             "Required": false
         },
         {

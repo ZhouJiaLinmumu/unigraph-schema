@@ -1,0 +1,42 @@
+{
+    "Id": "astronomy.meteor_shower_occurrence",
+    "Name": "Meteor Shower Observation",
+    "Description": "The event of a meteor shower's occurrence as observed by terrestrial ground observers.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.meteor_shower_occurrence.observation_ends",
+            "Name": "Observation ends",
+            "Description": "Meteor shower is no longer observable by terrestrial viewers.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.meteor_shower_occurrence.observation_start",
+            "Name": "Observation starts",
+            "Description": "Meteor shows begins to become observable by terrestrial viewers.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.meteor_shower_occurrence.peak",
+            "Name": "Peak of shower",
+            "Description": "The date of the maximum Zenithal Hourly Rate occurs",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "astronomy.meteor_shower_occurrence.zenith_hourly_rate",
+            "Name": "Zenithal Hourly Rate (max)",
+            "Description": "In astronomy, the Zenithal Hourly Rate (ZHR) of a meteor shower is the number of meteors an observer would see in one hour under a clear, dark sky (limiting apparent magnitude of 6.5) and if the radiant of the shower were in the zenith. This property captures the maximum ZHR observed at the peak of the shower.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

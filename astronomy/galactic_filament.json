@@ -1,0 +1,12 @@
+{
+    "Id": "astronomy.galactic_filament",
+    "Name": "Galactic filament",
+    "Description": "Largest known physical structure determined so far in the known universe, a filament will contain numerous galactic superclusters.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "astronomy.celestial_object"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

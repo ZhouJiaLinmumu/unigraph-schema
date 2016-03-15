@@ -1,0 +1,21 @@
+{
+    "Id": "astronomy.galactic_group",
+    "Name": "Galactic group",
+    "Description": "Galactic group is the assigned grouping of galaxies by astronomers that contain 50 or less galaxies. Larger collections of galaxies belong in a galactic cluster.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "astronomy.celestial_object"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.galactic_group.galaxy_cluster",
+            "Name": "Galaxy cluster",
+            "Description": "The galactic cluster this galactic group is associated with.",
+            "ObjectType": "astronomy.galactic_cluster",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

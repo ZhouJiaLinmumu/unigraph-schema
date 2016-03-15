@@ -1,0 +1,29 @@
+{
+    "Id": "astronomy.star_system_body",
+    "Name": "Star system body",
+    "Description": "Any celestial body (other than stars) that is part of a star system (including the Earth's solar system. This can include planets, dwarf planets, asteroids, comets, meteoroids, and so on. Out of the Solar System, this type will be used primarily for exoplanets.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "astronomy.celestial_object"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.star_system_body.absolute_magnitude",
+            "Name": "Absolute magnitude",
+            "Description": "The absolute magnitude of a solar system body is the apparent magnitude it would have if it were one astronomical unit from both its star (e.g., the Sun) and the observer. Different measurement than the absolute magnitude of stars and galaxies.",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.star_system_body.system",
+            "Name": "Star system",
+            "Description": "The star system that this body is a part of.",
+            "ObjectType": "astronomy.star_system",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

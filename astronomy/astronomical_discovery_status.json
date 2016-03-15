@@ -1,0 +1,11 @@
+{
+    "Id": "astronomy.astronomical_discovery_status",
+    "Name": "Astronomical Discovery Status",
+    "Description": "The status of an astronomical discovery. This is an enumerated type, so new instances should be added only sparingly, if at all.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

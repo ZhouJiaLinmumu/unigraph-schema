@@ -1,0 +1,60 @@
+{
+    "Id": "astronomy.astronomical_discovery",
+    "Name": "Astronomical Discovery",
+    "Description": "This type is for any and all celestial objects that can be said to have been discovered by someone.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.astronomical_discovery.discoverer",
+            "Name": "Discoverer",
+            "Description": "",
+            "ObjectType": "astronomy.astronomer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.astronomical_discovery.date",
+            "Name": "Discovery Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.astronomical_discovery.organization",
+            "Name": "Discovery Organization",
+            "Description": "",
+            "ObjectType": "astronomy.organization",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.astronomical_discovery.site",
+            "Name": "Discovery Site",
+            "Description": "",
+            "ObjectType": "astronomy.observatory",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.astronomical_discovery.technique",
+            "Name": "Discovery Technique",
+            "Description": "",
+            "ObjectType": "astronomy.astronomical_discovery_technique",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.astronomical_discovery.status",
+            "Name": "Status",
+            "Description": "",
+            "ObjectType": "astronomy.astronomical_discovery_status",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

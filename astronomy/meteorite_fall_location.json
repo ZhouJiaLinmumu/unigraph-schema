@@ -1,0 +1,12 @@
+{
+    "Id": "astronomy.meteorite_fall_location",
+    "Name": "Meteorite Fall Location",
+    "Description": "A location on which a meteorite has fallen",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.location"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

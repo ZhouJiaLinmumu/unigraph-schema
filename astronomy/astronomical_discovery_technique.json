@@ -1,0 +1,11 @@
+{
+    "Id": "astronomy.astronomical_discovery_technique",
+    "Name": "Astronomical Discovery Technique",
+    "Description": "A technique or technology used in the discovery of celestial objects.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

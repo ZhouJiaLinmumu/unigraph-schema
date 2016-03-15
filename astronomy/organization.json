@@ -1,0 +1,21 @@
+{
+    "Id": "astronomy.organization",
+    "Name": "Astronomical Survey/Project Organization",
+    "Description": "The project to map or catalog a segment of the universe (usually identifying and mapping visible celestial objects of a specific category like stars or exoplanets) that may involve more than one observatory.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.organization.observatory",
+            "Name": "Observatory",
+            "Description": "",
+            "ObjectType": "astronomy.observatory",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

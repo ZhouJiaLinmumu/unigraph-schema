@@ -1,0 +1,20 @@
+{
+    "Id": "astronomy.planetographic_coordinate_system",
+    "Name": "Planetographic coordinate system",
+    "Description": "Geographic coordinates are used on the surface of the Earth. An equivalent system called Planetographic coordinates is used for other planets. Alternative titles, such as Areographic coordinates on Mars, Selenographic coordinates on the Moon, and Heliographic coordinates on the Sun, are sometimes used to refer to the equivalent systems.For each planet, a system of longitude lines is set up by first defining a prime meridian to act as the origin of longitude. The prime meridian is an arbitrarily chosen meridian, typically passing through a prominent feature of the planet, such as a crater.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.planetographic_coordinate_system.prime_meridian_feature",
+            "Name": "Prime meridian feature",
+            "Description": "Astronomers often must choose an arbitrary geological feature to represent a zero of longitude",
+            "ObjectType": "astronomy.extraterrestrial_location",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

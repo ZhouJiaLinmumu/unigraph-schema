@@ -1,0 +1,28 @@
+{
+    "Id": "astronomy.asteroid_family",
+    "Name": "Asteroid Family",
+    "Description": "An asteroid family is a group of minor planets that share similar orbital elements, such as axis, eccentricity, and orbital inclination. The members of the families are thought to be fragments of past asteroid collisions.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.asteroid_family.member",
+            "Name": "Asteroid Family Member",
+            "Description": "",
+            "ObjectType": "astronomy.asteroid",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.asteroid_family.founding_member",
+            "Name": "Founding Asteroid Family Member",
+            "Description": "",
+            "ObjectType": "astronomy.asteroid",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "Id": "astronomy.extraterrestrial_location",
+    "Name": "Extraterrestrial location",
+    "Description": "Covers geological features on other planets, moons or asteroids such as mountains, plains, and canyons.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.extraterrestrial_location.contained_by",
+            "Name": "Contained by",
+            "Description": "Geographically, what surrounds it.",
+            "ObjectType": "astronomy.extraterrestrial_location",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.extraterrestrial_location.geolocation",
+            "Name": "Coordinates",
+            "Description": "Planetographic Coordinate",
+            "ObjectType": "astronomy.planetographic_coordinate",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.extraterrestrial_location.celestial_object",
+            "Name": "On celestial object",
+            "Description": "Which asteroid, planet or moon its on",
+            "ObjectType": "astronomy.celestial_object",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.extraterrestrial_location.type",
+            "Name": "Type of planetographic feature",
+            "Description": "A crater, volcano, etc",
+            "ObjectType": "astronomy.planetographic_feature_type",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

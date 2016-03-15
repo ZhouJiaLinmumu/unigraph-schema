@@ -1,0 +1,29 @@
+{
+    "Id": "astronomy.star_system",
+    "Name": "Star System",
+    "Description": "A system consisting of a group of stars and planets that are gravitionally bound.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "astronomy.celestial_object"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.star_system.constellation",
+            "Name": "Constellation",
+            "Description": "",
+            "ObjectType": "astronomy.constellation",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "astronomy.star_system.system_age",
+            "Name": "System Age",
+            "Description": "",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

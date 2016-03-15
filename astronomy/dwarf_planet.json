@@ -1,0 +1,14 @@
+{
+    "Id": "astronomy.dwarf_planet",
+    "Name": "Dwarf Planet",
+    "Description": "Only confirmed dwarf planets in our solar system should be typed as such.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "astronomy.astronomical_discovery",
+        "astronomy.orbital_relationship",
+        "common.topic",
+        "astronomy.celestial_object"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

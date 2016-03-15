@@ -1,0 +1,21 @@
+{
+    "Id": "astronomy.galactic_super_cluster",
+    "Name": "Galactic supercluster",
+    "Description": "A galactic supercluster is a large astronomical structure determined to contain galactic clusters",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "astronomy.celestial_object"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.galactic_super_cluster.filament",
+            "Name": "Galaxy filament",
+            "Description": "A Galactic Filament that contains this galaxy supercluster.",
+            "ObjectType": "astronomy.galactic_filament",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

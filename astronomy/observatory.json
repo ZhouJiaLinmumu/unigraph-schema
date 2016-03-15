@@ -1,0 +1,12 @@
+{
+    "Id": "astronomy.observatory",
+    "Name": "Astronomical Observatory",
+    "Description": "An astronomical observatory, is any structure that contains a telescope. This can include buildings, satellites, space probes, and aircraft.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "projects.project_focus",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -11,7 +11,7 @@
         {
             "Id": "engineering.material.subclass",
             "Name": "Child material class",
-            "Description": "The hyponym material of this.  e.g. Carbon steel and Stainless steel are subclasses of Steel",
+            "Description": "The hyponym material of this. e.g. Carbon steel and Stainless steel are subclasses of Steel",
             "ObjectType": "engineering.material",
             "Unique": false,
             "Required": false

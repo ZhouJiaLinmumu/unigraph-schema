@@ -1,0 +1,22 @@
+{
+    "Id": "astronomy.trans_neptunian_object",
+    "Name": "Trans-Neptunian Object",
+    "Description": "A Trans-Neptunian Object is a celestial object, the orbit of which is outside of Neptune's orbit.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "astronomy.orbital_relationship",
+        "common.topic",
+        "astronomy.celestial_object"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.trans_neptunian_object.region",
+            "Name": "Region",
+            "Description": "",
+            "ObjectType": "astronomy.trans_neptunian_region",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

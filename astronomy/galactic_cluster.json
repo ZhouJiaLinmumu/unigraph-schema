@@ -1,0 +1,21 @@
+{
+    "Id": "astronomy.galactic_cluster",
+    "Name": "Galactic cluster",
+    "Description": "A galactic cluster can contain either 50+ galaxies or multiple groups of galaxies.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "astronomy.celestial_object"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.galactic_cluster.galaxy_supercluster",
+            "Name": "Galaxy supercluster",
+            "Description": "The galaxy supercluster that contains this cluster of galaxies",
+            "ObjectType": "astronomy.galactic_super_cluster",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

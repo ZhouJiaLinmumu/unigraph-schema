@@ -1,0 +1,11 @@
+{
+    "Id": "astronomy.galactic_interaction_status",
+    "Name": "Galactic interaction status",
+    "Description": "The current status of the interaction between the galaxies: Past, Present, Future and Posited (potential interaction, unknown if it will occur according to modern understanding).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

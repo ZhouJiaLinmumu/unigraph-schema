@@ -1,0 +1,20 @@
+{
+    "Id": "astronomy.galaxy_classification",
+    "Name": "Galaxy classification code",
+    "Description": "Galaxies are classified due to their visual appearance. The most commonly used is the modified Hubble sequence which was expanded upon by Gérard de Vaucouleurs and Allan Sandage. Hubble proposed a division of galaxies by their gross structure: (E_) ellipticals, (S0) lenticulars, S_  SB)_spirals  and (I_) irregulars. The de Vaucouleurs system adds additional letters to further differentiate galaxies based upon the presence and structure of a Bar formation, presence or absence of a ring structure, and then a further refinement of Hubble's original sub-classification of the spiral arms of the galaxy.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "astronomy.galaxy_classification.shape",
+            "Name": "Galaxy shape",
+            "Description": "The shape of the galaxy according to the de Vaucouleurs/Sandage system.",
+            "ObjectType": "astronomy.galactic_shape",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}
