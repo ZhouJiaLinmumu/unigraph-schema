@@ -1,0 +1,54 @@
+{
+    "Id": "protected_sites.protected_site",
+    "Name": "Protected Site",
+    "Description": "A \"protected site\" is any location that is protected under law, usually by being designated as a park, preserve, monument, etc., and which are usually under the control (at least in part) by some form of government agency. This most often will apply to areas of land or water, but may also apply to human-made structures. This type is distinct from \"listed sites\", which have been designated as significant, but may not have any legal protection thereby. However, many such places will be both, and should be co-typed accordingly.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "location.dated_location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "protected_sites.protected_site.annual_visitors",
+            "Name": "Annual Visitors",
+            "Description": "",
+            "ObjectType": "measured_dimension.dated_int",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "protected_sites.protected_site.date_established",
+            "Name": "Date Established",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "protected_sites.protected_site.governing_body",
+            "Name": "Governing Body",
+            "Description": "Which organization governs or administers this protected site?",
+            "ObjectType": "protected_sites.governing_body",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "protected_sites.protected_site.iucn_category",
+            "Name": "IUCN Category",
+            "Description": "Category of site under the the system used by the International Union for the Conservation of Nature and Natural Resources.",
+            "ObjectType": "protected_sites.category",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "protected_sites.protected_site.system",
+            "Name": "System",
+            "Description": "The system of parks of which this site is a part (if any).",
+            "ObjectType": "protected_sites.park_system",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

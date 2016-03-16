@@ -1,0 +1,28 @@
+{
+    "Id": "protected_sites.site_designation",
+    "Name": "Natural or Cultural Site Designation",
+    "Description": "Natural or Cultural Site Designations are set by Natural or Cultural Preservation Agencies to describe the types of sites they are preserving. A designation may have multiple categories underneath it, and/or may simply have listed sites directly under the designation.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "protected_sites.site_designation.categories",
+            "Name": "Categories",
+            "Description": "",
+            "ObjectType": "protected_sites.site_listing_category",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "protected_sites.site_designation.listing_agency",
+            "Name": "Listing Agency",
+            "Description": "",
+            "ObjectType": "protected_sites.preservation_agency",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

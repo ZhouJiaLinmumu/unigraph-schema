@@ -1,0 +1,11 @@
+{
+    "Id": "protected_sites.listed_site",
+    "Name": "Listed Site",
+    "Description": "A \"listed site\" is any location that has been designated as being of particular historical, cultural, or natural value or interest. Well-known categories of listings include World Heritage sites, the National Register of Historic Places in the U. S., and Listed Buildings in the U. K., Such a listing may or may not confer legal protections on the designated site. This type is distinct from \"protected sites\", which are guaranteed legal protection of some sort by their status. However, many such places will be both, and should be co-typed accordingly.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

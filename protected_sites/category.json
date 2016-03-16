@@ -1,0 +1,11 @@
+{
+    "Id": "protected_sites.category",
+    "Name": "IUCN Category",
+    "Description": "The World Conservation Union or International Union for the Conservation of Nature and Natural Resources (IUCN) is an international organization dedicated to natural resource conservation. They have defined several categories of protected area management.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

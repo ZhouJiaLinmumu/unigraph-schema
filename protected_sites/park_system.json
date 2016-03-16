@@ -1,0 +1,11 @@
+{
+    "Id": "protected_sites.park_system",
+    "Name": "Park System",
+    "Description": "A park system is a group of parks or other protected sites that are governed or considered as a whole; park systems often include parks that are located in multiple governmental jurisdictions. For example, in the United States, the National Park System includes parks, monuments, etc. in most states; regional park systems generally span several counties. However, all the parks in a given city, while under the control of the same agency, are not usually considered a park system.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}
