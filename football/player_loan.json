@@ -1,0 +1,50 @@
+{
+    "Id": "football.player_loan",
+    "Name": "Football Player Loan",
+    "Description": "A loan is where one team allows a player to play for another team for a certain period.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "football.player_loan.start_date",
+            "Name": "From",
+            "Description": "The date on which the loan started",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.player_loan.lending_team",
+            "Name": "Lending team",
+            "Description": "The team which has the contract with the player, and is lending the player to another team",
+            "ObjectType": "football.team",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "football.player_loan.player",
+            "Name": "Player",
+            "Description": "The loaned player",
+            "ObjectType": "football.player",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "football.player_loan.end_date",
+            "Name": "To",
+            "Description": "The date the loan ceased",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.player_loan.borrowing_team",
+            "Name": "Borrowing team",
+            "Description": "The football team which is borrowing the player",
+            "ObjectType": "football.team",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

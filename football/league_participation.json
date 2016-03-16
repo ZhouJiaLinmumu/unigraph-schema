@@ -1,0 +1,42 @@
+{
+    "Id": "football.league_participation",
+    "Name": "Football League Participation",
+    "Description": "Football league participation is a time mediated link (based on Football League Seasons, and not dates), associating a football team to the leagues in which they have competed.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "football.league_participation.start_date",
+            "Name": "From",
+            "Description": "The season this team began playing in this league",
+            "ObjectType": "football.league_season",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.league_participation.league",
+            "Name": "League",
+            "Description": "The league participated in",
+            "ObjectType": "football.league",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "football.league_participation.end_date",
+            "Name": "To",
+            "Description": "The last season this team spent in the league during this period of participation.",
+            "ObjectType": "football.league_season",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.league_participation.team",
+            "Name": "Team",
+            "Description": "The team participating in this league",
+            "ObjectType": "football.team",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

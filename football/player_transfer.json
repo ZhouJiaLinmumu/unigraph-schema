@@ -1,0 +1,58 @@
+{
+    "Id": "football.player_transfer",
+    "Name": "Football Player Transfer",
+    "Description": "A transfer occurs when a player moves from one team to another.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "football.player_transfer.date_transfer_agreed",
+            "Name": "Date transfer was agreed",
+            "Description": "The date on which the transfer deal was made",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.player_transfer.fee",
+            "Name": "Fee",
+            "Description": "The money paid by the purchasing team for the player",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.player_transfer.purchasing_team",
+            "Name": "Purchasing team",
+            "Description": "The team purchasing the player",
+            "ObjectType": "football.team",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "football.player_transfer.selling_team",
+            "Name": "Selling team",
+            "Description": "The team selling this player",
+            "ObjectType": "football.team",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "football.player_transfer.transfer_fee_currency",
+            "Name": "Transfer fee currency",
+            "Description": "The currency in which the purchasing team paid",
+            "ObjectType": "football.currency",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.player_transfer.player",
+            "Name": "Player",
+            "Description": "The player moving between teams in a transfer deal",
+            "ObjectType": "football.player",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "football.competition",
+    "Name": "Football Competition",
+    "Description": "This section covers the many League and Cup Competitions for the sport of Football( Soccer) played throughout the world.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

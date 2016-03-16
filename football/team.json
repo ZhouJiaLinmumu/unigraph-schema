@@ -1,0 +1,12 @@
+{
+    "Id": "football.team",
+    "Name": "Football team",
+    "Description": "A football (soccer) team is a sports team which participates in association football (soccer) games, or games of a variant form of association football (such as futsal). The type includes professional and amateur football teams, as well as international football teams.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "sports.team"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "football.currency",
+    "Name": "Football Player Transfer",
+    "Description": "A transfer occurs when a player moves from one team to another.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "finance.currency"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

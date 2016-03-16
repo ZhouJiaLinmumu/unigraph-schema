@@ -1,0 +1,12 @@
+{
+    "Id": "football.team_manager",
+    "Name": "Football team manager",
+    "Description": "In football, a manager is an individual involved in the direction, instruction and training of the operations of a football (soccer) team.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

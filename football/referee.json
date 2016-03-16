@@ -1,0 +1,12 @@
+{
+    "Id": "football.referee",
+    "Name": "Football Referee",
+    "Description": "This is an individual who referees association football (soccer) games.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

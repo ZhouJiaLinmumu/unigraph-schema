@@ -1,0 +1,13 @@
+{
+    "Id": "football.pitch",
+    "Name": "Football Pitch",
+    "Description": "A soccer pitch is an area of grass where soccer games are played.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "sports.sports_facility",
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,53 @@
+{
+    "Id": "football.match",
+    "Name": "Football Match",
+    "Description": "A football match is a discrete game of association football (soccer) played between two opposing teams.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "time.event",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "football.match.assistant_referees",
+            "Name": "Assistant Referees",
+            "Description": "The assistants to the referee for this match",
+            "ObjectType": "football.referee",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "football.match.attendance",
+            "Name": "Attendance",
+            "Description": "The spectator attendance at the stadium for this game",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.match.held_at",
+            "Name": "Held at",
+            "Description": "The stadium or football field this game was held at",
+            "ObjectType": "football.pitch",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.match.referee",
+            "Name": "Referee",
+            "Description": "The referee for the game",
+            "ObjectType": "football.referee",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.match.teams",
+            "Name": "Teams",
+            "Description": "The two teams who participated in this game.",
+            "ObjectType": "football.team",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

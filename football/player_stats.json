@@ -1,0 +1,58 @@
+{
+    "Id": "football.player_stats",
+    "Name": "Football player stats",
+    "Description": "This type holds statistics for association football players by team tenure. That is, the statistics on this type represent only one contiguous period in which a player played for a team. If a player played for a team multiple times, that would be represented by having multiple statistics instances.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "football.player_stats.appearances",
+            "Name": "Total number of appearances",
+            "Description": "The number of games played by this player for this team during this tenure.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.player_stats.start_date",
+            "Name": "From",
+            "Description": "The date this player began playing for this team.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.player_stats.player",
+            "Name": "Player",
+            "Description": "The player whose statistics these are.",
+            "ObjectType": "football.player",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "football.player_stats.team",
+            "Name": "Team",
+            "Description": "The team this player played for while generating these statistics.",
+            "ObjectType": "football.team",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "football.player_stats.end_date",
+            "Name": "To",
+            "Description": "The date this player stopped playing for this team.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.player_stats.total_goals",
+            "Name": "Number of goals scored",
+            "Description": "The total number of goals scored by this player during this tenure with this team.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

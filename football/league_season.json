@@ -1,0 +1,38 @@
+{
+    "Id": "football.league_season",
+    "Name": "Football League Season",
+    "Description": "A season of a league is a competition held over a period of time which is a discrete series of football matches, in which teams participate.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "event.event",
+        "sports.league_season",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "football.league_season.league",
+            "Name": "League",
+            "Description": "The league this season was part of",
+            "ObjectType": "football.league",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "football.league_season.teams",
+            "Name": "Teams",
+            "Description": "The teams participating in this season",
+            "ObjectType": "football.team",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "football.league_season.matches",
+            "Name": "Matches",
+            "Description": "The football games held as part of this seasons",
+            "ObjectType": "football.match",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

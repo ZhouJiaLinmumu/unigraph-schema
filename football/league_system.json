@@ -1,0 +1,11 @@
+{
+    "Id": "football.league_system",
+    "Name": "Football League System",
+    "Description": "A soccer league system is a series of interconnected leagues for the organization of soccer games. It is often used for the promotion and relegation of teams between leagues.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

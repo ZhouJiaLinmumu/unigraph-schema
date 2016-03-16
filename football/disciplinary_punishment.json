@@ -1,0 +1,11 @@
+{
+    "Id": "football.disciplinary_punishment",
+    "Name": "Football Disciplinary Punishment",
+    "Description": "Punishments during football games are normally either a yellow or red card.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}
