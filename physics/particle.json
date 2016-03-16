@@ -43,7 +43,7 @@
         {
             "Id": "physics.particle.magnetic_moment",
             "Name": "Magnetic moment",
-            "Description": "The magnetic moment of the particle (a measure of the magnitude of its magnetism) and its uncertainty, in Bohr magnetons.",
+            "Description": "The magnetic moment of the particle (a measure of the magnitude of its magnetism) and its uncertainty",
             "ObjectType": "physics.magnetic_moment",
             "Unique": true,
             "Required": false

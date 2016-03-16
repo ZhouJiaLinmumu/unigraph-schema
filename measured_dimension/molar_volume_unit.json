@@ -1,15 +1,15 @@
 {
-    "Id": "measured_dimension.radioactivity_unit",
-    "Name": "Unit of Radioactivity",
-    "Description": "A unit of radioactivity is a measure of the rate of radioactive decay which is the process in which an unstable atomic nucleus spontaneously loses energy by emitting ionizing particles and radiation.",
+    "Id": "measured_dimension.molar_volume_unit",
+    "Name": "Unit of Molar Volume",
+    "Description": "Molar volume is the amount of space occupied by one mole of any substance.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"
     ],
-    "Enumerated": true,
+    "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.radioactivity_unit.abbreviations",
+            "Id": "measured_dimension.molar_volume_unit.abbreviations",
             "Name": "Abbreviations",
             "Description": "Abbreviated text representations for this unit",
             "ObjectType": "type.rawstring",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "measured_dimension.radioactivity_unit.canonical_abbreviation",
+            "Id": "measured_dimension.molar_volume_unit.canonical_abbreviation",
             "Name": "Canonical abbreviation",
             "Description": "Globally recognised abbreviated text representation for this unit.",
             "ObjectType": "type.rawstring",
@@ -25,15 +25,15 @@
             "Required": false
         },
         {
-            "Id": "measured_dimension.radioactivity_unit.measurement_system",
+            "Id": "measured_dimension.molar_volume_unit.measurement_system",
             "Name": "Measurement System",
-            "Description": "The measurement system this unit belongs to",
+            "Description": "",
             "ObjectType": "measured_dimension.measurement_system",
             "Unique": false,
             "Required": false
         },
         {
-            "Id": "measured_dimension.radioactivity_unit.dimension",
+            "Id": "measured_dimension.molar_volume_unit.dimension",
             "Name": "Measured dimension",
             "Description": "The dimension measured by this unit",
             "ObjectType": "measured_dimension.dimension",
@@ -41,8 +41,8 @@
             "Required": false
         },
         {
-            "Id": "measured_dimension.radioactivity_unit.si_base_conversion_formula",
-            "Name": "Conversion formula",
+            "Id": "measured_dimension.molar_volume_unit.si_base_conversion_formula",
+            "Name": "Volume in cubic meters per mole",
             "Description": "Conversion formula to the System International base unit",
             "ObjectType": "type.rawstring",
             "Unique": true,

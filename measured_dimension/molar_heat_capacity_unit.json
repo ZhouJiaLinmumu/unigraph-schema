@@ -42,8 +42,8 @@
         },
         {
             "Id": "measured_dimension.molar_heat_capacity_unit.si_base_conversion_formula",
-            "Name": "Convertion formula",
-            "Description": "Convertion formula to the System International base unit",
+            "Name": "Conversion formula",
+            "Description": "Conversion formula to the System International base unit",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
