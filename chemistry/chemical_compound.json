@@ -1,0 +1,212 @@
+{
+    "Id": "chemistry.chemical_compound",
+    "Name": "Chemical Compound",
+    "Description": "A chemical compound is a molecular substance consisting of multiple atoms which are bonded together by a chemical reaction.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "chemistry.chemical_compound.average_molar_mass",
+            "Name": "Average Molar Mass",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_mass",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.boiling_point",
+            "Name": "Boiling point",
+            "Description": "",
+            "ObjectType": "measured_dimension.temperature",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.critical_point_pressure",
+            "Name": "Critical point pressure",
+            "Description": "",
+            "ObjectType": "measured_dimension.pressure",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.critical_point_temperature",
+            "Name": "Critical point temperature",
+            "Description": "",
+            "ObjectType": "measured_dimension.temperature",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.density",
+            "Name": "Density",
+            "Description": "The density of this substance at 25 °C and 100 kPa.",
+            "ObjectType": "measured_dimension.density",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.enthalpy_change_of_formation_gas",
+            "Name": "Enthalpy Change of Formation, Gas",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_energy",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.enthalpy_change_of_formation_liquid",
+            "Name": "Enthalpy Change of Formation, Liquid",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_energy",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.enthalpy_change_of_formation_solid",
+            "Name": "Enthalpy Change of Formation, Solid",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_energy",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.enthalpy_change_of_fusion",
+            "Name": "Enthalpy Change of Fusion",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_energy",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.enthalpy_change_of_vaporization",
+            "Name": "Enthalpy Change of Vaporization",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_energy",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.entropy_change_of_fusion",
+            "Name": "Entropy Change of Fusion",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_heat_capacity",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.entropy_change_of_vaporization",
+            "Name": "Entropy Change of Vaporization",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_heat_capacity",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.formula",
+            "Name": "Formula",
+            "Description": "The molecular formula of this compound. For polymers, use the notation \"(C6H10O5)n\".",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.heat_capacity_gas",
+            "Name": "Heat Capacity, Gas",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_heat_capacity",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.heat_capacity_liquid",
+            "Name": "Heat Capacity, Liquid",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_heat_capacity",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.heat_capacity_solid",
+            "Name": "Heat Capacity, Solid",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_heat_capacity",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.melting_point",
+            "Name": "Melting point",
+            "Description": "",
+            "ObjectType": "measured_dimension.temperature",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.molar_entropy_gas",
+            "Name": "Molar Entropy, Gas",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_heat_capacity",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.molar_entropy_liquid",
+            "Name": "Molar Entropy, Liquid",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_heat_capacity",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.molar_entropy_solid",
+            "Name": "Molar Entropy, Solid",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_heat_capacity",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.phase_at_stp",
+            "Name": "Phase, At STP",
+            "Description": "",
+            "ObjectType": "chemistry.phase_of_matter",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.structure_smiles",
+            "Name": "Structure (SMILES)",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.triple_point_pressure",
+            "Name": "Triple point pressure",
+            "Description": "",
+            "ObjectType": "measured_dimension.pressure",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.triple_point_temperature",
+            "Name": "Triple point temperature",
+            "Description": "",
+            "ObjectType": "measured_dimension.temperature",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_compound.vapor_pressure",
+            "Name": "Vapor pressure",
+            "Description": "The vapor pressure of this substance at 20 °C.",
+            "ObjectType": "measured_dimension.pressure",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

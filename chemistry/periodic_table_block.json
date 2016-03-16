@@ -1,0 +1,11 @@
+{
+    "Id": "chemistry.periodic_table_block",
+    "Name": "Periodic table block",
+    "Description": "A block of elements in the periodic table consists of two or more adjacent groups. The highest energy electrons in the elements of each block are of the same orbital type.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

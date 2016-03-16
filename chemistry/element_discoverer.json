@@ -1,0 +1,11 @@
+{
+    "Id": "chemistry.element_discoverer",
+    "Name": "Chemical Element Discoverer",
+    "Description": "The discoverer of a chemical element.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

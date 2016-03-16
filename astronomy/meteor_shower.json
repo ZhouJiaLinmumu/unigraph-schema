@@ -9,14 +9,6 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.meteor_shower.calendar_occurance",
-            "Name": "Calendar occurrence",
-            "Description": "When does this meteor shower become observable in the calendar year?",
-            "ObjectType": "measured_dimension.time_interval",
-            "Unique": true,
-            "Required": false
-        },
-        {
             "Id": "astronomy.meteor_shower.meteor_shower_observation",
             "Name": "Meteor shower observation",
             "Description": "Observed meteor shower occurrences of this meteor shower.",

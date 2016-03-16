@@ -1,0 +1,68 @@
+{
+    "Id": "chemistry.isotope",
+    "Name": "Isotope",
+    "Description": "This type is for atoms of chemical elements with specific combinations of the numbers of protons and neutrons in the nucleus.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "chemistry.isotope.half_life",
+            "Name": "Half-life",
+            "Description": "The half-life of this isotope",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.isotope.magnetic_moment",
+            "Name": "Magnetic moment",
+            "Description": "The magnetic moment of this isotope.",
+            "ObjectType": "measured_dimension.magnetic_moment",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.isotope.mass",
+            "Name": "Mass",
+            "Description": "The atomic mass (including uncertainty) of this isotope",
+            "ObjectType": "chemistry.atomic_mass",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.isotope.mass_number",
+            "Name": "Mass number",
+            "Description": "The mass number of this isotope. E.g., for Carbon-14, the mass number is 14.",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.isotope.natural_abundance",
+            "Name": "Natural abundance (Earth)",
+            "Description": "The natural abundance of this isotope on Earth, as a percentage of all natural isotopes of this element.",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.isotope.spin",
+            "Name": "Spin",
+            "Description": "The spin of this isotope.",
+            "ObjectType": "chemistry.particle_spin",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.isotope.stable",
+            "Name": "Stable (Y/N)",
+            "Description": "",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

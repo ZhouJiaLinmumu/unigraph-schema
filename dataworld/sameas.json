@@ -3563,7 +3563,15 @@
         {
             "Id": "dataworld.sameas.iucn_id",
             "Name": "IUCN Identifier",
-            "Description": "Source for IUCN conservation status (P141)",
+            "Description": "Source for IUCN",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.iupac_id",
+            "Name": "IUPAC ID",
+            "Description": "The name of the chemical according to IUPAC recommendations.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false

@@ -1,0 +1,156 @@
+{
+    "Id": "chemistry.chemical_element",
+    "Name": "Chemical Element",
+    "Description": "The elements of the periodic table.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "chemistry.chemical_element.atomic_mass",
+            "Name": "Atomic mass",
+            "Description": "The atomic mass of an element + uncertainty",
+            "ObjectType": "chemistry.atomic_mass",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.atomic_number",
+            "Name": "Atomic number",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.atomic_radius",
+            "Name": "Atomic radius",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.boiling_point",
+            "Name": "Boiling Point",
+            "Description": "The temperature where the vapor pressure of the element in its most common molecular liquid form equals the environmental pressure surrounding the liquid.",
+            "ObjectType": "measured_dimension.temperature",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.covalent_radius",
+            "Name": "Covalent radius",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.discoverer",
+            "Name": "Discoverer",
+            "Description": "",
+            "ObjectType": "chemistry.element_discoverer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.discovering_country",
+            "Name": "Discovering Country",
+            "Description": "",
+            "ObjectType": "chemistry.country_of_discovery",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.discovery_date",
+            "Name": "Discovery Date",
+            "Description": "The date the element was discovered",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.electron_affinity",
+            "Name": "Electron affinity",
+            "Description": "",
+            "ObjectType": "chemistry.electron_affinity",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.electron_configuration",
+            "Name": "Electron Configuration",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.electronegativity",
+            "Name": "Electronegativity (Pauling scale)",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.electrons_per_shell",
+            "Name": "Electrons per shell",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.ionization_energy",
+            "Name": "Ionization Energy",
+            "Description": "Also known as ionization potential.",
+            "ObjectType": "measured_dimension.energy",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.isotopes",
+            "Name": "Isotopes",
+            "Description": "",
+            "ObjectType": "chemistry.isotope",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.melting_point",
+            "Name": "Melting Point",
+            "Description": "The temperature of when the element in its most common molecular form changes state from solid to liquid.",
+            "ObjectType": "measured_dimension.temperature",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.periodic_table_block",
+            "Name": "Periodic table block",
+            "Description": "The block this element belongs to",
+            "ObjectType": "chemistry.periodic_table_block",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.symbol",
+            "Name": "Symbol",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.chemical_element.van_der_waals_radius",
+            "Name": "Van der Waals radius",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

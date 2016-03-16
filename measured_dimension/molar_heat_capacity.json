@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.molar_heat_capacity",
+    "Name": "Molar mass",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.molar_heat_capacity.measurement_unit",
+            "Name": "Unit of Molar mass",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_heat_capacity",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.molar_heat_capacity.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

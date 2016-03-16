@@ -1,0 +1,26 @@
+{
+    "Id": "chemistry.electron_affinity",
+    "Name": "Electron affinity",
+    "Description": "This type is holds information about the electron affinity of elements (and potentially of molecules), along with the degree of uncertainty of that measurement, in electronvolts.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "chemistry.electron_affinity.affinity_value",
+            "Name": "Value",
+            "Description": "The electron affinity of this element or molecule",
+            "ObjectType": "measured_dimension.energy",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "chemistry.electron_affinity.uncertainty",
+            "Name": "Uncertainty",
+            "Description": "The degree of uncertainty of this measurement. Enter the expanded value of the uncertainty: e.g., 0.0005 rather than just 5.",
+            "ObjectType": "measured_dimension.energy",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

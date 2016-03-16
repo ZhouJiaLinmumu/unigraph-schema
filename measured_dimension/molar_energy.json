@@ -1,0 +1,26 @@
+{
+    "Id": "measured_dimension.molar_energy",
+    "Name": "Molar energy",
+    "Description": "",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "measured_dimension.molar_energy.measurement_unit",
+            "Name": "Unit of Molar energy",
+            "Description": "",
+            "ObjectType": "measured_dimension.molar_energy_unit",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "measured_dimension.molar_energy.value",
+            "Name": "Value",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

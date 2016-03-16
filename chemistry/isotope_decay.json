@@ -1,0 +1,42 @@
+{
+    "Id": "chemistry.isotope_decay",
+    "Name": "Isotope decay",
+    "Description": "This is a compound value type that stores information about the radioactive decay of isotopes of chemical elements.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "chemistry.isotope_decay.decay_energy",
+            "Name": "Decay energy",
+            "Description": "The energy released.",
+            "ObjectType": "measured_dimension.energy",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.isotope_decay.decay_mode",
+            "Name": "Decay mode",
+            "Description": "The mode of decay",
+            "ObjectType": "chemistry.radioactive_decay_mode",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "chemistry.isotope_decay.percentage",
+            "Name": "Percentage",
+            "Description": "The percentage likelihood of this decay",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "chemistry.isotope_decay.isotope",
+            "Name": "Isotope",
+            "Description": "The isotope that exhibits this decay.",
+            "ObjectType": "chemistry.isotope",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

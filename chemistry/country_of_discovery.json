@@ -1,0 +1,12 @@
+{
+    "Id": "chemistry.country_of_discovery",
+    "Name": "Country of Discovery",
+    "Description": "The country an element was discovered",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.country"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,26 @@
+{
+    "Id": "chemistry.atomic_mass",
+    "Name": "Atomic mass",
+    "Description": "This type is for storing atomic mass values with their degree of uncertainty.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "chemistry.atomic_mass.mass",
+            "Name": "Mass",
+            "Description": "The atomic mass",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "chemistry.atomic_mass.uncertainty",
+            "Name": "Uncertainty",
+            "Description": "The uncertainty (+/-) of this measurement. The expanded value of the uncertainty, e.g. 0.0005 rather than 5.",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

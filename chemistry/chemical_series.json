@@ -1,0 +1,20 @@
+{
+    "Id": "chemistry.chemical_series",
+    "Name": "Chemical Series",
+    "Description": "This type is for groupings of elements that share some set of characteristics.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "chemistry.chemical_series.elements",
+            "Name": "Elements",
+            "Description": "",
+            "ObjectType": "chemistry.chemical_element",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "chemistry.particle_spin",
+    "Name": "Particle spin",
+    "Description": "Spin is a fundamental property of some particles.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

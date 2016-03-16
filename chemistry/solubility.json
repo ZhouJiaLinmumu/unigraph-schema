@@ -1,0 +1,11 @@
+{
+    "Id": "chemistry.solubility",
+    "Name": "Solubility",
+    "Description": "This is an enumeration of ways that two substances can form solutions (or not) with each other.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}
