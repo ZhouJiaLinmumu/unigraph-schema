@@ -1,0 +1,68 @@
+{
+    "Id": "physics.particle",
+    "Name": "Subatomic particle",
+    "Description": "A microscopically small unit of matter or energy.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "physics.particle.electric_charge",
+            "Name": "Electric charge",
+            "Description": "How much charge the particle carries, in units of elementary charge (so that an electron has charge -1).",
+            "ObjectType": "measured_dimension.charge",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "physics.particle.family",
+            "Name": "Family",
+            "Description": "The family of subatomic particles this particle belongs to",
+            "ObjectType": "physics.particle_family",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "physics.particle.generation",
+            "Name": "Generation",
+            "Description": "Which subatomic particle generation this particle belongs to (lower generations have lower mass).  There are three generations according to the Standard Model of particle physics.",
+            "ObjectType": "physics.subatomic_particle_generation",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "physics.particle.interactions",
+            "Name": "Interactions",
+            "Description": "What sort of interactions the particle takes part in (what forces affect this particle).",
+            "ObjectType": "physics.fundamental_interaction",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "physics.particle.magnetic_moment",
+            "Name": "Magnetic moment",
+            "Description": "The magnetic moment of the particle (a measure of the magnitude of its magnetism) and its uncertainty, in Bohr magnetons.",
+            "ObjectType": "physics.magnetic_moment",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "physics.particle.mass",
+            "Name": "Mass",
+            "Description": "The invariant mass of the particle (in units of MeV/c²), including its uncertainty",
+            "ObjectType": "physics.subatomic_mass",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "physics.particle.spin",
+            "Name": "Spin",
+            "Description": "Fundamental quantum mechanical property.",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

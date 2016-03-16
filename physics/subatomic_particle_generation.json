@@ -1,0 +1,11 @@
+{
+    "Id": "physics.subatomic_particle_generation",
+    "Name": "Subatomic particle generation",
+    "Description": "A group of fundamental particles; between generations, particles differ only by their mass.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

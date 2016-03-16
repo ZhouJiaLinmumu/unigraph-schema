@@ -1,0 +1,26 @@
+{
+    "Id": "physics.magnetic_moment",
+    "Name": "Magnetic moment",
+    "Description": "The magnetic moment, including its uncertainty, of a subatomic particle in units of Bohr magneton.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "physics.magnetic_moment.magnetic_moment",
+            "Name": "Magnetic moment",
+            "Description": "The magnetic moment in units of Bohr magnetons.",
+            "ObjectType": "measured_dimension.magnetic_moment",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "physics.magnetic_moment.uncertainty",
+            "Name": "Uncertainty",
+            "Description": "The uncertainty in the magnetic moment, in units of Bohr magnetons. The full value eg 0.00005, opposed to (5).",
+            "ObjectType": "measured_dimension.magnetic_moment",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

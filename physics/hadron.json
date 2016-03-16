@@ -1,0 +1,21 @@
+{
+    "Id": "physics.hadron",
+    "Name": "Hadron",
+    "Description": "A subatomic particle consisting of two or three quarks.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "physics.particle",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "physics.hadron.composition",
+            "Name": "Composition",
+            "Description": "The quarks which make up this particle",
+            "ObjectType": "physics.subatomic_particle_composition",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

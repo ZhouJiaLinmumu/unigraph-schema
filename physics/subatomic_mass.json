@@ -1,0 +1,26 @@
+{
+    "Id": "physics.subatomic_mass",
+    "Name": "Subatomic mass",
+    "Description": "The mass of a subatomic particle, including its uncertainty.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "physics.subatomic_mass.mass",
+            "Name": "Mass",
+            "Description": "The mass of the subatomic particle",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "physics.subatomic_mass.uncertainty",
+            "Name": "Uncertainty",
+            "Description": "The uncertainty in the mass. The full value, e.g. 0.00005, opposed to (5).",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

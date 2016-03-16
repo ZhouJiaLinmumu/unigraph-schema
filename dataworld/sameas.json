@@ -1915,7 +1915,7 @@
         {
             "Id": "dataworld.sameas.emporis_building_complex_id",
             "Name": "Emporis building complex Identifier",
-            "Description": "Identifier for a building complex, as opposed to a single building, in the Emporis architecture database",
+            "Description": "Identifier for a building complex in the Emporis architecture database",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false

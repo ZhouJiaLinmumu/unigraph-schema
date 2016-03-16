@@ -1,0 +1,12 @@
+{
+    "Id": "physics.quark",
+    "Name": "Quark",
+    "Description": "A quark is an elementary particle. Quarks combine together to form hadrons (such as protons and neutrons).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "physics.particle",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

@@ -1,0 +1,20 @@
+{
+    "Id": "physics.particle_family",
+    "Name": "Subatomic particle family",
+    "Description": "A group of subatomic particles which share the same quantum properties.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "physics.particle_family.parent_class",
+            "Name": "Parent class",
+            "Description": "If this family is part of a larger class, enter it here",
+            "ObjectType": "physics.particle_family",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}
