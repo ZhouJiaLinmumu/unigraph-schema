@@ -1,0 +1,11 @@
+{
+    "Id": "rail.steam_locomotive_wheel_configuration",
+    "Name": "Steam locomotive wheel configuration",
+    "Description": "Steam locomotive wheel configuration is the Whyte notation describing the arrangement of wheels on a steam locomotive.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

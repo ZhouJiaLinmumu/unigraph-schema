@@ -1,0 +1,11 @@
+{
+    "Id": "rail.steam_locomotive_fuel_type",
+    "Name": "Steam locomotive fuel type",
+    "Description": "This type is for different kinds of fuel that were used to power steam engines.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

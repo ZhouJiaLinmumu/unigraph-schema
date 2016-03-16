@@ -1,0 +1,42 @@
+{
+    "Id": "rail.rolling_stock_tenure",
+    "Name": "Rolling stock tenure",
+    "Description": "This type is used to hold information about railways and the different locomotives that ran on them.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "rail.rolling_stock_tenure.start_date",
+            "Name": "From date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.rolling_stock_tenure.locomotive",
+            "Name": "Locomotive",
+            "Description": "",
+            "ObjectType": "rail.locomotive",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "rail.rolling_stock_tenure.end_date",
+            "Name": "To date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.rolling_stock_tenure.railway",
+            "Name": "Railway",
+            "Description": "",
+            "ObjectType": "rail.railway",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

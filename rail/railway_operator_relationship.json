@@ -1,0 +1,42 @@
+{
+    "Id": "rail.railway_operator_relationship",
+    "Name": "Railway-operator relationship",
+    "Description": "This type is used to hold information about railways and the organizations which have operated them over time.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "rail.railway_operator_relationship.start_date",
+            "Name": "From date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.railway_operator_relationship.operator",
+            "Name": "Operator",
+            "Description": "",
+            "ObjectType": "rail.railway_operator",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "rail.railway_operator_relationship.end_date",
+            "Name": "To date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.railway_operator_relationship.railway",
+            "Name": "Railway",
+            "Description": "",
+            "ObjectType": "rail.railway",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

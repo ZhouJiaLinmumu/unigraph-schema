@@ -1,0 +1,61 @@
+{
+    "Id": "rail.railway",
+    "Name": "Railway",
+    "Description": "A railway is a length of connected railroad tracks operated by a single organization (or consortium of organizations).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "rail.railway.branches_to",
+            "Name": "Branches to",
+            "Description": "",
+            "ObjectType": "rail.railway_terminus",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "rail.railway.closed",
+            "Name": "Closed",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.railway.length",
+            "Name": "Length",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.railway.opened",
+            "Name": "Opened",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.railway.terminuses",
+            "Name": "Terminuses",
+            "Description": "",
+            "ObjectType": "rail.railway_terminus",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "rail.railway.part_of_network",
+            "Name": "Part of network",
+            "Description": "",
+            "ObjectType": "rail.rail_network",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

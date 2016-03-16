@@ -1,0 +1,14 @@
+{
+    "Id": "rail.locomotive_builder",
+    "Name": "Locomotive builder",
+    "Description": "A locomotive builder is an organization or person that has built locomotives.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "business.employer",
+        "business.business_operation",
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

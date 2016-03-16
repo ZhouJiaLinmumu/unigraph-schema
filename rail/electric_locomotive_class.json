@@ -1,0 +1,12 @@
+{
+    "Id": "rail.electric_locomotive_class",
+    "Name": "Electric locomotive class",
+    "Description": "An electric locomotive class is a class of locomotive that runs on electricity.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "rail.locomotive_class",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

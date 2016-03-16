@@ -1,0 +1,11 @@
+{
+    "Id": "rail.rail_network",
+    "Name": "Rail network",
+    "Description": "A rail network is a system of connected Railways.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

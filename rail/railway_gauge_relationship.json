@@ -1,0 +1,42 @@
+{
+    "Id": "rail.railway_gauge_relationship",
+    "Name": "Railway-gauge relationship",
+    "Description": "This type is used to hold information about the relationship between a railway and the gauge or gauges it's had over time.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "rail.railway_gauge_relationship.start_date",
+            "Name": "From date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.railway_gauge_relationship.gauge",
+            "Name": "Gauge",
+            "Description": "",
+            "ObjectType": "rail.rail_gauge",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "rail.railway_gauge_relationship.end_date",
+            "Name": "To date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.railway_gauge_relationship.railway",
+            "Name": "Railway",
+            "Description": "",
+            "ObjectType": "rail.railway",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

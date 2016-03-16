@@ -1,0 +1,76 @@
+{
+    "Id": "rail.locomotive_class",
+    "Name": "Locomotive class",
+    "Description": "A class of locomotives is a named group of locomotives which share physical characteristics. Custom/unique locomotives, such as early historical locomotives, need a separate locomotive class, even though it will be a class of one.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "rail.locomotive_class.built_by",
+            "Name": "Built by",
+            "Description": "",
+            "ObjectType": "rail.locomotive_builder",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "rail.locomotive_class.gauge",
+            "Name": "Gauge",
+            "Description": "",
+            "ObjectType": "rail.rail_gauge",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.locomotive_class.introduced",
+            "Name": "Introduced",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.locomotive_class.length",
+            "Name": "Length",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.locomotive_class.maximum_speed",
+            "Name": "Maximum speed",
+            "Description": "",
+            "ObjectType": "measured_dimension.speed",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.locomotive_class.parent_class",
+            "Name": "Parent class",
+            "Description": "",
+            "ObjectType": "rail.locomotive_class",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "rail.locomotive_class.weight",
+            "Name": "Weight",
+            "Description": "",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "rail.locomotive_class.withdrawn",
+            "Name": "Withdrawn",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}
