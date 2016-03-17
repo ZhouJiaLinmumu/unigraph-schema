@@ -1,0 +1,11 @@
+{
+    "Id": "spaceflight.rocket_engine_status",
+    "Name": "Rocket engine development status",
+    "Description": "This type describes the stage of development of a rocket engine.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

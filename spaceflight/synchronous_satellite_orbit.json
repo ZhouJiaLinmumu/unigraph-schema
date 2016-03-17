@@ -1,0 +1,42 @@
+{
+    "Id": "spaceflight.synchronous_satellite_orbit",
+    "Name": "Satellite Orbit, Synchronous",
+    "Description": "This type holds details about synchronous orbits of artificial Earth satellites.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "spaceflight.synchronous_satellite_orbit.e_w",
+            "Name": "E / W",
+            "Description": "",
+            "ObjectType": "type.text",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.synchronous_satellite_orbit.longitude",
+            "Name": "Longitude",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.synchronous_satellite_orbit.orbit_type",
+            "Name": "Orbit Type",
+            "Description": "",
+            "ObjectType": "spaceflight.satellite_orbit_type",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "spaceflight.synchronous_satellite_orbit.satellite",
+            "Name": "Satellite",
+            "Description": "",
+            "ObjectType": "spaceflight.satellite",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

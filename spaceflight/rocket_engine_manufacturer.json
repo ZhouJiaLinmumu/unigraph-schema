@@ -1,0 +1,12 @@
+{
+    "Id": "spaceflight.rocket_engine_manufacturer",
+    "Name": "Rocket engine manufacturer",
+    "Description": "A organization that manufactures complete rocket engines.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

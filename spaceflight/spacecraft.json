@@ -1,0 +1,20 @@
+{
+    "Id": "spaceflight.spacecraft",
+    "Name": "Spacecraft",
+    "Description": "A spacecraft is an artificial vehicle designed to operate beyond the Earth's atmosphere, including satellites, rockets, probes, and space shuttles.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "spaceflight.spacecraft.manufacturer",
+            "Name": "Manufacturer",
+            "Description": "",
+            "ObjectType": "spaceflight.spacecraft_manufacturer",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

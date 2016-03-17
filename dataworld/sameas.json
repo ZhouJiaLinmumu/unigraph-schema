@@ -4905,6 +4905,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.norad_satellite_id",
+            "Name": "NORAD Satellite ID",
+            "Description": "North American Aerospace Defense Command ID for a satellite, example: 40666",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.northwestern_university_library_id",
             "Name": "Northwestern University Library ID",
             "Description": "The catalog number for this item in Northwestern University Libraries' Online Public-Access Catalog - Northwestern OPAC.",

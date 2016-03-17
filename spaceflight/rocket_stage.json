@@ -1,0 +1,66 @@
+{
+    "Id": "spaceflight.rocket_stage",
+    "Name": "Rocket Stage",
+    "Description": "Rocket stage is a mediator type that describes the engine configuration and fuel type for a stage of a particular rocket model.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "spaceflight.rocket_stage.burn_time",
+            "Name": "Burn Time",
+            "Description": "",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "spaceflight.rocket_stage.engine",
+            "Name": "Engine",
+            "Description": "",
+            "ObjectType": "spaceflight.rocket_engine",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket_stage.fuel",
+            "Name": "Fuels",
+            "Description": "",
+            "ObjectType": "spaceflight.rocket_fuel",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket_stage.engines",
+            "Name": "Number Of Engines",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket_stage.rocket",
+            "Name": "Rocket",
+            "Description": "",
+            "ObjectType": "spaceflight.rocket",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket_stage.stage_number",
+            "Name": "Stage Number",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "spaceflight.rocket_stage.thrust",
+            "Name": "Thrust",
+            "Description": "",
+            "ObjectType": "measured_dimension.force",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

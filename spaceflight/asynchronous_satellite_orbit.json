@@ -1,0 +1,58 @@
+{
+    "Id": "spaceflight.asynchronous_satellite_orbit",
+    "Name": "Satellite Orbit, Asynchronous",
+    "Description": "This type holds details about asynchronous orbits of artificial Earth satellites.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "spaceflight.asynchronous_satellite_orbit.apogee",
+            "Name": "Apogee",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.asynchronous_satellite_orbit.inclination",
+            "Name": "Inclination",
+            "Description": "",
+            "ObjectType": "measured_dimension.angle",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.asynchronous_satellite_orbit.orbit_type",
+            "Name": "Orbit Type",
+            "Description": "",
+            "ObjectType": "spaceflight.satellite_orbit_type",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "spaceflight.asynchronous_satellite_orbit.perigee",
+            "Name": "Perigee",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.asynchronous_satellite_orbit.period",
+            "Name": "Period",
+            "Description": "",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.asynchronous_satellite_orbit.satellite",
+            "Name": "Satellite",
+            "Description": "",
+            "ObjectType": "spaceflight.satellite",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

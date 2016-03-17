@@ -1,0 +1,100 @@
+{
+    "Id": "spaceflight.rocket",
+    "Name": "Rocket",
+    "Description": "A rocket is a class or model of rocket-propelled craft.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "spaceflight.rocket.country_of_origin",
+            "Name": "Country Of Origin",
+            "Description": "",
+            "ObjectType": "spaceflight.rocket_assembly_country",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket.diameter",
+            "Name": "Diameter",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket.height",
+            "Name": "Height",
+            "Description": "",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket.last_flight",
+            "Name": "Last Flight",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket.launch_sites",
+            "Name": "Launch sites",
+            "Description": "",
+            "ObjectType": "spaceflight.rocket_launch_site",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket.maiden_flight",
+            "Name": "Maiden Flight",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket.manufacturer",
+            "Name": "Manufacturer",
+            "Description": "",
+            "ObjectType": "spaceflight.rocket_manufacturer",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket.mass",
+            "Name": "Mass",
+            "Description": "",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket.stages",
+            "Name": "Number Of Stages",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket.rocket_function",
+            "Name": "Rocket Function",
+            "Description": "",
+            "ObjectType": "spaceflight.rocket_function",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.rocket.status",
+            "Name": "Status",
+            "Description": "",
+            "ObjectType": "spaceflight.rocket_status",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

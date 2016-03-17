@@ -1,0 +1,11 @@
+{
+    "Id": "spaceflight.satellite_type",
+    "Name": "Satellite Type",
+    "Description": "This type is for different purposes of satellites.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

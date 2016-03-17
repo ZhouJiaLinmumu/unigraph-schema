@@ -1,0 +1,133 @@
+{
+    "Id": "spaceflight.satellite",
+    "Name": "Satellite",
+    "Description": "Spacecraft in orbit around a celestial object (including the Earth).",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "spaceflight.spacecraft"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "spaceflight.satellite.altitude",
+            "Name": "Altitude",
+            "Description": "Mean altitude of the satellite's orbit.",
+            "ObjectType": "measured_dimension.distance",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.began_operating",
+            "Name": "Began operating",
+            "Description": "The date this satellite first became operational.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.ceased_operating",
+            "Name": "Ceased operating",
+            "Description": "The date this satellite ceased operations. Note that a non-operational satellite may still be in orbit.",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.dry_mass",
+            "Name": "Dry Mass",
+            "Description": "",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.ground_repeat_time",
+            "Name": "Ground repeat time",
+            "Description": "The amount of time it takes to pass the same point at nadir. This differs from orbit, which is the time it takes to complete a revolution.",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.launch_date",
+            "Name": "Launch Date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.launch_mass",
+            "Name": "Launch Mass",
+            "Description": "",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.launch_site",
+            "Name": "Launch Site",
+            "Description": "",
+            "ObjectType": "spaceflight.rocket_launch_site",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.launch_vehicle",
+            "Name": "Launch Vehicle",
+            "Description": "",
+            "ObjectType": "spaceflight.rocket",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.orbit_period",
+            "Name": "Orbit period",
+            "Description": "The length of time it takes the satellite to complete one revolution.",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.orbit_type",
+            "Name": "Orbit type",
+            "Description": "The kind of orbit that this satellite is in.",
+            "ObjectType": "spaceflight.satellite_orbit_type",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.orbiting",
+            "Name": "Orbiting",
+            "Description": "The object that this satellite is in orbit around.",
+            "ObjectType": "spaceflight.celestial_object",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.power",
+            "Name": "Power",
+            "Description": "",
+            "ObjectType": "measured_dimension.power",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.speed_on_orbit",
+            "Name": "Speed on orbit",
+            "Description": "The satellite's speed in its orbit.",
+            "ObjectType": "measured_dimension.speed",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.satellite.primary_use",
+            "Name": "Primary use",
+            "Description": "The primary use this satellite is designed for.",
+            "ObjectType": "spaceflight.satellite_type",
+            "Unique": false,
+            "Required": false
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Id": "spaceflight.rocket_function",
+    "Name": "Rocket Function",
+    "Description": "A rocket function is a type of use that a rocket has been used for, such as for human spaceflight or as a missile.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

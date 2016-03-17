@@ -1,0 +1,12 @@
+{
+    "Id": "spaceflight.rocket_manufacturer",
+    "Name": "Rocket Manufacturer",
+    "Description": "A rocket manufacturer is an organization that builds rockets.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

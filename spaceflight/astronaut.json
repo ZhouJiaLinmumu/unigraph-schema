@@ -1,0 +1,37 @@
+{
+    "Id": "spaceflight.astronaut",
+    "Name": "Astronaut",
+    "Description": "An astronaut is a person (or other animal) that has flown in outer space.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "people.person",
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "spaceflight.astronaut.missions",
+            "Name": "Space Missions",
+            "Description": "",
+            "ObjectType": "spaceflight.space_mission",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.astronaut.space_agency",
+            "Name": "Space Agency",
+            "Description": "",
+            "ObjectType": "spaceflight.space_agency",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.astronaut.space_time",
+            "Name": "Space Time",
+            "Description": "Total amount of time spent in space missions (time of launch to end of mission). Death during space mission is also a factor in calculating total space time.",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

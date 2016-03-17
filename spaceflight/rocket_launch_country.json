@@ -1,0 +1,12 @@
+{
+    "Id": "spaceflight.rocket_launch_country",
+    "Name": "Country with rocket launch sites",
+    "Description": "Country from which rockets are being launched",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.country"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

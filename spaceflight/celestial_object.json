@@ -1,0 +1,12 @@
+{
+    "Id": "spaceflight.celestial_object",
+    "Name": "Celestial Object",
+    "Description": "Celestial object of any kind",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "astronomy.celestial_object"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

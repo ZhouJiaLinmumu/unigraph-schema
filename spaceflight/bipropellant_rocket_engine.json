@@ -1,0 +1,77 @@
+{
+    "Id": "spaceflight.bipropellant_rocket_engine",
+    "Name": "Bipropellant rocket engine",
+    "Description": "An engine that combines two fluids, typically a fuel and and oxidizer, to produce thrust.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "spaceflight.rocket_engine"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "spaceflight.bipropellant_rocket_engine.chamber_pressure",
+            "Name": "Chamber pressure",
+            "Description": "",
+            "ObjectType": "measured_dimension.pressure",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.bipropellant_rocket_engine.engine_cycle",
+            "Name": "Engine cycle",
+            "Description": "",
+            "ObjectType": "spaceflight.rocket_engine_cycle",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.bipropellant_rocket_engine.expansion_ratio",
+            "Name": "Expansion ratio",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.bipropellant_rocket_engine.fuel",
+            "Name": "Fuel",
+            "Description": "",
+            "ObjectType": "spaceflight.rocket_engine_fuel",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.bipropellant_rocket_engine.chambers",
+            "Name": "Number of chambers",
+            "Description": "",
+            "ObjectType": "type.int",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.bipropellant_rocket_engine.oxidizer",
+            "Name": "Oxidizer",
+            "Description": "",
+            "ObjectType": "spaceflight.rocket_engine_oxidizer",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.bipropellant_rocket_engine.oxidizer_fuel_ratio",
+            "Name": "Oxidizer/fuel ratio",
+            "Description": "",
+            "ObjectType": "type.float",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "spaceflight.bipropellant_rocket_engine.wet_mass",
+            "Name": "Wet mass",
+            "Description": "",
+            "ObjectType": "measured_dimension.mass",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

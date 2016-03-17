@@ -1,0 +1,12 @@
+{
+    "Id": "spaceflight.space_agency",
+    "Name": "Space Agency",
+    "Description": "An organization that operates launch facilities and conducts space missions.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

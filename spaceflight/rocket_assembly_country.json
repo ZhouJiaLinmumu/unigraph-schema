@@ -1,0 +1,12 @@
+{
+    "Id": "spaceflight.rocket_assembly_country",
+    "Name": "Country of Origin",
+    "Description": "Country in which a rocket has been assembled",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "location.country"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}
