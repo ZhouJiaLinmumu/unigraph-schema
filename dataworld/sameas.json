@@ -115,7 +115,7 @@
         {
             "Id": "dataworld.sameas.alberta_drugbank_id",
             "Name": "Drugbank Identifier",
-            "Description": "Identifier in the bioinformatics and cheminformatics database from the University of Alberta",
+            "Description": "Identifier in the bioinformatics and cheminformatics database from the University of Alberta. drugbank.ca",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -1345,6 +1345,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.croctail_corpwatch_id",
+            "Name": "Croctail Corpwatch Identifier",
+            "Description": "At croctail.corpwatch.org",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.crunchbase_organization_id",
             "Name": "CrunchBase organization Identifier",
             "Description": "Identifier for an organization, in the CrunchBase database of companies and start-ups. Example: Zoho",
@@ -1963,13 +1971,13 @@
         {
             "Id": "dataworld.sameas.encyclopedia_of_life_id",
             "Name": "Encyclopedia of Life Identifier",
-            "Description": "Eol.org item reference number",
+            "Description": "Eol.org item reference number. 1082876",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.encyclopædia_britannica_contributor_id",
+            "Id": "dataworld.sameas.encyclopedia_britannica_contributor_id",
             "Name": "Encyclopædia Britannica contributor Identifier",
             "Description": "Identifier for contributors to Encyclopædia Britannica",
             "ObjectType": "type.rawstring",
@@ -1977,7 +1985,7 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.encyclopædia_britannica_online_id",
+            "Id": "dataworld.sameas.encyclopedia_britannica_online_id",
             "Name": "Encyclopædia Britannica Online Identifier",
             "Description": "Identifer for an article in the online version of Encyclopædia Britannica",
             "ObjectType": "type.rawstring",
@@ -2475,7 +2483,7 @@
         {
             "Id": "dataworld.sameas.geonames_id",
             "Name": "GeoNames Identifier",
-            "Description": "Identifier in the GeoNames geographical database",
+            "Description": "Identifier in the GeoNames geographical database. Example: 935877",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -2603,7 +2611,7 @@
         {
             "Id": "dataworld.sameas.gnis_id",
             "Name": "GNIS Identifier",
-            "Description": "Identifier for geographic objects in the US issued by the USGS.",
+            "Description": "Identifier for geographic objects in the US issued by the USGS. Example: 867976",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3650,8 +3658,8 @@
         },
         {
             "Id": "dataworld.sameas.jpl_small_body_database_id",
-            "Name": "JPL Small-Body Database Identifier",
-            "Description": "Identifier in the JPL Small-Body Database",
+            "Name": "Nasa JPL Small-Body Database Identifier",
+            "Description": "Identifier in the Nasa JPL Small-Body Database. Example: 4908",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -4601,6 +4609,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.national_library_of_medicine_id",
+            "Name": "NLM Unique Identifier",
+            "Description": "Identifier in the catalog of the National Library of Medicine, Example: D006073",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.national_pipe_organ_register_id",
             "Name": "National Pipe Organ Register Identifier",
             "Description": "Identifier in the (United Kingdom) National Pipe Organ Register",
@@ -4682,7 +4698,7 @@
         },
         {
             "Id": "dataworld.sameas.nces_library_id",
-            "Name": "NCES Library Code (USA) Identifier",
+            "Name": "NCES Library Code Identifier",
             "Description": "The unique ID assigned by the NCES for public libraries in the US",
             "ObjectType": "type.rawstring",
             "Unique": true,
@@ -4852,14 +4868,6 @@
             "Id": "dataworld.sameas.nli_israel_id",
             "Name": "NLI (Israel) Identifier",
             "Description": "Identifier for authority control used at the National Library of Israel",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.nlm_id",
-            "Name": "NLM Unique Identifier",
-            "Description": "Identifier in the catalog of the National Library of Medicine",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -5091,7 +5099,7 @@
         {
             "Id": "dataworld.sameas.open_library_id",
             "Name": "Open Library Identifier",
-            "Description": "Identifier for works, editions and authors",
+            "Description": "Identifier for works, editions and authors. openlibrary.org, Examples: OL36858W, OL3156833A",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -5132,6 +5140,14 @@
             "Id": "dataworld.sameas.openstreetmap_relation_id",
             "Name": "OpenStreetMap Relation Identifier",
             "Description": "Identifer for a relation in OpenStreetMap",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.opensecrets_id",
+            "Name": "OpenSecrets.org Identifier",
+            "Description": "Example: D000000102",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -5489,6 +5505,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.raa_se_id",
+            "Name": "RAÄ Identifier",
+            "Description": "Identifier from database of the cultural heritage in Sweden",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.radzima_dot_org_id",
             "Name": "Radzima.org Identifier",
             "Description": "Identifier in the Radzima.org database of landmarks and tourist attractions of Belarus, Lithuania and the Podlasie region of Poland",
@@ -5505,9 +5529,9 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.raa_se_id",
-            "Name": "RAÄ Identifier",
-            "Description": "Identifier from database of the cultural heritage in Sweden",
+            "Id": "dataworld.sameas.ranker_id",
+            "Name": "Ranker.com Identifier",
+            "Description": "Example: google/1087571, paul-ryan/1769648",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -6290,16 +6314,16 @@
         },
         {
             "Id": "dataworld.sameas.theatricalia_theatre_id",
-            "Name": "TheTVDB.com ID",
-            "Description": "Identifier for a TV show. Example: 74889",
+            "Name": "Theatricalia Theatre Identifier",
+            "Description": "Identifier for a theatre, in the theatricalia.com database",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
         },
         {
             "Id": "dataworld.sameas.thetvdb_id",
-            "Name": "Theatricalia theatre Identifier",
-            "Description": "Identifier for a theatre, in the theatricalia.com database",
+            "Name": "TheTVDB.com ID",
+            "Description": "Identifier for a TV show. Example: 74889",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -6570,8 +6594,8 @@
         },
         {
             "Id": "dataworld.sameas.us_congress_bio_id",
-            "Name": "US Congress Bio Identifier",
-            "Description": "Identifier for a person on the Biographical Directory of the United States Congress",
+            "Name": "US Congress Bioguide Identifier",
+            "Description": "Identifier for a person on the Biographical Directory of the United States Congress. Example: S000532",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -6587,7 +6611,7 @@
         {
             "Id": "dataworld.sameas.us_library_of_congress_auth_id",
             "Name": "LCAuth Identifier",
-            "Description": "Library of Congress ID for authority control",
+            "Description": "Library of Congress ID for authority control. Example: n88005858",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
