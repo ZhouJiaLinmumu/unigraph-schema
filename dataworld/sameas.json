@@ -115,7 +115,7 @@
         {
             "Id": "dataworld.sameas.alberta_drugbank_id",
             "Name": "Drugbank Identifier",
-            "Description": "Identifier in the bioinformatics and cheminformatics database from the University of Alberta. drugbank.ca",
+            "Description": "Identifier in the bioinformatics and cheminformatics database from the University of Alberta. drugbank.ca. Example: APRD00406, BIOD00090",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -163,7 +163,7 @@
         {
             "Id": "dataworld.sameas.allmusic_album_id",
             "Name": "AllMusic album Identifier",
-            "Description": "Identifier for an album in AllMusic database",
+            "Description": "Identifier for an album in the AllMusic (allmusic.com) database",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -171,7 +171,7 @@
         {
             "Id": "dataworld.sameas.allmusic_artist_id",
             "Name": "AllMusic artist Identifier",
-            "Description": "Identifier for an artist in AllMusic database",
+            "Description": "Identifier for an artist in the AllMusic (allmusic.com) database",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -179,7 +179,7 @@
         {
             "Id": "dataworld.sameas.allmusic_composition_id",
             "Name": "AllMusic composition Identifier",
-            "Description": "Identifier for a composition in AllMusic",
+            "Description": "Identifier for a composition in the AllMusic (allmusic.com) database",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -187,7 +187,7 @@
         {
             "Id": "dataworld.sameas.allmusic_song_id",
             "Name": "AllMusic song Identifier",
-            "Description": "Identifier for a song in AllMusic database",
+            "Description": "Identifier for a song in the AllMusic (allmusic.com) database",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -195,7 +195,7 @@
         {
             "Id": "dataworld.sameas.allocine_movie_id",
             "Name": "AlloCiné movie Identifier",
-            "Description": "Identifier for a movie in the AlloCiné film database",
+            "Description": "Identifier for a movie in the AlloCiné (allocine.fr) film database",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -203,7 +203,7 @@
         {
             "Id": "dataworld.sameas.allocine_person_id",
             "Name": "AlloCiné person Identifier",
-            "Description": "Identifier for a person on the AlloCiné film database",
+            "Description": "Identifier for a person on the AlloCiné (allocine.fr) film database",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -211,7 +211,7 @@
         {
             "Id": "dataworld.sameas.allocine_series_id",
             "Name": "AlloCiné series Identifier",
-            "Description": "Identifier for a serie in the AlloCiné film database",
+            "Description": "Identifier for a serie in the AlloCiné (allocine.fr) film database",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -363,7 +363,7 @@
         {
             "Id": "dataworld.sameas.atvk_id",
             "Name": "ATVK Identifier",
-            "Description": "Identifier for each of the Latvian administrative units, i.e. municipality, parish, city under state jurisdiction and city under municipality jurisdiction. Based on the {{Q|15621843}}.",
+            "Description": "Identifier for each of the Latvian administrative units, i.e. municipality, parish, city under state jurisdiction and city under municipality jurisdiction. Administratīvo teritoriju un teritoriālo vienību klasifikators, csb.gov.lv/node/29893/list. Example 0010000 - Riga.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -1059,7 +1059,7 @@
         {
             "Id": "dataworld.sameas.chemspider_id",
             "Name": "ChemSpider Identifier",
-            "Description": "Identifier in a free chemical database, owned by the Royal Society of Chemistry",
+            "Description": "Identifier in a free chemical database, owned by the Royal Society of Chemistry. Example: 10660720",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -1569,6 +1569,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.denmark_municipality_code_id",
+            "Name": "Municipality code (Denmark) Identifier",
+            "Description": "Identifier for municipalities in Denmark",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.desa_code_of_indonesia_id",
             "Name": "Desa code of Indonesia Identifier",
             "Description": "",
@@ -1693,7 +1701,7 @@
             "Name": "Discogs artist Identifier",
             "Description": "Identifier for a band or person in the Discogs database",
             "ObjectType": "type.rawstring",
-            "Unique": true,
+            "Unique": false,
             "Required": false
         },
         {
@@ -1701,7 +1709,7 @@
             "Name": "Discogs label Identifier",
             "Description": "Identifier for a record label, studio or series in the Discogs database",
             "ObjectType": "type.rawstring",
-            "Unique": true,
+            "Unique": false,
             "Required": false
         },
         {
@@ -2217,17 +2225,17 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.fifa_player_id",
-            "Name": "FIFA player Identifier",
-            "Description": "Identifier for a soccer player per FIFA",
+            "Id": "dataworld.sameas.fifa_country_id",
+            "Name": "FIFA Country Identifier",
+            "Description": "Identifier for a country per FIFA",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.fifa_country_id",
-            "Name": "FIFA Country Identifier",
-            "Description": "Identifier for a country per FIFA",
+            "Id": "dataworld.sameas.fifa_player_id",
+            "Name": "FIFA player Identifier",
+            "Description": "Identifier for a soccer player per FIFA",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -2611,7 +2619,7 @@
         {
             "Id": "dataworld.sameas.gnis_id",
             "Name": "GNIS Identifier",
-            "Description": "Identifier for geographic objects in the US issued by the USGS. Example: 867976",
+            "Description": "Identifier for geographic objects in the US issued by the USGS. Web: geonames.usgs.gov, Example: 867976",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -2705,8 +2713,8 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.groeningemuseum_work_p_id",
-            "Name": "Groeningemuseum work P Identifier",
+            "Id": "dataworld.sameas.groeningemuseum_work_id",
+            "Name": "Groeningemuseum work Identifier",
             "Description": "Persistent identifier for an artwork from the collection of the Groeningemuseum in Bruges, Belgium",
             "ObjectType": "type.rawstring",
             "Unique": true,
@@ -2873,22 +2881,6 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.hulu_id",
-            "Name": "Hulu.com Identifier",
-            "Description": "Example: chicago-hope",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.hurdat_id",
-            "Name": "HURDAT Identifier",
-            "Description": "Identifier per HURDAT (North Atlantic hurricane database)",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
             "Id": "dataworld.sameas.hud_countyplace_id",
             "Name": "HUD County Place Identifier",
             "Description": "",
@@ -2910,6 +2902,22 @@
             "Description": "The id assigned to this region by the US HUD",
             "ObjectType": "type.rawstring",
             "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.hulu_id",
+            "Name": "Hulu.com Identifier",
+            "Description": "Example: chicago-hope",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.hurdat_id",
+            "Name": "HURDAT Identifier",
+            "Description": "Identifier per HURDAT (North Atlantic hurricane database)",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
             "Required": false
         },
         {
@@ -3201,14 +3209,6 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.itis_tsn_id",
-            "Name": "ITIS Taxon S/N Identifier",
-            "Description": "Unique Taxonomic Serial Number defined by the Integrated Taxonomic Information System - itis.gov",
-            "ObjectType": "type.rawstring",
-            "Unique": false,
-            "Required": false
-        },
-        {
             "Id": "dataworld.sameas.international_standard_recording_id",
             "Name": "International Standard Recording Identifier",
             "Description": "",
@@ -3321,6 +3321,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.irs_employer_identification_number",
+            "Name": "IRS Employer Identification Number",
+            "Description": "Number assigned to businesses by the United States Internal Revenue Service",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.isbn_10_id",
             "Name": "ISBN-10 Identifier",
             "Description": "Identifier for a book (edition), ten digit",
@@ -3417,6 +3425,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.iso_17442_legal_entity_id",
+            "Name": "ISO 17442 Legal Entity Identifier",
+            "Description": "Identifier for a legally distinct entity per ISO 17442",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.iso_3166_1_alpha_2_id",
             "Name": "ISO 3166-1 alpha-2 Identifier",
             "Description": "Identifier for a country in two-letter format per ISO 3166-1: Example: US",
@@ -3443,7 +3459,7 @@
         {
             "Id": "dataworld.sameas.iso_3166_2_id",
             "Name": "ISO 3166-2 Identifier",
-            "Description": "Identifier for a country subdivision per ISO 3166-2. Example: US-AL",
+            "Description": "Identifier for a country subdivision per ISO 3166-2. Example: US-AL, NO-03",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3553,9 +3569,17 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.itis_tsn_id",
+            "Name": "ITIS Taxon S/N Identifier",
+            "Description": "Unique Taxonomic Serial Number defined by the Integrated Taxonomic Information System - itis.gov",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.ittf_id",
             "Name": "ITTF Identifier",
-            "Description": "Identifier for a table tennis player per ITTF",
+            "Description": "Identifier for a table tennis player per ITTF - International Table Tennis Federation",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3841,6 +3865,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.latvian_company_id",
+            "Name": "Latvian company Identifier",
+            "Description": "ID for a company registered in the Latvian Company Registry, Latvijas Republikas Uzņēmumu reģistra, ur.gov.lv",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.latvian_cultural_heritage_register_id",
             "Name": "Latvian cultural heritage register Identifier",
             "Description": "ID of the cultural heritage on http://saraksts.mantojums.lv/, Example: 392",
@@ -3851,7 +3883,7 @@
         {
             "Id": "dataworld.sameas.latvian_national_address_register_id",
             "Name": "Latvian National Address Register Identifier",
-            "Description": "National Address Register classifier code (State Land Service of the Republic of Latvia)",
+            "Description": "National Address Register classifier code (State Land Service of the Republic of Latvia). Example: 100143987, kadastrs.lv/varis",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -3869,7 +3901,7 @@
             "Name": "LAU Identifier",
             "Description": "Identifier for a local administrative unit, renamed from NUTS 4 and NUTS 5. The upper LAU level (LAU level 1, formerly NUTS level 4) is defined for most, but not all of the countries. The lower LAU level (LAU level 2, formerly NUTS level 5) consists of municipalities or equivalent units in the 28 EU Member States. Examples: LAU2: 30101 ; LAU1: BLG52",
             "ObjectType": "type.rawstring",
-            "Unique": true,
+            "Unique": false,
             "Required": false
         },
         {
@@ -3892,14 +3924,6 @@
             "Id": "dataworld.sameas.iso_15707_iswc_id",
             "Name": "International Standard Musical Work Code Identifier",
             "Description": "Identifier for musical works, adopted as international standard ISO 15707",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.iso_17442_legal_entity_id",
-            "Name": "ISO 17442 Legal Entity Identifier",
-            "Description": "Identifier for a legally distinct entity per ISO 17442",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -4193,7 +4217,7 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.ministry_of_education_of_chile_school_id",
+            "Id": "dataworld.sameas.ministry_of_education_chile_school_id",
             "Name": "Ministry of Education of Chile school Identifier",
             "Description": "ID number (Rol Base de Datos, RBD, in Spanish, meaning database role) of all schools (high, middle, primary) in Chile, as registered by the Ministry of Education of Chile",
             "ObjectType": "type.rawstring",
@@ -4203,7 +4227,7 @@
         {
             "Id": "dataworld.sameas.ministry_of_education_nz_id",
             "Name": "Ministry of Education institution no. (NZ) Identifier",
-            "Description": "",
+            "Description": "New Zealand School Identifier",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -4212,14 +4236,6 @@
             "Id": "dataworld.sameas.minor_planet_center_observatory_id",
             "Name": "Minor Planet Center observatory Identifier",
             "Description": "Observational data for minor planets (asteroids) and comets",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.mix_n_match_catalog_id",
-            "Name": "Mix'n'match catalog Identifier",
-            "Description": "ID of the catalog corresponding to the property in the mix'n'match tool",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -4340,14 +4356,6 @@
             "Id": "dataworld.sameas.mtr_station_id",
             "Name": "MTR station Identifier",
             "Description": "Identifier for a station in Hong Kong issued by MTR",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.municipality_code_denmark_id",
-            "Name": "Municipality code (Denmark) Identifier",
-            "Description": "Identifier for municipalities in Denmark",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -4601,6 +4609,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.national_library_of_china_person_id",
+            "Name": "NLC authorities Identifier",
+            "Description": "Identifier for a person per National Library of China",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.national_library_of_ireland_authority_id",
             "Name": "National Library of Ireland authority Identifier",
             "Description": "National Library of Ireland (N6I) authority identifier",
@@ -4609,9 +4625,33 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.national_library_of_israel_author_id",
+            "Name": "NLI (Israel) Identifier",
+            "Description": "Identifier for authority control used at the National Library of Israel",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.national_library_of_medicine_id",
             "Name": "NLM Unique Identifier",
             "Description": "Identifier in the catalog of the National Library of Medicine, Example: D006073",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.national_library_of_poland_author_id",
+            "Name": "NLP (Poland) Identifier",
+            "Description": "Identifier for authority control per the National Library of Poland",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.national_library_of_romania_author_id",
+            "Name": "NLR (Romania) Identifier",
+            "Description": "Identifier for authority control used at the National Library of Romania",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -4857,38 +4897,6 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.nlc_authorities_id",
-            "Name": "NLC authorities Identifier",
-            "Description": "Identifier for a person per National Library of China",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.nli_israel_id",
-            "Name": "NLI (Israel) Identifier",
-            "Description": "Identifier for authority control used at the National Library of Israel",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.nlp_poland_id",
-            "Name": "NLP Identifier",
-            "Description": "Identifier for authority control per the National Library of Poland",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.nlr_romania_id",
-            "Name": "NLR (Romania) Identifier",
-            "Description": "Identifier for authority control used at the National Library of Romania",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
             "Id": "dataworld.sameas.nndb_people_id",
             "Name": "NNDB people Identifier",
             "Description": "Identifier in the Notable Names Database, a biographical database: only for people entries",
@@ -4921,6 +4929,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.norsk_filmografi_id",
+            "Name": "Norsk filmografi Identifier",
+            "Description": "Identifier from Norsk filmografi, published by the National Library of Norway",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.northwestern_university_library_id",
             "Name": "Northwestern University Library ID",
             "Description": "The catalog number for this item in Northwestern University Libraries' Online Public-Access Catalog - Northwestern OPAC.",
@@ -4929,9 +4945,9 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.norsk_filmografi_id",
-            "Name": "Norsk filmografi Identifier",
-            "Description": "Identifier from Norsk filmografi, published by the National Library of Norway",
+            "Id": "dataworld.sameas.norway_ccr_id",
+            "Name": "Norway Central Coordinating Register for Legal Entities Identifier",
+            "Description": "Identifier in Norway's  Central Coordinating Register for Legal Entities",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -4964,6 +4980,14 @@
             "Id": "dataworld.sameas.norway_import_service_and_registration_authority_publisher_id",
             "Name": "Norway Import Service and Registration Authority publisher Identifier",
             "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.norwegian_municipality_number_id",
+            "Name": "Norwegian municipality number ID",
+            "Description": "Unique identifier for municipalities of Norway. Example: 0127. First 2 are based on iso_3166_2. Third zero indicates the city. 0301 - Oslo.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -5467,7 +5491,7 @@
         {
             "Id": "dataworld.sameas.pubchem_substance_id",
             "Name": "PubChem Substance Identifier",
-            "Description": "Substance (e.g. mixtures, undefined stereochemistry, ...) identifier in the PubChem database.",
+            "Description": "Substance (e.g. mixtures, undefined stereochemistry) identifier in the PubChem database.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -5533,7 +5557,7 @@
             "Name": "Ranker.com Identifier",
             "Description": "Example: google/1087571, paul-ryan/1769648",
             "ObjectType": "type.rawstring",
-            "Unique": true,
+            "Unique": false,
             "Required": false
         },
         {
@@ -5661,7 +5685,7 @@
             "Name": "Rotten Tomatoes Identifier",
             "Description": "Identifier on Rotten Tomatoes: \"m/\" for movies, \"tv/\" for TV series (remove /s number on end unless the item is a specific season), \"celebrity/\" for celebrities, \"critic/\" for film critics, \"source-\" for review sources",
             "ObjectType": "type.rawstring",
-            "Unique": true,
+            "Unique": false,
             "Required": false
         },
         {
@@ -5796,6 +5820,14 @@
             "Id": "dataworld.sameas.selibr_id",
             "Name": "SELIBR Identifier",
             "Description": "Identifier per Libris library catalog",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.sepa_id",
+            "Name": "SEPA Identifier",
+            "Description": "Single Euro Payments Area Identifier",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -5987,7 +6019,7 @@
         {
             "Id": "dataworld.sameas.ssr_name_id",
             "Name": "SSR Name Identifier",
-            "Description": "Identifier for a place, used by Sentralt Stedsnavnregister in Norway for the purpose of giving that place an official name.",
+            "Description": "Identifier for a place, used by Sentralt Stedsnavnregister in Norway (Norwegian Mapping and Cadastre Authority) for the purpose of giving that place an official name.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -5995,7 +6027,7 @@
         {
             "Id": "dataworld.sameas.ssr_writtenform_id",
             "Name": "SSR WrittenForm Identifier",
-            "Description": "Identifier for the written form a place name, as used by Sentralt Stedsnavnregister in Norway",
+            "Description": "Identifier for the written form a place name, as used by Sentralt Stedsnavnregister in Norway (Norwegian Mapping and Cadastre Authority)",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -6321,8 +6353,24 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.thetvdb_id",
-            "Name": "TheTVDB.com ID",
+            "Id": "dataworld.sameas.thetvdb_episode_id",
+            "Name": "TheTVDB.com Episode ID",
+            "Description": "Identifier for a TV show episode.",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.thetvdb_season_id",
+            "Name": "TheTVDB.com Season ID",
+            "Description": "Identifier for a TV season.",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.thetvdb_series_id",
+            "Name": "TheTVDB.com Series ID",
             "Description": "Identifier for a TV show. Example: 74889",
             "ObjectType": "type.rawstring",
             "Unique": true,
@@ -6401,7 +6449,23 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.tvrage_id",
+            "Id": "dataworld.sameas.tvrage_episode_id",
+            "Name": "TV Rage Episode ID",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.tvrage_person_id",
+            "Name": "TV Rage Person ID",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.tvrage_series_id",
             "Name": "TV Rage Series ID",
             "Description": "Example: 20948",
             "ObjectType": "type.rawstring",
@@ -6681,6 +6745,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.usop_cz_id",
+            "Name": "ÚSOP Identifier",
+            "Description": "Identifier in drusop.nature.cz, a national database of protected areas and trees",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.vaccine_ontology_id",
             "Name": "Vaccine Ontology Identifier",
             "Description": "Identifier in the Vaccine Ontology database",
@@ -6777,6 +6849,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.wikidata_id",
+            "Name": "Wikidata Identifier",
+            "Description": "Wikidata identifier for objects and properties. Ex: Q95 (Entity) or P1297 (Property)",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.wikimedia_database_name_id",
             "Name": "Wikimedia database name Identifier",
             "Description": "Identifier for a Wikimedia project database",
@@ -6793,11 +6873,43 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.wikimedia_page_id",
+            "Name": "Wikimedia Page Identifier",
+            "Description": "Identifier for a file, stored in Wikimedia. Example: 12456",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.wikimedia_title_id",
+            "Name": "Wikimedia File Identifier",
+            "Description": "The filename of the object stored in Wikimedia. Example: File:Flydubai_Boeing_737-800_(A6-FDN).jpg",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.wikipathways_id",
             "Name": "WikiPathways Identifier",
             "Description": "Describes in which biological pathways a biological entity occurs",
             "ObjectType": "type.rawstring",
             "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.wikipedia_page_number_id",
+            "Name": "Wikipedia Page Number Identifier",
+            "Description": "Page Number identifier for all language editions of Wikipedia. The id should contain the edition. ex: en/1092923 and fr/1249",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.wikipedia_page_title_id",
+            "Name": "Wikipedia Page Title Identifier",
+            "Description": "Page Title identifier for all language editions of Wikipedia. The id should contain the edition. ex: en/Google and fr/Google",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
             "Required": false
         },
         {
@@ -7012,46 +7124,6 @@
             "Id": "dataworld.sameas.zvg_number_id",
             "Name": "ZVG number Identifier",
             "Description": "Identifier of GESTIS database",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.usop_cz_id",
-            "Name": "ÚSOP Identifier",
-            "Description": "Identifier in drusop.nature.cz, a national database of protected areas and trees",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.irs_employer_identification_number",
-            "Name": "IRS Employer Identification Number",
-            "Description": "Number assigned to businesses by the United States Internal Revenue Service",
-            "ObjectType": "type.rawstring",
-            "Unique": false,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.wikipedia_page_number_id",
-            "Name": "Wikipedia Page Number Identifier",
-            "Description": "Page Number identifier for all language editions of Wikipedia. The id should contain the edition. ex: en/1092923 and fr/1249",
-            "ObjectType": "type.rawstring",
-            "Unique": false,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.wikipedia_page_title_id",
-            "Name": "Wikipedia Page Title Identifier",
-            "Description": "Page Title identifier for all language editions of Wikipedia. The id should contain the edition. ex: en/Google and fr/Google",
-            "ObjectType": "type.rawstring",
-            "Unique": false,
-            "Required": false
-        },
-        {
-            "Id": "dataworld.sameas.wikidata_id",
-            "Name": "Wikidata Identifier",
-            "Description": "Wikidata identifier for objects and properties. Ex: Q95 (Entity) or P1297 (Property)",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false

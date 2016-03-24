@@ -52,7 +52,7 @@
             "Id": "business.issue.trading_symbol",
             "Name": "Trading symbol",
             "Description": "",
-            "ObjectType": "business.stock_ticker",
+            "ObjectType": "finance.stock_ticker_symbol",
             "Unique": false,
             "Required": false
         },
