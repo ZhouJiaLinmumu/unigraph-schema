@@ -70,7 +70,7 @@
         {
             "Id": "location.country.second_level_divisions",
             "Name": "Second level divisions",
-            "Description": "The second level administrative divisions of this country, typically counties, cantons, departments, districts, etc...",
+            "Description": "The second level administrative divisions of this country, typically counties, cantons, departments, districts, etc.",
             "ObjectType": "location.administrative_division",
             "Unique": false,
             "Required": false

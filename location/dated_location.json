@@ -15,7 +15,7 @@
             "Description": "",
             "ObjectType": "type.datetime",
             "Unique": true,
-            "Required": true
+            "Required": false
         },
         {
             "Id": "location.dated_location.date_founded",

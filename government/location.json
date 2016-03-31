@@ -1,7 +1,7 @@
 {
     "Id": "government.location",
     "Name": "Location",
-    "Description": "The physical  location a government or a government agency redises",
+    "Description": "The physical location a government or a government agency resides",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic",

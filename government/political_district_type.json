@@ -1,0 +1,13 @@
+{
+    "Id": "government.political_district_type",
+    "Name": "Political District Type",
+    "Description": "The Type of the political district: County, Borough, etc.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "location.location",
+        "location.dated_location",
+        "common.topic"
+    ],
+    "Enumerated": true,
+    "Properties": null
+}

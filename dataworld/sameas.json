@@ -163,7 +163,15 @@
         {
             "Id": "dataworld.sameas.allmusic_album_id",
             "Name": "AllMusic album Identifier",
-            "Description": "Identifier for an album in the AllMusic (allmusic.com) database",
+            "Description": "Identifier for an album in the AllMusic (allmusic.com) database. Example: mw0000446433",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.allmusic_album_release_id",
+            "Name": "AllMusic album release Identifier",
+            "Description": "Identifier for an album release in the AllMusic (allmusic.com) database. Example: mr0002676830",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -171,7 +179,7 @@
         {
             "Id": "dataworld.sameas.allmusic_artist_id",
             "Name": "AllMusic artist Identifier",
-            "Description": "Identifier for an artist in the AllMusic (allmusic.com) database",
+            "Description": "Identifier for an artist in the AllMusic (allmusic.com) database. Example: mn0000229268",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -179,7 +187,15 @@
         {
             "Id": "dataworld.sameas.allmusic_composition_id",
             "Name": "AllMusic composition Identifier",
-            "Description": "Identifier for a composition in the AllMusic (allmusic.com) database",
+            "Description": "Identifier for a composition in the AllMusic (allmusic.com) database. Example: mc0002374428",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.allmusic_performance_id",
+            "Name": "AllMusic performance Identifier",
+            "Description": "Identifier for a performance in the AllMusic (allmusic.com) database. Example: mq0001278117",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -187,7 +203,7 @@
         {
             "Id": "dataworld.sameas.allmusic_song_id",
             "Name": "AllMusic song Identifier",
-            "Description": "Identifier for a song in the AllMusic (allmusic.com) database",
+            "Description": "Identifier for a song in the AllMusic (allmusic.com) database.  Example: mt0052779568",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -2633,6 +2649,22 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.goodreads_book_id",
+            "Name": "GoodReads Book ID",
+            "Description": "Identifier for a book on goodreads.com. Example: 17241697",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.goodreads_user_id",
+            "Name": "GoodReads Book ID",
+            "Description": "Identifier for a user on goodreads.com. Example: 7042757, shaaaaawn",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.google_books_id",
             "Name": "Google Books Identifier",
             "Description": "Identifier for a book that Google has scanned",
@@ -2929,17 +2961,17 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.iata_airport_id",
-            "Name": "IATA airport Identifier",
-            "Description": "Three-letter identifier for designating airports",
+            "Id": "dataworld.sameas.iata_airline_id",
+            "Name": "IATA airline Identifier",
+            "Description": "IATA airline designators, (IATA reservation codes), are two-character codes assigned by the International Air Transport Association. They form the first two characters of the flight number. Airline designator codes follow the format xx(a), i.e., two alphanumeric characters (letters or digits) followed by an optional letter. Note there can be duplicate codes issued to regional airlines where there is no known overlap (controlled duplicates). Examples: MH, TK",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.iata_airline_id",
-            "Name": "IATA airline Identifier",
-            "Description": "IATA airline designators, (IATA reservation codes), are two-character codes assigned by the International Air Transport Association. They form the first two characters of the flight number. Airline designator codes follow the format xx(a), i.e., two alphanumeric characters (letters or digits) followed by an optional letter. Note there can be duplicate codes issued to regional airlines where there is no known overlap (controlled duplicates). Examples: MH, TK",
+            "Id": "dataworld.sameas.iata_airport_id",
+            "Name": "IATA airport Identifier",
+            "Description": "Three-letter identifier for designating airports",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -4389,7 +4421,7 @@
             "Name": "MusicBrainz artist Identifier",
             "Description": "Identifier for an artist per the MusicBrainz open music encyclopedia. Example: bd4c7cdb-14e2-4ce8-a40f-cc54fe21cf0a",
             "ObjectType": "type.rawstring",
-            "Unique": true,
+            "Unique": false,
             "Required": false
         },
         {
@@ -5057,11 +5089,11 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.oclc_control_number_id",
-            "Name": "OCLC control number Identifier",
-            "Description": "Identifier from the Online Computer Library Center",
+            "Id": "dataworld.sameas.nytimes_topic_id",
+            "Name": "New York Times Topic Identifier",
+            "Description": "Identifier for a topic on the nytimes.com website. Example: people/a/aaliyah",
             "ObjectType": "type.rawstring",
-            "Unique": true,
+            "Unique": false,
             "Required": false
         },
         {
@@ -5353,14 +5385,6 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.pmc_id",
-            "Name": "PMC Identifier",
-            "Description": "Identifier issued by PubMed Central",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
             "Id": "dataworld.sameas.politifact_personality_id",
             "Name": "Politifact Personality Identifier",
             "Description": "Person or group whose statements have been fact checked by Politifact.com",
@@ -5505,6 +5529,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.pubmed_central_id",
+            "Name": "PMC Identifier",
+            "Description": "Identifier issued by PubMed Central",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.pubmed_health_id",
             "Name": "PubMed Health Identifier",
             "Description": "Identifier published by the PubMed Health website",
@@ -5513,7 +5545,7 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.pubmed_id",
+            "Id": "dataworld.sameas.pubmed_publication_id",
             "Name": "PubMed Identifier",
             "Description": "Identifier for journal articles/abstracts in PubMed",
             "ObjectType": "type.rawstring",
@@ -5937,7 +5969,7 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.soundcloud_id",
+            "Id": "dataworld.sameas.soundcloud_user_id",
             "Name": "SoundCloud Username",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -6577,11 +6609,11 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.unigraph_candiddate_object",
+            "Id": "dataworld.sameas.unigraph_candidate_object",
             "Name": "Unigraph Candidate Object",
             "Description": "Most likely matching an existing object in Unigraph",
             "ObjectType": "type.object",
-            "Unique": true,
+            "Unique": false,
             "Required": false
         },
         {
@@ -6972,6 +7004,14 @@
             "Id": "dataworld.sameas.worldcat_fast_linked_data_id",
             "Name": "FAST Linked Data Identifier",
             "Description": "Authority control identifier in WorldCat's Faceted Application of Subject Terminology - “FAST Linked Data” authority file",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.worldcat_oclc_control_number_id",
+            "Name": "OCLC control number Identifier",
+            "Description": "Identifier from the Online Computer Library Center. worldcat.org/oclc",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
