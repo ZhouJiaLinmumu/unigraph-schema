@@ -1,0 +1,12 @@
+{
+    "Id": "dataworld.authority",
+    "Name": "Authority",
+    "Description": "An authority responsible for the issuing and maintaining unique IDs of any kind.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "organization.organization"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

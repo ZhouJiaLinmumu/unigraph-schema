@@ -1,0 +1,66 @@
+{
+    "Id": "dataworld.authority_control",
+    "Name": "Authority control",
+    "Description": "This compound type holds information about unique identifiers and the authorities that issue them.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Id": "dataworld.authority_control.property",
+            "Name": "SameAs Property",
+            "Description": "The dataworld.sameas property",
+            "ObjectType": "type.property",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "dataworld.authority_control.authority",
+            "Name": "Authority",
+            "Description": "The issuing authority. Could be an international organization like ISO or a website like twitter.com",
+            "ObjectType": "dataworld.authority",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "dataworld.authority_control.format_id",
+            "Name": "ID Format",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Id": "dataworld.authority_control.encode_url",
+            "Name": "Encode URL",
+            "Description": "The url which when combined with the ID leads to its authority profile.",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.authority_control.decode_urls",
+            "Name": "Decode URLs",
+            "Description": "The URLs from which the ID is extracted.",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.authority_control.example_ids",
+            "Name": "Example IDs",
+            "Description": "",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.authority_control.covered_types",
+            "Name": "The types that this ID covers",
+            "Description": "For example an IMDBM actor ID is an Identifier for people.person",
+            "ObjectType": "type.type",
+            "Unique": false,
+            "Required": true
+        }
+    ]
+}
