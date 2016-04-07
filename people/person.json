@@ -28,7 +28,7 @@
             "Id": "people.person.first_name",
             "Name": "First Name",
             "Description": "",
-            "ObjectType": "people.first_name",
+            "ObjectType": "type.text",
             "Unique": true,
             "Required": false
         },
@@ -36,7 +36,7 @@
             "Id": "people.person.family_name",
             "Name": "Family name",
             "Description": "",
-            "ObjectType": "people.family_name",
+            "ObjectType": "type.text",
             "Unique": true,
             "Required": false
         },
