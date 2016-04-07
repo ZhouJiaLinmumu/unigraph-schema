@@ -137,14 +137,6 @@
             "Required": false
         },
         {
-            "Id": "chemistry.chemical_element.symbol",
-            "Name": "Symbol",
-            "Description": "",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
             "Id": "chemistry.chemical_element.van_der_waals_radius",
             "Name": "Van der Waals radius",
             "Description": "",

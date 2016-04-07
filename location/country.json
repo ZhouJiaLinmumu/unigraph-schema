@@ -12,14 +12,6 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.country.calling_code",
-            "Name": "Calling Code",
-            "Description": "The country code needed to make a telephone call to this country from another country.",
-            "ObjectType": "type.int",
-            "Unique": true,
-            "Required": false
-        },
-        {
             "Id": "location.country.capital",
             "Name": "Capital",
             "Description": "",

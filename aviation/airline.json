@@ -12,14 +12,6 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "aviation.airline.callsign",
-            "Name": "Callsign",
-            "Description": "",
-            "ObjectType": "type.rawstring",
-            "Unique": false,
-            "Required": false
-        },
-        {
             "Id": "aviation.airline.fleet_size",
             "Name": "Fleet size",
             "Description": "",
