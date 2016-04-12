@@ -1,7 +1,7 @@
 {
     "Id": "organization.leadership",
     "Name": "Organization leadership",
-    "Description": "A date-mediated compound-value type that holds information about the relationship between leaders of organizations and the roles and titles they've held at those organizations. Leadership roles are typically executive level roles/titles such as CEO, president, vice-president, director, etc. Announced future leadership roles will have an announcement date (if known) and no values set for '/organization/leadership/from'.",
+    "Description": "A date-mediated compound-value type that holds information about the relationship between leaders of organizations and the roles and titles they've held at those organizations. Leadership roles are typically executive level roles/titles such as CEO, president, vice-president, director, etc.",
     "Mediator": true,
     "ExpectedTypes": null,
     "Enumerated": false,
