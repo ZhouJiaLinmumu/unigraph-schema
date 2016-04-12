@@ -1641,6 +1641,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.danish_parliament_group_id",
+            "Name": "Identifier of a Political Group in the Danish Parliament",
+            "Description": "Example: F9E65D32-6F2F-4762-A7D5-56DCD0FC9BAF. Source: thedanishparliament.dk",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.danish_urban_area_id",
             "Name": "Danish urban area Identifier",
             "Description": "Official identifier for an urban area in Denmark",
@@ -2292,6 +2300,14 @@
             "Id": "dataworld.sameas.europeana_id",
             "Name": "Europeana Identifier",
             "Description": "Identifier in europeana.eu for books, paintings, films, museum objects and archival records that have been digitised throughout Europe",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.everypolitician_dot_org_id",
+            "Name": "Everypolitician.org Identifier",
+            "Description": "Identifier for a politician on the everypolitician.org website.",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -6353,6 +6369,14 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.slovak_ico_id",
+            "Name": "Slovak Company Number Identifier (ICO)",
+            "Description": "Slovak Company Identification Number - Identifikačné číslo organizácie (ICO) as issued by the Obchodny Rregister (Business Register) of the Slovak Republic. Governed by the Ministry of Justice (Ministerstvo Spradlivosti). orsr.sk, Example: 00149837",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.slovene_cultural_heritage_register_id",
             "Name": "Slovene Cultural Heritage Register Identifier",
             "Description": "Identifier for a cultural monument in the Slovene Cultural Heritage Register",
@@ -6955,7 +6979,7 @@
         {
             "Id": "dataworld.sameas.tvguide_movie_id",
             "Name": "TVGuide Movie ID",
-            "Description": "Example: 829831",
+            "Description": "Example: 191530",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
