@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "geography.body_of_water.depth",
+            "Id": "geography.body_of_water.max_depth",
             "Name": "Max. depth",
             "Description": "Maximum depth of the body of water.",
             "ObjectType": "measured_dimension.distance",
