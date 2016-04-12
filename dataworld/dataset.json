@@ -1,7 +1,7 @@
 {
     "Id": "dataworld.dataset",
     "Name": "Dataset",
-    "Description": "A web resource (csv, xlsx, json) which holds the knowledge",
+    "Description": "A web resource (csv, xlsx) which holds the knowledge",
     "Mediator": false,
     "ExpectedTypes": [
         "common.document"

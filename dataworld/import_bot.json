@@ -17,11 +17,19 @@
             "Required": true
         },
         {
-            "Id": "dataworld.import_bot.datasets",
+            "Id": "dataworld.import_bot.dataset",
             "Name": "Datasets",
             "Description": "",
             "ObjectType": "dataworld.dataset",
             "Unique": false,
+            "Required": true
+        },
+        {
+            "Id": "dataworld.import_bot.author",
+            "Name": "Author",
+            "Description": "",
+            "ObjectType": "type.user",
+            "Unique": true,
             "Required": true
         }
     ]

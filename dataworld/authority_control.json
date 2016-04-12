@@ -1,7 +1,7 @@
 {
     "Id": "dataworld.authority_control",
     "Name": "Authority control",
-    "Description": "This compound type holds information about unique identifiers and the authorities that issue them.",
+    "Description": "This type holds information about property identifiers and the authorities that issue them.",
     "Mediator": true,
     "ExpectedTypes": null,
     "Enumerated": false,
@@ -20,22 +20,22 @@
             "Description": "The issuing authority. Could be an international organization like ISO or a website like twitter.com",
             "ObjectType": "dataworld.authority",
             "Unique": true,
-            "Required": true
+            "Required": false
         },
         {
             "Id": "dataworld.authority_control.format_id",
-            "Name": "ID Format",
+            "Name": "Regex ID Format",
             "Description": "",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": true
         },
         {
-            "Id": "dataworld.authority_control.encode_url",
+            "Id": "dataworld.authority_control.encode_urls",
             "Name": "Encode URL",
             "Description": "The url which when combined with the ID leads to its authority profile.",
             "ObjectType": "type.rawstring",
-            "Unique": true,
+            "Unique": false,
             "Required": false
         },
         {
@@ -60,7 +60,31 @@
             "Description": "For example an IMDBM actor ID is an Identifier for people.person",
             "ObjectType": "type.type",
             "Unique": false,
-            "Required": true
+            "Required": false
+        },
+        {
+            "Id": "dataworld.authority_control.related_properties",
+            "Name": "Related properties",
+            "Description": "Properties that relates to the same subject or authority",
+            "ObjectType": "type.property",
+            "Unique": false,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.authority_control.subdomain_agnostic",
+            "Name": "Subdomain Agnostic Authority",
+            "Description": "Subdomain does not play an important role for correct disambiguation",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.authority_control.source_website",
+            "Name": "Source Website",
+            "Description": "An internet webpage or document where one can learn more about the information being tracked",
+            "ObjectType": "type.uri",
+            "Unique": false,
+            "Required": false
         }
     ]
 }
