@@ -2473,6 +2473,22 @@
             "Required": false
         },
         {
+            "Id": "dataworld.sameas.filmstarts_dot_de_movie_id",
+            "Name": "Filmstarts.de Movie Identifier",
+            "Description": "Movie Identifier on the filmstarts.de website. Example: 178151",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.filmstarts_dot_de_person_id",
+            "Name": "Filmstarts.de Person Identifier",
+            "Description": "Person Identifier on the filmstarts.de website. Example: 101371",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
             "Id": "dataworld.sameas.find_a_grave_cemetery_id",
             "Name": "Find A Grave cemetery Identifier",
             "Description": "The assigned identifier for a cemetery at Find A Grave",
@@ -5529,9 +5545,25 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.open_library_id",
-            "Name": "Open Library Identifier",
-            "Description": "Identifier for works, editions and authors. openlibrary.org, Examples: OL36858W, OL3156833A",
+            "Id": "dataworld.sameas.open_library_author_id",
+            "Name": "Open Library Author Identifier",
+            "Description": "Author Identifier at openlibrary.org, Example: OL3156833A",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.open_library_book_id",
+            "Name": "Open Library Book Identifier",
+            "Description": "Book Identifier at openlibrary.org, Example: OL16899776M",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.open_library_work_id",
+            "Name": "Open Library Work Identifier",
+            "Description": "Work Identifier at openlibrary.org, Examples: OL36858W",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
