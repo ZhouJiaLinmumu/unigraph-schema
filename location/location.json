@@ -41,17 +41,17 @@
             "Required": false
         },
         {
-            "Id": "location.location.contains",
-            "Name": "Contains",
-            "Description": "Other locations completely within the boundaries of this location. Use \"Partially Contains\" for partial containment; use \"Coterminous With\" if they have the exact same boundary.",
+            "Id": "location.location.contained_by",
+            "Name": "Contained by",
+            "Description": "Other locations that this completely falls within the boundaries of.",
             "ObjectType": "location.location",
             "Unique": false,
             "Required": false
         },
         {
-            "Id": "location.location.contains_major_portion_of",
-            "Name": "Contains major portion of",
-            "Description": "Locations which are primarily but not completely contained by this one. For example, North America contains the major portion of the United States (but not Hawaii). This property is not meant to be used instead of partially_contains but in addition to it, to denote that a location has a major part in its container but is not completely contained by it.",
+            "Id": "location.location.primarily_contained_by",
+            "Name": "Primarily contained by",
+            "Description": "Locations which contain major portions of this one. For example, the United States is primarily contained by North America (except for Hawaii). This property is not meant to be used instead of partially_contained_by but in addition to it, to denote that a location contains a major part of another yet is not completely containing it.",
             "ObjectType": "location.location",
             "Unique": false,
             "Required": false
@@ -81,9 +81,9 @@
             "Required": false
         },
         {
-            "Id": "location.location.partially_contains",
-            "Name": "Partially contains",
-            "Description": "DEPRECATED. Use the /location/location/partiallycontains property instead.",
+            "Id": "location.location.partially_contained_by",
+            "Name": "Partially contained by",
+            "Description": "Location(s) in which parts of this location are included. For example, a national park can be split between two countries. A lake or a river falls into the territory of more than one country.",
             "ObjectType": "location.location",
             "Unique": false,
             "Required": false
