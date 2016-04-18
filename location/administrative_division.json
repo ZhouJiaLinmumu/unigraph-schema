@@ -18,6 +18,38 @@
             "ObjectType": "location.country",
             "Unique": true,
             "Required": false
+        },
+        {
+            "Id": "location.administrative_division.first_level_division_of",
+            "Name": "First level division of",
+            "Description": "The country that this region, state, province etc. is first level administrative division of.",
+            "ObjectType": "location.country",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "location.administrative_division.second_level_division_of",
+            "Name": "Second level division of",
+            "Description": "The country that this county, canton, department, district, etc. is second level administrative division of.",
+            "ObjectType": "location.country",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "location.administrative_division.third_level_division_of",
+            "Name": "Third level division of",
+            "Description": "Administratively, third-level divisions have two levels of administration between their governments and the national government.",
+            "ObjectType": "location.country",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "location.administrative_division.fourth_level_division_of",
+            "Name": "Fourth level division of",
+            "Description": "Administratively, fourth-level divisions have three levels of administration between their governments and the national government.",
+            "ObjectType": "location.country",
+            "Unique": true,
+            "Required": false
         }
     ]
 }

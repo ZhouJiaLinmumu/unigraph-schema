@@ -11,5 +11,14 @@
         "location.administrative_division"
     ],
     "Enumerated": false,
-    "Properties": null
+    "Properties": [
+        {
+            "Id": "location.fr_department.region",
+            "Name": "Region",
+            "Description": "The Region the department belongs to",
+            "ObjectType": "location.fr_region",
+            "Unique": false,
+            "Required": false
+        }
+    ]
 }

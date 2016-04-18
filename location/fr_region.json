@@ -11,14 +11,5 @@
         "location.administrative_division"
     ],
     "Enumerated": false,
-    "Properties": [
-        {
-            "Id": "location.fr_region.departments",
-            "Name": "Departments",
-            "Description": "",
-            "ObjectType": "location.fr_department",
-            "Unique": false,
-            "Required": false
-        }
-    ]
+    "Properties": null
 }

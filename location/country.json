@@ -20,26 +20,10 @@
             "Required": false
         },
         {
-            "Id": "location.country.first_level_divisions",
-            "Name": "First level divisions",
-            "Description": "The first level administrative divisions of this country, typically regions, states, provinces, etc.",
-            "ObjectType": "location.administrative_division",
-            "Unique": false,
-            "Required": false
-        },
-        {
             "Id": "location.country.government_form",
             "Name": "Form of Government",
             "Description": "The form or style of government (i.e. federal republic, monarchy, etc.) of this country.",
             "ObjectType": "location.government_form",
-            "Unique": false,
-            "Required": false
-        },
-        {
-            "Id": "location.country.fourth_level_divisions",
-            "Name": "Fourth level divisions",
-            "Description": "Fourth-level administrative divisions of this country. Administratively, fourth-level divisions have three levels of administration between their governments and the national government.",
-            "ObjectType": "location.administrative_division",
             "Unique": false,
             "Required": false
         },
@@ -56,22 +40,6 @@
             "Name": "Official Language",
             "Description": "",
             "ObjectType": "location.language",
-            "Unique": false,
-            "Required": false
-        },
-        {
-            "Id": "location.country.second_level_divisions",
-            "Name": "Second level divisions",
-            "Description": "The second level administrative divisions of this country, typically counties, cantons, departments, districts, etc.",
-            "ObjectType": "location.administrative_division",
-            "Unique": false,
-            "Required": false
-        },
-        {
-            "Id": "location.country.third_level_divisions",
-            "Name": "Third level divisions",
-            "Description": "Third-level administrative divisions of this country. Administratively, third-level divisions have two levels of administration between their governments and the national government.",
-            "ObjectType": "location.administrative_division",
             "Unique": false,
             "Required": false
         }
