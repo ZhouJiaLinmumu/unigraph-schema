@@ -1,7 +1,7 @@
 {
     "Id": "organization.board_member_title",
     "Name": "Board Member Title",
-    "Description": "A board member title is a title held by a member of a board of directors of a company or organization. This type is deprecated, will be deleted and migrated.",
+    "Description": "A board member title is a title held by a member of a board of directors of a company or organization.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"

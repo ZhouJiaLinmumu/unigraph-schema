@@ -1,7 +1,7 @@
 {
     "Id": "common.phone_number",
     "Name": "Phone Number",
-    "Description": "'Phone Number' is a common type, used by many other types in the system. The format is simplified in an effort to most easily support many international formats. It consists of only two properties, a country code and a number - which can also include other local information such as area codes. This is captured as a raw string to support as many formats as possible.  Note: this is a compound value type, which means it is typically not a named topic but instead is referenced by properties in other topics. For instance, a restaurant type might include a phone number.",
+    "Description": "'Phone Number' is a common type, used by many other types in the system. The format is simplified in an effort to most easily support many international formats. It consists of only two properties, a country code and a number - which can also include other local information such as area codes. This is captured as a raw string to support as many formats as possible. Note: this is a compound value type, which means it is typically not a named topic but instead is referenced by properties in other topics. For instance, a restaurant type might include a phone number.",
     "Mediator": true,
     "ExpectedTypes": null,
     "Enumerated": false,

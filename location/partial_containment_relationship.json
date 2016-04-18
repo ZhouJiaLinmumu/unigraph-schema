@@ -33,7 +33,7 @@
         {
             "Id": "location.partial_containment_relationship.percent_area",
             "Name": "Percent area",
-            "Description": "The percentage of partial containment (overlap) of the partially-contained location. That is to say, if this relationship is showing \"Russia is partially contained by Europe\", then this property should be the percent of Russia's area that is in Europe.",
+            "Description": "The percentage of partial containment (overlap) of the partially-contained location. If this relationship is showing \"Russia is partially contained by Europe\", then this property should be the percent of Russia's area in Europe.",
             "ObjectType": "type.float",
             "Unique": true,
             "Required": false

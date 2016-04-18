@@ -1,7 +1,7 @@
 {
     "Id": "business.employee",
     "Name": "Employee",
-    "Description": "An employee works for a company or organizaion.",
+    "Description": "An employee works for a company or organization.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic",

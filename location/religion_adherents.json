@@ -1,6 +1,6 @@
 {
     "Id": "location.religion_adherents",
-    "Name": "Religion percentage",
+    "Name": "Religion adherents",
     "Description": "Documents how many people living in a given location are of a certain religion.",
     "Mediator": true,
     "ExpectedTypes": null,
