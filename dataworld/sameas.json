@@ -2857,14 +2857,6 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.gnd_id",
-            "Name": "GND Identifier",
-            "Description": "Identifier from an international authority file of names, subjects, and organizations",
-            "ObjectType": "type.rawstring",
-            "Unique": true,
-            "Required": false
-        },
-        {
             "Id": "dataworld.sameas.gnis_antarctica_id",
             "Name": "GNIS Antarctica Identifier",
             "Description": "Identifier for geographic objects in Antarctica, used in the US Geological Survey's Geographic Names Information System.",
@@ -4361,19 +4353,51 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.linkedin_company_id",
-            "Name": "LinkedIn Company Identifier",
-            "Description": "Name or ID. Example: nokia, zoho-corporation_38373",
+            "Id": "dataworld.sameas.linkedin_company_name_id",
+            "Name": "LinkedIn Company Name Identifier",
+            "Description": "Vanity name chosen by a company on LinkedIn. Example: nokia, zoho-corporation_38373",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.linkedin_company_number_id",
+            "Name": "LinkedIn Company Number Identifier",
+            "Description": "Identifier of a company on LinkedIn. Example: 1207446",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.linkedin_ed_institution_number_id",
+            "Name": "LinkedIn Educational Institution Number Identifier",
+            "Description": "Identifier for an educational institution (school or University) on LinkedIn. Example: 12835",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.linkedin_group_number_id",
+            "Name": "LinkedIn Group Number Identifier",
+            "Description": "Identifier for a group on LinkedIn. Example: 6940520",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.linkedin_person_name_id",
+            "Name": "LinkedIn Person Name Identifier",
+            "Description": "Name. Examples: in/benelowitz",
             "ObjectType": "type.rawstring",
             "Unique": false,
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.linkedin_person_id",
-            "Name": "LinkedIn Person Identifier",
-            "Description": "Name or ID. Examples: in/benelowitz",
+            "Id": "dataworld.sameas.linkedin_person_number_id",
+            "Name": "LinkedIn Person Number Identifier",
+            "Description": "Unique Identifier. Examples: 1234546, 12345",
             "ObjectType": "type.rawstring",
-            "Unique": false,
+            "Unique": true,
             "Required": false
         },
         {
@@ -4441,7 +4465,7 @@
             "Required": false
         },
         {
-            "Id": "dataworld.sameas.léonore_id",
+            "Id": "dataworld.sameas.leonore_id",
             "Name": "Léonore Identifier",
             "Description": "Identifier of a person in the Léonore database",
             "ObjectType": "type.rawstring",
@@ -5772,6 +5796,14 @@
             "Id": "dataworld.sameas.philippine_standard_geographic_id",
             "Name": "Philippine Standard Geographic Identifier",
             "Description": "Systematic classification and coding of geographic areas of the Philippines.",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.pinterest_user_id",
+            "Name": "Pinterest.com username",
+            "Description": "Username on pinterest.com. Examples: royalpalms, OceanFinance, layer3dnl",
             "ObjectType": "type.rawstring",
             "Unique": true,
             "Required": false
@@ -7414,6 +7446,38 @@
             "Description": "Identifier in the VIOLIN database for vaccines and related subjects",
             "ObjectType": "type.rawstring",
             "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.vimeo_channel_id",
+            "Name": "Vimeo.com channel identifier",
+            "Description": "Unique identifier for a channel on vimeo.com",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.vimeo_user_id",
+            "Name": "Vimeo.com username",
+            "Description": "Unique identifier for a user on vimeo.com",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.vimeo_video_id",
+            "Name": "Vimeo.com video identifier",
+            "Description": "Unique identifier for a video on vimeo.com",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Id": "dataworld.sameas.vkontakte_id",
+            "Name": "Vk.com / vkontakte.ru id",
+            "Description": "Identifier for a community group or user on vk.com / vkontakte.ru. Example: club2195620",
+            "ObjectType": "type.rawstring",
+            "Unique": false,
             "Required": false
         },
         {
