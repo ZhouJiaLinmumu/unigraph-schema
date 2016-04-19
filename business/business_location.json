@@ -56,6 +56,14 @@
             "ObjectType": "type.rawstring",
             "Unique": false,
             "Required": false
+        },
+        {
+            "Id": "business.business_location.in_shopping_center",
+            "Name": "Part of Shopping Center",
+            "Description": "Records a relation between the shopping location and the shopping center it is located in.",
+            "ObjectType": "business.shopping_center",
+            "Unique": false,
+            "Required": false
         }
     ]
 }

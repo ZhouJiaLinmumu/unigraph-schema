@@ -56,14 +56,6 @@
             "ObjectType": "measured_dimension.area",
             "Unique": true,
             "Required": false
-        },
-        {
-            "Id": "business.shopping_center.store",
-            "Name": "Stores",
-            "Description": "",
-            "ObjectType": "business.business_location",
-            "Unique": false,
-            "Required": false
         }
     ]
 }
