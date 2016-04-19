@@ -143,7 +143,7 @@ This makes domains indipendant and keeps the schema clean.
 <a name="sameas"/>
 ###SameAs
 
-In the domain Dataworld, we have created a type `dataworld.sameas` which contains more than 800 properties linking data from external repositories of information to UniGraph. Many include examples.
+In the domain Dataworld, we have created a type `dataworld.sameas` which contains more than **1600** properties linking data from external repositories of information to UniGraph. Many include examples.
 
 ```json
         {
