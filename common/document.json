@@ -63,6 +63,14 @@
             "ObjectType": "common.file_format",
             "Unique": true,
             "Required": false
+        },
+        {
+            "Id": "common.document.authority",
+            "Name": "Document Authority",
+            "Description": "The organization compiling and controlling the content of the document.",
+            "ObjectType": "common.document_authority",
+            "Unique": true,
+            "Required": false
         }
     ]
 }

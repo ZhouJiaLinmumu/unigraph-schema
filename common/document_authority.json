@@ -1,0 +1,11 @@
+{
+    "Id": "common.document_authority",
+    "Name": "Document Authority",
+    "Description": "The authority organization of a document",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}
