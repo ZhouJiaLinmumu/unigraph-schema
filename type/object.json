@@ -7,35 +7,11 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "type.object.creator",
-            "Name": "Creator",
-            "Description": "The user who initially created this object",
-            "ObjectType": "type.user",
-            "Unique": true,
-            "Required": true
-        },
-        {
             "Id": "type.object.name",
             "Name": "Name",
             "Description": "A textual display name",
             "ObjectType": "type.text",
-            "Unique": true,
-            "Required": true
-        },
-        {
-            "Id": "type.object.permission",
-            "Name": "Permission",
-            "Description": "The users and usergroups who have write permissions for this object.",
-            "ObjectType": "type.usergroup",
-            "Unique": true,
-            "Required": true
-        },
-        {
-            "Id": "type.object.timestamp",
-            "Name": "Timestamp",
-            "Description": "The creation time of this primitive.",
-            "ObjectType": "type.datetime",
-            "Unique": true,
+            "Unique": false,
             "Required": true
         },
         {
