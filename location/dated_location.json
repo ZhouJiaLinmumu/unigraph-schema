@@ -23,7 +23,7 @@
             "Description": "",
             "ObjectType": "type.datetime",
             "Unique": true,
-            "Required": true
+            "Required": false
         }
     ]
 }
