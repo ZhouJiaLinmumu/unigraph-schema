@@ -1,7 +1,7 @@
 {
     "Id": "law.constitutional_amendment",
     "Name": "Constitutional Amendment",
-    "Description": "Suggestions for changes of a constitution that may or may not have passed the necessary ratification procedures. The process required forchanging a constitution is often different from the process required to change ordinarylaw.",
+    "Description": "Suggestions for changes of a constitution that may or may not have passed the necessary ratification procedures. The process required for changing a constitution is often different from the process required to change ordinary law.",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"
@@ -38,7 +38,7 @@
             "Description": "",
             "ObjectType": "type.datetime",
             "Unique": true,
-            "Required": true
+            "Required": false
         }
     ]
 }
