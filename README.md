@@ -16,8 +16,7 @@ Borough > location.location.contains > Ward Name
 ```
 
 ## Key Concepts
-[Object Types](#objecttype)
-[Expected Types](#expectedtypes)
+[Object Types](#objecttype)  
 [Measured dimensions](#dimensions)  
 [Measurement units](#units)  
 [Self Contained Domains](#domains)
