@@ -15,15 +15,35 @@ Borough > location.location
 Borough > location.location.contains > Ward Name
 ```
 
-## Key Concepts & Differentiators
+## Key Concepts
+[Object Types](#objecttype)
+[Expected Types](#expectedtypes)
 [Measured dimensions](#dimensions)  
-[Measured units](#units)  
+[Measurement units](#units)  
 [Self Contained Domains](#domains)
 [SameAs](#sameas)  
 [Strictly One to One connections](#one)  
 [Unified Time Periods Representation](#periods) 
 
 [Contributions](#contribute)
+
+<a name="objecttype"/>
+### Object Types
+
+All properties have assigned ObjectTypes. This approach enforces the schema rules, controlls the data entering the system and infers types seamlessly. For example the ObjectType of the business.employment_tenure.person property is business.employee.
+
+```json
+{
+	"Id": "business.employment_tenure.person",
+	"Name": "Person",
+	"Description": "",
+	"ObjectType": "business.employee",
+	"Unique": true,
+	"Required": true
+}
+```
+
+As a result every object in the business.employment_renure.person relationship will receive the business.employee type.
 
 <a name="dimensions"/>
 ### Measured dimensions
@@ -122,7 +142,7 @@ Measurement units include all necessary conversion information to the Internatio
 <a name="domains"/>
 ### Self contained domains
 
-Domains no longer leak information. Cross-domain references are handled by type inheritance. In the below example the "book.book_edition_location" type will inherit all properties from its expected type: "location.location", while in the same time the particular location that the book was published will also be referenced as such and not just as "location.location":
+Properties can not have properties defined in other domains as their "[Object Types](#objecttype)". The only exception is when they point to **mediator** types, the **type** and **common** domain, as they hold basic information shared across all domains. Cross-domain references is handled by type inheritance via the "ExpectedType" parameter of the types. In the below example the "book.book_edition_location" type will inherit all properties from its expected type: "location.location", the location in which the book was published will in turn receive the "book.book_edition_location" type in addition its "location.location":
 
 ```json
 {
