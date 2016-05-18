@@ -1,7 +1,7 @@
 {
     "Id": "architecture.architecture_firm",
     "Name": "Architecture firm",
-    "Description": "\"Architecture Firm\" is used for collections of \"Architects\" (see /architecture/architect).A topic that is of the type \"Structure\" can have one or more \"Architects\" or \"Architecture Firms\" listed as properties, due to the sometimes ambiguous way designs are credited. If you are unsure, list both.",
+    "Description": "\"Architecture Firm\" is used for collections of \"Architects\" (see /architecture/architect). A topic that is of the type \"Structure\" can have one or more \"Architects\" or \"Architecture Firms\" listed as properties, due to the sometimes ambiguous way designs are credited. If you are unsure, list both.",
     "Mediator": false,
     "ExpectedTypes": [
         "business.employer",
