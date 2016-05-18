@@ -16,6 +16,7 @@ Borough > location.location.contains > Ward Name
 ```
 
 ## Key Concepts
+[Domains, Types and Properties](#dtp)  
 [Object Types](#objecttype)  
 [Measured dimensions](#dimensions)  
 [Measurement units](#units)  
@@ -25,6 +26,13 @@ Borough > location.location.contains > Ward Name
 [Unified Time Periods Representation](#periods) 
 
 [Contributions](#contribute)
+
+<a name="dtp"/>
+### Domains, Types and Properties
+
+The UniGraph schema is expressed via Types and Properties. Types have properties and are grouped in Domains:
+
+In the [architecture](https://github.com/unigraph/unigraph-schema/tree/master/architecture) domain, the [architecture.building](https://github.com/unigraph/unigraph-schema/blob/master/architecture/building.json) type has 4 properties, one of which is: [architecture.building.building_complex](https://github.com/unigraph/unigraph-schema/blob/master/architecture/building.json#L15).
 
 <a name="objecttype"/>
 ### Object Types
