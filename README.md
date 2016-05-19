@@ -16,15 +16,16 @@ Borough > location.location.contains > Ward Name
 ```
 
 ## Key Concepts
-[Domains, Types and Properties](#dtp)  
-[Mediators](#mediators)  
-[Object Types](#objecttype)  
-[Measured dimensions](#dimensions)  
-[Measurement units](#units)  
-[Self Contained Domains](#domains)
-[SameAs](#sameas)  
-[Strictly One to One connections](#one)  
-[Unified Time Periods Representation](#periods) 
+- [Domains, Types and Properties](#dtp)  
+- [Mediators](#mediators)  
+ * [Differences between Types and Mediator Types](#differences)  
+- [Object Types](#objecttype)  
+- [Measured dimensions](#dimensions)  
+- [Measurement units](#units)  
+- [Self Contained Domains](#domains)
+- [Identifiers](#sameas)  
+- [Strictly One to One connections](#one)  
+- [Unified Time Periods Representation](#periods) 
 
 [Contributions](#contribute)
 
@@ -39,7 +40,12 @@ In the [architecture](https://github.com/unigraph/unigraph-schema/tree/master/ar
 
 The Mediator Types are used to express complex data, usually with a time dimension. For example the [employment tenure](https://github.com/unigraph/unigraph-schema/blob/master/business/employment_tenure.json) mediator holds the information about the start and end date of an employment, the employee, the employeer and the title of the position (if any). 
 
-Mediator types have the `"Mediator":` atrribute set to `true`. Mediators don't have Expected types, their `"ExpectedTypes"` will always be `null`
+<a name="differences"/>
+#### Differences between Types and Mediator Types:
+
+- Mediator types have the `"Mediator":` attribute set to `true`.  
+- Mediator types don't have Expected types, their `"ExpectedTypes"` attribute is `null`.  
+- Mediator types have at least two required properties. In the [employment tenure](https://github.com/unigraph/unigraph-schema/blob/master/business/employment_tenure.json) example the required properties are: business.employment_tenure.company and business.employment_tenure.person. The required properties define the minimum set of data required for a Mediator type to hold meaning. A statement describing a relationship between a company and an employee is complete and valueble in itslef, while a statement holding information about the time period of the employment but with mission information about the company or the employee is not.
 
 <a name="objecttype"/>
 ### Object Types
@@ -175,9 +181,9 @@ Properties can not have properties defined in other domains as their "[Object Ty
 This makes domains indipendant and keeps the schema clean.
 
 <a name="sameas"/>
-###SameAs
+### Identifiers (SameAs)
 
-In the domain Dataworld, we have created a type `dataworld.sameas` which contains more than **1600** properties linking data from external repositories of information to UniGraph. Many include examples.
+In the domain [dataworld](https://github.com/unigraph/unigraph-schema/tree/master/dataworld), we have created a type [dataworld.sameas](https://github.com/unigraph/unigraph-schema/blob/master/dataworld/sameas.json) which contains more than **1600** unique identifiers linking data from external repositories of information to UniGraph. Many include examples.
 
 ```json
         {
