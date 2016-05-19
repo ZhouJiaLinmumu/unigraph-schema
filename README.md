@@ -43,9 +43,10 @@ The Mediator Types are used to express complex data, usually with a time dimensi
 <a name="differences"/>
 #### Differences between Types and Mediator Types:
 
-- Mediator types have the `"Mediator":` attribute set to `true`.  
+- Mediator types have the `"Mediator"` attribute set to `true`.  
 - Mediator types don't have Expected types, their `"ExpectedTypes"` attribute is `null`.  
-- Mediator types have at least two required properties. In the [employment tenure](https://github.com/unigraph/unigraph-schema/blob/master/business/employment_tenure.json) example the required properties are: business.employment_tenure.company and business.employment_tenure.person. The required properties define the minimum set of data required for a Mediator type to hold meaning. A statement describing a relationship between a company and an employee is complete and valueble in itslef, while a statement holding information about the time period of the employment but with missing information about the company or the employee is not.
+- Mediator types have at least two required properties.  
+In the [employment tenure](https://github.com/unigraph/unigraph-schema/blob/master/business/employment_tenure.json) example the required properties are: business.employment_tenure.company and business.employment_tenure.person. The required properties define the minimum set of data required for a Mediator type to hold meaning. A statement describing a relationship between a company and an employee is complete and valueble in itslef, while a statement holding information about the time period of the employment but with missing information about the company or the employee is not. Usually the required properties are also unique and have their `"Unique"` attribute set to `true` - in order to force the creation of another Mediator type for the next employment of the same person. An exception of this rule are single property mediators, like the [people.sibling_relationship](https://github.com/unigraph/unigraph-schema/blob/master/people/sibling_relationship.json) which models the sibling relationship through its only propert `people.sibling_relationship.sibling` which is Required but not Unique.
 
 <a name="objecttype"/>
 ### Object Types
