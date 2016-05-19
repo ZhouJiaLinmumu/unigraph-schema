@@ -17,6 +17,7 @@ Borough > location.location.contains > Ward Name
 
 ## Key Concepts
 [Domains, Types and Properties](#dtp)  
+[Mediators](#mediators)  
 [Object Types](#objecttype)  
 [Measured dimensions](#dimensions)  
 [Measurement units](#units)  
@@ -30,9 +31,15 @@ Borough > location.location.contains > Ward Name
 <a name="dtp"/>
 ### Domains, Types and Properties
 
-The UniGraph schema is expressed via Types and Properties. Types have properties and are grouped in Domains:
-
+The UniGraph schema is expressed via Types and Properties. Types have properties and are grouped in Domains:  
 In the [architecture](https://github.com/unigraph/unigraph-schema/tree/master/architecture) domain, the [architecture.building](https://github.com/unigraph/unigraph-schema/blob/master/architecture/building.json) type has 4 properties, one of which is: [architecture.building.building_complex](https://github.com/unigraph/unigraph-schema/blob/master/architecture/building.json#L15).
+
+<a name="mediators"/>
+### Mediators
+
+The Mediator Types are used to express complex data, usually with a time dimension. For example the [employment tenure](https://github.com/unigraph/unigraph-schema/blob/master/business/employment_tenure.json) mediator holds the information about the start and end date of an employment, the employee, the employeer and the title of the position (if any). 
+
+Mediator types have the `"Mediator":` atrribute set to `true`. Mediators don't have Expected types, their `"ExpectedTypes"` will always be `null`
 
 <a name="objecttype"/>
 ### Object Types
