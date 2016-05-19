@@ -45,7 +45,7 @@ The Mediator Types are used to express complex data, usually with a time dimensi
 
 - Mediator types have the `"Mediator":` attribute set to `true`.  
 - Mediator types don't have Expected types, their `"ExpectedTypes"` attribute is `null`.  
-- Mediator types have at least two required properties. In the [employment tenure](https://github.com/unigraph/unigraph-schema/blob/master/business/employment_tenure.json) example the required properties are: business.employment_tenure.company and business.employment_tenure.person. The required properties define the minimum set of data required for a Mediator type to hold meaning. A statement describing a relationship between a company and an employee is complete and valueble in itslef, while a statement holding information about the time period of the employment but with mission information about the company or the employee is not.
+- Mediator types have at least two required properties. In the [employment tenure](https://github.com/unigraph/unigraph-schema/blob/master/business/employment_tenure.json) example the required properties are: business.employment_tenure.company and business.employment_tenure.person. The required properties define the minimum set of data required for a Mediator type to hold meaning. A statement describing a relationship between a company and an employee is complete and valueble in itslef, while a statement holding information about the time period of the employment but with missing information about the company or the employee is not.
 
 <a name="objecttype"/>
 ### Object Types
