@@ -29,26 +29,27 @@ Borough > location.location.contains > Ward Name
 
 [Contributions](#contribute)
 
+
 <a name="dtp"></a>
 ### Domains, Types and Properties
 
 The UniGraph schema is expressed via Types and Properties. Types have properties and are grouped in Domains:  
 In the [architecture](https://github.com/unigraph/unigraph-schema/tree/master/architecture) domain, the [architecture.building](https://github.com/unigraph/unigraph-schema/blob/master/architecture/building.json) type has 4 properties, one of which is: [architecture.building.building_complex](https://github.com/unigraph/unigraph-schema/blob/master/architecture/building.json#L15).
 
-<a name="mediators"/>
+<a name="mediators"></a>
 ### Mediators
 
 The Mediator Types are used to express complex data, usually with a time dimension. For example the [employment tenure](https://github.com/unigraph/unigraph-schema/blob/master/business/employment_tenure.json) mediator holds the information about the start and end date of an employment, the employee, the employeer and the title of the position (if any). 
 
-<a name="differences"/>
-#### Differences between Types and Mediator Types:
+<a name="differences"></a>
+#### Differences between Types and Mediator Types
 
 - Mediator types have the `"Mediator"` attribute set to `true`.  
 - Mediator types don't have Expected types, their `"ExpectedTypes"` attribute is `null`.  
 - Mediator types have at least two required properties.  
 In the [employment tenure](https://github.com/unigraph/unigraph-schema/blob/master/business/employment_tenure.json) example the required properties are: `business.employment_tenure.company` and `business.employment_tenure.person`. The required properties define the minimum set of data required for a Mediator type to hold meaning. A statement describing a relationship between a company and an employee is complete and valueble in itslef, while a statement holding information about the time period of the employment but with missing information about the company or the employee is not. Usually the required properties are also unique and have their `"Unique"` attribute set to `true` - in order to force the creation of another Mediator type for the next employment of the same person. An exception of this rule are single property mediators, like the [people.sibling_relationship](https://github.com/unigraph/unigraph-schema/blob/master/people/sibling_relationship.json) which models the sibling relationship through its only propert `people.sibling_relationship.sibling` which is Required but not Unique.
 
-<a name="objecttype"/>
+<a name="objecttype"></a>
 ### Object Types
 
 All properties have assigned ObjectTypes. This approach enforces the schema rules, controlls the data entering the system and infers types seamlessly. For example the ObjectType of the business.employment_tenure.person property is business.employee.
@@ -66,7 +67,7 @@ All properties have assigned ObjectTypes. This approach enforces the schema rule
 
 As a result every object in the business.employment_renure.person relationship will receive the business.employee type.
 
-<a name="dimensions"/>
+<a name="dimensions"></a>
 ### Measured dimensions
 
 Measured dimensions are everywhere: people height, mountain elevation, engine power etc. We've created all measured dimensions from scratch and combined them in a single domain together with their respective measurement_unit.
@@ -100,7 +101,7 @@ Measured dimensions are everywhere: people height, mountain elevation, engine po
 }
 ```
 
-<a name="units"/>
+<a name="units"></a>
 ### Measurement Units
 
 Measurement units include all necessary conversion information to the International System of Units (SI).
@@ -160,7 +161,7 @@ Measurement units include all necessary conversion information to the Internatio
 }
 ```
 
-<a name="domains"/>
+<a name="domains"></a>
 ### Self contained domains
 
 Properties can not have properties defined in other domains as their "[Object Types](#objecttype)". The only exception is when they point to **mediator** types, the **type** and **common** domain, as they hold basic information shared across all domains. Cross-domain references is handled by type inheritance via the "ExpectedType" parameter of the types. In the below example the "book.book_edition_location" type will inherit all properties from its expected type: "location.location", the location in which the book was published will in turn receive the "book.book_edition_location" type in addition its "location.location":
@@ -181,7 +182,7 @@ Properties can not have properties defined in other domains as their "[Object Ty
 ```
 This makes domains indipendant and keeps the schema clean.
 
-<a name="sameas"/>
+<a name="sameas"></a>
 ### Identifiers (SameAs)
 
 In the domain [dataworld](https://github.com/unigraph/unigraph-schema/tree/master/dataworld), we have created a type [dataworld.sameas](https://github.com/unigraph/unigraph-schema/blob/master/dataworld/sameas.json) which contains more than **1600** unique identifiers linking data from external repositories of information to UniGraph. Many include examples.
@@ -197,7 +198,7 @@ In the domain [dataworld](https://github.com/unigraph/unigraph-schema/tree/maste
         }
 ```
 
-<a name="one"/>
+<a name="one"/></a>
 ### Strict one to one connections
 
 We've done out best to keep all connections one to one. An example of this is the "book.author" type which has no properties of its own:
@@ -229,7 +230,7 @@ It has many incoming properties though, for example from the "book.written_work"
         }
 ```
 
-<a name="periods"/>
+<a name="periods"></a>
 ### Unified periods representation
 
 With small exceptions all references to a date that something started or ended follow the same pattern:
@@ -291,7 +292,7 @@ The few exceptions are easy to predict:
         }
 ```
 
-<a name="contribute"/>
+<a name="contribute"></a>
 ## Contributions are welcome
 
 Passionate about a subject? Feel free to fork, edit and improve the schema. All pull requests are highly appreciated. You can always drop us a line on the contacts listed at [unigraph.rocks](http://unigraph.rocks) and follow us on [twitter](http://twitter.com/unigraphrocks).
