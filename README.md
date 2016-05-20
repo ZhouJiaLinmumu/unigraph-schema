@@ -29,7 +29,7 @@ Borough > location.location.contains > Ward Name
 
 [Contributions](#contribute)
 
-<a name="dtp"/>
+<a name="dtp"></a>
 ### Domains, Types and Properties
 
 The UniGraph schema is expressed via Types and Properties. Types have properties and are grouped in Domains:  
