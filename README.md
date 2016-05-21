@@ -20,6 +20,7 @@ Borough > location.location.contains > Ward Name
 - [Mediators](#mediators)  
  * [Differences between Types and Mediator Types](#differences)  
 - [Object Types](#objecttype)  
+- [Expected Types](#expected)
 - [Measured dimensions](#dimensions)  
 - [Measurement units](#units)  
 - [Self Contained Domains](#domains)
@@ -66,6 +67,24 @@ All properties have assigned ObjectTypes. This approach enforces the schema rule
 ```
 
 As a result every object in the business.employment_renure.person relationship will receive the business.employee type.
+
+<a name="expected"></a>
+### Expected Types
+
+UniGraph employs a type inheritance mechanism, allowing for a type with its properties to automatically be included within another type. The expected types make it possible to easily create custom types based on previously defined types. For example, the `architecture.architect` type inherits all properties from the `people.person` and `common.topic` types:
+
+```js
+{
+	"Id": "architecture.architect",
+	"Name": "Architect",
+	"Description": "\"Architect\" is used for individual contributors to the Built Environment. Also see the type \"Architecture Firm\" for collections of architects. A topic that is of the type \"Structure\" can have one or more \"Architects\" or \"Architecture Firms\" listed as properties, due to the sometimes ambiguous way designs are credited.",
+	"Mediator": false,
+	"ExpectedTypes": [
+		"people.person",
+		"common.topic"
+	]
+...
+```
 
 <a name="dimensions"></a>
 ### Measured dimensions
