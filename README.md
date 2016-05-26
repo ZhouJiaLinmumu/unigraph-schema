@@ -217,7 +217,7 @@ In the domain [dataworld](https://github.com/unigraph/unigraph-schema/tree/maste
         }
 ```
 
-<a name="one"/></a>
+<a name="one"></a>
 ### Strict one to one connections
 
 We've done out best to keep all connections one to one. An example of this is the "book.author" type which has no properties of its own:
