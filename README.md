@@ -72,7 +72,7 @@ As a result every object in the business.employment_renure.person relationship w
 
 Expected types is a flag to the UniGraph bots and users that a certain node will most probably have other types associated with it. For example, the `architecture.architect` type indicates that a node will most probably also be of type `people.person` and `common.topic`.
 
-```js
+```json
 {
 	"Id": "architecture.architect",
 	"Name": "Architect",
