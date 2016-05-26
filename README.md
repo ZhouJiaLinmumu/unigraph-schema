@@ -83,6 +83,7 @@ Expected types is a flag to the UniGraph bots and users that a certain node will
 		"common.topic"
 	]
 ...
+}
 ```
 
 <a name="dimensions"></a>
