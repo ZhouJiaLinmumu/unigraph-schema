@@ -29,8 +29,7 @@ Borough > location.location.contains > Ward Name
 - [Unified Time Periods Representation](#periods) 
 
 [Contributions](#contribute)
-
-
+	
 <a name="dtp"></a>
 ### Domains, Types and Properties
 
@@ -71,7 +70,7 @@ As a result every object in the business.employment_renure.person relationship w
 <a name="expected"></a>
 ### Expected Types
 
-UniGraph employs a type inheritance mechanism, allowing for a type with its properties to automatically be included within another type. The expected types make it possible to easily create custom types based on previously defined types. For example, the `architecture.architect` type inherits all properties from the `people.person` and `common.topic` types:
+Expected types is a flag to the UniGraph bots and users that a certain node will most probably have other types associated with it. For example, the `architecture.architect` type indicates that a node will most probably also be of type `people.person` and `common.topic`.
 
 ```js
 {
@@ -183,7 +182,7 @@ Measurement units include all necessary conversion information to the Internatio
 <a name="domains"></a>
 ### Self contained domains
 
-Properties can not have properties defined in other domains as their "[Object Types](#objecttype)". The only exception is when they point to **mediator** types, the **type** and **common** domain, as they hold basic information shared across all domains. Cross-domain references is handled by type inheritance via the "ExpectedType" parameter of the types. In the below example the "book.book_edition_location" type will inherit all properties from its expected type: "location.location", the location in which the book was published will in turn receive the "book.book_edition_location" type in addition its "location.location":
+Properties can not have properties defined in other domains as their "[Object Types](#objecttype)". The only exception is when they point to **mediator** types, the **type** as they hold basic information shared across all domains. Cross-domain references is handled by type inheritance via the "ExpectedType" parameter of the types. In the below example the "book.book_edition_location" type will inherit all properties from its expected type: "location.location", the location in which the book was published will in turn receive the "book.book_edition_location" type in addition its "location.location":
 
 ```json
 {
