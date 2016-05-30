@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.rocket_manufacturer",
+    "Sid": "spaceflight.rocket_manufacturer",
     "Name": "Rocket Manufacturer",
     "Description": "A rocket manufacturer is an organization that builds rockets.",
     "Mediator": false,

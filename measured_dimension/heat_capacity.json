@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.heat_capacity",
+    "Sid": "measured_dimension.heat_capacity",
     "Name": "Heat capacity",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.heat_capacity.measurement_unit",
+            "Sid": "measured_dimension.heat_capacity.measurement_unit",
             "Name": "Unit of Heat capacity",
             "Description": "",
             "ObjectType": "measured_dimension.heat_capacity_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.heat_capacity.value",
+            "Sid": "measured_dimension.heat_capacity.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

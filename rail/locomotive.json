@@ -1,5 +1,5 @@
 {
-    "Id": "rail.locomotive",
+    "Sid": "rail.locomotive",
     "Name": "Locomotive",
     "Description": "A locomotive is a self-propelled vehicle used to pull or push railroad cars.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "rail.locomotive.construction_begun",
+            "Sid": "rail.locomotive.construction_begun",
             "Name": "Construction begun",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "rail.locomotive.construction_completed",
+            "Sid": "rail.locomotive.construction_completed",
             "Name": "Construction completed",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "rail.locomotive.locomotive_class",
+            "Sid": "rail.locomotive.locomotive_class",
             "Name": "Locomotive class",
             "Description": "",
             "ObjectType": "rail.locomotive_class",

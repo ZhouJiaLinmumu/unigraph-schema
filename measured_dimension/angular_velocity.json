@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.angular_velocity",
+    "Sid": "measured_dimension.angular_velocity",
     "Name": "Angular velocity",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.angular_velocity.measurement_unit",
+            "Sid": "measured_dimension.angular_velocity.measurement_unit",
             "Name": "Unit of Angular velocity",
             "Description": "",
             "ObjectType": "measured_dimension.angular_velocity_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.angular_velocity.value",
+            "Sid": "measured_dimension.angular_velocity.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

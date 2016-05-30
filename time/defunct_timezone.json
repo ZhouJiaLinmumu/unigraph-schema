@@ -1,5 +1,5 @@
 {
-    "Id": "time.defunct_timezone",
+    "Sid": "time.defunct_timezone",
     "Name": "Defunct time zone",
     "Description": "A time zone no longer in use (historic timezone).",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "time.defunct_timezone.usage_ceased",
+            "Sid": "time.defunct_timezone.usage_ceased",
             "Name": "Usage ceased",
             "Description": "The date when this time zone ceased to be used.",
             "ObjectType": "type.datetime",

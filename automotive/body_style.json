@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.body_style",
+    "Sid": "automotive.body_style",
     "Name": "Body Style",
     "Description": "Body styles are the particular modifications that may be offered as a model range of a particular vehicle model (a car model may be available with multiple body styles such as a two-door hatchback, four-door sedan and station wagon).",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "automotive.body_style.curb_weight",
+            "Sid": "automotive.body_style.curb_weight",
             "Name": "Curb Weight",
             "Description": "",
             "ObjectType": "measured_dimension.mass",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.exterior_height",
+            "Sid": "automotive.body_style.exterior_height",
             "Name": "Exterior Height",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.exterior_length",
+            "Sid": "automotive.body_style.exterior_length",
             "Name": "Exterior Length",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.exterior_width",
+            "Sid": "automotive.body_style.exterior_width",
             "Name": "Exterior Width",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.front_headroom",
+            "Sid": "automotive.body_style.front_headroom",
             "Name": "Front Headroom",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.front_legroom",
+            "Sid": "automotive.body_style.front_legroom",
             "Name": "Front Leg Room",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.front_shoulder_room",
+            "Sid": "automotive.body_style.front_shoulder_room",
             "Name": "Front Shoulder Room",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.front_track",
+            "Sid": "automotive.body_style.front_track",
             "Name": "Front Track",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.fuel_tank_capacity",
+            "Sid": "automotive.body_style.fuel_tank_capacity",
             "Name": "Fuel Tank Capacity",
             "Description": "",
             "ObjectType": "measured_dimension.volume",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.generation",
+            "Sid": "automotive.body_style.generation",
             "Name": "Generation",
             "Description": "",
             "ObjectType": "automotive.generation",
@@ -89,7 +89,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.luggage_capacity",
+            "Sid": "automotive.body_style.luggage_capacity",
             "Name": "Luggage Capacity",
             "Description": "",
             "ObjectType": "measured_dimension.volume",
@@ -97,7 +97,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.maximum_seating",
+            "Sid": "automotive.body_style.maximum_seating",
             "Name": "Maximum Seating",
             "Description": "",
             "ObjectType": "type.int",
@@ -105,7 +105,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.passenger_volume",
+            "Sid": "automotive.body_style.passenger_volume",
             "Name": "Passenger Volume",
             "Description": "",
             "ObjectType": "measured_dimension.volume",
@@ -113,7 +113,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.range",
+            "Sid": "automotive.body_style.range",
             "Name": "Range",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -121,7 +121,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.rear_headroom",
+            "Sid": "automotive.body_style.rear_headroom",
             "Name": "Rear Headroom",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -129,7 +129,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.rear_legroom",
+            "Sid": "automotive.body_style.rear_legroom",
             "Name": "Rear Leg Room",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -137,7 +137,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.rear_shoulder_room",
+            "Sid": "automotive.body_style.rear_shoulder_room",
             "Name": "Rear Shoulder Room",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -145,7 +145,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.rear_track",
+            "Sid": "automotive.body_style.rear_track",
             "Name": "Rear Track",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -153,7 +153,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.turning_circle",
+            "Sid": "automotive.body_style.turning_circle",
             "Name": "Turning Circle",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -161,7 +161,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.body_style.wheelbase",
+            "Sid": "automotive.body_style.wheelbase",
             "Name": "Wheelbase",
             "Description": "",
             "ObjectType": "measured_dimension.distance",

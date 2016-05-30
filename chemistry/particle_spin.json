@@ -1,5 +1,5 @@
 {
-    "Id": "chemistry.particle_spin",
+    "Sid": "chemistry.particle_spin",
     "Name": "Particle spin",
     "Description": "Spin is a fundamental property of some particles.",
     "Mediator": false,

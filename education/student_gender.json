@@ -1,5 +1,5 @@
 {
-    "Id": "education.student_gender",
+    "Sid": "education.student_gender",
     "Name": "Student gender",
     "Description": "Student's gender admitted to a school",
     "Mediator": false,

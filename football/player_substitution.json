@@ -1,5 +1,5 @@
 {
-    "Id": "football.player_substitution",
+    "Sid": "football.player_substitution",
     "Name": "Football Player Substitution",
     "Description": "A substitution in soccer is when one player is taken off and another put on the field in replacement during a match",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "football.player_substitution.minute",
+            "Sid": "football.player_substitution.minute",
             "Name": "Minute",
             "Description": "The minute during the game in which the substitution happened",
             "ObjectType": "type.int",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "football.player_substitution.off",
+            "Sid": "football.player_substitution.off",
             "Name": "Off",
             "Description": "The player who came off the field",
             "ObjectType": "football.player",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "football.player_substitution.on",
+            "Sid": "football.player_substitution.on",
             "Name": "On",
             "Description": "The player who came on the field in replacement",
             "ObjectType": "football.player",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "football.player_substitution.match",
+            "Sid": "football.player_substitution.match",
             "Name": "Match",
             "Description": "The match in which this substitution was made",
             "ObjectType": "football.match",

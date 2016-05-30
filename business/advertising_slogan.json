@@ -1,5 +1,5 @@
 {
-    "Id": "business.advertising_slogan",
+    "Sid": "business.advertising_slogan",
     "Name": "Advertising slogan",
     "Description": "An advertising slogan is a phrase used to market a particular company or its brands.",
     "Mediator": false,

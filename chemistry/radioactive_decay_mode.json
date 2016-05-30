@@ -1,5 +1,5 @@
 {
-    "Id": "chemistry.radioactive_decay_mode",
+    "Sid": "chemistry.radioactive_decay_mode",
     "Name": "Radioactive decay mode",
     "Description": "A way in which radioactive isotopes loses energy by emitting ionized particles and radiation.",
     "Mediator": false,

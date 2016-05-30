@@ -1,5 +1,5 @@
 {
-    "Id": "time.day_of_year",
+    "Sid": "time.day_of_year",
     "Name": "Day Of Year",
     "Description": "A day of that occurs annually according to specific rule such as \"The first day of May\", or \"The Tuesday following the first Monday in November.\"",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "time.day_of_year.calendar_system",
+            "Sid": "time.day_of_year.calendar_system",
             "Name": "Calendar",
             "Description": "",
             "ObjectType": "time.calendar",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "time.day_of_year.day",
+            "Sid": "time.day_of_year.day",
             "Name": "Day",
             "Description": "The day of the month, represented by an integer.",
             "ObjectType": "type.int",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "time.day_of_year.month",
+            "Sid": "time.day_of_year.month",
             "Name": "Month",
             "Description": "The month this day of year falls in.",
             "ObjectType": "time.month",

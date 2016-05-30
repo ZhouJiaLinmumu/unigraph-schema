@@ -1,5 +1,5 @@
 {
-    "Id": "finance.stock_exchange_region",
+    "Sid": "finance.stock_exchange_region",
     "Name": "Stock exchange region",
     "Description": "The regions covered by an exchange",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "biology.animal_owner",
+    "Sid": "biology.animal_owner",
     "Name": "Animal owner",
     "Description": "This type is for any person or organization that owns or has owned an animal.",
     "Mediator": false,

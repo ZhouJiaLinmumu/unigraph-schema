@@ -1,5 +1,5 @@
 {
-    "Id": "law.judicial_tenure",
+    "Sid": "law.judicial_tenure",
     "Name": "Judicial tenure",
     "Description": "This type connects judges to the courts they have sat on and/or to their official role or status.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "law.judicial_tenure.start_date",
+            "Sid": "law.judicial_tenure.start_date",
             "Name": "From date",
             "Description": "The date this judge first held this title or sat on this court. If the judge held this title or sat on this court multiple non-contiguous times, enter separate records for each term.",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "law.judicial_tenure.judge",
+            "Sid": "law.judicial_tenure.judge",
             "Name": "Judge",
             "Description": "The judge who sat on this court or held this title.",
             "ObjectType": "law.judge",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "law.judicial_tenure.title",
+            "Sid": "law.judicial_tenure.title",
             "Name": "Title",
             "Description": "The title or position this judge held. E.g. in some jurisdictions, judges do not sit on specific courts, but rather have positions which determine the types of courts they may sit on.",
             "ObjectType": "law.judicial_title",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "law.judicial_tenure.end_date",
+            "Sid": "law.judicial_tenure.end_date",
             "Name": "To date",
             "Description": "The last date on which this judge held this title or sat on this court.",
             "ObjectType": "type.datetime",

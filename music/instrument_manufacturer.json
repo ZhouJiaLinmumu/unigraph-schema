@@ -1,5 +1,5 @@
 {
-    "Id": "music.instrument_manufacturer",
+    "Sid": "music.instrument_manufacturer",
     "Name": "Musical instrument company",
     "Description": "AMusical instrument company is a company that manufactures and sells musical instruments.",
     "Mediator": false,

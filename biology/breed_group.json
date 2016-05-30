@@ -1,5 +1,5 @@
 {
-    "Id": "biology.breed_group",
+    "Sid": "biology.breed_group",
     "Name": "Breed group",
     "Description": "A breed group consists of several breeds of a particular animal that are considered to be similar in some way. Each organization classifies breeds differently, even if they sometimes use the same nomenclature for their breed groups; because of this, there should be separate topics for each organization's breed groups.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.breed_group.breed_registry",
+            "Sid": "biology.breed_group.breed_registry",
             "Name": "Breed registry",
             "Description": "The registry or other organization that classifies breeds using this group. Each group can belong to only one organization, even if multiple organizations use similar names.",
             "ObjectType": "biology.breed_registry",

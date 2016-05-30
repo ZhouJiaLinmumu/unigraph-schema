@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.recurring_currency_amount",
+    "Sid": "measured_dimension.recurring_currency_amount",
     "Name": "Recurring money value",
     "Description": "This type can be used to hold monetary values that recur regularly. For example, minimum wages are guaranteed for different periods (hourly, daily, weekly, etc.) in different locations, expenditures may be reported quarterly or annually, etc.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.recurring_currency_amount.amount",
+            "Sid": "measured_dimension.recurring_currency_amount.amount",
             "Name": "Amount",
             "Description": "The monetary amount being reported or measured.",
             "ObjectType": "type.float",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.recurring_currency_amount.currency",
+            "Sid": "measured_dimension.recurring_currency_amount.currency",
             "Name": "Currency",
             "Description": "The currency of this value.",
             "ObjectType": "measured_dimension.currency",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.recurring_currency_amount.date",
+            "Sid": "measured_dimension.recurring_currency_amount.date",
             "Name": "Date",
             "Description": "The date this value was true (such as the date reported, or first date it took effect)",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "measured_dimension.recurring_currency_amount.frequency",
+            "Sid": "measured_dimension.recurring_currency_amount.frequency",
             "Name": "Frequency",
             "Description": "The period that this value recurs or for which it holds true.",
             "ObjectType": "measured_dimension.time_unit",

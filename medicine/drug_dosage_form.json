@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.drug_dosage_form",
+    "Sid": "medicine.drug_dosage_form",
     "Name": "Drug dosage form",
     "Description": "The physical form in which a drug is made available for therapeutic use. For example tablet, injection, capsule, and so on.",
     "Mediator": false,

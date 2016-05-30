@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.upholstery",
+    "Sid": "automotive.upholstery",
     "Name": "Interior",
     "Description": "Mediator type to describe the interior colors and materials of an automobile trim level.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.upholstery.color",
+            "Sid": "automotive.upholstery.color",
             "Name": "Color",
             "Description": "Color of interior paint.",
             "ObjectType": "automotive.upholstery_color",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "automotive.upholstery.material",
+            "Sid": "automotive.upholstery.material",
             "Name": "Material",
             "Description": "Material used in the interior.",
             "ObjectType": "automotive.upholstery_material",

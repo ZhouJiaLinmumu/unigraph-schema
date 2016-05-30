@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.manufacturing_plant_location",
+    "Sid": "automotive.manufacturing_plant_location",
     "Name": "Manufacturing Plant Location",
     "Description": "The Manufacturing plant's physical location where the vehicle is assembled into it's final operational configuration.",
     "Mediator": false,

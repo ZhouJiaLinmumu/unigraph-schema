@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.transmission_type",
+    "Sid": "automotive.transmission_type",
     "Name": "Transmission Classification",
     "Description": "Transmission type in vehicle (automatic transmission, manual transmission, etc.).",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "automotive.transmission_type.transmission",
+            "Sid": "automotive.transmission_type.transmission",
             "Name": "Transmissions of this type",
             "Description": "",
             "ObjectType": "automotive.transmission",

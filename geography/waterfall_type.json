@@ -1,5 +1,5 @@
 {
-    "Id": "geography.waterfall_type",
+    "Sid": "geography.waterfall_type",
     "Name": "Waterfall type",
     "Description": "\"Waterfall type\" denotes the variety or class of a waterfall.",
     "Mediator": false,

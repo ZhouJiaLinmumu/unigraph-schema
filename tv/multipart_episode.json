@@ -1,5 +1,5 @@
 {
-    "Id": "tv.multipart_episode",
+    "Sid": "tv.multipart_episode",
     "Name": "Multipart TV episode",
     "Description": "This type can be used if a single topic is required for a multipart TV episode. A multipart episode is usually a single story, usually with a single name, that is broadcast as two (or more) separate episodes. Single episodes that comprise a multipart episode should be given separate topics; if the individual episodes do not have names, use the name of the multipart episode followed by Part 1, Part 2, etc.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.multipart_episode.episodes",
+            "Sid": "tv.multipart_episode.episodes",
             "Name": "Episodes",
             "Description": "The episodes that, together, make up this multipart episode. These can include episodes of BBC-style series (as in Doctor Who, e.g.), but should not be used for episodes of a mini-series.",
             "ObjectType": "tv.series_episode",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "tv.multipart_episode.program",
+            "Sid": "tv.multipart_episode.program",
             "Name": "TV program",
             "Description": "The TV program that this multipart episode is a part of.",
             "ObjectType": "tv.program",

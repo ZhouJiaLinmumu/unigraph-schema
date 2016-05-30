@@ -1,5 +1,5 @@
 {
-    "Id": "tv.cable_satellite_provider",
+    "Sid": "tv.cable_satellite_provider",
     "Name": "Broadcast Provider",
     "Description": "The provider of the particular broadcast",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "opera.production_staff",
+    "Sid": "opera.production_staff",
     "Name": "Opera Production Staff member",
     "Description": "This type is for anyone who has been involved in an opera production in any capacity that does not have another type (other types include Performer, Conductor, Designer, Producer, and Director).",
     "Mediator": false,

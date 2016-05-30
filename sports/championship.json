@@ -1,5 +1,5 @@
 {
-    "Id": "sports.championship",
+    "Sid": "sports.championship",
     "Name": "Sports League Championship",
     "Description": "The tournament used to determine the winner or winners of a sports league or other tournament. This type represents the general concept, for example the World Series. Specific instances of one team playing others should use the Sports League Championship Event type.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.championship.events",
+            "Sid": "sports.championship.events",
             "Name": "Events",
             "Description": "",
             "ObjectType": "sports.championship_event",

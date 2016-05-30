@@ -1,5 +1,5 @@
 {
-    "Id": "transportation.transit_agency",
+    "Sid": "transportation.transit_agency",
     "Name": "Mass Transportation System Operator",
     "Description": "A Transit Agency is an organization an elected board, a corporation, a government entity which runs one or more Transit Systems.",
     "Mediator": false,

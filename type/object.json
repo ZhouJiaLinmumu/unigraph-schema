@@ -1,5 +1,5 @@
 {
-    "Id": "type.object",
+    "Sid": "type.object",
     "Name": "Object",
     "Description": "The most basic type in the system. This type contains the primitives necessary for UniGraph to function, and the details of the stuff (permission, creator, timestamp, id) contained directly in the primitives.",
     "Mediator": false,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "type.object.name",
+            "Sid": "type.object.name",
             "Name": "Name",
             "Description": "A textual display name",
             "ObjectType": "type.text",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "type.object.type",
+            "Sid": "type.object.type",
             "Name": "Type",
             "Description": "A type is a group of properties that describe a topic",
             "ObjectType": "type.type",

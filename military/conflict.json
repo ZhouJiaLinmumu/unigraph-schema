@@ -1,5 +1,5 @@
 {
-    "Id": "military.conflict",
+    "Sid": "military.conflict",
     "Name": "Military Conflict",
     "Description": "A military conflict is any event that involves armed forces acting in hostility. This includes wars and battles.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "military.conflict.locations",
+            "Sid": "military.conflict.locations",
             "Name": "Locations",
             "Description": "Where it happened",
             "ObjectType": "military.conflict_location",

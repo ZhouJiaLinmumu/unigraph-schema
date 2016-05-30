@@ -1,5 +1,5 @@
 {
-    "Id": "travel.accommodation_feature",
+    "Sid": "travel.accommodation_feature",
     "Name": "Accommodation feature",
     "Description": "This type is for features that are available at a hotel, campsite, or any other such accommodation. Examples include a gym, swimming pool, cable TV, or free wifi.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.thermal_conductivity",
+    "Sid": "measured_dimension.thermal_conductivity",
     "Name": "Thermal conductivity",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.thermal_conductivity.measurement_unit",
+            "Sid": "measured_dimension.thermal_conductivity.measurement_unit",
             "Name": "Unit of Thermal conductivity",
             "Description": "",
             "ObjectType": "measured_dimension.thermal_conductivity_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.thermal_conductivity.value",
+            "Sid": "measured_dimension.thermal_conductivity.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

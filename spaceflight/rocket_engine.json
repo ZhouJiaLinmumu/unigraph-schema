@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.rocket_engine",
+    "Sid": "spaceflight.rocket_engine",
     "Name": "Rocket engine",
     "Description": "An engine that generates thrust by expelling mass that does not intake air.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "spaceflight.rocket_engine.design_period",
+            "Sid": "spaceflight.rocket_engine.design_period",
             "Name": "Design period",
             "Description": "",
             "ObjectType": "measured_dimension.time_interval",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_engine.designed_by",
+            "Sid": "spaceflight.rocket_engine.designed_by",
             "Name": "Designed by",
             "Description": "",
             "ObjectType": "spaceflight.rocket_engine_designer",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_engine.diameter",
+            "Sid": "spaceflight.rocket_engine.diameter",
             "Name": "Diameter",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_engine.dry_mass",
+            "Sid": "spaceflight.rocket_engine.dry_mass",
             "Name": "Dry mass",
             "Description": "",
             "ObjectType": "measured_dimension.mass",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_engine.government_designation",
+            "Sid": "spaceflight.rocket_engine.government_designation",
             "Name": "Government designation",
             "Description": "",
             "ObjectType": "type.text",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_engine.height",
+            "Sid": "spaceflight.rocket_engine.height",
             "Name": "Height",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_engine.isp_sea_level",
+            "Sid": "spaceflight.rocket_engine.isp_sea_level",
             "Name": "Isp (sea level)",
             "Description": "",
             "ObjectType": "measured_dimension.time",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_engine.isp_vacuum",
+            "Sid": "spaceflight.rocket_engine.isp_vacuum",
             "Name": "Isp (vacuum)",
             "Description": "",
             "ObjectType": "measured_dimension.time",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_engine.manufactured_by",
+            "Sid": "spaceflight.rocket_engine.manufactured_by",
             "Name": "Manufactured by",
             "Description": "",
             "ObjectType": "spaceflight.rocket_engine_manufacturer",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_engine.status",
+            "Sid": "spaceflight.rocket_engine.status",
             "Name": "Status",
             "Description": "",
             "ObjectType": "spaceflight.rocket_engine_status",
@@ -89,7 +89,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_engine.throttle_ratio",
+            "Sid": "spaceflight.rocket_engine.throttle_ratio",
             "Name": "Throttle ratio",
             "Description": "",
             "ObjectType": "type.float",
@@ -97,7 +97,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_engine.thrust_sea_level",
+            "Sid": "spaceflight.rocket_engine.thrust_sea_level",
             "Name": "Thrust (sea level)",
             "Description": "",
             "ObjectType": "measured_dimension.force",
@@ -105,7 +105,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_engine.thrust_vacuum",
+            "Sid": "spaceflight.rocket_engine.thrust_vacuum",
             "Name": "Thrust (vacuum)",
             "Description": "",
             "ObjectType": "measured_dimension.force",
@@ -113,7 +113,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_engine.use_period",
+            "Sid": "spaceflight.rocket_engine.use_period",
             "Name": "Use period",
             "Description": "",
             "ObjectType": "measured_dimension.time_interval",

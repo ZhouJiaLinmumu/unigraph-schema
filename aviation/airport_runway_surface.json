@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.airport_runway_surface",
+    "Sid": "aviation.airport_runway_surface",
     "Name": "Airport runway surface",
     "Description": "Airport runway surface refers to the material used to surface an airport runway.",
     "Mediator": false,

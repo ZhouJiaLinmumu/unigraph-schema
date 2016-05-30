@@ -1,5 +1,5 @@
 {
-    "Id": "music.video_job",
+    "Sid": "music.video_job",
     "Name": "Music video job",
     "Description": "The Music video job includes all work positions on a music video production crew (note: don't use this for the choreographer and director, they are separate types).",
     "Mediator": false,

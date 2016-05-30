@@ -1,5 +1,5 @@
 {
-    "Id": "location.mailing_address",
+    "Sid": "location.mailing_address",
     "Name": "Address",
     "Description": "A mailing address is a type of location that is described in such a way that the local postal service could deliver mail to it. In the US a mailing address usually consists of a street address (one or two lines), a city/town, and a postal/zip code. Other countries may have different, incompatible addressing schemes; these are not currently supported by the mailing address type.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.mailing_address.citytown",
+            "Sid": "location.mailing_address.citytown",
             "Name": "City/Town",
             "Description": "",
             "ObjectType": "location.citytown",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "location.mailing_address.country",
+            "Sid": "location.mailing_address.country",
             "Name": "Country",
             "Description": "The country of this address.",
             "ObjectType": "location.country",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "location.mailing_address.postal_code",
+            "Sid": "location.mailing_address.postal_code",
             "Name": "Postal Code",
             "Description": "",
             "ObjectType": "location.postal_code",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "location.mailing_address.state_province_region",
+            "Sid": "location.mailing_address.state_province_region",
             "Name": "State/Province/Region",
             "Description": "",
             "ObjectType": "location.administrative_division",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "location.mailing_address.street_address",
+            "Sid": "location.mailing_address.street_address",
             "Name": "Street Address",
             "Description": "",
             "ObjectType": "type.text",
@@ -47,7 +47,7 @@
             "Required": true
         },
         {
-            "Id": "location.mailing_address.street_address_2",
+            "Sid": "location.mailing_address.street_address_2",
             "Name": "Street Address 2",
             "Description": "",
             "ObjectType": "type.text",
@@ -55,7 +55,7 @@
             "Required": false
         },
         {
-            "Id": "location.mailing_address.street_address_3",
+            "Sid": "location.mailing_address.street_address_3",
             "Name": "Street Address 3",
             "Description": "",
             "ObjectType": "type.text",
@@ -63,7 +63,7 @@
             "Required": false
         },
         {
-            "Id": "location.mailing_address.street_address_4",
+            "Sid": "location.mailing_address.street_address_4",
             "Name": "Street Address 4",
             "Description": "",
             "ObjectType": "type.text",

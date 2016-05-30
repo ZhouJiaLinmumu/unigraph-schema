@@ -1,5 +1,5 @@
 {
-    "Id": "broadcast.location",
+    "Sid": "broadcast.location",
     "Name": "Broadcast Location",
     "Description": "Areas in which a broadcast is available",
     "Mediator": false,

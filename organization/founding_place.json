@@ -1,5 +1,5 @@
 {
-    "Id": "organization.founding_place",
+    "Sid": "organization.founding_place",
     "Name": "Organization locations",
     "Description": "The location an organization was founded. Use a city if known, otherwise the smallest location known.",
     "Mediator": false,

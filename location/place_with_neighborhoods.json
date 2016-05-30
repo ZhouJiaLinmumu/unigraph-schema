@@ -1,5 +1,5 @@
 {
-    "Id": "location.place_with_neighborhoods",
+    "Sid": "location.place_with_neighborhoods",
     "Name": "Place with neighborhoods",
     "Description": "This type should be used for any place that is considered to have neighborhoods. Because the concept of a neighborhood varies from place to place, this type can include cities and towns as well as larger metropolitan regions.",
     "Mediator": false,

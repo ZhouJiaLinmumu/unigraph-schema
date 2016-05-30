@@ -1,5 +1,5 @@
 {
-    "Id": "film.film_company",
+    "Sid": "film.film_company",
     "Name": "Film company",
     "Description": "The Film Company type holds companies that have funded or released films.  It also includes movie studios.",
     "Mediator": false,

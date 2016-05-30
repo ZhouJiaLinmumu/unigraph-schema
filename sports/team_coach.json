@@ -1,5 +1,5 @@
 {
-    "Id": "sports.team_coach",
+    "Sid": "sports.team_coach",
     "Name": "Sports team coach",
     "Description": "A sports team coach is a person who has coached a sports team in some capacity. This includes head coaches as well as coaches in more specific roles. It does not include coaches of individual athletes.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.team_coach.sports_coached",
+            "Sid": "sports.team_coach.sports_coached",
             "Name": "Sports coached",
             "Description": "The sport or sports that this person has been a coach in.",
             "ObjectType": "sports.sport",

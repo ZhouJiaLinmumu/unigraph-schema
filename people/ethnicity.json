@@ -1,5 +1,5 @@
 {
-    "Id": "people.ethnicity",
+    "Sid": "people.ethnicity",
     "Name": "Ethnicity",
     "Description": "Ethnicity or an ethnic group denotes a group of individuals that share common characteristics, such as ancestry, country of origin, language, religion, culture and physical appearance.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "people.ethnicity.geographic_distribution",
+            "Sid": "people.ethnicity.geographic_distribution",
             "Name": "Geographic distribution",
             "Description": "",
             "ObjectType": "people.geographic_distribution",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "people.ethnicity.included_in_group",
+            "Sid": "people.ethnicity.included_in_group",
             "Name": "Included in group(s)",
             "Description": "",
             "ObjectType": "people.ethnicity",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "people.ethnicity.languages_spoken",
+            "Sid": "people.ethnicity.languages_spoken",
             "Name": "Languages spoken",
             "Description": "",
             "ObjectType": "people.language",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "people.ethnicity.population",
+            "Sid": "people.ethnicity.population",
             "Name": "Population",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",

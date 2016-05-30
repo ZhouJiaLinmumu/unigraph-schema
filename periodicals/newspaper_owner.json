@@ -1,5 +1,5 @@
 {
-    "Id": "periodicals.newspaper_owner",
+    "Sid": "periodicals.newspaper_owner",
     "Name": "Newspaper Owner",
     "Description": "This is the person, organization, or company that owns a newspaper.",
     "Mediator": false,

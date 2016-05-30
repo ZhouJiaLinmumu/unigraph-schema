@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.flight_destination",
+    "Sid": "aviation.flight_destination",
     "Name": "Flight Destionation",
     "Description": "This type represents the destination a flight is was intended for.",
     "Mediator": false,

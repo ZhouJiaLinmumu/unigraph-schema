@@ -1,5 +1,5 @@
 {
-    "Id": "music.guitarist",
+    "Sid": "music.guitarist",
     "Name": "Guitarist",
     "Description": "A Guitarist is a person who plays the guitar. He or she may also be a Musical Artist or a Musical Group Member. Property: Guitars Played: expects Guitar; the specific models of guitar played by the musician.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.guitarist.guitars_played",
+            "Sid": "music.guitarist.guitars_played",
             "Name": "Guitars Played",
             "Description": "",
             "ObjectType": "music.guitar",

@@ -1,5 +1,5 @@
 {
-    "Id": "theater.composer",
+    "Sid": "theater.composer",
     "Name": "Theatrical Composer",
     "Description": "A theatrical composer is someone who has composed music for a play or musical.",
     "Mediator": false,

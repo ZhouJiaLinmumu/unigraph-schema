@@ -1,5 +1,5 @@
 {
-    "Id": "biology.chromosome",
+    "Sid": "biology.chromosome",
     "Name": "Chromosome",
     "Description": "Chromosome is an organized strand of DNA and associated proteins found in the nucleus of eukaryotic cells that contains the genes which are the means of transmission of hereditary information.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.chromosome.band",
+            "Sid": "biology.chromosome.band",
             "Name": "Band",
             "Description": "",
             "ObjectType": "biology.cytogenetic_band",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "biology.chromosome.identifier",
+            "Sid": "biology.chromosome.identifier",
             "Name": "Identifier",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "biology.chromosome.locus",
+            "Sid": "biology.chromosome.locus",
             "Name": "Locus",
             "Description": "",
             "ObjectType": "biology.genomic_locus",

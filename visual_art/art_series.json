@@ -1,5 +1,5 @@
 {
-    "Id": "visual_art.art_series",
+    "Sid": "visual_art.art_series",
     "Name": "Art Series",
     "Description": "Art Series is for serial artworks. This type may be used for two scenarios:1) A titled art series consisting of more than one individual piece, which may or may not be named. Usually conceived and created as a series with a shared theme by the artist. E.g. The Four Freedoms series by Norman Rockwell.2) A grouping for convenience sake or for art criticism of one artist's individual artworks sharing a common theme. Usually not conceived as a series by the artist, and done over time. E.g.Van Gogh's Sunflowers series.In general, to avoid confusion, instances of Art Series should not be co-typed as Artwork.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "visual_art.art_series.artist",
+            "Sid": "visual_art.art_series.artist",
             "Name": "Artist",
             "Description": "Artist of this series of artworks.",
             "ObjectType": "visual_art.artist",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.art_series.artworks",
+            "Sid": "visual_art.art_series.artworks",
             "Name": "Artworks",
             "Description": "Artworks in this series.",
             "ObjectType": "visual_art.artwork",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.art_series.subject",
+            "Sid": "visual_art.art_series.subject",
             "Name": "Subject",
             "Description": "Shared common subject of this art series.",
             "ObjectType": "visual_art.art_subject",

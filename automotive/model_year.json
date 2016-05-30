@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.model_year",
+    "Sid": "automotive.model_year",
     "Name": "Automobile Model Year",
     "Description": "The Model Year type should be used to describe a specific model year release of a vehicle. This type has a property trim levels, which further divides the model years.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.model_year.body_style",
+            "Sid": "automotive.model_year.body_style",
             "Name": "Body Style",
             "Description": "",
             "ObjectType": "automotive.body_style",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.model_year.make",
+            "Sid": "automotive.model_year.make",
             "Name": "Make",
             "Description": "",
             "ObjectType": "automotive.make",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.model_year.model",
+            "Sid": "automotive.model_year.model",
             "Name": "Model",
             "Description": "",
             "ObjectType": "automotive.model",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.model_year.previous_model_year",
+            "Sid": "automotive.model_year.previous_model_year",
             "Name": "Previous Model Year",
             "Description": "",
             "ObjectType": "automotive.model_year",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.model_year.warranty",
+            "Sid": "automotive.model_year.warranty",
             "Name": "Warranty",
             "Description": "",
             "ObjectType": "automotive.warranty",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.model_year.year",
+            "Sid": "automotive.model_year.year",
             "Name": "Year",
             "Description": "",
             "ObjectType": "type.datetime",

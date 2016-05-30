@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.celestial_object_category",
+    "Sid": "astronomy.celestial_object_category",
     "Name": "Celestial object category",
     "Description": "This type is used to classify celestial objects by various categories, such as star, planet, galaxy, nebula, etc.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "astronomy.celestial_object_category.subcategory_of",
+            "Sid": "astronomy.celestial_object_category.subcategory_of",
             "Name": "Subcategory of",
             "Description": "If this category is a subcategory of one or more other categories, enter them here.",
             "ObjectType": "astronomy.celestial_object_category",

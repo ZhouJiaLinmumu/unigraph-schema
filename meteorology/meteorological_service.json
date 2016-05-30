@@ -1,5 +1,5 @@
 {
-    "Id": "meteorology.meteorological_service",
+    "Sid": "meteorology.meteorological_service",
     "Name": "Meteorological service",
     "Description": "\"Meteorological services\" are organizations concerned with the study or prediction of weather, and often have a specific focus such as monitoring hurricanes.",
     "Mediator": false,

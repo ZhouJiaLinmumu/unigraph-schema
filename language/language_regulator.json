@@ -1,5 +1,5 @@
 {
-    "Id": "language.language_regulator",
+    "Sid": "language.language_regulator",
     "Name": "Language Regulator",
     "Description": "A language regulator is an organization that attempts to regulate one or more aspects of a language.",
     "Mediator": false,

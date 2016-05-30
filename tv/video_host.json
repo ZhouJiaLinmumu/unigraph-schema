@@ -1,5 +1,5 @@
 {
-    "Id": "tv.video_host",
+    "Sid": "tv.video_host",
     "Name": "Video host",
     "Description": "The online service or site hosting the video.",
     "Mediator": false,

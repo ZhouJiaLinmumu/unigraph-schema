@@ -1,5 +1,5 @@
 {
-    "Id": "geography.basin_country",
+    "Sid": "geography.basin_country",
     "Name": "Basin country",
     "Description": "Country along a river or lake basin.",
     "Mediator": false,

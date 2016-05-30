@@ -1,5 +1,5 @@
 {
-    "Id": "religion.deity",
+    "Sid": "religion.deity",
     "Name": "Deity",
     "Description": "A deity is a sacred being (such as a god or goddess) revered by adherents of a religion.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "sports.color",
+    "Sid": "sports.color",
     "Name": "Sports Colors",
     "Description": "Color(s) and color combination used in sports.",
     "Mediator": false,

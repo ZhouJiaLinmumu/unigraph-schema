@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.planetographic_feature_type",
+    "Sid": "astronomy.planetographic_feature_type",
     "Name": "Type of planetographic feature",
     "Description": "Types of features that have been named on other planets or bodies.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.planetographic_feature_type.includes",
+            "Sid": "astronomy.planetographic_feature_type.includes",
             "Name": "Includes",
             "Description": "More specific types of this feature (e.g., mountain includes volcano)",
             "ObjectType": "astronomy.planetographic_feature_type",

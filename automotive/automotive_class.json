@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.automotive_class",
+    "Sid": "automotive.automotive_class",
     "Name": "Automotive Class",
     "Description": "The classification of the vehicle, usually by intended use, performance, passenger capacity, cargo volume, etc (eg., SUV, pony car, van, truck, etc.). A vehicle can have multiple classifications depending on the classifying agency (eg., US EPA, ACRISS, Euro NCAP, etc.).",
     "Mediator": false,

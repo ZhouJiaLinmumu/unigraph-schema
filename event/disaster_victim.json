@@ -1,5 +1,5 @@
 {
-    "Id": "event.disaster_victim",
+    "Sid": "event.disaster_victim",
     "Name": "Disaster victim",
     "Description": "A disaster victim is someone who was killed by a disaster. For those merely injured, use the Disaster survivor type.",
     "Mediator": false,

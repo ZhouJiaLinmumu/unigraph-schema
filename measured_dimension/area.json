@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.area",
+    "Sid": "measured_dimension.area",
     "Name": "Area",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.area.measurement_unit",
+            "Sid": "measured_dimension.area.measurement_unit",
             "Name": "Unit of Area",
             "Description": "",
             "ObjectType": "measured_dimension.area_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.area.value",
+            "Sid": "measured_dimension.area.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

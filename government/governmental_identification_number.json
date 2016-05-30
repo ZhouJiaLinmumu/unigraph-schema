@@ -1,5 +1,5 @@
 {
-    "Id": "government.governmental_identification_number",
+    "Sid": "government.governmental_identification_number",
     "Name": "Identification Number",
     "Description": "An ID issued to a member of parliament, senate, commission, etc.",
     "Mediator": false,

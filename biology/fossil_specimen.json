@@ -1,5 +1,5 @@
 {
-    "Id": "biology.fossil_specimen",
+    "Sid": "biology.fossil_specimen",
     "Name": "Fossil specimen",
     "Description": "A fossil specimen is the notable fossilized remains of a life form, a fossilized specimen can be composed of a few fragments of bone to that of a complete skeleton.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.fossil_specimen.dates_from",
+            "Sid": "biology.fossil_specimen.dates_from",
             "Name": "Dates from",
             "Description": "The geological time period this specimen dates from.",
             "ObjectType": "biology.geologic_period",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "biology.fossil_specimen.found_at_site",
+            "Sid": "biology.fossil_specimen.found_at_site",
             "Name": "Found at site",
             "Description": "The site at which this specimen was found.",
             "ObjectType": "biology.fossil_site",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "biology.fossil_specimen.organism",
+            "Sid": "biology.fossil_specimen.organism",
             "Name": "Organism",
             "Description": "The kind of organism this specimen is a fossil of.",
             "ObjectType": "biology.organism_classification",

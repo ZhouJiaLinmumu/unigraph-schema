@@ -1,5 +1,5 @@
 {
-    "Id": "type.id",
+    "Sid": "type.id",
     "Name": "Id",
     "Description": "The concept type of human readable ids for schema elements (domains, types and properties)",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "law.invention",
+    "Sid": "law.invention",
     "Name": "Invention",
     "Description": "An invention is a new process, method, or device, including improvements made to existing ones.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "law.invention.date_of_invention",
+            "Sid": "law.invention.date_of_invention",
             "Name": "Date of invention",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "law.invention.inventor",
+            "Sid": "law.invention.inventor",
             "Name": "Inventor",
             "Description": "",
             "ObjectType": "law.inventor",

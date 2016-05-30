@@ -1,5 +1,5 @@
 {
-    "Id": "visual_art.medium",
+    "Sid": "visual_art.medium",
     "Name": "Visual Art Medium",
     "Description": "An artistic medium is the substance the artistic work is made from. So for example acrylic and oil are two media common to painting.",
     "Mediator": false,

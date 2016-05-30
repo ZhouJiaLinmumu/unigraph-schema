@@ -1,5 +1,5 @@
 {
-    "Id": "law.governmental_jurisdiction",
+    "Sid": "law.governmental_jurisdiction",
     "Name": "Constitution",
     "Description": "The governmental jurisdiction over which a constitution is enforced.",
     "Mediator": false,

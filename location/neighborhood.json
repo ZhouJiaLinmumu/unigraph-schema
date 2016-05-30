@@ -1,5 +1,5 @@
 {
-    "Id": "location.neighborhood",
+    "Sid": "location.neighborhood",
     "Name": "Neighborhood",
     "Description": "A neighborhood is a geographically localised community within a larger city or town, or less often, a metropolitan region.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.neighborhood.neighborhood_of",
+            "Sid": "location.neighborhood.neighborhood_of",
             "Name": "Neighborhood of",
             "Description": "The place that this is a neighborhood of",
             "ObjectType": "location.place_with_neighborhoods",

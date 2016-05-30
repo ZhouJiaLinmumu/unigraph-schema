@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.speed",
+    "Sid": "measured_dimension.speed",
     "Name": "Speed",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.speed.measurement_unit",
+            "Sid": "measured_dimension.speed.measurement_unit",
             "Name": "Unit of Speed",
             "Description": "",
             "ObjectType": "measured_dimension.speed_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.speed.value",
+            "Sid": "measured_dimension.speed.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

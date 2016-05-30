@@ -1,5 +1,5 @@
 {
-    "Id": "theater.production_director",
+    "Sid": "theater.production_director",
     "Name": "Theater Director",
     "Description": "A theater director is someone who directs a production of a play.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "people.group",
+    "Sid": "people.group",
     "Name": "Group",
     "Description": "A group of people, where the group is often referred to as a single entity.",
     "Mediator": false,

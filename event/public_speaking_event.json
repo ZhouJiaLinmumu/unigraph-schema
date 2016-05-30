@@ -1,5 +1,5 @@
 {
-    "Id": "event.public_speaking_event",
+    "Sid": "event.public_speaking_event",
     "Name": "Public speaking event",
     "Description": "An event where people give presentations, orations, sermons, lectures, address's etc.",
     "Mediator": false,

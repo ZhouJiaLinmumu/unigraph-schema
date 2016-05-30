@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.distance",
+    "Sid": "measured_dimension.distance",
     "Name": "Distance",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.distance.measurement_unit",
+            "Sid": "measured_dimension.distance.measurement_unit",
             "Name": "Unit of Distance",
             "Description": "",
             "ObjectType": "measured_dimension.distance_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.distance.value",
+            "Sid": "measured_dimension.distance.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

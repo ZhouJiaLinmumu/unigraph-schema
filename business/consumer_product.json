@@ -1,5 +1,5 @@
 {
-    "Id": "business.consumer_product",
+    "Sid": "business.consumer_product",
     "Name": "Consumer product",
     "Description": "A consumer product is a physical item which a consumer may buy, either at present or in the past. It might be a laptop, or a chocolate bar, or a pair of sneakers. Consumer products are specific items that have a specific market price, not classes of items, which would have a wide range of prices. So an automotive model year or automotive trim level would be a consumer product, but not an automotive model. A specific smartphone like the iphone 3GS 32GB Black, would be a consumer product but not just the smartphone or even the product line iphone 3GS.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.consumer_product.brand",
+            "Sid": "business.consumer_product.brand",
             "Name": "Brand",
             "Description": "",
             "ObjectType": "business.brand",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "business.consumer_product.external_reviews",
+            "Sid": "business.consumer_product.external_reviews",
             "Name": "External reviews",
             "Description": "",
             "ObjectType": "type.uri",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "business.consumer_product.msrp",
+            "Sid": "business.consumer_product.msrp",
             "Name": "MSRP",
             "Description": "Manufacturer's suggested retail price",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "business.consumer_product.official_webpage",
+            "Sid": "business.consumer_product.official_webpage",
             "Name": "Official webpage",
             "Description": "",
             "ObjectType": "type.uri",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "business.consumer_product.product_number",
+            "Sid": "business.consumer_product.product_number",
             "Name": "Product number",
             "Description": "A unique identifier for this product issued by the manufacturer, based on the manufacturer's own numbering system. (UPC, EAN, and GTIN codes should use the GTIN property. Product numbers, despite the name, may contain non-numeric digits.",
             "ObjectType": "type.rawstring",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "business.consumer_product.purchase_links",
+            "Sid": "business.consumer_product.purchase_links",
             "Name": "Purchase links",
             "Description": "",
             "ObjectType": "type.uri",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "business.consumer_product.product_line",
+            "Sid": "business.consumer_product.product_line",
             "Name": "Product line",
             "Description": "",
             "ObjectType": "business.product_line",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "business.consumer_product.theme",
+            "Sid": "business.consumer_product.theme",
             "Name": "Themes",
             "Description": "A theme can be general or specific. For products related to a media franchise (such as a TV show or movie), it can refer to the movie, the series, or even a character. It can also be used for more general themes, such as 'Vampires' or 'Pirates'. Many types of products will not have themes.",
             "ObjectType": "business.product_theme",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "business.consumer_product.category",
+            "Sid": "business.consumer_product.category",
             "Name": "Category",
             "Description": "The category of this product. That is to say, what kind of product is it? E.g. shampoo, doll, cellular phone.",
             "ObjectType": "business.product_category",

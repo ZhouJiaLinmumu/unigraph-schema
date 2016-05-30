@@ -1,5 +1,5 @@
 {
-    "Id": "travel.transportation_mode",
+    "Sid": "travel.transportation_mode",
     "Name": "Transportation mode",
     "Description": "A transportation mode is a mode of travel, such as rail transport or automobile.  It is a category defining a means of moving from one location to another.",
     "Mediator": false,

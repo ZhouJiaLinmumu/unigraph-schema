@@ -1,5 +1,5 @@
 {
-    "Id": "conferences.conference",
+    "Sid": "conferences.conference",
     "Name": "Conference event",
     "Description": "A particular instance of a recurring conference, like Linuxfest'09 or '5th Annual meeting of the Peru Veterinary Association'. May be used independently if there is only one meeting. A conference is an event whose primary focus is verbal presentation or discussion. Speaker information is handled by /event/public_speaking_event",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "conferences.conference.focus",
+            "Sid": "conferences.conference.focus",
             "Name": "Focus",
             "Description": "Specific topic or subject, especially for conferences with a new specific focus each year",
             "ObjectType": "conferences.subject",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "conferences.conference.series",
+            "Sid": "conferences.conference.series",
             "Name": "Part of conference series",
             "Description": "If this conference is part of a recurring series of conferences, enter the series name here. For example, TED 2008 is part of the TED series of conferences.",
             "ObjectType": "conferences.series",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "conferences.conference.venue",
+            "Sid": "conferences.conference.venue",
             "Name": "Venue",
             "Description": "The venue in which this conference was held.",
             "ObjectType": "conferences.venue",
@@ -35,7 +35,7 @@
             "Required": false
         },
         {
-            "Id": "conferences.conference_series.sponsor",
+            "Sid": "conferences.conference_series.sponsor",
             "Name": "Sponsoring organization",
             "Description": "The organization (company, group, agency, etc.) that sponsors or puts on the conference or convention.",
             "ObjectType": "conferences.sponsor",

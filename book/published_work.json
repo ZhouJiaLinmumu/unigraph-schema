@@ -1,5 +1,5 @@
 {
-    "Id": "book.published_work",
+    "Sid": "book.published_work",
     "Name": "Published Work",
     "Description": "The purpose of this type is to allow users to enter publications in which a work of literature is printed; it should be used only as a cotype with another type (such as poem or short story) to indicate that a work has been printed in another work (such as an anthology or periodical issue). It works in concert with the type \"publication\", which represents the publications in which the works are printed.",
     "Mediator": false,

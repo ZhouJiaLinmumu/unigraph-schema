@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.fuel",
+    "Sid": "automotive.fuel",
     "Name": "Fuel",
     "Description": "Source of energy for powering the motor of the vehicle (oil-based, modern vehicles may also be fueled by electricity, natural gas or hydrogen).",
     "Mediator": false,

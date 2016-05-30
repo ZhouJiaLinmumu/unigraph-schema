@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.capacitance",
+    "Sid": "measured_dimension.capacitance",
     "Name": "Capacitance",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.capacitance.measurement_unit",
+            "Sid": "measured_dimension.capacitance.measurement_unit",
             "Name": "Unit of Capacitance",
             "Description": "",
             "ObjectType": "measured_dimension.capacitance_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.capacitance.value",
+            "Sid": "measured_dimension.capacitance.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

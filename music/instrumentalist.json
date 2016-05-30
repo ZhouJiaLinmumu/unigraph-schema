@@ -1,5 +1,5 @@
 {
-    "Id": "music.instrumentalist",
+    "Sid": "music.instrumentalist",
     "Name": "Instrumentalist",
     "Description": "An instrumentalist is anyone who plays a music instrument",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.instrumentalist.instruments_played",
+            "Sid": "music.instrumentalist.instruments_played",
             "Name": "Instruments Played",
             "Description": "Instruments regularly played by this artist.",
             "ObjectType": "music.instrument",

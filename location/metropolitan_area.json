@@ -1,5 +1,5 @@
 {
-    "Id": "location.metropolitan_area",
+    "Sid": "location.metropolitan_area",
     "Name": "Metropolitan area",
     "Description": "A metropolitan area is a region centered around one or more cities (or other population centers). Such regions are generally independent of legal boundaries (such as city limits), and may or may not follow other legal boundaries (such as those of counties or provinces). Different agencies and organizations may define these differently for various statistical purposes.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.metropolitan_area.anchor_city",
+            "Sid": "location.metropolitan_area.anchor_city",
             "Name": "Anchor city",
             "Description": "The city or population center of this metropolitan area. (Some metropolitan areas can have more than one anchor.)",
             "ObjectType": "location.metropolitan_area_anchor",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "location.metropolitan_area.category",
+            "Sid": "location.metropolitan_area.category",
             "Name": "Category",
             "Description": "The category that this metropolitan area belongs to. These are typically created and assigned by government agencies or NGOs.",
             "ObjectType": "location.metropolitan_area_category",

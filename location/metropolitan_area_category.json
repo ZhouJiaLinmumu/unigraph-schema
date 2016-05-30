@@ -1,5 +1,5 @@
 {
-    "Id": "location.metropolitan_area_category",
+    "Sid": "location.metropolitan_area_category",
     "Name": "Metropolitan area category",
     "Description": "Metropolitan area categories are created and assigned by various government agencies (such as census and statistics bureaus) and NGOs (such as the UN). One agency may define several categories based on different criteria.",
     "Mediator": false,

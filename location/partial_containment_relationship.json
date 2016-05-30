@@ -1,5 +1,5 @@
 {
-    "Id": "location.partial_containment_relationship",
+    "Sid": "location.partial_containment_relationship",
     "Name": "Partial containment relationship",
     "Description": "This type contains information about the amount a location is contained by another location.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.partial_containment_relationship.area",
+            "Sid": "location.partial_containment_relationship.area",
             "Name": "Area",
             "Description": "The area of partial containment (overlap) of the two locations.",
             "ObjectType": "measured_dimension.area",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "location.partial_containment_relationship.partially_contained_by",
+            "Sid": "location.partial_containment_relationship.partially_contained_by",
             "Name": "Partially contained by",
             "Description": "The location that partially contains the other location.",
             "ObjectType": "location.location",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "location.partial_containment_relationship.partially_contains",
+            "Sid": "location.partial_containment_relationship.partially_contains",
             "Name": "Partially contains",
             "Description": "The location partially contained by the other location.",
             "ObjectType": "location.location",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "location.partial_containment_relationship.percent_area",
+            "Sid": "location.partial_containment_relationship.percent_area",
             "Name": "Percent area",
             "Description": "The percentage of partial containment (overlap) of the partially-contained location. If this relationship is showing \"Russia is partially contained by Europe\", then this property should be the percent of Russia's area in Europe.",
             "ObjectType": "type.float",

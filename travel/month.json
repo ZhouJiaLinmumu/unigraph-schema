@@ -1,5 +1,5 @@
 {
-    "Id": "travel.month",
+    "Sid": "travel.month",
     "Name": "Month",
     "Description": "The month of the year",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.molar_mass",
+    "Sid": "measured_dimension.molar_mass",
     "Name": "Molar mass",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.molar_mass.measurement_unit",
+            "Sid": "measured_dimension.molar_mass.measurement_unit",
             "Name": "Unit of Molar mass",
             "Description": "",
             "ObjectType": "measured_dimension.molar_mass_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.molar_mass.value",
+            "Sid": "measured_dimension.molar_mass.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

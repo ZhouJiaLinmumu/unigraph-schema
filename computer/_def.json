@@ -1,5 +1,5 @@
 {
-  "Id": "computer",
+  "Sid": "computer",
   "Name": "Computers",
   "Description": "The computer domain contains types about computer hardware, software, computer science and theory."
 }

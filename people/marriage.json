@@ -1,5 +1,5 @@
 {
-    "Id": "people.marriage",
+    "Sid": "people.marriage",
     "Name": "Marriage",
     "Description": "'Marriage' defines a relationship between two people.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "people.marriage.start_date",
+            "Sid": "people.marriage.start_date",
             "Name": "From",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "people.marriage.location_of_ceremony",
+            "Sid": "people.marriage.location_of_ceremony",
             "Name": "Location of ceremony",
             "Description": "",
             "ObjectType": "people.marriage_location",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "people.marriage.spouse",
+            "Sid": "people.marriage.spouse",
             "Name": "Spouse",
             "Description": "",
             "ObjectType": "people.spouse",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "people.marriage.end_date",
+            "Sid": "people.marriage.end_date",
             "Name": "To",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "people.marriage.type_of_union",
+            "Sid": "people.marriage.type_of_union",
             "Name": "Type of union",
             "Description": "",
             "ObjectType": "people.marriage_union_type",

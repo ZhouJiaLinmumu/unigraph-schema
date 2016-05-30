@@ -1,5 +1,5 @@
 {
-    "Id": "radio.location",
+    "Sid": "radio.location",
     "Name": "Radio Location",
     "Description": "Areas in which a radio station is available",
     "Mediator": false,

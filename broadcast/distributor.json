@@ -1,5 +1,5 @@
 {
-    "Id": "broadcast.distributor",
+    "Sid": "broadcast.distributor",
     "Name": "Broadcast Distributor",
     "Description": "A distributor of broadcasts. This can be an Internet Provider, FM station, Satellite Channel, etc.",
     "Mediator": false,

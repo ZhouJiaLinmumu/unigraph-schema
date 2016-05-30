@@ -1,5 +1,5 @@
 {
-    "Id": "common.document",
+    "Sid": "common.document",
     "Name": "Document",
     "Description": "For documents of any kind",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "common.document.author",
+            "Sid": "common.document.author",
             "Name": "Author",
             "Description": "",
             "ObjectType": "common.document_author",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "common.document.language",
+            "Sid": "common.document.language",
             "Name": "Language",
             "Description": "The language of this document.",
             "ObjectType": "common.document_language",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "common.document.date_published",
+            "Sid": "common.document.date_published",
             "Name": "Published",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "common.document.source_uri",
+            "Sid": "common.document.source_uri",
             "Name": "Source URI",
             "Description": "",
             "ObjectType": "type.uri",
@@ -41,7 +41,7 @@
             "Required": true
         },
         {
-            "Id": "common.document.summary",
+            "Sid": "common.document.summary",
             "Name": "Summary",
             "Description": "",
             "ObjectType": "type.text",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "common.document.size",
+            "Sid": "common.document.size",
             "Name": "Document Size",
             "Description": "",
             "ObjectType": "measured_dimension.data_size",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "common.document.file_format",
+            "Sid": "common.document.file_format",
             "Name": "Document File format",
             "Description": "",
             "ObjectType": "common.file_format",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "common.document.authority",
+            "Sid": "common.document.authority",
             "Name": "Document Authority",
             "Description": "The organization compiling and controlling the content of the document.",
             "ObjectType": "common.document_authority",

@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.similar_automobile_models",
+    "Sid": "automotive.similar_automobile_models",
     "Name": "Similar automobile models",
     "Description": "Mediator type that links automobile models that are related to each other in some sort of close similarity (usually being related as a variant of the other model or built from the same chassis of a model, both built by the same manufacturer). An example would be the Ford Mustang model has as related models the Ford Falcon, the Mercury Cougar and the Shelby Mustang.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.similar_automobile_models.related_model",
+            "Sid": "automotive.similar_automobile_models.related_model",
             "Name": "Related model",
             "Description": "Automobile models closely related to this model.",
             "ObjectType": "automotive.model",

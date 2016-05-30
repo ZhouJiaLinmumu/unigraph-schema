@@ -1,5 +1,5 @@
 {
-    "Id": "opera.genre",
+    "Sid": "opera.genre",
     "Name": "Opera Genre",
     "Description": "This type is for the various different genres of opera.",
     "Mediator": false,

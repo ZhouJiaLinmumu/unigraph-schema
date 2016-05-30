@@ -1,5 +1,5 @@
 {
-    "Id": "broadcast.tv_network",
+    "Sid": "broadcast.tv_network",
     "Name": "TV Network",
     "Description": "A TV Network operates more than one TV channel",
     "Mediator": false,

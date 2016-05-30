@@ -1,5 +1,5 @@
 {
-    "Id": "venture_capital.venture_funded_company",
+    "Sid": "venture_capital.venture_funded_company",
     "Name": "Venture Funded Company",
     "Description": "A venture funded company is any company which has received funding from a venture capital investor.",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "venture_capital.venture_funded_company.total_venture_investment",
+            "Sid": "venture_capital.venture_funded_company.total_venture_investment",
             "Name": "Total Venture Investment Raised",
             "Description": "",
             "ObjectType": "measured_dimension.dated_currency_amount",

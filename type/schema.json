@@ -1,5 +1,5 @@
 {
-    "Id": "type.schema",
+    "Sid": "type.schema",
     "Name": "Schema",
     "Description": "Includes types, domains, properties.",
     "Mediator": false,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "type.schema.id",
+            "Sid": "type.schema.id",
             "Name": "Id",
             "Description": "Friendly identifier for the schema object.",
             "ObjectType": "type.rawstring",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "type.schema.name",
+            "Sid": "type.schema.name",
             "Name": "Name",
             "Description": "A textual display name for the schema object",
             "ObjectType": "type.rawstring",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "type.schema.description",
+            "Sid": "type.schema.description",
             "Name": "Name",
             "Description": "Description of the schema object",
             "ObjectType": "type.rawstring",

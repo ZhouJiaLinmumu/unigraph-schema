@@ -1,5 +1,5 @@
 {
-    "Id": "business.market_size",
+    "Sid": "business.market_size",
     "Name": "Market size",
     "Description": "This type is used to record the size (in currency) of a competitive space at a given time.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.market_size.amount",
+            "Sid": "business.market_size.amount",
             "Name": "Amount",
             "Description": "",
             "ObjectType": "type.float",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "business.market_size.region",
+            "Sid": "business.market_size.region",
             "Name": "Region",
             "Description": "",
             "ObjectType": "business.market_region",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "business.market_size.currency",
+            "Sid": "business.market_size.currency",
             "Name": "Currency",
             "Description": "",
             "ObjectType": "business.currency",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "business.market_size.valid_date",
+            "Sid": "business.market_size.valid_date",
             "Name": "Valid date",
             "Description": "",
             "ObjectType": "type.datetime",

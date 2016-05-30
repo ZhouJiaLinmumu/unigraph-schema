@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.manufacturing_plant",
+    "Sid": "automotive.manufacturing_plant",
     "Name": "Manufacturing Plant",
     "Description": "Manufacturing plant is the location where the vehicle is assembled into it's final operational configuration.",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.manufacturing_plant.company",
+            "Sid": "automotive.manufacturing_plant.company",
             "Name": "Company",
             "Description": "",
             "ObjectType": "automotive.company",
@@ -20,7 +20,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.manufacturing_plant.location",
+            "Sid": "automotive.manufacturing_plant.location",
             "Name": "Location",
             "Description": "",
             "ObjectType": "automotive.manufacturing_plant_location",

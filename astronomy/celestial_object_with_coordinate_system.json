@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.celestial_object_with_coordinate_system",
+    "Sid": "astronomy.celestial_object_with_coordinate_system",
     "Name": "Celestial object with coordinate system",
     "Description": "Planetographic coordinates are a system of coordinates created by the setting up of longitudinal and latitudinal lines on planets.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.celestial_object_with_coordinate_system.system",
+            "Sid": "astronomy.celestial_object_with_coordinate_system.system",
             "Name": "Planetographic coordinate system",
             "Description": "Areographic coordinates on Mars, Selenographic coordinates on the Moon, and Heliographic coordinates on the Sun",
             "ObjectType": "astronomy.planetographic_coordinate_system",

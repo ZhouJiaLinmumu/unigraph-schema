@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.ownership",
+    "Sid": "architecture.ownership",
     "Name": "Ownership",
     "Description": "This is a compound value type: structures link to this to denote details of who owned a structure and when. Owners link to the ownership object from the other side.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "architecture.ownership.end_date",
+            "Sid": "architecture.ownership.end_date",
             "Name": "End Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.ownership.owner",
+            "Sid": "architecture.ownership.owner",
             "Name": "Owner",
             "Description": "",
             "ObjectType": "architecture.structure_owner",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "architecture.ownership.start_date",
+            "Sid": "architecture.ownership.start_date",
             "Name": "Start Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.ownership.structure",
+            "Sid": "architecture.ownership.structure",
             "Name": "Structure",
             "Description": "",
             "ObjectType": "architecture.structure",

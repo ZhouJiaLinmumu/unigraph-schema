@@ -1,5 +1,5 @@
 {
-    "Id": "film.costume_designer",
+    "Sid": "film.costume_designer",
     "Name": "Film costume designer",
     "Description": "The Film Costume Designer type includes people who have created the actors wardrobe for a film. Wardobe can be of an entirely original design or selected/modified from existing/historical designs.",
     "Mediator": false,

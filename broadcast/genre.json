@@ -1,5 +1,5 @@
 {
-    "Id": "broadcast.genre",
+    "Sid": "broadcast.genre",
     "Name": "Broadcast Genre",
     "Description": "A broadcast Genre. This is includes, but is not restricted to, musical genres.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "book.poem_character",
+    "Sid": "book.poem_character",
     "Name": "Poem character",
     "Description": "This type is for characters who appear in poems.",
     "Mediator": false,

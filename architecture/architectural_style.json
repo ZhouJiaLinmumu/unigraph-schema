@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.architectural_style",
+    "Sid": "architecture.architectural_style",
     "Name": "Architectural style",
     "Description": "Architectural style is used to categorize examples of architecture into groups of similar form, materials, historical period, techniques, region etc.. Styles often have definitive examples, and the architects of these structures are often associated with particular styles.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "protected_sites.preservation_agency",
+    "Sid": "protected_sites.preservation_agency",
     "Name": "Natural or Cultural Preservation Agency",
     "Description": "A \"natural or cultural preservation agency\" is an organization which designates sites as being of natural, cultural, or historical value. An example is the UNESCO World Heritage Committee, which designates places around the world as World Heritage Sites. This type of agency differs from a \"governing body of protected sites\" in that preservation agencies do not generally have any administrative control over the sites they designate.",
     "Mediator": false,

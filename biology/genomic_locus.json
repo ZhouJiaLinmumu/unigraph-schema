@@ -1,5 +1,5 @@
 {
-    "Id": "biology.genomic_locus",
+    "Sid": "biology.genomic_locus",
     "Name": "Genomic Locus",
     "Description": "The location of a gene (or significant sequence) on a chromosome.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.genomic_locus.annotation",
+            "Sid": "biology.genomic_locus.annotation",
             "Name": "Annotation",
             "Description": "",
             "ObjectType": "type.object",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "biology.genomic_locus.band",
+            "Sid": "biology.genomic_locus.band",
             "Name": "Band",
             "Description": "",
             "ObjectType": "biology.cytogenetic_band",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "biology.genomic_locus.build",
+            "Sid": "biology.genomic_locus.build",
             "Name": "Build",
             "Description": "",
             "ObjectType": "biology.genome_build",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "biology.genomic_locus.end_base",
+            "Sid": "biology.genomic_locus.end_base",
             "Name": "End Base",
             "Description": "",
             "ObjectType": "type.int",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "biology.genomic_locus.start_base",
+            "Sid": "biology.genomic_locus.start_base",
             "Name": "Start Base",
             "Description": "",
             "ObjectType": "type.int",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "biology.genomic_locus.strand",
+            "Sid": "biology.genomic_locus.strand",
             "Name": "Strand",
             "Description": "",
             "ObjectType": "type.rawstring",

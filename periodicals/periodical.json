@@ -1,5 +1,5 @@
 {
-    "Id": "periodicals.periodical",
+    "Sid": "periodicals.periodical",
     "Name": "Periodical",
     "Description": "A periodical is a written work or collection of written works that is typically published on a regular schedule. This includes magazines, newspapers, journals, fanzines, zines, school newspapers, etc. This type holds all the properties common across all types of periodicals. If there is another type within UniGraph that is more specific to the topic (for example magazines and newspapers), all applicable types should be used. Comic books, though often published on a regular schedule, have their own type and are specifically NOT periodicals.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "periodicals.periodical.final_issue_date",
+            "Sid": "periodicals.periodical.final_issue_date",
             "Name": "Final issue date",
             "Description": "",
             "ObjectType": "periodicals.periodical_publication_date",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "periodicals.periodical.first_issue_date",
+            "Sid": "periodicals.periodical.first_issue_date",
             "Name": "First issue date",
             "Description": "",
             "ObjectType": "periodicals.periodical_publication_date",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "periodicals.periodical.frequency_or_issues_per_year",
+            "Sid": "periodicals.periodical.frequency_or_issues_per_year",
             "Name": "Frequency or Issues per Year",
             "Description": "",
             "ObjectType": "periodicals.periodical_frequency",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "periodicals.periodical.language",
+            "Sid": "periodicals.periodical.language",
             "Name": "Language",
             "Description": "The language or languages the periodical is published in",
             "ObjectType": "periodicals.periodical_language",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "periodicals.periodical.subjects",
+            "Sid": "periodicals.periodical.subjects",
             "Name": "Subjects",
             "Description": "Only for periodicals that deal primarily with one or more specific subjects.",
             "ObjectType": "periodicals.periodical_subject",

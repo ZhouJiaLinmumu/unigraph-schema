@@ -1,5 +1,5 @@
 {
-    "Id": "travel.guidebook_series",
+    "Sid": "travel.guidebook_series",
     "Name": "Guidebook series",
     "Description": "A guidebook series is a grouping of a number of guidebooks for marketing or publishing purposes.  Guidebooks in the series may be sold individually, but often have a similar cover design, content or theme to other guides in the series.",
     "Mediator": false,

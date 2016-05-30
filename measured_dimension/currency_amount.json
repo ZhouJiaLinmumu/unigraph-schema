@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.currency_amount",
+    "Sid": "measured_dimension.currency_amount",
     "Name": "Currency amount",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.currency_amount.currency",
+            "Sid": "measured_dimension.currency_amount.currency",
             "Name": "Currency",
             "Description": "",
             "ObjectType": "measured_dimension.currency",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.currency_amount.value",
+            "Sid": "measured_dimension.currency_amount.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

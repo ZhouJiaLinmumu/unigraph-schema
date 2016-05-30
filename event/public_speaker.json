@@ -1,5 +1,5 @@
 {
-    "Id": "event.public_speaker",
+    "Sid": "event.public_speaker",
     "Name": "Public speaker",
     "Description": "Anyone who has given a speech or made a public presentation, including debates, presentations at conferences (including panel discussions), sermons, political orations, commencement speeches, eulogies, etc.",
     "Mediator": false,

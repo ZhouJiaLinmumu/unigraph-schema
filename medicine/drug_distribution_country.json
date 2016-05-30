@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.drug_distribution_country",
+    "Sid": "medicine.drug_distribution_country",
     "Name": "Drug Country",
     "Description": "Countries where a drug is approved for distribution.",
     "Mediator": false,

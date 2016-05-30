@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.floating_point_range",
+    "Sid": "measured_dimension.floating_point_range",
     "Name": "Floating point range",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.floating_point_range.high_value",
+            "Sid": "measured_dimension.floating_point_range.high_value",
             "Name": "Floating point High value",
             "Description": "",
             "ObjectType": "type.float",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.floating_point_range.low_value",
+            "Sid": "measured_dimension.floating_point_range.low_value",
             "Name": "Floating point Low value",
             "Description": "",
             "ObjectType": "type.float",

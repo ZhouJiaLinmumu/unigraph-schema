@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.meteorite_fall_location",
+    "Sid": "astronomy.meteorite_fall_location",
     "Name": "Meteorite Fall Location",
     "Description": "A location on which a meteorite has fallen",
     "Mediator": false,

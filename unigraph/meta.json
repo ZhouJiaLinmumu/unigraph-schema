@@ -1,0 +1,20 @@
+{
+    "Sid": "unigraph.meta",
+    "Name": "Meta",
+    "Description": "Connection to meta information about the statement",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "type.object"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Sid": "unigraph.meta.confirmation",
+            "Name": "Validity",
+            "Description": "Link to the date and source confirming the statement",
+            "ObjectType": "unigraph.confirmation",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

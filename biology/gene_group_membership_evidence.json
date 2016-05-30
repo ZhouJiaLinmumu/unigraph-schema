@@ -1,5 +1,5 @@
 {
-    "Id": "biology.gene_group_membership_evidence",
+    "Sid": "biology.gene_group_membership_evidence",
     "Name": "Gene Group Membership Evidence",
     "Description": "Kind of evidence for a gene being a member of a gene group.",
     "Mediator": false,

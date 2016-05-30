@@ -1,5 +1,5 @@
 {
-    "Id": "book.character",
+    "Sid": "book.character",
     "Name": "Book Character",
     "Description": "Any character who appears in a book or a short story.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "book.character.appears_in_book",
+            "Sid": "book.character.appears_in_book",
             "Name": "Appears In Books",
             "Description": "",
             "ObjectType": "book.book",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "book.character.appears_in_short_stories",
+            "Sid": "book.character.appears_in_short_stories",
             "Name": "Appears In Short Stories",
             "Description": "",
             "ObjectType": "book.short_story",

@@ -1,5 +1,5 @@
 {
-    "Id": "tv.episode_segment_song_relationship",
+    "Sid": "tv.episode_segment_song_relationship",
     "Name": "TV segment song relationship",
     "Description": "A type to connect TV episode segments to the music that appears in them.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.episode_segment_song_relationship.song",
+            "Sid": "tv.episode_segment_song_relationship.song",
             "Name": "Song",
             "Description": "A song or composition that was played during this segment.",
             "ObjectType": "tv.song",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "tv.episode_segment_song_relationship.performers",
+            "Sid": "tv.episode_segment_song_relationship.performers",
             "Name": "Performers",
             "Description": "The person or group that performed this music (live or pre-recorded) in this segment.",
             "ObjectType": "tv.song_performer",

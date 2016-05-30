@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.spacecraft_manufacturer",
+    "Sid": "spaceflight.spacecraft_manufacturer",
     "Name": "Spacecraft Manufacturer",
     "Description": "A company that builds satellites or other vehicles designed to operate in space.",
     "Mediator": false,

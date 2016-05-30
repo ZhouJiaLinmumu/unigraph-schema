@@ -1,5 +1,5 @@
 {
-    "Id": "business.market_share",
+    "Sid": "business.market_share",
     "Name": "Market share",
     "Description": "This type is used to hold information about a particular company's percentage share of a particular competitive space.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.market_share.company",
+            "Sid": "business.market_share.company",
             "Name": "Company",
             "Description": "",
             "ObjectType": "business.business_operation",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "business.market_share.date",
+            "Sid": "business.market_share.date",
             "Name": "Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "business.market_share.percentage",
+            "Sid": "business.market_share.percentage",
             "Name": "Percentage",
             "Description": "",
             "ObjectType": "type.float",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "business.market_share.region",
+            "Sid": "business.market_share.region",
             "Name": "Region",
             "Description": "",
             "ObjectType": "business.market_region",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "business.market_share.space",
+            "Sid": "business.market_share.space",
             "Name": "Space",
             "Description": "",
             "ObjectType": "business.competitive_space",

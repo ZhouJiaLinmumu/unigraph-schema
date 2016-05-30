@@ -1,5 +1,5 @@
 {
-    "Id": "religion.belief",
+    "Sid": "religion.belief",
     "Name": "Belief",
     "Description": "An idea or creed, often codified, that is shared by adherents of a religion. Religious beliefs often pertain to the sacred or divine, or convey values based on the wisdom of a deity or the teachings of a spiritual leader. Examples of beliefs include monotheism, atheism, reincarnation, trinity.",
     "Mediator": false,

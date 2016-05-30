@@ -1,5 +1,5 @@
 {
-    "Id": "people.family",
+    "Sid": "people.family",
     "Name": "Family",
     "Description": "This type is used for notable families that can be discretely defined (such as royal houses, the Guggenheim family, the Sulzbergers, etc.) It is distinct from \"family name\" which more broadly defines people with the same surname.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "people.family.country",
+            "Sid": "people.family.country",
             "Name": "Country",
             "Description": "The country or countries in which this family are (or were) notable. This will often be the country of origin.",
             "ObjectType": "people.family_country",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "people.family.founder",
+            "Sid": "people.family.founder",
             "Name": "Founder",
             "Description": "The person who founded the family, or who brought it to prominence.",
             "ObjectType": "people.family_member",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "people.family.rise_to_prominence",
+            "Sid": "people.family.rise_to_prominence",
             "Name": "Rise to prominence",
             "Description": "The period (such as 18th Century or Renaissance) during which the family rose to notability.",
             "ObjectType": "people.rise_to_prominence",

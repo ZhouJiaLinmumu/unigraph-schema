@@ -1,5 +1,5 @@
 {
-    "Id": "music.concert_tour",
+    "Sid": "music.concert_tour",
     "Name": "Concert tour",
     "Description": "A Concert tour is a series of music concerts in multiple cities. Tours are generally headlined by a Musical Artist in support of the release of a new Musical Album.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.concert_tour.supported_album",
+            "Sid": "music.concert_tour.supported_album",
             "Name": "Album or Release Supporting",
             "Description": "",
             "ObjectType": "music.album",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "music.concert_tour.artist",
+            "Sid": "music.concert_tour.artist",
             "Name": "Artist",
             "Description": "",
             "ObjectType": "music.artist",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "music.concert_tour.films",
+            "Sid": "music.concert_tour.films",
             "Name": "Concert Films or Videos",
             "Description": "",
             "ObjectType": "music.concert_film",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "music.concert_tour.concerts",
+            "Sid": "music.concert_tour.concerts",
             "Name": "Concerts",
             "Description": "",
             "ObjectType": "music.concert",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "music.concert_tour.gross_proceeds",
+            "Sid": "music.concert_tour.gross_proceeds",
             "Name": "Gross Proceeds",
             "Description": "",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "music.concert_tour.live_recordings",
+            "Sid": "music.concert_tour.live_recordings",
             "Name": "Live Recordings",
             "Description": "",
             "ObjectType": "music.live_album",
@@ -58,7 +58,7 @@
             "Required": false
         },
         {
-            "Id": "music.concert_tour.tour_manager",
+            "Sid": "music.concert_tour.tour_manager",
             "Name": "Tour Manager",
             "Description": "",
             "ObjectType": "music.tour_manager",

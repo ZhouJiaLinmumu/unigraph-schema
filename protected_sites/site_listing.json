@@ -1,5 +1,5 @@
 {
-    "Id": "protected_sites.site_listing",
+    "Sid": "protected_sites.site_listing",
     "Name": "Natural or Cultural Site Listing",
     "Description": "This type documents what sites were listed under what designation, and when. One site may be listed multiple times, under different designations, either at different times or simultaneously.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "protected_sites.site_listing.category_or_criteria",
+            "Sid": "protected_sites.site_listing.category_or_criteria",
             "Name": "Category or Criteria",
             "Description": "",
             "ObjectType": "protected_sites.site_listing_category",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "protected_sites.site_listing.date_listed",
+            "Sid": "protected_sites.site_listing.date_listed",
             "Name": "Date Listed",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "protected_sites.site_listing.designation",
+            "Sid": "protected_sites.site_listing.designation",
             "Name": "Designation",
             "Description": "",
             "ObjectType": "protected_sites.site_designation",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "protected_sites.site_listing.site",
+            "Sid": "protected_sites.site_listing.site",
             "Name": "Listed Site",
             "Description": "",
             "ObjectType": "protected_sites.listed_site",

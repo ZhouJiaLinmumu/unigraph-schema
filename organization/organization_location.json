@@ -1,5 +1,5 @@
 {
-    "Id": "organization.organization_location",
+    "Sid": "organization.organization_location",
     "Name": "Organization locations",
     "Description": "The organization's locations",
     "Mediator": false,

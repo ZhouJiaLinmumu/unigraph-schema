@@ -1,5 +1,5 @@
 {
-    "Id": "event.produced_event",
+    "Sid": "event.produced_event",
     "Name": "Produced event",
     "Description": "This type is for events that have a producer. This is frequently indicated by the phrase \"produced by\" in advertising or promotional material for the event. Instances of this type will typically also be typed as either Event or Recurring event. Examples of kinds of events that are often \"produced by\" someone or something include concerts and concert tours, festivals, sporting events, conferences, etc.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "event.produced_event.produced_by",
+            "Sid": "event.produced_event.produced_by",
             "Name": "Produced by",
             "Description": "The producer of this event. The producer will most often be a company or organization.",
             "ObjectType": "event.event_producer",

@@ -1,5 +1,5 @@
 {
-    "Id": "government.poll_respondent_category",
+    "Sid": "government.poll_respondent_category",
     "Name": "Poll respondent category",
     "Description": "This type is for categories of respondents to an election poll.",
     "Mediator": false,

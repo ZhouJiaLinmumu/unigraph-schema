@@ -1,5 +1,5 @@
 {
-    "Id": "opera.conductor",
+    "Sid": "opera.conductor",
     "Name": "Opera Conductor",
     "Description": "Persons conducting an opera",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "sports.defunct_team",
+    "Sid": "sports.defunct_team",
     "Name": "Defunct Sports Team",
     "Description": "A defunct sports team is a sports team that no longer exists.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.defunct_team.active",
+            "Sid": "sports.defunct_team.active",
             "Name": "Active",
             "Description": "",
             "ObjectType": "measured_dimension.time_interval",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "sports.defunct_team.later_known_as",
+            "Sid": "sports.defunct_team.later_known_as",
             "Name": "Later known as",
             "Description": "",
             "ObjectType": "sports.team",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "sports.defunct_team.sport",
+            "Sid": "sports.defunct_team.sport",
             "Name": "Sport",
             "Description": "",
             "ObjectType": "sports.sport",

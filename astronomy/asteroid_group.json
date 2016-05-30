@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.asteroid_group",
+    "Sid": "astronomy.asteroid_group",
     "Name": "Asteroid Group",
     "Description": "An asteroid group consists of a set of minor planets that have a relatively loose dynamical associations. Members of a group can be unrelated to each other, unlike in a asteroid family, which can result from the break-up of a single asteroid. It is customary to name a group of asteroids after the first member of that group to be discovered (often the largest).",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.asteroid_group.founding_member",
+            "Sid": "astronomy.asteroid_group.founding_member",
             "Name": "Asteroid Group Founding Member",
             "Description": "",
             "ObjectType": "astronomy.asteroid",

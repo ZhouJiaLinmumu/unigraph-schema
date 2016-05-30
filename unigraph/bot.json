@@ -1,0 +1,44 @@
+{
+    "Sid": "unigraph.bot",
+    "Name": "Bot",
+    "Description": "The bot is a bot",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Sid": "unigraph.bot.author",
+            "Name": "Author",
+            "Description": "",
+            "ObjectType": "unigraph.user",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Sid": "unigraph.bot.recurrent",
+            "Name": "Recurring",
+            "Description": "",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Sid": "unigraph.bot.frequency",
+            "Name": "Recurring",
+            "Description": "",
+            "ObjectType": "measured_dimension.time",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Sid": "unigraph.bot.is_active",
+            "Name": "Is active",
+            "Description": "",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

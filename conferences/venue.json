@@ -1,5 +1,5 @@
 {
-    "Id": "conferences.venue",
+    "Sid": "conferences.venue",
     "Name": "Conference venue",
     "Description": "The venue(s) at which a conference or convention was held. This will typically be a convention center, hotel, or the like.",
     "Mediator": false,

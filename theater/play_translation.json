@@ -1,5 +1,5 @@
 {
-    "Id": "theater.play_translation",
+    "Sid": "theater.play_translation",
     "Name": "Play Translation",
     "Description": "The translation used to stage a play",
     "Mediator": false,

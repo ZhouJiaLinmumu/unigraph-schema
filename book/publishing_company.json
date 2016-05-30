@@ -1,5 +1,5 @@
 {
-    "Id": "book.publishing_company",
+    "Sid": "book.publishing_company",
     "Name": "Publisher",
     "Description": "This type is used for any company or organization that has published a book. It should also be used for imprints, which might sometimes be subsidiaries of a larger company, sometimes be a division of a company or organization, or sometimes just a brand.",
     "Mediator": false,

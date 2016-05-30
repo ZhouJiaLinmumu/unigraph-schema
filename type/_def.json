@@ -1,5 +1,5 @@
 {
-  "Id": "type",
+  "Sid": "type",
   "Name": "UniGraph Primitive Types",
   "Description": "The domain of primitive UniGraph types"
 }

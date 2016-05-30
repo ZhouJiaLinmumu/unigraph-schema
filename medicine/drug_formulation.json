@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.drug_formulation",
+    "Sid": "medicine.drug_formulation",
     "Name": "Drug formulation",
     "Description": "A drug formulation is a preparation of one or more drug moieties that has a specific pharmaceutical makeup and profile.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "medicine.drug_formulation.active_ingredient_moieties",
+            "Sid": "medicine.drug_formulation.active_ingredient_moieties",
             "Name": "Active ingredient moieties",
             "Description": "The active ingredients in this drug formulation, expressed as moieties.",
             "ObjectType": "medicine.drug_ingredient",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.drug_formulation.active_ingredients",
+            "Sid": "medicine.drug_formulation.active_ingredients",
             "Name": "Active ingredients",
             "Description": "The active substance or substances in this drug formulation. For many drug formulations, the active ingredients will be the specific forms (salts, esters, other noncovalent derivatives, etc) of the active moieties used in this preparation. Note that some active ingredients may not be drugs proper, but other chemical compounds, botanicals, etc that are considered active by the drug maker or regulator (such as sodium chloride).",
             "ObjectType": "medicine.drug_ingredient",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.drug_formulation.brand_names",
+            "Sid": "medicine.drug_formulation.brand_names",
             "Name": "Brand names",
             "Description": "Brand names in which this formulation is available.",
             "ObjectType": "type.text",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.drug_formulation.dosage_form",
+            "Sid": "medicine.drug_formulation.dosage_form",
             "Name": "Dosage form",
             "Description": "The physical form in which this drug is made available: tablet, injection, capsule, etc.",
             "ObjectType": "medicine.drug_dosage_form",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.drug_formulation.drug_category",
+            "Sid": "medicine.drug_formulation.drug_category",
             "Name": "Drug category",
             "Description": "What kind of drug this is: chemical, cellular therapy, plasma derivative, vaccine, etc.",
             "ObjectType": "medicine.drug_formulation_category",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.drug_formulation.legal_status",
+            "Sid": "medicine.drug_formulation.legal_status",
             "Name": "Legal status",
             "Description": "The legal status of this drug formulation, as defined by government bodies that regulate therapeutic goods.",
             "ObjectType": "medicine.drug_legal_status",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.drug_formulation.manufactured_forms",
+            "Sid": "medicine.drug_formulation.manufactured_forms",
             "Name": "Manufactured forms",
             "Description": "Pharmaceutically-equivalent forms in which this formulation is manufactured or made available. All manufactured forms must be pharmaceutically equivalent (same active compounds, strengths, dosage form, routes), but need not be therapeutically equivalent.",
             "ObjectType": "medicine.manufactured_drug_form",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.drug_formulation.reference_form",
+            "Sid": "medicine.drug_formulation.reference_form",
             "Name": "Reference form",
             "Description": "If there is a reference manufactured form of this drug defined by a regulating entity, this property points to it. For example, in the US, certain drugs are designated by the FDA as reference drugs, and are used as standards for defining therapeutic equivalence.",
             "ObjectType": "medicine.manufactured_drug_form",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.drug_formulation.routes",
+            "Sid": "medicine.drug_formulation.routes",
             "Name": "Routes of administration",
             "Description": "The route(s) of administration, or path(s) by which this drug is brought into contact with the body.",
             "ObjectType": "medicine.drug_administration_route",

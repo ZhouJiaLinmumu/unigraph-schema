@@ -1,5 +1,5 @@
 {
-    "Id": "film.cinematographer",
+    "Sid": "film.cinematographer",
     "Name": "Film cinematographer",
     "Description": "The Cinematographer type holds people who have worked as a film cinematographer.",
     "Mediator": false,

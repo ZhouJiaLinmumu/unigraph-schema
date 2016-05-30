@@ -1,5 +1,5 @@
 {
-    "Id": "business.sponsored_recipient",
+    "Sid": "business.sponsored_recipient",
     "Name": "Sponsored Recipient",
     "Description": "A sponsored recipient is an entity that receives support, financially or through the provision of products or services, from a sponsor.",
     "Mediator": false,

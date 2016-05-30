@@ -1,5 +1,5 @@
 {
-    "Id": "sports.sport_equipment",
+    "Sid": "sports.sport_equipment",
     "Name": "Sports Equipment",
     "Description": "Anything which is used to play a sport.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.sport_equipment.sport_used_for",
+            "Sid": "sports.sport_equipment.sport_used_for",
             "Name": "Sport used for",
             "Description": "The sport(s) this thing is used to play",
             "ObjectType": "sports.sport",

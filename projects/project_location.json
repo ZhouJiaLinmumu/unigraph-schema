@@ -1,5 +1,5 @@
 {
-    "Id": "projects.project_location",
+    "Sid": "projects.project_location",
     "Name": "Project Location",
     "Description": "The location(s) where the project work has been carried",
     "Mediator": false,

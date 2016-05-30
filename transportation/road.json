@@ -1,5 +1,5 @@
 {
-    "Id": "transportation.road",
+    "Sid": "transportation.road",
     "Name": "Road",
     "Description": "A road is a route used for land transport and along which motor vehicles can be driven. The type includes both paved and unpaved roads.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "transportation.road.end1",
+            "Sid": "transportation.road.end1",
             "Name": "End 1",
             "Description": "",
             "ObjectType": "transportation.road_starting_point",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "transportation.road.end2",
+            "Sid": "transportation.road.end2",
             "Name": "End 2",
             "Description": "",
             "ObjectType": "transportation.road_starting_point",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "transportation.road.formed",
+            "Sid": "transportation.road.formed",
             "Name": "Formed",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "transportation.road.highway_system",
+            "Sid": "transportation.road.highway_system",
             "Name": "Highway system",
             "Description": "",
             "ObjectType": "transportation.highway_system",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "transportation.road.length",
+            "Sid": "transportation.road.length",
             "Name": "Length",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "transportation.road.major_cities",
+            "Sid": "transportation.road.major_cities",
             "Name": "Major cities",
             "Description": "",
             "ObjectType": "transportation.road_town",
@@ -58,7 +58,7 @@
             "Required": false
         },
         {
-            "Id": "transportation.road.orientation",
+            "Sid": "transportation.road.orientation",
             "Name": "Orientation",
             "Description": "",
             "ObjectType": "transportation.road_orientation",

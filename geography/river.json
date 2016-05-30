@@ -1,5 +1,5 @@
 {
-    "Id": "geography.river",
+    "Sid": "geography.river",
     "Name": "River",
     "Description": "A river is a body of water that flows toward an ocean, a bay, a lake, or another river. This type includes flowing natural and artificial waterways of any size such as rivers, streams, brooks and creeks.",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "geography.river.basin_area",
+            "Sid": "geography.river.basin_area",
             "Name": "Basin area",
             "Description": "",
             "ObjectType": "measured_dimension.area",
@@ -20,7 +20,7 @@
             "Required": false
         },
         {
-            "Id": "geography.river.basin_countries",
+            "Sid": "geography.river.basin_countries",
             "Name": "Basin countries",
             "Description": "All countries contained in part by the river's watershed.",
             "ObjectType": "geography.basin_country",
@@ -28,7 +28,7 @@
             "Required": false
         },
         {
-            "Id": "geography.river.cities",
+            "Sid": "geography.river.cities",
             "Name": "Cities",
             "Description": "Cities on this river; i.e., those which the river flows through, or which border the river.",
             "ObjectType": "geography.basin_citytown",
@@ -36,7 +36,7 @@
             "Required": false
         },
         {
-            "Id": "geography.river.discharge",
+            "Sid": "geography.river.discharge",
             "Name": "Average discharge",
             "Description": "",
             "ObjectType": "measured_dimension.volumetric_flow_rate",
@@ -44,7 +44,7 @@
             "Required": false
         },
         {
-            "Id": "geography.river.length",
+            "Sid": "geography.river.length",
             "Name": "Length",
             "Description": "The river's length in km from origin to mouth.",
             "ObjectType": "measured_dimension.distance",
@@ -52,7 +52,7 @@
             "Required": false
         },
         {
-            "Id": "geography.river.mouth",
+            "Sid": "geography.river.mouth",
             "Name": "Mouth",
             "Description": "The body of water into which this river flows; if the river ends in a confluence with another river, the name of the new river.",
             "ObjectType": "geography.river_mouth",
@@ -60,7 +60,7 @@
             "Required": false
         },
         {
-            "Id": "geography.river.mouth_elevation",
+            "Sid": "geography.river.mouth_elevation",
             "Name": "Mouth Elevation",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -68,7 +68,7 @@
             "Required": false
         },
         {
-            "Id": "geography.river.mouth_long_lat",
+            "Sid": "geography.river.mouth_long_lat",
             "Name": "Mouth (long./lat./elev.)",
             "Description": "The longitude, latitude of the river's mouth.",
             "ObjectType": "location.geocode",
@@ -76,7 +76,7 @@
             "Required": false
         },
         {
-            "Id": "geography.river.origin",
+            "Sid": "geography.river.origin",
             "Name": "Origin",
             "Description": "The body of water, mountain, etc. from which a river originates; if formed by a confluence of rivers, list both.",
             "ObjectType": "geography.river_origin",
@@ -84,7 +84,7 @@
             "Required": false
         },
         {
-            "Id": "geography.river.origin_long_lat",
+            "Sid": "geography.river.origin_long_lat",
             "Name": "Origin (long./lat./elev.)",
             "Description": "The coordinates of the river's source.",
             "ObjectType": "location.geocode",
@@ -92,7 +92,7 @@
             "Required": false
         },
         {
-            "Id": "geography.river.source_elevation",
+            "Sid": "geography.river.source_elevation",
             "Name": "Origin Elevation",
             "Description": "",
             "ObjectType": "measured_dimension.distance",

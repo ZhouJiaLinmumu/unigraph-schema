@@ -1,5 +1,5 @@
 {
-    "Id": "location.administrative_division_capital_relationship",
+    "Sid": "location.administrative_division_capital_relationship",
     "Name": "Administrative division/capital relationship",
     "Description": "This type mediates the relationship between administrative divisions and their capitals.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.administrative_division_capital_relationship.capital_type",
+            "Sid": "location.administrative_division_capital_relationship.capital_type",
             "Name": "Capital type",
             "Description": "If this administrative division has more than one capital (such as one for summer and one for winter), the kind of capital this one is.",
             "ObjectType": "location.capital_category",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "location.administrative_division_capital_relationship.start_date",
+            "Sid": "location.administrative_division_capital_relationship.start_date",
             "Name": "From",
             "Description": "The date that this location became the capital of this administrative division.",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "location.administrative_division_capital_relationship.end_date",
+            "Sid": "location.administrative_division_capital_relationship.end_date",
             "Name": "To",
             "Description": "The date that this location ceased to be the capital of this administrative division. (If the administrative division has been dissolved, this should be the same as the date of dissolution.)",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "location.administrative_division_capital_relationship.administrative_division",
+            "Sid": "location.administrative_division_capital_relationship.administrative_division",
             "Name": "Administrative division",
             "Description": "The administrative division that this is a capital of.",
             "ObjectType": "location.administrative_division",

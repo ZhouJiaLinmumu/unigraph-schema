@@ -1,5 +1,5 @@
 {
-    "Id": "education.gender_enrollment",
+    "Sid": "education.gender_enrollment",
     "Name": "Gender enrollment",
     "Description": "This is a compound value type used to store information about which sexes were admitted to educational institutions, and when.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "education.gender_enrollment.start_date",
+            "Sid": "education.gender_enrollment.start_date",
             "Name": "From",
             "Description": "The earliest date that this sex was admitted.",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "education.gender_enrollment.sex",
+            "Sid": "education.gender_enrollment.sex",
             "Name": "Sex",
             "Description": "A sex (male or female) admitted to this school.",
             "ObjectType": "education.student_gender",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "education.gender_enrollment.end_date",
+            "Sid": "education.gender_enrollment.end_date",
             "Name": "To",
             "Description": "The date after which this sex was no longer admitted to this school.",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "education.gender_enrollment.institution",
+            "Sid": "education.gender_enrollment.institution",
             "Name": "Institution",
             "Description": "",
             "ObjectType": "education.educational_institution",

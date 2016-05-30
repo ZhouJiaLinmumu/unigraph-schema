@@ -1,5 +1,5 @@
 {
-    "Id": "computer.computer_designer",
+    "Sid": "computer.computer_designer",
     "Name": "Computer Designer",
     "Description": "A person, company or the like which did the high-level design for a computer.",
     "Mediator": false,

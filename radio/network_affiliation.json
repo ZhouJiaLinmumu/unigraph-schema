@@ -1,5 +1,5 @@
 {
-    "Id": "radio.network_affiliation",
+    "Sid": "radio.network_affiliation",
     "Name": "Radio affiliation duration",
     "Description": "This type connects radio stations to networks that they are affiliated with.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "radio.network_affiliation.start_date",
+            "Sid": "radio.network_affiliation.start_date",
             "Name": "From",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "radio.network_affiliation.network",
+            "Sid": "radio.network_affiliation.network",
             "Name": "Network",
             "Description": "",
             "ObjectType": "radio.network",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "radio.network_affiliation.station",
+            "Sid": "radio.network_affiliation.station",
             "Name": "Station",
             "Description": "",
             "ObjectType": "radio.station",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "radio.network_affiliation.end_date",
+            "Sid": "radio.network_affiliation.end_date",
             "Name": "To",
             "Description": "",
             "ObjectType": "type.datetime",

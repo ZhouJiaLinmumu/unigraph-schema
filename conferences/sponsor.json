@@ -1,5 +1,5 @@
 {
-    "Id": "conferences.sponsor",
+    "Sid": "conferences.sponsor",
     "Name": "Conference sponsor",
     "Description": "A group, company, or organization that sponsors (or has sponsored) a conference or convention.",
     "Mediator": false,

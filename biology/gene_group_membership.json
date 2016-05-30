@@ -1,5 +1,5 @@
 {
-    "Id": "biology.gene_group_membership",
+    "Sid": "biology.gene_group_membership",
     "Name": "Gene Group Membership",
     "Description": "Mediator type to link genes to a gene group with the evidence cited for membership.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.gene_group_membership.evidence",
+            "Sid": "biology.gene_group_membership.evidence",
             "Name": "Evidence",
             "Description": "",
             "ObjectType": "biology.gene_group_membership_evidence",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "biology.gene_group_membership.group",
+            "Sid": "biology.gene_group_membership.group",
             "Name": "Group",
             "Description": "",
             "ObjectType": "biology.gene_group",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "biology.gene_group_membership.gene",
+            "Sid": "biology.gene_group_membership.gene",
             "Name": "Gene",
             "Description": "",
             "ObjectType": "biology.gene",

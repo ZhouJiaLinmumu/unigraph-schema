@@ -1,5 +1,5 @@
 {
-    "Id": "government.political_appointer",
+    "Sid": "government.political_appointer",
     "Name": "Political Appointer",
     "Description": "Any person or governmental/political body that appoints (or has appointed) other people to government positions. In the US, examples would include presidents who appoint their cabinets.",
     "Mediator": false,

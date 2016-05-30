@@ -1,5 +1,5 @@
 {
-    "Id": "music.recording",
+    "Sid": "music.recording",
     "Name": "Musical Recording",
     "Description": "A Musical Track is a single recorded track on a Musical Album or Musical Release typically a recording of a song, though it may be a movement of a symphony or other partial work. It should correspond to the tracks on a track listing of an LP, cassette, or CD if the track was ever on an album.A track should be a unique recording, but may appear on multiple albums or releases; for instance, an artist may release a track on one album, and then have that exact recording show up on a Greatest Hits album, a movie soundtrack, and a collection of best songs of the year. In that case, the exact same track instance should be used for each album.However, different recordings of the same song should not be considered the same track; if an artist issues an alternate take on a box set, for instance, or a version on a live album, those should be considered different tracks.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.recording.acquire_page",
+            "Sid": "music.recording.acquire_page",
             "Name": "Buy or download Web page",
             "Description": "Web page where one can buy or download this complete track",
             "ObjectType": "type.uri",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "music.recording.artist",
+            "Sid": "music.recording.artist",
             "Name": "Recorded by",
             "Description": "The primary recording artist of this recording. This should be main performer(s); if the artist is a group, only the group should be entered (individual members can be entered in the property /music/recording/contributions). Artists credited as \"featured\" should be entered in the property /music/recording/featured_artists. The composer and/or lyricist should not be entered here unless they are also the performers.",
             "ObjectType": "music.artist",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "music.recording.recording_date",
+            "Sid": "music.recording.recording_date",
             "Name": "Date Recorded",
             "Description": "The date(s) on which this recording was recorded, if known.",
             "ObjectType": "type.datetime",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "music.recording.engineer",
+            "Sid": "music.recording.engineer",
             "Name": "Engineer",
             "Description": "The recording engineer(s) responsible for this recording.",
             "ObjectType": "music.engineer",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "music.recording.featured_artists",
+            "Sid": "music.recording.featured_artists",
             "Name": "Featured artists",
             "Description": "Artists who are credited as as being featured on this recording. This will usually be either in the recording's credits of a release (e.g. \"Rhianna feat. Jay-Z\") or in the recording's title on a release (e.g. \"Umbrella (feat. Jay-Z)\").   Featured artists' specific contributions (e.g. vocals, guitar, etc.) can be entered in the \"contributions\" property.",
             "ObjectType": "music.featured_artist",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "music.recording.genre",
+            "Sid": "music.recording.genre",
             "Name": "Genre",
             "Description": "The genre of this recording.",
             "ObjectType": "music.genre",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "music.recording.length",
+            "Sid": "music.recording.length",
             "Name": "Length",
             "Description": "The length of this recording in seconds.",
             "ObjectType": "measured_dimension.time",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "music.recording.lyrics_page",
+            "Sid": "music.recording.lyrics_page",
             "Name": "Lyrics Website",
             "Description": "Link to this track's lyrics on an external lyrics website",
             "ObjectType": "type.uri",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "music.recording.recording_place",
+            "Sid": "music.recording.recording_place",
             "Name": "Place Recorded",
             "Description": "The place(s) (studio, city or country) where this recording was recorded, if known.",
             "ObjectType": "music.recording_place",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "music.recording.producer",
+            "Sid": "music.recording.producer",
             "Name": "Producer",
             "Description": "The producer(s) responsible for this recording.",
             "ObjectType": "music.producer",
@@ -89,7 +89,7 @@
             "Required": false
         },
         {
-            "Id": "music.recording.tracks",
+            "Sid": "music.recording.tracks",
             "Name": "Tracks",
             "Description": "Release tracks for this recording. Each appearance on a release should have a separate release track. (E.g. if a recording is used on six releases of an album, it will have six release tracks.)",
             "ObjectType": "music.release_track",

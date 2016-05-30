@@ -1,5 +1,5 @@
 {
-    "Id": "music.composition_language",
+    "Sid": "music.composition_language",
     "Name": "Composition",
     "Description": "The language or languages of the lyrics to a composition.",
     "Mediator": false,

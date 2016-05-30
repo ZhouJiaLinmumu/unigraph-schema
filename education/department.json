@@ -1,5 +1,5 @@
 {
-    "Id": "education.department",
+    "Sid": "education.department",
     "Name": "Department",
     "Description": "This type is for departments and faculties (i.e., groups of departments) at post-secondary schools. The name of the topic should include the school (e.g. University of Washington Department of Global Health). This type should not be used for the individual colleges of a university; those institutions should be typed as College/University.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "education.department.date_closed",
+            "Sid": "education.department.date_closed",
             "Name": "Date closed",
             "Description": "For former departments, the date this department was closed.",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "education.department.date_founded",
+            "Sid": "education.department.date_founded",
             "Name": "Date founded",
             "Description": "The date this department was created.",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "education.department.field",
+            "Sid": "education.department.field",
             "Name": "Field",
             "Description": "The field (or fields) of study taught at this department.",
             "ObjectType": "education.field_of_study",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "education.department.institution",
+            "Sid": "education.department.institution",
             "Name": "Institution",
             "Description": "The college or university that this department belongs to.",
             "ObjectType": "education.university",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "education.department.subsidiary_departments",
+            "Sid": "education.department.subsidiary_departments",
             "Name": "Subsidiary departments",
             "Description": "If this department or faculty has subsidiary departments, they should be listed here.",
             "ObjectType": "education.department",

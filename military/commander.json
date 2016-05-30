@@ -1,5 +1,5 @@
 {
-    "Id": "military.commander",
+    "Sid": "military.commander",
     "Name": "Military Commander",
     "Description": "A military commander is a person who was in command of a set of forces during a military conflict.",
     "Mediator": false,

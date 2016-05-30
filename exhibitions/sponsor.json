@@ -1,5 +1,5 @@
 {
-    "Id": "exhibitions.sponsor",
+    "Sid": "exhibitions.sponsor",
     "Name": "Exhibition sponsor",
     "Description": "An exhibition sponsor is an organization (such as a business, charity, or government agency) or person who provides money or other support for an exhibition or for a stage of a traveling exhibition.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "music.instrument",
+    "Sid": "music.instrument",
     "Name": "Musical instrument",
     "Description": "A Musical instrument is a device constructed or modified with the purpose of making music. In principle, anything that produces sound, and can somehow be controlled by a musician, can serve as a musical instrument. (See e.g. the hardart.) A Musical instrument is also always a Musical Performance Role, so that a Musical Artist can easily be credited with playing the instrument in a performance.Instruments are arranged in a sort of family tree, though it need not be a strict hierarchy.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.instrument.family",
+            "Sid": "music.instrument.family",
             "Name": "Family",
             "Description": "The family of instruments to which this one belongs",
             "ObjectType": "music.instrument",

@@ -1,5 +1,5 @@
 {
-    "Id": "people.nationality",
+    "Sid": "people.nationality",
     "Name": "Nationality",
     "Description": "The person's nationality",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "music.artist_origin",
+    "Sid": "music.artist_origin",
     "Name": "Musical Artist Origin",
     "Description": "The place of origin of an artist as a musician (not necessarily place of birth)",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "tv.genre",
+    "Sid": "tv.genre",
     "Name": "TV Genre",
     "Description": "A TV genre is a way of classifying TV programs by format or type of content. Some genres will be shared with other media (such as science fiction); others are specific to television (sitcom, reality TV).",
     "Mediator": false,

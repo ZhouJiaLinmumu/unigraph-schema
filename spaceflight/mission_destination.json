@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.mission_destination",
+    "Sid": "spaceflight.mission_destination",
     "Name": "Mission destination",
     "Description": "A mission destination is the intended destination of a space mission.",
     "Mediator": false,

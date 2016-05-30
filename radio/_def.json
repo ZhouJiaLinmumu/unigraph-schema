@@ -1,5 +1,5 @@
 {
-  "Id": "radio",
+  "Sid": "radio",
   "Name": "Radio",
   "Description": "The radio domain covers radio specific topics. General information on broadcasting is covered by the broadcast domain."
 }

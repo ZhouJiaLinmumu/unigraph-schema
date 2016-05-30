@@ -1,5 +1,5 @@
 {
-    "Id": "sports.team_coach_tenure",
+    "Sid": "sports.team_coach_tenure",
     "Name": "Sports team coach tenure",
     "Description": "This type connects sports teams to their coaches.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.team_coach_tenure.coach",
+            "Sid": "sports.team_coach_tenure.coach",
             "Name": "Coach",
             "Description": "Someone who has coached this team.",
             "ObjectType": "sports.team_coach",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "sports.team_coach_tenure.start_date",
+            "Sid": "sports.team_coach_tenure.start_date",
             "Name": "From",
             "Description": "The date this person began coaching this team.",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "sports.team_coach_tenure.position",
+            "Sid": "sports.team_coach_tenure.position",
             "Name": "Position",
             "Description": "The coaching position (e.g. \"head coach\") held by this person over this time.",
             "ObjectType": "sports.coaching_position",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "sports.team_coach_tenure.team",
+            "Sid": "sports.team_coach_tenure.team",
             "Name": "Team",
             "Description": "A team this person coached.",
             "ObjectType": "sports.team",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "sports.team_coach_tenure.end_date",
+            "Sid": "sports.team_coach_tenure.end_date",
             "Name": "To",
             "Description": "The date after which this person no longer coached this team.",
             "ObjectType": "type.datetime",

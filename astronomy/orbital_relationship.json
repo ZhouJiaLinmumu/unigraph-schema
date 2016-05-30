@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.orbital_relationship",
+    "Sid": "astronomy.orbital_relationship",
     "Name": "Orbital Relationship",
     "Description": "This type can be applied to anything (natural or artificial) that is in orbit around a celestial body (including the Earth).",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.orbital_relationship.apoapsis",
+            "Sid": "astronomy.orbital_relationship.apoapsis",
             "Name": "Apoapsis",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.orbital_relationship.epoch",
+            "Sid": "astronomy.orbital_relationship.epoch",
             "Name": "Epoch",
             "Description": "The Julian date for the placing the context of the orbital datum.",
             "ObjectType": "type.float",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.orbital_relationship.inclination",
+            "Sid": "astronomy.orbital_relationship.inclination",
             "Name": "Inclination",
             "Description": "Angle of orbit in relationship to the rotational plane (plane of reference, usually the orbited body's equator) of the object being orbited",
             "ObjectType": "measured_dimension.angle",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.orbital_relationship.mean_orbital_speed",
+            "Sid": "astronomy.orbital_relationship.mean_orbital_speed",
             "Name": "Average Orbital Speed",
             "Description": "",
             "ObjectType": "measured_dimension.speed",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.orbital_relationship.orbit_eccentricity",
+            "Sid": "astronomy.orbital_relationship.orbit_eccentricity",
             "Name": "Orbit Eccentricity",
             "Description": "",
             "ObjectType": "type.float",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.orbital_relationship.orbit_type",
+            "Sid": "astronomy.orbital_relationship.orbit_type",
             "Name": "Orbit Type",
             "Description": "",
             "ObjectType": "astronomy.orbit_type",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.orbital_relationship.orbital_order",
+            "Sid": "astronomy.orbital_relationship.orbital_order",
             "Name": "Orbital Order",
             "Description": "The order in which the body of its object class is in orbit around the parent object.",
             "ObjectType": "type.int",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.orbital_relationship.orbital_period",
+            "Sid": "astronomy.orbital_relationship.orbital_period",
             "Name": "Orbital Period",
             "Description": "How long it takes (Earth days) for the Celestial Object to complete a single orbit.",
             "ObjectType": "measured_dimension.time",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.orbital_relationship.orbits",
+            "Sid": "astronomy.orbital_relationship.orbits",
             "Name": "Orbits",
             "Description": "The celestial object being orbited.",
             "ObjectType": "astronomy.orbital_relationship",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.orbital_relationship.periapsis",
+            "Sid": "astronomy.orbital_relationship.periapsis",
             "Name": "Periapsis",
             "Description": "The point of closest approach (the point at which two bodies are the closest in the orbital relationship).",
             "ObjectType": "measured_dimension.distance",
@@ -89,7 +89,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.orbital_relationship.semi_major_axis",
+            "Sid": "astronomy.orbital_relationship.semi_major_axis",
             "Name": "Semi-major Axis",
             "Description": "",
             "ObjectType": "measured_dimension.distance",

@@ -1,5 +1,5 @@
 {
-  "Id": "time",
+  "Sid": "time",
   "Name": "Time",
   "Description": "A domain with information about time zones, calendar systems, holidays etc."
 }

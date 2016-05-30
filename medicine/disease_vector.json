@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.disease_vector",
+    "Sid": "medicine.disease_vector",
     "Name": "Disease vector",
     "Description": "A Vector is an organism that does not cause disease itself but that transmits infection by conveying pathogens from one host to another.It is used to describe a type of intermediate host for parasites. A vector is required as part of the parasite's development.",
     "Mediator": false,

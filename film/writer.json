@@ -1,5 +1,5 @@
 {
-    "Id": "film.writer",
+    "Sid": "film.writer",
     "Name": "Film writer",
     "Description": "Film Writer type includes people who are accredited to have worked upon the screenplay for the film. Sometimes multiple people are listed even if their contributions were never included in the final shooting script for the film.",
     "Mediator": false,

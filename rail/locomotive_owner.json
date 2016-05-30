@@ -1,5 +1,5 @@
 {
-    "Id": "rail.locomotive_owner",
+    "Sid": "rail.locomotive_owner",
     "Name": "Locomotive owner",
     "Description": "A locomotive owner is a person or organization that owns or has owned one or more locomotives. This can include railway operators, museums, collectors, etc.",
     "Mediator": false,

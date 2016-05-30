@@ -1,5 +1,5 @@
 {
-    "Id": "computer.processor_manufacturer",
+    "Sid": "computer.processor_manufacturer",
     "Name": "Processor Manufacturer",
     "Description": "The company or other organization responsible for the manufacture of a computer processor.",
     "Mediator": false,

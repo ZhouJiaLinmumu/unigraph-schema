@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.orbit_type",
+    "Sid": "astronomy.orbit_type",
     "Name": "Orbit Type",
     "Description": "This type is for the different kinds of orbit a satellite or celestial object can be in.",
     "Mediator": false,

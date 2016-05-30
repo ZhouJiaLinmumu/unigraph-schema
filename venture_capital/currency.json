@@ -1,5 +1,5 @@
 {
-    "Id": "venture_capital.currency",
+    "Sid": "venture_capital.currency",
     "Name": "Currency",
     "Description": "The currency of the particular transaction",
     "Mediator": false,

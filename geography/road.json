@@ -1,5 +1,5 @@
 {
-    "Id": "geography.road",
+    "Sid": "geography.road",
     "Name": "Road",
     "Description": "Roads.",
     "Mediator": false,

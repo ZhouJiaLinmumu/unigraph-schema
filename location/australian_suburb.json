@@ -1,5 +1,5 @@
 {
-    "Id": "location.australian_suburb",
+    "Sid": "location.australian_suburb",
     "Name": "Australian Suburb",
     "Description": "An Australian suburb is a local area, usually the smallest official division used. The definitive list of Australian suburbs is the Australian Post postcode list. The term \"suburb\" is used across the whole country, not just in suburban areas around cities, therefore even a remote rural settlement or the central area of a major city can be referred to as a \"suburb\".",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.australian_suburb.postal_code",
+            "Sid": "location.australian_suburb.postal_code",
             "Name": "Postal code",
             "Description": "",
             "ObjectType": "location.postal_code",

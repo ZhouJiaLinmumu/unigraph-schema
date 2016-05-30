@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.company",
+    "Sid": "automotive.company",
     "Name": "Automobile Company",
     "Description": "A company that manufactures motor-powered vehicles (eg., cars, motorcycles, buses, trucks and motorized bikes).",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.company.make",
+            "Sid": "automotive.company.make",
             "Name": "Make(s)",
             "Description": "",
             "ObjectType": "automotive.make",

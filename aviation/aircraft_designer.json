@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.aircraft_designer",
+    "Sid": "aviation.aircraft_designer",
     "Name": "Aircraft designer",
     "Description": "'Aircraft designer' can be a company or an individual that designs airplanes.",
     "Mediator": false,

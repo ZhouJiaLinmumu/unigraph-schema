@@ -1,5 +1,5 @@
 {
-    "Id": "event.disaster_area",
+    "Sid": "event.disaster_area",
     "Name": "Disaster area",
     "Description": "Area affected",
     "Mediator": false,

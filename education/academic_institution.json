@@ -1,5 +1,5 @@
 {
-    "Id": "education.academic_institution",
+    "Sid": "education.academic_institution",
     "Name": "Academic institution",
     "Description": "This type should be used for any type of institution at which an academic (scholar or researcher) may have a temporary appointment. This can include universities as well as research institutes and related institutions. It is used in conjunction with the type academic to hold information about people who have had academic or research-related relationships with an institution, but for whom the relationship cannot be treated as a simple employer-employee relationship. For example, a professor's job at a university would usually be entered under \"employment history\"; however, if that professor receives a grant to do research at another institute for a semester, that posting should be entered under \"appointments, fellowships, etc.\"",
     "Mediator": false,

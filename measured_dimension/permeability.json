@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.permeability",
+    "Sid": "measured_dimension.permeability",
     "Name": "Permeability",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.permeability.measurement_unit",
+            "Sid": "measured_dimension.permeability.measurement_unit",
             "Name": "Unit of Permeability",
             "Description": "",
             "ObjectType": "measured_dimension.permeability_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.permeability.value",
+            "Sid": "measured_dimension.permeability.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

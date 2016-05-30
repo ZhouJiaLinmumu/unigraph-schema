@@ -1,5 +1,5 @@
 {
-    "Id": "film.crew_gig",
+    "Sid": "film.crew_gig",
     "Name": "Film crew gig",
     "Description": "This is a compound-value type that connects film crew members to the films they worked on and the jobs they performed on those films. Film crew members are (for the purposes of this type) people who have performed any function in the production of a film that is not captured by another type in UniGraph.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "film.crew_gig.role",
+            "Sid": "film.crew_gig.role",
             "Name": "Film crew role",
             "Description": "",
             "ObjectType": "film.film_job",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "film.crew_gig.crewmember",
+            "Sid": "film.crew_gig.crewmember",
             "Name": "Crewmember",
             "Description": "",
             "ObjectType": "film.crewmember",

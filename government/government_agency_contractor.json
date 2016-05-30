@@ -1,5 +1,5 @@
 {
-    "Id": "government.government_agency_contractor",
+    "Sid": "government.government_agency_contractor",
     "Name": "Government Agency Contractor",
     "Description": "An organization that provides service on behalf of a government agency",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "exhibitions.subject",
+    "Sid": "exhibitions.subject",
     "Name": "Exhibition subject",
     "Description": "An exhibition subject is a specific topic that an exhibition addresses or is about. Note that very broad subject matter (such as \"history\" or \"science\" or \"art\" should be treated as a Type of Exhibition. For example, an exhibition of paintings by Mary Cassatt might have Exhibition Subjects of \"Mary Cassatt\" and \"Impressionism\" but a Type of Exhibition of \"Painting Exhibition\".",
     "Mediator": false,

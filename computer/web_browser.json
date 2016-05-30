@@ -1,5 +1,5 @@
 {
-    "Id": "computer.web_browser",
+    "Sid": "computer.web_browser",
     "Name": "Web browser",
     "Description": "A piece of software which can be used to browse the World Wide Web.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "computer.web_browser.layout_engine",
+            "Sid": "computer.web_browser.layout_engine",
             "Name": "Layout Engine",
             "Description": "",
             "ObjectType": "computer.html_layout_engine",

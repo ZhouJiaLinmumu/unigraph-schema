@@ -1,5 +1,5 @@
 {
-    "Id": "event.participant",
+    "Sid": "event.participant",
     "Name": "Event participant(s)",
     "Description": "People involved in an event",
     "Mediator": false,

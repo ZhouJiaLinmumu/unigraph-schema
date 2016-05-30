@@ -1,5 +1,5 @@
 {
-    "Id": "language.language_family",
+    "Sid": "language.language_family",
     "Name": "Language Family",
     "Description": "Human languages are grouped in families, which usually indicate close interrelation and/or descendence from a common ancestor. This type is used to document families and related language groups. Broader/narrower groups of languages can be described by using the \"member of\"/\"subfamilies\" feature of this type.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "language.language_family.geographic_distribution",
+            "Sid": "language.language_family.geographic_distribution",
             "Name": "Geographic distribution",
             "Description": "The significant locations (geographical distribution) of this language family.",
             "ObjectType": "language.language_region",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "language.language_family.sub_families",
+            "Sid": "language.language_family.sub_families",
             "Name": "Sub-families",
             "Description": "",
             "ObjectType": "language.language_family",

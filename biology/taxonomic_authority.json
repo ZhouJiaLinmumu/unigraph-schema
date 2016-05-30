@@ -1,5 +1,5 @@
 {
-    "Id": "biology.taxonomic_authority",
+    "Sid": "biology.taxonomic_authority",
     "Name": "Taxonomic Authority",
     "Description": "The author or organization that manages and publishes a taxonomic classification.",
     "Mediator": false,

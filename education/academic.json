@@ -1,5 +1,5 @@
 {
-    "Id": "education.academic",
+    "Sid": "education.academic",
     "Name": "Academic",
     "Description": "An academic is a person who is engaged in higher education and research. This type typically includes those whose career is in academia and who work as professors and/or researchers in universities and research institutes. It can also include those that have held academic posts such as visiting professorships and research fellowships.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "education.academic.advisor",
+            "Sid": "education.academic.advisor",
             "Name": "Academic advisor",
             "Description": "Person or people who have served as advisors (usually for post-graduate-level education) for this person.",
             "ObjectType": "education.academic",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "education.academic.research_areas",
+            "Sid": "education.academic.research_areas",
             "Name": "Research areas",
             "Description": "The major research area or areas of this academic.",
             "ObjectType": "education.field_of_study",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "education.academic.departments",
+            "Sid": "education.academic.departments",
             "Name": "Departments",
             "Description": "Departments of colleges or universities this person has been affiliated with, either as an employee of the school, or as through an exchange or other type of posting.",
             "ObjectType": "education.department",

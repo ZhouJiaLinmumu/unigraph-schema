@@ -1,5 +1,5 @@
 {
-    "Id": "periodicals.publisher",
+    "Sid": "periodicals.publisher",
     "Name": "Periodical Publisher",
     "Description": "A periodical publisher is a company or organization that publishes a magazine, newspaper, journal, or other periodical publication.",
     "Mediator": false,

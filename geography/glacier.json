@@ -1,5 +1,5 @@
 {
-    "Id": "geography.glacier",
+    "Sid": "geography.glacier",
     "Name": "Glacier",
     "Description": "A glacier is a large, long-lasting river of ice that is formed on land and moves in response to gravity and undergoes internal deformation.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "geography.glacier.glacier_type",
+            "Sid": "geography.glacier.glacier_type",
             "Name": "Glacier Type",
             "Description": "",
             "ObjectType": "geography.glacier_type",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "geography.glacier.length",
+            "Sid": "geography.glacier.length",
             "Name": "Length",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "geography.glacier.status",
+            "Sid": "geography.glacier.status",
             "Name": "Status",
             "Description": "Whether the glacier is currently  advancing, retreating, or stable.",
             "ObjectType": "geography.glacier_status",
@@ -35,7 +35,7 @@
             "Required": false
         },
         {
-            "Id": "geography.glacier.terminus",
+            "Sid": "geography.glacier.terminus",
             "Name": "Terminus",
             "Description": "The type of terrain that this glacier terminates in or flows into.",
             "ObjectType": "geography.glacier_terminus",
@@ -43,7 +43,7 @@
             "Required": false
         },
         {
-            "Id": "geography.glacier.thickness",
+            "Sid": "geography.glacier.thickness",
             "Name": "Thickness",
             "Description": "",
             "ObjectType": "measured_dimension.distance",

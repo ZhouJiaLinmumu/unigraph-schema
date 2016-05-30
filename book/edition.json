@@ -1,5 +1,5 @@
 {
-    "Id": "book.edition",
+    "Sid": "book.edition",
     "Name": "Book Edition",
     "Description": "A Book Edition represents a specific publication of a book. Print, audio, and electronic versions of books can all be represented as book editions. The title of a book edition should be the title of that particular edition, which may vary from other editions of the same book. Mary Shelley's novel \"Frankenstein,\" for example, has been published both as \"Frankenstein\" and \"Frankenstein, or A Modern Prometheus.\"",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "book.edition.binding",
+            "Sid": "book.edition.binding",
             "Name": "Binding/format",
             "Description": "",
             "ObjectType": "book.binding",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.book",
+            "Sid": "book.edition.book",
             "Name": "Edition Of",
             "Description": "The book (or written work) that this is an edition of.",
             "ObjectType": "book.book",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.cover_price",
+            "Sid": "book.edition.cover_price",
             "Name": "Cover price",
             "Description": "If the book has cover prices in multiple currencies, all can be entered here.",
             "ObjectType": "measured_dimension.currency_amount",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.credited_to",
+            "Sid": "book.edition.credited_to",
             "Name": "Credited to",
             "Description": "The name of the author as printed in the publication; this is a way to record the name that a given work was published under (which may be different than the author's canonical name in UniGraph).",
             "ObjectType": "type.rawstring",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.height",
+            "Sid": "book.edition.height",
             "Name": "Height",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.language",
+            "Sid": "book.edition.language",
             "Name": "Language",
             "Description": "The language or languages that this edition of the work is written in. This may or may not be the same language as the original language of the work.",
             "ObjectType": "book.language",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.number_of_pages",
+            "Sid": "book.edition.number_of_pages",
             "Name": "Number of pages",
             "Description": "",
             "ObjectType": "book.pagination",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.publication_place",
+            "Sid": "book.edition.publication_place",
             "Name": "Place of publication",
             "Description": "This will usually be a city, listed on the title page.",
             "ObjectType": "book.publication_location",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.publication_date",
+            "Sid": "book.edition.publication_date",
             "Name": "Publication date",
             "Description": "The date (if known) that this edition was first published. This will be the same as the Date of First Publication of the book if this is the first edition.",
             "ObjectType": "type.datetime",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.publisher",
+            "Sid": "book.edition.publisher",
             "Name": "Publisher",
             "Description": "The publisher or imprint that published this edition.",
             "ObjectType": "book.publishing_company",
@@ -89,7 +89,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.editor",
+            "Sid": "book.edition.editor",
             "Name": "Editor of this edition",
             "Description": "If this edition contains additional material not in other editions, the editor can be entered here. Note that this property should not be used for the person who edited the book this is an edition of. For example, if this is an edition of an anthology, the editor of the anthology should not be entered in this property.",
             "ObjectType": "book.editor",
@@ -97,7 +97,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.contributing_authors",
+            "Sid": "book.edition.contributing_authors",
             "Name": "Contributing authors",
             "Description": "Individual contributors of articles, stories, chapters, etc. to a book such as an anthology, textbook, etc. should be listed here, rather than in the \"author/editor\" property.",
             "ObjectType": "book.author",
@@ -105,7 +105,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.narrator",
+            "Sid": "book.edition.narrator",
             "Name": "Narrator (audio book)",
             "Description": "",
             "ObjectType": "book.audio_book_narrator",
@@ -113,7 +113,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.cover_artist",
+            "Sid": "book.edition.cover_artist",
             "Name": "Cover artist",
             "Description": "The name(s) of the artist(s) who created the cover art for this book.",
             "ObjectType": "book.illustrator",
@@ -121,7 +121,7 @@
             "Required": false
         },
         {
-            "Id": "book.edition.interior_illustrations_by",
+            "Sid": "book.edition.interior_illustrations_by",
             "Name": "Interior illustrations by",
             "Description": "If this edition contains illustrations - the name(s) of the illustrator(s).",
             "ObjectType": "book.illustrator",

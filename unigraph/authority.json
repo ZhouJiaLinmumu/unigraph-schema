@@ -1,7 +1,7 @@
 {
-    "Id": "people.first_name",
-    "Name": "First Name",
-    "Description": "The first name given to a person.",
+    "Sid": "unigraph.authority",
+    "Name": "Authority",
+    "Description": "Authority",
     "Mediator": false,
     "ExpectedTypes": [
         "common.topic"

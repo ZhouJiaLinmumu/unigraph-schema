@@ -1,5 +1,5 @@
 {
-    "Id": "business.competitive_space_share",
+    "Sid": "business.competitive_space_share",
     "Name": "Competitive space mediator",
     "Description": "This type is used to show the relationships between companies and the competitive spaces in which they have brands or products.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.competitive_space_share.brand",
+            "Sid": "business.competitive_space_share.brand",
             "Name": "Brand",
             "Description": "The brand name under which a company competes in this space",
             "ObjectType": "business.brand",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "business.competitive_space_share.portion",
+            "Sid": "business.competitive_space_share.portion",
             "Name": "Portion",
             "Description": "Percentage of revenue from this space",
             "ObjectType": "type.float",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "business.competitive_space_share.space",
+            "Sid": "business.competitive_space_share.space",
             "Name": "Space",
             "Description": "",
             "ObjectType": "business.competitive_space",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "business.competitive_space_share.company",
+            "Sid": "business.competitive_space_share.company",
             "Name": "Company",
             "Description": "",
             "ObjectType": "business.business_operation",

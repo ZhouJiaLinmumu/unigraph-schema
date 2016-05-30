@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.symbol_rate",
+    "Sid": "measured_dimension.symbol_rate",
     "Name": "Symbol rate",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.symbol_rate.measurement_unit",
+            "Sid": "measured_dimension.symbol_rate.measurement_unit",
             "Name": "Unit of Symbol rate",
             "Description": "",
             "ObjectType": "measured_dimension.symbol_rate_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.symbol_rate.value",
+            "Sid": "measured_dimension.symbol_rate.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

@@ -1,5 +1,5 @@
 {
-    "Id": "sports.sports_facility",
+    "Sid": "sports.sports_facility",
     "Name": "Sports Facility",
     "Description": "A location where sporting events occur.",
     "Mediator": false,

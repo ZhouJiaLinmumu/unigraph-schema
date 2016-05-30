@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.star_system",
+    "Sid": "astronomy.star_system",
     "Name": "Star System",
     "Description": "A system consisting of a group of stars and planets that are gravitionally bound.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.star_system.constellation",
+            "Sid": "astronomy.star_system.constellation",
             "Name": "Constellation",
             "Description": "",
             "ObjectType": "astronomy.constellation",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.star_system.system_age",
+            "Sid": "astronomy.star_system.system_age",
             "Name": "System Age",
             "Description": "",
             "ObjectType": "measured_dimension.time",

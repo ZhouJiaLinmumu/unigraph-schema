@@ -1,5 +1,5 @@
 {
-    "Id": "football.player_transfer",
+    "Sid": "football.player_transfer",
     "Name": "Football Player Transfer",
     "Description": "A transfer occurs when a player moves from one team to another.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "football.player_transfer.date_transfer_agreed",
+            "Sid": "football.player_transfer.date_transfer_agreed",
             "Name": "Date transfer was agreed",
             "Description": "The date on which the transfer deal was made",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "football.player_transfer.fee",
+            "Sid": "football.player_transfer.fee",
             "Name": "Fee",
             "Description": "The money paid by the purchasing team for the player",
             "ObjectType": "type.float",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "football.player_transfer.purchasing_team",
+            "Sid": "football.player_transfer.purchasing_team",
             "Name": "Purchasing team",
             "Description": "The team purchasing the player",
             "ObjectType": "football.team",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "football.player_transfer.selling_team",
+            "Sid": "football.player_transfer.selling_team",
             "Name": "Selling team",
             "Description": "The team selling this player",
             "ObjectType": "football.team",
@@ -39,7 +39,7 @@
             "Required": true
         },
         {
-            "Id": "football.player_transfer.transfer_fee_currency",
+            "Sid": "football.player_transfer.transfer_fee_currency",
             "Name": "Transfer fee currency",
             "Description": "The currency in which the purchasing team paid",
             "ObjectType": "football.currency",
@@ -47,7 +47,7 @@
             "Required": false
         },
         {
-            "Id": "football.player_transfer.player",
+            "Sid": "football.player_transfer.player",
             "Name": "Player",
             "Description": "The player moving between teams in a transfer deal",
             "ObjectType": "football.player",

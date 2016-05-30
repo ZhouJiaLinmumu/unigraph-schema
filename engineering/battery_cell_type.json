@@ -1,5 +1,5 @@
 {
-    "Id": "engineering.battery_cell_type",
+    "Sid": "engineering.battery_cell_type",
     "Name": "Battery cell type",
     "Description": "A Battery cell type is a general electrochemical process used by a battery to store energy within a battery.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "engineering.battery_cell_type.rechargeable",
+            "Sid": "engineering.battery_cell_type.rechargeable",
             "Name": "Rechargeable",
             "Description": "True if this cell type is rechargeable",
             "ObjectType": "type.boolean",

@@ -1,5 +1,5 @@
 {
-    "Id": "government.legislative_committee_title",
+    "Sid": "government.legislative_committee_title",
     "Name": "Legislative committee title",
     "Description": "This type holds the titles that people have held on legislative committees.",
     "Mediator": false,

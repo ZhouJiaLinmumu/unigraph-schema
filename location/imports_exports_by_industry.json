@@ -1,5 +1,5 @@
 {
-    "Id": "location.imports_exports_by_industry",
+    "Sid": "location.imports_exports_by_industry",
     "Name": "Imports/exports by industry",
     "Description": "This is a compound-value type that holds information about imports and exports by industry.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.imports_exports_by_industry.amount",
+            "Sid": "location.imports_exports_by_industry.amount",
             "Name": "Amount",
             "Description": "The monetary value of the import or export.",
             "ObjectType": "type.float",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "location.imports_exports_by_industry.industry",
+            "Sid": "location.imports_exports_by_industry.industry",
             "Name": "Industry",
             "Description": "",
             "ObjectType": "location.industry",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "location.imports_exports_by_industry.currency",
+            "Sid": "location.imports_exports_by_industry.currency",
             "Name": "Currency",
             "Description": "The currency of this import/export.",
             "ObjectType": "location.currency",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "location.imports_exports_by_industry.date",
+            "Sid": "location.imports_exports_by_industry.date",
             "Name": "Date",
             "Description": "The year that this amount of import or export (in this industry) occurred.",
             "ObjectType": "type.datetime",

@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.resolution",
+    "Sid": "measured_dimension.resolution",
     "Name": "Resolution",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.resolution.resolution_unit",
+            "Sid": "measured_dimension.resolution.resolution_unit",
             "Name": "Unit of Resolution",
             "Description": "",
             "ObjectType": "measured_dimension.resolution_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.resolution.value",
+            "Sid": "measured_dimension.resolution.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

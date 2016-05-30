@@ -1,5 +1,5 @@
 {
-    "Id": "sports.team_season_record",
+    "Sid": "sports.team_season_record",
     "Name": "Sports Team Season Record",
     "Description": "A CVT which gives the number of wins, losses and ties (draws) which a particular team achieved in a particular season.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.team_season_record.losses",
+            "Sid": "sports.team_season_record.losses",
             "Name": "Losses",
             "Description": "Number of regular-season games this team lost. (Do not include games from the post-season, playoffs, or championship.)",
             "ObjectType": "type.int",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "sports.team_season_record.season",
+            "Sid": "sports.team_season_record.season",
             "Name": "Season",
             "Description": "The season this record is for.",
             "ObjectType": "sports.league_season",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "sports.team_season_record.ties",
+            "Sid": "sports.team_season_record.ties",
             "Name": "Ties",
             "Description": "Number of regular-season games this team played that ended in a tie. (Do not include games from the post-season, playoffs, or championship.)",
             "ObjectType": "type.int",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "sports.team_season_record.wins",
+            "Sid": "sports.team_season_record.wins",
             "Name": "Wins",
             "Description": "Number of regular-season games this team won. (Do not include games from the post-season, playoffs, or championship.)",
             "ObjectType": "type.int",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "sports.team_season_record.team",
+            "Sid": "sports.team_season_record.team",
             "Name": "Team",
             "Description": "The team this record is for.",
             "ObjectType": "sports.team",

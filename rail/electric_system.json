@@ -1,5 +1,5 @@
 {
-    "Id": "rail.electric_system",
+    "Sid": "rail.electric_system",
     "Name": "Electric system",
     "Description": "This type is for power supply systems for electric railways.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "rail.electric_system.locomotive_class",
+            "Sid": "rail.electric_system.locomotive_class",
             "Name": "Locomotive class",
             "Description": "",
             "ObjectType": "rail.electric_locomotive_class",

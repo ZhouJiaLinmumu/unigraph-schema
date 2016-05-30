@@ -1,5 +1,5 @@
 {
-    "Id": "computer.programming_language_paradigm",
+    "Sid": "computer.programming_language_paradigm",
     "Name": "Programming Language Paradigm",
     "Description": "A fundamental style of computer programming.",
     "Mediator": false,

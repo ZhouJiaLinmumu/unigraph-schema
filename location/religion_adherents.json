@@ -1,5 +1,5 @@
 {
-    "Id": "location.religion_adherents",
+    "Sid": "location.religion_adherents",
     "Name": "Religion adherents",
     "Description": "Documents how many people living in a given location are of a certain religion.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.religion_adherents.date",
+            "Sid": "location.religion_adherents.date",
             "Name": "As of date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "location.religion_adherents.adherents",
+            "Sid": "location.religion_adherents.adherents",
             "Name": "Number of people",
             "Description": "",
             "ObjectType": "type.int",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "location.religion_adherents.religion",
+            "Sid": "location.religion_adherents.religion",
             "Name": "Religion",
             "Description": "",
             "ObjectType": "location.religion",

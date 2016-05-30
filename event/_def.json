@@ -1,5 +1,5 @@
 {
-  "Id": "event",
+  "Sid": "event",
   "Name": "Event",
   "Description": "The event domain captures one off and recurring events"
 }

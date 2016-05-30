@@ -1,5 +1,5 @@
 {
-    "Id": "law.patent_office",
+    "Sid": "law.patent_office",
     "Name": "Patent office",
     "Description": "Anyy agency that is capable of granting patents.",
     "Mediator": false,

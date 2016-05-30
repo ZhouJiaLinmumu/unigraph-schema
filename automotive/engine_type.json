@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.engine_type",
+    "Sid": "automotive.engine_type",
     "Name": "Engine Type",
     "Description": "An engine type is an entire class of engines produced by a manufacturer. and example would be the General Motors LS engine used in late model Corvettes, Firebirds, Camaros and trucks. The type is not limited to internal combustion engines.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.engine_type.examples",
+            "Sid": "automotive.engine_type.examples",
             "Name": "Examples",
             "Description": "",
             "ObjectType": "automotive.engine",

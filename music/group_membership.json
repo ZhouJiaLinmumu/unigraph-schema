@@ -1,5 +1,5 @@
 {
-    "Id": "music.group_membership",
+    "Sid": "music.group_membership",
     "Name": "Musical Group Membership",
     "Description": "Musical Group Membership is a compound value type which defines the relationship between a Musical Artist (a band or collaboration) and its Musical Group Members (musicians). In addition to the link between artist and musician, other information such as the role (instrument played or voice part sung) and the start and end date of involvement is captured here. As a compound value type, Musical Group Membership links together other types. Instances are not typically named topics in their own right, and they are typically manipulated in the context of the member or the group, though they can be edited directly. Multiple roles can be specified on one membership (e.g., vocals and lead guitar).",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.group_membership.end_date",
+            "Sid": "music.group_membership.end_date",
             "Name": "Period (end)",
             "Description": "When this member left this group",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "music.group_membership.group",
+            "Sid": "music.group_membership.group",
             "Name": "Group",
             "Description": "The group (such as a band or orchestra) to which the member belongs",
             "ObjectType": "music.musical_group",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "music.group_membership.member",
+            "Sid": "music.group_membership.member",
             "Name": "Member",
             "Description": "The musician who is part of the group",
             "ObjectType": "music.group_member",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "music.group_membership.role",
+            "Sid": "music.group_membership.role",
             "Name": "Roles",
             "Description": "The primary instrument(s) or vocal role(s) which the member played in the group. Note that this should be the name of the instrument (\"guitar\") or voice/role (\"tenor\", \"lead vocals\"), rather than the related profession (\"guitarist\" or \"lead vocalist\").",
             "ObjectType": "music.performance_role",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "music.group_membership.start_date",
+            "Sid": "music.group_membership.start_date",
             "Name": "Period (start)",
             "Description": "When this member joined or founded this group",
             "ObjectType": "type.datetime",

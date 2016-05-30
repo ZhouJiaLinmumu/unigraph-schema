@@ -1,5 +1,5 @@
 {
-    "Id": "exhibitions.curator",
+    "Sid": "exhibitions.curator",
     "Name": "Exhibition curator",
     "Description": "This type is for anyone who has curated an Exhibition.",
     "Mediator": false,

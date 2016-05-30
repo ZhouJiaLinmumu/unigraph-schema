@@ -1,5 +1,5 @@
 {
-    "Id": "tv.video_type",
+    "Sid": "tv.video_type",
     "Name": "Video Type",
     "Description": "Is the video a segment of or full content.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "music.album_content_type",
+    "Sid": "music.album_content_type",
     "Name": "Album content type",
     "Description": "",
     "Mediator": false,

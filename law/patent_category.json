@@ -1,5 +1,5 @@
 {
-    "Id": "law.patent_category",
+    "Sid": "law.patent_category",
     "Name": "Patent Category",
     "Description": "A classification used by the Patent and Trademark Office.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "biology.plant_disease_host",
+    "Sid": "biology.plant_disease_host",
     "Name": "Plant Disease Host",
     "Description": "A plant with a known disease.",
     "Mediator": false,

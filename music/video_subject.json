@@ -1,5 +1,5 @@
 {
-    "Id": "music.video_subject",
+    "Sid": "music.video_subject",
     "Name": "Music video subject",
     "Description": "Subject or topic represented in a music video.",
     "Mediator": false,

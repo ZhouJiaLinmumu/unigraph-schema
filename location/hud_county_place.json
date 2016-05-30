@@ -1,5 +1,5 @@
 {
-    "Id": "location.hud_county_place",
+    "Sid": "location.hud_county_place",
     "Name": "HUD County Place",
     "Description": "HUD publishes foreclosure data at the county, census tract, and county place levels. The county place is the intersection of a county and a place, the place being either a CDP, city, town, or the residual area of the county.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.hud_county_place.county",
+            "Sid": "location.hud_county_place.county",
             "Name": "County",
             "Description": "US County or Municipio in Puerto Rico",
             "ObjectType": "location.us_county",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "location.hud_county_place.place",
+            "Sid": "location.hud_county_place.place",
             "Name": "Place",
             "Description": "",
             "ObjectType": "location.location",

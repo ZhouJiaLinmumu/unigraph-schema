@@ -1,5 +1,5 @@
 {
-    "Id": "music.composition",
+    "Sid": "music.composition",
     "Name": "Composition",
     "Description": "A composition is a written musical work. It includes musical works ranging from classical to modern. It may or may not have words. A composition usually has composer and a lyricist if there are words. A composition may include smaller compositions such as arias, movements, etc. (e.g. The composition Der Ring des Nibelungen includes the smaller compositions Das Rheingold, Die Walkure, Siegfried and Götterdämmerung).",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.composition.composer",
+            "Sid": "music.composition.composer",
             "Name": "Composer",
             "Description": "The person or people who wrote the music for this composition.",
             "ObjectType": "music.composer",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "music.composition.date_completed",
+            "Sid": "music.composition.date_completed",
             "Name": "Date completed",
             "Description": "When this composition was finished by the composer.",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "music.composition.first_performance_date",
+            "Sid": "music.composition.first_performance_date",
             "Name": "Date of first performance",
             "Description": "The date that this composition was first performed in public.",
             "ObjectType": "type.datetime",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "music.composition.form",
+            "Sid": "music.composition.form",
             "Name": "Kind of composition",
             "Description": "The kind or type of composition this is - e.g. symphony, tone poem, concerto, string quartet, etc.",
             "ObjectType": "music.compositional_form",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "music.composition.includes",
+            "Sid": "music.composition.includes",
             "Name": "Includes",
             "Description": "Smaller compositions which are part of this one (e.g., movements of a symphony).",
             "ObjectType": "music.composition",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "music.composition.language",
+            "Sid": "music.composition.language",
             "Name": "Language",
             "Description": "The language or languages of the lyrics to this composition, if any.",
             "ObjectType": "music.composition_language",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "music.composition.lyricist",
+            "Sid": "music.composition.lyricist",
             "Name": "Lyricist",
             "Description": "If this composition includes words (e.g., pop songs, operatic arias, choral masses), the person or people who wrote the words.",
             "ObjectType": "music.lyricist",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "music.composition.lyrics_page",
+            "Sid": "music.composition.lyrics_page",
             "Name": "Lyrics Website",
             "Description": "",
             "ObjectType": "type.uri",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "music.composition.musical_key",
+            "Sid": "music.composition.musical_key",
             "Name": "Key",
             "Description": "The key, mode, or scale this composition uses.",
             "ObjectType": "music.musical_scale",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "music.composition.composition_place",
+            "Sid": "music.composition.composition_place",
             "Name": "Place(s) composed",
             "Description": "The location or locations where the composer wrote this composition.",
             "ObjectType": "music.composition_place",
@@ -89,7 +89,7 @@
             "Required": false
         },
         {
-            "Id": "music.composition.first_performance_place",
+            "Sid": "music.composition.first_performance_place",
             "Name": "Place of first performance",
             "Description": "The location in which this composition was first performed. This can be a city (or larger area if city is not known) or a performance venue.",
             "ObjectType": "music.composition_performance_venue",
@@ -97,7 +97,7 @@
             "Required": false
         },
         {
-            "Id": "music.composition.recorded_as_album",
+            "Sid": "music.composition.recorded_as_album",
             "Name": "Recorded as album",
             "Description": "Albums which primarily or entirely consist of this composition (usually used for symphonies or other multi-part compositions).",
             "ObjectType": "music.album",
@@ -105,7 +105,7 @@
             "Required": false
         },
         {
-            "Id": "music.composition.recordings",
+            "Sid": "music.composition.recordings",
             "Name": "Recorded versions",
             "Description": "Tracks which record this entire composition.  (If a long composition, such as a symphony, are recorded as multiple tracks on an album, use “Recorded as album.”)",
             "ObjectType": "music.recording",
@@ -113,7 +113,7 @@
             "Required": false
         },
         {
-            "Id": "music.composition.subjects",
+            "Sid": "music.composition.subjects",
             "Name": "Subjects",
             "Description": "The topics of this composition, whether musical or explicitly lyrical.",
             "ObjectType": "music.composition_subject",

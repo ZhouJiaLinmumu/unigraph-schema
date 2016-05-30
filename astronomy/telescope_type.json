@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.telescope_type",
+    "Sid": "astronomy.telescope_type",
     "Name": "Telescope type",
     "Description": "Basic observational principle or specific range of energy measured by this telescope.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "astronomy.telescope_type.higher_classification",
+            "Sid": "astronomy.telescope_type.higher_classification",
             "Name": "Higher classification",
             "Description": "Higher classification of the telescope type",
             "ObjectType": "astronomy.telescope_type",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.telescope_type.telescopic_principle",
+            "Sid": "astronomy.telescope_type.telescopic_principle",
             "Name": "Telescopic principle",
             "Description": "",
             "ObjectType": "astronomy.telescope_principle",

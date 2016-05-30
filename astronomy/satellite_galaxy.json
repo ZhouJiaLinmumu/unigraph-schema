@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.satellite_galaxy",
+    "Sid": "astronomy.satellite_galaxy",
     "Name": "Satellite galaxy",
     "Description": "Many galaxies have smaller massed galaxies orbiting the larger massed dominant body.",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.satellite_galaxy.satellite_of",
+            "Sid": "astronomy.satellite_galaxy.satellite_of",
             "Name": "Satellite of this galaxy",
             "Description": "The primary galaxy this satellite galaxy orbits (and possibly has galactic interaction beyond that of merely orbiting).",
             "ObjectType": "astronomy.galaxy",

@@ -1,5 +1,5 @@
 {
-    "Id": "music.conductor",
+    "Sid": "music.conductor",
     "Name": "Conductor",
     "Description": "Conductor refers to a musical conductor. In classical music this person would typically conduct an orchestra; this may also be a band leader of a jazz band or any other similar group.Currently, Conductor is only explicitly connected to Opera Productions by a property. Otherwise, conductors are considered to be part of the group they conduct, with a Performance Role of Conducting.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "projects.project_participant",
+    "Sid": "projects.project_participant",
     "Name": "Project participant",
     "Description": "A project participant is anyone (or any entity such as a company, organization, etc) who participates in a Project.",
     "Mediator": false,

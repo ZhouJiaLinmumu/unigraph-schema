@@ -1,5 +1,5 @@
 {
-    "Id": "biology.deceased_organism",
+    "Sid": "biology.deceased_organism",
     "Name": "Deceased Organism",
     "Description": "This type is for (deceased) individual, non-human, organisms, such as household pets, animal performers, racehorses, even named plants.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.deceased_organism.date_of_death",
+            "Sid": "biology.deceased_organism.date_of_death",
             "Name": "Date of death",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "biology.deceased_organism.place_of_death",
+            "Sid": "biology.deceased_organism.place_of_death",
             "Name": "Place of death",
             "Description": "",
             "ObjectType": "biology.organism_place_of_death",

@@ -1,5 +1,5 @@
 {
-    "Id": "organization.organization_board_membership",
+    "Sid": "organization.organization_board_membership",
     "Name": "Organization governorship",
     "Description": "This is a compound-value type that holds information about the relationship between an organization and its board members.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "organization.organization_board_membership.start_date",
+            "Sid": "organization.organization_board_membership.start_date",
             "Name": "From",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "organization.organization_board_membership.member",
+            "Sid": "organization.organization_board_membership.member",
             "Name": "Person",
             "Description": "The person who served on this organization's board. Non-consecutive terms on the board should be entered separately. Similarly, tenures with different titles should also be entered separately.",
             "ObjectType": "organization.board_member",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "organization.organization_board_membership.organization",
+            "Sid": "organization.organization_board_membership.organization",
             "Name": "Organization",
             "Description": "The organization this person served on the board for.",
             "ObjectType": "organization.organization",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "organization.organization_board_membership.role",
+            "Sid": "organization.organization_board_membership.role",
             "Name": "Role",
             "Description": "",
             "ObjectType": "organization.role",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "organization.organization_board_membership.title",
+            "Sid": "organization.organization_board_membership.title",
             "Name": "Title",
             "Description": "The title (if any) that this person held during this tenure.",
             "ObjectType": "type.text",
@@ -47,7 +47,7 @@
             "Required": false
         },
         {
-            "Id": "organization.organization_board_membership.end_date",
+            "Sid": "organization.organization_board_membership.end_date",
             "Name": "To",
             "Description": "",
             "ObjectType": "type.datetime",

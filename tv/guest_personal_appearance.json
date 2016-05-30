@@ -1,5 +1,5 @@
 {
-    "Id": "tv.guest_personal_appearance",
+    "Sid": "tv.guest_personal_appearance",
     "Name": "TV episode personal appearance",
     "Description": "\"TV epsisode personal appearance\" is a compound value type storing information about guest (i.e., non-starring) appearances on television programs. It applies specifically to non-character (e.g., non-fictional) performances; actors playing characters in guest roles use the \"TV Guest performance\" type.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.guest_personal_appearance.appearance_type",
+            "Sid": "tv.guest_personal_appearance.appearance_type",
             "Name": "Appearance type",
             "Description": "The role this person is filling as a TV guest (e.g., interviewee, contestant, etc.)",
             "ObjectType": "tv.guest_personal_appearance",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "tv.guest_personal_appearance.episode",
+            "Sid": "tv.guest_personal_appearance.episode",
             "Name": "Episode",
             "Description": "The name of the episode this person appears in as a guest.",
             "ObjectType": "tv.series_episode",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "tv.guest_personal_appearance.person",
+            "Sid": "tv.guest_personal_appearance.person",
             "Name": "Person",
             "Description": "",
             "ObjectType": "tv.program_guest",

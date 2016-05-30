@@ -1,5 +1,5 @@
 {
-    "Id": "organization.club_interest",
+    "Sid": "organization.club_interest",
     "Name": "Club interest",
     "Description": "A \"club interest\" is the subject or activity that a club is formed around. It can be as specific as a single person (e.g., a fanclub) or as broad as something like politics.",
     "Mediator": false,

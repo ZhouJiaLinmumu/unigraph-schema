@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.waypoint_type",
+    "Sid": "aviation.waypoint_type",
     "Name": "Waypoint type",
     "Description": "Kind of aviation waypoint.",
     "Mediator": false,

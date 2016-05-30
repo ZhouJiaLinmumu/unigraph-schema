@@ -1,5 +1,5 @@
 {
-    "Id": "engineering.reaction_engine",
+    "Sid": "engineering.reaction_engine",
     "Name": "Reaction engine",
     "Description": "A reaction engine is an engine which provides propulsion by expelling reaction mass, in accordance with Newton's third law of motion. This includes the following categories: Turbines, Turbojet, Turbofan, Rocket-powered, Motorjet, Pulsejet, Ramjet and Scramjet.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "engineering.reaction_engine.specific_fuel_consumption",
+            "Sid": "engineering.reaction_engine.specific_fuel_consumption",
             "Name": "Specific fuel consumption",
             "Description": "The fuel efficiency of the engine (grams of fuel per second-kilonewton)",
             "ObjectType": "measured_dimension.specific_fuel_consumption",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "engineering.reaction_engine.specific_impulse",
+            "Sid": "engineering.reaction_engine.specific_impulse",
             "Name": "Specific impulse",
             "Description": "The efficiency of the engine as described by the impulse (change in momentum) per unit of propellant.",
             "ObjectType": "measured_dimension.time",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "engineering.reaction_engine.thrust",
+            "Sid": "engineering.reaction_engine.thrust",
             "Name": "Thrust",
             "Description": "The exhaust thrust at sealevel",
             "ObjectType": "measured_dimension.force",

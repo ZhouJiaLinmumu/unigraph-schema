@@ -1,5 +1,5 @@
 {
-    "Id": "religion.founding_figure",
+    "Sid": "religion.founding_figure",
     "Name": "Founding Figure",
     "Description": "This type is used for individuals who were involved in the formulation of particular religions.",
     "Mediator": false,

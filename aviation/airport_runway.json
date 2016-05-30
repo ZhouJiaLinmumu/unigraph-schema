@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.airport_runway",
+    "Sid": "aviation.airport_runway",
     "Name": "Airport runway",
     "Description": "Airport runway captures the characteristics of an airport's runway including the direction, length and surface.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "aviation.airport_runway.airport",
+            "Sid": "aviation.airport_runway.airport",
             "Name": "Airport",
             "Description": "",
             "ObjectType": "aviation.airport",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "aviation.airport_runway.direction",
+            "Sid": "aviation.airport_runway.direction",
             "Name": "Direction",
             "Description": "",
             "ObjectType": "type.text",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airport_runway.end_elevation",
+            "Sid": "aviation.airport_runway.end_elevation",
             "Name": "End Elevation",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airport_runway.length",
+            "Sid": "aviation.airport_runway.length",
             "Name": "Length",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -39,7 +39,7 @@
             "Required": true
         },
         {
-            "Id": "aviation.airport_runway.start_elevation",
+            "Sid": "aviation.airport_runway.start_elevation",
             "Name": "Start elevation",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -47,7 +47,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airport_runway.surface",
+            "Sid": "aviation.airport_runway.surface",
             "Name": "Surface",
             "Description": "",
             "ObjectType": "aviation.airport_runway_surface",
@@ -55,7 +55,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airport_runway.width",
+            "Sid": "aviation.airport_runway.width",
             "Name": "Width",
             "Description": "",
             "ObjectType": "measured_dimension.distance",

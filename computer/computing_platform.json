@@ -1,5 +1,5 @@
 {
-    "Id": "computer.computing_platform",
+    "Sid": "computer.computing_platform",
     "Name": "Computing Platform",
     "Description": "Computing platform is a category of devices that run computer programs.",
     "Mediator": false,

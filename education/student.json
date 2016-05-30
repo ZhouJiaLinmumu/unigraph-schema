@@ -1,5 +1,5 @@
 {
-    "Id": "education.student",
+    "Sid": "education.student",
     "Name": "Student",
     "Description": "The student or graduate of an educational institution.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "opera.opera",
+    "Sid": "opera.opera",
     "Name": "Opera",
     "Description": "An opera is an art form which combines written text (the libretto) and a musical score. This type includes operas of all kinds, including operettas.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "opera.opera.composer",
+            "Sid": "opera.opera.composer",
             "Name": "Composer",
             "Description": "",
             "ObjectType": "opera.composer",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "opera.opera.first_performance_date",
+            "Sid": "opera.opera.first_performance_date",
             "Name": "Date of First Performance",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "opera.opera.date_written",
+            "Sid": "opera.opera.date_written",
             "Name": "Date Written",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "opera.opera.genre",
+            "Sid": "opera.opera.genre",
             "Name": "Genre",
             "Description": "",
             "ObjectType": "opera.genre",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "opera.opera.language",
+            "Sid": "opera.opera.language",
             "Name": "Language",
             "Description": "",
             "ObjectType": "opera.language",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "opera.opera.librettist",
+            "Sid": "opera.opera.librettist",
             "Name": "Librettist",
             "Description": "",
             "ObjectType": "opera.librettist",
@@ -58,7 +58,7 @@
             "Required": false
         },
         {
-            "Id": "opera.opera.premiere_production",
+            "Sid": "opera.opera.premiere_production",
             "Name": "Premiere production",
             "Description": "The first production of this opera.",
             "ObjectType": "opera.production",
@@ -66,7 +66,7 @@
             "Required": false
         },
         {
-            "Id": "opera.opera.recordings",
+            "Sid": "opera.opera.recordings",
             "Name": "Recordings",
             "Description": "",
             "ObjectType": "opera.recording",

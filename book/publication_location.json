@@ -1,5 +1,5 @@
 {
-    "Id": "book.publication_location",
+    "Sid": "book.publication_location",
     "Name": "Book Edition Publication Location",
     "Description": "The place, usually a city, where a book edition has been published.",
     "Mediator": false,

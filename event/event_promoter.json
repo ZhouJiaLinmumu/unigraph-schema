@@ -1,5 +1,5 @@
 {
-    "Id": "event.event_promoter",
+    "Sid": "event.event_promoter",
     "Name": "Event promoter",
     "Description": "This type is for any organization (or sometimes person) that has promoted an event. Examples of kinds of events that are often \"promoted by\" someone or something include concerts and concert tours, festivals, sporting events, conferences, etc.",
     "Mediator": false,

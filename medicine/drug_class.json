@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.drug_class",
+    "Sid": "medicine.drug_class",
     "Name": "Drug class",
     "Description": "A drug class is a method of identifying and grouping drugs by chemical type, active ingredients, or by medical condition it treats. A drug can belong to more than one drug class.",
     "Mediator": false,

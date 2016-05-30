@@ -1,5 +1,5 @@
 {
-    "Id": "library.public_library_system",
+    "Sid": "library.public_library_system",
     "Name": "Public Library System",
     "Description": "A public library system is a network of one or more libraries that are accessible to the public and are generally supported by public funds. Public Library Systems are comprised of a single Central Library, and any number of Branch Libraries, both of which are represented by the Public Library type. The physical address of constituent libraries in a Public Library System belongs to the Public Library type.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "library.public_library_system.annual_circulation",
+            "Sid": "library.public_library_system.annual_circulation",
             "Name": "Annual Circulation",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "library.public_library_system.annual_visits",
+            "Sid": "library.public_library_system.annual_visits",
             "Name": "Annual Visits",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "library.public_library_system.catalogue_web_link",
+            "Sid": "library.public_library_system.catalogue_web_link",
             "Name": "Catalogue Web Link",
             "Description": "A direct link to this library's online catalogue index or search facility",
             "ObjectType": "type.uri",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "library.public_library_system.central_library",
+            "Sid": "library.public_library_system.central_library",
             "Name": "Central Library",
             "Description": "",
             "ObjectType": "library.public_library",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "library.public_library_system.collection_size",
+            "Sid": "library.public_library_system.collection_size",
             "Name": "Collection Size",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",

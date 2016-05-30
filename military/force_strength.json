@@ -1,5 +1,5 @@
 {
-    "Id": "military.force_strength",
+    "Sid": "military.force_strength",
     "Name": "Force Strength",
     "Description": "What was deployed for a battle/war",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "military.force_strength.combatant",
+            "Sid": "military.force_strength.combatant",
             "Name": "Combatant",
             "Description": "Who, - usually a country",
             "ObjectType": "military.combatant",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "military.force_strength.date",
+            "Sid": "military.force_strength.date",
             "Name": "Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "military.force_strength.force_size",
+            "Sid": "military.force_strength.force_size",
             "Name": "Force Size",
             "Description": "",
             "ObjectType": "type.int",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "military.force_strength.max_force_size",
+            "Sid": "military.force_strength.max_force_size",
             "Name": "Maximum Force Size",
             "Description": "",
             "ObjectType": "type.int",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "military.force_strength.conflict",
+            "Sid": "military.force_strength.conflict",
             "Name": "Military Conflict",
             "Description": "",
             "ObjectType": "military.conflict",
@@ -47,7 +47,7 @@
             "Required": false
         },
         {
-            "Id": "military.force_strength.resource",
+            "Sid": "military.force_strength.resource",
             "Name": "Resource",
             "Description": "Tanks, artillary...",
             "ObjectType": "military.military_resource",

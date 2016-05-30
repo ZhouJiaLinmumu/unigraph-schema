@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.angular_acceleration",
+    "Sid": "measured_dimension.angular_acceleration",
     "Name": "Angular acceleration",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.angular_acceleration.measurement_unit",
+            "Sid": "measured_dimension.angular_acceleration.measurement_unit",
             "Name": "Unit of Angular acceleration",
             "Description": "",
             "ObjectType": "measured_dimension.angular_acceleration_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.angular_acceleration.value",
+            "Sid": "measured_dimension.angular_acceleration.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

@@ -1,5 +1,5 @@
 {
-    "Id": "event.event_producer",
+    "Sid": "event.event_producer",
     "Name": "Event producer",
     "Description": "This type is for any organization (or sometimes person) that has produced an event.  Examples of kinds of events that are often \"produced by\" someone or something include concerts and concert tours, festivals, sporting events, conferences, etc.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "biology.plant_disease_cause",
+    "Sid": "biology.plant_disease_cause",
     "Name": "Plant Disease Cause",
     "Description": "Anything that causes a disease of a plant can be a \"disease cause\". This includes, but is not limited to, types of bacteria, viruses, protozoa, fungi, and chemical compounds.",
     "Mediator": false,

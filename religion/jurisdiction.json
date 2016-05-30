@@ -1,5 +1,5 @@
 {
-    "Id": "religion.jurisdiction",
+    "Sid": "religion.jurisdiction",
     "Name": "Religious Jurisdiction",
     "Description": "A religious jurisdiction is a location which an organizational body of a religion uses as part of their organizational structure, and may appoint a representative.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "religion.jurisdiction.organization",
+            "Sid": "religion.jurisdiction.organization",
             "Name": "Organization",
             "Description": "Religious Organizations who operate or define this jurisdiction",
             "ObjectType": "religion.organization",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "religion.jurisdiction.size_or_type",
+            "Sid": "religion.jurisdiction.size_or_type",
             "Name": "Size or Type",
             "Description": "This is the type of jurisdiction, e.g. Archdiocese, Vicarage etc.",
             "ObjectType": "religion.jurisdiction_type",

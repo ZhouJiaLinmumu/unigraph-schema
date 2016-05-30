@@ -1,5 +1,5 @@
 {
-    "Id": "music.concert_film",
+    "Sid": "music.concert_film",
     "Name": "Concert Film",
     "Description": "A concert film is any film or video recording of a musical concert or concerts (since many films use footage from multiple concerts).",
     "Mediator": false,

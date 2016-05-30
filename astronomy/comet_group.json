@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.comet_group",
+    "Sid": "astronomy.comet_group",
     "Name": "Comet group",
     "Description": "The Comet class Type defines groups or families of comets that either travel together or were split off from a single ancestor.",
     "Mediator": false,

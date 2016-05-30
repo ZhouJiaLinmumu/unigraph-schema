@@ -1,5 +1,5 @@
 {
-    "Id": "biology.breed_registry",
+    "Sid": "biology.breed_registry",
     "Name": "Breed registry",
     "Description": "This type is for all organizations that register or recognize animal breeds.",
     "Mediator": false,

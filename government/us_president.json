@@ -1,5 +1,5 @@
 {
-    "Id": "government.us_president",
+    "Sid": "government.us_president",
     "Name": "US President",
     "Description": "A type for people who have held the office of President of the United States of America. Includes a property for vice president and one for the number of their presidency (1, 16, 42, etc..",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.us_president.presidency_number",
+            "Sid": "government.us_president.presidency_number",
             "Name": "President number",
             "Description": "The number of this person's presidency; presidents with non-sequential terms have two numbers.",
             "ObjectType": "type.int",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "government.us_president.vice_president",
+            "Sid": "government.us_president.vice_president",
             "Name": "Vice president",
             "Description": "People who have served as vice president under this president.",
             "ObjectType": "government.us_vice_president",

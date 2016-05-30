@@ -1,5 +1,5 @@
 {
-    "Id": "biology.plant_disease_conditions",
+    "Sid": "biology.plant_disease_conditions",
     "Name": "Plant Disease Conditions",
     "Description": "Environmental conditions under which a plant disease may occur.",
     "Mediator": false,

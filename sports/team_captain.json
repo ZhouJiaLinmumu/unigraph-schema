@@ -1,5 +1,5 @@
 {
-    "Id": "sports.team_captain",
+    "Sid": "sports.team_captain",
     "Name": "Sports team captain",
     "Description": "The captain of a team is a designated member of the team who plays a leadership role. Depending on the sport, the role of the captain may be largely honorary or may involve official duties.",
     "Mediator": false,

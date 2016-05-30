@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.radiant_intensity",
+    "Sid": "measured_dimension.radiant_intensity",
     "Name": "Radiant intensity",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.radiant_intensity.measurement_unit",
+            "Sid": "measured_dimension.radiant_intensity.measurement_unit",
             "Name": "Unit of Radiant intensity",
             "Description": "",
             "ObjectType": "measured_dimension.radiant_intensity_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.radiant_intensity.value",
+            "Sid": "measured_dimension.radiant_intensity.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

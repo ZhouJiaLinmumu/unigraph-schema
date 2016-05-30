@@ -1,5 +1,5 @@
 {
-    "Id": "sports.championship_event",
+    "Sid": "sports.championship_event",
     "Name": "Sports League Championship Event",
     "Description": "A sports league championship event links the season for a sports league comprised of teams with the champion, runner up and resulting score associated with that event. This is a discrete instance of a sports league championship. For example, the 2005 World Series is a sports league championship event while the World Series is a Sports League Championship.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.championship_event.champion",
+            "Sid": "sports.championship_event.champion",
             "Name": "Champion",
             "Description": "",
             "ObjectType": "sports.team",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "sports.championship_event.result",
+            "Sid": "sports.championship_event.result",
             "Name": "Result",
             "Description": "",
             "ObjectType": "type.text",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "sports.championship_event.runner_up",
+            "Sid": "sports.championship_event.runner_up",
             "Name": "Runner-up",
             "Description": "",
             "ObjectType": "sports.team",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "sports.championship_event.season",
+            "Sid": "sports.championship_event.season",
             "Name": "Season",
             "Description": "",
             "ObjectType": "sports.league_season",

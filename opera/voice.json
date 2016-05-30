@@ -1,5 +1,5 @@
 {
-    "Id": "opera.voice",
+    "Sid": "opera.voice",
     "Name": "Opera voice",
     "Description": "The voice or range of the role, e.g. baritone or soprano.",
     "Mediator": false,

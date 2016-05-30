@@ -1,5 +1,5 @@
 {
-    "Id": "military.military_resource",
+    "Sid": "military.military_resource",
     "Name": "Military Resource",
     "Description": "A military resource is any type of personnel (such as infantry or cavalry) or equipment (such as tanks or ships) that has been deployed in a war or battle.",
     "Mediator": false,

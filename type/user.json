@@ -1,9 +1,0 @@
-{
-    "Id": "type.user",
-    "Name": "User",
-    "Description": "Unigraph User",
-    "Mediator": false,
-    "ExpectedTypes": null,
-    "Enumerated": false,
-    "Properties": null
-}

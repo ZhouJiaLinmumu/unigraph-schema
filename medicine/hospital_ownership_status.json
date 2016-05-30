@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.hospital_ownership_status",
+    "Sid": "medicine.hospital_ownership_status",
     "Name": "Hospital Ownership Status",
     "Description": "Hospital Ownership Status is a way to categorize hospitals. Examples of such status are: public hospitals, for-profit hospitals, non-profit hospitals, etc.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.airport_serving",
+    "Sid": "aviation.airport_serving",
     "Name": "Airport",
     "Description": "The cities, territories or organizations served by the airport.",
     "Mediator": false,

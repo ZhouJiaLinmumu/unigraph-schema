@@ -1,5 +1,5 @@
 {
-    "Id": "location.capital_category",
+    "Sid": "location.capital_category",
     "Name": "Capital category",
     "Description": "This type is for different categories of government capitals, such as executive, legislative, and judicial, or summer and winter.",
     "Mediator": false,

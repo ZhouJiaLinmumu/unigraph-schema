@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.constellation_bordering_relationship",
+    "Sid": "astronomy.constellation_bordering_relationship",
     "Name": "Constellation bordering relationship",
     "Description": "A type used to connect bordering Constellations.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.constellation_bordering_relationship.constellations",
+            "Sid": "astronomy.constellation_bordering_relationship.constellations",
             "Name": "Constellations",
             "Description": "",
             "ObjectType": "astronomy.constellation",

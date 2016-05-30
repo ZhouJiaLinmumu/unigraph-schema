@@ -1,5 +1,5 @@
 {
-    "Id": "time.geologic_period",
+    "Sid": "time.geologic_period",
     "Name": "Geologic time period",
     "Description": "The geological time scale is used by geologists and other scientists to describe the timing and relationships between events that have occurred during the history of the Earth. While \"period\" is itself a subdivision of this scale, it is used colloquially in the name of this type to include all subdivisions of the scale.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "time.geologic_period.began",
+            "Sid": "time.geologic_period.began",
             "Name": "Began",
             "Description": "The approximate date that this period began.",
             "ObjectType": "time.geologic_period_uncertainty",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "time.geologic_period.ended",
+            "Sid": "time.geologic_period.ended",
             "Name": "Ended",
             "Description": "The approximate date that this period ended.",
             "ObjectType": "time.geologic_period_uncertainty",

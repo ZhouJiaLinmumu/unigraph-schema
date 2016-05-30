@@ -1,5 +1,5 @@
 {
-    "Id": "broadcast.language",
+    "Sid": "broadcast.language",
     "Name": "Broadcast Language",
     "Description": "The dominant spoken languages used in a broadcasted content.",
     "Mediator": false,

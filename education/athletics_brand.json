@@ -1,5 +1,5 @@
 {
-    "Id": "education.athletics_brand",
+    "Sid": "education.athletics_brand",
     "Name": "Athletics brand",
     "Description": "The athletics brand of an educational institution is a brand under which some or all of the schools teams compete. Not all institutions, even those with athletic teams, may have a unifying brand for their teams, and some institutions may have more than one.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "music.compositional_form",
+    "Sid": "music.compositional_form",
     "Name": "Composition type",
     "Description": "This type is for kinds of musical compositions. Examples include symphony, Gregorian chant, concerto, hymn, etc.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.compositional_form.superforms",
+            "Sid": "music.compositional_form.superforms",
             "Name": "Super-forms",
             "Description": "Compositional form(s) of which this form is a sub-form.",
             "ObjectType": "music.compositional_form",

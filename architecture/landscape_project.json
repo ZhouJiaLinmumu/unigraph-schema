@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.landscape_project",
+    "Sid": "architecture.landscape_project",
     "Name": "Landscape project",
     "Description": "A landscape project are works and construction of an outdoor space or exterior landscape.  A landscape project is normally associated with the creation or improvement of parks, gardens and recreation areas; but the project may include aspects of master planning and urban design.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "architecture.landscape_project.address",
+            "Sid": "architecture.landscape_project.address",
             "Name": "Address",
             "Description": "",
             "ObjectType": "location.mailing_address",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.landscape_project.closed",
+            "Sid": "architecture.landscape_project.closed",
             "Name": "Closed",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.landscape_project.opened",
+            "Sid": "architecture.landscape_project.opened",
             "Name": "Opened",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.landscape_project.landscape_architect",
+            "Sid": "architecture.landscape_project.landscape_architect",
             "Name": "Landscape Architect",
             "Description": "",
             "ObjectType": "architecture.landscape_architect",

@@ -1,5 +1,5 @@
 {
-    "Id": "book.serial_installment",
+    "Sid": "book.serial_installment",
     "Name": "Serial Installment",
     "Description": "A \"serial installment\" is a portion of a work of literature which has been published in installments. Stand-alone excerpts of a larger work should use the \"excerpt\" type. Works which, by their very nature, are serial in form, such as comic books, should not use this type.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "book.serial_installment.installment_number",
+            "Sid": "book.serial_installment.installment_number",
             "Name": "Installment Number",
             "Description": "",
             "ObjectType": "type.int",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "book.serial_installment.serialized_work",
+            "Sid": "book.serial_installment.serialized_work",
             "Name": "Serialized Work",
             "Description": "The title of the larger work that this is an installment of.",
             "ObjectType": "book.serialized_work",

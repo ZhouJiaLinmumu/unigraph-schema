@@ -1,5 +1,5 @@
 {
-    "Id": "travel.hotel_brand_owner",
+    "Sid": "travel.hotel_brand_owner",
     "Name": "Hotel Brand Owner",
     "Description": "This is an owner of a hotel brand. An example would be Intercontinental Hotels Group owning the Intercontinental brand.",
     "Mediator": false,

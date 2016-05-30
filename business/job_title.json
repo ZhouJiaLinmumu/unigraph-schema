@@ -1,5 +1,5 @@
 {
-    "Id": "business.job_title",
+    "Sid": "business.job_title",
     "Name": "Job title",
     "Description": "'Job Title' is a commonly used type in the business category describing the position or role that a person holds for a company.",
     "Mediator": false,

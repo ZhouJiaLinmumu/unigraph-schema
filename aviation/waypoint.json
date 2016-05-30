@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.waypoint",
+    "Sid": "aviation.waypoint",
     "Name": "Aviation waypoint",
     "Description": "Experimental.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "aviation.waypoint.id",
+            "Sid": "aviation.waypoint.id",
             "Name": "Aviation ID",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.waypoint.waypoint_type",
+            "Sid": "aviation.waypoint.waypoint_type",
             "Name": "Waypoint type",
             "Description": "",
             "ObjectType": "aviation.waypoint_type",

@@ -1,5 +1,5 @@
 {
-    "Id": "type.boolean",
+    "Sid": "type.boolean",
     "Name": "Boolean",
     "Description": "The concept type of booleans",
     "Mediator": false,

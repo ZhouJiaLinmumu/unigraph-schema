@@ -1,5 +1,5 @@
 {
-    "Id": "common.contact_category",
+    "Sid": "common.contact_category",
     "Name": "Image tag",
     "Description": "Contact category depicts departments and services in various organizations. Example: general information, customer service, and human resources.",
     "Mediator": false,

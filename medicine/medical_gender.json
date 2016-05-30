@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.medical_gender",
+    "Sid": "medicine.medical_gender",
     "Name": "Medical gender",
     "Description": "The gender of a person",
     "Mediator": false,

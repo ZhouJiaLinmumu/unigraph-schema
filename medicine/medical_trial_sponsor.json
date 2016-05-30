@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.medical_trial_sponsor",
+    "Sid": "medicine.medical_trial_sponsor",
     "Name": "Medical trial sponsor",
     "Description": "A medical trial sponsor is a person or organization who provides the funding for a medical trial.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.aircraft_type",
+    "Sid": "aviation.aircraft_type",
     "Name": "Aircraft type",
     "Description": "'Aircraft type' is a classification or style of aircraft.",
     "Mediator": false,

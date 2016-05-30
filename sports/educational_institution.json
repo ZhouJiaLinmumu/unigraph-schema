@@ -1,5 +1,5 @@
 {
-    "Id": "sports.educational_institution",
+    "Sid": "sports.educational_institution",
     "Name": "Educational Institution",
     "Description": "Colleges, Universities, Schools...",
     "Mediator": false,

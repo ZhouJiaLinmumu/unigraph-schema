@@ -1,5 +1,5 @@
 {
-    "Id": "broadcast.production_location",
+    "Sid": "broadcast.production_location",
     "Name": "Broadcast Production Location",
     "Description": "The location(s) where the content is produced.",
     "Mediator": false,

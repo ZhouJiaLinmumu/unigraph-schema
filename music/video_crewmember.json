@@ -1,5 +1,5 @@
 {
-    "Id": "music.video_crewmember",
+    "Sid": "music.video_crewmember",
     "Name": "Music video crew member",
     "Description": "A music video crew member is anyone who worked on the production of a music video, other than the directors, choreographers, and performers.",
     "Mediator": false,

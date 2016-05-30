@@ -1,5 +1,5 @@
 {
-    "Id": "theater.designer_gig",
+    "Sid": "theater.designer_gig",
     "Name": "Theater Designer Gig",
     "Description": "This type is a compound-value type that connects information about a designer, their role (costume designer, scenic designer, etc.) and a specific production.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "theater.designer_gig.design_role",
+            "Sid": "theater.designer_gig.design_role",
             "Name": "Design Role",
             "Description": "",
             "ObjectType": "theater.designer_role",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "theater.designer_gig.designer",
+            "Sid": "theater.designer_gig.designer",
             "Name": "Designer",
             "Description": "",
             "ObjectType": "theater.designer",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "theater.designer_gig.play",
+            "Sid": "theater.designer_gig.play",
             "Name": "Play",
             "Description": "",
             "ObjectType": "theater.production",

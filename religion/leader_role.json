@@ -1,5 +1,5 @@
 {
-    "Id": "religion.leader_role",
+    "Sid": "religion.leader_role",
     "Name": "Religious Leadership Role",
     "Description": "A religious leadership role is a general type of religious leadership (such as a bishop or imam). It is not a specific title held by religious leaders.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "religion.leader_role.religion",
+            "Sid": "religion.leader_role.religion",
             "Name": "Religion",
             "Description": "",
             "ObjectType": "religion.religion",

@@ -1,5 +1,5 @@
 {
-    "Id": "radio.format",
+    "Sid": "radio.format",
     "Name": "Radio format",
     "Description": "\"Radio format\" refers to the content that a radio station broadcasts, such as \"news\" or \"pop music.\"",
     "Mediator": false,

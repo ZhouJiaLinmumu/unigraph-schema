@@ -1,5 +1,5 @@
 {
-    "Id": "music.genre",
+    "Sid": "music.genre",
     "Name": "Musical genre",
     "Description": "A Musical genre represents a style or classification of music and can be useful in identifying similar musical artists or albums. Genres can also contain other genres, or be influenced by other genres.The genre of a Musical Artist or Musical Album is a somewhat subjective matter, and there is no restriction that an artist or album must be placed in a single genre.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.genre.subgenre",
+            "Sid": "music.genre.subgenre",
             "Name": "Subgenres",
             "Description": "Genre(s) considered to be within this genre",
             "ObjectType": "music.genre",

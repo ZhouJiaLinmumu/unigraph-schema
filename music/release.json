@@ -1,5 +1,5 @@
 {
-    "Id": "music.release",
+    "Sid": "music.release",
     "Name": "Musical Release",
     "Description": "A Musical Release is a collection of Musical Tracks (recordings of Songs) released in a common format such as Compact Disc or LP. A release typically associated with a Musical Artist unless it is a compilation which is a collection of tracks by various artists. (These releases will not have a value for the Artist property at all.)A Musical Release is specifically a release of a particular Musical Album; a single album may have multiple releases, while a release should be a release of one specific album. A Musical Release may be a remastering, an international version, or some other minor variation, but would not typically merit a separate entry in an artist’s discography.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.release.album",
+            "Sid": "music.release.album",
             "Name": "Release of",
             "Description": "Album of which this is a release",
             "ObjectType": "music.album",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "music.release.catalog_number",
+            "Sid": "music.release.catalog_number",
             "Name": "Catalog Number",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "music.release.credited_as",
+            "Sid": "music.release.credited_as",
             "Name": "Credited as",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "music.release.format",
+            "Sid": "music.release.format",
             "Name": "Format",
             "Description": "Format of this release (the type of recording media used, ie. compact disc, digital media, LP, etc.).",
             "ObjectType": "music.media_format",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "music.release.label",
+            "Sid": "music.release.label",
             "Name": "Label",
             "Description": "The record company label which issued this release",
             "ObjectType": "music.record_label",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "music.release.length",
+            "Sid": "music.release.length",
             "Name": "Running Time",
             "Description": "The length of this release",
             "ObjectType": "measured_dimension.time",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "music.release.region",
+            "Sid": "music.release.region",
             "Name": "Region",
             "Description": "",
             "ObjectType": "music.album_release_region",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "music.release.release_date",
+            "Sid": "music.release.release_date",
             "Name": "Release Date",
             "Description": "The date of this release",
             "ObjectType": "type.datetime",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "music.release.producer",
+            "Sid": "music.release.producer",
             "Name": "Producer(s)",
             "Description": "Producer(s) of this release",
             "ObjectType": "music.producer",

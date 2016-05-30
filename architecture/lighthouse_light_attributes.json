@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.lighthouse_light_attributes",
+    "Sid": "architecture.lighthouse_light_attributes",
     "Name": "Light attributes",
     "Description": "The compound value type that holds the lighthouse light attributes, light sequence duration, and other characteristics.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "architecture.lighthouse_light_attributes.light_type",
+            "Sid": "architecture.lighthouse_light_attributes.light_type",
             "Name": "Light Characteristic Type",
             "Description": "Choose the light characteristic type. Example: Flashing, Group Flashing, etc.",
             "ObjectType": "architecture.lighthouse_light_type",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "architecture.lighthouse_light_attributes.remarks",
+            "Sid": "architecture.lighthouse_light_attributes.remarks",
             "Name": "Remarks",
             "Description": "Any additional freeform text information such as Visible degrees of the colored light sectors, or anomalies of the lighthouse or it's attributes.",
             "ObjectType": "type.text",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.lighthouse_light_attributes.sequence_duration",
+            "Sid": "architecture.lighthouse_light_attributes.sequence_duration",
             "Name": "Sequence duration",
             "Description": "Total duration in seconds of the repeating sequence period. (should add up to the total of all light color flashes and eclipses in the light sequence)",
             "ObjectType": "measured_dimension.time",

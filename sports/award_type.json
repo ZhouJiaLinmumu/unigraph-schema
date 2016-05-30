@@ -1,5 +1,5 @@
 {
-    "Id": "sports.award_type",
+    "Sid": "sports.award_type",
     "Name": "Sports League Award Type",
     "Description": "An award given for sporting achievements, for example the NBA Most Valuable Player award.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "business.customer",
+    "Sid": "business.customer",
     "Name": "Customer",
     "Description": "A customer is any legal entity (but typically a company, organization, or government agency of some sort) that is a major consumer of goods or services from another organization.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "computer.software_compatibility",
+    "Sid": "computer.software_compatibility",
     "Name": "Software Compatibility",
     "Description": "A compound value type detailing which operating system versions a specific piece of software can run on.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "computer.software_compatibility.operating_system",
+            "Sid": "computer.software_compatibility.operating_system",
             "Name": "Operating System",
             "Description": "",
             "ObjectType": "computer.operating_system",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "computer.software_compatibility.os_version_end",
+            "Sid": "computer.software_compatibility.os_version_end",
             "Name": "OS Version End",
             "Description": "",
             "ObjectType": "type.text",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "computer.software_compatibility.os_version_start",
+            "Sid": "computer.software_compatibility.os_version_start",
             "Name": "OS Version Start",
             "Description": "",
             "ObjectType": "type.text",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "computer.software_compatibility.software",
+            "Sid": "computer.software_compatibility.software",
             "Name": "Software",
             "Description": "",
             "ObjectType": "computer.software",

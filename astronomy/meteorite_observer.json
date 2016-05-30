@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.meteorite_observer",
+    "Sid": "astronomy.meteorite_observer",
     "Name": "Meteorite Observer",
     "Description": "Individuals who observed a transit of a meteor prior to its impact with Earth.",
     "Mediator": false,

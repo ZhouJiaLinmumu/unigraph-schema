@@ -1,5 +1,5 @@
 {
-    "Id": "physics.fundamental_interaction",
+    "Sid": "physics.fundamental_interaction",
     "Name": "Fundamental interaction",
     "Description": "In physics, fundamental interactions (sometimes called fundamental forces) are the ways that the simplest particles in the universe interact with one other. An interaction is fundamental when it cannot be described in terms of other interactions.",
     "Mediator": false,

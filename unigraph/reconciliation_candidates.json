@@ -1,0 +1,42 @@
+{
+    "Sid": "unigraph.reconciliation_candidates",
+    "Name": "Reconciliation Candidates",
+    "Description": "This type holds information about 2 objects that are candidates for reconciliation. It holds also information about the properties based on which the decision has been taken.",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Sid": "unigraph.reconciliation_candidates.candidate",
+            "Name": "Reconciliation Candidate",
+            "Description": "An object marked as reconciliation candidate",
+            "ObjectType": "type.object",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Sid": "unigraph.reconciliation_candidates.properties",
+            "Name": "Reconciliation Properties",
+            "Description": "Properties based on which the candidates were selected for reconciliation",
+            "ObjectType": "type.property",
+            "Unique": false,
+            "Required": true
+        },
+        {
+            "Sid": "unigraph.reconciliation_candidates.dismiss",
+            "Name": "Reconciliation Dismissed",
+            "Description": "Has the reconciliation objects been marked as dismissed",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        },
+        {
+            "Sid": "unigraph.reconciliation_candidates.merge",
+            "Name": "Reconciliation Merge",
+            "Description": "The marked objects are ready for merging",
+            "ObjectType": "type.boolean",
+            "Unique": true,
+            "Required": false
+        }
+    ]
+}

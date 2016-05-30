@@ -1,5 +1,5 @@
 {
-    "Id": "radio.program",
+    "Sid": "radio.program",
     "Name": "Radio program",
     "Description": "A radio program is any program created for radio broadcast. Most programs consist of a number of episodes, but one-time programs are also possible.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "radio.program.episodes",
+            "Sid": "radio.program.episodes",
             "Name": "Episodes",
             "Description": "Individual episodes of this program.",
             "ObjectType": "radio.program_episode",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "radio.program.final_broadcast",
+            "Sid": "radio.program.final_broadcast",
             "Name": "Final broadcast",
             "Description": "For discontinued programs, the final date on which this program was first broadcast in its original run; syndicated repeats do not count.",
             "ObjectType": "type.datetime",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "radio.program.first_broadcast",
+            "Sid": "radio.program.first_broadcast",
             "Name": "First broadcast",
             "Description": "The date on which this program was first broadcast.",
             "ObjectType": "type.datetime",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "radio.program.subjects",
+            "Sid": "radio.program.subjects",
             "Name": "Subject",
             "Description": "If all episodes of this program pertain to the same subject or subjects.",
             "ObjectType": "radio.radio_subject",

@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.dwarf_planet",
+    "Sid": "astronomy.dwarf_planet",
     "Name": "Dwarf Planet",
     "Description": "Only confirmed dwarf planets in our solar system should be typed as such.",
     "Mediator": false,

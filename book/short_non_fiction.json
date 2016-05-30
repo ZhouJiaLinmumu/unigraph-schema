@@ -1,5 +1,5 @@
 {
-    "Id": "book.short_non_fiction",
+    "Sid": "book.short_non_fiction",
     "Name": "Short Non-fiction",
     "Description": "This type should be used for any type of written short non-fiction that does not have a separate type. (Other types currently include review and interview.)  \"Short\" in this context means, essentially, anything less than book length; book-length non-fiction would ordinarily be typed as a book. This somewhat generic type both prevents a proliferation of similar types, and also reflects the fact that the difference between different modes of writing (say, between an article and an essay) can be hightly subjective, and may not always be important. The \"mode of writing\" property can be used to indicate the type of non-fiction it is (such as essay, introduction, etc.).",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "book.short_non_fiction.type",
+            "Sid": "book.short_non_fiction.type",
             "Name": "Mode Of Writing",
             "Description": "Select the description that best describes this work.",
             "ObjectType": "book.short_non_fiction_type",

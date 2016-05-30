@@ -1,5 +1,5 @@
 {
-    "Id": "education.fraternity_sorority",
+    "Sid": "education.fraternity_sorority",
     "Name": "Fraternity/Sorority",
     "Description": "The \"Fraternity/Sorority\" type is for the social organizations at colleges and universities. Fraternal organizations such as Rotary International and honor societies such as Phi Beta Kappa are not included here.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "education.fraternity_sorority.accepted_genders",
+            "Sid": "education.fraternity_sorority.accepted_genders",
             "Name": "Accepted genders",
             "Description": "",
             "ObjectType": "education.student_gender",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "education.fraternity_sorority.colors",
+            "Sid": "education.fraternity_sorority.colors",
             "Name": "Colors",
             "Description": "",
             "ObjectType": "education.school_color",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "education.fraternity_sorority.founded_location",
+            "Sid": "education.fraternity_sorority.founded_location",
             "Name": "Founding school",
             "Description": "The school at which the fraternity or sorority was founded.",
             "ObjectType": "education.university",
@@ -35,7 +35,7 @@
             "Required": false
         },
         {
-            "Id": "education.fraternity_sorority.fraternity_sorority_type",
+            "Sid": "education.fraternity_sorority.fraternity_sorority_type",
             "Name": "Type",
             "Description": "The variety or class of a fraternity or sorority, such as \"service\" or \"social.\"",
             "ObjectType": "education.fraternity_sorority_type",
@@ -43,7 +43,7 @@
             "Required": false
         },
         {
-            "Id": "education.fraternity_sorority.mission_statement",
+            "Sid": "education.fraternity_sorority.mission_statement",
             "Name": "Mission statement",
             "Description": "The mission statement of the fraternity/sorority",
             "ObjectType": "type.text",
@@ -51,7 +51,7 @@
             "Required": false
         },
         {
-            "Id": "education.fraternity_sorority.number_of_chapters",
+            "Sid": "education.fraternity_sorority.number_of_chapters",
             "Name": "Number of chapters",
             "Description": "",
             "ObjectType": "type.int",
@@ -59,7 +59,7 @@
             "Required": false
         },
         {
-            "Id": "education.fraternity_sorority.number_of_colonies",
+            "Sid": "education.fraternity_sorority.number_of_colonies",
             "Name": "Number of colonies",
             "Description": "",
             "ObjectType": "type.int",
@@ -67,7 +67,7 @@
             "Required": false
         },
         {
-            "Id": "education.fraternity_sorority.official_charity",
+            "Sid": "education.fraternity_sorority.official_charity",
             "Name": "Official charity",
             "Description": "",
             "ObjectType": "education.supported_charity",
@@ -75,7 +75,7 @@
             "Required": false
         },
         {
-            "Id": "education.fraternity_sorority.symbol",
+            "Sid": "education.fraternity_sorority.symbol",
             "Name": "Symbol",
             "Description": "",
             "ObjectType": "type.text",

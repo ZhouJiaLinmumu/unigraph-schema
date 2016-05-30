@@ -1,5 +1,5 @@
 {
-    "Id": "music.arrangement",
+    "Sid": "music.arrangement",
     "Name": "Arrangement",
     "Description": "An Arrangement is any composition that is based on another composition; it may be a re-scoring of an orchestral work for piano or wind band, an instrumental arrangement of a pop hit, or an orchestral suite based on a ballet. It may be by the same composer as the original or not. The Composer of the Arrangement should be the arranger; there is a wide variety of creativity expressed in an arrangement, from perfunctory to visionary, and it seems most straightforward to allow that to be expressed using the properties of Composition (as included type).",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.arrangement.arrangement_of",
+            "Sid": "music.arrangement.arrangement_of",
             "Name": "Arrangement of",
             "Description": "The composition or compositions on which this arrangement was based.",
             "ObjectType": "music.composition",

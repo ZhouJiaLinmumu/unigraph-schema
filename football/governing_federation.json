@@ -1,5 +1,5 @@
 {
-    "Id": "football.governing_federation",
+    "Sid": "football.governing_federation",
     "Name": "Football Organization",
     "Description": "A football organization is a governing federation which operates or manages competitions, defines rules and disciplinary action and other associated mechanisms of football leagues.",
     "Mediator": false,

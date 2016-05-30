@@ -1,5 +1,5 @@
 {
-    "Id": "organization.club",
+    "Sid": "organization.club",
     "Name": "Club",
     "Description": "The \"club\" type is for associations of people united by a common interest or goal. All clubs in UniGraph should also be typed as organizations. This type should not be used for other types of clubs, such as nightclubs or professional football clubs.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "organization.club.areas_of_interest",
+            "Sid": "organization.club.areas_of_interest",
             "Name": "Areas of interest",
             "Description": "",
             "ObjectType": "organization.club_interest",

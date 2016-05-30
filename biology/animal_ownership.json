@@ -1,5 +1,5 @@
 {
-    "Id": "biology.animal_ownership",
+    "Sid": "biology.animal_ownership",
     "Name": "Animal ownership",
     "Description": "This is a compound value type that contains information about individual animals and their owners.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.animal_ownership.start_date",
+            "Sid": "biology.animal_ownership.start_date",
             "Name": "From",
             "Description": "The date this animal was acquired by this owner. If an owner possessed the animal multiple, non-consecutive, times, create separate instances for each.",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "biology.animal_ownership.end_date",
+            "Sid": "biology.animal_ownership.end_date",
             "Name": "To",
             "Description": "The date after which this owner no longer possessed this animal.",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "biology.animal_ownership.animal",
+            "Sid": "biology.animal_ownership.animal",
             "Name": "Animal",
             "Description": "The individual animal that was owned by this person or group.",
             "ObjectType": "biology.owned_animal",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "biology.animal_ownership.owners",
+            "Sid": "biology.animal_ownership.owners",
             "Name": "Owners",
             "Description": "The individuals or group that owned this animal for this period. Multiple simultaneous owners can be added by clicking the + button for this property.",
             "ObjectType": "biology.animal_owner",

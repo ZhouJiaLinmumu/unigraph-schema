@@ -1,5 +1,5 @@
 {
-    "Id": "biology.fossil_site",
+    "Sid": "biology.fossil_site",
     "Name": "Fossil site",
     "Description": "Fossil site is a location where a notable fossil specimen or organisms have been found.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.fossil_site.fossilized_organisms_found_here",
+            "Sid": "biology.fossil_site.fossilized_organisms_found_here",
             "Name": "Fossilized organisms found here",
             "Description": "Types of fossilized organisms that have been found at this site.",
             "ObjectType": "biology.organism_classification",

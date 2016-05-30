@@ -1,5 +1,5 @@
 {
-  "Id": "organization",
+  "Sid": "organization",
   "Name": "Organization",
   "Description": "Organization contains types related to groups of people that gather for a particular purpose, usually in a social, non-business context. This category does not contain types for  companies or other business related types."
 }

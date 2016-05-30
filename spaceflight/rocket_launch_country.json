@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.rocket_launch_country",
+    "Sid": "spaceflight.rocket_launch_country",
     "Name": "Country with rocket launch sites",
     "Description": "Country from which rockets are being launched",
     "Mediator": false,

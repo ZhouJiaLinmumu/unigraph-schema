@@ -1,5 +1,5 @@
 {
-    "Id": "rail.steam_locomotive_class",
+    "Sid": "rail.steam_locomotive_class",
     "Name": "Steam locomotive class",
     "Description": "A steam locomotive class is a class of locomotive that runs on steam.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "rail.steam_locomotive_class.cylinders",
+            "Sid": "rail.steam_locomotive_class.cylinders",
             "Name": "Cylinders",
             "Description": "",
             "ObjectType": "type.int",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "rail.steam_locomotive_class.fuel_type",
+            "Sid": "rail.steam_locomotive_class.fuel_type",
             "Name": "Fuel type",
             "Description": "",
             "ObjectType": "rail.steam_locomotive_fuel_type",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "rail.steam_locomotive_class.wheel_configuration",
+            "Sid": "rail.steam_locomotive_class.wheel_configuration",
             "Name": "Wheel configuration",
             "Description": "The wheel configuration in Whyte notation.",
             "ObjectType": "rail.steam_locomotive_wheel_configuration",

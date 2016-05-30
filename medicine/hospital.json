@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.hospital",
+    "Sid": "medicine.hospital",
     "Name": "Hospital",
     "Description": "A hospital is an institution for health care, often but not always providing for longer-term patient stays. All varieties of hospitals - private, public, military, etc. - are included in this type.",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "medicine.hospital.address",
+            "Sid": "medicine.hospital.address",
             "Name": "Address",
             "Description": "Mailing address of hospital.",
             "ObjectType": "location.mailing_address",
@@ -20,7 +20,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.hospital.beds",
+            "Sid": "medicine.hospital.beds",
             "Name": "Beds",
             "Description": "Number of beds (dated value as this capacity can change over time).",
             "ObjectType": "measured_dimension.dated_int",
@@ -28,7 +28,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.hospital.date_closed",
+            "Sid": "medicine.hospital.date_closed",
             "Name": "Date Closed",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -36,7 +36,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.hospital.date_founded",
+            "Sid": "medicine.hospital.date_founded",
             "Name": "Date Founded",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -44,7 +44,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.hospital.medical_school_affiliation",
+            "Sid": "medicine.hospital.medical_school_affiliation",
             "Name": "Medical School Affiliation",
             "Description": "",
             "ObjectType": "medicine.medical_university",
@@ -52,7 +52,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.hospital.medical_specialties",
+            "Sid": "medicine.hospital.medical_specialties",
             "Name": "Medical Specialties",
             "Description": "Medicial specialties of the hospital.",
             "ObjectType": "medicine.medical_specialty",
@@ -60,7 +60,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.hospital.ownership_status",
+            "Sid": "medicine.hospital.ownership_status",
             "Name": "Ownership Status",
             "Description": "Ownership/funding for the hospital. Examples are: state, for-profit, etc.",
             "ObjectType": "medicine.hospital_ownership",

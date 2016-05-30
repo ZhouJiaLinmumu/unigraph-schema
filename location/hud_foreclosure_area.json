@@ -1,5 +1,5 @@
 {
-    "Id": "location.hud_foreclosure_area",
+    "Sid": "location.hud_foreclosure_area",
     "Name": "HUD Foreclosure Area",
     "Description": "A \"HUD foreclosure area\" is an area (in the United States) for which the Department of Housing and Urban Development (HUD) has published home foreclosure information. These \"areas\" generally correspond to a US county (or county-equivalent), census tract, or \"county-place\" (which is a region entirely within a county, which may or may not fully correspond to any other sub-division of a county, such as a city or township).",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.hud_foreclosure_area.bls_unemployment_rate",
+            "Sid": "location.hud_foreclosure_area.bls_unemployment_rate",
             "Name": "BLS Unemployment Rate (%)",
             "Description": "Bureau of Labor Statistics unemployment rate",
             "ObjectType": "measured_dimension.dated_float",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "location.hud_foreclosure_area.estimated_number_foreclosures",
+            "Sid": "location.hud_foreclosure_area.estimated_number_foreclosures",
             "Name": "Estimated Number of Foreclosures",
             "Description": "HUD model, estimated count of foreclosure starts over 18 months",
             "ObjectType": "measured_dimension.dated_int",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "location.hud_foreclosure_area.estimated_number_of_mortgages",
+            "Sid": "location.hud_foreclosure_area.estimated_number_of_mortgages",
             "Name": "Estimated Number of Mortgages",
             "Description": "HUD estimated number of mortgages",
             "ObjectType": "measured_dimension.dated_int",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "location.hud_foreclosure_area.hhuniv",
+            "Sid": "location.hud_foreclosure_area.hhuniv",
             "Name": "Household Count",
             "Description": "Count of households from Census",
             "ObjectType": "measured_dimension.dated_int",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "location.hud_foreclosure_area.ofheo_price_change",
+            "Sid": "location.hud_foreclosure_area.ofheo_price_change",
             "Name": "OFHEO Price Change (%)",
             "Description": "A measure of price decline in home values that uses data from the Office of Federal Housing Enterprise Oversight (OFHEO) Housing Price Index (HPI) to calculate price decline from peak value in the second quarter of any year between 2000 and 2008 and the second quarter home price in 2008.",
             "ObjectType": "measured_dimension.dated_float",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "location.hud_foreclosure_area.total_90_day_vacant_residential_addresses",
+            "Sid": "location.hud_foreclosure_area.total_90_day_vacant_residential_addresses",
             "Name": "Vacant Residential Addresses over 90-days period",
             "Description": "United States Postal Service data on residential addresses vacant 90-days or longer.",
             "ObjectType": "measured_dimension.dated_int",
@@ -58,7 +58,7 @@
             "Required": false
         },
         {
-            "Id": "location.hud_foreclosure_area.total_residential_addresses",
+            "Sid": "location.hud_foreclosure_area.total_residential_addresses",
             "Name": "Total Residential Addresses",
             "Description": "United States Postal Service Data on total addresses",
             "ObjectType": "measured_dimension.dated_int",

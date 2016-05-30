@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.exterior_color",
+    "Sid": "automotive.exterior_color",
     "Name": "Exterior Color",
     "Description": "The exterior color type is used to describe a specific color and paint code used on a vehicle or several vehicles over specific model years. For example, \"black\" is not descriptive enough as there are many shades and types of black used on many makes and models. 1969-1970 Chevrolet Tuxedo Black is a better Exterior Color type as it specifically descibes a color used on a specific make of vehicle.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.exterior_color.clear_coat",
+            "Sid": "automotive.exterior_color.clear_coat",
             "Name": "Clear Coat",
             "Description": "",
             "ObjectType": "type.boolean",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.exterior_color.color_code",
+            "Sid": "automotive.exterior_color.color_code",
             "Name": "Color Code",
             "Description": "",
             "ObjectType": "type.text",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.exterior_color.metallic",
+            "Sid": "automotive.exterior_color.metallic",
             "Name": "Metallic",
             "Description": "",
             "ObjectType": "type.boolean",

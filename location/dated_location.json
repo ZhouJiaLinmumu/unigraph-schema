@@ -1,5 +1,5 @@
 {
-    "Id": "location.dated_location",
+    "Sid": "location.dated_location",
     "Name": "Dated location",
     "Description": "This type allows dates of formation and dissolution to be applied to locations of appropriate types (such as countries, cities, electoral districts, etc.).",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.dated_location.date_dissolved",
+            "Sid": "location.dated_location.date_dissolved",
             "Name": "Date dissolved",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "location.dated_location.date_founded",
+            "Sid": "location.dated_location.date_founded",
             "Name": "Date founded",
             "Description": "",
             "ObjectType": "type.datetime",

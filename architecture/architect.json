@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.architect",
+    "Sid": "architecture.architect",
     "Name": "Architect",
     "Description": "\"Architect\" is used for individual contributors to the Built Environment. Also see the type \"Architecture Firm\" for collections of architects. A topic that is of the type \"Structure\" can have one or more \"Architects\" or \"Architecture Firms\" listed as properties, due to the sometimes ambiguous way designs are credited.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "architecture.architect.architectural_style",
+            "Sid": "architecture.architect.architectural_style",
             "Name": "Architectural Style",
             "Description": "Schools or styles of architecture that this architect exemplfies",
             "ObjectType": "architecture.architectural_style",

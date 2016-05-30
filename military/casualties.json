@@ -1,5 +1,5 @@
 {
-    "Id": "military.casualties",
+    "Sid": "military.casualties",
     "Name": "Casualties",
     "Description": "Holds information about reported casualties in a military conflict.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "military.casualties.combatant",
+            "Sid": "military.casualties.combatant",
             "Name": "Combatant",
             "Description": "",
             "ObjectType": "military.combatant",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "military.casualties.estimated_by",
+            "Sid": "military.casualties.estimated_by",
             "Name": "Estimated by",
             "Description": "",
             "ObjectType": "military.casualties_reporter",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "military.casualties.lower_estimate",
+            "Sid": "military.casualties.lower_estimate",
             "Name": "Estimate",
             "Description": "",
             "ObjectType": "type.int",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "military.casualties.military_conflict",
+            "Sid": "military.casualties.military_conflict",
             "Name": "Military Conflict",
             "Description": "",
             "ObjectType": "military.conflict",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "military.casualties.casualties_type",
+            "Sid": "military.casualties.casualties_type",
             "Name": "Type Of Casualties",
             "Description": "",
             "ObjectType": "military.casualties_type",
@@ -47,7 +47,7 @@
             "Required": false
         },
         {
-            "Id": "military.casualties.upper_estimate",
+            "Sid": "military.casualties.upper_estimate",
             "Name": "Upper Estimate",
             "Description": "",
             "ObjectType": "type.int",

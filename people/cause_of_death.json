@@ -1,5 +1,5 @@
 {
-    "Id": "people.cause_of_death",
+    "Sid": "people.cause_of_death",
     "Name": "Cause Of Death",
     "Description": "Cause of Death is used by the Deceased Person type to document the cause of that person's death. Examples might be drowning, gunshot, or coronary failure.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "people.cause_of_death.includes_causes_of_death",
+            "Sid": "people.cause_of_death.includes_causes_of_death",
             "Name": "Includes causes of death",
             "Description": "",
             "ObjectType": "people.cause_of_death",

@@ -1,5 +1,5 @@
 {
-    "Id": "broadcast.artist",
+    "Sid": "broadcast.artist",
     "Name": "Broadcast Artist",
     "Description": "An artist appearing in Broadcast Content. This can be a presenter, performer, actor, musician, etc.",
     "Mediator": false,

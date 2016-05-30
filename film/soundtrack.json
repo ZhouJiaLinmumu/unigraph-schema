@@ -1,5 +1,5 @@
 {
-    "Id": "film.soundtrack",
+    "Sid": "film.soundtrack",
     "Name": "Film soundtrack",
     "Description": "The film soundtrack",
     "Mediator": false,

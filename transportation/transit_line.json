@@ -1,5 +1,5 @@
 {
-    "Id": "transportation.transit_line",
+    "Sid": "transportation.transit_line",
     "Name": "Transit Line",
     "Description": "A Transit Line is a transit service running along a single path. If multiple lines run along the same path — e.g., a local and an express service — they should be marked as alternates of each other. Similarly, if a line forks to multiple destinations (e.g., Boston’s Red Line), multiple Transit Lines should be created, marked as alternates of each other. Lines that share a significant distance along the same path, such as New York’s A-C-E subway lines, should be also marked as alternates.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "transportation.transit_line.alternate_lines",
+            "Sid": "transportation.transit_line.alternate_lines",
             "Name": "Includes Alternate Lines",
             "Description": "Other lines that follow nearly the same path, i.e., that will get a rider to much the same place. When there is a clear primacy, then the secondary line should be marked as an alternate of the primary, e.g., an express is an alternate of a local, or a late-night limited version is an alternate of the full-service daytime line. However, if lines are more or less peers, then it doesn’t matter which is marked as primary and which as alternate in UniGraph. However, for any given set of lines, only one should be the primary, with multiple secondaries if needed.",
             "ObjectType": "transportation.transit_line",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "transportation.transit_line.daily_riders",
+            "Sid": "transportation.transit_line.daily_riders",
             "Name": "Daily Riders",
             "Description": "If ridership for a line is known, the most recent number and the date on which it was measured.",
             "ObjectType": "measured_dimension.dated_int",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "transportation.transit_line.service_hours",
+            "Sid": "transportation.transit_line.service_hours",
             "Name": "Service Hours",
             "Description": "The hours of service of the line, from first run to last run on each day.",
             "ObjectType": "type.rawstring",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "transportation.transit_line.service_type",
+            "Sid": "transportation.transit_line.service_type",
             "Name": "Mode Of Transit",
             "Description": "A simple indicator of whether this is a bus, train, or ferry line.",
             "ObjectType": "transportation.transit_service_type",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "transportation.transit_line.stops",
+            "Sid": "transportation.transit_line.stops",
             "Name": "Stops On Line",
             "Description": "The stops along the line. If a line has different stops in different directions, just list them all; if the line follows significantly different paths in different directions, creating two alternate Transit Lines might be a better representation.",
             "ObjectType": "transportation.transit_stop",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "transportation.transit_line.terminates",
+            "Sid": "transportation.transit_line.terminates",
             "Name": "Terminuses",
             "Description": "The ends of the line. When a line has multiple end points with significantly different paths, two (or more) Transit Lines should be created. However, if a line sometimes has extended service beyond its normal terminus, that can be more easily represented with multiple terminuses; similarly, if a branch at the end of the line is short, multiple terminuses might be a better representation than alternate lines that are nearly identical.",
             "ObjectType": "transportation.transit_stop",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "transportation.transit_line.vehicle_types",
+            "Sid": "transportation.transit_line.vehicle_types",
             "Name": "Vehicle Categories",
             "Description": "More detailed information about electric or diesel buses (or both), light rail, heavy rail, diesel ferries, etc.",
             "ObjectType": "transportation.transit_vehicle",

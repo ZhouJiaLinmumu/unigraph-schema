@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.apparent_mass",
+    "Sid": "astronomy.apparent_mass",
     "Name": "Apparent mass",
     "Description": "Apparent mass of the celestial object in solar masses. Could be used for galaxies and other astronomical structures and bodies.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.apparent_mass.mass",
+            "Sid": "astronomy.apparent_mass.mass",
             "Name": "Mass",
             "Description": "",
             "ObjectType": "measured_dimension.mass",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "astronomy.apparent_mass.uncertainty",
+            "Sid": "astronomy.apparent_mass.uncertainty",
             "Name": "Uncertainty",
             "Description": "The error in a range +/-",
             "ObjectType": "measured_dimension.mass",

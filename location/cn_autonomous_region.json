@@ -1,5 +1,5 @@
 {
-    "Id": "location.cn_autonomous_region",
+    "Sid": "location.cn_autonomous_region",
     "Name": "Chinese autonomous region",
     "Description": "An autonomous region is a first-level administrative subdivision of China.",
     "Mediator": false,
@@ -13,7 +13,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.cn_autonomous_region.designated_minority",
+            "Sid": "location.cn_autonomous_region.designated_minority",
             "Name": "Designated minority",
             "Description": "",
             "ObjectType": "location.chinese_ethnic_group",

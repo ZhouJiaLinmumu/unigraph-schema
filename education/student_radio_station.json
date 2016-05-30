@@ -1,5 +1,5 @@
 {
-    "Id": "education.student_radio_station",
+    "Sid": "education.student_radio_station",
     "Name": "Student radio station",
     "Description": "This type is for radio stations affiliated with educational institutions (typically secondary schools, colleges, and universities).",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "opera.designer_gig",
+    "Sid": "opera.designer_gig",
     "Name": "Opera Designer Gig",
     "Description": "This is a compound-value type that holds information about opera designers and the productions for which they have contributed designs.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "opera.designer_gig.design_role",
+            "Sid": "opera.designer_gig.design_role",
             "Name": "Design Role",
             "Description": "",
             "ObjectType": "opera.designer_role",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "opera.designer_gig.designer",
+            "Sid": "opera.designer_gig.designer",
             "Name": "Designer",
             "Description": "",
             "ObjectType": "opera.designer",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "opera.designer_gig.opera",
+            "Sid": "opera.designer_gig.opera",
             "Name": "Opera",
             "Description": "",
             "ObjectType": "opera.production",

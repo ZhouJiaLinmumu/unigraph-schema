@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.monetary_range",
+    "Sid": "measured_dimension.monetary_range",
     "Name": "Monetary Range",
     "Description": "A Monetary Range is a range of values in a given currency. For instance, \"two to three million Australian dollars\". This type has a minimum and maximum value, a currency, and also has a date associated with it allowing you to specify monetary ranges that vary over time.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.monetary_range.currency",
+            "Sid": "measured_dimension.monetary_range.currency",
             "Name": "Currency",
             "Description": "",
             "ObjectType": "measured_dimension.currency",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "measured_dimension.monetary_range.date",
+            "Sid": "measured_dimension.monetary_range.date",
             "Name": "Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "measured_dimension.monetary_range.max_value",
+            "Sid": "measured_dimension.monetary_range.max_value",
             "Name": "Max value",
             "Description": "",
             "ObjectType": "type.float",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.monetary_range.min_value",
+            "Sid": "measured_dimension.monetary_range.min_value",
             "Name": "Min value",
             "Description": "",
             "ObjectType": "type.float",
@@ -39,7 +39,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.monetary_range.note",
+            "Sid": "measured_dimension.monetary_range.note",
             "Name": "Note",
             "Description": "",
             "ObjectType": "type.text",

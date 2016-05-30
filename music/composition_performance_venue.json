@@ -1,5 +1,5 @@
 {
-    "Id": "music.composition_performance_venue",
+    "Sid": "music.composition_performance_venue",
     "Name": "Composition performance venue",
     "Description": "The location in which a composition was performed. This can be a city (or larger area if city is not known) or a performance venue.",
     "Mediator": false,

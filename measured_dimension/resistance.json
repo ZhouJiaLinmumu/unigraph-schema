@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.resistance",
+    "Sid": "measured_dimension.resistance",
     "Name": "Resistance",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.resistance.measurement_unit",
+            "Sid": "measured_dimension.resistance.measurement_unit",
             "Name": "Unit of Resistance",
             "Description": "",
             "ObjectType": "measured_dimension.resistance_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.resistance.value",
+            "Sid": "measured_dimension.resistance.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

@@ -1,5 +1,5 @@
 {
-    "Id": "time.calendar",
+    "Sid": "time.calendar",
     "Name": "Calendar System",
     "Description": "A system for naming days of the year, called calendar dates.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "time.calendar.month_names",
+            "Sid": "time.calendar.month_names",
             "Name": "Month Names",
             "Description": "",
             "ObjectType": "time.month",

@@ -1,5 +1,5 @@
 {
-    "Id": "organization.registered_organization",
+    "Sid": "organization.registered_organization",
     "Name": "Registered organization",
     "Description": "An organization that has a registration with an organization registering authority.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "organization.registered_organization.seat",
+            "Sid": "organization.registered_organization.seat",
             "Name": "Registered seat",
             "Description": "",
             "ObjectType": "location.mailing_address",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "organization.registered_organization.status",
+            "Sid": "organization.registered_organization.status",
             "Name": "Registration status",
             "Description": "",
             "ObjectType": "organization.registration_status",

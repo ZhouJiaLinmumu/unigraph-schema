@@ -1,5 +1,5 @@
 {
-    "Id": "government.country_anthem_relationship",
+    "Sid": "government.country_anthem_relationship",
     "Name": "National anthem of a country",
     "Description": "This is a compound-value type, which links countries to their national anthems, and also holds the dates on which the song was adopted as (and possibly demoted from being) the national anthem.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.country_anthem_relationship.country",
+            "Sid": "government.country_anthem_relationship.country",
             "Name": "Country",
             "Description": "",
             "ObjectType": "government.country",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "government.country_anthem_relationship.start_date",
+            "Sid": "government.country_anthem_relationship.start_date",
             "Name": "Official anthem since",
             "Description": "The date the song was officially made the national anthem.",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "government.country_anthem_relationship.end_date",
+            "Sid": "government.country_anthem_relationship.end_date",
             "Name": "Official anthem until",
             "Description": "The date (if any) the song was officially no longer the national anthem.",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "government.country_anthem_relationship.anthem",
+            "Sid": "government.country_anthem_relationship.anthem",
             "Name": "Anthem",
             "Description": "",
             "ObjectType": "government.national_anthem",

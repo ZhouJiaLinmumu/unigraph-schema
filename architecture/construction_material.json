@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.construction_material",
+    "Sid": "architecture.construction_material",
     "Name": "Construction material",
     "Description": "The construction material used in building a structure.",
     "Mediator": false,

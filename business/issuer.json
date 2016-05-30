@@ -1,5 +1,5 @@
 {
-    "Id": "business.issuer",
+    "Sid": "business.issuer",
     "Name": "Issuer",
     "Description": "An \"Issuer\" as an entity, usually a company, that creates tradable issues of stock or debt.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.issuer.issue",
+            "Sid": "business.issuer.issue",
             "Name": "Issue",
             "Description": "",
             "ObjectType": "business.issue",

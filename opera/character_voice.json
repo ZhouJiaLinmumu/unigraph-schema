@@ -1,5 +1,5 @@
 {
-    "Id": "opera.character_voice",
+    "Sid": "opera.character_voice",
     "Name": "Opera character voice",
     "Description": "This is a compound-value type that holds information about a character in a particular opera and the vocal range of that character's part.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "opera.character_voice.character",
+            "Sid": "opera.character_voice.character",
             "Name": "Character",
             "Description": "",
             "ObjectType": "opera.character",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "opera.character_voice.opera",
+            "Sid": "opera.character_voice.opera",
             "Name": "Opera",
             "Description": "",
             "ObjectType": "opera.opera",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "opera.character_voice.voice",
+            "Sid": "opera.character_voice.voice",
             "Name": "Voice",
             "Description": "The voice or range of the role, e.g. baritone or soprano.",
             "ObjectType": "opera.voice",

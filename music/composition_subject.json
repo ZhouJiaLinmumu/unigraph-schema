@@ -1,5 +1,5 @@
 {
-    "Id": "music.composition_subject",
+    "Sid": "music.composition_subject",
     "Name": "Composition",
     "Description": "Topics of a composition, musical or lyrical.",
     "Mediator": false,

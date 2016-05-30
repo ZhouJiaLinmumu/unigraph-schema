@@ -1,5 +1,5 @@
 {
-  "Id": "medicine",
+  "Sid": "medicine",
   "Name": "Medicine",
   "Description": "The Medicine domain. Contains information about diseases and drugs."
 }

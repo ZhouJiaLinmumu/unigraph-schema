@@ -1,5 +1,5 @@
 {
-    "Id": "location.timezone",
+    "Sid": "location.timezone",
     "Name": "Time zone",
     "Description": "The time zones",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "opera.opera_house",
+    "Sid": "opera.opera_house",
     "Name": "Opera House",
     "Description": "An opera house is a theater in which operas are performed.",
     "Mediator": false,

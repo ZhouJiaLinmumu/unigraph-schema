@@ -1,5 +1,5 @@
 {
-    "Id": "people.wedding_venue",
+    "Sid": "people.wedding_venue",
     "Name": "Wedding venue",
     "Description": "Wedding venue documents the place where two people are married. It is used by the Marriage type.",
     "Mediator": false,

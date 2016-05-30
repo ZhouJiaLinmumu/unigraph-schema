@@ -1,5 +1,5 @@
 {
-    "Id": "football.disciplinary_action",
+    "Sid": "football.disciplinary_action",
     "Name": "Football Disciplinary Action",
     "Description": "Disciplinary action within an association football (soccer) game is typically a red or yellow card.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "football.disciplinary_action.minute",
+            "Sid": "football.disciplinary_action.minute",
             "Name": "Minute",
             "Description": "The minute during the game at which this punishment was given",
             "ObjectType": "type.int",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "football.disciplinary_action.player",
+            "Sid": "football.disciplinary_action.player",
             "Name": "Player",
             "Description": "The football player who was disciplined",
             "ObjectType": "football.player",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "football.disciplinary_action.punishment",
+            "Sid": "football.disciplinary_action.punishment",
             "Name": "Punishment",
             "Description": "The card or warning given to the player during the game",
             "ObjectType": "football.disciplinary_punishment",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "football.disciplinary_action.match",
+            "Sid": "football.disciplinary_action.match",
             "Name": "Match",
             "Description": "The match in which this disciplinary action was given",
             "ObjectType": "football.match",

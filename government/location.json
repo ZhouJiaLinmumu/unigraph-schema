@@ -1,5 +1,5 @@
 {
-    "Id": "government.location",
+    "Sid": "government.location",
     "Name": "Location",
     "Description": "The physical location a government or a government agency resides",
     "Mediator": false,

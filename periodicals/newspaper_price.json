@@ -1,5 +1,5 @@
 {
-    "Id": "periodicals.newspaper_price",
+    "Sid": "periodicals.newspaper_price",
     "Name": "Newspaper price",
     "Description": "This type contains information about the price of newspapers per edition, since, for example, the prices of daily and Sunday editions of the same paper are usually different.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "periodicals.newspaper_price.amount",
+            "Sid": "periodicals.newspaper_price.amount",
             "Name": "Amount",
             "Description": "The price of the newspaper in this edition. 0, if the paper is free.",
             "ObjectType": "type.float",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "periodicals.newspaper_price.edition",
+            "Sid": "periodicals.newspaper_price.edition",
             "Name": "Edition",
             "Description": "The edition (such as daily, Sunday, morning, evening, etc) that this price is for.",
             "ObjectType": "periodicals.newspaper_edition_type",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "periodicals.newspaper_price.currency",
+            "Sid": "periodicals.newspaper_price.currency",
             "Name": "Currency",
             "Description": "",
             "ObjectType": "periodicals.currency",

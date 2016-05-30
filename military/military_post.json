@@ -1,5 +1,5 @@
 {
-    "Id": "military.military_post",
+    "Sid": "military.military_post",
     "Name": "Military post",
     "Description": "A military post is a location (such as a base or a ship) to which military personnel have been assigned.",
     "Mediator": false,

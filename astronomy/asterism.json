@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.asterism",
+    "Sid": "astronomy.asterism",
     "Name": "Asterism",
     "Description": "An asterism is a group of stars in the Earth's sky which appear to form a shape. This is distinct from the Constellation type, which is specifically for those that are officially defined by the International Astronomical Union.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.asterism.constellation",
+            "Sid": "astronomy.asterism.constellation",
             "Name": "Constellations",
             "Description": "The constellation or constellations that this asterism appears in or overlaps.",
             "ObjectType": "astronomy.constellation",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.asterism.stars",
+            "Sid": "astronomy.asterism.stars",
             "Name": "Stars",
             "Description": "The principal stars (or other celestial objects, such as nebulae) that appear to form the pattern. These will typically form the vertices or end points of the imaginary lines between the stars that form the shape.",
             "ObjectType": "astronomy.celestial_object",

@@ -1,5 +1,5 @@
 {
-    "Id": "periodicals.periodical_format",
+    "Sid": "periodicals.periodical_format",
     "Name": "Periodical Format",
     "Description": "This typically refers to the paper size and binding of a periodical.",
     "Mediator": false,

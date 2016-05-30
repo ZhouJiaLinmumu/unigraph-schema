@@ -1,5 +1,5 @@
 {
-    "Id": "computer.web_browser_extension",
+    "Sid": "computer.web_browser_extension",
     "Name": "Web browser extension",
     "Description": "A piece of software which uses a browser's plug-in architecture in order to extend the capabilities of the browser in some way.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "computer.web_browser_extension.works_on_web_browser",
+            "Sid": "computer.web_browser_extension.works_on_web_browser",
             "Name": "Works on web browser",
             "Description": "",
             "ObjectType": "computer.web_browser",

@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.astronomical_discovery",
+    "Sid": "astronomy.astronomical_discovery",
     "Name": "Astronomical Discovery",
     "Description": "This type is for any and all celestial objects that can be said to have been discovered by someone.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.astronomical_discovery.discoverer",
+            "Sid": "astronomy.astronomical_discovery.discoverer",
             "Name": "Discoverer",
             "Description": "",
             "ObjectType": "astronomy.astronomer",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.astronomical_discovery.date",
+            "Sid": "astronomy.astronomical_discovery.date",
             "Name": "Discovery Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.astronomical_discovery.organization",
+            "Sid": "astronomy.astronomical_discovery.organization",
             "Name": "Discovery Organization",
             "Description": "",
             "ObjectType": "astronomy.organization",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.astronomical_discovery.site",
+            "Sid": "astronomy.astronomical_discovery.site",
             "Name": "Discovery Site",
             "Description": "",
             "ObjectType": "astronomy.observatory",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.astronomical_discovery.technique",
+            "Sid": "astronomy.astronomical_discovery.technique",
             "Name": "Discovery Technique",
             "Description": "",
             "ObjectType": "astronomy.astronomical_discovery_technique",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.astronomical_discovery.status",
+            "Sid": "astronomy.astronomical_discovery.status",
             "Name": "Status",
             "Description": "",
             "ObjectType": "astronomy.astronomical_discovery_status",

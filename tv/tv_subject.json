@@ -1,5 +1,5 @@
 {
-    "Id": "tv.tv_subject",
+    "Sid": "tv.tv_subject",
     "Name": "TV subject",
     "Description": "This type is for subjects that are addressed in TV programs, episodes of TV programs, and segments of episodes.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.tv_subject.episode_segments",
+            "Sid": "tv.tv_subject.episode_segments",
             "Name": "TV episode segments",
             "Description": "Segments of TV episodes that address this subject. Segments are stand-alone parts of an episode, such as a sketch in a comedy or anthology program, or a report in a newsmagazine, or an interview on a news or talk show.",
             "ObjectType": "tv.episode_segment",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "tv.tv_subject.episodes",
+            "Sid": "tv.tv_subject.episodes",
             "Name": "TV episodes",
             "Description": "Episodes of a TV program that address this subject.",
             "ObjectType": "tv.series_episode",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "tv.tv_subject.tv_programs",
+            "Sid": "tv.tv_subject.tv_programs",
             "Name": "TV programs",
             "Description": "TV programs that deal with this subject. Only series that address this subject generally should be entered; do not enter series that only address this subject in certain episodes. Examples might include, for the subject \"Medicine\" the program \"House\"; for the subject \"Time travel\", the program \"Doctor Who\".",
             "ObjectType": "tv.program",

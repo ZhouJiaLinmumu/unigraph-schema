@@ -1,5 +1,5 @@
 {
-    "Id": "event.promoted_event",
+    "Sid": "event.promoted_event",
     "Name": "Promoted event",
     "Description": "This type is for events that have a promoter. This is frequently indicated by the phrase \"promoted by\" in advertising or promotional material for the event Instances of this type will typically also be typed as either Event or Recurring event. Examples of kinds of events that are often \"promoted by\" someone or something include concerts and concert tours, festivals, sporting events, conferences, etc.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "event.promoted_event.promoted_by",
+            "Sid": "event.promoted_event.promoted_by",
             "Name": "Promoted by",
             "Description": "The organization that handled the promotion of this event.",
             "ObjectType": "event.event_promoter",

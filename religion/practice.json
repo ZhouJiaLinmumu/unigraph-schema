@@ -1,5 +1,5 @@
 {
-    "Id": "religion.practice",
+    "Sid": "religion.practice",
     "Name": "Religious Practice",
     "Description": "This type describes rituals or actions performed by adherents of a particular religion.Examples: prayer, meditation, ritual purification, confession.",
     "Mediator": false,

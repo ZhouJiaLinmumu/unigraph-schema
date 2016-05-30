@@ -1,5 +1,5 @@
 {
-    "Id": "people.deceased_person",
+    "Sid": "people.deceased_person",
     "Name": "Deceased Person",
     "Description": "Deceased person is a type of person who is no longer alive. This type contains properties for date, place and cause of death.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "people.deceased_person.cause_of_death",
+            "Sid": "people.deceased_person.cause_of_death",
             "Name": "Cause of death",
             "Description": "",
             "ObjectType": "people.cause_of_death",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "people.deceased_person.date_of_burial",
+            "Sid": "people.deceased_person.date_of_burial",
             "Name": "Date of burial",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "people.deceased_person.date_of_cremation",
+            "Sid": "people.deceased_person.date_of_cremation",
             "Name": "Date of cremation",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "people.deceased_person.date_of_death",
+            "Sid": "people.deceased_person.date_of_death",
             "Name": "Date of death",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "people.deceased_person.place_of_burial",
+            "Sid": "people.deceased_person.place_of_burial",
             "Name": "Place of burial",
             "Description": "The place where the body or ashes were interred or are kept. This should be the specific place of burial (e.g. Vladimir Lenin is \"buried\" in Lenin's Mausoleum, not the city of Moscow).",
             "ObjectType": "people.place_of_interment",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "people.deceased_person.place_of_cremation",
+            "Sid": "people.deceased_person.place_of_cremation",
             "Name": "Place of cremation",
             "Description": "The location where the body was cremated. To record where the ashes were interred, use the Place of Burial property.",
             "ObjectType": "people.place_of_cremation",
@@ -58,7 +58,7 @@
             "Required": false
         },
         {
-            "Id": "people.deceased_person.place_of_death",
+            "Sid": "people.deceased_person.place_of_death",
             "Name": "Place of death",
             "Description": "",
             "ObjectType": "people.place_of_death",

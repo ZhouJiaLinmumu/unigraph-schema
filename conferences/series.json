@@ -1,5 +1,5 @@
 {
-    "Id": "conferences.series",
+    "Sid": "conferences.series",
     "Name": "Conference series",
     "Description": "A conference is a regular or recurring meeting of people to \"confer\" about a topic. It may take many forms.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "conferences.series.geoscope",
+            "Sid": "conferences.series.geoscope",
             "Name": "Geographical scope",
             "Description": "'Conferences may happen at different locations, and visitors from elsewhere can participate, but often conferences fall within some geographical scope. if not - list as 'international'",
             "ObjectType": "conferences.geoscope",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "conferences.series.subject",
+            "Sid": "conferences.series.subject",
             "Name": "Subject",
             "Description": "Topic e.g. anime, artificial intelligence",
             "ObjectType": "conferences.subject",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "conferences.series.type",
+            "Sid": "conferences.series.type",
             "Name": "Type of conference",
             "Description": "Concerns the format, not the subject",
             "ObjectType": "conferences.type",

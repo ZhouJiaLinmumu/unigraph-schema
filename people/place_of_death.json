@@ -1,5 +1,5 @@
 {
-    "Id": "people.place_of_death",
+    "Sid": "people.place_of_death",
     "Name": "Place of death",
     "Description": "The place a person died.",
     "Mediator": false,

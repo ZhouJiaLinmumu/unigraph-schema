@@ -1,5 +1,5 @@
 {
-    "Id": "computer.peripheral",
+    "Sid": "computer.peripheral",
     "Name": "Computer Peripheral",
     "Description": "A computer peripheral: a device which is attached to a computer to provide additional functionality, but which (in general) requires the computer to work.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "computer.peripheral.compatible_computers",
+            "Sid": "computer.peripheral.compatible_computers",
             "Name": "Compatible computers",
             "Description": "The computers this peripheral is compatible with.",
             "ObjectType": "computer.computer",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "computer.peripheral.class",
+            "Sid": "computer.peripheral.class",
             "Name": "Peripheral Class",
             "Description": "The class this peripheral is an instance of.",
             "ObjectType": "computer.peripheral_class",

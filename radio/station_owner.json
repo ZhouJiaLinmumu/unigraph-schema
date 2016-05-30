@@ -1,5 +1,5 @@
 {
-    "Id": "radio.station_owner",
+    "Sid": "radio.station_owner",
     "Name": "Radio station owner",
     "Description": "Radio station owner is any entity that owns a radio station - a network, another company, a university, etc.",
     "Mediator": false,

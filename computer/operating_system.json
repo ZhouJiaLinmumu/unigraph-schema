@@ -1,5 +1,5 @@
 {
-    "Id": "computer.operating_system",
+    "Sid": "computer.operating_system",
     "Name": "Operating System",
     "Description": "The software on a computer which is responsible for direct communication with the hardware and other low-level issues.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "computer.operating_system.developer",
+            "Sid": "computer.operating_system.developer",
             "Name": "Developer",
             "Description": "",
             "ObjectType": "computer.operating_system_developer",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "computer.operating_system.parent_os",
+            "Sid": "computer.operating_system.parent_os",
             "Name": "Parent OS",
             "Description": "",
             "ObjectType": "computer.operating_system",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "computer.operating_system.release_date",
+            "Sid": "computer.operating_system.release_date",
             "Name": "Release Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "computer.operating_system.supported_architectures",
+            "Sid": "computer.operating_system.supported_architectures",
             "Name": "Supported Architectures",
             "Description": "",
             "ObjectType": "computer.processor",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "computer.operating_system.version_number",
+            "Sid": "computer.operating_system.version_number",
             "Name": "Version Number",
             "Description": "",
             "ObjectType": "type.text",

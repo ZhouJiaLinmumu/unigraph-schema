@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.structure",
+    "Sid": "architecture.structure",
     "Name": "Architectural structure",
     "Description": "A structure is a large, outdoor and immobile man-made object that is constructed or built. A structure has a fixed location. Buildings, bridges, tunnels, dams, prehistoric structures, tombs and monuments are structures. All buildings are structures, not all structures are buildings.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "architecture.structure.architectural_style",
+            "Sid": "architecture.structure.architectural_style",
             "Name": "Architectural Style",
             "Description": "Schools or styles of architecture that this structure exemplifies",
             "ObjectType": "architecture.architectural_style",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.structure.architecture_firm",
+            "Sid": "architecture.structure.architecture_firm",
             "Name": "Architecture Firm",
             "Description": "Architectural Firm that designed this structure",
             "ObjectType": "architecture.architecture_firm",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.structure.architect",
+            "Sid": "architecture.structure.architect",
             "Name": "Architect",
             "Description": "Architect that designed this structure.",
             "ObjectType": "architecture.architect",
@@ -35,7 +35,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.structure.closed",
+            "Sid": "architecture.structure.closed",
             "Name": "Closed",
             "Description": "Date the structure was closed, disallowing any further occupancy or usage.",
             "ObjectType": "type.datetime",
@@ -43,7 +43,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.structure.construction_materials",
+            "Sid": "architecture.structure.construction_materials",
             "Name": "Construction material",
             "Description": "The materials used during the construction of the structure",
             "ObjectType": "architecture.construction_material",
@@ -51,7 +51,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.structure.construction_started",
+            "Sid": "architecture.structure.construction_started",
             "Name": "Construction Started",
             "Description": "Date that construction started on the structure. See /projects/project for adding additional construction data like firms involved in the construction project (construction/started date should be the same as /projects/project/start_date for that project).",
             "ObjectType": "type.datetime",
@@ -59,7 +59,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.structure.destroyed_by",
+            "Sid": "architecture.structure.destroyed_by",
             "Name": "Destroyed By",
             "Description": "What destroyed the building (e.g. Fire, Demolition)",
             "ObjectType": "architecture.destruction_method",
@@ -67,7 +67,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.structure.destruction_date",
+            "Sid": "architecture.structure.destruction_date",
             "Name": "Destruction Date",
             "Description": "Date the structure was destroyed",
             "ObjectType": "type.datetime",
@@ -75,7 +75,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.structure.engineer",
+            "Sid": "architecture.structure.engineer",
             "Name": "Projects",
             "Description": "",
             "ObjectType": "architecture.engineer",
@@ -83,7 +83,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.structure.engineering_firm",
+            "Sid": "architecture.structure.engineering_firm",
             "Name": "Projects",
             "Description": "",
             "ObjectType": "architecture.engineering_firm",
@@ -91,7 +91,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.structure.height",
+            "Sid": "architecture.structure.height",
             "Name": "Structural Height",
             "Description": "Height of structure above ground (or, if it is built on underwater pilings or foundations, such as for bridges, height above water). It should not include antennae, signage, flag poles or other auxiliary functional-technical equipment.",
             "ObjectType": "measured_dimension.distance",
@@ -99,7 +99,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.structure.opened",
+            "Sid": "architecture.structure.opened",
             "Name": "Opened",
             "Description": "Date that the structure was publicly or otherwise opened for occupancy or usage.",
             "ObjectType": "type.datetime",
@@ -107,7 +107,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.structure.topped_out",
+            "Sid": "architecture.structure.topped_out",
             "Name": "Topped out",
             "Description": "The date of completion of the framework of the structure (often marked by a corresponding builders' rite ceremony to commemorate the event).",
             "ObjectType": "type.datetime",

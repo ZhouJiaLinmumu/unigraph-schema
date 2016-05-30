@@ -1,5 +1,5 @@
 {
-    "Id": "geography.glacier_status",
+    "Sid": "geography.glacier_status",
     "Name": "Glacier status",
     "Description": "\"Glacier status\" is an indication of whether a glacier is advancing or retreating.",
     "Mediator": false,

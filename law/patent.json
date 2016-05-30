@@ -1,5 +1,5 @@
 {
-    "Id": "law.patent",
+    "Sid": "law.patent",
     "Name": "Patent",
     "Description": "A US patent is the grant of a property right to the inventor  for an invention, issued by the United States Patent and Trademark OfficeThe right conferred by the patent grant is “the right to exclude others from making, using, offering for sale, or selling” the invention in the United States or “importing” the invention into the United States. What is granted is not the right to make, use, offer for sale, sell or import, but the right to exclude others from making, using, offering for sale, selling or importing the invention.Currently, the term of a new patent is generally 20 years from the date on which the application for the patent was filed in the United States or, in special cases, from the date an earlier related application was filed, subject to the payment of maintenance fees. U.S. patent grants are effective only within the United States, U.S. territories, and U.S. possessions. Under certain circumstances, patent term extensions or adjustments may be available.There are three types of patents:1) Utility patents may be granted to anyone who invents or discovers any new and useful process, machine, article of manufacture, or composition of matter, or any new and useful improvement thereof;2) Design patents may be granted to anyone who invents a new, original, and ornamental design for an article of manufacture; and3) Plant patents may be granted to anyone who invents or discovers and asexually reproduces any distinct and new variety of plant.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "law.patent.application_date",
+            "Sid": "law.patent.application_date",
             "Name": "Application Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "law.patent.application_number",
+            "Sid": "law.patent.application_number",
             "Name": "Application Number",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "law.patent.assignee",
+            "Sid": "law.patent.assignee",
             "Name": "Assignee",
             "Description": "",
             "ObjectType": "law.patent_assignee",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "law.patent.associated_inventions",
+            "Sid": "law.patent.associated_inventions",
             "Name": "Associated Inventions",
             "Description": "",
             "ObjectType": "law.invention",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "law.patent.date_revoked",
+            "Sid": "law.patent.date_revoked",
             "Name": "Date revoked",
             "Description": "If the patent has been revoked, enter the date of revocation.",
             "ObjectType": "type.datetime",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "law.patent.international_classification",
+            "Sid": "law.patent.international_classification",
             "Name": "International Classification",
             "Description": "",
             "ObjectType": "law.international_patent_category",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "law.patent.inventor",
+            "Sid": "law.patent.inventor",
             "Name": "Inventor",
             "Description": "",
             "ObjectType": "law.inventor",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "law.patent.issue_date",
+            "Sid": "law.patent.issue_date",
             "Name": "Issue Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "law.patent.patent_number",
+            "Sid": "law.patent.patent_number",
             "Name": "Patent Number",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "law.patent.patent_office",
+            "Sid": "law.patent.patent_office",
             "Name": "Patent office",
             "Description": "The patent office this patent application was filed with.",
             "ObjectType": "law.patent_office",
@@ -89,7 +89,7 @@
             "Required": false
         },
         {
-            "Id": "law.patent.classification_category",
+            "Sid": "law.patent.classification_category",
             "Name": "Classification",
             "Description": "",
             "ObjectType": "law.patent_category",
@@ -97,7 +97,7 @@
             "Required": false
         },
         {
-            "Id": "law.patent.patent_type",
+            "Sid": "law.patent.patent_type",
             "Name": "Patent type",
             "Description": "",
             "ObjectType": "law.patent_type",

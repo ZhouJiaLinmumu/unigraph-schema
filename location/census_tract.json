@@ -1,5 +1,5 @@
 {
-    "Id": "location.census_tract",
+    "Sid": "location.census_tract",
     "Name": "US Census Tract",
     "Description": "Census tracts are small, relatively permanent statistical subdivisions of a county delineated for the purposes of gathering and comparing census data.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.census_tract.ams_bus",
+            "Sid": "location.census_tract.ams_bus",
             "Name": "Total Count of Addresses - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ams_oth",
+            "Sid": "location.census_tract.ams_oth",
             "Name": "Total Count of Addresses in AMS - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ams_res",
+            "Sid": "location.census_tract.ams_res",
             "Name": "Total Count of Addresses - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.avg_ns_bus",
+            "Sid": "location.census_tract.avg_ns_bus",
             "Name": "Average Days Addresses No-Stat - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_float",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.avg_ns_res",
+            "Sid": "location.census_tract.avg_ns_res",
             "Name": "Average Days Addresses No-Stat - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_float",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.avg_vac_b",
+            "Sid": "location.census_tract.avg_vac_b",
             "Name": "Average Days Addresses Vacant - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_float",
@@ -58,7 +58,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.avg_vac_r",
+            "Sid": "location.census_tract.avg_vac_r",
             "Name": "Average Days Addresses Vacant - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_float",
@@ -66,7 +66,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.bus_vac",
+            "Sid": "location.census_tract.bus_vac",
             "Name": "Total Count of Vacant Addresses - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -74,7 +74,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.nostat_bus",
+            "Sid": "location.census_tract.nostat_bus",
             "Name": "Total Count of No-Stat Addresses - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -82,7 +82,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.nostat_oth",
+            "Sid": "location.census_tract.nostat_oth",
             "Name": "Total Count of No-Stat Addresses - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -90,7 +90,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.nostat_res",
+            "Sid": "location.census_tract.nostat_res",
             "Name": "Total Count of No-Stat Addresses - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -98,7 +98,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_12_24_b",
+            "Sid": "location.census_tract.ns_12_24_b",
             "Name": "No-Stat 12 Mos. to 24 Mos. Count - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -106,7 +106,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_12_24_o",
+            "Sid": "location.census_tract.ns_12_24_o",
             "Name": "No-Stat 12 Mos. to 24 Mos. Count - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -114,7 +114,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_12_24_r",
+            "Sid": "location.census_tract.ns_12_24_r",
             "Name": "No-Stat 12 Mos. to 24 Mos. Count - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -122,7 +122,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_24_36_b",
+            "Sid": "location.census_tract.ns_24_36_b",
             "Name": "No-Stat 24 Mos. to 36 Mos. Count - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -130,7 +130,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_24_36_o",
+            "Sid": "location.census_tract.ns_24_36_o",
             "Name": "No-Stat 24 Mos. to 36 Mos. Count - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -138,7 +138,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_24_36_r",
+            "Sid": "location.census_tract.ns_24_36_r",
             "Name": "No-Stat 24 Mos. to 36 Mos. Count - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -146,7 +146,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_36_bus",
+            "Sid": "location.census_tract.ns_36_bus",
             "Name": "No-Stat 36 Mos. or Longer Count - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -154,7 +154,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_36_oth",
+            "Sid": "location.census_tract.ns_36_oth",
             "Name": "No-Stat 36 Mos. or Longer Count - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -162,7 +162,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_36_res",
+            "Sid": "location.census_tract.ns_36_res",
             "Name": "No-Stat 36 Mos. or Longer Count - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -170,7 +170,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_3_6_bus",
+            "Sid": "location.census_tract.ns_3_6_bus",
             "Name": "No-Stat 3 Mos. to 6 Mos. Count - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -178,7 +178,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_3_6_oth",
+            "Sid": "location.census_tract.ns_3_6_oth",
             "Name": "No-Stat 3 Mos. to 6 Mos. Count - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -186,7 +186,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_3_6_res",
+            "Sid": "location.census_tract.ns_3_6_res",
             "Name": "No-Stat 3 Mos. to 6 Mos. Count - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -194,7 +194,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_3_bus",
+            "Sid": "location.census_tract.ns_3_bus",
             "Name": "No-Stat 3 Mos. to Less Count - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -202,7 +202,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_3_oth",
+            "Sid": "location.census_tract.ns_3_oth",
             "Name": "No-Stat 3 Mos. to Less Count - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -210,7 +210,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_3_res",
+            "Sid": "location.census_tract.ns_3_res",
             "Name": "No-Stat 3 Mos. to Less Count - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -218,7 +218,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_6_12_b",
+            "Sid": "location.census_tract.ns_6_12_b",
             "Name": "No-Stat 6 Mos. to 12 Mos. Count - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -226,7 +226,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_6_12_o",
+            "Sid": "location.census_tract.ns_6_12_o",
             "Name": "No-Stat 6 Mos. to 12 Mos. Count - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -234,7 +234,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.ns_6_12_r",
+            "Sid": "location.census_tract.ns_6_12_r",
             "Name": "No-Stat 6 Mos. to 12 Mos. Count - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -242,7 +242,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.oth_vac",
+            "Sid": "location.census_tract.oth_vac",
             "Name": "Total Count of Vacant Addresses - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -250,7 +250,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.pqns_is_b",
+            "Sid": "location.census_tract.pqns_is_b",
             "Name": "Previous Qtr No-Stat Currently In Service Count Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -258,7 +258,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.pqns_is_o",
+            "Sid": "location.census_tract.pqns_is_o",
             "Name": "Previous Qtr No-Stat Currently In Service Count Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -266,7 +266,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.pqns_is_r",
+            "Sid": "location.census_tract.pqns_is_r",
             "Name": "Previous Qtr No-Stat Currently In Service Count Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -274,7 +274,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.pqv_is_bus",
+            "Sid": "location.census_tract.pqv_is_bus",
             "Name": "Previous Qtr Vacant Currently In Service Count Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -282,7 +282,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.pqv_is_oth",
+            "Sid": "location.census_tract.pqv_is_oth",
             "Name": "Previous Qtr Vacant Currently in Service Count - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -290,7 +290,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.pqv_is_res",
+            "Sid": "location.census_tract.pqv_is_res",
             "Name": "Previous Qtr Vacant Currently In Service Count Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -298,7 +298,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.pqv_ns_bus",
+            "Sid": "location.census_tract.pqv_ns_bus",
             "Name": "Previous Qtr Vacant Currently No-Stat Count Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -306,7 +306,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.pqv_ns_oth",
+            "Sid": "location.census_tract.pqv_ns_oth",
             "Name": "Previous Qtr Vacant Currently No-Stat Count Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -314,7 +314,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.pqv_ns_res",
+            "Sid": "location.census_tract.pqv_ns_res",
             "Name": "Previous Qtr Vacant Currently No-Stat Count Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -322,7 +322,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.res_vac",
+            "Sid": "location.census_tract.res_vac",
             "Name": "Total Count of Vacant Addresses - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -330,7 +330,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_12_24b",
+            "Sid": "location.census_tract.vac_12_24b",
             "Name": "Vacant 12 Mos. to 24 Mos. Count - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -338,7 +338,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_12_24o",
+            "Sid": "location.census_tract.vac_12_24o",
             "Name": "Vacant 12 Mos. to 24 Mos. Count - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -346,7 +346,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_12_24r",
+            "Sid": "location.census_tract.vac_12_24r",
             "Name": "Vacant 12 Mos. to 24 Mos. Count - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -354,7 +354,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_24_36b",
+            "Sid": "location.census_tract.vac_24_36b",
             "Name": "Vacant 24 Mos. to 36 Mos. Count - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -362,7 +362,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_24_36o",
+            "Sid": "location.census_tract.vac_24_36o",
             "Name": "Vacant 24 Mos. to 36 Mos. Count - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -370,7 +370,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_24_36r",
+            "Sid": "location.census_tract.vac_24_36r",
             "Name": "Vacant 24 Mos. to 36 Mos. Count - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -378,7 +378,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_36_bus",
+            "Sid": "location.census_tract.vac_36_bus",
             "Name": "Vacant 36 Mos. or Longer Count - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -386,7 +386,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_36_oth",
+            "Sid": "location.census_tract.vac_36_oth",
             "Name": "Vacant 36 Mos. or Longer Count - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -394,7 +394,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_36_res",
+            "Sid": "location.census_tract.vac_36_res",
             "Name": "Vacant 36 Mos. or Longer Count - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -402,7 +402,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_3_6_b",
+            "Sid": "location.census_tract.vac_3_6_b",
             "Name": "Vacant 3 Mos. to 6 Mos. Count - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -410,7 +410,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_3_6_o",
+            "Sid": "location.census_tract.vac_3_6_o",
             "Name": "Vacant 3 Mos. to 6 Mos. Count - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -418,7 +418,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_3_6_r",
+            "Sid": "location.census_tract.vac_3_6_r",
             "Name": "Vacant 3 Mos. to 6 Mos. Count - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -426,7 +426,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_3_bus",
+            "Sid": "location.census_tract.vac_3_bus",
             "Name": "Vacant 3 Mos. to Less Count - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -434,7 +434,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_3_oth",
+            "Sid": "location.census_tract.vac_3_oth",
             "Name": "Vacant 3 Mos. to Less Count - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -442,7 +442,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_3_res",
+            "Sid": "location.census_tract.vac_3_res",
             "Name": "Vacant 3 Mos. to Less Count - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -450,7 +450,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_6_12b",
+            "Sid": "location.census_tract.vac_6_12b",
             "Name": "Vacant 6 Mos. to 12 Mos. Count - Business",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -458,7 +458,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_6_12o",
+            "Sid": "location.census_tract.vac_6_12o",
             "Name": "Vacant 6 Mos. to 12 Mos. Count - Other",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -466,7 +466,7 @@
             "Required": false
         },
         {
-            "Id": "location.census_tract.vac_6_12r",
+            "Sid": "location.census_tract.vac_6_12r",
             "Name": "Vacant 6 Mos. to 12 Mos. Count - Residential",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",

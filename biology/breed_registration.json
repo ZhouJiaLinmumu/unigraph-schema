@@ -1,5 +1,5 @@
 {
-    "Id": "biology.breed_registration",
+    "Sid": "biology.breed_registration",
     "Name": "Breed registration",
     "Description": "This compound value type holds information about animal breeds and the organizations that register them.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.breed_registration.breed_group",
+            "Sid": "biology.breed_registration.breed_group",
             "Name": "Breed group",
             "Description": "The group or class (if any) that this organization places this breed within. Note that there should be separate topics for the breed groups of different organizations.",
             "ObjectType": "biology.breed_group",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "biology.breed_registration.start_date",
+            "Sid": "biology.breed_registration.start_date",
             "Name": "From",
             "Description": "The date this registry officially recognized this breed.",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "biology.breed_registration.end_date",
+            "Sid": "biology.breed_registration.end_date",
             "Name": "To",
             "Description": "The date this registry officially ceased to recognize this breed.",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "biology.breed_registration.registry",
+            "Sid": "biology.breed_registration.registry",
             "Name": "Registry",
             "Description": "The registry that recognizes this breed.",
             "ObjectType": "biology.breed_registry",
@@ -39,7 +39,7 @@
             "Required": true
         },
         {
-            "Id": "biology.breed_registration.breed",
+            "Sid": "biology.breed_registration.breed",
             "Name": "Breed",
             "Description": "",
             "ObjectType": "biology.animal_breed",

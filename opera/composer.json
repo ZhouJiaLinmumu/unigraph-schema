@@ -1,5 +1,5 @@
 {
-    "Id": "opera.composer",
+    "Sid": "opera.composer",
     "Name": "Opera Composer",
     "Description": "An opera composer is a person who composed an opera or operetta",
     "Mediator": false,

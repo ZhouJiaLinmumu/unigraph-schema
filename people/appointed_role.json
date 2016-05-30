@@ -1,5 +1,5 @@
 {
-    "Id": "people.appointed_role",
+    "Sid": "people.appointed_role",
     "Name": "Appointed Role",
     "Description": "Appointed role is a job, role, position or title to which a person can be appointed to by a third party.  This should be a specific role, e.g. Mayor of San Francisco, and NOT a general role e.g. Mayor.",
     "Mediator": false,

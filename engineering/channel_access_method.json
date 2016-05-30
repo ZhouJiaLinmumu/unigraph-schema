@@ -1,5 +1,5 @@
 {
-    "Id": "engineering.channel_access_method",
+    "Sid": "engineering.channel_access_method",
     "Name": "Channel access method",
     "Description": "In telecommunications and computer networks, a channel access method or multiple access method allows several terminals connected to the same multi-point physical medium to transmit over it and to share its capacity. Examples of shared physical media are wireless networks, bus networks, ring networks, hub networks and half-duplex point-to-point links. A channel-access scheme is based on a multiplex method, that allows several data streams or signals to share the same communication channel or physical media. Multiplexing is in this context provided by the Physical Layer. Note that multiplexing also may be used in full-duplex point-to-point communication between nodes in a switched network, which should not be considered as multiple access.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "engineering.channel_access_method.parent_method",
+            "Sid": "engineering.channel_access_method.parent_method",
             "Name": "Parent method",
             "Description": "The channel access method that this method is based on, or is a variation of.",
             "ObjectType": "engineering.channel_access_method",

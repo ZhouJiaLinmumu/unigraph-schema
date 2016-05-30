@@ -1,5 +1,5 @@
 {
-    "Id": "law.legal_case_party_relationship",
+    "Sid": "law.legal_case_party_relationship",
     "Name": "Legal case/party relationship",
     "Description": "This type connects legal cases to the parties involved and the roles those parties took in the case.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "law.legal_case_party_relationship.case",
+            "Sid": "law.legal_case_party_relationship.case",
             "Name": "Case",
             "Description": "The case this entity is party to",
             "ObjectType": "law.legal_case",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "law.legal_case_party_relationship.role",
+            "Sid": "law.legal_case_party_relationship.role",
             "Name": "Role",
             "Description": "The role in which this entity is party to this case (e.g. did they bring the case or is the case being brought against them? Are they a third party)",
             "ObjectType": "law.legal_party_role",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "law.legal_case_party_relationship.parties",
+            "Sid": "law.legal_case_party_relationship.parties",
             "Name": "Parties",
             "Description": "The party or parties to this case in this role. If there are more than one party in the same role (e.g. two defendants), they can be entered in separate records in this property.",
             "ObjectType": "law.litigant",

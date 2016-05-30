@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.drug_therapeutic_equivalence",
+    "Sid": "medicine.drug_therapeutic_equivalence",
     "Name": "Drug therapeutic equivalence relationship",
     "Description": "Drug therapeutic equivalence relationship is used to create a link between Manufactured drug forms that are therapeutically equivalent or bio equivalent, that is, they are pharmaceutically equivalent and have been demonstrated through in vitro or in vivo studies to have identical clinical effect and safety profiles.",
     "Mediator": false,

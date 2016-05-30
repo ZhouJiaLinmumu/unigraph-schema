@@ -1,5 +1,5 @@
 {
-    "Id": "opera.character",
+    "Sid": "opera.character",
     "Name": "Opera Character",
     "Description": "This type is for any characters that have appeared in any opera.",
     "Mediator": false,

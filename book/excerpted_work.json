@@ -1,5 +1,5 @@
 {
-    "Id": "book.excerpted_work",
+    "Sid": "book.excerpted_work",
     "Name": "Excerpted Work",
     "Description": "An \"excerpted work\" is any work of literature which has had a portion of it (the \"excerpt\") published separately. It should not be used for works that have been published as serials (use the \"serialized work\" type for those).",
     "Mediator": false,

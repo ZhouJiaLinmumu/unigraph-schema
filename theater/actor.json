@@ -1,5 +1,5 @@
 {
-    "Id": "theater.actor",
+    "Sid": "theater.actor",
     "Name": "Theater Actor",
     "Description": "People who have performed in a play or musical.",
     "Mediator": false,

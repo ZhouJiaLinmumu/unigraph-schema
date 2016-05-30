@@ -1,5 +1,5 @@
 {
-    "Id": "sports.tournament_event_competition",
+    "Sid": "sports.tournament_event_competition",
     "Name": "Tournament event competition",
     "Description": "This represents a specific competition of a sporting event at a particular tournament. For example, Men's 400m at 2009 Golden Gala. It represents the entire competition, rather than the heats, rounds, trials, etc. that comprise the competition.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.tournament_event_competition.event",
+            "Sid": "sports.tournament_event_competition.event",
             "Name": "Event",
             "Description": "The event that this is a competition of.",
             "ObjectType": "sports.tournament_event",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "sports.tournament_event_competition.tournament",
+            "Sid": "sports.tournament_event_competition.tournament",
             "Name": "Tournament",
             "Description": "The multi-event sporting tournament at which this competition was held.",
             "ObjectType": "sports.multi_event_tournament",

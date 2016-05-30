@@ -1,5 +1,5 @@
 {
-    "Id": "people.religion",
+    "Sid": "people.religion",
     "Name": "Religion",
     "Description": "The religion of a person",
     "Mediator": false,

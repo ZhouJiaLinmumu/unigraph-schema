@@ -1,5 +1,5 @@
 {
-    "Id": "tv.content_rating_system",
+    "Sid": "tv.content_rating_system",
     "Name": "TV Rating System",
     "Description": "A TV rating system is a system of ratings for television programming. Typically, each jurisdiction will have its own rating system.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.content_rating_system.jurisdiction",
+            "Sid": "tv.content_rating_system.jurisdiction",
             "Name": "Jurisdiction",
             "Description": "",
             "ObjectType": "tv.content_rating_jurisdiction",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "tv.content_rating_system.tv_ratings",
+            "Sid": "tv.content_rating_system.tv_ratings",
             "Name": "TV Ratings",
             "Description": "",
             "ObjectType": "tv.content_rating",

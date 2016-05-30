@@ -1,5 +1,5 @@
 {
-    "Id": "military.military_person",
+    "Sid": "military.military_person",
     "Name": "Military Person",
     "Description": "A military person is one who has served in an Armed Force.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "military.military_person.participated_in_conflicts",
+            "Sid": "military.military_person.participated_in_conflicts",
             "Name": "Participated in conflicts",
             "Description": "Wars/battles where they were deployed",
             "ObjectType": "military.conflict",

@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.inductance",
+    "Sid": "measured_dimension.inductance",
     "Name": "Inductance",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.inductance.measurement_unit",
+            "Sid": "measured_dimension.inductance.measurement_unit",
             "Name": "Unit of Inductance",
             "Description": "",
             "ObjectType": "measured_dimension.inductance_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.inductance.value",
+            "Sid": "measured_dimension.inductance.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.building_occupant",
+    "Sid": "architecture.building_occupant",
     "Name": "Building Occupant",
     "Description": "The entity that occupies a building.",
     "Mediator": false,

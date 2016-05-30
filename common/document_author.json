@@ -1,5 +1,5 @@
 {
-    "Id": "common.document_author",
+    "Sid": "common.document_author",
     "Name": "Document Author",
     "Description": "The author of a document",
     "Mediator": false,

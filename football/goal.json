@@ -1,5 +1,5 @@
 {
-    "Id": "football.goal",
+    "Sid": "football.goal",
     "Name": "Football Goal",
     "Description": "A Football Goal is a point scored in a football game.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "football.goal.match",
+            "Sid": "football.goal.match",
             "Name": "Match",
             "Description": "The match in which this goal was scored",
             "ObjectType": "football.match",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "football.goal.minute",
+            "Sid": "football.goal.minute",
             "Name": "Minute",
             "Description": "The minute during the match in which the goal was scored",
             "ObjectType": "type.int",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "football.goal.point_awarded_to",
+            "Sid": "football.goal.point_awarded_to",
             "Name": "Point awarded to",
             "Description": "The team which was awarded the goal",
             "ObjectType": "football.team",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "football.goal.scorer",
+            "Sid": "football.goal.scorer",
             "Name": "Scorer",
             "Description": "The player who scored the goal",
             "ObjectType": "football.player",

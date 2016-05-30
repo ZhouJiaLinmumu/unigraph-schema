@@ -1,5 +1,5 @@
 {
-    "Id": "sports.mascot",
+    "Sid": "sports.mascot",
     "Name": "Mascot",
     "Description": "Mascots are prominent among university and other school sports teams, especially in the United States, where teams are often identified by their mascot.",
     "Mediator": false,

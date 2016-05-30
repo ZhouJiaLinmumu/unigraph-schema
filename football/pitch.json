@@ -1,5 +1,5 @@
 {
-    "Id": "football.pitch",
+    "Sid": "football.pitch",
     "Name": "Football Pitch",
     "Description": "A soccer pitch is an area of grass where soccer games are played.",
     "Mediator": false,

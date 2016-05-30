@@ -1,5 +1,5 @@
 {
-    "Id": "music.guitar",
+    "Sid": "music.guitar",
     "Name": "Guitar",
     "Description": "A particular model of guitar, a fretted and stringed musical instrument, used in a wide variety of musical styles. It should be connected to its manufacturer and the well-known guitarists who play it.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.guitar.brand",
+            "Sid": "music.guitar.brand",
             "Name": "Brand",
             "Description": "The manufacturer of this model of guitar",
             "ObjectType": "music.instrument_manufacturer",

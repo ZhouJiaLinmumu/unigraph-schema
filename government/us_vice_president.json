@@ -1,5 +1,5 @@
 {
-    "Id": "government.us_vice_president",
+    "Sid": "government.us_vice_president",
     "Name": "US Vice President",
     "Description": "A type for people who have held the office of Vice President of the United States. Includes properties for their presidents and for the number (first, second, thirty-fifth, etc.) of their terms.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.us_vice_president.vice_president_number",
+            "Sid": "government.us_vice_president.vice_president_number",
             "Name": "Vice President Number",
             "Description": "The number of this person's term as vice president.",
             "ObjectType": "type.int",

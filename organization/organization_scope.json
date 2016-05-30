@@ -1,5 +1,5 @@
 {
-    "Id": "organization.organization_scope",
+    "Sid": "organization.organization_scope",
     "Name": "Organization scope",
     "Description": "This type represents the area(s) served by an organization. Typically, it will be a location, but the topic \"international\" should be used for global organizations.",
     "Mediator": false,

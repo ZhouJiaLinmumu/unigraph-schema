@@ -1,5 +1,5 @@
 {
-    "Id": "physics.subatomic_particle_composition",
+    "Sid": "physics.subatomic_particle_composition",
     "Name": "Subatomic particle composition",
     "Description": "A CVT which denotes the number of one type of fundamental particle which make up a compound subatomic particle.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "physics.subatomic_particle_composition.number",
+            "Sid": "physics.subatomic_particle_composition.number",
             "Name": "Number",
             "Description": "How many of this particle are used",
             "ObjectType": "type.int",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "physics.subatomic_particle_composition.particle",
+            "Sid": "physics.subatomic_particle_composition.particle",
             "Name": "Particle",
             "Description": "A subatomic particle which makes up a compound particle",
             "ObjectType": "physics.quark",

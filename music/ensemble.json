@@ -1,5 +1,5 @@
 {
-    "Id": "music.ensemble",
+    "Sid": "music.ensemble",
     "Name": "Ensemble",
     "Description": "An Ensemble is a musical group with a Conductor, connected using the Conducting Tenure compound value.",
     "Mediator": false,

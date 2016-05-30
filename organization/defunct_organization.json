@@ -1,5 +1,5 @@
 {
-    "Id": "organization.defunct_organization",
+    "Sid": "organization.defunct_organization",
     "Name": "Defunct Organization",
     "Description": "A defunct organization is an organization that no longer operates.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "organization.defunct_organization.ceased_operations",
+            "Sid": "organization.defunct_organization.ceased_operations",
             "Name": "Ceased Operations",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "organization.defunct_organization.reason_for_ceasing_operations",
+            "Sid": "organization.defunct_organization.reason_for_ceasing_operations",
             "Name": "Reason for ceasing operations",
             "Description": "",
             "ObjectType": "organization.organization_termination_type",

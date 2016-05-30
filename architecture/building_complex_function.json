@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.building_complex_function",
+    "Sid": "architecture.building_complex_function",
     "Name": "Building complex function",
     "Description": "The general reason, purpose for the building complex at any time. Usually, it is why it was built.",
     "Mediator": false,

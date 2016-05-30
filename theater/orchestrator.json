@@ -1,5 +1,5 @@
 {
-    "Id": "theater.orchestrator",
+    "Sid": "theater.orchestrator",
     "Name": "Theatrical Orchestrator",
     "Description": "Someone who has done the orchestration of the music for a play or musical.",
     "Mediator": false,

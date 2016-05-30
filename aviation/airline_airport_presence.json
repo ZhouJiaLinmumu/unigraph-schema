@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.airline_airport_presence",
+    "Sid": "aviation.airline_airport_presence",
     "Name": "Airline Airport Presence",
     "Description": "Mediator type to link airline to it's presence at an airport with destination cities served by the airline from the airport.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "aviation.airline_airport_presence.airline",
+            "Sid": "aviation.airline_airport_presence.airline",
             "Name": "Airline",
             "Description": "",
             "ObjectType": "aviation.airline",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "aviation.airline_airport_presence.airport",
+            "Sid": "aviation.airline_airport_presence.airport",
             "Name": "Airport",
             "Description": "",
             "ObjectType": "aviation.airport",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "aviation.airline_airport_presence.destinations",
+            "Sid": "aviation.airline_airport_presence.destinations",
             "Name": "Destination Cities",
             "Description": "Cities that are a destination by the airline from this airport (not the airports serving those destination cities).",
             "ObjectType": "aviation.airport_destinations",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airline_airport_presence.terminals",
+            "Sid": "aviation.airline_airport_presence.terminals",
             "Name": "Terminals",
             "Description": "",
             "ObjectType": "type.text",

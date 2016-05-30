@@ -1,5 +1,5 @@
 {
-    "Id": "geography.island_group",
+    "Sid": "geography.island_group",
     "Name": "Island Group",
     "Description": "An island group is a chain or other grouping of islands.",
     "Mediator": false,

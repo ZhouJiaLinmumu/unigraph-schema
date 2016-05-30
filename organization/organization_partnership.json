@@ -1,5 +1,5 @@
 {
-    "Id": "organization.organization_partnership",
+    "Sid": "organization.organization_partnership",
     "Name": "Organization partnership",
     "Description": "An organization partnership is an entity (such as an organization) or project formed by two or more separate organizations working together.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "organization.organization_partnership.members",
+            "Sid": "organization.organization_partnership.members",
             "Name": "Members",
             "Description": "The organizations that form this partnership.",
             "ObjectType": "organization.organization",

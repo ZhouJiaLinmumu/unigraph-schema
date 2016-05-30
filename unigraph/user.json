@@ -1,0 +1,20 @@
+{
+    "Sid": "unigraph.user",
+    "Name": "User",
+    "Description": "Unigraph User",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Sid": "unigraph.user.group",
+            "Name": "Member of group(s)",
+            "Description": "Usergroup(s) the user belongs to",
+            "ObjectType": "unigraph.usergroup",
+            "Unique": false,
+            "Required": true
+        }
+    ]
+}

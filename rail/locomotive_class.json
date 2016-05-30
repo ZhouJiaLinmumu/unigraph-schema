@@ -1,5 +1,5 @@
 {
-    "Id": "rail.locomotive_class",
+    "Sid": "rail.locomotive_class",
     "Name": "Locomotive class",
     "Description": "A class of locomotives is a named group of locomotives which share physical characteristics. Custom/unique locomotives, such as early historical locomotives, need a separate locomotive class, even though it will be a class of one.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "rail.locomotive_class.built_by",
+            "Sid": "rail.locomotive_class.built_by",
             "Name": "Built by",
             "Description": "",
             "ObjectType": "rail.locomotive_builder",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "rail.locomotive_class.gauge",
+            "Sid": "rail.locomotive_class.gauge",
             "Name": "Gauge",
             "Description": "",
             "ObjectType": "rail.rail_gauge",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "rail.locomotive_class.introduced",
+            "Sid": "rail.locomotive_class.introduced",
             "Name": "Introduced",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "rail.locomotive_class.length",
+            "Sid": "rail.locomotive_class.length",
             "Name": "Length",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "rail.locomotive_class.maximum_speed",
+            "Sid": "rail.locomotive_class.maximum_speed",
             "Name": "Maximum speed",
             "Description": "",
             "ObjectType": "measured_dimension.speed",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "rail.locomotive_class.parent_class",
+            "Sid": "rail.locomotive_class.parent_class",
             "Name": "Parent class",
             "Description": "",
             "ObjectType": "rail.locomotive_class",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "rail.locomotive_class.weight",
+            "Sid": "rail.locomotive_class.weight",
             "Name": "Weight",
             "Description": "",
             "ObjectType": "measured_dimension.mass",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "rail.locomotive_class.withdrawn",
+            "Sid": "rail.locomotive_class.withdrawn",
             "Name": "Withdrawn",
             "Description": "",
             "ObjectType": "type.datetime",

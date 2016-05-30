@@ -1,5 +1,5 @@
 {
-    "Id": "broadcast.broadcast",
+    "Sid": "broadcast.broadcast",
     "Name": "Broadcast",
     "Description": "A broadcast distribution of Broadcast Content. This can be an radio station, podcast, satellite station, etc. To be co-typed with a more specific type that provides details on the method of broadcasting.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "broadcast.broadcast.area_served",
+            "Sid": "broadcast.broadcast.area_served",
             "Name": "Area Served",
             "Description": "Areas in which this Broadcast is available.",
             "ObjectType": "broadcast.location",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "broadcast.broadcast.distributor",
+            "Sid": "broadcast.broadcast.distributor",
             "Name": "Distributor",
             "Description": "The distributor of the Broadcast (could be the Internet provider, the antenna, or the satellite).",
             "ObjectType": "broadcast.distributor",

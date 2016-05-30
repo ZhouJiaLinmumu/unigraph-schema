@@ -1,5 +1,5 @@
 {
-    "Id": "biology.protein",
+    "Sid": "biology.protein",
     "Name": "Protein",
     "Description": "Proteins are any complex organic compounds that consist of one or more chains of amino acids. Proteins are typically essential components of any living cell and indispensable to the proper functioning of all organisms.",
     "Mediator": false,

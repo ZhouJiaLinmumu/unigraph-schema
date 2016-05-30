@@ -1,5 +1,5 @@
 {
-    "Id": "common.document_authority",
+    "Sid": "common.document_authority",
     "Name": "Document Authority",
     "Description": "The authority organization of a document",
     "Mediator": false,

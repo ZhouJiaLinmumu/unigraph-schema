@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.molar_heat_capacity",
+    "Sid": "measured_dimension.molar_heat_capacity",
     "Name": "Molar mass",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.molar_heat_capacity.measurement_unit",
+            "Sid": "measured_dimension.molar_heat_capacity.measurement_unit",
             "Name": "Unit of Molar mass",
             "Description": "",
             "ObjectType": "measured_dimension.molar_heat_capacity",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.molar_heat_capacity.value",
+            "Sid": "measured_dimension.molar_heat_capacity.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

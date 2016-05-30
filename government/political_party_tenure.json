@@ -1,5 +1,5 @@
 {
-    "Id": "government.political_party_tenure",
+    "Sid": "government.political_party_tenure",
     "Name": "Political Party Tenure",
     "Description": "A compound-value type which allows us to record when politicians have switched parties, rather than simply recording the fact that they have belonged to multiple parties.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.political_party_tenure.start_date",
+            "Sid": "government.political_party_tenure.start_date",
             "Name": "From",
             "Description": "The date the person joined the party.",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "government.political_party_tenure.party",
+            "Sid": "government.political_party_tenure.party",
             "Name": "Party",
             "Description": "The political party this politician belongs or belonged to.",
             "ObjectType": "government.political_party",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "government.political_party_tenure.politician",
+            "Sid": "government.political_party_tenure.politician",
             "Name": "Politician",
             "Description": "The politician who's tenure this represents.",
             "ObjectType": "government.politician",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "government.political_party_tenure.end_date",
+            "Sid": "government.political_party_tenure.end_date",
             "Name": "To",
             "Description": "The date the person left the party.",
             "ObjectType": "type.datetime",

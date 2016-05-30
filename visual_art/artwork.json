@@ -1,5 +1,5 @@
 {
-    "Id": "visual_art.artwork",
+    "Sid": "visual_art.artwork",
     "Name": "Artwork",
     "Description": "Visual artwork is a piece of art created primarily for visual perception.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "visual_art.artwork.form",
+            "Sid": "visual_art.artwork.form",
             "Name": "Art Form",
             "Description": "The medium or form of expression the artist chooses to employ. Examples: photography, painting, sculpture, etc.",
             "ObjectType": "visual_art.form",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.artwork.art_genre",
+            "Sid": "visual_art.artwork.art_genre",
             "Name": "Art Genre",
             "Description": "Categorization of the subject of the artwork. Examples of art genre: portrait, landscape, still life, history (grande genre), abstract art, scenes of everyday life (genre works, or petit genre).",
             "ObjectType": "visual_art.genre",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.artwork.artist",
+            "Sid": "visual_art.artwork.artist",
             "Name": "Artist",
             "Description": "Enter artist's name",
             "ObjectType": "visual_art.artist",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.artwork.date_begun",
+            "Sid": "visual_art.artwork.date_begun",
             "Name": "Date Begun",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.artwork.date_completed",
+            "Sid": "visual_art.artwork.date_completed",
             "Name": "Date Completed",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.artwork.dimensions",
+            "Sid": "visual_art.artwork.dimensions",
             "Name": "Dimensions",
             "Description": "",
             "ObjectType": "visual_art.artwork_dimensions",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.artwork.edition_of",
+            "Sid": "visual_art.artwork.edition_of",
             "Name": "Edition of",
             "Description": "If this artwork is an edition of a work of art, for example, a cast of a sculpture or a print of a photograph, you can enter a topic for the \"abstract\" or \"canonical\" work of art - the artwork that this is an edition of.",
             "ObjectType": "visual_art.artwork",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.artwork.media",
+            "Sid": "visual_art.artwork.media",
             "Name": "Media",
             "Description": "The substance the artistic work is made from. For example acrylic and oil are two media common to painting.",
             "ObjectType": "visual_art.medium",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.artwork.support",
+            "Sid": "visual_art.artwork.support",
             "Name": "Support",
             "Description": "The support is the substance that a two-dimensional artwork is applied to. For example, the support of many oil paintings is canvas; for many lithographs, it is paper. This should not be used for the ground, which is the material applied to the support to prepare it, such as gesso.",
             "ObjectType": "visual_art.art_support",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.artwork.period_or_movement",
+            "Sid": "visual_art.artwork.period_or_movement",
             "Name": "Period or Movement",
             "Description": "The school or style of the artwork, commonly associated with a distinct period in history, and often end in \"-ism\". Examples: Impressionism, Cubism, Expressionism.",
             "ObjectType": "visual_art.period_movement",

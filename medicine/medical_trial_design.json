@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.medical_trial_design",
+    "Sid": "medicine.medical_trial_design",
     "Name": "Medical trial design",
     "Description": "A medical trial design is a way of creating or designing a medical trial.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.dated_ratio",
+    "Sid": "measured_dimension.dated_ratio",
     "Name": "Dated ratio",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.dated_ratio.denominator",
+            "Sid": "measured_dimension.dated_ratio.denominator",
             "Name": "Denominator",
             "Description": "",
             "ObjectType": "type.int",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.dated_ratio.numerator",
+            "Sid": "measured_dimension.dated_ratio.numerator",
             "Name": "Numerator",
             "Description": "",
             "ObjectType": "type.float",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.dated_ratio.date",
+            "Sid": "measured_dimension.dated_ratio.date",
             "Name": "Date",
             "Description": "",
             "ObjectType": "type.datetime",

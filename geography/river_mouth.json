@@ -1,5 +1,5 @@
 {
-    "Id": "geography.river_mouth",
+    "Sid": "geography.river_mouth",
     "Name": "River mouth",
     "Description": "A body of water in which a river flows.",
     "Mediator": false,

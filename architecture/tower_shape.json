@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.tower_shape",
+    "Sid": "architecture.tower_shape",
     "Name": "Tower shape",
     "Description": "The basic shape used in the design of a lighthouse tower's structure.",
     "Mediator": false,

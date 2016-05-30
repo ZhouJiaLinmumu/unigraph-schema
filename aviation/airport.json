@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.airport",
+    "Sid": "aviation.airport",
     "Name": "Airport",
     "Description": "An airport is a facility where aircraft such as airplanes and helicopters can take off and land.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "aviation.airport.type",
+            "Sid": "aviation.airport.type",
             "Name": "Airport type",
             "Description": "",
             "ObjectType": "aviation.airport_type",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airport.amount_of_cargo",
+            "Sid": "aviation.airport.amount_of_cargo",
             "Name": "Amount of cargo per year",
             "Description": "",
             "ObjectType": "aviation.cargo_by_year",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airport.focus_city_for",
+            "Sid": "aviation.airport.focus_city_for",
             "Name": "Focus city for",
             "Description": "",
             "ObjectType": "aviation.airline",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airport.hub_for",
+            "Sid": "aviation.airport.hub_for",
             "Name": "Hub for",
             "Description": "",
             "ObjectType": "aviation.airline",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airport.aircraft_movements",
+            "Sid": "aviation.airport.aircraft_movements",
             "Name": "Number of aircraft movements",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airport.passengers",
+            "Sid": "aviation.airport.passengers",
             "Name": "Number of passengers",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -58,7 +58,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airport.runways",
+            "Sid": "aviation.airport.runways",
             "Name": "Number of runways",
             "Description": "",
             "ObjectType": "type.int",
@@ -66,7 +66,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airport.serving",
+            "Sid": "aviation.airport.serving",
             "Name": "Serves",
             "Description": "",
             "ObjectType": "aviation.airport_serving",
@@ -74,7 +74,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airport.terminals",
+            "Sid": "aviation.airport.terminals",
             "Name": "Terminals",
             "Description": "The terminals in this airport.",
             "ObjectType": "aviation.airport_terminal",
@@ -82,7 +82,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airport.operator",
+            "Sid": "aviation.airport.operator",
             "Name": "Operator",
             "Description": "",
             "ObjectType": "aviation.airport_operator",

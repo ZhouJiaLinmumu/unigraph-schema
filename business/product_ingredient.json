@@ -1,5 +1,5 @@
 {
-    "Id": "business.product_ingredient",
+    "Sid": "business.product_ingredient",
     "Name": "Product ingredient",
     "Description": "A product ingredient is anything that is an ingredient of a consumer product (such as a packaged food, cosmetic, cleaner, etc.).",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.product_ingredient.derived_from",
+            "Sid": "business.product_ingredient.derived_from",
             "Name": "Derived from",
             "Description": "Ingredients that this is derived from. For example, 'milled corn' is derived from 'corn'. Some ingredients can potentially be derived from more than one source;.",
             "ObjectType": "business.product_ingredient",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "business.product_ingredient.ingredients",
+            "Sid": "business.product_ingredient.ingredients",
             "Name": "Ingredients",
             "Description": "Use this property with compound ingredients - those ingredients that are listed as containing other ingredients, as in \"cheddar cheese (milk, salt, cheese cultures)\". Each sub-ingredient can be listed here.",
             "ObjectType": "business.product_ingredient",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "business.product_ingredient.variety_of",
+            "Sid": "business.product_ingredient.variety_of",
             "Name": "Variety of",
             "Description": "Ingredients that this is a variety, or kind, of. For example, 'rolled oats' is a variety of 'oats', 'organic lavender oil' is a variety of 'lavender oil'.",
             "ObjectType": "business.product_ingredient",

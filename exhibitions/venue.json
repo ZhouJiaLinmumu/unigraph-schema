@@ -1,5 +1,5 @@
 {
-    "Id": "exhibitions.venue",
+    "Sid": "exhibitions.venue",
     "Name": "Exhibition venue",
     "Description": "An exhibition venue is any place in which an exhibition was displayed. This can include traditional exhibition spaces such as museums and galleries, as well as non-traditional and site-specific locations.",
     "Mediator": false,

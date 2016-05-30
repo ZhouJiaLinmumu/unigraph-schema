@@ -1,5 +1,5 @@
 {
-    "Id": "business.issue",
+    "Sid": "business.issue",
     "Name": "Issue",
     "Description": "An issue represents stock or debt issued by a corporation. Many issues are traded on public exchanges.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.issue.cancellation_date",
+            "Sid": "business.issue.cancellation_date",
             "Name": "Cancellation date",
             "Description": "The date after which this issue was no longer valid.",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "business.issue.first_issued",
+            "Sid": "business.issue.first_issued",
             "Name": "First issued",
             "Description": "The date that this issue was first issued.",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "business.issue.market_capitalization",
+            "Sid": "business.issue.market_capitalization",
             "Name": "Market capitalization",
             "Description": "",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "business.issue.shares_floating",
+            "Sid": "business.issue.shares_floating",
             "Name": "Shares floating",
             "Description": "The number of shares that are available for public trading in a market.",
             "ObjectType": "measured_dimension.dated_int",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "business.issue.shares_outstanding",
+            "Sid": "business.issue.shares_outstanding",
             "Name": "Shares outstanding",
             "Description": "The number of shares held by investors, including shares held by the public as well as restricted shares held by the company's insiders (e.g. employees and executives).",
             "ObjectType": "measured_dimension.dated_int",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "business.issue.trading_symbol",
+            "Sid": "business.issue.trading_symbol",
             "Name": "Trading symbol",
             "Description": "",
             "ObjectType": "finance.stock_ticker_symbol",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "business.issue.issue_type",
+            "Sid": "business.issue.issue_type",
             "Name": "Type of Issue",
             "Description": "",
             "ObjectType": "business.issue_type",

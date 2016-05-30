@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.magnetic_moment",
+    "Sid": "measured_dimension.magnetic_moment",
     "Name": "Magnetic moment",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.magnetic_moment.measurement_unit",
+            "Sid": "measured_dimension.magnetic_moment.measurement_unit",
             "Name": "Unit of Magnetic Moment",
             "Description": "",
             "ObjectType": "measured_dimension.magnetic_moment_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.magnetic_moment.value",
+            "Sid": "measured_dimension.magnetic_moment.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

@@ -1,5 +1,5 @@
 {
-    "Id": "film.personal_appearance",
+    "Sid": "film.personal_appearance",
     "Name": "Personal appearance",
     "Description": "The \"personal appearance\" type is used to collect information about an appearance in film by a person who is not playing a character. This can include documentary subjects, interviewees, hosts, etc.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "film.personal_appearance.film",
+            "Sid": "film.personal_appearance.film",
             "Name": "Film",
             "Description": "",
             "ObjectType": "film.film",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "film.personal_appearance.person",
+            "Sid": "film.personal_appearance.person",
             "Name": "Person",
             "Description": "",
             "ObjectType": "film.person_or_entity_appearing_in_film",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "film.personal_appearance.type",
+            "Sid": "film.personal_appearance.type",
             "Name": "Type of Appearance",
             "Description": "",
             "ObjectType": "film.personal_appearance_type",

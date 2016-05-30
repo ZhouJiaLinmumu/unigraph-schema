@@ -1,5 +1,5 @@
 {
-    "Id": "biology.gene",
+    "Sid": "biology.gene",
     "Name": "Gene",
     "Description": "A gene is a unit of heredity in a living organism. It normally resides on a stretch of DNA that codes for a type of protein or for an RNA chain that has a function in the organism.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.gene.alternate_symbol",
+            "Sid": "biology.gene.alternate_symbol",
             "Name": "Alternate Symbol",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "biology.gene.chromosome",
+            "Sid": "biology.gene.chromosome",
             "Name": "Chromosome",
             "Description": "",
             "ObjectType": "biology.chromosome",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "biology.gene.locus",
+            "Sid": "biology.gene.locus",
             "Name": "Locus",
             "Description": "",
             "ObjectType": "biology.genomic_locus",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "biology.gene.symbol",
+            "Sid": "biology.gene.symbol",
             "Name": "Symbol",
             "Description": "",
             "ObjectType": "type.rawstring",

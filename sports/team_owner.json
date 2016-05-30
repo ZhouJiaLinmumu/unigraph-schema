@@ -1,5 +1,5 @@
 {
-    "Id": "sports.team_owner",
+    "Sid": "sports.team_owner",
     "Name": "Sports Team Owner",
     "Description": "Any entity (person, corporate body or the like) that owns a professional sports team.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "computer.operating_system_developer",
+    "Sid": "computer.operating_system_developer",
     "Name": "Operating System Developer",
     "Description": "The person, company, organization or the like responsible for the development of an operating system.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "film.content_rating_jurisdiction",
+    "Sid": "film.content_rating_jurisdiction",
     "Name": "Film rating jurisdiction",
     "Description": "Region where this film rating system has jurisdiction (eg. the Film Censorship Board of Malaysia's jurisdiction is Malaysia).",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.transmission_route",
+    "Sid": "medicine.transmission_route",
     "Name": "Route of infection transmission",
     "Description": "Formal ways an infectious disease is able to spread.",
     "Mediator": false,

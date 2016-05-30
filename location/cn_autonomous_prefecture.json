@@ -1,5 +1,5 @@
 {
-    "Id": "location.cn_autonomous_prefecture",
+    "Sid": "location.cn_autonomous_prefecture",
     "Name": "Chinese autonomous prefecture",
     "Description": "An autonomous prefecture is a second-level administrative division of China.",
     "Mediator": false,
@@ -13,7 +13,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.cn_autonomous_prefecture.designated_minority",
+            "Sid": "location.cn_autonomous_prefecture.designated_minority",
             "Name": "Designated minority",
             "Description": "",
             "ObjectType": "location.chinese_ethnic_group",

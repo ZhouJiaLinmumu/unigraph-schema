@@ -1,5 +1,5 @@
 {
-    "Id": "exhibitions.exhibition_run",
+    "Sid": "exhibitions.exhibition_run",
     "Name": "Exhibition run",
     "Description": "An exhibition run is a compound-value type that holds information about when and where an exhibition was exhibited.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "exhibitions.exhibition_run.admission_fee",
+            "Sid": "exhibitions.exhibition_run.admission_fee",
             "Name": "Admission fee?",
             "Description": "",
             "ObjectType": "type.boolean",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "exhibitions.exhibition_run.closed_on",
+            "Sid": "exhibitions.exhibition_run.closed_on",
             "Name": "Closed on",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "exhibitions.exhibition_run.exhibition",
+            "Sid": "exhibitions.exhibition_run.exhibition",
             "Name": "Exhibition",
             "Description": "",
             "ObjectType": "exhibitions.exhibition",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "exhibitions.exhibition_run.opened_on",
+            "Sid": "exhibitions.exhibition_run.opened_on",
             "Name": "Opened on",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -39,7 +39,7 @@
             "Required": true
         },
         {
-            "Id": "exhibitions.exhibition_run.sponsor",
+            "Sid": "exhibitions.exhibition_run.sponsor",
             "Name": "Sponsor",
             "Description": "",
             "ObjectType": "exhibitions.sponsor",
@@ -47,7 +47,7 @@
             "Required": false
         },
         {
-            "Id": "exhibitions.exhibition_run.venue",
+            "Sid": "exhibitions.exhibition_run.venue",
             "Name": "Venue",
             "Description": "",
             "ObjectType": "exhibitions.venue",

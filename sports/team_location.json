@@ -1,5 +1,5 @@
 {
-    "Id": "sports.team_location",
+    "Sid": "sports.team_location",
     "Name": "Sports Team Location",
     "Description": "The location which a sports team represents, often be a country or city.",
     "Mediator": false,

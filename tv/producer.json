@@ -1,5 +1,5 @@
 {
-    "Id": "tv.producer",
+    "Sid": "tv.producer",
     "Name": "TV Producer",
     "Description": "This type is for anyone who has produced a television program or episode (in any capacity of \"producer\" - executive producer, assistant producer, etc.).",
     "Mediator": false,

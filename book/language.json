@@ -1,5 +1,5 @@
 {
-    "Id": "book.language",
+    "Sid": "book.language",
     "Name": "Language",
     "Description": "The language(s) in which a particular book edition is available or a written work has been created.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "tv.fictional_character",
+    "Sid": "tv.fictional_character",
     "Name": "Fictional Character",
     "Description": "The Fictional Character type holds fictional characters from television shows. Each character, even ones with common names (such as \"Mr. Smith\") should be a separate topic for each TV show, unless the character really is the same between two shows (such as \"James T. Kirk\"). Non-fiction tv appearances (such as game show hosts, news anchors, talk show guests, etc.) should use the type \"TV Personality\".",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.fictional_character.episode_segment_appearence",
+            "Sid": "tv.fictional_character.episode_segment_appearence",
             "Name": "Appeared In Episode Segments",
             "Description": "If this character appeared in a segment (such as a sketch or short) that appeared as part of a full-length episode, enter it here. It is also acceptable to simply enter the whole episode in the Appeared In TV Episodes property instead.",
             "ObjectType": "tv.episode_segment_performance",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "tv.fictional_character.first_appearance",
+            "Sid": "tv.fictional_character.first_appearance",
             "Name": "First TV appearance",
             "Description": "The name of the episode this character first appeared in.",
             "ObjectType": "tv.series_episode",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "tv.fictional_character.last_appearance",
+            "Sid": "tv.fictional_character.last_appearance",
             "Name": "Final TV Appearance",
             "Description": "The name of the episode this character appeared in last.",
             "ObjectType": "tv.series_episode",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "tv.fictional_character.final_appearance_reason",
+            "Sid": "tv.fictional_character.final_appearance_reason",
             "Name": "Reason for final TV appearance",
             "Description": "",
             "ObjectType": "type.text",

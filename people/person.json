@@ -1,5 +1,5 @@
 {
-    "Id": "people.person",
+    "Sid": "people.person",
     "Name": "Person",
     "Description": "A person is a human being (man, woman or child) known to have existed. Living persons, celebrities and politicians are persons, as are deceased persons.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "people.person.date_of_birth",
+            "Sid": "people.person.date_of_birth",
             "Name": "Date of birth",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "people.person.ethnicity",
+            "Sid": "people.person.ethnicity",
             "Name": "Ethnicity",
             "Description": "",
             "ObjectType": "people.ethnicity",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "people.person.first_name",
+            "Sid": "people.person.first_name",
             "Name": "First Name",
             "Description": "",
             "ObjectType": "type.text",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "people.person.family_name",
+            "Sid": "people.person.family_name",
             "Name": "Family name",
             "Description": "",
             "ObjectType": "type.text",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "people.person.gender",
+            "Sid": "people.person.gender",
             "Name": "Gender",
             "Description": "",
             "ObjectType": "people.gender",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "people.person.height",
+            "Sid": "people.person.height",
             "Name": "Height",
             "Description": "Peak height during lifetime",
             "ObjectType": "measured_dimension.distance",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "people.person.languages",
+            "Sid": "people.person.languages",
             "Name": "Languages",
             "Description": "Languages that this person can communicate fluently in.",
             "ObjectType": "people.language",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "people.person.nationality",
+            "Sid": "people.person.nationality",
             "Name": "Country of nationality",
             "Description": "The country (or countries) that this person is a citizen of.",
             "ObjectType": "people.nationality",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "people.person.parents",
+            "Sid": "people.person.parents",
             "Name": "Parents",
             "Description": "Includes biological parents and adoptive parents.",
             "ObjectType": "people.parent",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "people.person.place_of_birth",
+            "Sid": "people.person.place_of_birth",
             "Name": "Place of birth",
             "Description": "",
             "ObjectType": "people.place_of_birth",
@@ -89,7 +89,7 @@
             "Required": false
         },
         {
-            "Id": "people.person.profession",
+            "Sid": "people.person.profession",
             "Name": "Profession",
             "Description": "The name of this person's primary occupation(s), during their working life. This should be the general name (e.g. \"software engineer\" or \"politician\") rather than the name of a specific title or position (e.g. \"senior software engineer\" or \"governor\").",
             "ObjectType": "people.profession",
@@ -97,7 +97,7 @@
             "Required": false
         },
         {
-            "Id": "people.person.religion",
+            "Sid": "people.person.religion",
             "Name": "Religion",
             "Description": "",
             "ObjectType": "people.religion",
@@ -105,7 +105,7 @@
             "Required": false
         },
         {
-            "Id": "people.person.weight",
+            "Sid": "people.person.weight",
             "Name": "Weight",
             "Description": "",
             "ObjectType": "measured_dimension.mass",

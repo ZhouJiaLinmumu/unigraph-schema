@@ -1,5 +1,5 @@
 {
-    "Id": "geography.basin_citytown",
+    "Sid": "geography.basin_citytown",
     "Name": "Basin city",
     "Description": "Cities and towns along a river or lake basin.",
     "Mediator": false,

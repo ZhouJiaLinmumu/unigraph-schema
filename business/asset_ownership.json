@@ -1,5 +1,5 @@
 {
-    "Id": "business.asset_ownership",
+    "Sid": "business.asset_ownership",
     "Name": "Asset Ownership",
     "Description": "This compound value type can be used to capture the details of a joint venture.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.asset_ownership.start_date",
+            "Sid": "business.asset_ownership.start_date",
             "Name": "From",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "business.asset_ownership.asset",
+            "Sid": "business.asset_ownership.asset",
             "Name": "Owned Asset",
             "Description": "",
             "ObjectType": "business.asset",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "business.asset_ownership.owner",
+            "Sid": "business.asset_ownership.owner",
             "Name": "Owner",
             "Description": "",
             "ObjectType": "business.asset_owner",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "business.asset_ownership.ownership_percentage",
+            "Sid": "business.asset_ownership.ownership_percentage",
             "Name": "Percentage ownership",
             "Description": "",
             "ObjectType": "type.float",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "business.asset_ownership.end_date",
+            "Sid": "business.asset_ownership.end_date",
             "Name": "To",
             "Description": "",
             "ObjectType": "type.datetime",

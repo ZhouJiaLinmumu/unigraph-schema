@@ -1,5 +1,5 @@
 {
-    "Id": "travel.hotel_brand",
+    "Sid": "travel.hotel_brand",
     "Name": "Hotel Brand",
     "Description": "This is a chain of hotels which are marketed together, and often share the same name (e.g. Intercontinental). It is not necessary for all the hotels in a Hotel brand to be owned and/or operated by a single company, and can instead be owned and/or operated by many different companies under a franchise contract. For example, Starwood Hotels  Resorts, a Hotel Operator, owns the Sheraton, Le Meridien and Four Points brands. An individual hotel can be part of one or more brands, but this is fairly uncommon.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "travel.hotel_brand.owned_by",
+            "Sid": "travel.hotel_brand.owned_by",
             "Name": "Owned By",
             "Description": "",
             "ObjectType": "travel.hotel_brand_owner",

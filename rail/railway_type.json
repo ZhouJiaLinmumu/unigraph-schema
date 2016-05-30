@@ -1,5 +1,5 @@
 {
-    "Id": "rail.railway_type",
+    "Sid": "rail.railway_type",
     "Name": "Railway type",
     "Description": "This type describes different uses of railways.",
     "Mediator": false,

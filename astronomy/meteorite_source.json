@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.meteorite_source",
+    "Sid": "astronomy.meteorite_source",
     "Name": "Meteorite Source",
     "Description": "A meteorite source is a celestial body from which meteorites originated.",
     "Mediator": false,

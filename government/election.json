@@ -1,5 +1,5 @@
 {
-    "Id": "government.election",
+    "Sid": "government.election",
     "Name": "Election contest",
     "Description": "An election contest is an opportunity for constituents to vote for a political party or candidate for a governmental office or seat, or the ability to run for a governmental office or seat (as is the case with primaries).",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.election.district",
+            "Sid": "government.election.district",
             "Name": "District (if district-related)",
             "Description": "If this election is for a district (constituency, riding, etc.) -based position, such as a member of a legislature, enter the district here.",
             "ObjectType": "government.political_district",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "government.election.election_year",
+            "Sid": "government.election.election_year",
             "Name": "Date of election",
             "Description": "The date or dates on which the election was/will be held.",
             "ObjectType": "type.datetime",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "government.election.general_election",
+            "Sid": "government.election.general_election",
             "Name": "General election",
             "Description": "",
             "ObjectType": "government.general_election",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "government.election.links_to_polls",
+            "Sid": "government.election.links_to_polls",
             "Name": "Links to polls",
             "Description": "Link to any online polls.",
             "ObjectType": "type.uri",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "government.election.office",
+            "Sid": "government.election.office",
             "Name": "Office",
             "Description": "The full name of the office or position this election is for. Use the place name in the title where possible (e.g. Prime Minister of Canada, Mayor of San Francisco, United States Senator, etc.).",
             "ObjectType": "government.government_office_or_title",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "government.election.winner",
+            "Sid": "government.election.winner",
             "Name": "Winner(s)",
             "Description": "The candidate or candidates elected to office in this election.",
             "ObjectType": "government.politician",

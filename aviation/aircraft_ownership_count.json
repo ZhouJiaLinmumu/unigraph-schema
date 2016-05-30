@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.aircraft_ownership_count",
+    "Sid": "aviation.aircraft_ownership_count",
     "Name": "Aircraft Ownership Count",
     "Description": "'Aircraft ownership count' defines the relationship between an Aircraft owner and the number of each model aircraft owned.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "aviation.aircraft_ownership_count.aircraft_model",
+            "Sid": "aviation.aircraft_ownership_count.aircraft_model",
             "Name": "Aircraft Model",
             "Description": "",
             "ObjectType": "aviation.aircraft_model",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "aviation.aircraft_ownership_count.aircraft_owner",
+            "Sid": "aviation.aircraft_ownership_count.aircraft_owner",
             "Name": "Aircraft Owner",
             "Description": "",
             "ObjectType": "aviation.aircraft_owner",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "aviation.aircraft_ownership_count.number_owned",
+            "Sid": "aviation.aircraft_ownership_count.number_owned",
             "Name": "Number Owned",
             "Description": "",
             "ObjectType": "type.int",

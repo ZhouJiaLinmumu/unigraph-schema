@@ -1,5 +1,5 @@
 {
-    "Id": "military.military_unit_size",
+    "Sid": "military.military_unit_size",
     "Name": "Military unit size designation",
     "Description": "Military units are named according to their size.  For instance, regiments are bigger than platoons.  This type is used to designate what size category a military unit falls into.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "military.military_unit_size.commanded_by_rank",
+            "Sid": "military.military_unit_size.commanded_by_rank",
             "Name": "Commanded by rank",
             "Description": "Which ranks typically command this kind of unit?",
             "ObjectType": "military.military_rank",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "military.military_unit_size.strength_personnel",
+            "Sid": "military.military_unit_size.strength_personnel",
             "Name": "Strength (personnel)",
             "Description": "Typical number of personnel in this unit",
             "ObjectType": "measured_dimension.integer_range",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "military.military_unit_size.units_of_this_type",
+            "Sid": "military.military_unit_size.units_of_this_type",
             "Name": "Units of this type",
             "Description": "",
             "ObjectType": "military.military_unit",

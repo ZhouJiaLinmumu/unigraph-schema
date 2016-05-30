@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.solid_angle",
+    "Sid": "measured_dimension.solid_angle",
     "Name": "Solid angle",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.solid_angle.measurement_unit",
+            "Sid": "measured_dimension.solid_angle.measurement_unit",
             "Name": "Unit of Solid angle",
             "Description": "",
             "ObjectType": "measured_dimension.solid_angle_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.solid_angle.value",
+            "Sid": "measured_dimension.solid_angle.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

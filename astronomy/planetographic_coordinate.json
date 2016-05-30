@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.planetographic_coordinate",
+    "Sid": "astronomy.planetographic_coordinate",
     "Name": "Planetographic Coordinate",
     "Description": "For each planet, a system of longitude lines is set up by first defining a prime meridian to act as the origin of longitude. A meridian is any line that begins at one pole of the planet and ends at the other pole. The prime meridian is an arbitrarily chosen meridian, typically passing through a prominent feature of the planet, such as a crater.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.planetographic_coordinate.system",
+            "Sid": "astronomy.planetographic_coordinate.system",
             "Name": "Coordinate system",
             "Description": "Which coordinate system this data uses",
             "ObjectType": "astronomy.planetographic_coordinate_system",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.planetographic_coordinate.elevation",
+            "Sid": "astronomy.planetographic_coordinate.elevation",
             "Name": "Elevation",
             "Description": "Height from the (arbitrary) datum",
             "ObjectType": "measured_dimension.distance",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.planetographic_coordinate.latitude",
+            "Sid": "astronomy.planetographic_coordinate.latitude",
             "Name": "Latitude",
             "Description": "",
             "ObjectType": "type.float",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "astronomy.planetographic_coordinate.longitude",
+            "Sid": "astronomy.planetographic_coordinate.longitude",
             "Name": "Longitude",
             "Description": "",
             "ObjectType": "type.float",

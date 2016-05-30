@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.red_shift",
+    "Sid": "astronomy.red_shift",
     "Name": "Red shift",
     "Description": "The means by which astronomers describe the movement of an object away/towards the observer. The apparent velocity in kilometers of the object traveling away (or towards) the observing location (Earth).",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.red_shift.red_shift",
+            "Sid": "astronomy.red_shift.red_shift",
             "Name": "Red shift",
             "Description": "The measured/calculated value",
             "ObjectType": "measured_dimension.speed",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "astronomy.red_shift.uncertainty",
+            "Sid": "astronomy.red_shift.uncertainty",
             "Name": "Uncertainty",
             "Description": "The uncertainty (+/-) of this measurement. The expanded value of the uncertainty, e.g. 0.0005 rather than just 5.",
             "ObjectType": "measured_dimension.speed",

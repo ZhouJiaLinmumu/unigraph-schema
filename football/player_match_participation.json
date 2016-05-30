@@ -1,5 +1,5 @@
 {
-    "Id": "football.player_match_participation",
+    "Sid": "football.player_match_participation",
     "Name": "Football Player Match Participation",
     "Description": "This type allows soccer players to be linked to the matches they played in.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "football.player_match_participation.part_of_starting_lineup",
+            "Sid": "football.player_match_participation.part_of_starting_lineup",
             "Name": "Part of starting lineup",
             "Description": "True if this player was part of the starting lineup (was on the field when the game started)",
             "ObjectType": "type.boolean",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "football.player_match_participation.player",
+            "Sid": "football.player_match_participation.player",
             "Name": "Player",
             "Description": "The participating football player",
             "ObjectType": "football.player",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "football.player_match_participation.shirt_number",
+            "Sid": "football.player_match_participation.shirt_number",
             "Name": "Shirt Number",
             "Description": "Whether this player was part of the starting lineup",
             "ObjectType": "type.int",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "football.player_match_participation.team",
+            "Sid": "football.player_match_participation.team",
             "Name": "Team",
             "Description": "The football team this player represented at this match",
             "ObjectType": "football.team",
@@ -39,7 +39,7 @@
             "Required": true
         },
         {
-            "Id": "football.player_match_participation.match",
+            "Sid": "football.player_match_participation.match",
             "Name": "Match",
             "Description": "The match participated in",
             "ObjectType": "football.match",

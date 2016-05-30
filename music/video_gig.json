@@ -1,5 +1,5 @@
 {
-    "Id": "music.video_gig",
+    "Sid": "music.video_gig",
     "Name": "Music video gig",
     "Description": "This type connects music videos and people who have worked on them in a variety of roles.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.video_gig.crewmember",
+            "Sid": "music.video_gig.crewmember",
             "Name": "Crew member",
             "Description": "Person who worked on the music video production (lighting, set designer, gaffer, etc.)  in this role",
             "ObjectType": "music.video_crewmember",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "music.video_gig.music_video",
+            "Sid": "music.video_gig.music_video",
             "Name": "Music video",
             "Description": "Music video this crew member worked on the production in (EG., as a gaffer for Thriller).",
             "ObjectType": "music.video",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "music.video_gig.music_video_crew_production_role",
+            "Sid": "music.video_gig.music_video_crew_production_role",
             "Name": "Music video crew production role",
             "Description": "The specific role the music video crew member fulfilled in the production (EG. Set artist for \"Love My Way\")",
             "ObjectType": "music.video_job",

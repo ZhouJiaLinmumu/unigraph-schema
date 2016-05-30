@@ -1,5 +1,5 @@
 {
-    "Id": "common.image_location",
+    "Sid": "common.image_location",
     "Name": "Image location",
     "Description": "The location an image has been taken.",
     "Mediator": false,

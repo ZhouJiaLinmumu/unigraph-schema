@@ -1,5 +1,5 @@
 {
-    "Id": "business.brand_color",
+    "Sid": "business.brand_color",
     "Name": "Brand Color",
     "Description": "Denotes colors used in business branding",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "sports.team_venue_relationship",
+    "Sid": "sports.team_venue_relationship",
     "Name": "Team/venue relationship",
     "Description": "This type connects sports teams to their primary or \"home\" venue, both current and historical.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.team_venue_relationship.start_date",
+            "Sid": "sports.team_venue_relationship.start_date",
             "Name": "From",
             "Description": "The date this venue became the primary or \"home\" venue for this team.",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "sports.team_venue_relationship.end_date",
+            "Sid": "sports.team_venue_relationship.end_date",
             "Name": "To",
             "Description": "The date after which this venue was no longer the primary or \"home\" venue for this team.",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "sports.team_venue_relationship.venue",
+            "Sid": "sports.team_venue_relationship.venue",
             "Name": "Venue",
             "Description": "The team's primary or home venue during this period.",
             "ObjectType": "sports.sports_facility",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "sports.team_venue_relationship.team",
+            "Sid": "sports.team_venue_relationship.team",
             "Name": "Team",
             "Description": "A sports team for which this was their primary or home venue.",
             "ObjectType": "sports.team",

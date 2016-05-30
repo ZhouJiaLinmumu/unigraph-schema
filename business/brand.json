@@ -1,5 +1,5 @@
 {
-    "Id": "business.brand",
+    "Sid": "business.brand",
     "Name": "Brand",
     "Description": "A brand is a collection of symbols or messages related to a product, service, or company.  Typically, a brand is used to identify a set of products/services/etc that share common features and appeal to a certain market.  It is distinct from a product line which has to do with the physical products, rather than the marketing message.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.brand.parent_brand",
+            "Sid": "business.brand.parent_brand",
             "Name": "Parent brand",
             "Description": "",
             "ObjectType": "business.brand",

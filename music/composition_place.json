@@ -1,5 +1,5 @@
 {
-    "Id": "music.composition_place",
+    "Sid": "music.composition_place",
     "Name": "Composition place",
     "Description": "Location or locations where a composer wrote a composition.",
     "Mediator": false,

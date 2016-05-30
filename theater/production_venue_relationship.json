@@ -1,5 +1,5 @@
 {
-    "Id": "theater.production_venue_relationship",
+    "Sid": "theater.production_venue_relationship",
     "Name": "Theater production venue relationship",
     "Description": "A mediator recording a venue where a particular theater production took place, and the start date and end date of its occupancy.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "theater.production_venue_relationship.end_date",
+            "Sid": "theater.production_venue_relationship.end_date",
             "Name": "End date",
             "Description": "The end date of the production's occupancy of this venue. This may not be the same as /theater/theater_production/date_closed if the production occupied more than one venue during its run.",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "theater.production_venue_relationship.start_date",
+            "Sid": "theater.production_venue_relationship.start_date",
             "Name": "Start date",
             "Description": "The start date of the production's occupancy of this venue. This may not be the same as /theater/theater_production/date_opened if the production occupied more than one venue during its run.",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "theater.production_venue_relationship.theater",
+            "Sid": "theater.production_venue_relationship.theater",
             "Name": "Theater",
             "Description": "The location at which the theater production was performed between the given start and end dates.",
             "ObjectType": "theater.theater",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "theater.production_venue_relationship.production",
+            "Sid": "theater.production_venue_relationship.production",
             "Name": "Theater production",
             "Description": "The theater production which took place at this venue between the given start and end dates.",
             "ObjectType": "theater.production",

@@ -1,5 +1,5 @@
 {
-    "Id": "law.courthouse",
+    "Sid": "law.courthouse",
     "Name": "Courthouse",
     "Description": "A courthouse is any building that houses, or has housed, a court of law. It can be a dedicated structure, or one which serves many functions, one of which is to house a court of law.",
     "Mediator": false,

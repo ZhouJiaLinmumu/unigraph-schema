@@ -1,5 +1,5 @@
 {
-    "Id": "people.language",
+    "Sid": "people.language",
     "Name": "Language",
     "Description": "The language spoken by that ethnical group",
     "Mediator": false,

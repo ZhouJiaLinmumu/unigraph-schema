@@ -1,5 +1,5 @@
 {
-    "Id": "finance.stock_ticker_symbol",
+    "Sid": "finance.stock_ticker_symbol",
     "Name": "Stock listing",
     "Description": "Stock Listing captures the relationship between a company or other entity's issue (for example, its common stock) and its exchange listing.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "finance.stock_ticker_symbol.end_date",
+            "Sid": "finance.stock_ticker_symbol.end_date",
             "Name": "End date",
             "Description": "The date after which this issue was no longer issued on this exchange.",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "finance.stock_ticker_symbol.short_name",
+            "Sid": "finance.stock_ticker_symbol.short_name",
             "Name": "Non Numeric Short Name",
             "Description": "A shortened form of the company name used in place of the stock ticker symbol where the ticker symbol is numeric and not easily interpreted, in space-limited contexts such as newspaper listings.",
             "ObjectType": "type.rawstring",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "finance.stock_ticker_symbol.start_date",
+            "Sid": "finance.stock_ticker_symbol.start_date",
             "Name": "Start date",
             "Description": "The date that this issue was first listed on this exchange.",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "finance.stock_ticker_symbol.exchange",
+            "Sid": "finance.stock_ticker_symbol.exchange",
             "Name": "Stock exchange",
             "Description": "",
             "ObjectType": "finance.stock_exchange",
@@ -39,7 +39,7 @@
             "Required": true
         },
         {
-            "Id": "finance.stock_ticker_symbol.ticker_symbol",
+            "Sid": "finance.stock_ticker_symbol.ticker_symbol",
             "Name": "Ticker symbol",
             "Description": "",
             "ObjectType": "type.rawstring",

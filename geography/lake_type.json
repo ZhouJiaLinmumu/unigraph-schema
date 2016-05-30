@@ -1,5 +1,5 @@
 {
-    "Id": "geography.lake_type",
+    "Sid": "geography.lake_type",
     "Name": "Lake type",
     "Description": "\"Lake type\" denotes the variety or class of a lake.",
     "Mediator": false,

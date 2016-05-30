@@ -1,5 +1,5 @@
 {
-    "Id": "theater.role",
+    "Sid": "theater.role",
     "Name": "Theater Role",
     "Description": "This type is a compound-value type that contains information about the role played by an actor in a specific production of a play.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "theater.role.actor",
+            "Sid": "theater.role.actor",
             "Name": "Actor",
             "Description": "",
             "ObjectType": "theater.actor",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "theater.role.start_date",
+            "Sid": "theater.role.start_date",
             "Name": "From",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "theater.role.play",
+            "Sid": "theater.role.play",
             "Name": "Play",
             "Description": "The theater production, rather than the play itself.",
             "ObjectType": "theater.production",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "theater.role.role",
+            "Sid": "theater.role.role",
             "Name": "Role",
             "Description": "",
             "ObjectType": "theater.character",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "theater.role.end_date",
+            "Sid": "theater.role.end_date",
             "Name": "To",
             "Description": "",
             "ObjectType": "type.datetime",

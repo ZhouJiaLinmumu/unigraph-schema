@@ -1,5 +1,5 @@
 {
-    "Id": "military.armed_force",
+    "Sid": "military.armed_force",
     "Name": "Armed Force",
     "Description": "An armed force is a top-level military force with no military chain of command outside of itself. It can be a military extension of a nation, group of nations, or a political, religious or ethnic group.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "military.armed_force.sub_divisions",
+            "Sid": "military.armed_force.sub_divisions",
             "Name": "Sub-divisions",
             "Description": "Armed forces that comprise this force (e.g. a division might comprise several brigades). Only list those that are immediately below this one in the command structure.",
             "ObjectType": "military.armed_force",

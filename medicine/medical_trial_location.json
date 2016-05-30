@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.medical_trial_location",
+    "Sid": "medicine.medical_trial_location",
     "Name": "Medical gender",
     "Description": "The location a medical trial was carried",
     "Mediator": false,

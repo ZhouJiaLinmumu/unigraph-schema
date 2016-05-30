@@ -1,5 +1,5 @@
 {
-    "Id": "location.geometry",
+    "Sid": "location.geometry",
     "Name": "Geometry",
     "Description": "Denotes the boundary of an location through the co-type's /type/content blob which holds a GeoJSON object (see: http://geojson.org/ mime-type is application/json).",
     "Mediator": false,

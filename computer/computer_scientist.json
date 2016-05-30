@@ -1,5 +1,5 @@
 {
-    "Id": "computer.computer_scientist",
+    "Sid": "computer.computer_scientist",
     "Name": "Computer Scientist",
     "Description": "A person involved in research relating to computers, including both hardware and software.",
     "Mediator": false,

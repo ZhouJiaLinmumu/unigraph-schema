@@ -1,5 +1,5 @@
 {
-    "Id": "education.school",
+    "Sid": "education.school",
     "Name": "School",
     "Description": "A school is an institution that provides education below the tertiary level, including preschools, primary, and secondary schools.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "education.school.class_size",
+            "Sid": "education.school.class_size",
             "Name": "Avg. class size",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "education.school.highest_grade",
+            "Sid": "education.school.highest_grade",
             "Name": "Highest grade taught",
             "Description": "",
             "ObjectType": "education.grade_level",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "education.school.lowest_grade",
+            "Sid": "education.school.lowest_grade",
             "Name": "Lowest grade taught",
             "Description": "",
             "ObjectType": "education.grade_level",
@@ -35,7 +35,7 @@
             "Required": false
         },
         {
-            "Id": "education.school.school_district",
+            "Sid": "education.school.school_district",
             "Name": "School district",
             "Description": "",
             "ObjectType": "education.school_district",

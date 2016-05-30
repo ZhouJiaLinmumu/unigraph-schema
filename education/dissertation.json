@@ -1,5 +1,5 @@
 {
-    "Id": "education.dissertation",
+    "Sid": "education.dissertation",
     "Name": "Dissertation",
     "Description": "This type is for doctoral dissertations, master's theses, and similar graduate-level theses. The student should be entered as the author (under the Written Work type). This type includes the types Written Work and Scholarly Work.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "education.dissertation.defense_date",
+            "Sid": "education.dissertation.defense_date",
             "Name": "Defense date",
             "Description": "The date on which this dissertation was defended.",
             "ObjectType": "type.datetime",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "education.dissertation.degree",
+            "Sid": "education.dissertation.degree",
             "Name": "Degree",
             "Description": "The degree for which this dissertation was written.",
             "ObjectType": "education.educational_degree",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "education.dissertation.institution",
+            "Sid": "education.dissertation.institution",
             "Name": "Institution",
             "Description": "The school at which this dissertation was written.",
             "ObjectType": "education.educational_institution",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "education.dissertation.submission_date",
+            "Sid": "education.dissertation.submission_date",
             "Name": "Submission date",
             "Description": "The date this dissertation was submitted. This is equivalent to the \"Date Written\" property of the Written Work type.",
             "ObjectType": "type.datetime",

@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.luminance",
+    "Sid": "measured_dimension.luminance",
     "Name": "Luminance",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.luminance.measurement_unit",
+            "Sid": "measured_dimension.luminance.measurement_unit",
             "Name": "Unit of Luminance",
             "Description": "",
             "ObjectType": "measured_dimension.luminance_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.luminance.value",
+            "Sid": "measured_dimension.luminance.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

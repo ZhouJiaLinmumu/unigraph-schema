@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.designer",
+    "Sid": "automotive.designer",
     "Name": "Automotive Designer",
     "Description": "Designer of an automobile (a person or an organization).",
     "Mediator": false,

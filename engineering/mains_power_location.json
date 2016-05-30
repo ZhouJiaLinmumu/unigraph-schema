@@ -1,5 +1,5 @@
 {
-    "Id": "engineering.mains_power_location",
+    "Sid": "engineering.mains_power_location",
     "Name": "Location with mains power",
     "Description": "A region or country which has a standard system of mains power supply in use.  These standards define the plug types, voltage and AC frequency available in the region.",
     "Mediator": false,

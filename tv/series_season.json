@@ -1,5 +1,5 @@
 {
-    "Id": "tv.series_season",
+    "Sid": "tv.series_season",
     "Name": "TV Season",
     "Description": "A TV season is a run of episodes of a television program.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.series_season.start_date",
+            "Sid": "tv.series_season.start_date",
             "Name": "From",
             "Description": "The date of the beginning of the season.",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "tv.series_season.episodes_number",
+            "Sid": "tv.series_season.episodes_number",
             "Name": "Number of episodes",
             "Description": "The number of episodes in the season.",
             "ObjectType": "type.int",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "tv.series_season.rating",
+            "Sid": "tv.series_season.rating",
             "Name": "Rating",
             "Description": "The content rating given to this season.",
             "ObjectType": "tv.content_rating",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "tv.series_season.season_number",
+            "Sid": "tv.series_season.season_number",
             "Name": "Season number",
             "Description": "",
             "ObjectType": "type.int",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "tv.series_season.series",
+            "Sid": "tv.series_season.series",
             "Name": "Series",
             "Description": "The TV program that this is a season of.",
             "ObjectType": "tv.program",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "tv.series_season.end_date",
+            "Sid": "tv.series_season.end_date",
             "Name": "To",
             "Description": "The date of the end of the season.",
             "ObjectType": "type.datetime",

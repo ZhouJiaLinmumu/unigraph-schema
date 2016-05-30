@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.model",
+    "Sid": "automotive.model",
     "Name": "Automobile Model",
     "Description": "A model is a specific car carried under a make. For example, a Mustang is a model of a Ford. Models are further broken down into generations classifying styling and platform changes.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.model.automotive_class",
+            "Sid": "automotive.model.automotive_class",
             "Name": "Automotive Class",
             "Description": "",
             "ObjectType": "automotive.automotive_class",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.model.generation",
+            "Sid": "automotive.model.generation",
             "Name": "Generations",
             "Description": "",
             "ObjectType": "automotive.generation",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.model.successor",
+            "Sid": "automotive.model.successor",
             "Name": "Successor",
             "Description": "",
             "ObjectType": "automotive.model",

@@ -1,5 +1,5 @@
 {
-    "Id": "broadcast.producer",
+    "Sid": "broadcast.producer",
     "Name": "Broadcast Producer",
     "Description": "Producer of Broadcast Content.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "broadcast.producer.location",
+            "Sid": "broadcast.producer.location",
             "Name": "Location",
             "Description": "",
             "ObjectType": "broadcast.production_location",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "broadcast.producer.produces",
+            "Sid": "broadcast.producer.produces",
             "Name": "Produces",
             "Description": "Broadcast Content produced by this Producer.",
             "ObjectType": "broadcast.content",

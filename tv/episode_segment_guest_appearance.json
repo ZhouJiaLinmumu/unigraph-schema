@@ -1,5 +1,5 @@
 {
-    "Id": "tv.episode_segment_guest_appearance",
+    "Sid": "tv.episode_segment_guest_appearance",
     "Name": "TV segment guest appearance",
     "Description": "This is a compound-value type that holds information about people in TV episode segments in non-acting, guest appearances.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.episode_segment_guest_appearance.person",
+            "Sid": "tv.episode_segment_guest_appearance.person",
             "Name": "Person",
             "Description": "The person appearing as a guest (that is, in a non-acting role and in a non-official capacity such as an interviewee or musical guest)",
             "ObjectType": "tv.program_guest",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "tv.episode_segment_guest_appearance.segment",
+            "Sid": "tv.episode_segment_guest_appearance.segment",
             "Name": "Segment",
             "Description": "The segment of a TV episode that this person appeared in.",
             "ObjectType": "tv.episode_segment",

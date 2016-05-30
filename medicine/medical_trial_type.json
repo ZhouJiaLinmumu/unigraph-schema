@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.medical_trial_type",
+    "Sid": "medicine.medical_trial_type",
     "Name": "Medical trial type",
     "Description": "Medical trials can be \"observational\" or \"interventional\", depending on whether the subjects are given a treatment (an intervention) or are just observed (without being given a treatment).",
     "Mediator": false,

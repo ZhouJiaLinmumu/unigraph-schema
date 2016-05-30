@@ -1,5 +1,5 @@
 {
-    "Id": "sports.drafted_athlete",
+    "Sid": "sports.drafted_athlete",
     "Name": "Drafted athlete",
     "Description": "A drafted athlete is an athlete who has been drafted onto a professional team in any sport. Some leagues or associations of some sports (such as the NFL for American football) have formal drafts, whereby collegiate athletes are selected to join a professional team or organization.",
     "Mediator": false,

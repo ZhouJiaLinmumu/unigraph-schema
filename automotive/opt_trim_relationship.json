@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.opt_trim_relationship",
+    "Sid": "automotive.opt_trim_relationship",
     "Name": "Option/Trim Relationship",
     "Description": "This mediator links option, cost, MSRP and trim levels.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.opt_trim_relationship.included",
+            "Sid": "automotive.opt_trim_relationship.included",
             "Name": "Included?",
             "Description": "",
             "ObjectType": "type.boolean",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.opt_trim_relationship.msrp",
+            "Sid": "automotive.opt_trim_relationship.msrp",
             "Name": "Manufacturer's suggested retail price",
             "Description": "",
             "ObjectType": "type.float",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "automotive.opt_trim_relationship.option",
+            "Sid": "automotive.opt_trim_relationship.option",
             "Name": "Option",
             "Description": "",
             "ObjectType": "automotive.option",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "automotive.opt_trim_relationship.option_id",
+            "Sid": "automotive.opt_trim_relationship.option_id",
             "Name": "Option ID",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.opt_trim_relationship.currency",
+            "Sid": "automotive.opt_trim_relationship.currency",
             "Name": "Currency",
             "Description": "",
             "ObjectType": "automotive.currency",

@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.person_with_medical_condition",
+    "Sid": "medicine.person_with_medical_condition",
     "Name": "Person with medical condition",
     "Description": "\"Person with medical condition\" is used to link a person to a serious medical condition the person has or had.",
     "Mediator": false,

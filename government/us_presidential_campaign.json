@@ -1,5 +1,5 @@
 {
-    "Id": "government.us_presidential_campaign",
+    "Sid": "government.us_presidential_campaign",
     "Name": "US Presidential campaign",
     "Description": "A presidential campaign is an Election campaign specifically for the office of the President of the United States of America. This is used to link the presidential and vice-presidential candidates whose paired candidacy is rare if not unique in politics. The Running mate property connects with a US Vice Presidential campaign to reflect this connection.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.us_presidential_campaign.running_mate",
+            "Sid": "government.us_presidential_campaign.running_mate",
             "Name": "Running mate",
             "Description": "The campaign of the vice presidential candidate, if run as a ticket.",
             "ObjectType": "government.us_vice_presidential_campaign",

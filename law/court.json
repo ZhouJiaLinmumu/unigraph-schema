@@ -1,5 +1,5 @@
 {
-    "Id": "law.court",
+    "Sid": "law.court",
     "Name": "Court",
     "Description": "A court is a governmental body with the power to adjudicate legal disputes, including both civil and criminal cases.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "law.court.dissolved",
+            "Sid": "law.court.dissolved",
             "Name": "Dissolved",
             "Description": "The date (if any) that this court was dissolved.",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "law.court.founded",
+            "Sid": "law.court.founded",
             "Name": "Founded",
             "Description": "The date that this court was created.",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "law.court.judges",
+            "Sid": "law.court.judges",
             "Name": "Judges",
             "Description": "",
             "ObjectType": "law.judicial_tenure",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "law.court.jurisdiction",
+            "Sid": "law.court.jurisdiction",
             "Name": "Jurisdiction",
             "Description": "The geographical area over which the court has immediate jurisdiction.",
             "ObjectType": "law.court_jurisdiction_area",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "law.court.superior_courts",
+            "Sid": "law.court.superior_courts",
             "Name": "Superior courts",
             "Description": "A superior court is one which is higher in the chain of appeal than this court.",
             "ObjectType": "law.court",

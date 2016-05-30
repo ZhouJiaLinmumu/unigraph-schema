@@ -1,5 +1,5 @@
 {
-  "Id": "protected_sites",
+  "Sid": "protected_sites",
   "Name": "Protected Places",
   "Description": "The protected sites domain is for all properties related to places and structures that are either protected in some manner (such as parks, national monuments, etc.) or that have been designated as important natural, cultural, or historical sites (such as historic landmarks, preserved buildings, etc.)."
 }

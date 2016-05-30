@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.surface_tension",
+    "Sid": "measured_dimension.surface_tension",
     "Name": "Surface tension",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.surface_tension.measurement_unit",
+            "Sid": "measured_dimension.surface_tension.measurement_unit",
             "Name": "Unit of Surface tension",
             "Description": "",
             "ObjectType": "measured_dimension.surface_tension_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.surface_tension.value",
+            "Sid": "measured_dimension.surface_tension.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

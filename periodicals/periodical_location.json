@@ -1,5 +1,5 @@
 {
-    "Id": "periodicals.periodical_location",
+    "Sid": "periodicals.periodical_location",
     "Name": "Periodical location",
     "Description": "The location a periodical has/is been published.",
     "Mediator": false,

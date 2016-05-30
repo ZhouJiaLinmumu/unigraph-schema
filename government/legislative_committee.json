@@ -1,5 +1,5 @@
 {
-    "Id": "government.legislative_committee",
+    "Sid": "government.legislative_committee",
     "Name": "Legislative committee",
     "Description": "This type is for legislative committees and subcommittees for any type of government. It has these properties:Legislature: the name of the legislature (or similar governmental body) to which the committee belongs (typically, this means that the committee consists of members of the legislature). Enter the most specific body this is applicable, e.g. House of Lords rather than UK Parliament. Date formed: the date the committee was formed. Date dissolved: the date (if any) that the committee was dissolved (including being merged to form a new committee or split into multiple committees)Subcommittees: if the committee has subcommittees, list them here. If a subcommittee has subcommittees, these should be listed on the parent subcommittee, rather than on the parent committee. Subcommittee of: if the committee is the subcommittee of another committee, enter it here. Members: past and present members of the committee are included here, including dates they joined and left the committee, the sessions on which they served on the committee, and their title. If a person has held multiple titles (e.g., Vice Chair and Chair), these should be separate entries.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.legislative_committee.date_dissolved",
+            "Sid": "government.legislative_committee.date_dissolved",
             "Name": "Date dissolved",
             "Description": "The date, if any, on which this committee was dissolved.",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "government.legislative_committee.date_formed",
+            "Sid": "government.legislative_committee.date_formed",
             "Name": "Date formed",
             "Description": "The date that this committee was first formed.",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "government.legislative_committee.legislature",
+            "Sid": "government.legislative_committee.legislature",
             "Name": "Legislature",
             "Description": "The legislature that this committee is a part of.",
             "ObjectType": "government.governmental_body",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "government.legislative_committee.subcommittees",
+            "Sid": "government.legislative_committee.subcommittees",
             "Name": "Subcommittees",
             "Description": "List any subcommittees of this committee here.",
             "ObjectType": "government.legislative_committee",

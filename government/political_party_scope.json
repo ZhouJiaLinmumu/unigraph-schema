@@ -1,5 +1,5 @@
 {
-    "Id": "government.political_party_scope",
+    "Sid": "government.political_party_scope",
     "Name": "Political party",
     "Description": "The geographical scope of a political party",
     "Mediator": false,

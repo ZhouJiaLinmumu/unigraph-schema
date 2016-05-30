@@ -1,5 +1,5 @@
 {
-    "Id": "book.poetic_meter",
+    "Sid": "book.poetic_meter",
     "Name": "Poetic Meter",
     "Description": "The rhythmic structure of a poem.",
     "Mediator": false,

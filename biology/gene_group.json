@@ -1,5 +1,5 @@
 {
-    "Id": "biology.gene_group",
+    "Sid": "biology.gene_group",
     "Name": "Gene Group",
     "Description": "A gene group specifies a curated collection of genes which possess common characteristics. Examples of such characteristics are genomic proximity, function of protein product, and disregulation in disease.",
     "Mediator": false,

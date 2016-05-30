@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.aircraft_manufacturer",
+    "Sid": "aviation.aircraft_manufacturer",
     "Name": "Aircraft manufacturer",
     "Description": "An Aircraft manufacturer is a company that builds aircraft.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "aviation.aircraft_manufacturer.aircraft_models_made",
+            "Sid": "aviation.aircraft_manufacturer.aircraft_models_made",
             "Name": "Aircraft Models Manufactured",
             "Description": "",
             "ObjectType": "aviation.aircraft_model",

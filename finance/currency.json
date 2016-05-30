@@ -1,5 +1,5 @@
 {
-    "Id": "finance.currency",
+    "Sid": "finance.currency",
     "Name": "Currency",
     "Description": "A currency is money that is used (or has been used) as a medium of exchange.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "finance.currency.countries_formerly_used",
+            "Sid": "finance.currency.countries_formerly_used",
             "Name": "Countries Formerly Used",
             "Description": "This property should connect currencies to countries that used it in the past, but no longer do so.",
             "ObjectType": "finance.currency_country",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "finance.currency.countries_used",
+            "Sid": "finance.currency.countries_used",
             "Name": "Countries Used",
             "Description": "",
             "ObjectType": "finance.currency_country",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "finance.currency.prefix_symbol",
+            "Sid": "finance.currency.prefix_symbol",
             "Name": "Prefix Symbol",
             "Description": "",
             "ObjectType": "type.rawstring",

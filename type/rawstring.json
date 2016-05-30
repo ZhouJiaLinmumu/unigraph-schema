@@ -1,5 +1,5 @@
 {
-    "Id": "type.rawstring",
+    "Sid": "type.rawstring",
     "Name": "Machine readable string",
     "Description": "The concept type of raw strings",
     "Mediator": false,

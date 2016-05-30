@@ -1,5 +1,5 @@
 {
-    "Id": "sports.league_draft",
+    "Sid": "sports.league_draft",
     "Name": "Sports League Draft",
     "Description": "A Sports League Draft is an annual event where teams draft amateur players. Draft order is often determined by the reverse order of the previous season's standings. Sometimes there is a draft lottery which randomizes the selection order in an effort to keep teams from intentionally losing games when it is clear they will not make the playoffs.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.league_draft.league",
+            "Sid": "sports.league_draft.league",
             "Name": "League",
             "Description": "",
             "ObjectType": "sports.league",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "sports.league_draft.year",
+            "Sid": "sports.league_draft.year",
             "Name": "Year",
             "Description": "",
             "ObjectType": "type.datetime",

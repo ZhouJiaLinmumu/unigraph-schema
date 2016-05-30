@@ -1,5 +1,5 @@
 {
-    "Id": "meteorology.beaufort_wind_force",
+    "Sid": "meteorology.beaufort_wind_force",
     "Name": "Beaufort Wind Force",
     "Description": "The Beaufort scale is an empirical measure for describing wind intensity based mainly on observed sea conditions.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "meteorology.beaufort_wind_force.description",
+            "Sid": "meteorology.beaufort_wind_force.description",
             "Name": "Description",
             "Description": "",
             "ObjectType": "type.text",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.beaufort_wind_force.mean_wind_speed",
+            "Sid": "meteorology.beaufort_wind_force.mean_wind_speed",
             "Name": "Mean Wind Speed",
             "Description": "",
             "ObjectType": "measured_dimension.speed",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.beaufort_wind_force.min_wind_speed",
+            "Sid": "meteorology.beaufort_wind_force.min_wind_speed",
             "Name": "Minimum Wind Speed",
             "Description": "",
             "ObjectType": "measured_dimension.speed",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.beaufort_wind_force.wave_height",
+            "Sid": "meteorology.beaufort_wind_force.wave_height",
             "Name": "Wave Height",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.beaufort_wind_force.max_wind_speed",
+            "Sid": "meteorology.beaufort_wind_force.max_wind_speed",
             "Name": "Maximum Wind Speed",
             "Description": "",
             "ObjectType": "measured_dimension.speed",

@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.rocket_engine_fuel",
+    "Sid": "spaceflight.rocket_engine_fuel",
     "Name": "Rocket engine fuel",
     "Description": "A rocket engine fuel is any substance that is used as the fuel of a bipropellant rocket engine (as opposed to being used as the oxidizer).",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "music.recording_place",
+    "Sid": "music.recording_place",
     "Name": "Recording Place",
     "Description": "Place(s) (studio, city or country) where this recording was recorded.",
     "Mediator": false,

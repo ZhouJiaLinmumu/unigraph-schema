@@ -1,0 +1,26 @@
+{
+    "Sid": "unigraph.confirmation",
+    "Name": "Confirmation",
+    "Description": "Date and agent confirming the validity of the statement",
+    "Mediator": true,
+    "ExpectedTypes": null,
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Sid": "unigraph.confirmation.timestamp",
+            "Name": "Timestamp",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Sid": "unigraph.confirmation.agent",
+            "Name": "Agent",
+            "Description": "Person, Import, Crawler, Bot.",
+            "ObjectType": "unigraph.agent",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

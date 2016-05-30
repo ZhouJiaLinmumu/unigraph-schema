@@ -1,5 +1,5 @@
 {
-    "Id": "travel.hotel",
+    "Sid": "travel.hotel",
     "Name": "Hotel",
     "Description": "This Hotel type is used for an individual building with a function of Hotel. i.e. It provides serviced rooms for rent to guests on a short term basis. A Hotel chain (e.g. Hilton, Accor) should be tagged with 'Hotel Operator'.",
     "Mediator": false,
@@ -14,7 +14,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "travel.hotel.drinking_establishments",
+            "Sid": "travel.hotel.drinking_establishments",
             "Name": "Drinking Establishments",
             "Description": "Bars, Pubs in the Hotel",
             "ObjectType": "travel.drinking_establishment",
@@ -22,7 +22,7 @@
             "Required": false
         },
         {
-            "Id": "travel.hotel.grade",
+            "Sid": "travel.hotel.grade",
             "Name": "Grade (Stars)",
             "Description": "Grade of the Hotel (e.g. 5 stars)",
             "ObjectType": "travel.hotel_grade",
@@ -30,7 +30,7 @@
             "Required": false
         },
         {
-            "Id": "travel.hotel.number_of_guest_beds",
+            "Sid": "travel.hotel.number_of_guest_beds",
             "Name": "Number of Guest Rooms",
             "Description": "The number of Rooms (and Suites) available to guests",
             "ObjectType": "type.int",
@@ -38,7 +38,7 @@
             "Required": false
         },
         {
-            "Id": "travel.hotel.operated_by",
+            "Sid": "travel.hotel.operated_by",
             "Name": "Operated by",
             "Description": "A management/corporate group who operate hotels (e.g. Hilton)",
             "ObjectType": "travel.hotel_operator",
@@ -46,7 +46,7 @@
             "Required": false
         },
         {
-            "Id": "travel.hotel.operating_brand",
+            "Sid": "travel.hotel.operating_brand",
             "Name": "Part of Brand",
             "Description": "This links to the Brand the operator uses for this hotel (e.g. Meridien, Sheraton, Four Points are brands used by the Starwood Group)",
             "ObjectType": "travel.hotel_brand",
@@ -54,7 +54,7 @@
             "Required": false
         },
         {
-            "Id": "travel.hotel.restaurants_in_hotel",
+            "Sid": "travel.hotel.restaurants_in_hotel",
             "Name": "Restaurants in Hotel",
             "Description": "Please link to the individual restaurant (not the restaurant chain)",
             "ObjectType": "travel.restaurant",

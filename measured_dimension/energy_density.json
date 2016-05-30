@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.energy_density",
+    "Sid": "measured_dimension.energy_density",
     "Name": "Energy density",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.energy_density.measurement_unit",
+            "Sid": "measured_dimension.energy_density.measurement_unit",
             "Name": "Unit of Energy density",
             "Description": "",
             "ObjectType": "measured_dimension.energy_density_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.energy_density.value",
+            "Sid": "measured_dimension.energy_density.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

@@ -1,5 +1,5 @@
 {
-    "Id": "protected_sites.site_listing_category",
+    "Sid": "protected_sites.site_listing_category",
     "Name": "Site Listing Category",
     "Description": "A Natural or Cultural Site Designation may have multiple categories into which listed sites are assigned. This type records these categories.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "protected_sites.site_listing_category.supercategory",
+            "Sid": "protected_sites.site_listing_category.supercategory",
             "Name": "Supercategory",
             "Description": "If this category is a subcategory of a larger category, enter it here.",
             "ObjectType": "protected_sites.site_listing_category",

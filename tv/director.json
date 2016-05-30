@@ -1,5 +1,5 @@
 {
-    "Id": "tv.director",
+    "Sid": "tv.director",
     "Name": "Episode Director",
     "Description": "This type is for anyone who has directed an episode (or segment of an episode) of a television program.",
     "Mediator": false,

@@ -1,0 +1,12 @@
+{
+    "Sid": "unigraph.document",
+    "Name": "Document",
+    "Description": "A document of any kind",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "common.topic",
+        "common.document"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

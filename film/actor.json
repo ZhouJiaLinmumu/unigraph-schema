@@ -1,5 +1,5 @@
 {
-    "Id": "film.actor",
+    "Sid": "film.actor",
     "Name": "Film actor",
     "Description": "The Film Actor type includes people (and credited animals) who have appeared in any film as a character, including portrayals of real people, as in a biopic. The appearance could be minor, like a cameo appearance; unseen, like the work of a puppeteer; or typically uncredited, like a playback singer.",
     "Mediator": false,

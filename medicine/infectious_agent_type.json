@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.infectious_agent_type",
+    "Sid": "medicine.infectious_agent_type",
     "Name": "Type of infectious agent",
     "Description": "Causative agents of infectious diseases fall into broad categories, usually based on composition and life-cycle. ie 'bacteria', 'virus',  'fungus', 'prion'...",
     "Mediator": false,

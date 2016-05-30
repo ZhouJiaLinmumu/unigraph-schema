@@ -1,5 +1,5 @@
 {
-    "Id": "film.film_character",
+    "Sid": "film.film_character",
     "Name": "Film character",
     "Description": "This type is for all fictional characters who have appeared in a film. Minor characters in films may have similar names (\"Policeman #3\", \"Waitress\", \"Mary\"), but each instance of these should be a separate topic since they are not actually the same character.",
     "Mediator": false,

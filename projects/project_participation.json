@@ -1,5 +1,5 @@
 {
-    "Id": "projects.project_participation",
+    "Sid": "projects.project_participation",
     "Name": "Project participation",
     "Description": "This CVT is used to track the participation of people, companies, organizations, etc. in projects.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "projects.project_participation.start_date",
+            "Sid": "projects.project_participation.start_date",
             "Name": "From date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "projects.project_participation.participant",
+            "Sid": "projects.project_participation.participant",
             "Name": "Participant",
             "Description": "",
             "ObjectType": "projects.project_participant",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "projects.project_participation.role",
+            "Sid": "projects.project_participation.role",
             "Name": "Role",
             "Description": "",
             "ObjectType": "projects.project_role",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "projects.project_participation.end_date",
+            "Sid": "projects.project_participation.end_date",
             "Name": "To date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "projects.project_participation.project",
+            "Sid": "projects.project_participation.project",
             "Name": "Project",
             "Description": "",
             "ObjectType": "projects.project",

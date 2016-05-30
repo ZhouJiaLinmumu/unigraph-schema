@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.pixels_rect_size",
+    "Sid": "measured_dimension.pixels_rect_size",
     "Name": "Integer range",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.pixels_rect_size.x",
+            "Sid": "measured_dimension.pixels_rect_size.x",
             "Name": "Pixels X axis",
             "Description": "",
             "ObjectType": "type.int",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.pixels_rect_size.y",
+            "Sid": "measured_dimension.pixels_rect_size.y",
             "Name": "Pixels Y axis",
             "Description": "",
             "ObjectType": "type.int",

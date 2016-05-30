@@ -1,5 +1,5 @@
 {
-  "Id": "government",
+  "Sid": "government",
   "Name": "Government",
   "Description": "The government domain is for all things related to the people and institutions that make up a government. It includes political parties, politicians, elections, government offices, electoral districts, etc., and covers all levels of government, from local to national.The types in this domain have been designed so that they can be used for all types of government, including (but not limited to) US-style federal republics, Westminster-style parliamentary systems, Chinese-style communist governments, and monarchies."
 }

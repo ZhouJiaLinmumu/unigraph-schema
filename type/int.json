@@ -1,5 +1,5 @@
 {
-    "Id": "type.int",
+    "Sid": "type.int",
     "Name": "Integer",
     "Description": "The concept type of integers.",
     "Mediator": false,

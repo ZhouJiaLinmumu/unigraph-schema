@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.substance",
+    "Sid": "measured_dimension.substance",
     "Name": "Substance",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.substance.measurement_unit",
+            "Sid": "measured_dimension.substance.measurement_unit",
             "Name": "Unit of Substance",
             "Description": "",
             "ObjectType": "measured_dimension.substance_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.substance.value",
+            "Sid": "measured_dimension.substance.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

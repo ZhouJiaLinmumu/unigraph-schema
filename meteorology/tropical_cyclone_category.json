@@ -1,5 +1,5 @@
 {
-    "Id": "meteorology.tropical_cyclone_category",
+    "Sid": "meteorology.tropical_cyclone_category",
     "Name": "Tropical cyclone category",
     "Description": "Different meteorological services use different scales to denote the severity of tropical cyclones. The letters in parentheses after the category name indicate the scale or service to which that category belongs. \"SSHS\" stands for \"Saffir-Simpson Hurricane Scale\", which is the scale used by the National Hurricane Center and Central Pacific Hurricane Center.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "meteorology.tropical_cyclone_category.beaufort_scale",
+            "Sid": "meteorology.tropical_cyclone_category.beaufort_scale",
             "Name": "Beaufort Force",
             "Description": "The corresponding Beaufort wind force(s).",
             "ObjectType": "meteorology.beaufort_wind_force",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone_category.max_storm_surge",
+            "Sid": "meteorology.tropical_cyclone_category.max_storm_surge",
             "Name": "Maximum storm surge",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone_category.max_wind_speed",
+            "Sid": "meteorology.tropical_cyclone_category.max_wind_speed",
             "Name": "Maximum Wind Speed (sustained)",
             "Description": "",
             "ObjectType": "measured_dimension.speed",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone_category.max_wind_speed_gust",
+            "Sid": "meteorology.tropical_cyclone_category.max_wind_speed_gust",
             "Name": "Maximum Wind Speed (gust)",
             "Description": "",
             "ObjectType": "measured_dimension.speed",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone_category.meteorological_service",
+            "Sid": "meteorology.tropical_cyclone_category.meteorological_service",
             "Name": "Meteorological service",
             "Description": "The meteorological agency that uses this category.",
             "ObjectType": "meteorology.meteorological_service",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone_category.min_storm_surge",
+            "Sid": "meteorology.tropical_cyclone_category.min_storm_surge",
             "Name": "Minimum storm surge",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone_category.min_wind_speed",
+            "Sid": "meteorology.tropical_cyclone_category.min_wind_speed",
             "Name": "Minimum Wind Speed (sustained)",
             "Description": "",
             "ObjectType": "measured_dimension.speed",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone_category.min_wind_speed_gust",
+            "Sid": "meteorology.tropical_cyclone_category.min_wind_speed_gust",
             "Name": "Minimum Wind Speed (gust)",
             "Description": "",
             "ObjectType": "measured_dimension.speed",

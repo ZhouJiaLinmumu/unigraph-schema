@@ -1,5 +1,5 @@
 {
-    "Id": "military.casualties_type",
+    "Sid": "military.casualties_type",
     "Name": "Casualties Type",
     "Description": "Categories of military casualties.",
     "Mediator": false,

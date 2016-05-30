@@ -1,5 +1,5 @@
 {
-    "Id": "religion.leader",
+    "Sid": "religion.leader",
     "Name": "Religious Leader",
     "Description": "This type describes individuals who performed a leadership role in one or more religious organizations: Mother Teresa, the Dalai Lama.",
     "Mediator": false,

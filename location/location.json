@@ -1,5 +1,5 @@
 {
-    "Id": "location.location",
+    "Sid": "location.location",
     "Name": "Location",
     "Description": "The Location type is used for any topic with a fixed location. It includes geographic features such as oceans and mountains, political entities like cities and man-made objects like buildings.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.location.adjectival_form",
+            "Sid": "location.location.adjectival_form",
             "Name": "Adjectival form",
             "Description": "The adjectival form of this location (e.g., \"French\" for France, \"Glaswegian\" for Glasgow).",
             "ObjectType": "type.text",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "location.location.area",
+            "Sid": "location.location.area",
             "Name": "Area",
             "Description": "The total area (land + water) of this location.",
             "ObjectType": "measured_dimension.area",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "location.location.area_land",
+            "Sid": "location.location.area_land",
             "Name": "Land area",
             "Description": "The land area of the location.",
             "ObjectType": "measured_dimension.area",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "location.location.area_water",
+            "Sid": "location.location.area_water",
             "Name": "Water area",
             "Description": "The water area of the location",
             "ObjectType": "measured_dimension.area",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "location.location.contained_by",
+            "Sid": "location.location.contained_by",
             "Name": "Contained by",
             "Description": "Other locations that this completely falls within the boundaries of.",
             "ObjectType": "location.location",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "location.location.primarily_contained_by",
+            "Sid": "location.location.primarily_contained_by",
             "Name": "Primarily contained by",
             "Description": "Locations which contain major portions of this one. For example, the United States is primarily contained by North America (except for Hawaii). This property is not meant to be used instead of partially_contained_by but in addition to it, to denote that a location contains a major part of another yet is not completely containing it.",
             "ObjectType": "location.location",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "location.location.geolocation",
+            "Sid": "location.location.geolocation",
             "Name": "Geolocation",
             "Description": "In order of: longitude, latitude. For non-point locations, the geographical center (centroid) of the feature.",
             "ObjectType": "location.geocode",
@@ -65,15 +65,15 @@
             "Required": false
         },
         {
-            "Id": "location.location.geometry",
+            "Sid": "location.location.geometry",
             "Name": "Geometry",
-            "Description": "Link to a GeoJSON description of the locations' 2D boundary. The property points to a content object that can be used with the Blob API to retrieve the raw GeoJSON. The boundary is most easily utilized via the GeoSearch API.",
+            "Description": "Link to a GeoJSON description of the locations' 2D boundary. The property points to a content object that can be used to retrieve the raw GeoJSON. The boundary is most easily utilized via the GeoSearch API.",
             "ObjectType": "location.geometry",
             "Unique": false,
             "Required": false
         },
         {
-            "Id": "location.location.mean_elevation",
+            "Sid": "location.location.mean_elevation",
             "Name": "Mean elevation",
             "Description": "The mean terrain elevation measured for the area of this location from above or below the mean sea level.",
             "ObjectType": "measured_dimension.distance",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "location.location.partially_contained_by",
+            "Sid": "location.location.partially_contained_by",
             "Name": "Partially contained by",
             "Description": "Location(s) in which parts of this location are included. For example, a national park can be split between two countries. A lake or a river falls into the territory of more than one country.",
             "ObjectType": "location.location",
@@ -89,7 +89,7 @@
             "Required": false
         },
         {
-            "Id": "location.location.street_address",
+            "Sid": "location.location.street_address",
             "Name": "Street address",
             "Description": "The street address of this location (if any - many kinds of locations do not have street addresses). Not the mailing address, unless it happens to be the same as the street address.",
             "ObjectType": "location.mailing_address",
@@ -97,7 +97,7 @@
             "Required": false
         },
         {
-            "Id": "location.location.timezone",
+            "Sid": "location.location.timezone",
             "Name": "Time zone(s)",
             "Description": "The time zone or zones that affect this location.",
             "ObjectType": "location.timezone",

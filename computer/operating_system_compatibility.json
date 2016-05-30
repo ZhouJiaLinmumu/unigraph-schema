@@ -1,5 +1,5 @@
 {
-    "Id": "computer.operating_system_compatibility",
+    "Sid": "computer.operating_system_compatibility",
     "Name": "OS Compatibility",
     "Description": "A compound value type detailing which versions of an operating system run on a specific computer.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "computer.operating_system_compatibility.computer",
+            "Sid": "computer.operating_system_compatibility.computer",
             "Name": "Computer",
             "Description": "",
             "ObjectType": "computer.computer",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "computer.operating_system_compatibility.dot_version_high",
+            "Sid": "computer.operating_system_compatibility.dot_version_high",
             "Name": "Dot Version (high)",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "computer.operating_system_compatibility.dot_version_low",
+            "Sid": "computer.operating_system_compatibility.dot_version_low",
             "Name": "Dot Version (low)",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "computer.operating_system_compatibility.operating_system",
+            "Sid": "computer.operating_system_compatibility.operating_system",
             "Name": "Operating System",
             "Description": "",
             "ObjectType": "computer.operating_system",

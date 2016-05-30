@@ -1,5 +1,5 @@
 {
-    "Id": "film.festival",
+    "Sid": "film.festival",
     "Name": "Film festival",
     "Description": "The Film Festival type is for all film festivals worldwide. This type is for the general festival (e.g. Cannes Film Festival), not for the individual occurrences of a festival.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "film.festival.date_founded",
+            "Sid": "film.festival.date_founded",
             "Name": "Date founded",
             "Description": "The date of the first occurrence of this festival.",
             "ObjectType": "type.datetime",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "film.festival.focus",
+            "Sid": "film.festival.focus",
             "Name": "Focus",
             "Description": "The genre or type of films this festival screens. Not all festivals will have a focus.",
             "ObjectType": "film.festival_focus",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "film.festival.location",
+            "Sid": "film.festival.location",
             "Name": "Location",
             "Description": "The location (e.g. a city or region) or locations in which the festival is held.",
             "ObjectType": "film.festival_location",

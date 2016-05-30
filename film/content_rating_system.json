@@ -1,5 +1,5 @@
 {
-    "Id": "film.content_rating_system",
+    "Sid": "film.content_rating_system",
     "Name": "Film rating system",
     "Description": "The Film Rating System type holds topics that represent the various film rating systems that assign film ratings around the world, such as the MPAA and the British Board of Film Classification.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "film.content_rating_system.jurisdiction",
+            "Sid": "film.content_rating_system.jurisdiction",
             "Name": "Jurisdiction",
             "Description": "Region where this film rating system has jurisdiction (eg. the Film Censorship Board of Malaysia's jurisdiction is Malaysia).",
             "ObjectType": "film.content_rating_jurisdiction",

@@ -1,5 +1,5 @@
 {
-    "Id": "organization.contact_category",
+    "Sid": "organization.contact_category",
     "Name": "Contact category",
     "Description": "This type is used to categorize or disambiguate different types of information or services one might seek when contacting (such as by phone or email). Frequently corresponds to a department or function within an organization (customer service).",
     "Mediator": false,

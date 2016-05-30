@@ -1,5 +1,5 @@
 {
-    "Id": "music.video_genre",
+    "Sid": "music.video_genre",
     "Name": "Music video genre",
     "Description": "Genre(s) of the music video (which may or may not be equivalent to music genre).",
     "Mediator": false,

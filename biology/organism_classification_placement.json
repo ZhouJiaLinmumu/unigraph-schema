@@ -1,5 +1,5 @@
 {
-    "Id": "biology.organism_classification_placement",
+    "Sid": "biology.organism_classification_placement",
     "Name": "Organism Classification Placement",
     "Description": "This type connects higher and lower organism classification with the authority/group/entity that places them in this relationship.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.organism_classification_placement.rank",
+            "Sid": "biology.organism_classification_placement.rank",
             "Name": "Rank",
             "Description": "Rank of this taxon in this taxonomy",
             "ObjectType": "biology.organism_classification_rank",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "biology.organism_classification_placement.taxonomic_authority",
+            "Sid": "biology.organism_classification_placement.taxonomic_authority",
             "Name": "Taxonomic Authority",
             "Description": "The entity which maintains the taxonomic hierarchy represented by the set of these placements.",
             "ObjectType": "biology.taxonomic_authority",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "biology.organism_classification_placement.higher_classification",
+            "Sid": "biology.organism_classification_placement.higher_classification",
             "Name": "Higher Classification",
             "Description": "",
             "ObjectType": "biology.organism_classification",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "biology.organism_classification_placement.lower_classification",
+            "Sid": "biology.organism_classification_placement.lower_classification",
             "Name": "Lower Classification",
             "Description": "",
             "ObjectType": "biology.organism_classification",

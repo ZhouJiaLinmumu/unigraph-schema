@@ -1,5 +1,5 @@
 {
-    "Id": "computer.software_license",
+    "Sid": "computer.software_license",
     "Name": "Software License",
     "Description": "The legal terms under which a piece of software is released.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "computer.software_license.versions",
+            "Sid": "computer.software_license.versions",
             "Name": "Versions",
             "Description": "",
             "ObjectType": "computer.software_license",

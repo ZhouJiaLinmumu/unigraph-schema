@@ -1,5 +1,5 @@
 {
-    "Id": "education.school_district",
+    "Sid": "education.school_district",
     "Name": "School district",
     "Description": "A school district is an administrative body that oversees primary and secondary education in a given location.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "education.school_district.enrollment",
+            "Sid": "education.school_district.enrollment",
             "Name": "Enrollment",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "education.school_district.highest_grade",
+            "Sid": "education.school_district.highest_grade",
             "Name": "Highest grade taught",
             "Description": "",
             "ObjectType": "education.grade_level",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "education.school_district.lowest_grade",
+            "Sid": "education.school_district.lowest_grade",
             "Name": "Lowest grade taught",
             "Description": "",
             "ObjectType": "education.grade_level",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "education.school_district.schools_number",
+            "Sid": "education.school_district.schools_number",
             "Name": "Number of schools",
             "Description": "",
             "ObjectType": "type.int",

@@ -1,5 +1,5 @@
 {
-    "Id": "film.film_song_performer",
+    "Sid": "film.film_song_performer",
     "Name": "Film song performer",
     "Description": "A person or group which performs music that is played during a film. This includes performers who perform the music as part of their appearance in the film, playback singers, and musical artists whose music is played during the film (e.g. as incidental or background music).",
     "Mediator": false,

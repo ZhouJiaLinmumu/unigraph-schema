@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.telescope_principle",
+    "Sid": "astronomy.telescope_principle",
     "Name": "Telescope principle",
     "Description": "The electrical-optical-mechanical design principle by which the telescope operates.",
     "Mediator": false,

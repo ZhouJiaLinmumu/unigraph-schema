@@ -1,5 +1,5 @@
 {
-    "Id": "language.language_dialect",
+    "Sid": "language.language_dialect",
     "Name": "Language Dialect",
     "Description": "Language dialects are variations within a single human language which are mutually comprehensible to speakers of each variant.  Despite opinions to the contrary, American English and British English, for example, are merely dialects of English and not entirely different languages. Use this type for sets of dialects as well as individual dialects.",
     "Mediator": false,

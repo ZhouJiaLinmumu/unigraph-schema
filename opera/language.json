@@ -1,5 +1,5 @@
 {
-    "Id": "opera.language",
+    "Sid": "opera.language",
     "Name": "Opera Language",
     "Description": "The language in which an opera or operetta was written in",
     "Mediator": false,

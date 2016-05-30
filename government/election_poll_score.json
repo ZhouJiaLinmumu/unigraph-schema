@@ -1,5 +1,5 @@
 {
-    "Id": "government.election_poll_score",
+    "Sid": "government.election_poll_score",
     "Name": "Election poll score",
     "Description": "This is a CVT that connects a poll to the entity being polled about and that entity's score.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.election_poll_score.score",
+            "Sid": "government.election_poll_score.score",
             "Name": "Score",
             "Description": "The percent of people polled that are in favor of this entity or would vote for this entity.",
             "ObjectType": "type.float",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "government.election_poll_score.subject",
+            "Sid": "government.election_poll_score.subject",
             "Name": "Subject",
             "Description": "The entity (such as a candidate) that this score is about.",
             "ObjectType": "government.polled_entity",

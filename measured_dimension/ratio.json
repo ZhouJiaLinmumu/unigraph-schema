@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.ratio",
+    "Sid": "measured_dimension.ratio",
     "Name": "Ratio",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.ratio.denominator",
+            "Sid": "measured_dimension.ratio.denominator",
             "Name": "Denominator",
             "Description": "",
             "ObjectType": "type.int",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.ratio.numerator",
+            "Sid": "measured_dimension.ratio.numerator",
             "Name": "Numerator",
             "Description": "",
             "ObjectType": "type.float",

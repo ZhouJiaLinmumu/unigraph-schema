@@ -1,5 +1,5 @@
 {
-    "Id": "visual_art.period_movement",
+    "Sid": "visual_art.period_movement",
     "Name": "Art Period/Movement",
     "Description": "'Art period/movement' defines a classification type in the visual arts.  An art movement is a tendency or style in art with a specific common philosophy or goal, followed by a group of artists during a restricted period of time, or, at least, with the heyday of the movement more or less strictly so restricted (usually a few months, years or decades). Art movements were especially important in modern art, where each consecutive movement was considered as a new avant-garde. Movements have almost entirely disappeared in contemporary art, where individualism and diversity prevail.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "visual_art.period_movement.began_approximately",
+            "Sid": "visual_art.period_movement.began_approximately",
             "Name": "Began approximately",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.period_movement.ended_approximately",
+            "Sid": "visual_art.period_movement.ended_approximately",
             "Name": "Ended approximately",
             "Description": "",
             "ObjectType": "type.datetime",

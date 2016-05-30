@@ -1,5 +1,5 @@
 {
-    "Id": "government.government_permit_type",
+    "Sid": "government.government_permit_type",
     "Name": "Government Permit Type",
     "Description": "A type of permit that is granted by a government agency. (e.g. driver's license, business permit, parking permit, etc.)",
     "Mediator": false,

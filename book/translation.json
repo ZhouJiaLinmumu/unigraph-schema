@@ -1,5 +1,5 @@
 {
-    "Id": "book.translation",
+    "Sid": "book.translation",
     "Name": "Translation",
     "Description": "A translation is any adaptation of a work in one language to another language.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "book.translation.date_of_translation",
+            "Sid": "book.translation.date_of_translation",
             "Name": "Date of Translation",
             "Description": "The date, if known, that the translation was completed.",
             "ObjectType": "type.datetime",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "book.translation.language",
+            "Sid": "book.translation.language",
             "Name": "Target language",
             "Description": "The language that the work was translated INTO.",
             "ObjectType": "book.language",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "book.translation.translator",
+            "Sid": "book.translation.translator",
             "Name": "Translator",
             "Description": "The person(s) or company that made the translation; this property assumes a person - if it is a company, please edit the company after you click \"save\" and remove \"person\" from its list of types.",
             "ObjectType": "book.translator",

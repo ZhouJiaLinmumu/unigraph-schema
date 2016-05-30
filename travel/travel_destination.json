@@ -1,5 +1,5 @@
 {
-    "Id": "travel.travel_destination",
+    "Sid": "travel.travel_destination",
     "Name": "Travel destination",
     "Description": "A travel destination is a location that you might go to for a vacation/holiday, eg. Paris or Bali.  Usually it is a city or region, rather than a whole country (unless the country is very small, eg. some island nations.)",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "travel.travel_destination.accommodation",
+            "Sid": "travel.travel_destination.accommodation",
             "Name": "Accommodation",
             "Description": "",
             "ObjectType": "travel.accommodation",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "travel.travel_destination.climate",
+            "Sid": "travel.travel_destination.climate",
             "Name": "Climate",
             "Description": "The expected climate, month by month, of the given location.",
             "ObjectType": "travel.travel_destination_monthly_climate",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "travel.travel_destination.guidebooks",
+            "Sid": "travel.travel_destination.guidebooks",
             "Name": "Guidebooks",
             "Description": "",
             "ObjectType": "travel.guidebook",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "travel.travel_destination.how_to_get_here",
+            "Sid": "travel.travel_destination.how_to_get_here",
             "Name": "How to get here",
             "Description": "",
             "ObjectType": "travel.transportation",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "travel.travel_destination.tour_operators",
+            "Sid": "travel.travel_destination.tour_operators",
             "Name": "Tour operators",
             "Description": "",
             "ObjectType": "travel.tour_operator",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "travel.travel_destination.tourist_attractions",
+            "Sid": "travel.travel_destination.tourist_attractions",
             "Name": "Tourist attractions",
             "Description": "",
             "ObjectType": "travel.tourist_attraction",

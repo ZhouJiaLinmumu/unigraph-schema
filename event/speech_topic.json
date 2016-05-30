@@ -1,5 +1,5 @@
 {
-    "Id": "event.speech_topic",
+    "Sid": "event.speech_topic",
     "Name": "Speech topic",
     "Description": "The subject or subjects of a speech or other public presentation.",
     "Mediator": false,

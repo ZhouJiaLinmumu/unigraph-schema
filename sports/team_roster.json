@@ -1,5 +1,5 @@
 {
-    "Id": "sports.team_roster",
+    "Sid": "sports.team_roster",
     "Name": "Sports team roster",
     "Description": "This type connects players to teams that they have played for.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.team_roster.start_date",
+            "Sid": "sports.team_roster.start_date",
             "Name": "From",
             "Description": "The date this person joined this team.",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "sports.team_roster.number",
+            "Sid": "sports.team_roster.number",
             "Name": "Number",
             "Description": "The player's number while on this team.",
             "ObjectType": "type.rawstring",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "sports.team_roster.player",
+            "Sid": "sports.team_roster.player",
             "Name": "Player",
             "Description": "An athlete who has played for this team.",
             "ObjectType": "sports.professional_athlete",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "sports.team_roster.position",
+            "Sid": "sports.team_roster.position",
             "Name": "Position",
             "Description": "The position or positions this player held on this team.",
             "ObjectType": "sports.sports_position",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "sports.team_roster.team",
+            "Sid": "sports.team_roster.team",
             "Name": "Team",
             "Description": "A team this person played on.",
             "ObjectType": "sports.team",
@@ -47,7 +47,7 @@
             "Required": true
         },
         {
-            "Id": "sports.team_roster.end_date",
+            "Sid": "sports.team_roster.end_date",
             "Name": "To",
             "Description": "The date after which this person was no longer part of this team.",
             "ObjectType": "type.datetime",

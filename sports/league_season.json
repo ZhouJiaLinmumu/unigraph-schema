@@ -1,5 +1,5 @@
 {
-    "Id": "sports.league_season",
+    "Sid": "sports.league_season",
     "Name": "Sports League Season",
     "Description": "A sports league season represents a single season for a particular sport and league. In some cases, a season can span multiple years. For example, the 2005-2006 NBA season is a sports league season for the National Basketball Association.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.league_season.league",
+            "Sid": "sports.league_season.league",
             "Name": "League",
             "Description": "The sports league or association that this is a season of.",
             "ObjectType": "sports.league",

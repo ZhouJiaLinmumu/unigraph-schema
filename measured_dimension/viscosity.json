@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.viscosity",
+    "Sid": "measured_dimension.viscosity",
     "Name": "Viscosity",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.viscosity.measurement_unit",
+            "Sid": "measured_dimension.viscosity.measurement_unit",
             "Name": "Unit of Viscosity",
             "Description": "",
             "ObjectType": "measured_dimension.viscosity_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.viscosity.value",
+            "Sid": "measured_dimension.viscosity.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

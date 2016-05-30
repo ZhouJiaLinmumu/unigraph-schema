@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.cancer_center_type",
+    "Sid": "medicine.cancer_center_type",
     "Name": "Cancer Center Type",
     "Description": "The type of a cancer center is its focus. A cancer center may be focused on research only or may also serve clinical capacities.",
     "Mediator": false,

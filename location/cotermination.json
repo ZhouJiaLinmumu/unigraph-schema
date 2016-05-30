@@ -1,5 +1,5 @@
 {
-    "Id": "location.cotermination",
+    "Sid": "location.cotermination",
     "Name": "Cotermination",
     "Description": "A compound value type that connects two locations that are exactly coterminous (that is, that have the same boundaries). Examples might be a political boundary (state, country, province, etc.) with another type of boundary such as ecclesiastical (diocese, see, etc.) or a census or other governmental statistical region (some regions used by the United States Department of Housing and Urban Development follow county boundaries, for example).",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.cotermination.location",
+            "Sid": "location.cotermination.location",
             "Name": "Location",
             "Description": "",
             "ObjectType": "location.location",

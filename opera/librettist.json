@@ -1,5 +1,5 @@
 {
-    "Id": "opera.librettist",
+    "Sid": "opera.librettist",
     "Name": "Librettist",
     "Description": "A librettist is any person who has written a libretto.",
     "Mediator": false,

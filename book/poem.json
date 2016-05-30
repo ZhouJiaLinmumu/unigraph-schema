@@ -1,5 +1,5 @@
 {
-    "Id": "book.poem",
+    "Sid": "book.poem",
     "Name": "Poem",
     "Description": "This type is for all kinds of poems, from epics to doggerel.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "book.poem.characters",
+            "Sid": "book.poem.characters",
             "Name": "Characters",
             "Description": "Characters who appear in this poem. This will primarily apply to epic and other narrative forms of poetry.",
             "ObjectType": "book.poem_character",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "book.poem.meter",
+            "Sid": "book.poem.meter",
             "Name": "Meter",
             "Description": "",
             "ObjectType": "book.poetic_meter",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "book.poem.verse_form",
+            "Sid": "book.poem.verse_form",
             "Name": "Verse Form",
             "Description": "",
             "ObjectType": "book.poetic_verse_form",

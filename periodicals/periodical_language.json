@@ -1,5 +1,5 @@
 {
-    "Id": "periodicals.periodical_language",
+    "Sid": "periodicals.periodical_language",
     "Name": "Periodical Editor",
     "Description": "The language(s) in which a periodical is being published.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "education.school_color",
+    "Sid": "education.school_color",
     "Name": "School color",
     "Description": "A color that is used within an educational institution.",
     "Mediator": false,

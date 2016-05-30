@@ -1,5 +1,5 @@
 {
-    "Id": "transportation.transit_vehicle",
+    "Sid": "transportation.transit_vehicle",
     "Name": "Transit Vehicle Type",
     "Description": "Transit Vehicle TypeA Transit Vehicle Type is a specific sort of vehicle used for mass transit: an electric bus, a diesel bus, a light rail vehicle, a trolleybus, etc.It has no properties of its own.",
     "Mediator": false,

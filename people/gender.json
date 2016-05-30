@@ -1,5 +1,5 @@
 {
-    "Id": "people.gender",
+    "Sid": "people.gender",
     "Name": "Gender",
     "Description": "Gender is an enumerated type which lets you define something  as being male, female or other. This type is most commonly used in association with people but is also applicable in biology, linguistics, fashion and many other domains.",
     "Mediator": false,

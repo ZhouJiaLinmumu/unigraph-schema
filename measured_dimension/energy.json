@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.energy",
+    "Sid": "measured_dimension.energy",
     "Name": "Energy",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.energy.measurement_unit",
+            "Sid": "measured_dimension.energy.measurement_unit",
             "Name": "Unit of Energy",
             "Description": "",
             "ObjectType": "measured_dimension.energy_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.energy.value",
+            "Sid": "measured_dimension.energy.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

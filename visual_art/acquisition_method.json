@@ -1,5 +1,5 @@
 {
-    "Id": "visual_art.acquisition_method",
+    "Sid": "visual_art.acquisition_method",
     "Name": "Art acquisition method",
     "Description": "This type is for ways in which artworks may be acquired by a person or organization.",
     "Mediator": false,

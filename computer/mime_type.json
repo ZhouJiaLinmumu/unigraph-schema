@@ -1,5 +1,5 @@
 {
-    "Id": "computer.mime_type",
+    "Sid": "computer.mime_type",
     "Name": "Mime Type",
     "Description": "Keeping track of the MIME Types",
     "Mediator": false,

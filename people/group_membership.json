@@ -1,5 +1,5 @@
 {
-    "Id": "people.group_membership",
+    "Sid": "people.group_membership",
     "Name": "Group membership",
     "Description": "Time-mediated membership in a group.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "people.group_membership.start_date",
+            "Sid": "people.group_membership.start_date",
             "Name": "From",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "people.group_membership.group",
+            "Sid": "people.group_membership.group",
             "Name": "Group",
             "Description": "",
             "ObjectType": "people.group",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "people.group_membership.member",
+            "Sid": "people.group_membership.member",
             "Name": "Member",
             "Description": "",
             "ObjectType": "people.person",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "people.group_membership.end_date",
+            "Sid": "people.group_membership.end_date",
             "Name": "To",
             "Description": "",
             "ObjectType": "type.datetime",

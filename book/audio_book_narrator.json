@@ -1,5 +1,5 @@
 {
-    "Id": "book.audio_book_narrator",
+    "Sid": "book.audio_book_narrator",
     "Name": "Audio book reader",
     "Description": "An \"audio book narrator\" is someone whose voice has been recorded as an audio book.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "government.political_district",
+    "Sid": "government.political_district",
     "Name": "Political District",
     "Description": "A political district is any division of a larger political entity (such as a country or province) which elects representatives to a governing body. A district is always smaller than the region over which the governing body has jurisdiction. For example, members of a city council may be elected from individual districts within the city; these districts would each have political district as a type. Other terms for political district include electoral riding, electoral district, and electoral constituency.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.political_district.type",
+            "Sid": "government.political_district.type",
             "Name": "Political District Type",
             "Description": "",
             "ObjectType": "government.political_district_type",

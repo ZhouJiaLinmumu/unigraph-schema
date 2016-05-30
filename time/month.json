@@ -1,5 +1,5 @@
 {
-    "Id": "time.month",
+    "Sid": "time.month",
     "Name": "Month",
     "Description": "A month is a unit of time roughly equivalent to the lunar cycle (around 28 days). This type is for named months in any standard calendar, including the Julian calendar, the Islamic calendar, and so on.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "time.month.alternative_month_number",
+            "Sid": "time.month.alternative_month_number",
             "Name": "Alternative Month Number",
             "Description": "In the cases where a month can have two ordinal numbers, this property should be used for the alternative month number. Alternative means the order not used by the official civil calendar. For instance, in the Hebrew calendar, the month Nisan is the 7th of the year according to the civil calendar and 1st according to the ecclesiastic calendar. The value of this property for this month should be 1.",
             "ObjectType": "type.int",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "time.month.calendar_system",
+            "Sid": "time.month.calendar_system",
             "Name": "Calendar System",
             "Description": "",
             "ObjectType": "time.calendar",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "time.month.month_number",
+            "Sid": "time.month.month_number",
             "Name": "Month Number",
             "Description": "The month's ordinal number. In cases where a month can have two ordinal numbers, this property should be used for the ordinal used in the official civil calendar. For instance, in the Hebrew calendar, the month Nisan is the 7th of the year according to the civil calendar and 1st according to the ecclesiastic calendar. The value of this property for this month should be 7.",
             "ObjectType": "type.int",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "time.month.number_of_days_in_month",
+            "Sid": "time.month.number_of_days_in_month",
             "Name": "Number Of Days In Month",
             "Description": "",
             "ObjectType": "type.int",

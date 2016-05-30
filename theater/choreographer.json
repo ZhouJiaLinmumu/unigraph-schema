@@ -1,5 +1,5 @@
 {
-    "Id": "theater.choreographer",
+    "Sid": "theater.choreographer",
     "Name": "Theater Choreographer",
     "Description": "A theater choreographer is someone who choreographs a production of a play.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "organization.organization_membership",
+    "Sid": "organization.organization_membership",
     "Name": "Organization membership",
     "Description": "This is a compound-value type that holds information about the relationship between an organization and its members. A member will usually be a person, although it can also be another organization, country, company, school, etc.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "organization.organization_membership.start_date",
+            "Sid": "organization.organization_membership.start_date",
             "Name": "From",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "organization.organization_membership.member",
+            "Sid": "organization.organization_membership.member",
             "Name": "Member",
             "Description": "",
             "ObjectType": "organization.organization_member",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "organization.organization_membership.organization",
+            "Sid": "organization.organization_membership.organization",
             "Name": "Organization",
             "Description": "",
             "ObjectType": "organization.membership_organization",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "organization.organization_membership.end_date",
+            "Sid": "organization.organization_membership.end_date",
             "Name": "To",
             "Description": "",
             "ObjectType": "type.datetime",

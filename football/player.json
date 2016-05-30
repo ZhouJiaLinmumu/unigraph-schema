@@ -1,5 +1,5 @@
 {
-    "Id": "football.player",
+    "Sid": "football.player",
     "Name": "Football player",
     "Description": "A football player or footballer is an individual who participates in association football (soccer) matches. The type includes professional and amateur football players, as well as international football players.  For more information, please see the UniGraph wiki page on football player.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "football.player.total_career_appearances",
+            "Sid": "football.player.total_career_appearances",
             "Name": "Number of Career Appearances",
             "Description": "The total number of games played by this player throughout the entirety of their career.  (both International and Club appearances)",
             "ObjectType": "type.int",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "football.player.total_career_goals",
+            "Sid": "football.player.total_career_goals",
             "Name": "Number of Career Goals",
             "Description": "The sum of all goals scored by this player during their career (both club and international)",
             "ObjectType": "type.int",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "football.player.total_international_appearances",
+            "Sid": "football.player.total_international_appearances",
             "Name": "Number of International Appearances",
             "Description": "The number of international appearances (at any level including U-21 or B team)",
             "ObjectType": "type.int",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "football.player.total_international_goals",
+            "Sid": "football.player.total_international_goals",
             "Name": "Number of International Goals",
             "Description": "The total number of goals scored by this player for an international team (all levels including U-21 or B team)",
             "ObjectType": "type.int",

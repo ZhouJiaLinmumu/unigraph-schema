@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.aircraft_accident_site",
+    "Sid": "aviation.aircraft_accident_site",
     "Name": "Aviation accident site",
     "Description": "This type represents the site an aircraft accident occurred.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "biology.plant_disease_documentation",
+    "Sid": "biology.plant_disease_documentation",
     "Name": "Plant disease documentation",
     "Description": "Written works that document a plant disease relationship among host, vector, and environmental conditions.",
     "Mediator": false,

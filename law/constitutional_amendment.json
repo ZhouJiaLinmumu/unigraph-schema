@@ -1,5 +1,5 @@
 {
-    "Id": "law.constitutional_amendment",
+    "Sid": "law.constitutional_amendment",
     "Name": "Constitutional Amendment",
     "Description": "Suggestions for changes of a constitution that may or may not have passed the necessary ratification procedures. The process required for changing a constitution is often different from the process required to change ordinary law.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "law.constitutional_amendment.constitution",
+            "Sid": "law.constitutional_amendment.constitution",
             "Name": "Constitution",
             "Description": "",
             "ObjectType": "law.constitution",
@@ -17,7 +17,7 @@
             "Required": true
         },
         {
-            "Id": "law.constitutional_amendment.proposed_by",
+            "Sid": "law.constitutional_amendment.proposed_by",
             "Name": "Proposed by",
             "Description": "The person, people, or organization that proposed this amendment.",
             "ObjectType": "law.constitutional_amendment_proposer",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "law.constitutional_amendment.proposed_on",
+            "Sid": "law.constitutional_amendment.proposed_on",
             "Name": "Proposed on",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "law.constitutional_amendment.ratification_completed_on",
+            "Sid": "law.constitutional_amendment.ratification_completed_on",
             "Name": "Ratification completed on",
             "Description": "",
             "ObjectType": "type.datetime",

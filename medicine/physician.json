@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.physician",
+    "Sid": "medicine.physician",
     "Name": "Physician",
     "Description": "A physician is a person who practices some type of human biological medicine.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "medicine.physician.medical_specialty",
+            "Sid": "medicine.physician.medical_specialty",
             "Name": "Medical Specialty",
             "Description": "Enter the physician's areas of specialty.",
             "ObjectType": "medicine.medical_specialty",

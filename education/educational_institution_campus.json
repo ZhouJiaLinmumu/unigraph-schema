@@ -1,5 +1,5 @@
 {
-    "Id": "education.educational_institution_campus",
+    "Sid": "education.educational_institution_campus",
     "Name": "Educational Institution Campus",
     "Description": "A campus is the grounds or property on which an educational institution is located, and is therefore considered a geographical location. This includes campuses for institutions which have only one campus as well as satellite campuses of larger institutions.",
     "Mediator": false,

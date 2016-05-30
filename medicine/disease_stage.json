@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.disease_stage",
+    "Sid": "medicine.disease_stage",
     "Name": "Disease Stage",
     "Description": "Disease Stage describes the stage of the severity of a disease, most often though not exclusively associated with chronic conditions.",
     "Mediator": false,

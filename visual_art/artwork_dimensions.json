@@ -1,5 +1,5 @@
 {
-    "Id": "visual_art.artwork_dimensions",
+    "Sid": "visual_art.artwork_dimensions",
     "Name": "Artwork dimensions",
     "Description": "Width, Height, Depth of an artwork",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "visual_art.artwork_dimensions.height",
+            "Sid": "visual_art.artwork_dimensions.height",
             "Name": "Height",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.artwork_dimensions.width",
+            "Sid": "visual_art.artwork_dimensions.width",
             "Name": "Height",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "visual_art.artwork_dimensions.depth",
+            "Sid": "visual_art.artwork_dimensions.depth",
             "Name": "Height",
             "Description": "",
             "ObjectType": "measured_dimension.distance",

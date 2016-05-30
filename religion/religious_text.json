@@ -1,5 +1,5 @@
 {
-    "Id": "religion.religious_text",
+    "Sid": "religion.religious_text",
     "Name": "Religious Text",
     "Description": "Most religions have texts that establish their system of beliefs and rituals, document the lives and wisdom of religious figures and leaders, and are used for worship and strengthening the faith among adherents. Also called scripture, religious texts are often considered sacred and written by divine inspiration.Examples: the Bible, the Qur'an, the Analects of Confucius.",
     "Mediator": false,

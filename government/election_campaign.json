@@ -1,5 +1,5 @@
 {
-    "Id": "government.election_campaign",
+    "Sid": "government.election_campaign",
     "Name": "Election campaign",
     "Description": "The election campaign type contains information about a politician's campaign for a government office or position in a specific election. If the election includes a primary, candidates may have two separate campaigns - one for the primary and one for the general election.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.election_campaign.candidate",
+            "Sid": "government.election_campaign.candidate",
             "Name": "Candidate",
             "Description": "",
             "ObjectType": "government.politician",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "government.election_campaign.election",
+            "Sid": "government.election_campaign.election",
             "Name": "Election",
             "Description": "The election this campaign was for, e.g. \"2008 United States Democratic presidential primary\"",
             "ObjectType": "government.election",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "government.election_campaign.official_website",
+            "Sid": "government.election_campaign.official_website",
             "Name": "Official website",
             "Description": "If the campaign has an official website, enter it here.",
             "ObjectType": "type.uri",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "government.election_campaign.party",
+            "Sid": "government.election_campaign.party",
             "Name": "Party",
             "Description": "",
             "ObjectType": "government.political_party",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "government.election_campaign.total_amount_raised",
+            "Sid": "government.election_campaign.total_amount_raised",
             "Name": "Total amount raised",
             "Description": "The amount of money raised, and the date as of which that was true.",
             "ObjectType": "measured_dimension.dated_currency_amount",

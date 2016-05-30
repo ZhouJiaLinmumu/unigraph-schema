@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.aircraft_accident",
+    "Sid": "aviation.aircraft_accident",
     "Name": "Aviation accident",
     "Description": "This type represents accidents, crashes, and other incidents that have involved aircraft. This can include military and civil (both private and commercial) incidents.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "aviation.aircraft_accident.site",
+            "Sid": "aviation.aircraft_accident.site",
             "Name": "Site",
             "Description": "",
             "ObjectType": "aviation.aircraft_accident_site",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.aircraft_accident.type",
+            "Sid": "aviation.aircraft_accident.type",
             "Name": "Type",
             "Description": "",
             "ObjectType": "aviation.aircraft_accident_type",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.aircraft_accident.aircraft",
+            "Sid": "aviation.aircraft_accident.aircraft",
             "Name": "Aircraft",
             "Description": "Information about the aircraft involved in this incident can be recorded here.",
             "ObjectType": "aviation.aircraft_accident_relationship",
@@ -35,7 +35,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.aircraft_accident.aircraft_type",
+            "Sid": "aviation.aircraft_accident.aircraft_type",
             "Name": "Aircraft type",
             "Description": "",
             "ObjectType": "aviation.aircraft_model",
@@ -43,7 +43,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.aircraft_accident.crew",
+            "Sid": "aviation.aircraft_accident.crew",
             "Name": "Crew",
             "Description": "",
             "ObjectType": "type.int",
@@ -51,7 +51,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.aircraft_accident.total_fatalities",
+            "Sid": "aviation.aircraft_accident.total_fatalities",
             "Name": "Total death toll of the accident: passengers, crew and people on the ground",
             "Description": "",
             "ObjectType": "type.int",
@@ -59,7 +59,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.aircraft_accident.flight_destination",
+            "Sid": "aviation.aircraft_accident.flight_destination",
             "Name": "Flight destination",
             "Description": "Where the flight was destined for",
             "ObjectType": "aviation.flight_destination",
@@ -67,7 +67,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.aircraft_accident.flight_origin",
+            "Sid": "aviation.aircraft_accident.flight_origin",
             "Name": "Flight origin",
             "Description": "Where the flight originated from",
             "ObjectType": "aviation.flight_origin",
@@ -75,7 +75,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.aircraft_accident.total_injuries",
+            "Sid": "aviation.aircraft_accident.total_injuries",
             "Name": "Total number of injured people, both passengers, personnel and ground crew.",
             "Description": "",
             "ObjectType": "type.int",
@@ -83,7 +83,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.aircraft_accident.operator",
+            "Sid": "aviation.aircraft_accident.operator",
             "Name": "Operator",
             "Description": "",
             "ObjectType": "aviation.airline",
@@ -91,7 +91,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.aircraft_accident.passengers",
+            "Sid": "aviation.aircraft_accident.passengers",
             "Name": "Passengers",
             "Description": "",
             "ObjectType": "type.int",
@@ -99,7 +99,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.aircraft_accident.total_survivors",
+            "Sid": "aviation.aircraft_accident.total_survivors",
             "Name": "The total number of survivors from all involved aircraft",
             "Description": "",
             "ObjectType": "type.int",
@@ -107,7 +107,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.aircraft_accident.tail_number",
+            "Sid": "aviation.aircraft_accident.tail_number",
             "Name": "Tail number",
             "Description": "",
             "ObjectType": "type.rawstring",

@@ -1,5 +1,5 @@
 {
-    "Id": "theater.character",
+    "Sid": "theater.character",
     "Name": "Theater Character",
     "Description": "This type is for all characters that appear in plays.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "theater.character.plays_appears_in",
+            "Sid": "theater.character.plays_appears_in",
             "Name": "Plays Appears In",
             "Description": "Plays that this character appears in.",
             "ObjectType": "theater.play",

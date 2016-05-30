@@ -1,5 +1,5 @@
 {
-    "Id": "education.field_of_study",
+    "Sid": "education.field_of_study",
     "Name": "Field of study",
     "Description": "A field of study is the field, area, or discipline which is the focus of study of a student or academic, or which is taught in a school.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "education.field_of_study.subdisciplines",
+            "Sid": "education.field_of_study.subdisciplines",
             "Name": "Subdisciplines",
             "Description": "Subdisciplines of this field of study.",
             "ObjectType": "education.field_of_study",

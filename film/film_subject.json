@@ -1,5 +1,5 @@
 {
-    "Id": "film.film_subject",
+    "Sid": "film.film_subject",
     "Name": "Film subject",
     "Description": "This type is for anything that a film can be said to be about or which features strongly in a film. This can be the subject of a documentary, the person (or people) whose life is the basis of a biopic, or simply a topic that is dealt with in a film.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "type.domain",
+    "Sid": "type.domain",
     "Name": "Domain",
     "Description": "The concept of domains.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "engineering.piston_configuration",
+    "Sid": "engineering.piston_configuration",
     "Name": "Piston configuration",
     "Description": "Within a reciproacting engine, pistons are used to transfer force into a rotating shaft. There can be a variety of different numbers of pistons within an engine, and they can be arranged in various configurations.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "engineering.piston_configuration.number_of_pistons",
+            "Sid": "engineering.piston_configuration.number_of_pistons",
             "Name": "Number of pistons",
             "Description": "Number of individual pistons in this configuration",
             "ObjectType": "type.int",

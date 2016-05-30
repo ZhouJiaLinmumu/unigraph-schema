@@ -1,5 +1,5 @@
 {
-    "Id": "education.university_system",
+    "Sid": "education.university_system",
     "Name": "University system",
     "Description": "A university system is an organization which oversees a group of colleges and universities. Each member university of a university system handles its own admissions, record keeping and accreditation. Constituent colleges and universities also have their own Chief Executive (President, Chancellor, Vice Chancellor, Rector, etc.) and college administration. (Quick test: Many universities within a university system have their own web look and feel.)",
     "Mediator": false,

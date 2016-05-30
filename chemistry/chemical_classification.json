@@ -1,5 +1,5 @@
 {
-    "Id": "chemistry.chemical_classification",
+    "Sid": "chemistry.chemical_classification",
     "Name": "Chemical Classification",
     "Description": "A classification of chemical compounds according to certain chemical functional or structural properties.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "chemistry.chemical_classification.chemicals_of_this_type",
+            "Sid": "chemistry.chemical_classification.chemicals_of_this_type",
             "Name": "Chemicals of this type",
             "Description": "Chemical compounds that are included in this classification",
             "ObjectType": "chemistry.chemical_compound",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "chemistry.chemical_classification.higher_classifications",
+            "Sid": "chemistry.chemical_classification.higher_classifications",
             "Name": "Higher Classifications",
             "Description": "Classifications that include this classification",
             "ObjectType": "chemistry.chemical_classification",

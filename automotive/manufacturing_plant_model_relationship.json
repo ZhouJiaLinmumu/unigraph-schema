@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.manufacturing_plant_model_relationship",
+    "Sid": "automotive.manufacturing_plant_model_relationship",
     "Name": "Manufacturing Plant-Model Relationship",
     "Description": "Mediator type that links the span of time an automobile model is built at a manufacturing plant.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.manufacturing_plant_model_relationship.start_date",
+            "Sid": "automotive.manufacturing_plant_model_relationship.start_date",
             "Name": "From",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.manufacturing_plant_model_relationship.manufacturing_plant",
+            "Sid": "automotive.manufacturing_plant_model_relationship.manufacturing_plant",
             "Name": "Manufacturing Plant",
             "Description": "",
             "ObjectType": "automotive.manufacturing_plant",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "automotive.manufacturing_plant_model_relationship.model",
+            "Sid": "automotive.manufacturing_plant_model_relationship.model",
             "Name": "Model",
             "Description": "",
             "ObjectType": "automotive.model",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "automotive.manufacturing_plant_model_relationship.end_date",
+            "Sid": "automotive.manufacturing_plant_model_relationship.end_date",
             "Name": "To",
             "Description": "",
             "ObjectType": "type.datetime",

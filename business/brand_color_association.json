@@ -1,5 +1,5 @@
 {
-    "Id": "business.brand_color_association",
+    "Sid": "business.brand_color_association",
     "Name": "Brand colors",
     "Description": "A compound value type that holds information about the colors used by a brand, and the dates that those colors were used.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.brand_color_association.colors",
+            "Sid": "business.brand_color_association.colors",
             "Name": "Colors",
             "Description": "",
             "ObjectType": "business.brand_color",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "business.brand_color_association.start_date",
+            "Sid": "business.brand_color_association.start_date",
             "Name": "From date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "business.brand_color_association.end_date",
+            "Sid": "business.brand_color_association.end_date",
             "Name": "To date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "business.brand_color_association.brand",
+            "Sid": "business.brand_color_association.brand",
             "Name": "Brand",
             "Description": "",
             "ObjectType": "business.brand",

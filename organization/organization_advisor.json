@@ -1,5 +1,5 @@
 {
-    "Id": "organization.organization_advisor",
+    "Sid": "organization.organization_advisor",
     "Name": "Organization advisor",
     "Description": "An organization advisor is someone who has served in a formal advisory role for an organization, including members of advisory boards.",
     "Mediator": false,

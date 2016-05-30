@@ -1,5 +1,5 @@
 {
-    "Id": "travel.drinking_establishment",
+    "Sid": "travel.drinking_establishment",
     "Name": "Drinking establishment",
     "Description": "The drinking establishment type represents bars and pubs. Could be located and within a hotel, casino, hostel.",
     "Mediator": false,

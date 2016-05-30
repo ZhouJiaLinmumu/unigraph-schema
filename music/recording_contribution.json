@@ -1,5 +1,5 @@
 {
-    "Id": "music.recording_contribution",
+    "Sid": "music.recording_contribution",
     "Name": "Musical Contribution",
     "Description": "Musical Contribution is a compound value type which defines a performance on a Musical Album by a Musical Artist. Typically this is used for artists other than the primary credited artist, but it might also be used for detailed information about what instruments different band members played on an album. As a compound value type, Musical Contribution together other types. Instances are not typically named topics in their own right, and they are typically manipulated in the context of the artist or album, though they can be edited directly.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.recording_contribution.album",
+            "Sid": "music.recording_contribution.album",
             "Name": "Album",
             "Description": "The album to which the artist contributed",
             "ObjectType": "music.album",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "music.recording_contribution.contributor",
+            "Sid": "music.recording_contribution.contributor",
             "Name": "Contributor",
             "Description": "The recording artist contributing to the project",
             "ObjectType": "music.artist",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "music.recording_contribution.performance_role",
+            "Sid": "music.recording_contribution.performance_role",
             "Name": "Role",
             "Description": "The role which the artist played in the project",
             "ObjectType": "music.performance_role",

@@ -1,5 +1,5 @@
 {
-    "Id": "periodicals.newspaper_circulation_area",
+    "Sid": "periodicals.newspaper_circulation_area",
     "Name": "Newspaper circulation area",
     "Description": "A newspaper circulation area is a an area (neighborhood, city, metropolitan area, etc.) in which a newspaper is delivered.",
     "Mediator": false,

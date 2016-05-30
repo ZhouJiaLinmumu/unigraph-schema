@@ -1,5 +1,5 @@
 {
-  "Id": "location",
+  "Sid": "location",
   "Name": "Location",
   "Description": "The location commons holds position information for topics, as well as political entities like countries, administrative divisions (states, provinces, departments, etc.) and cities. The political portion of this domain is currently undergoing a revision, with the ultimate goal being distinct types for the major administrative divisions of each country."
 }

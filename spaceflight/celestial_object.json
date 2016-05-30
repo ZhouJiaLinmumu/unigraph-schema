@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.celestial_object",
+    "Sid": "spaceflight.celestial_object",
     "Name": "Celestial Object",
     "Description": "Celestial object of any kind",
     "Mediator": false,

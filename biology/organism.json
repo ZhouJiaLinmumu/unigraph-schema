@@ -1,5 +1,5 @@
 {
-    "Id": "biology.organism",
+    "Sid": "biology.organism",
     "Name": "Organism",
     "Description": "This type is for individual, non-human, organisms, such as household pets, animal performers, racehorses, even named plants.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.organism.date_of_birth",
+            "Sid": "biology.organism.date_of_birth",
             "Name": "Date of Birth",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "biology.organism.height",
+            "Sid": "biology.organism.height",
             "Name": "Height",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "biology.organism.organism_type",
+            "Sid": "biology.organism.organism_type",
             "Name": "Organism type",
             "Description": "The species (or other Organism Classification) for this organism",
             "ObjectType": "biology.organism_classification",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "biology.organism.parents",
+            "Sid": "biology.organism.parents",
             "Name": "Parents",
             "Description": "",
             "ObjectType": "biology.organism",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "biology.organism.place_of_birth",
+            "Sid": "biology.organism.place_of_birth",
             "Name": "Place of Birth",
             "Description": "",
             "ObjectType": "biology.organism_place_of_birth",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "biology.organism.sex",
+            "Sid": "biology.organism.sex",
             "Name": "Sex",
             "Description": "Male or Female",
             "ObjectType": "biology.gender",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "biology.organism.weight",
+            "Sid": "biology.organism.weight",
             "Name": "Weight",
             "Description": "",
             "ObjectType": "measured_dimension.mass",

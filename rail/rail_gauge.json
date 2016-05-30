@@ -1,5 +1,5 @@
 {
-    "Id": "rail.rail_gauge",
+    "Sid": "rail.rail_gauge",
     "Name": "Rail gauge",
     "Description": "A rail gauge is a standard measure of the distance between the two tracks of a railway.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "rail.rail_gauge.max_width",
+            "Sid": "rail.rail_gauge.max_width",
             "Name": "Maximum width",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "rail.rail_gauge.min_width",
+            "Sid": "rail.rail_gauge.min_width",
             "Name": "Minimum width",
             "Description": "",
             "ObjectType": "measured_dimension.distance",

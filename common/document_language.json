@@ -1,5 +1,5 @@
 {
-    "Id": "common.document_language",
+    "Sid": "common.document_language",
     "Name": "Document Language",
     "Description": "The language of the document",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.celestial_object_age",
+    "Sid": "astronomy.celestial_object_age",
     "Name": "Celestial object age",
     "Description": "The age of the celestial object",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.celestial_object_age.age",
+            "Sid": "astronomy.celestial_object_age.age",
             "Name": "Age",
             "Description": "The apparent age",
             "ObjectType": "measured_dimension.time",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "astronomy.celestial_object_age.uncertainty",
+            "Sid": "astronomy.celestial_object_age.uncertainty",
             "Name": "Uncertainty",
             "Description": "The estimated error +/-",
             "ObjectType": "measured_dimension.time",

@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.drug_manufacturer",
+    "Sid": "medicine.drug_manufacturer",
     "Name": "Drug manufacturer",
     "Description": "A manufacturer, distributor, or marketer of human medical drugs / drug formulations.",
     "Mediator": false,

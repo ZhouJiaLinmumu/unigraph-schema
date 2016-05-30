@@ -1,5 +1,5 @@
 {
-    "Id": "film.crewmember",
+    "Sid": "film.crewmember",
     "Name": "Film crew member",
     "Description": "Film crew members are people who have performed any function in the production of a film that is not captured by another type in UniGraph.",
     "Mediator": false,

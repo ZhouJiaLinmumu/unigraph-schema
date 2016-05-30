@@ -1,5 +1,5 @@
 {
-    "Id": "tv.episode_segment_personal_appearance",
+    "Sid": "tv.episode_segment_personal_appearance",
     "Name": "TV segment personal appearance",
     "Description": "This is a compound-value type for personal appearances on TV episode segments. Personal appearances are non-acting appearances in an official capacity (such as a host, announcer, newsreader, etc., whether or not the person is a regular member of the show's cast), as opposed to guests who are there to be interviewed, perform music, etc.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.episode_segment_personal_appearance.appearance_type",
+            "Sid": "tv.episode_segment_personal_appearance.appearance_type",
             "Name": "Appearance type",
             "Description": "The type of appearance or \"role\" this person filled in this segment, such as \"anchor\", \"host\", or \"announcer\".",
             "ObjectType": "tv.personal_appearance_role",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "tv.episode_segment_personal_appearance.person",
+            "Sid": "tv.episode_segment_personal_appearance.person",
             "Name": "Person",
             "Description": "The person appearing in this segment. This person should be performing some official role in the segment - host, interviewer, announcer, newsreader, etc.",
             "ObjectType": "tv.tv_personality",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "tv.episode_segment_personal_appearance.segment",
+            "Sid": "tv.episode_segment_personal_appearance.segment",
             "Name": "Segment",
             "Description": "The name of the segment that this person appeared in",
             "ObjectType": "tv.episode_segment",

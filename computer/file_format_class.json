@@ -1,5 +1,5 @@
 {
-    "Id": "computer.file_format_class",
+    "Sid": "computer.file_format_class",
     "Name": "File Format Class",
     "Description": "Classification of the file format.",
     "Mediator": false,

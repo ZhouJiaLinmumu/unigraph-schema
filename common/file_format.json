@@ -1,5 +1,5 @@
 {
-    "Id": "common.file_format",
+    "Sid": "common.file_format",
     "Name": "File Format",
     "Description": "The computer format of the file",
     "Mediator": false,

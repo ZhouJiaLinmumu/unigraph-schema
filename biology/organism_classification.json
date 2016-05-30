@@ -1,5 +1,5 @@
 {
-    "Id": "biology.organism_classification",
+    "Sid": "biology.organism_classification",
     "Name": "Organism Classification",
     "Description": "An organism classification is a set of living things, (e.g., plants, animals, microorganisms), that has a classification rank, (e.g., Kingdom, Phylum, Class, Order, Family, Genus, Species). All classifications, from the lowest classification (sub-species, cultivars, breeds and varietals) up to the highest classification (Domain), are organism classifications. The organism classification type should not be used for an individual organism, such as household pets, animal performers, racehorses, even named plants.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.organism_classification.earliest_fossil_record",
+            "Sid": "biology.organism_classification.earliest_fossil_record",
             "Name": "Earliest fossil record",
             "Description": "The geologic time period from which the earliest fossil record dates.",
             "ObjectType": "biology.geologic_period",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "biology.organism_classification.higher_classification",
+            "Sid": "biology.organism_classification.higher_classification",
             "Name": "Higher classification",
             "Description": "The organism classification at the next higher rank",
             "ObjectType": "biology.organism_classification",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "biology.organism_classification.latest_fossil_record",
+            "Sid": "biology.organism_classification.latest_fossil_record",
             "Name": "Latest fossil record",
             "Description": "The geologic time period from which the latest fossil record dates.",
             "ObjectType": "biology.geologic_period",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "biology.organism_classification.rank",
+            "Sid": "biology.organism_classification.rank",
             "Name": "Rank",
             "Description": "The taxon rank of this organism classification",
             "ObjectType": "biology.organism_classification_rank",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "biology.organism_classification.scientific_name",
+            "Sid": "biology.organism_classification.scientific_name",
             "Name": "Scientific name",
             "Description": "The scientific (latin) name.",
             "ObjectType": "type.text",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "biology.organism_classification.synonym_scientific_name",
+            "Sid": "biology.organism_classification.synonym_scientific_name",
             "Name": "Synonym scientific name",
             "Description": "Enter any scientific (latin) name other than the main one",
             "ObjectType": "type.text",

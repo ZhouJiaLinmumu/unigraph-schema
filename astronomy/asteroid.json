@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.asteroid",
+    "Sid": "astronomy.asteroid",
     "Name": "Asteroid",
     "Description": "Asteroids are small Solar System bodies in orbit around the Sun, especially in the inner Solar System; they are smaller than planets but larger than meteoroids.",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.asteroid.spectral_type",
+            "Sid": "astronomy.asteroid.spectral_type",
             "Name": "Spectral Type",
             "Description": "",
             "ObjectType": "astronomy.asteroid_spectral_type",
@@ -20,7 +20,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.asteroid.asteroid_group",
+            "Sid": "astronomy.asteroid.asteroid_group",
             "Name": "Member of Asteroid Group",
             "Description": "What Asteroid Group this asteroid is a member of",
             "ObjectType": "astronomy.asteroid_group",

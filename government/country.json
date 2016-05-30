@@ -1,5 +1,5 @@
 {
-    "Id": "government.country",
+    "Sid": "government.country",
     "Name": "Country",
     "Description": "The country over which a government exercises power",
     "Mediator": false,

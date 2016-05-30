@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.frequency",
+    "Sid": "measured_dimension.frequency",
     "Name": "Frequency",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.frequency.measurement_unit",
+            "Sid": "measured_dimension.frequency.measurement_unit",
             "Name": "Unit of Frequency",
             "Description": "",
             "ObjectType": "measured_dimension.force_moment_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.frequency.value",
+            "Sid": "measured_dimension.frequency.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

@@ -1,5 +1,5 @@
 {
-    "Id": "football.team_management_tenure",
+    "Sid": "football.team_management_tenure",
     "Name": "Football Team Management Tenure",
     "Description": "This is a time-mediated relationship between soccer managers and the teams they manage",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "football.team_management_tenure.start_date",
+            "Sid": "football.team_management_tenure.start_date",
             "Name": "From",
             "Description": "The date the manager took charge of the team.",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "football.team_management_tenure.manager",
+            "Sid": "football.team_management_tenure.manager",
             "Name": "Manager",
             "Description": "The manager of the football team.",
             "ObjectType": "football.team_manager",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "football.team_management_tenure.end_date",
+            "Sid": "football.team_management_tenure.end_date",
             "Name": "To",
             "Description": "The date the manager ceased managing the team.",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "football.team_management_tenure.team",
+            "Sid": "football.team_management_tenure.team",
             "Name": "Team",
             "Description": "The football team being managed",
             "ObjectType": "football.team",

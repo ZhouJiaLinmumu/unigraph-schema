@@ -1,5 +1,5 @@
 {
-    "Id": "engineering.power_plug_standard",
+    "Sid": "engineering.power_plug_standard",
     "Name": "Power plug standard",
     "Description": "A power plug standard is a defined shape and electrical rating defining a connection to a power supply.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "engineering.power_plug_standard.fused",
+            "Sid": "engineering.power_plug_standard.fused",
             "Name": "Fused",
             "Description": "Indicates whether a plug standard requires a fuse.  A fuse is an automatic switch which breaks the connection if the rated current is exceeded.",
             "ObjectType": "type.boolean",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "engineering.power_plug_standard.grounded",
+            "Sid": "engineering.power_plug_standard.grounded",
             "Name": "Grounded",
             "Description": "The presence of a means of grounding this plug, normally a third pin",
             "ObjectType": "type.boolean",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "engineering.power_plug_standard.plug_type",
+            "Sid": "engineering.power_plug_standard.plug_type",
             "Name": "Type",
             "Description": "The grouping of this plug e.g. type A, B or K etc..",
             "ObjectType": "engineering.power_plug_standard_type",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "engineering.power_plug_standard.polarised",
+            "Sid": "engineering.power_plug_standard.polarised",
             "Name": "Polarised",
             "Description": "Indicates whether the plug standard supports polarisation - i.e. one connector is neutral and the other live.  This is a safety feature of many standards",
             "ObjectType": "type.boolean",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "engineering.power_plug_standard.rated_current",
+            "Sid": "engineering.power_plug_standard.rated_current",
             "Name": "Rated Current",
             "Description": "The maximum current for which this standard allows",
             "ObjectType": "measured_dimension.current",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "engineering.power_plug_standard.rated_voltage",
+            "Sid": "engineering.power_plug_standard.rated_voltage",
             "Name": "Rated voltage",
             "Description": "The maximum allowed voltage across this plug as defined by this standard",
             "ObjectType": "measured_dimension.potential",

@@ -1,5 +1,5 @@
 {
-    "Id": "theater.production",
+    "Sid": "theater.production",
     "Name": "Theater Production",
     "Description": "A theater production is a production of a play or musical. If the play type represents the written form of the play, the theater production type represents a staging of the play. Properties include the cast, director, designers, crew, and producing company.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "theater.production.choreographer",
+            "Sid": "theater.production.choreographer",
             "Name": "Choreographer",
             "Description": "",
             "ObjectType": "theater.choreographer",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "theater.production.date_closed",
+            "Sid": "theater.production.date_closed",
             "Name": "Date Closed",
             "Description": "The last date this production was performed.",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "theater.production.date_opened",
+            "Sid": "theater.production.date_opened",
             "Name": "Date Opened",
             "Description": "The date this production first opened (not including previews)",
             "ObjectType": "type.datetime",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "theater.production.director",
+            "Sid": "theater.production.director",
             "Name": "Director",
             "Description": "",
             "ObjectType": "theater.production_director",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "theater.production.musical_director",
+            "Sid": "theater.production.musical_director",
             "Name": "Musical Director",
             "Description": "",
             "ObjectType": "theater.musical_director",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "theater.production.number_of_performances",
+            "Sid": "theater.production.number_of_performances",
             "Name": "Number of performances",
             "Description": "The total number of performances for the run of this production.",
             "ObjectType": "type.int",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "theater.production.play",
+            "Sid": "theater.production.play",
             "Name": "Play",
             "Description": "The play that this is a production of.",
             "ObjectType": "theater.play",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "theater.production.producer",
+            "Sid": "theater.production.producer",
             "Name": "Producer",
             "Description": "",
             "ObjectType": "theater.producer",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "theater.production.producing_company",
+            "Sid": "theater.production.producing_company",
             "Name": "Producing Company",
             "Description": "The company that produced this performance.",
             "ObjectType": "theater.theater_company",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "theater.production.translation_used",
+            "Sid": "theater.production.translation_used",
             "Name": "Translation Used",
             "Description": "For productions of plays performed in a language other than the one the play was written in, the translation used can be entered here.",
             "ObjectType": "theater.play_translation",

@@ -1,5 +1,5 @@
 {
-    "Id": "music.single",
+    "Sid": "music.single",
     "Name": "Canonical Version",
     "Description": "This type is used to identify a canonical recording of a composition by a musical artist. Since many artists make multiple recordings of a single composition, it is sometimes useful to be able to point to a single topic to refer a \"version\" of a composition. (For example, you may want to distinguish the Rolling Stones' version of \"(I Can't Get No) Satisfaction\" from Devo's version, without wanting to have to choose between the many different recordings (e.g. Musical Tracks) (album, single, remastered, live, etc.) they may have made over the years. This type therefore should only be applied to topics that have also been typed with Musical Track, and only one track of the same composition recorded by the same artist should have this type.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.single.versions",
+            "Sid": "music.single.versions",
             "Name": "Versions",
             "Description": "Other recordings of this composition by this artist.",
             "ObjectType": "music.recording",

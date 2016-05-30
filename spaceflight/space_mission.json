@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.space_mission",
+    "Sid": "spaceflight.space_mission",
     "Name": "Space Mission",
     "Description": "A space mission is a project which involves the launching of a spacecraft.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "spaceflight.space_mission.destination",
+            "Sid": "spaceflight.space_mission.destination",
             "Name": "Destination",
             "Description": "Eg. the moon, Mars, ISS, etc.",
             "ObjectType": "spaceflight.mission_destination",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.space_mission.landing_site",
+            "Sid": "spaceflight.space_mission.landing_site",
             "Name": "Landing site (on earth)",
             "Description": "The landing site back on earth",
             "ObjectType": "location.geocode",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.space_mission.launch_site",
+            "Sid": "spaceflight.space_mission.launch_site",
             "Name": "Launch site",
             "Description": "The name of the launch site for the mission",
             "ObjectType": "spaceflight.rocket_launch_site",
@@ -35,7 +35,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.space_mission.end_date",
+            "Sid": "spaceflight.space_mission.end_date",
             "Name": "Mission end date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -43,7 +43,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.space_mission.start_date",
+            "Sid": "spaceflight.space_mission.start_date",
             "Name": "Mission start date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -51,7 +51,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.space_mission.space_program",
+            "Sid": "spaceflight.space_mission.space_program",
             "Name": "Space program",
             "Description": "",
             "ObjectType": "spaceflight.space_program",

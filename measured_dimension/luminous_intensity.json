@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.luminous_intensity",
+    "Sid": "measured_dimension.luminous_intensity",
     "Name": "Luminous intensity",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.luminous_intensity.measurement_unit",
+            "Sid": "measured_dimension.luminous_intensity.measurement_unit",
             "Name": "Unit of Luminous intensity",
             "Description": "",
             "ObjectType": "measured_dimension.luminous_intensity_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.luminous_intensity.value",
+            "Sid": "measured_dimension.luminous_intensity.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.rocket_status",
+    "Sid": "spaceflight.rocket_status",
     "Name": "Rocket Status",
     "Description": "Rocket status describes the current state of use of a class of rocket, such as \"active,\" \"in development,\" or \"cancelled.\"",
     "Mediator": false,

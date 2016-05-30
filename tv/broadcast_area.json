@@ -1,5 +1,5 @@
 {
-    "Id": "tv.broadcast_area",
+    "Sid": "tv.broadcast_area",
     "Name": "Broadcast Location",
     "Description": "Location of TV channel availability",
     "Mediator": false,

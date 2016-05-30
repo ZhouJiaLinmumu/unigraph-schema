@@ -1,5 +1,5 @@
 {
-    "Id": "engineering.engine",
+    "Sid": "engineering.engine",
     "Name": "Engine",
     "Description": "An engine is a device that converts fuel to kinetic energy. This type is for all engines, including product lines such as the Rolls Royce Merlin.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "engineering.engine.designer",
+            "Sid": "engineering.engine.designer",
             "Name": "Designer",
             "Description": "The original designer of this engine",
             "ObjectType": "engineering.engine_designer",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "engineering.engine.energy_source",
+            "Sid": "engineering.engine.energy_source",
             "Name": "Energy source",
             "Description": "The fuel (include oxygen) or batteries used by this engine",
             "ObjectType": "engineering.engine_energy_source",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "engineering.engine.first_ran",
+            "Sid": "engineering.engine.first_ran",
             "Name": "First Ran",
             "Description": "The date on which this engine was first run",
             "ObjectType": "type.datetime",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "engineering.engine.mass",
+            "Sid": "engineering.engine.mass",
             "Name": "Mass",
             "Description": "The dry mass (aka weight) of the engine",
             "ObjectType": "measured_dimension.mass",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "engineering.engine.power",
+            "Sid": "engineering.engine.power",
             "Name": "Output Power",
             "Description": "The maximum power produced by this engine",
             "ObjectType": "measured_dimension.power",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "engineering.engine.variants",
+            "Sid": "engineering.engine.variants",
             "Name": "Variants",
             "Description": "Engines which are slight adaptations of this engine",
             "ObjectType": "engineering.engine",
@@ -58,7 +58,7 @@
             "Required": false
         },
         {
-            "Id": "engineering.engine.category",
+            "Sid": "engineering.engine.category",
             "Name": "Category",
             "Description": "The category of engine. e.g Internal Combustion. Pulsejet",
             "ObjectType": "engineering.engine_category",

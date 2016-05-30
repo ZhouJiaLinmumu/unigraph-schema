@@ -1,5 +1,5 @@
 {
-    "Id": "sports.gender",
+    "Sid": "sports.gender",
     "Name": "Sports gender",
     "Description": "The gender of the athletes in the context of sports (sports team, league, tournament, competition, etc.). This is used when the gender restriction is specified by the sport's governing body.",
     "Mediator": false,

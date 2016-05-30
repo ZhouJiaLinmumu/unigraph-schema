@@ -1,5 +1,5 @@
 {
-    "Id": "football.team_manager_match_participation",
+    "Sid": "football.team_manager_match_participation",
     "Name": "Football Team Manager Match Participation",
     "Description": "Football Team Manager Match Participation links a Football Team Manager to the football matches in which they were present, and the team which they represented at the match.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "football.team_manager_match_participation.match",
+            "Sid": "football.team_manager_match_participation.match",
             "Name": "Match",
             "Description": "The match participated in by the manager",
             "ObjectType": "football.match",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "football.team_manager_match_participation.team",
+            "Sid": "football.team_manager_match_participation.team",
             "Name": "Team",
             "Description": "The team represented by this manager at this match",
             "ObjectType": "football.team",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "football.team_manager_match_participation.manager",
+            "Sid": "football.team_manager_match_participation.manager",
             "Name": "Manager",
             "Description": "The football (soccer) team manager present at the football match",
             "ObjectType": "football.team_manager",

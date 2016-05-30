@@ -1,5 +1,5 @@
 {
-    "Id": "type.datetime",
+    "Sid": "type.datetime",
     "Name": "Date/Time",
     "Description": "The concept type of dates.",
     "Mediator": false,

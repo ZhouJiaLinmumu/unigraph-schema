@@ -1,5 +1,5 @@
 {
-    "Id": "music.release_track",
+    "Sid": "music.release_track",
     "Name": "Release track",
     "Description": "A Release Track is a track as it appears on a particular music release. A release track may only appear on a single release. However, a single recording of a piece of music may have several release tracks - one for each release the recording is used on.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.release_track.length",
+            "Sid": "music.release_track.length",
             "Name": "Length",
             "Description": "The length of this release track.",
             "ObjectType": "measured_dimension.time",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "music.release_track.release",
+            "Sid": "music.release_track.release",
             "Name": "Release",
             "Description": "The release that this track is listed on.",
             "ObjectType": "music.release",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "music.release_track.track_number",
+            "Sid": "music.release_track.track_number",
             "Name": "Track #",
             "Description": "The track number of this recording on this release.",
             "ObjectType": "type.int",

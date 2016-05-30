@@ -1,5 +1,5 @@
 {
-    "Id": "education.school_category",
+    "Sid": "education.school_category",
     "Name": "School category",
     "Description": "\"School category\" is used to denote the variety or class an educational instution belongs to, such as \"grammar school\" or \"parochial school\". Institutions may be of more than one type - a private school may also be a Catholic school, for example.",
     "Mediator": false,

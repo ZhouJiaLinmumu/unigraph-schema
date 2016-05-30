@@ -1,5 +1,5 @@
 {
-    "Id": "film.editor",
+    "Sid": "film.editor",
     "Name": "Film editor",
     "Description": "The Film Editor type includes people who have edited films.",
     "Mediator": false,

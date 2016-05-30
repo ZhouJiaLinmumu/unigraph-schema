@@ -1,5 +1,5 @@
 {
-    "Id": "government.politician",
+    "Sid": "government.politician",
     "Name": "Politician",
     "Description": "Any person who has held or sought a position in a government. The term \"politician\" may not be strictly accurate for some positions such as kings, but we have to call it something! Suggestions for better names are welcome.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "music.concert_performance",
+    "Sid": "music.concert_performance",
     "Name": "Concert Performance",
     "Description": "This type connects musical artists to concert performances.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.concert_performance.artist",
+            "Sid": "music.concert_performance.artist",
             "Name": "Artist",
             "Description": "",
             "ObjectType": "music.artist",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "music.concert_performance.band_members",
+            "Sid": "music.concert_performance.band_members",
             "Name": "Band Members",
             "Description": "",
             "ObjectType": "music.artist",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "music.concert_performance.performance_role",
+            "Sid": "music.concert_performance.performance_role",
             "Name": "Performance Role",
             "Description": "",
             "ObjectType": "music.concert_performance_role",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "music.concert_performance.concert",
+            "Sid": "music.concert_performance.concert",
             "Name": "Concert",
             "Description": "The concert this performance was a part of. This should be a specific concert that occurred on a specific date; do not enter tours or series here.",
             "ObjectType": "music.concert",

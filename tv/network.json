@@ -1,5 +1,5 @@
 {
-    "Id": "tv.network",
+    "Sid": "tv.network",
     "Name": "TV Network",
     "Description": "This type is for TV networks.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.network.areas_served",
+            "Sid": "tv.network.areas_served",
             "Name": "Areas Served",
             "Description": "",
             "ObjectType": "tv.broadcast_area",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "tv.network.channels",
+            "Sid": "tv.network.channels",
             "Name": "Channels",
             "Description": "",
             "ObjectType": "tv.channel",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "tv.network.former_names",
+            "Sid": "tv.network.former_names",
             "Name": "Former Names",
             "Description": "Names previously used by this network.",
             "ObjectType": "type.text",

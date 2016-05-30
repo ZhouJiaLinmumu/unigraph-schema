@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.angular_acceleration_unit",
+    "Sid": "measured_dimension.angular_acceleration_unit",
     "Name": "Unit of Angular Acceleration",
     "Description": "Units of angular acceleration measure the change in angular velocity over time.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "measured_dimension.angular_acceleration_unit.abbreviations",
+            "Sid": "measured_dimension.angular_acceleration_unit.abbreviations",
             "Name": "Abbreviations",
             "Description": "Abbreviated text representations for this unit",
             "ObjectType": "type.rawstring",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "measured_dimension.angular_acceleration_unit.canonical_abbreviation",
+            "Sid": "measured_dimension.angular_acceleration_unit.canonical_abbreviation",
             "Name": "Canonical abbreviation",
             "Description": "Globally recognised abbreviated text representation for this unit.",
             "ObjectType": "type.rawstring",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "measured_dimension.angular_acceleration_unit.measurement_system",
+            "Sid": "measured_dimension.angular_acceleration_unit.measurement_system",
             "Name": "Measurement System",
             "Description": "The measurement system this unit belongs to",
             "ObjectType": "measured_dimension.measurement_system",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "measured_dimension.angular_acceleration_unit.dimension",
+            "Sid": "measured_dimension.angular_acceleration_unit.dimension",
             "Name": "Measured dimension",
             "Description": "The dimension measured by this unit",
             "ObjectType": "measured_dimension.dimension",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "measured_dimension.angular_acceleration_unit.si_base_conversion_formula",
+            "Sid": "measured_dimension.angular_acceleration_unit.si_base_conversion_formula",
             "Name": "Conversion formula",
             "Description": "Conversion formula to the System International base unit",
             "ObjectType": "type.rawstring",

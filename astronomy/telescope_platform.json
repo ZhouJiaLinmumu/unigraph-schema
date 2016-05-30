@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.telescope_platform",
+    "Sid": "astronomy.telescope_platform",
     "Name": "Telescope platform",
     "Description": "Where is the telescope based? Land, sea, air, earth orbit, the moon (near-future)?",
     "Mediator": false,

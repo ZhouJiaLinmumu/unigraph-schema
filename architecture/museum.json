@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.museum",
+    "Sid": "architecture.museum",
     "Name": "Museum",
     "Description": "A museum is a \"permanent institution in the service of society and of its development, open to the public, which acquires, conserves, researches, communicates and exhibits the tangible and intangible heritage of humanity and its environment, for the purposes of education, study, and enjoyment\", as defined by the International Council of Museums.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "architecture.museum.address",
+            "Sid": "architecture.museum.address",
             "Name": "Address",
             "Description": "The street address of the museum",
             "ObjectType": "location.mailing_address",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.museum.director",
+            "Sid": "architecture.museum.director",
             "Name": "Director",
             "Description": "The lead person of the museum's governing body",
             "ObjectType": "architecture.museum_director",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.museum.established",
+            "Sid": "architecture.museum.established",
             "Name": "Established",
             "Description": "When it began",
             "ObjectType": "type.datetime",
@@ -35,7 +35,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.museum.museum_type",
+            "Sid": "architecture.museum.museum_type",
             "Name": "Type of museum",
             "Description": "A categorisation of a museum based primarily on the collections held",
             "ObjectType": "architecture.museum_type",
@@ -43,7 +43,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.museum.visitors",
+            "Sid": "architecture.museum.visitors",
             "Name": "Visitors",
             "Description": "Annual visitor numbers",
             "ObjectType": "measured_dimension.dated_int",

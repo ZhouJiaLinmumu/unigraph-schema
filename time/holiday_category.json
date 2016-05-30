@@ -1,5 +1,5 @@
 {
-    "Id": "time.holiday_category",
+    "Sid": "time.holiday_category",
     "Name": "Holiday Category",
     "Description": "This type is used to categorize holidays into groupings such as national holidays, religious holidays, etc.",
     "Mediator": false,

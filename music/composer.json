@@ -1,5 +1,5 @@
 {
-    "Id": "music.composer",
+    "Sid": "music.composer",
     "Name": "Composer",
     "Description": "A composer is a person or group who has created the music for a musical composition.",
     "Mediator": false,

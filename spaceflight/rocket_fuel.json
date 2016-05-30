@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.rocket_fuel",
+    "Sid": "spaceflight.rocket_fuel",
     "Name": "Rocket Fuel",
     "Description": "A rocket fuel is any substance that can be used to provide thrust in a rocket engine, including both fuels and oxidizers.",
     "Mediator": false,

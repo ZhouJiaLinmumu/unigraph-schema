@@ -1,5 +1,5 @@
 {
-    "Id": "film.film_job",
+    "Sid": "film.film_job",
     "Name": "Film job",
     "Description": "The Film Job type includes all work positions on a film crew, both above and below the line.",
     "Mediator": false,

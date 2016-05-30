@@ -1,5 +1,5 @@
 {
-    "Id": "geology.period",
+    "Sid": "geology.period",
     "Name": "Geological time period",
     "Description": "Geological period a rock formed",
     "Mediator": false,

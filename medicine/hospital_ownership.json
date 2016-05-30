@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.hospital_ownership",
+    "Sid": "medicine.hospital_ownership",
     "Name": "Hospital Ownership",
     "Description": "This type connects hospitals and their owners.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "medicine.hospital_ownership.end_date",
+            "Sid": "medicine.hospital_ownership.end_date",
             "Name": "End Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.hospital_ownership.ownership_status",
+            "Sid": "medicine.hospital_ownership.ownership_status",
             "Name": "Ownership Status",
             "Description": "The type of ownership this hospital has; e.g. non-profit, state, military, etc.",
             "ObjectType": "medicine.hospital_ownership_status",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "medicine.hospital_ownership.start_date",
+            "Sid": "medicine.hospital_ownership.start_date",
             "Name": "Start Date",
             "Description": "",
             "ObjectType": "type.datetime",

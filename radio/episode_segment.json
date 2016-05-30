@@ -1,5 +1,5 @@
 {
-    "Id": "radio.episode_segment",
+    "Sid": "radio.episode_segment",
     "Name": "Radio episode segment",
     "Description": "This type is for any sub-section of a radio episode.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "radio.episode_segment.subjects",
+            "Sid": "radio.episode_segment.subjects",
             "Name": "Subjects",
             "Description": "The subject or subjects of this segment.",
             "ObjectType": "radio.radio_subject",

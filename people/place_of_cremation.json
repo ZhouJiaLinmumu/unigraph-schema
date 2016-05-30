@@ -1,5 +1,5 @@
 {
-    "Id": "people.place_of_cremation",
+    "Sid": "people.place_of_cremation",
     "Name": "Place of cremation",
     "Description": "The location where the body was cremated.",
     "Mediator": false,

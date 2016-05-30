@@ -1,5 +1,5 @@
 {
-    "Id": "sports.sport",
+    "Sid": "sports.sport",
     "Name": "Sport",
     "Description": "A game which involves some form of physical prowess.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.brake_specific_fuel_consumption",
+    "Sid": "measured_dimension.brake_specific_fuel_consumption",
     "Name": "Brake specific fuel consumption",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.brake_specific_fuel_consumption.measurement_unit",
+            "Sid": "measured_dimension.brake_specific_fuel_consumption.measurement_unit",
             "Name": "Unit of Brake specific fuel consumption",
             "Description": "",
             "ObjectType": "measured_dimension.brake_specific_fuel_consumption_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.brake_specific_fuel_consumption.value",
+            "Sid": "measured_dimension.brake_specific_fuel_consumption.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

@@ -1,5 +1,5 @@
 {
-    "Id": "religion.monastery",
+    "Sid": "religion.monastery",
     "Name": "Monastery",
     "Description": "A monastery is any residential religious community, regardless of the religion or gender of its residents. This means that the term is used broadly, to include monasteries, convents, abbeys, etc.",
     "Mediator": false,
@@ -13,7 +13,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "religion.monastery.religion",
+            "Sid": "religion.monastery.religion",
             "Name": "Religion",
             "Description": "",
             "ObjectType": "religion.religion",

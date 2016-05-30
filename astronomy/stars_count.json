@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.stars_count",
+    "Sid": "astronomy.stars_count",
     "Name": "Number of stars",
     "Description": "The best estimated count of the total number of stars in a galaxy.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.stars_count.stars",
+            "Sid": "astronomy.stars_count.stars",
             "Name": "Stars",
             "Description": "Estimated number of stars in the celestial body/region",
             "ObjectType": "type.int",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "astronomy.stars_count.uncertainty",
+            "Sid": "astronomy.stars_count.uncertainty",
             "Name": "Uncertainty",
             "Description": "The estimate error range +/- value",
             "ObjectType": "type.int",

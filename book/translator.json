@@ -1,5 +1,5 @@
 {
-    "Id": "book.translator",
+    "Sid": "book.translator",
     "Name": "Translator",
     "Description": "A translator is a person who adapts a written work from one language into another.",
     "Mediator": false,

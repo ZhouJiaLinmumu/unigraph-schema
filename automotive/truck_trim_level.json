@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.truck_trim_level",
+    "Sid": "automotive.truck_trim_level",
     "Name": "Truck Trim Level",
     "Description": "The truck trim level should be asserted on topics that are trim levels of passenger trucks.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.truck_trim_level.cargo_bed",
+            "Sid": "automotive.truck_trim_level.cargo_bed",
             "Name": "Cargo Bed",
             "Description": "",
             "ObjectType": "automotive.cargo_bed",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.truck_trim_level.flareside",
+            "Sid": "automotive.truck_trim_level.flareside",
             "Name": "Flareside",
             "Description": "Some trucks have a flared side in the truck bed",
             "ObjectType": "type.boolean",

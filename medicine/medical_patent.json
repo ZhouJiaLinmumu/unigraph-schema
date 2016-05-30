@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.medical_patent",
+    "Sid": "medicine.medical_patent",
     "Name": "Medical Patent",
     "Description": "Medical and drug related patents",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "music.singer",
+    "Sid": "music.singer",
     "Name": "Singer",
     "Description": "A singer is anyone who sings and performs vocals.",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.singer.vocal_range",
+            "Sid": "music.singer.vocal_range",
             "Name": "Vocal Range",
             "Description": "The voice part(s) sung by this artist.",
             "ObjectType": "music.voice",

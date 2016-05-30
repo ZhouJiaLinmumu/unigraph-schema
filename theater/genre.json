@@ -1,5 +1,5 @@
 {
-    "Id": "theater.genre",
+    "Sid": "theater.genre",
     "Name": "Theater Genre",
     "Description": "This type is for all genres of plays.",
     "Mediator": false,

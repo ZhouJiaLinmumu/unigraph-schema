@@ -1,5 +1,5 @@
 {
-    "Id": "exhibitions.type",
+    "Sid": "exhibitions.type",
     "Name": "Type of Exhibition",
     "Description": "A \"type of exhibition\" is a general category for classifying exhibitions. Exhibitions can be categorized along a number of different dimensions, such as the type of thing being exhibited (e.g. photography or videos), the target audience (children's exhibition), whether it is permanent, temporary or travelling, or what the broad subject matter is (television, history, science).",
     "Mediator": false,

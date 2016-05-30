@@ -1,5 +1,5 @@
 {
-    "Id": "opera.libretto",
+    "Sid": "opera.libretto",
     "Name": "Opera Libretto",
     "Description": "This type is for opera libretti, when they are considered as distinct from the operas themselves.",
     "Mediator": false,

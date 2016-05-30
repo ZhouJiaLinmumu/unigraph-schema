@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.airport_destinations",
+    "Sid": "aviation.airport_destinations",
     "Name": "Destinations available from this airport",
     "Description": "This type represents the towns that can be reached from the particular airport. The cities to which airlines operating at the airport have regular flights to.",
     "Mediator": false,

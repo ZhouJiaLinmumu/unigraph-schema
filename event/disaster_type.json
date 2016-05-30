@@ -1,5 +1,5 @@
 {
-    "Id": "event.disaster_type",
+    "Sid": "event.disaster_type",
     "Name": "Disaster type",
     "Description": "This type is for categories of disaster (such as flood, earthquake, fire, etc.).",
     "Mediator": false,

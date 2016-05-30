@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.meteor_shower",
+    "Sid": "astronomy.meteor_shower",
     "Name": "Meteor Shower",
     "Description": "Meteor showers (some of which are known as \"meteor storms\" or \"meteor outbursts\") are celestial events in which a number of meteors are observed to radiate from one point in the night sky. These meteors are caused by streams of cosmic debris called meteoro. Meteor showers are almost always named after the constellation from which the meteors appear to originate.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.meteor_shower.meteor_shower_observation",
+            "Sid": "astronomy.meteor_shower.meteor_shower_observation",
             "Name": "Meteor shower observation",
             "Description": "Observed meteor shower occurrences of this meteor shower.",
             "ObjectType": "astronomy.meteor_shower_occurrence",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.meteor_shower.source",
+            "Sid": "astronomy.meteor_shower.source",
             "Name": "Source of meteor shower",
             "Description": "",
             "ObjectType": "astronomy.comet",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.meteor_shower.radiant",
+            "Sid": "astronomy.meteor_shower.radiant",
             "Name": "Radiant",
             "Description": "This is the perceived origin point of the meteors of the meteor shower within a particular constellation at the highest zenithal hourly rate by a terrestrial observer.",
             "ObjectType": "astronomy.constellation",

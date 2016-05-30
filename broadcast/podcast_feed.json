@@ -1,5 +1,5 @@
 {
-    "Id": "broadcast.podcast_feed",
+    "Sid": "broadcast.podcast_feed",
     "Name": "Podcast Feed",
     "Description": "A feed for an audio or video Podcast.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "broadcast.podcast_feed.avg_media_length",
+            "Sid": "broadcast.podcast_feed.avg_media_length",
             "Name": "Average Media Length",
             "Description": "Approx. avg. episode length",
             "ObjectType": "measured_dimension.time",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "broadcast.podcast_feed.date_published",
+            "Sid": "broadcast.podcast_feed.date_published",
             "Name": "Date Published",
             "Description": "Date this feed was last published.",
             "ObjectType": "type.datetime",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "broadcast.podcast_feed.media_format",
+            "Sid": "broadcast.podcast_feed.media_format",
             "Name": "Media Format",
             "Description": "The mime types of the episodes of the podcast.",
             "ObjectType": "broadcast.media_type",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "broadcast.podcast_feed.items_number",
+            "Sid": "broadcast.podcast_feed.items_number",
             "Name": "Number Of Items",
             "Description": "Approx. number of episodes.",
             "ObjectType": "type.int",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "broadcast.podcast_feed.publication_frequency",
+            "Sid": "broadcast.podcast_feed.publication_frequency",
             "Name": "Publication Frequency",
             "Description": "Approx. frequency of publications.",
             "ObjectType": "measured_dimension.frequency",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "broadcast.podcast_feed.uri",
+            "Sid": "broadcast.podcast_feed.uri",
             "Name": "URI",
             "Description": "The feed URL.",
             "ObjectType": "type.uri",

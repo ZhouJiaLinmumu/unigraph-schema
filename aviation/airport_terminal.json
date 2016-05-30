@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.airport_terminal",
+    "Sid": "aviation.airport_terminal",
     "Name": "Airport terminal",
     "Description": "An area at an airport where passengers can purchase tickets, transfer luggage, go through security, and board airplanes. It may or may not be a standalone building. It may contain one or more concourses, or it may itself act as a concourse.",
     "Mediator": false,

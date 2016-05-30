@@ -1,5 +1,5 @@
 {
-    "Id": "travel.guidebook",
+    "Sid": "travel.guidebook",
     "Name": "Guidebook",
     "Description": "A guide book is a book for tourists or travelers that provides details about a geographic location, tourist destination, or itinerary. It is the written equivalent of a tour guide. It will usually include details, such as phone numbers, addresses, prices, and reviews of hotels and other lodgings, restaurants, and activities. Maps of varying detail are often included. Sometimes historical and cultural information is also provided.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "travel.guidebook.series",
+            "Sid": "travel.guidebook.series",
             "Name": "Series",
             "Description": "The series, publisher, or brand of the guidebook, eg. Lonely Planet or Frommers",
             "ObjectType": "travel.guidebook_series",

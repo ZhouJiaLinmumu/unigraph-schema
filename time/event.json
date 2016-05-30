@@ -1,5 +1,5 @@
 {
-    "Id": "time.event",
+    "Sid": "time.event",
     "Name": "Event",
     "Description": "A specific event occurring through time.",
     "Mediator": false,

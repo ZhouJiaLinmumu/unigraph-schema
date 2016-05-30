@@ -1,5 +1,5 @@
 {
-    "Id": "religion.congregation",
+    "Sid": "religion.congregation",
     "Name": "Congregation",
     "Description": "This is a useful co-type for the Religious Organization type. Add this type for organizations such as churches, synagogues, temples, etc. that have a congregation associated with them.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "religion.congregation.number_in_congregation",
+            "Sid": "religion.congregation.number_in_congregation",
             "Name": "Number In Congregation",
             "Description": "",
             "ObjectType": "measured_dimension.dated_int",

@@ -1,5 +1,5 @@
 {
-    "Id": "rail.railway_operator",
+    "Sid": "rail.railway_operator",
     "Name": "Railway operator",
     "Description": "A railway operator is an organization that manages a railway.",
     "Mediator": false,

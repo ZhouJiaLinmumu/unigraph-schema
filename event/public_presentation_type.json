@@ -1,5 +1,5 @@
 {
-    "Id": "event.public_presentation_type",
+    "Sid": "event.public_presentation_type",
     "Name": "Public presentation type",
     "Description": "This type provides a way of categorizing public presentations, such as speeches, debates, sermons, etc.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "people.professional_field",
+    "Sid": "people.professional_field",
     "Name": "Professional field",
     "Description": "A professional field is a area of specialization that relates to one or more occupations or job titles. A professional field does not necessarily require specialized education or certification within a professional association. It is simply a mechanism for linking specific job titles with the abstract fields of work that they apply to.",
     "Mediator": false,

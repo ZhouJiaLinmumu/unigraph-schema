@@ -1,5 +1,5 @@
 {
-    "Id": "location.adjoining_relationship",
+    "Sid": "location.adjoining_relationship",
     "Name": "Adjoining Relationship",
     "Description": "Adjoining relationship is a mediating type used to express the relationship between two locations that adjoin each other, for instance by sharing a border.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.adjoining_relationship.adjoins",
+            "Sid": "location.adjoining_relationship.adjoins",
             "Name": "Adjoins",
             "Description": "",
             "ObjectType": "location.location",

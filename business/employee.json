@@ -1,5 +1,5 @@
 {
-    "Id": "business.employee",
+    "Sid": "business.employee",
     "Name": "Employee",
     "Description": "An employee works for a company or organization.",
     "Mediator": false,

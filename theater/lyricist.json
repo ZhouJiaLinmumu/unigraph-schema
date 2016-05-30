@@ -1,5 +1,5 @@
 {
-    "Id": "theater.lyricist",
+    "Sid": "theater.lyricist",
     "Name": "Theatrical Lyricist",
     "Description": "A theatrical lyricist is someone who has written lyrics for a play or musical.",
     "Mediator": false,

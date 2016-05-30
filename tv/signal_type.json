@@ -1,5 +1,5 @@
 {
-    "Id": "tv.signal_type",
+    "Sid": "tv.signal_type",
     "Name": "TV signal type",
     "Description": "This type has classifications of television signals - digital or analog.",
     "Mediator": false,

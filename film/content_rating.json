@@ -1,5 +1,5 @@
 {
-    "Id": "film.content_rating",
+    "Sid": "film.content_rating",
     "Name": "Film rating",
     "Description": "The Film Rating type holds film content ratings by country, such as the US MPAA system of G, PG, PG-13, R and NC-17.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "film.content_rating.country",
+            "Sid": "film.content_rating.country",
             "Name": "Country",
             "Description": "",
             "ObjectType": "film.content_rating_jurisdiction",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "film.content_rating.film_rating_system",
+            "Sid": "film.content_rating.film_rating_system",
             "Name": "Film Rating System",
             "Description": "",
             "ObjectType": "film.content_rating_system",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "film.content_rating.min_accompanied_age",
+            "Sid": "film.content_rating.min_accompanied_age",
             "Name": "Minimum Accompanied Age",
             "Description": "The minimum adult-accompanied age that this rating allows",
             "ObjectType": "type.int",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "film.content_rating.min_unaccompanied_age",
+            "Sid": "film.content_rating.min_unaccompanied_age",
             "Name": "Minimum Unaccompanied Age",
             "Description": "The minimum unaccompanied age that this rating allows",
             "ObjectType": "type.int",

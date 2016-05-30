@@ -1,0 +1,36 @@
+{
+    "Sid": "unigraph.import",
+    "Name": "Import",
+    "Description": "An import is a combination of a dataset and the rules for its data extraction and mapping.",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "type.object"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Sid": "unigraph.import.dataset",
+            "Name": "Dataset",
+            "Description": "",
+            "ObjectType": "unigraph.document",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Sid": "unigraph.import.import_bot",
+            "Name": "Import Bot",
+            "Description": "",
+            "ObjectType": "unigraph.import_bot",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Sid": "unigraph.import.date",
+            "Name": "Import date",
+            "Description": "",
+            "ObjectType": "type.datetime",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

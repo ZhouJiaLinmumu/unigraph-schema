@@ -1,5 +1,5 @@
 {
-    "Id": "business.shopping_center_owner",
+    "Sid": "business.shopping_center_owner",
     "Name": "Shopping center owner",
     "Description": "A shopping center owner is a person or organization that owns a shopping center or mall.",
     "Mediator": false,

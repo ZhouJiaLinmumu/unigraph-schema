@@ -1,5 +1,5 @@
 {
-    "Id": "people.measured_body_part",
+    "Sid": "people.measured_body_part",
     "Name": "Measured body part",
     "Description": "This type is for any part of the human body that can be measured; generally speaking, since any part of the anatomy is measurable, it should only be used for those parts for which an actual person's measurement exists in UniGraph. It differs from the type Anatomical Structure in that some measurements (such as hips or bust) do not correspond exactly to a single structure). It is used in combination with the Measured Person and Human Measurement types.",
     "Mediator": false,

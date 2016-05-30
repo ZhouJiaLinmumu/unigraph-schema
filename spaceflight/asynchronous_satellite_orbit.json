@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.asynchronous_satellite_orbit",
+    "Sid": "spaceflight.asynchronous_satellite_orbit",
     "Name": "Satellite Orbit, Asynchronous",
     "Description": "This type holds details about asynchronous orbits of artificial Earth satellites.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "spaceflight.asynchronous_satellite_orbit.apogee",
+            "Sid": "spaceflight.asynchronous_satellite_orbit.apogee",
             "Name": "Apogee",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.asynchronous_satellite_orbit.inclination",
+            "Sid": "spaceflight.asynchronous_satellite_orbit.inclination",
             "Name": "Inclination",
             "Description": "",
             "ObjectType": "measured_dimension.angle",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.asynchronous_satellite_orbit.orbit_type",
+            "Sid": "spaceflight.asynchronous_satellite_orbit.orbit_type",
             "Name": "Orbit Type",
             "Description": "",
             "ObjectType": "spaceflight.satellite_orbit_type",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "spaceflight.asynchronous_satellite_orbit.perigee",
+            "Sid": "spaceflight.asynchronous_satellite_orbit.perigee",
             "Name": "Perigee",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.asynchronous_satellite_orbit.period",
+            "Sid": "spaceflight.asynchronous_satellite_orbit.period",
             "Name": "Period",
             "Description": "",
             "ObjectType": "measured_dimension.time",
@@ -47,7 +47,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.asynchronous_satellite_orbit.satellite",
+            "Sid": "spaceflight.asynchronous_satellite_orbit.satellite",
             "Name": "Satellite",
             "Description": "",
             "ObjectType": "spaceflight.satellite",

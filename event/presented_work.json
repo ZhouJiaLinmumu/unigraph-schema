@@ -1,5 +1,5 @@
 {
-    "Id": "event.presented_work",
+    "Sid": "event.presented_work",
     "Name": "Speech or presentation",
     "Description": "A particular speaking event with a place, time. Includes debates, public discussions, lectures, addresses, presentations, roundtable discussions.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "event.presented_work.date",
+            "Sid": "event.presented_work.date",
             "Name": "Date",
             "Description": "The date the presentation was given. This may be slightly different than the date of the speaking event, in that a speaking event may occur over several days. It also allows the date of a speech to be recorded without there being a related speaking event.",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "event.presented_work.work",
+            "Sid": "event.presented_work.work",
             "Name": "Presented work",
             "Description": "Use if its text has its own topic - eg. gettysberg address, which has been read many times",
             "ObjectType": "event.presented_work_text",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "event.presented_work.speaker",
+            "Sid": "event.presented_work.speaker",
             "Name": "Speaker(s)",
             "Description": "Who gave presentation",
             "ObjectType": "event.public_speaker",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "event.presented_work.format",
+            "Sid": "event.presented_work.format",
             "Name": "Type or format of presentation",
             "Description": "Type of presentation' - roundtable discussion, televised address...",
             "ObjectType": "event.public_presentation_type",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "event.presented_work.event",
+            "Sid": "event.presented_work.event",
             "Name": "Event",
             "Description": "Where it was presented",
             "ObjectType": "event.public_speaking_event",

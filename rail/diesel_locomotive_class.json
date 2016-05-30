@@ -1,5 +1,5 @@
 {
-    "Id": "rail.diesel_locomotive_class",
+    "Sid": "rail.diesel_locomotive_class",
     "Name": "Diesel locomotive class",
     "Description": "A diesel locomotive class is a class of locomotive that runs on diesel fuel.",
     "Mediator": false,

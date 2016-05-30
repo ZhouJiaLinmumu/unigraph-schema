@@ -1,5 +1,5 @@
 {
-    "Id": "business.business_operation",
+    "Sid": "business.business_operation",
     "Name": "Business Operation",
     "Description": "Business operation refers to a company, concern or other operation with the intention of earning revenue. There are several properties on this type relating to financial information, primarily chosen due to being GAAP reporting requirements and their use in many standard accounting ratios. Also included are properties for competitive spaces and major customers.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.business_operation.assets",
+            "Sid": "business.business_operation.assets",
             "Name": "Total Assets",
             "Description": "",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "business.business_operation.cash",
+            "Sid": "business.business_operation.cash",
             "Name": "Cash",
             "Description": "",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "business.business_operation.current_assets",
+            "Sid": "business.business_operation.current_assets",
             "Name": "Current Assets",
             "Description": "",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "business.business_operation.current_liabilities",
+            "Sid": "business.business_operation.current_liabilities",
             "Name": "Current Liabilities",
             "Description": "",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "business.business_operation.industry",
+            "Sid": "business.business_operation.industry",
             "Name": "Industry",
             "Description": "",
             "ObjectType": "business.industry",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "business.business_operation.liabilities",
+            "Sid": "business.business_operation.liabilities",
             "Name": "Total Liabilities",
             "Description": "",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -58,7 +58,7 @@
             "Required": false
         },
         {
-            "Id": "business.business_operation.major_customer",
+            "Sid": "business.business_operation.major_customer",
             "Name": "Major customer",
             "Description": "",
             "ObjectType": "business.customer",
@@ -66,7 +66,7 @@
             "Required": false
         },
         {
-            "Id": "business.business_operation.market_capitalization",
+            "Sid": "business.business_operation.market_capitalization",
             "Name": "Market capitalization",
             "Description": "The total value of all tradable shares for this company on this date. If a company has multiple issues, this number represents the sum of those issues.",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -74,7 +74,7 @@
             "Required": false
         },
         {
-            "Id": "business.business_operation.net_profit",
+            "Sid": "business.business_operation.net_profit",
             "Name": "Net profit",
             "Description": "",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -82,7 +82,7 @@
             "Required": false
         },
         {
-            "Id": "business.business_operation.operating_income",
+            "Sid": "business.business_operation.operating_income",
             "Name": "Operating Income",
             "Description": "",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -90,7 +90,7 @@
             "Required": false
         },
         {
-            "Id": "business.business_operation.retained_earnings",
+            "Sid": "business.business_operation.retained_earnings",
             "Name": "Retained Earnings",
             "Description": "",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -98,7 +98,7 @@
             "Required": false
         },
         {
-            "Id": "business.business_operation.revenue",
+            "Sid": "business.business_operation.revenue",
             "Name": "Revenue",
             "Description": "The total amount of money brought in by this business operation, including money from sales of goods and services, and contributed income.",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -106,7 +106,7 @@
             "Required": false
         },
         {
-            "Id": "business.business_operation.total_annual_expenses",
+            "Sid": "business.business_operation.total_annual_expenses",
             "Name": "Total annual expenses",
             "Description": "The total annual expenses for this organization.",
             "ObjectType": "measured_dimension.dated_currency_amount",

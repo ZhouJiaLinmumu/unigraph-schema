@@ -1,5 +1,5 @@
 {
-    "Id": "sports.professional_team",
+    "Sid": "sports.professional_team",
     "Name": "Professional Team",
     "Description": "A sports team that pays its players in order to perform.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.professional_team.owner",
+            "Sid": "sports.professional_team.owner",
             "Name": "Owner(s)",
             "Description": "",
             "ObjectType": "sports.team_owner",

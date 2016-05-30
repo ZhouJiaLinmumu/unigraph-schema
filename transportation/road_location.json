@@ -1,5 +1,5 @@
 {
-    "Id": "transportation.road_location",
+    "Sid": "transportation.road_location",
     "Name": "Road Location",
     "Description": "The geographic location that the road spans",
     "Mediator": false,

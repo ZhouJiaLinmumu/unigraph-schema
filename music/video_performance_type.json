@@ -1,5 +1,5 @@
 {
-    "Id": "music.video_performance_type",
+    "Sid": "music.video_performance_type",
     "Name": "Special music video performance type",
     "Description": "Used to denote the performer was utilized in a notable manner in the music video (EG., band member, dancer, a cameo appearance, etc.).",
     "Mediator": false,

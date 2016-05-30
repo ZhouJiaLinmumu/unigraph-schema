@@ -1,5 +1,5 @@
 {
-    "Id": "education.honorary_degree",
+    "Sid": "education.honorary_degree",
     "Name": "Honorary Degree",
     "Description": "An honorary degree is an academic degree for which a university (or other degree-awarding institution) has waived the usual requirements (such as matriculation, residence, study and the passing of examinations). The degree itself is typically a doctorate or, less commonly, a master's degree, and may be awarded to someone who has no prior connection with the institution in question.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "education.honorary_degree.awarded_on",
+            "Sid": "education.honorary_degree.awarded_on",
             "Name": "Awarded on",
             "Description": "The date on which the degree was awarded",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "education.honorary_degree.degree",
+            "Sid": "education.honorary_degree.degree",
             "Name": "Degree",
             "Description": "The equivalent level of ordinary degree awarded (commonly a doctorate)",
             "ObjectType": "education.educational_degree",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "education.honorary_degree.institution",
+            "Sid": "education.honorary_degree.institution",
             "Name": "Institution",
             "Description": "The educational institution awarding the honorary degree",
             "ObjectType": "education.educational_institution",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "education.honorary_degree.recipient",
+            "Sid": "education.honorary_degree.recipient",
             "Name": "Recipient",
             "Description": "The person who received the degree",
             "ObjectType": "education.honorary_degree_recipient",

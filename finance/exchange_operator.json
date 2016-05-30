@@ -1,5 +1,5 @@
 {
-    "Id": "finance.exchange_operator",
+    "Sid": "finance.exchange_operator",
     "Name": "Exchange operator",
     "Description": "An organization that operates an exchange.",
     "Mediator": false,

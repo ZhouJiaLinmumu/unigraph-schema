@@ -1,5 +1,5 @@
 {
-    "Id": "government.legislative_session",
+    "Sid": "government.legislative_session",
     "Name": "Legislative session",
     "Description": "A legislative session is a meeting or assembly of a legislative body for a given period of time, usually the period between two elections. This type has properties for the session's beginning and end dates, the legislature it is a session of, and the members of the legislature during the session. It can be used by other types that may refer to things that are tied to a specific session, such as committee membership.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.legislative_session.start_date",
+            "Sid": "government.legislative_session.start_date",
             "Name": "Date began",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "government.legislative_session.end_date",
+            "Sid": "government.legislative_session.end_date",
             "Name": "Date ended",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "government.legislative_session.legislature",
+            "Sid": "government.legislative_session.legislature",
             "Name": "Legislature",
             "Description": "The legislature (or other governmental body) that this is a session of.",
             "ObjectType": "government.governmental_body",

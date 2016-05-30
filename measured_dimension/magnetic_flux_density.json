@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.magnetic_flux_density",
+    "Sid": "measured_dimension.magnetic_flux_density",
     "Name": "Magnetic flux density",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.magnetic_flux_density.measurement_unit",
+            "Sid": "measured_dimension.magnetic_flux_density.measurement_unit",
             "Name": "Unit of Magnetic flux density",
             "Description": "",
             "ObjectType": "measured_dimension.magnetic_flux_density_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.magnetic_flux_density.value",
+            "Sid": "measured_dimension.magnetic_flux_density.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

@@ -1,5 +1,5 @@
 {
-    "Id": "meteorology.cloud_classification",
+    "Sid": "meteorology.cloud_classification",
     "Name": "Cloud classification",
     "Description": "Cloud families are used to group types of clouds together based on the altitude of the cloud's base.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "meteorology.cloud_classification.max_altitude",
+            "Sid": "meteorology.cloud_classification.max_altitude",
             "Name": "Maximum Altitude",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.cloud_classification.min_altitude",
+            "Sid": "meteorology.cloud_classification.min_altitude",
             "Name": "Minimum Altitude",
             "Description": "",
             "ObjectType": "measured_dimension.distance",

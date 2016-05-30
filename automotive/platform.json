@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.platform",
+    "Sid": "automotive.platform",
     "Name": "Platform",
     "Description": "Automotive platform is a layout of a set of under-body components (floor-plan, suspension, steering mechanism, power-train, wheelbase, and engine placement) that can be shared across different models of an automotive line or multiple lines.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.platform.related",
+            "Sid": "automotive.platform.related",
             "Name": "Related Platforms",
             "Description": "",
             "ObjectType": "automotive.platform",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.platform.successor",
+            "Sid": "automotive.platform.successor",
             "Name": "Successor",
             "Description": "",
             "ObjectType": "automotive.platform",

@@ -1,0 +1,11 @@
+{
+    "Sid": "unigraph.agent",
+    "Name": "Agent",
+    "Description": "Data Agent: Person, Import or Bot",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "type.object"
+    ],
+    "Enumerated": false,
+    "Properties": null
+}

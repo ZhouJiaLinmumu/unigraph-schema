@@ -1,5 +1,5 @@
 {
-    "Id": "religion.worship_place_type",
+    "Sid": "religion.worship_place_type",
     "Name": "Type of place of worship",
     "Description": "This type is for categories of different kinds of place of worship. Distinctions can be based on religion (e.g. Mormon temple vs. Hindu temple) or on various other criteria within religions (e.g. Cathedral vs. Basilica in Roman Catholicism).",
     "Mediator": false,

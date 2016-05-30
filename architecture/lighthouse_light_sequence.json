@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.lighthouse_light_sequence",
+    "Sid": "architecture.lighthouse_light_sequence",
     "Name": "Light sequence",
     "Description": "The compound value type used to hold a light sequence of flashes and eclipses.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "architecture.lighthouse_light_sequence.eclipse_duration",
+            "Sid": "architecture.lighthouse_light_sequence.eclipse_duration",
             "Name": "Eclipse duration",
             "Description": "The eclipse (dark or unlit) duration period.",
             "ObjectType": "measured_dimension.time",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "architecture.lighthouse_light_sequence.flash_duration",
+            "Sid": "architecture.lighthouse_light_sequence.flash_duration",
             "Name": "Flash duration",
             "Description": "The flash duration period.",
             "ObjectType": "measured_dimension.time",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "architecture.lighthouse_light_sequence.seq_num",
+            "Sid": "architecture.lighthouse_light_sequence.seq_num",
             "Name": "Seq #",
             "Description": "The sequence number that holds the relationship of flash (lit duration) and it's corresponding eclipse (dark duration).",
             "ObjectType": "type.int",

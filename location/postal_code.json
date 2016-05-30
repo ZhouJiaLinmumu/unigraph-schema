@@ -1,5 +1,5 @@
 {
-    "Id": "location.postal_code",
+    "Sid": "location.postal_code",
     "Name": "Postal Code",
     "Description": "'Postal Code' is used by mailing address and is intended to capture zip code or postal code information - and be general enough to support postal codes world-wide.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.postal_code.country",
+            "Sid": "location.postal_code.country",
             "Name": "Country",
             "Description": "",
             "ObjectType": "location.country",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "location.postal_code.postal_code",
+            "Sid": "location.postal_code.postal_code",
             "Name": "Postal Code",
             "Description": "This field should contain the postal code itself. The display name for this topic can be identical or be something more descriptive.",
             "ObjectType": "type.rawstring",

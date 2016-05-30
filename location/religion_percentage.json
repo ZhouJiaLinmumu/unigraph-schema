@@ -1,5 +1,5 @@
 {
-    "Id": "location.religion_percentage",
+    "Sid": "location.religion_percentage",
     "Name": "Religion percentage",
     "Description": "This type documents the percentage of religious adherents living in a given location at a certain time.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.religion_percentage.date",
+            "Sid": "location.religion_percentage.date",
             "Name": "As of date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "location.religion_percentage.percentage",
+            "Sid": "location.religion_percentage.percentage",
             "Name": "Percent of population",
             "Description": "",
             "ObjectType": "type.float",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "location.religion_percentage.religion",
+            "Sid": "location.religion_percentage.religion",
             "Name": "Religion",
             "Description": "",
             "ObjectType": "location.religion",

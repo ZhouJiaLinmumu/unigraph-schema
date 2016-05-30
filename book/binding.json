@@ -1,5 +1,5 @@
 {
-    "Id": "book.binding",
+    "Sid": "book.binding",
     "Name": "Book Binding",
     "Description": "\"Book Binding\" refers to the format of an edition of a book.",
     "Mediator": false,

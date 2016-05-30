@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.trans_neptunian_region",
+    "Sid": "astronomy.trans_neptunian_region",
     "Name": "Trans-Neptunian region",
     "Description": "A trans-Neptunian region is region of space within the Earth's Solar System but outside of Neptune's orbit.",
     "Mediator": false,

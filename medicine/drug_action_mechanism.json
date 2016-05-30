@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.drug_action_mechanism",
+    "Sid": "medicine.drug_action_mechanism",
     "Name": "Drug mechanism of action",
     "Description": "A drug's mechanism of action is the biological or chemical mechanism by which the drug acts. For example, \"Corticosteroid hormone receptor agonist\".",
     "Mediator": false,

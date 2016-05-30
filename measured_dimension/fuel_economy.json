@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.fuel_economy",
+    "Sid": "measured_dimension.fuel_economy",
     "Name": "Fuel economy",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.fuel_economy.measurement_unit",
+            "Sid": "measured_dimension.fuel_economy.measurement_unit",
             "Name": "Unit of Fuel economy",
             "Description": "",
             "ObjectType": "measured_dimension.fuel_economy_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.fuel_economy.value",
+            "Sid": "measured_dimension.fuel_economy.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

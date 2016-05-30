@@ -1,5 +1,5 @@
 {
-    "Id": "military.combatant",
+    "Sid": "military.combatant",
     "Name": "Military Combatant",
     "Description": "A military combatant is a state, nation, or other high level group which is (or has been) at war with another combatant or combatants.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "military.combatant.armed_forces",
+            "Sid": "military.combatant.armed_forces",
             "Name": "Armed forces",
             "Description": "This combatant's army, navy, air force, etc.",
             "ObjectType": "military.armed_force",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "military.combatant.includes_allies",
+            "Sid": "military.combatant.includes_allies",
             "Name": "Includes Allies",
             "Description": "",
             "ObjectType": "military.combatant",

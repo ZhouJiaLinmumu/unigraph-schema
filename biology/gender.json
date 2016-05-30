@@ -1,5 +1,5 @@
 {
-    "Id": "biology.gender",
+    "Sid": "biology.gender",
     "Name": "Organism gender",
     "Description": "The gender of the organism",
     "Mediator": false,

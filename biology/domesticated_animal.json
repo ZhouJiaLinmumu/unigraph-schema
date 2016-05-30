@@ -1,5 +1,5 @@
 {
-    "Id": "biology.domesticated_animal",
+    "Sid": "biology.domesticated_animal",
     "Name": "Domesticated animal",
     "Description": "Domesticated animals are species (or sometimes genera or subspecies) of animals that have been selectively bred by humans such that their genomes have diverged from that of the animals found in the wild.",
     "Mediator": false,

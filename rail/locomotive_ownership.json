@@ -1,5 +1,5 @@
 {
-    "Id": "rail.locomotive_ownership",
+    "Sid": "rail.locomotive_ownership",
     "Name": "Locomotive ownership",
     "Description": "This type is used to hold data about people or organizations and the locomotives they've owned.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "rail.locomotive_ownership.from_date",
+            "Sid": "rail.locomotive_ownership.from_date",
             "Name": "From date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "rail.locomotive_ownership.owner",
+            "Sid": "rail.locomotive_ownership.owner",
             "Name": "Owner",
             "Description": "",
             "ObjectType": "rail.locomotive_owner",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "rail.locomotive_ownership.to_date",
+            "Sid": "rail.locomotive_ownership.to_date",
             "Name": "To date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "rail.locomotive_ownership.locomotive",
+            "Sid": "rail.locomotive_ownership.locomotive",
             "Name": "Locomotive",
             "Description": "",
             "ObjectType": "rail.locomotive",

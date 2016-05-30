@@ -1,5 +1,5 @@
 {
-    "Id": "business.sponsorship",
+    "Sid": "business.sponsorship",
     "Name": "Sponsorship",
     "Description": "The relationship between a sponsor and the entity it sponsors.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.sponsorship.start_date",
+            "Sid": "business.sponsorship.start_date",
             "Name": "From",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "business.sponsorship.sponsored_recipient",
+            "Sid": "business.sponsorship.sponsored_recipient",
             "Name": "Sponsored Recipient",
             "Description": "",
             "ObjectType": "business.sponsored_recipient",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "business.sponsorship.end_date",
+            "Sid": "business.sponsorship.end_date",
             "Name": "To",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "business.sponsorship.sponsored_by",
+            "Sid": "business.sponsorship.sponsored_by",
             "Name": "Sponsored By",
             "Description": "",
             "ObjectType": "business.sponsor",

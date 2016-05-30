@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.space_agency",
+    "Sid": "spaceflight.space_agency",
     "Name": "Space Agency",
     "Description": "An organization that operates launch facilities and conducts space missions.",
     "Mediator": false,

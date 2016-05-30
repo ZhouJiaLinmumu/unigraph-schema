@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.ethnicity",
+    "Sid": "medicine.ethnicity",
     "Name": "Ethnicity",
     "Description": "A type that links particular ethnicity to a medical condition, trial, etc.",
     "Mediator": false,

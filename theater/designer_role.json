@@ -1,5 +1,5 @@
 {
-    "Id": "theater.designer_role",
+    "Sid": "theater.designer_role",
     "Name": "Theater Designer Role",
     "Description": "This type represents possible positions designers can hold in theatrical productions, including assistant-level positions.",
     "Mediator": false,

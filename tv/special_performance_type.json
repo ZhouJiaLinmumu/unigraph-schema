@@ -1,5 +1,5 @@
 {
-    "Id": "tv.special_performance_type",
+    "Sid": "tv.special_performance_type",
     "Name": "Special TV performance type",
     "Description": "This type is different kinds of ways that an actor can appear in a TV program, other than simply as an actor playing a role. These can include voice (of an animated character), puppeteer, or cameo. Note that this type should only be used for acting roles in fictional TV shows.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "sports.tournament_team",
+    "Sid": "sports.tournament_team",
     "Name": "Tournament Team",
     "Description": "This type is for teams that compete in multi-event tournaments, such as the Brazil women's national volleyball team.",
     "Mediator": false,

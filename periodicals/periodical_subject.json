@@ -1,5 +1,5 @@
 {
-    "Id": "periodicals.periodical_subject",
+    "Sid": "periodicals.periodical_subject",
     "Name": "Periodical Subject",
     "Description": "This type is intended to be used for specific subjects covered by periodicals. Only periodicals that are primarily devoted to a subject should be linked to it. For example, most newspapers have a business section, but listing \"business\" as the subject for all of them would obscure the few that are primarily devoted to it, making it hard if not impossible for people interested in business to find periodicals of direct interest to them.",
     "Mediator": false,

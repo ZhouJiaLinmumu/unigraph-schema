@@ -1,5 +1,5 @@
 {
-    "Id": "visual_art.art_support",
+    "Sid": "visual_art.art_support",
     "Name": "Visual art support",
     "Description": "A support is a material on which a two-dimensional artwork is executed. Examples include canvas, paper, and wood. For example, the Mona Lisa is an oil painting executed on poplar board, so its medium is oil paint and its support is poplar.",
     "Mediator": false,

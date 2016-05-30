@@ -1,5 +1,5 @@
 {
-    "Id": "sports.sport_country",
+    "Sid": "sports.sport_country",
     "Name": "Sport Country",
     "Description": "A Sport Country is any country (or other entity that is treated as a country by the organizers of the tournament) that competes in a sporting tournament, such as the Paralympics or any various world championships.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.satellite_orbit_type",
+    "Sid": "spaceflight.satellite_orbit_type",
     "Name": "Satellite Orbit Type",
     "Description": "This type is for different classifications of orbits that Earth-orbiting satellites can use.",
     "Mediator": false,

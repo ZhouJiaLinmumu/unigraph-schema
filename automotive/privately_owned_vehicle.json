@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.privately_owned_vehicle",
+    "Sid": "automotive.privately_owned_vehicle",
     "Name": "Privately Owned Vehicle",
     "Description": "Use the Privately Owned Vehicle to describe your car, your friend's car or one off custom vehicles.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.privately_owned_vehicle.exterior_color",
+            "Sid": "automotive.privately_owned_vehicle.exterior_color",
             "Name": "Exterior Color",
             "Description": "",
             "ObjectType": "automotive.exterior_color",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.privately_owned_vehicle.interior",
+            "Sid": "automotive.privately_owned_vehicle.interior",
             "Name": "Interior",
             "Description": "",
             "ObjectType": "automotive.upholstery",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.privately_owned_vehicle.make",
+            "Sid": "automotive.privately_owned_vehicle.make",
             "Name": "Make",
             "Description": "",
             "ObjectType": "automotive.make",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.privately_owned_vehicle.mileage",
+            "Sid": "automotive.privately_owned_vehicle.mileage",
             "Name": "Mileage",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.privately_owned_vehicle.model",
+            "Sid": "automotive.privately_owned_vehicle.model",
             "Name": "Model",
             "Description": "",
             "ObjectType": "automotive.model",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.privately_owned_vehicle.model_year",
+            "Sid": "automotive.privately_owned_vehicle.model_year",
             "Name": "Model Year",
             "Description": "",
             "ObjectType": "automotive.model_year",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.privately_owned_vehicle.owner",
+            "Sid": "automotive.privately_owned_vehicle.owner",
             "Name": "Owner",
             "Description": "Who owns this vehicle?",
             "ObjectType": "automotive.vehicle_owner",

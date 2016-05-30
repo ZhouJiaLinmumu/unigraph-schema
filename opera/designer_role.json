@@ -1,5 +1,5 @@
 {
-    "Id": "opera.designer_role",
+    "Sid": "opera.designer_role",
     "Name": "Opera Designer Role",
     "Description": "An \"opera designer role\" is any design role (such as lighting, costume, or scenic design) in an opera production.",
     "Mediator": false,

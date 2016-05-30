@@ -1,5 +1,5 @@
 {
-    "Id": "organization.organization_name_change",
+    "Sid": "organization.organization_name_change",
     "Name": "Organization name change",
     "Description": "This type tracks when a company changes its legal name (not their doing-business-as or other tradestyle name). For example, in 2003 the parent company Philip Morris Companies became Altria. An example of a tradestyle name, which should not be used here, is Verizon Wireless for Cellco Partnership.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "organization.organization_name_change.organization",
+            "Sid": "organization.organization_name_change.organization",
             "Name": "Company",
             "Description": "",
             "ObjectType": "organization.organization",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "organization.organization_name_change.end_date",
+            "Sid": "organization.organization_name_change.end_date",
             "Name": "End date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "organization.organization_name_change.new_name",
+            "Sid": "organization.organization_name_change.new_name",
             "Name": "The new name",
             "Description": "",
             "ObjectType": "type.text",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "organization.organization_name_change.start_date",
+            "Sid": "organization.organization_name_change.start_date",
             "Name": "Start date",
             "Description": "",
             "ObjectType": "type.datetime",

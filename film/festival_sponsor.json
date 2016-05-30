@@ -1,5 +1,5 @@
 {
-    "Id": "film.festival_sponsor",
+    "Sid": "film.festival_sponsor",
     "Name": "Film festival sponsor",
     "Description": "This type is for the companies or organizations that put on film festivals.",
     "Mediator": false,

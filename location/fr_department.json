@@ -1,5 +1,5 @@
 {
-    "Id": "location.fr_department",
+    "Sid": "location.fr_department",
     "Name": "French Department",
     "Description": "Departments are administrative units of France and many former French colonies, roughly analogous to English counties. The 100 French departments are now grouped into 22 metropolitan and four overseas regions. They are subdivided into 342 arrondissements.",
     "Mediator": false,
@@ -13,7 +13,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.fr_department.region",
+            "Sid": "location.fr_department.region",
             "Name": "Region",
             "Description": "The Region the department belongs to",
             "ObjectType": "location.fr_region",

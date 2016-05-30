@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.upholstery_color",
+    "Sid": "automotive.upholstery_color",
     "Name": "Interior",
     "Description": "Describe the interior colors of an automobile trim level.",
     "Mediator": false,

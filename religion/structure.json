@@ -1,5 +1,5 @@
 {
-    "Id": "religion.structure",
+    "Sid": "religion.structure",
     "Name": "Religious structure",
     "Description": "A structure serving religious purpose",
     "Mediator": false,

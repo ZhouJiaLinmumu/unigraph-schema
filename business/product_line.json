@@ -1,5 +1,5 @@
 {
-    "Id": "business.product_line",
+    "Sid": "business.product_line",
     "Name": "Product line",
     "Description": "A product line is a collection of consumer products that are similar, or related, in some way.  Often the products are physically similar or share similar features, uses, etc.  An example of a product line is \"Crest Toothpaste\" or \"MacBook\".",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.product_line.brand",
+            "Sid": "business.product_line.brand",
             "Name": "Brand",
             "Description": "The brand that this product line is marketed under.",
             "ObjectType": "business.brand",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "business.product_line.introduced",
+            "Sid": "business.product_line.introduced",
             "Name": "Introduced",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "business.product_line.parent_product_line",
+            "Sid": "business.product_line.parent_product_line",
             "Name": "Parent product line",
             "Description": "",
             "ObjectType": "business.product_line",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "business.product_line.preceding_product_line",
+            "Sid": "business.product_line.preceding_product_line",
             "Name": "Predecessor product line",
             "Description": "The product line that preceded this product line (ie. the Playstation 2 is the predecessor of the Playstation 3).",
             "ObjectType": "business.product_line",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "business.product_line.category",
+            "Sid": "business.product_line.category",
             "Name": "Category",
             "Description": "The category of this product line. That is, what kind of products are found in this line? E.g., shampoos, dolls, cellular phones.",
             "ObjectType": "business.product_category",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "business.product_line.theme",
+            "Sid": "business.product_line.theme",
             "Name": "Themes",
             "Description": "A theme can be general or specific. For products related to a media franchise (such as a TV show or movie), it can refer to the movie, the series, or even a character. It can also be used for more general themes, such as 'Vampires' or 'Pirates'. Many types of product lines will not have themes.",
             "ObjectType": "business.product_theme",

@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.meteorite_discovery_location",
+    "Sid": "astronomy.meteorite_discovery_location",
     "Name": "Meteorite Discovery Location",
     "Description": "A location on which a meteorite was discovered",
     "Mediator": false,

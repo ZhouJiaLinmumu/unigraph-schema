@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.upholstery_material",
+    "Sid": "automotive.upholstery_material",
     "Name": "Upholstery Material",
     "Description": "A type describing the materials of an automobile trim level.",
     "Mediator": false,

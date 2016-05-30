@@ -1,5 +1,5 @@
 {
-    "Id": "tv.crew_gig",
+    "Sid": "tv.crew_gig",
     "Name": "TV crew gig",
     "Description": "This is a compound-value type that holds information about the relationship between a crewmember, an episode, and their role on that episode.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.crew_gig.episode",
+            "Sid": "tv.crew_gig.episode",
             "Name": "Episode",
             "Description": "The episode on which this person did this job.",
             "ObjectType": "tv.series_episode",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "tv.crew_gig.crew_role",
+            "Sid": "tv.crew_gig.crew_role",
             "Name": "TV crew role",
             "Description": "",
             "ObjectType": "tv.crew_role",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "tv.crew_gig.crewmember",
+            "Sid": "tv.crew_gig.crewmember",
             "Name": "Crewmember",
             "Description": "",
             "ObjectType": "tv.crewmember",

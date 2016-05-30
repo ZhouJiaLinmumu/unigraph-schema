@@ -1,5 +1,5 @@
 {
-    "Id": "language.language_country",
+    "Sid": "language.language_country",
     "Name": "Language countries spoken",
     "Description": "Country(ies), a language is spoken in.",
     "Mediator": false,

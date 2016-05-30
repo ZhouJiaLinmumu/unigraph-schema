@@ -1,5 +1,5 @@
 {
-    "Id": "periodicals.newspaper",
+    "Sid": "periodicals.newspaper",
     "Name": "Newspaper",
     "Description": "The newspaper type is for printed periodicals, typically printed on newsprint and published daily or weekly, although many exceptions exist. Magazines should be entered using the \"magazine\" type.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "periodicals.newspaper.circulation_areas",
+            "Sid": "periodicals.newspaper.circulation_areas",
             "Name": "Circulation Areas",
             "Description": "The primary location(s) where the newspaper is circulated.",
             "ObjectType": "periodicals.newspaper_circulation_area",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "periodicals.newspaper.headquarters",
+            "Sid": "periodicals.newspaper.headquarters",
             "Name": "Headquarters",
             "Description": "The address of the paper's headquarters.",
             "ObjectType": "location.mailing_address",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "periodicals.newspaper.owner",
+            "Sid": "periodicals.newspaper.owner",
             "Name": "Owner",
             "Description": "The person, organization, or company that currently owns the newspaper.",
             "ObjectType": "periodicals.newspaper_owner",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "periodicals.newspaper.price",
+            "Sid": "periodicals.newspaper.price",
             "Name": "Price",
             "Description": "",
             "ObjectType": "periodicals.newspaper_price",

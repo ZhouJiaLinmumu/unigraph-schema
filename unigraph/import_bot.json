@@ -1,0 +1,28 @@
+{
+    "Sid": "unigraph.import_bot",
+    "Name": "Import Bot",
+    "Description": "An import bot is an import bot",
+    "Mediator": false,
+    "ExpectedTypes": [
+        "unigraph.bot"
+    ],
+    "Enumerated": false,
+    "Properties": [
+        {
+            "Sid": "unigraph.import_bot.definition",
+            "Name": "Definition",
+            "Description": "The github hash of the definition at import",
+            "ObjectType": "type.rawstring",
+            "Unique": true,
+            "Required": true
+        },
+        {
+            "Sid": "unigraph.import_bot.author",
+            "Name": "Author",
+            "Description": "",
+            "ObjectType": "unigraph.user",
+            "Unique": true,
+            "Required": true
+        }
+    ]
+}

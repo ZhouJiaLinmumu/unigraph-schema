@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.acceleration",
+    "Sid": "measured_dimension.acceleration",
     "Name": "Acceleration",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.acceleration.measurement_unit",
+            "Sid": "measured_dimension.acceleration.measurement_unit",
             "Name": "Unit of Acceleration",
             "Description": "",
             "ObjectType": "measured_dimension.acceleration_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.acceleration.value",
+            "Sid": "measured_dimension.acceleration.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

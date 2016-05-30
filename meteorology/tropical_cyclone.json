@@ -1,5 +1,5 @@
 {
-    "Id": "meteorology.tropical_cyclone",
+    "Sid": "meteorology.tropical_cyclone",
     "Name": "Tropical Cyclone",
     "Description": "The Tropical Cyclone type holds all hurricanes, typhoons, tropical storms and other 'warm core' storm systems.  A tropical cyclone is a storm system fueled by the heat released when moist air rises and the water vapor in it condenses. The term describes the storm's origin in the tropics and its cyclonic nature, which means that its circulation is counterclockwise in the northern hemisphere and clockwise in the southern hemisphere. Tropical cyclones are distinguished from other cyclonic windstorms such as nor'easters, European windstorms, and polar lows by the heat mechanism that fuels them, which makes them \"warm core\" storm systems.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "meteorology.tropical_cyclone.affected_areas",
+            "Sid": "meteorology.tropical_cyclone.affected_areas",
             "Name": "Affected areas",
             "Description": "",
             "ObjectType": "meteorology.cyclone_affected_area",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone.category",
+            "Sid": "meteorology.tropical_cyclone.category",
             "Name": "Category",
             "Description": "The category of storm; different agencies categorize storms differently so be careful which you select. (Storms may have more than one classification.)",
             "ObjectType": "meteorology.tropical_cyclone_category",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone.damages",
+            "Sid": "meteorology.tropical_cyclone.damages",
             "Name": "Damages",
             "Description": "",
             "ObjectType": "measured_dimension.dated_currency_amount",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone.direct_fatalities",
+            "Sid": "meteorology.tropical_cyclone.direct_fatalities",
             "Name": "Direct fatalities",
             "Description": "",
             "ObjectType": "type.int",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone.dissipated",
+            "Sid": "meteorology.tropical_cyclone.dissipated",
             "Name": "Dissipated",
             "Description": "The date the storm dissipated.",
             "ObjectType": "type.datetime",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone.formed",
+            "Sid": "meteorology.tropical_cyclone.formed",
             "Name": "Formed",
             "Description": "The date the cyclone formed.",
             "ObjectType": "type.datetime",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone.highest_winds",
+            "Sid": "meteorology.tropical_cyclone.highest_winds",
             "Name": "Highest winds",
             "Description": "",
             "ObjectType": "measured_dimension.speed",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone.indirect_fatalities",
+            "Sid": "meteorology.tropical_cyclone.indirect_fatalities",
             "Name": "Indirect fatalities",
             "Description": "",
             "ObjectType": "type.int",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone.lowest_pressure",
+            "Sid": "meteorology.tropical_cyclone.lowest_pressure",
             "Name": "Lowest Pressure",
             "Description": "",
             "ObjectType": "measured_dimension.pressure",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "meteorology.tropical_cyclone.total_fatalities",
+            "Sid": "meteorology.tropical_cyclone.total_fatalities",
             "Name": "Total fatalities",
             "Description": "",
             "ObjectType": "type.int",

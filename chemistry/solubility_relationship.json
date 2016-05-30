@@ -1,5 +1,5 @@
 {
-    "Id": "chemistry.solubility_relationship",
+    "Sid": "chemistry.solubility_relationship",
     "Name": "Solubility relationship",
     "Description": "This type connects a potential solvent and solute and whether or not they are soluble, insoluble or miscible with each other.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "chemistry.solubility_relationship.solubility",
+            "Sid": "chemistry.solubility_relationship.solubility",
             "Name": "Solubility",
             "Description": "Is the substance soluble, insoluble or fully miscible in this solvent?",
             "ObjectType": "chemistry.solubility",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "chemistry.solubility_relationship.solvent",
+            "Sid": "chemistry.solubility_relationship.solvent",
             "Name": "Solvent",
             "Description": "The solvent that this substance is soluble, insoluble, or miscible in.",
             "ObjectType": "chemistry.chemical_compound",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "chemistry.solubility_relationship.solute",
+            "Sid": "chemistry.solubility_relationship.solute",
             "Name": "Solute",
             "Description": "The substance that is soluble, insoluble, or miscible in this solvent.",
             "ObjectType": "chemistry.chemical_compound",

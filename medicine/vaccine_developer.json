@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.vaccine_developer",
+    "Sid": "medicine.vaccine_developer",
     "Name": "Vaccine Developer",
     "Description": "A vaccine developer can be a person, persons, or organization responsible for the development of a vaccine.",
     "Mediator": false,

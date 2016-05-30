@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.planet",
+    "Sid": "astronomy.planet",
     "Name": "Planet",
     "Description": "A planet, as defined by the International Astronomical Union (IAU) for the Solar System, is a body that orbits the Sun, is massive enough to be rounded by its own gravity, and has cleared its neighbouring region of planetesimals.",
     "Mediator": false,

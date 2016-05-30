@@ -1,5 +1,5 @@
 {
-    "Id": "film.film_cut",
+    "Sid": "film.film_cut",
     "Name": "Film cut",
     "Description": "The Film Cut type holds anonymous compound objects that contain the runtime for a particular cut of a film. Many of these are the primary or only cut of a film. Some might represent the \"special edition\" or \"director's cut\" of a film.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "film.film_cut.film",
+            "Sid": "film.film_cut.film",
             "Name": "Film",
             "Description": "",
             "ObjectType": "film.film",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "film.film_cut.film_release_region",
+            "Sid": "film.film_cut.film_release_region",
             "Name": "Film release region",
             "Description": "",
             "ObjectType": "film.film_release_region",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "film.film_cut.note",
+            "Sid": "film.film_cut.note",
             "Name": "Note",
             "Description": "",
             "ObjectType": "type.text",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "film.film_cut.runtime",
+            "Sid": "film.film_cut.runtime",
             "Name": "Runtime",
             "Description": "",
             "ObjectType": "measured_dimension.time",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "film.film_cut.type",
+            "Sid": "film.film_cut.type",
             "Name": "Film cut",
             "Description": "",
             "ObjectType": "film.film_cut_type",

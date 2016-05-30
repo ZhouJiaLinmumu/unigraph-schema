@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.near_earth_object",
+    "Sid": "astronomy.near_earth_object",
     "Name": "Near-Earth Object",
     "Description": "A near-Earth object (NEO) is a Solar System object whose orbit brings it into very close proximity with the Earth. All NEOs have a perihelion distance of less than 1/3 of an AU in respect with Earth. They include a few thousand asteroids, comets, a number of solar-orbiting spacecraft, and meteoroids large enough to be tracked in space before potentially striking the Earth.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.near_earth_object.classification",
+            "Sid": "astronomy.near_earth_object.classification",
             "Name": "Near-Earth Object Classification",
             "Description": "What type of Near- Earth Object is this body classified as",
             "ObjectType": "astronomy.near_earth_object_classification",

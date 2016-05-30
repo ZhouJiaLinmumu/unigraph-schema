@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.nebula",
+    "Sid": "astronomy.nebula",
     "Name": "Nebula",
     "Description": "A nebula is an interstellar cloud of dust, hydrogen gas, helium gas and other ionized gases.",
     "Mediator": false,

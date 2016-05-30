@@ -1,5 +1,5 @@
 {
-    "Id": "location.currency",
+    "Sid": "location.currency",
     "Name": "Currency",
     "Description": "The currency of the particular transaction",
     "Mediator": false,

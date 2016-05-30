@@ -1,5 +1,5 @@
 {
-    "Id": "film.screening_venue",
+    "Sid": "film.screening_venue",
     "Name": "Film screening venue",
     "Description": "A film screening venue is a location where films are shown or \"screened\". This is typically a movie theatre that may be indoors or outdoors.",
     "Mediator": false,

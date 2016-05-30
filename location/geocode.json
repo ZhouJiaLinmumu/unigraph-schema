@@ -1,5 +1,5 @@
 {
-    "Id": "location.geocode",
+    "Sid": "location.geocode",
     "Name": "Geocode",
     "Description": "Geocodes are used to express the latitude and longitude of a given location. This allows them to be placed accurately on a map.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.geocode.datum",
+            "Sid": "location.geocode.datum",
             "Name": "Datum",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "location.geocode.elevation",
+            "Sid": "location.geocode.elevation",
             "Name": "Elevation",
             "Description": "The elevation (above mean sea level) for this point.",
             "ObjectType": "measured_dimension.distance",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "location.geocode.latitude",
+            "Sid": "location.geocode.latitude",
             "Name": "Latitude",
             "Description": "Enter latitude in decimal notation. Positive numbers are North, negative numbers are South.",
             "ObjectType": "type.float",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "location.geocode.longitude",
+            "Sid": "location.geocode.longitude",
             "Name": "Longitude",
             "Description": "Enter longitude in decimal notation. Positive numbers are East, negative numbers are West.",
             "ObjectType": "type.float",

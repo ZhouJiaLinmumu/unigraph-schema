@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.dimension",
+    "Sid": "measured_dimension.dimension",
     "Name": "Measured Dimension",
     "Description": "",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "measured_dimension.dimension.si_base_unit",
+            "Sid": "measured_dimension.dimension.si_base_unit",
             "Name": "SI Base Unit",
             "Description": "The Metric System or Système International (SI) base or derived unit for measuring this dimension or quantity, if one exists.",
             "ObjectType": "measured_dimension.si_base_unit",

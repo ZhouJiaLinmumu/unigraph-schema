@@ -1,5 +1,5 @@
 {
-    "Id": "tv.language",
+    "Sid": "tv.language",
     "Name": "TV Language",
     "Description": "The dominant spoken languages used in a tv content.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "law.patent_type",
+    "Sid": "law.patent_type",
     "Name": "Patent Type",
     "Description": "Design patents (for ornamental features), plant patents (for biological plants), and utility patents (for everything else).",
     "Mediator": false,

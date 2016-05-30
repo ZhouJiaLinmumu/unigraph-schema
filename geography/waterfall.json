@@ -1,5 +1,5 @@
 {
-    "Id": "geography.waterfall",
+    "Sid": "geography.waterfall",
     "Name": "Waterfall",
     "Description": "A waterfall is a geological formation resulting from water, often in the form of a stream, flowing over a rock formation that forms a sudden break in elevation.",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "geography.waterfall.drop_number",
+            "Sid": "geography.waterfall.drop_number",
             "Name": "Number of drops",
             "Description": "",
             "ObjectType": "type.int",
@@ -20,7 +20,7 @@
             "Required": false
         },
         {
-            "Id": "geography.waterfall.flow_rate",
+            "Sid": "geography.waterfall.flow_rate",
             "Name": "Average flow rate",
             "Description": "",
             "ObjectType": "measured_dimension.volumetric_flow_rate",
@@ -28,7 +28,7 @@
             "Required": false
         },
         {
-            "Id": "geography.waterfall.height",
+            "Sid": "geography.waterfall.height",
             "Name": "Total height",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -36,7 +36,7 @@
             "Required": false
         },
         {
-            "Id": "geography.waterfall.longest_height",
+            "Sid": "geography.waterfall.longest_height",
             "Name": "Height of longest drop",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -44,7 +44,7 @@
             "Required": false
         },
         {
-            "Id": "geography.waterfall.waterfall_type",
+            "Sid": "geography.waterfall.waterfall_type",
             "Name": "Type",
             "Description": "",
             "ObjectType": "geography.waterfall_type",

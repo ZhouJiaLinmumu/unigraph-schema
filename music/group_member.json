@@ -1,5 +1,5 @@
 {
-    "Id": "music.group_member",
+    "Sid": "music.group_member",
     "Name": "Musician",
     "Description": "A Musician is anyone who sings or plays a musical instrument, as a solo act, supporting artists, or as part of a musical group. Musicians may also be typed as Musical Artist to capture additional data such as recordings made (either as a solo act or as a contributor to a track or album) and concert tours (for solo acts).",
     "Mediator": false,

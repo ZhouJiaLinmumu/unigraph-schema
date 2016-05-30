@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.celestial_object",
+    "Sid": "astronomy.celestial_object",
     "Name": "Celestial Object",
     "Description": "Any naturally-occurring object such as a star or nebula known to exist in the universe..",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.celestial_object.absolute_magnitude",
+            "Sid": "astronomy.celestial_object.absolute_magnitude",
             "Name": "Absolute Magnitude",
             "Description": "For stars and galaxies, this is the measure of an object's brightness derived from an adjusted apparent magnitude if the object were observed at a fixed distance of 10 parsecs with no appreciable intervening dust or other light-absorbing material. Objects in the Solar System (other than the Sun) should use the \"absolute magnitude\" property on the type \"Star System Object\", since it is a different measurement.",
             "ObjectType": "type.float",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.celestial_object.category",
+            "Sid": "astronomy.celestial_object.category",
             "Name": "Category",
             "Description": "The category of object this is. (E.g., galaxy, nebula, star, asteroid, etc.)",
             "ObjectType": "astronomy.celestial_object_category",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.celestial_object.age",
+            "Sid": "astronomy.celestial_object.age",
             "Name": "Age",
             "Description": "The apparent age of the celestial object in millions of years.",
             "ObjectType": "astronomy.celestial_object_age",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.celestial_object.color_index",
+            "Sid": "astronomy.celestial_object.color_index",
             "Name": "Color Index",
             "Description": "The color index is a simple numerical expression that determines the color of an object, which in the case of a star gives its temperature.",
             "ObjectType": "type.float",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.celestial_object.distance",
+            "Sid": "astronomy.celestial_object.distance",
             "Name": "Distance",
             "Description": "The best approximated measurement from the earth to the object.",
             "ObjectType": "measured_dimension.distance",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.celestial_object.declination",
+            "Sid": "astronomy.celestial_object.declination",
             "Name": "Declination",
             "Description": "Declination (abbrev. dec or δ) is one of the two coordinates of the equatorial coordinate system, the other being either right ascension or hour angle. Declination in astronomy is comparable to geographic latitude, but projected onto the celestial sphere. Declination is measured in degrees north and south of the celestial equator.",
             "ObjectType": "type.float",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.celestial_object.magnitude",
+            "Sid": "astronomy.celestial_object.magnitude",
             "Name": "Apparent Magnitude",
             "Description": "Apparent magnitude of the object, the measurement of its brightness as seen by an observer on Earth, normalized to the value absent any atmosphere. The brighter the object, the lower the value (Sun has an apparent magnitude of -26.74).",
             "ObjectType": "type.float",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.celestial_object.red_shift",
+            "Sid": "astronomy.celestial_object.red_shift",
             "Name": "Red Shift",
             "Description": "The apparent velocity of the object traveling away (or towards) the observing location (Earth)",
             "ObjectType": "astronomy.red_shift",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.celestial_object.right_ascention",
+            "Sid": "astronomy.celestial_object.right_ascention",
             "Name": "Right Ascension",
             "Description": "Right ascension is the celestial equivalent of terrestrial longitude.",
             "ObjectType": "type.float",

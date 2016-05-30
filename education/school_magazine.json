@@ -1,5 +1,5 @@
 {
-    "Id": "education.school_magazine",
+    "Sid": "education.school_magazine",
     "Name": "School magazine",
     "Description": "This type is for magazines published by the students of a school (primary, secondary, or college-level). Professionally published magazines and journals that are affiliated with a school should not use this type, but rather just use the general Magazine or Journal type, and list the school or its press as the publisher.",
     "Mediator": false,

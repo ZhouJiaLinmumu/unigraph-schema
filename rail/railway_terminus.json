@@ -1,5 +1,5 @@
 {
-    "Id": "rail.railway_terminus",
+    "Sid": "rail.railway_terminus",
     "Name": "Railway terminus",
     "Description": "A railway terminus is the end of that railway line. A train arriving there may not proceed to another location without changing direction and returning from the direction from which it arrived.",
     "Mediator": false,

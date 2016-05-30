@@ -1,5 +1,5 @@
 {
-    "Id": "tv.program",
+    "Sid": "tv.program",
     "Name": "TV Program",
     "Description": "A TV program is factual or fictional content that is broadcast on television. It may be a one-off broadcast or a TV series that has episodes. This type includes regular broadcasts (e.g. TV news), TV series or miniseries, television specials, made-for-TV movies and infomercials.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.program.final_episode_air_date",
+            "Sid": "tv.program.final_episode_air_date",
             "Name": "Air date of final episode",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program.first_episode_air_date",
+            "Sid": "tv.program.first_episode_air_date",
             "Name": "Air date of first episode",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program.country_of_origin",
+            "Sid": "tv.program.country_of_origin",
             "Name": "Country of origin",
             "Description": "",
             "ObjectType": "tv.program_country",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program.in_production",
+            "Sid": "tv.program.in_production",
             "Name": "Currently in production",
             "Description": "",
             "ObjectType": "type.boolean",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program.episode_running_time",
+            "Sid": "tv.program.episode_running_time",
             "Name": "Original episode running time",
             "Description": "The original running time of an episode, without commercials, in minutes.",
             "ObjectType": "measured_dimension.time",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program.languages",
+            "Sid": "tv.program.languages",
             "Name": "Languages",
             "Description": "The language or languages that this was originally broadcast in.",
             "ObjectType": "tv.language",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program.episodes_number",
+            "Sid": "tv.program.episodes_number",
             "Name": "Number of episodes",
             "Description": "",
             "ObjectType": "type.int",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program.seasons_number",
+            "Sid": "tv.program.seasons_number",
             "Name": "Number of seasons",
             "Description": "",
             "ObjectType": "type.int",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program.program_creator",
+            "Sid": "tv.program.program_creator",
             "Name": "Program creator",
             "Description": "The person or persons credited with creating the program.",
             "ObjectType": "tv.program_creator",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program.spin_offs",
+            "Sid": "tv.program.spin_offs",
             "Name": "Spin-offs",
             "Description": "",
             "ObjectType": "tv.program",
@@ -89,7 +89,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program.theme_song",
+            "Sid": "tv.program.theme_song",
             "Name": "Theme song",
             "Description": "For shows that have had more than one theme song (or version of a theme song), you can enter more than one value here.",
             "ObjectType": "tv.theme_song",
@@ -97,7 +97,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program.genre",
+            "Sid": "tv.program.genre",
             "Name": "Genre",
             "Description": "Genre is a fairly loose type, and includes both the type of program (game show, sit-com, etc.) and something more akin to genres in other media (science fiction, mystery, etc.)",
             "ObjectType": "tv.genre",
@@ -105,7 +105,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program.filming_location",
+            "Sid": "tv.program.filming_location",
             "Name": "Filming location(s)",
             "Description": "Location(s) where this TV program was filmed regularly (for specific episode and segment-only locations use the filming location properties on those TV types). Should not be used for occasional \"on location\" filming or establishing shots.",
             "ObjectType": "tv.filming_location",

@@ -1,5 +1,5 @@
 {
-    "Id": "location.cn_autonomous_county",
+    "Sid": "location.cn_autonomous_county",
     "Name": "Chinese autonomous county",
     "Description": "An autonomous county is a third-level administrative division of China. The equivalent term in Inner Mongolia is \"autonomous banner\".",
     "Mediator": false,
@@ -13,7 +13,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.cn_autonomous_county.designated_minority",
+            "Sid": "location.cn_autonomous_county.designated_minority",
             "Name": "Designated minority",
             "Description": "",
             "ObjectType": "location.chinese_ethnic_group",

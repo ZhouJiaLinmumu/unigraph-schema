@@ -1,5 +1,5 @@
 {
-    "Id": "type.mediator",
+    "Sid": "type.mediator",
     "Name": "Mediator",
     "Description": "The concept type of a Object that holds a unique combination of values.",
     "Mediator": false,

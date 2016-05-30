@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.spectral_type",
+    "Sid": "astronomy.spectral_type",
     "Name": "Spectral Type",
     "Description": "Stellar classification is a classification of stars based on their spectral characteristics. Most stars are currently classified using the letters O, B, A, F, G, K and M, where O stars are the hottest and the letter sequence indicates successively cooler stars up to the coolest M class. According to an informal tradition, O stars are \"blue\", B \"blue-white\", A stars \"white\", F stars \"yellow-white\", G stars \"yellow\", K stars \"orange\", and M stars \"red.\" The spectrum letter designation is further enhanced by a numerical addition of 0-9 for tenths of the range between two star classes.",
     "Mediator": false,

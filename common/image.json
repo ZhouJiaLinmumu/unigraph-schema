@@ -1,5 +1,5 @@
 {
-    "Id": "common.image",
+    "Sid": "common.image",
     "Name": "Image",
     "Description": "'Image' is a commonly used type, typically appearing in all topics. Standard web image file formats are supported including .gif, .jpg and .png. It is also possible to capture other meta information about images such as size and date. Images may be promoted to topics, either by adding type 'topic' to the types list for an image or by adding an article description to the image when uploading it.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "common.image.creation_date",
+            "Sid": "common.image.creation_date",
             "Name": "Creation Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "common.image.image_caption",
+            "Sid": "common.image.image_caption",
             "Name": "Image Caption",
             "Description": "",
             "ObjectType": "type.text",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "common.image.image_location",
+            "Sid": "common.image.image_location",
             "Name": "Image Location",
             "Description": "",
             "ObjectType": "common.image_location",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "common.image.image_tags",
+            "Sid": "common.image.image_tags",
             "Name": "Image Tags",
             "Description": "",
             "ObjectType": "common.image_tag",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "common.image.rights_holder",
+            "Sid": "common.image.rights_holder",
             "Name": "Rights holder (user/topic)",
             "Description": "",
             "ObjectType": "common.media_rights_holder",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "common.image.rights_holder_text_attribution",
+            "Sid": "common.image.rights_holder_text_attribution",
             "Name": "Rights holder (text attribution)",
             "Description": "",
             "ObjectType": "type.text",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "common.image.size",
+            "Sid": "common.image.size",
             "Name": "Image Dimensions",
             "Description": "",
             "ObjectType": "measured_dimension.pixels_rect_size",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "common.image.uri",
+            "Sid": "common.image.uri",
             "Name": "Image URI",
             "Description": "",
             "ObjectType": "type.uri",
@@ -73,7 +73,7 @@
             "Required": true
         },
         {
-            "Id": "common.image.file_format",
+            "Sid": "common.image.file_format",
             "Name": "Image File Format",
             "Description": "",
             "ObjectType": "common.file_format",

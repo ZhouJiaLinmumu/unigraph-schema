@@ -1,5 +1,5 @@
 {
-    "Id": "sports.tournament_event",
+    "Sid": "sports.tournament_event",
     "Name": "Tournament event",
     "Description": "A Tournament Event represents a particular type of sporting event, which has been contested at one or more sporting Tournaments. Events are more specific than sports (e.g., Men's 400m hurdles is more specific than Athletics), but more abstract than Tournament Event Competitions, which represent the actual competitions that took place during a given tournament (e.g., Men's 400m hurdles is more abstract than Men's 400m hurdles at the 2009 Golden Gala).Note also that while Tournament Event Competitions are specific to a particular tournament, Tournament Events are more general, and are not limited to a single tournament or series of tournaments. (That is to say, all tournaments in which Men's 400m Hurdles are competed will connect to the same Men's 400m Hurdles topic, rather than having separate topics for each event/tournament combination.)",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.tournament_event.sport",
+            "Sid": "sports.tournament_event.sport",
             "Name": "Sport",
             "Description": "The sport that this is an event of. E.g \"men's giant slalom\" is an event of Alpine Skiing.",
             "ObjectType": "sports.sport",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "sports.tournament_event.tournaments_contested_in",
+            "Sid": "sports.tournament_event.tournaments_contested_in",
             "Name": "Tournaments contested in",
             "Description": "Tournaments this event has been contested in. This should be the tournament and the year of the tournament.",
             "ObjectType": "sports.multi_event_tournament",

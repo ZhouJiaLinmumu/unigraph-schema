@@ -1,5 +1,5 @@
 {
-    "Id": "business.holding",
+    "Sid": "business.holding",
     "Name": "Holding",
     "Description": "This type is used to record information about the issues (such as stock) of an organization that are or were held by a shareholder (e.g. a person or organization) of that issue.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.holding.amount",
+            "Sid": "business.holding.amount",
             "Name": "Amount",
             "Description": "",
             "ObjectType": "type.float",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "business.holding.as_of_date",
+            "Sid": "business.holding.as_of_date",
             "Name": "As of Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "business.holding.currency",
+            "Sid": "business.holding.currency",
             "Name": "Currency",
             "Description": "",
             "ObjectType": "business.currency",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "business.holding.holder",
+            "Sid": "business.holding.holder",
             "Name": "Holder",
             "Description": "",
             "ObjectType": "business.shareholder",
@@ -39,7 +39,7 @@
             "Required": true
         },
         {
-            "Id": "business.holding.issue",
+            "Sid": "business.holding.issue",
             "Name": "Issue",
             "Description": "",
             "ObjectType": "business.issue",
@@ -47,7 +47,7 @@
             "Required": true
         },
         {
-            "Id": "business.holding.units",
+            "Sid": "business.holding.units",
             "Name": "Units",
             "Description": "",
             "ObjectType": "type.int",

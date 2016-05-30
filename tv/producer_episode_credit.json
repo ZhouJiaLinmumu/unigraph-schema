@@ -1,5 +1,5 @@
 {
-    "Id": "tv.producer_episode_credit",
+    "Sid": "tv.producer_episode_credit",
     "Name": "TV producer episode credit",
     "Description": "This compound value type captures information about people who have produced individual television episodes.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.producer_episode_credit.episode",
+            "Sid": "tv.producer_episode_credit.episode",
             "Name": "Episode",
             "Description": "",
             "ObjectType": "tv.series_episode",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "tv.producer_episode_credit.producer",
+            "Sid": "tv.producer_episode_credit.producer",
             "Name": "Producer",
             "Description": "",
             "ObjectType": "tv.producer",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "tv.producer_episode_credit.role",
+            "Sid": "tv.producer_episode_credit.role",
             "Name": "Role",
             "Description": "",
             "ObjectType": "tv.producer_type",

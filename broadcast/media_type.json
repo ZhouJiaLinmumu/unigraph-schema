@@ -1,5 +1,5 @@
 {
-    "Id": "broadcast.media_type",
+    "Sid": "broadcast.media_type",
     "Name": "Internet Stream",
     "Description": "The mime-types of the media streams contained within an internet stream.",
     "Mediator": false,

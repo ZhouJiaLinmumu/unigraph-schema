@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.vehicle_owner",
+    "Sid": "automotive.vehicle_owner",
     "Name": "Vehicle owner",
     "Description": "Denotes the owner of a car",
     "Mediator": false,

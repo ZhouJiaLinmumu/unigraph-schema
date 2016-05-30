@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.destruction_method",
+    "Sid": "architecture.destruction_method",
     "Name": "Destruction method",
     "Description": "This is the cause of destruction of a structure in the built environment.  It is currently used as a broad categorization, e.g. \"structural failure\" or \"earthquake\".",
     "Mediator": false,

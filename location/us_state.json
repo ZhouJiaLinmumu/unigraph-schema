@@ -1,5 +1,5 @@
 {
-    "Id": "location.us_state",
+    "Sid": "location.us_state",
     "Name": "US State",
     "Description": "A US State is one of the fifty sub-national entitites comprising the United States of America. Each state has its own capital city and government.",
     "Mediator": false,

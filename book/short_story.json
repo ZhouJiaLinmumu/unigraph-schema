@@ -1,5 +1,5 @@
 {
-    "Id": "book.short_story",
+    "Sid": "book.short_story",
     "Name": "Short Story",
     "Description": "The \"short story\" type is for works of prose fiction that are shorter than a novel in length.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "geography.body_of_water",
+    "Sid": "geography.body_of_water",
     "Name": "Body Of Water",
     "Description": "A body of water is any geographical feature composed of water including oceans, lakes, rivers, waterfalls, bays, straits and inlets.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "geography.body_of_water.max_depth",
+            "Sid": "geography.body_of_water.max_depth",
             "Name": "Max. depth",
             "Description": "Maximum depth of the body of water.",
             "ObjectType": "measured_dimension.distance",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "geography.body_of_water.mean_depth",
+            "Sid": "geography.body_of_water.mean_depth",
             "Name": "Mean depth",
             "Description": "The mean depth of this body of water.",
             "ObjectType": "measured_dimension.distance",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "geography.body_of_water.surface_area",
+            "Sid": "geography.body_of_water.surface_area",
             "Name": "Surface area",
             "Description": "",
             "ObjectType": "measured_dimension.area",
@@ -35,7 +35,7 @@
             "Required": false
         },
         {
-            "Id": "geography.body_of_water.volume",
+            "Sid": "geography.body_of_water.volume",
             "Name": "Volume",
             "Description": "",
             "ObjectType": "measured_dimension.volume",

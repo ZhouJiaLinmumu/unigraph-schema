@@ -1,5 +1,5 @@
 {
-    "Id": "tv.program_writer_relationship",
+    "Sid": "tv.program_writer_relationship",
     "Name": "TV program-writer relationship",
     "Description": "This is a compound-value type that holds information about writers who are regular contributors to a TV program.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.program_writer_relationship.end_date",
+            "Sid": "tv.program_writer_relationship.end_date",
             "Name": "End date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program_writer_relationship.start_date",
+            "Sid": "tv.program_writer_relationship.start_date",
             "Name": "Start date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "tv.program_writer_relationship.tv_program",
+            "Sid": "tv.program_writer_relationship.tv_program",
             "Name": "TV Program",
             "Description": "",
             "ObjectType": "tv.program",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "tv.program_writer_relationship.writer",
+            "Sid": "tv.program_writer_relationship.writer",
             "Name": "Writer",
             "Description": "",
             "ObjectType": "tv.writer",

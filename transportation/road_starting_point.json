@@ -1,5 +1,5 @@
 {
-    "Id": "transportation.road_starting_point",
+    "Sid": "transportation.road_starting_point",
     "Name": "Road End",
     "Description": "A road end is a location where a road terminates (or begins, depending on your point of view).",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "transportation.road_starting_point.location",
+            "Sid": "transportation.road_starting_point.location",
             "Name": "Location",
             "Description": "The place (other than a road, such as a city or town) that this road ends in. If the road ends in another road, entering this value locates this junction more precisely - for example, if a road ends in a junction with a major highway, just entering the highway wouldn't narrow down the location of road's end very much.",
             "ObjectType": "transportation.road_location",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "transportation.road_starting_point.road",
+            "Sid": "transportation.road_starting_point.road",
             "Name": "Road",
             "Description": "The road that this road ends at (if this road ends in a junction)",
             "ObjectType": "transportation.road",

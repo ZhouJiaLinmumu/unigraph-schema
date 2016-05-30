@@ -1,5 +1,5 @@
 {
-    "Id": "sports.competitor_country_relationship",
+    "Sid": "sports.competitor_country_relationship",
     "Name": "Competitor/country relationship",
     "Description": "This is a compound-value type that holds information about the relationship between competitors and the countries they represent at multi-event sporting tournaments.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.competitor_country_relationship.competitor",
+            "Sid": "sports.competitor_country_relationship.competitor",
             "Name": "Competitor",
             "Description": "A person who competed for this country at this tournament.",
             "ObjectType": "sports.tournament_event_competitor",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "sports.competitor_country_relationship.country",
+            "Sid": "sports.competitor_country_relationship.country",
             "Name": "Country",
             "Description": "The country (if any) this person represented. In some tournaments, individuals may not be representing countries, in which case this property can be left blank.",
             "ObjectType": "sports.sport_country",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "sports.competitor_country_relationship.sports",
+            "Sid": "sports.competitor_country_relationship.sports",
             "Name": "Sports",
             "Description": "The sport(s) this person competed in. This should be the general sport (e.g. Swimming, Figure Skating) rather than specific events (e.g. Women's 100m Freestyle or Pairs Figure Skating)",
             "ObjectType": "sports.sport",

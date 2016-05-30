@@ -1,5 +1,5 @@
 {
-    "Id": "football.referee",
+    "Sid": "football.referee",
     "Name": "Football Referee",
     "Description": "This is an individual who referees association football (soccer) games.",
     "Mediator": false,

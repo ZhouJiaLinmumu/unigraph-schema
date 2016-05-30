@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.near_earth_object_classification",
+    "Sid": "astronomy.near_earth_object_classification",
     "Name": "Near-Earth Object Classification",
     "Description": "What kind of small solar system body is this celestial object; this can include types of human-made objects as well.",
     "Mediator": false,

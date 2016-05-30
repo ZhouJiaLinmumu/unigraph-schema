@@ -1,5 +1,5 @@
 {
-    "Id": "tv.writer",
+    "Sid": "tv.writer",
     "Name": "TV Writer",
     "Description": "This type is for anyone who has written episodes or segments of episodes of a television series.",
     "Mediator": false,

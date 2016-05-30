@@ -1,5 +1,5 @@
 {
-    "Id": "engineering.electric_current_type",
+    "Sid": "engineering.electric_current_type",
     "Name": "Electric current type",
     "Description": "Either an alternating current or direct current.",
     "Mediator": false,

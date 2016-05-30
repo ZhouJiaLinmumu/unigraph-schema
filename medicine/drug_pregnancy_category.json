@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.drug_pregnancy_category",
+    "Sid": "medicine.drug_pregnancy_category",
     "Name": "Drug pregnancy category",
     "Description": "A drug pregnancy category is an assessment classification of the risk of fetal injury as a result of the drug, when used by the mother during pregnancy.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "medicine.drug_pregnancy_category.country",
+            "Sid": "medicine.drug_pregnancy_category.country",
             "Name": "Country",
             "Description": "Country where this drug pregnancy category is designated.",
             "ObjectType": "medicine.pregnancy_category_country",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.drug_pregnancy_category.pregnancy_risk",
+            "Sid": "medicine.drug_pregnancy_category.pregnancy_risk",
             "Name": "Pregnancy risk",
             "Description": "A statement defining the expected risk of fetal injury when drugs in this category are used by the mother during pregnancy. Typically defined by the regulating agency that establishes this pregnancy category.",
             "ObjectType": "type.text",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.drug_pregnancy_category.regulating_authority",
+            "Sid": "medicine.drug_pregnancy_category.regulating_authority",
             "Name": "Regulating authority",
             "Description": "The regulating agency that establishes this category.",
             "ObjectType": "medicine.drug_regulating_authority",

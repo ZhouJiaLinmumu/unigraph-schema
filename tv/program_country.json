@@ -1,5 +1,5 @@
 {
-    "Id": "tv.program_country",
+    "Sid": "tv.program_country",
     "Name": "Program Country of Origin",
     "Description": "The country of origin of this TV program.",
     "Mediator": false,

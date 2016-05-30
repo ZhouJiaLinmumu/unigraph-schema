@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.galaxy",
+    "Sid": "astronomy.galaxy",
     "Name": "Galaxy",
     "Description": "A galaxy is a massive, gravitationally bound system that consists of stars and stellar remnants, an interstellar medium of gas and dust, and an possibly the largest component tentatively named as dark matter.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.galaxy.apparent_mass",
+            "Sid": "astronomy.galaxy.apparent_mass",
             "Name": "Apparent mass",
             "Description": "Apparent mass of the galaxy in Solar mass units",
             "ObjectType": "astronomy.apparent_mass",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.galaxy.constellation",
+            "Sid": "astronomy.galaxy.constellation",
             "Name": "Constellation",
             "Description": "Observed within this constellation",
             "ObjectType": "astronomy.constellation",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.galaxy.diameter",
+            "Sid": "astronomy.galaxy.diameter",
             "Name": "Apparent dimension",
             "Description": "Dimension of the galaxy (in Arc Min) as of latest observations",
             "ObjectType": "astronomy.apparent_dimension",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.galaxy.group",
+            "Sid": "astronomy.galaxy.group",
             "Name": "Galactic group",
             "Description": "Member of what galactic grouping (ie. Milky Way and Andromeda galaxies are part of the Local Group)",
             "ObjectType": "astronomy.galactic_group",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.galaxy.classification",
+            "Sid": "astronomy.galaxy.classification",
             "Name": "Classification",
             "Description": "Galaxy classification using the de Vaucouleurs-Sandage modification of the older Hubble sequence of morphological classification.",
             "ObjectType": "astronomy.galaxy_classification",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.galaxy.interaction",
+            "Sid": "astronomy.galaxy.interaction",
             "Name": "Interaction",
             "Description": "Galaxies can have observable interactions ranging from colliding, cannibalism, up to the extreme of merging",
             "ObjectType": "astronomy.galactic_interaction",
@@ -58,7 +58,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.galaxy.stars_number",
+            "Sid": "astronomy.galaxy.stars_number",
             "Name": "Stars",
             "Description": "Estimated number of stars that make up this galaxy",
             "ObjectType": "astronomy.stars_count",

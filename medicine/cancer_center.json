@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.cancer_center",
+    "Sid": "medicine.cancer_center",
     "Name": "Cancer Center",
     "Description": "Research or treatment centers.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "medicine.cancer_center.cancer_center_type",
+            "Sid": "medicine.cancer_center.cancer_center_type",
             "Name": "Type of Cancer Center",
             "Description": "",
             "ObjectType": "medicine.cancer_center_type",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.cancer_center.constituents",
+            "Sid": "medicine.cancer_center.constituents",
             "Name": "Constituents",
             "Description": "Hospitals or research institutes that are part of the cancer center, or the parent institutions of the cancer center",
             "ObjectType": "medicine.cancer_center_constituent",

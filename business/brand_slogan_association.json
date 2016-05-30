@@ -1,5 +1,5 @@
 {
-    "Id": "business.brand_slogan_association",
+    "Sid": "business.brand_slogan_association",
     "Name": "Brand slogan",
     "Description": "This type connects information about slogans used in advertising for a particular brand, and the dates during which that slogan was in use.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.brand_slogan_association.start_date",
+            "Sid": "business.brand_slogan_association.start_date",
             "Name": "From date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "business.brand_slogan_association.slogan",
+            "Sid": "business.brand_slogan_association.slogan",
             "Name": "Slogan",
             "Description": "",
             "ObjectType": "business.advertising_slogan",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "business.brand_slogan_association.end_date",
+            "Sid": "business.brand_slogan_association.end_date",
             "Name": "To date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "business.brand_slogan_association.brand",
+            "Sid": "business.brand_slogan_association.brand",
             "Name": "Brand",
             "Description": "",
             "ObjectType": "business.brand",

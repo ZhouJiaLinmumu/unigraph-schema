@@ -1,5 +1,5 @@
 {
-    "Id": "rail.railway_type_relationship",
+    "Sid": "rail.railway_type_relationship",
     "Name": "Railway-type relationship",
     "Description": "This type is used to hold information about railways and the different uses they've been put to over time.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "rail.railway_type_relationship.start_date",
+            "Sid": "rail.railway_type_relationship.start_date",
             "Name": "From date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "rail.railway_type_relationship.railway_type",
+            "Sid": "rail.railway_type_relationship.railway_type",
             "Name": "Railway type",
             "Description": "",
             "ObjectType": "rail.railway_type",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "rail.railway_type_relationship.end_date",
+            "Sid": "rail.railway_type_relationship.end_date",
             "Name": "To date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "rail.railway_type_relationship.railway",
+            "Sid": "rail.railway_type_relationship.railway",
             "Name": "Railway",
             "Description": "",
             "ObjectType": "rail.railway",

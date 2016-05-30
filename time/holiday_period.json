@@ -1,5 +1,5 @@
 {
-    "Id": "time.holiday_period",
+    "Sid": "time.holiday_period",
     "Name": "Holiday Period",
     "Description": "A group of related holidays that occur together annually.",
     "Mediator": false,

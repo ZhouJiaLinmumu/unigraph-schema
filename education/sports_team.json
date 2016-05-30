@@ -1,5 +1,5 @@
 {
-    "Id": "education.sports_team",
+    "Sid": "education.sports_team",
     "Name": "School sports team",
     "Description": "",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "education.sports_team.school",
+            "Sid": "education.sports_team.school",
             "Name": "School",
             "Description": "The school this team is affiliated with.",
             "ObjectType": "education.educational_institution",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "education.sports_team.athletics_brand",
+            "Sid": "education.sports_team.athletics_brand",
             "Name": "Athletics brand",
             "Description": "The brand under which this team is named. For example, the University of Michigan Football Team is a part of the \"Michigan Wolverines\" athletics brand.",
             "ObjectType": "education.athletics_brand",

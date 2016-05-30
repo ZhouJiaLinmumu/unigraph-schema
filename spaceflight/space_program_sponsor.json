@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.space_program_sponsor",
+    "Sid": "spaceflight.space_program_sponsor",
     "Name": "Space program sponsor",
     "Description": "A space program sponsor is an organization (usually a government agency) that has sponsored one or more space programs.",
     "Mediator": false,

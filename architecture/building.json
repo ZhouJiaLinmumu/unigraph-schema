@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.building",
+    "Sid": "architecture.building",
     "Name": "Building",
     "Description": "A building is a man-made structure designed for shelter or for continuous or periodic occupancy. All buildings are structures and therefore typed \"Structure\" which imparts other basic properties (see /architecture/structure). If something is not a structure, it can't be typed as a building.",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "architecture.building.building_complex",
+            "Sid": "architecture.building.building_complex",
             "Name": "Building Complex",
             "Description": "If it is part of a larger building",
             "ObjectType": "architecture.building_complex",
@@ -20,7 +20,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.building.building_function",
+            "Sid": "architecture.building.building_function",
             "Name": "Building Function",
             "Description": "What its used for. usually. if it has more than one regular purpose add several.",
             "ObjectType": "architecture.building_function",
@@ -28,7 +28,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.building.floor_space",
+            "Sid": "architecture.building.floor_space",
             "Name": "Floor Space",
             "Description": "Total floor area of habitable/usable space",
             "ObjectType": "measured_dimension.area",
@@ -36,7 +36,7 @@
             "Required": false
         },
         {
-            "Id": "architecture.building.floors",
+            "Sid": "architecture.building.floors",
             "Name": "Floors",
             "Description": "Floors above ground (stories)",
             "ObjectType": "type.int",

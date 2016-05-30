@@ -1,5 +1,5 @@
 {
-    "Id": "visual_art.art_subject",
+    "Sid": "visual_art.art_subject",
     "Name": "Art Subject",
     "Description": "The Art Subject type is for describing the content of an artwork. It can include people, objects, or events. For example, the subjects of Caravaggio's 1607 painting David with the Head of Goliath include David and Goliath. The subject of Picasso's Guernica is the Spanish Civil War.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "visual_art.art_subject.artwork_on_the_subject",
+            "Sid": "visual_art.art_subject.artwork_on_the_subject",
             "Name": "Artwork on the Subject",
             "Description": "Visual artwork depicting this subject",
             "ObjectType": "visual_art.artwork",

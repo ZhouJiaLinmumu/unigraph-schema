@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.disease_cause",
+    "Sid": "medicine.disease_cause",
     "Name": "Disease cause",
     "Description": "This type is meant for human disease causes. Anything that causes a disease or medical condition can be a disease cause. This includes, but is not limited to, types of bacteria, viruses, protozoa, fungi, and chemical compounds.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "medicine.disease_cause.diseases",
+            "Sid": "medicine.disease_cause.diseases",
             "Name": "Diseases or conditions caused",
             "Description": "",
             "ObjectType": "medicine.disease",

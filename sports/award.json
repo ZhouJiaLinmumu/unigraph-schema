@@ -1,5 +1,5 @@
 {
-    "Id": "sports.award",
+    "Sid": "sports.award",
     "Name": "Sports League Award",
     "Description": "Sports award is a CVT which connects together the winner of a sports award, the award they won, the season for which they won the award and the team they represented (if applicable).",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.award.award",
+            "Sid": "sports.award.award",
             "Name": "Award",
             "Description": "",
             "ObjectType": "sports.award_type",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "sports.award.winner",
+            "Sid": "sports.award.winner",
             "Name": "Award Winner",
             "Description": "",
             "ObjectType": "sports.award_winner",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "sports.award.season",
+            "Sid": "sports.award.season",
             "Name": "Season",
             "Description": "",
             "ObjectType": "sports.league_season",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "sports.award.team",
+            "Sid": "sports.award.team",
             "Name": "Team",
             "Description": "",
             "ObjectType": "sports.team",

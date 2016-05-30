@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.aircraft_status",
+    "Sid": "aviation.aircraft_status",
     "Name": "Military Aircraft Use",
     "Description": "Military Aircraft Use connects aircraft with a military service, a use and a date.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "aviation.aircraft_status.date",
+            "Sid": "aviation.aircraft_status.date",
             "Name": "Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.aircraft_status.military_service",
+            "Sid": "aviation.aircraft_status.military_service",
             "Name": "Military service",
             "Description": "",
             "ObjectType": "aviation.aircraft_military_service",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "aviation.aircraft_status.status",
+            "Sid": "aviation.aircraft_status.status",
             "Name": "Status",
             "Description": "",
             "ObjectType": "type.text",

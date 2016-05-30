@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.time_interval",
+    "Sid": "measured_dimension.time_interval",
     "Name": "Time",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.time_interval.start",
+            "Sid": "measured_dimension.time_interval.start",
             "Name": "Start date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.time_interval.end",
+            "Sid": "measured_dimension.time_interval.end",
             "Name": "End date",
             "Description": "",
             "ObjectType": "type.datetime",

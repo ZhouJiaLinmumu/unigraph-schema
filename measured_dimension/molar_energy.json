@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.molar_energy",
+    "Sid": "measured_dimension.molar_energy",
     "Name": "Molar energy",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.molar_energy.measurement_unit",
+            "Sid": "measured_dimension.molar_energy.measurement_unit",
             "Name": "Unit of Molar energy",
             "Description": "",
             "ObjectType": "measured_dimension.molar_energy_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.molar_energy.value",
+            "Sid": "measured_dimension.molar_energy.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

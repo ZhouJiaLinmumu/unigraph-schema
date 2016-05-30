@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.diagnostic_sign",
+    "Sid": "medicine.diagnostic_sign",
     "Name": "Diagnostic Sign",
     "Description": "A diagnostic sign is an indication of a person's medical state that can be discovered through a physical examination or from diagnostic tests.",
     "Mediator": false,

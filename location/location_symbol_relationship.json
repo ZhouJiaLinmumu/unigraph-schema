@@ -1,5 +1,5 @@
 {
-    "Id": "location.location_symbol_relationship",
+    "Sid": "location.location_symbol_relationship",
     "Name": "Location/symbol relationship",
     "Description": "This is a compound-value type that holds information about official symbols of locations.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.location_symbol_relationship.date_adopted",
+            "Sid": "location.location_symbol_relationship.date_adopted",
             "Name": "Date adopted",
             "Description": "The date (if any) that this symbol was officially adopted.",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "location.location_symbol_relationship.date_revoked",
+            "Sid": "location.location_symbol_relationship.date_revoked",
             "Name": "Date revoked",
             "Description": "The date (if any) that this symbol had its official status revoked.",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "location.location_symbol_relationship.symbol",
+            "Sid": "location.location_symbol_relationship.symbol",
             "Name": "Symbol",
             "Description": "The symbol of this jurisdiction. This type can be anything from a kind of organism to a city to a song to a kind of dance.",
             "ObjectType": "location.symbol_of_administrative_division",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "location.location_symbol_relationship.administrative_division",
+            "Sid": "location.location_symbol_relationship.administrative_division",
             "Name": "Symbol of",
             "Description": "The governmental jurisdiction (such as a country, state, province, region, city, town, etc.) that this is an official symbol of.",
             "ObjectType": "location.governmental_jurisdiction",
@@ -39,7 +39,7 @@
             "Required": true
         },
         {
-            "Id": "location.location_symbol_relationship.type",
+            "Sid": "location.location_symbol_relationship.type",
             "Name": "Kind of symbol",
             "Description": "The kind of symbol this is: state tree, floral emblem, provincial bird, etc.",
             "ObjectType": "location.offical_symbol_type",

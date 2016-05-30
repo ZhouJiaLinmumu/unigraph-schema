@@ -1,5 +1,5 @@
 {
-    "Id": "location.capital_of_administrative_division",
+    "Sid": "location.capital_of_administrative_division",
     "Name": "Capital of administrative division",
     "Description": "A capital of an administrative division is the location (usually a city) where the government is located. This type includes the seats of government of all sub-national administrative divisions, regardless of the term typically used. Thus this type includes administrative centers, county seats, municipal seats, préfectures, etc.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "location.capital_of_administrative_division.capital_of",
+            "Sid": "location.capital_of_administrative_division.capital_of",
             "Name": "Capital of",
             "Description": "The administrative division that this is (or was) a capital of.",
             "ObjectType": "location.administrative_division_capital_relationship",

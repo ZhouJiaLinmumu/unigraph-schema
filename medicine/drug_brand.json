@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.drug_brand",
+    "Sid": "medicine.drug_brand",
     "Name": "Drug brand",
     "Description": "A brand name under which one or more drug formulations are marketed by a specific manufacturer. This type links brand names to the canonical drugs whose formulations are sold under the brand name.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "medicine.drug_brand.canonical_drug",
+            "Sid": "medicine.drug_brand.canonical_drug",
             "Name": "Canonical drug",
             "Description": "The drug (single or combination) that this brand is most well-known for. For brands that are used for multiple different drug formulations, the canonical drug is the common drug ingredient or moiety in the majority of formulations, given that at least one formulation has only the canonical drug as its active ingredient or moiety. For example, the canonical drug for Advil is Ibuprofen.",
             "ObjectType": "medicine.drug",

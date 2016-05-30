@@ -1,5 +1,5 @@
 {
-    "Id": "travel.accommodation_type",
+    "Sid": "travel.accommodation_type",
     "Name": "Accommodation type",
     "Description": "This type is for broad categories of travel/tourist accommodation, eg. hotel, hostel, resort, bed and breakfast, etc.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "sports.league_draft_pick",
+    "Sid": "sports.league_draft_pick",
     "Name": "Sports League Draft Pick",
     "Description": "Sports League Draft Pick is a compound value type used to capture individual draft picks. Properties such as nationality and college exist on the person type and are not duplicated here.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "sports.league_draft_pick.draft",
+            "Sid": "sports.league_draft_pick.draft",
             "Name": "Draft",
             "Description": "",
             "ObjectType": "sports.league_draft",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "sports.league_draft_pick.notes",
+            "Sid": "sports.league_draft_pick.notes",
             "Name": "Notes",
             "Description": "",
             "ObjectType": "type.text",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "sports.league_draft_pick.pick",
+            "Sid": "sports.league_draft_pick.pick",
             "Name": "Pick",
             "Description": "",
             "ObjectType": "type.int",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "sports.league_draft_pick.pick_overall",
+            "Sid": "sports.league_draft_pick.pick_overall",
             "Name": "Pick (overall)",
             "Description": "",
             "ObjectType": "type.int",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "sports.league_draft_pick.player",
+            "Sid": "sports.league_draft_pick.player",
             "Name": "Player",
             "Description": "",
             "ObjectType": "sports.drafted_athlete",
@@ -47,7 +47,7 @@
             "Required": true
         },
         {
-            "Id": "sports.league_draft_pick.round",
+            "Sid": "sports.league_draft_pick.round",
             "Name": "Round",
             "Description": "",
             "ObjectType": "type.int",
@@ -55,7 +55,7 @@
             "Required": false
         },
         {
-            "Id": "sports.league_draft_pick.school",
+            "Sid": "sports.league_draft_pick.school",
             "Name": "School/Institution",
             "Description": "",
             "ObjectType": "sports.educational_institution",
@@ -63,7 +63,7 @@
             "Required": false
         },
         {
-            "Id": "sports.league_draft_pick.team",
+            "Sid": "sports.league_draft_pick.team",
             "Name": "Team",
             "Description": "",
             "ObjectType": "sports.professional_team",

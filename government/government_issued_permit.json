@@ -1,5 +1,5 @@
 {
-    "Id": "government.government_issued_permit",
+    "Sid": "government.government_issued_permit",
     "Name": "Government Issued Permit",
     "Description": "A permit issued by a government entity. (e.g. a parking permit, driver's license, or business permit.)",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.government_issued_permit.application_channel",
+            "Sid": "government.government_issued_permit.application_channel",
             "Name": "Application channel",
             "Description": "A channel which may be used for applying for a permit for the first time. If a person/organization is renewing an existing, permit, the Renewal channel should be used.",
             "ObjectType": "government.government_service_channel",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "government.government_issued_permit.permit_type",
+            "Sid": "government.government_issued_permit.permit_type",
             "Name": "Permit type",
             "Description": "The type of permit.",
             "ObjectType": "government.government_permit_type",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "government.government_issued_permit.renewal_channel",
+            "Sid": "government.government_issued_permit.renewal_channel",
             "Name": "Renewal channel",
             "Description": "A channel which may be used when renewing an existing permit. New applications should be handled through the Application channel.",
             "ObjectType": "government.government_service_channel",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "government.government_issued_permit.required_by_law",
+            "Sid": "government.government_issued_permit.required_by_law",
             "Name": "Required by law",
             "Description": "Indicates whether the permit is required by law.",
             "ObjectType": "type.boolean",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "government.government_issued_permit.valid_for",
+            "Sid": "government.government_issued_permit.valid_for",
             "Name": "Valid for",
             "Description": "The duration of time the permit is valid for.",
             "ObjectType": "measured_dimension.time",

@@ -1,5 +1,5 @@
 {
-    "Id": "film.film_release_region",
+    "Sid": "film.film_release_region",
     "Name": "Film release region",
     "Description": "A territory in which a film was made available.",
     "Mediator": false,

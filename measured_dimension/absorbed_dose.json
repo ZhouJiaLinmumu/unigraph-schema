@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.absorbed_dose",
+    "Sid": "measured_dimension.absorbed_dose",
     "Name": "Absorbed dose",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.absorbed_dose_unit.measurement_unit",
+            "Sid": "measured_dimension.absorbed_dose_unit.measurement_unit",
             "Name": "Unit of Absorbed dose",
             "Description": "",
             "ObjectType": "measured_dimension.absorbed_dose_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.absorbed_dose_unit.value",
+            "Sid": "measured_dimension.absorbed_dose_unit.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

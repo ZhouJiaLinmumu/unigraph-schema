@@ -1,5 +1,5 @@
 {
-    "Id": "sports.medal",
+    "Sid": "sports.medal",
     "Name": "Sport Medal",
     "Description": "This type is for medals that are awarded to the winners of sporting events.",
     "Mediator": false,

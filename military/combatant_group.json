@@ -1,5 +1,5 @@
 {
-    "Id": "military.combatant_group",
+    "Sid": "military.combatant_group",
     "Name": "Military combatant group",
     "Description": "Groups (usually countries) that have fought together.A military combatant is a state, nation, or other high level group which is (or has been) at war with another combatant or combatants.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "military.combatant_group.combatants",
+            "Sid": "military.combatant_group.combatants",
             "Name": "Combatants",
             "Description": "Enter all combatants who fought on the same side as multiple values in the same row. A combatant is a country or armed force; individuals should not be entered as combatants.",
             "ObjectType": "military.combatant",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "military.combatant_group.conflict",
+            "Sid": "military.combatant_group.conflict",
             "Name": "Conflict",
             "Description": "The name of the conflict. The conflict can be as large as a war, or as small as an individual battle.",
             "ObjectType": "military.conflict",

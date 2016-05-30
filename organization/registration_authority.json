@@ -1,5 +1,5 @@
 {
-    "Id": "organization.registration_authority",
+    "Sid": "organization.registration_authority",
     "Name": "Organization registration authority",
     "Description": "An organization registration authority is an organization that registers other organizations",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "organization.registration_authority.territory",
+            "Sid": "organization.registration_authority.territory",
             "Name": "Territory",
             "Description": "",
             "ObjectType": "organization.registration_authority_territory",

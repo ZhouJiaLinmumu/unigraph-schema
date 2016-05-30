@@ -1,5 +1,5 @@
 {
-    "Id": "location.chinese_ethnic_group",
+    "Sid": "location.chinese_ethnic_group",
     "Name": "Chinese ethnic group",
     "Description": "Ethnic groups officially recognized by the government of China.",
     "Mediator": false,

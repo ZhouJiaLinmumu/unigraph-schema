@@ -1,5 +1,5 @@
 {
-    "Id": "geography.river_origin",
+    "Sid": "geography.river_origin",
     "Name": "River origin",
     "Description": "The source of a river",
     "Mediator": false,

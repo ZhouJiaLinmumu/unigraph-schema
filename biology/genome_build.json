@@ -1,5 +1,5 @@
 {
-    "Id": "biology.genome_build",
+    "Sid": "biology.genome_build",
     "Name": "Genome Build",
     "Description": "An assembled view of a genomic sequence.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.genome_build.curator",
+            "Sid": "biology.genome_build.curator",
             "Name": "Curator",
             "Description": "",
             "ObjectType": "biology.genome_curator",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "biology.genome_build.release_date",
+            "Sid": "biology.genome_build.release_date",
             "Name": "Release Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "biology.genome_build.version",
+            "Sid": "biology.genome_build.version",
             "Name": "Version",
             "Description": "",
             "ObjectType": "type.rawstring",

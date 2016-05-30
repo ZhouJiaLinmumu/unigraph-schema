@@ -1,5 +1,5 @@
 {
-    "Id": "law.constitution",
+    "Sid": "law.constitution",
     "Name": "Constitution",
     "Description": "The constitution is the supreme law of a place. It defines the fundamental legal and political principles, including e.g. the rights of the people and the structure of government.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "law.constitution.constitutional_convention",
+            "Sid": "law.constitution.constitutional_convention",
             "Name": "Constitutional Convention",
             "Description": "",
             "ObjectType": "law.constitutional_convention",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "law.constitution.country",
+            "Sid": "law.constitution.country",
             "Name": "Jurisdiction",
             "Description": "The jurisdiction this constitution governs. The highest level of jurisdiction only. E.g., if it is the constitution of a country, enter that country; if it is the constitution of a state or province, enter that state or province only.",
             "ObjectType": "law.governmental_jurisdiction",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "law.constitution.in_force_from",
+            "Sid": "law.constitution.in_force_from",
             "Name": "In force from",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "law.constitution.in_force_until",
+            "Sid": "law.constitution.in_force_until",
             "Name": "In force until",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "law.constitution.unratified_amendments",
+            "Sid": "law.constitution.unratified_amendments",
             "Name": "Unratified Amendments",
             "Description": "Proposed amendments to this constitution that have not been ratified.",
             "ObjectType": "law.constitutional_amendment",

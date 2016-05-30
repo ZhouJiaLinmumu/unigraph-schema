@@ -1,5 +1,5 @@
 {
-    "Id": "geography.island",
+    "Sid": "geography.island",
     "Name": "Island",
     "Description": "An island is any piece of land surrounded entirely by water. Archipelagoes and other named groups of islands should be typed as \"island group\", rather than \"island\".",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "geography.island.body_of_water",
+            "Sid": "geography.island.body_of_water",
             "Name": "Body Of Water",
             "Description": "The body of water this island is in.",
             "ObjectType": "geography.body_of_water",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "geography.island.island_group",
+            "Sid": "geography.island.island_group",
             "Name": "Island Group",
             "Description": "If this island is a member of an archipelago or other group, enter its name.",
             "ObjectType": "geography.island_group",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "geography.island.max_length",
+            "Sid": "geography.island.max_length",
             "Name": "Max. Length",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -35,7 +35,7 @@
             "Required": false
         },
         {
-            "Id": "geography.island.max_width",
+            "Sid": "geography.island.max_width",
             "Name": "Max. Width",
             "Description": "",
             "ObjectType": "measured_dimension.distance",

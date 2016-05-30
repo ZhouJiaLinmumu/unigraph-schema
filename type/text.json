@@ -1,5 +1,5 @@
 {
-    "Id": "type.text",
+    "Sid": "type.text",
     "Name": "Text",
     "Description": "The concept type of language-specific text.",
     "Mediator": false,

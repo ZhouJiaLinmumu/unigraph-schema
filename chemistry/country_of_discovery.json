@@ -1,5 +1,5 @@
 {
-    "Id": "chemistry.country_of_discovery",
+    "Sid": "chemistry.country_of_discovery",
     "Name": "Country of Discovery",
     "Description": "The country an element was discovered",
     "Mediator": false,

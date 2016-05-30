@@ -1,5 +1,5 @@
 {
-    "Id": "law.constitutional_convention",
+    "Sid": "law.constitutional_convention",
     "Name": "Constitutional Convention",
     "Description": "Meeting with the purpose of creating a new constitution or revising an existing constitution.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "law.constitutional_convention.delegates",
+            "Sid": "law.constitutional_convention.delegates",
             "Name": "Delegates",
             "Description": "Delegates to this convention.",
             "ObjectType": "law.constitutional_convention_delegate",

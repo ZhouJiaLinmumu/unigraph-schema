@@ -1,5 +1,5 @@
 {
-    "Id": "location.continent",
+    "Sid": "location.continent",
     "Name": "Continent",
     "Description": "A continent is a large land mass, defined mostly by conventional use, but closely related to tectonic plates within the earth's crust.",
     "Mediator": false,
@@ -8,6 +8,6 @@
         "location.location",
         "common.topic"
     ],
-    "Enumerated": false,
+    "Enumerated": true,
     "Properties": null
 }

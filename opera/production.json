@@ -1,5 +1,5 @@
 {
-    "Id": "opera.production",
+    "Sid": "opera.production",
     "Name": "Opera Production",
     "Description": "A Production is a staging of an opera. Typically, the production will have the same name as the opera itself.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "opera.production.conductor",
+            "Sid": "opera.production.conductor",
             "Name": "Conductor",
             "Description": "",
             "ObjectType": "opera.conductor",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "opera.production.date_closed",
+            "Sid": "opera.production.date_closed",
             "Name": "Date Closed",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "opera.production.date_opened",
+            "Sid": "opera.production.date_opened",
             "Name": "Date Opened",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "opera.production.opera",
+            "Sid": "opera.production.opera",
             "Name": "Opera",
             "Description": "",
             "ObjectType": "opera.opera",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "opera.production.producer",
+            "Sid": "opera.production.producer",
             "Name": "Producer",
             "Description": "",
             "ObjectType": "opera.producer",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "opera.production.producing_company",
+            "Sid": "opera.production.producing_company",
             "Name": "Producing Company",
             "Description": "",
             "ObjectType": "opera.opera_company",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "opera.production.recordings",
+            "Sid": "opera.production.recordings",
             "Name": "Recordings",
             "Description": "",
             "ObjectType": "opera.recording",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "opera.production.stage_director",
+            "Sid": "opera.production.stage_director",
             "Name": "Stage Director",
             "Description": "",
             "ObjectType": "opera.production_director",

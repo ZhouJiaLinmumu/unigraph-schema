@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.transmission",
+    "Sid": "automotive.transmission",
     "Name": "Transmission",
     "Description": "",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": true,
     "Properties": [
         {
-            "Id": "automotive.transmission.forward_gears",
+            "Sid": "automotive.transmission.forward_gears",
             "Name": "Number Of Forward Gears",
             "Description": "",
             "ObjectType": "type.int",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.transmission.reverse_gears",
+            "Sid": "automotive.transmission.reverse_gears",
             "Name": "Number Of Reverse Gears",
             "Description": "",
             "ObjectType": "type.int",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.transmission.overdrive",
+            "Sid": "automotive.transmission.overdrive",
             "Name": "Overdrive",
             "Description": "",
             "ObjectType": "type.boolean",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.transmission.shift_selection",
+            "Sid": "automotive.transmission.shift_selection",
             "Name": "Select Shift",
             "Description": "",
             "ObjectType": "type.boolean",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.transmission.used_in",
+            "Sid": "automotive.transmission.used_in",
             "Name": "Used In",
             "Description": "",
             "ObjectType": "automotive.model_year",

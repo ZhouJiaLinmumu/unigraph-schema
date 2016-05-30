@@ -1,5 +1,5 @@
 {
-    "Id": "music.video_character",
+    "Sid": "music.video_character",
     "Name": "Music video character",
     "Description": "This type is for fictional characters portrayed in music videos.",
     "Mediator": false,

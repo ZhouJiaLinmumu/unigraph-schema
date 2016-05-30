@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.engine",
+    "Sid": "automotive.engine",
     "Name": "Engine",
     "Description": "The engine type is to be used to classify specific powerplants used in an automobile. These may be year-specific, but more frequently they often span multiple years, models, makes and generations.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.engine.engine_type",
+            "Sid": "automotive.engine.engine_type",
             "Name": "Engine Type",
             "Description": "",
             "ObjectType": "automotive.engine_type",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.engine.fuel_delivery",
+            "Sid": "automotive.engine.fuel_delivery",
             "Name": "Fuel Delivery",
             "Description": "",
             "ObjectType": "automotive.fuel_delivery_method",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.engine.fuels_used",
+            "Sid": "automotive.engine.fuels_used",
             "Name": "Fuels Used",
             "Description": "The fuels this engine accepts as a power source",
             "ObjectType": "automotive.fuel",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.engine.horsepower",
+            "Sid": "automotive.engine.horsepower",
             "Name": "Horsepower",
             "Description": "",
             "ObjectType": "measured_dimension.power",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.engine.make",
+            "Sid": "automotive.engine.make",
             "Name": "Make",
             "Description": "",
             "ObjectType": "automotive.make",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.engine.capacity",
+            "Sid": "automotive.engine.capacity",
             "Name": "Size",
             "Description": "The size of the engine expressed as volume.",
             "ObjectType": "measured_dimension.volume",
@@ -58,7 +58,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.engine.torque",
+            "Sid": "automotive.engine.torque",
             "Name": "Torque",
             "Description": "",
             "ObjectType": "measured_dimension.force_moment",
@@ -66,7 +66,7 @@
             "Required": false
         },
         {
-            "Id": "automotive.engine.used_in",
+            "Sid": "automotive.engine.used_in",
             "Name": "Used In",
             "Description": "",
             "ObjectType": "automotive.model_year",

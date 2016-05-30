@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.inverse_temperature",
+    "Sid": "measured_dimension.inverse_temperature",
     "Name": "Inverse temperature",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.inverse_temperature.measurement_unit",
+            "Sid": "measured_dimension.inverse_temperature.measurement_unit",
             "Name": "Unit of Inverse temperature",
             "Description": "",
             "ObjectType": "measured_dimension.inverse_temperature_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.inverse_temperature.value",
+            "Sid": "measured_dimension.inverse_temperature.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

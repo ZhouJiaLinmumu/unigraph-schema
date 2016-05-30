@@ -1,5 +1,5 @@
 {
-    "Id": "people.living_location",
+    "Sid": "people.living_location",
     "Name": "Living location",
     "Description": "A habitable location",
     "Mediator": false,

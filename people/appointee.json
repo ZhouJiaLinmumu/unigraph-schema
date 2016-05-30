@@ -1,5 +1,5 @@
 {
-    "Id": "people.appointee",
+    "Sid": "people.appointee",
     "Name": "Appointee",
     "Description": "An appointee is a person which is given a position or role.",
     "Mediator": false,

@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.dated_mass",
+    "Sid": "measured_dimension.dated_mass",
     "Name": "Mass",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.dated_mass.measurement_unit",
+            "Sid": "measured_dimension.dated_mass.measurement_unit",
             "Name": "Unit of Mass",
             "Description": "",
             "ObjectType": "measured_dimension.mass_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.dated_mass.value",
+            "Sid": "measured_dimension.dated_mass.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.dated_mass.date",
+            "Sid": "measured_dimension.dated_mass.date",
             "Name": "Date",
             "Description": "",
             "ObjectType": "type.datetime",

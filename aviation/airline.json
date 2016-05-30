@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.airline",
+    "Sid": "aviation.airline",
     "Name": "Airline",
     "Description": "An airline is a company that provides air transport services for passengers or freight.",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "aviation.airline.fleet_size",
+            "Sid": "aviation.airline.fleet_size",
             "Name": "Fleet size",
             "Description": "",
             "ObjectType": "type.int",
@@ -20,7 +20,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airline.frequent_flyer_program",
+            "Sid": "aviation.airline.frequent_flyer_program",
             "Name": "Frequent flyer program",
             "Description": "",
             "ObjectType": "type.text",
@@ -28,7 +28,7 @@
             "Required": false
         },
         {
-            "Id": "aviation.airline.number_of_destinations",
+            "Sid": "aviation.airline.number_of_destinations",
             "Name": "Number of destinations",
             "Description": "",
             "ObjectType": "type.int",

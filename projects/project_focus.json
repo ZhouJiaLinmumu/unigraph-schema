@@ -1,5 +1,5 @@
 {
-    "Id": "projects.project_focus",
+    "Sid": "projects.project_focus",
     "Name": "Project focus",
     "Description": "The focus of a Project. For example, for a project such as the construction of the Golden Gate Bridge, the project focus would be Golden Gate Bridge.",
     "Mediator": false,

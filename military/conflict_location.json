@@ -1,5 +1,5 @@
 {
-    "Id": "military.conflict_location",
+    "Sid": "military.conflict_location",
     "Name": "Military Conflict Location",
     "Description": "The Military Conflict Location type holds information about the theater of the battle operations",
     "Mediator": false,

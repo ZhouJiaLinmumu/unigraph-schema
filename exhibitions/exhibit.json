@@ -1,5 +1,5 @@
 {
-    "Id": "exhibitions.exhibit",
+    "Sid": "exhibitions.exhibit",
     "Name": "Exhibit",
     "Description": "An exhibit is an item that has been displayed as part of an exhibition.",
     "Mediator": false,

@@ -1,0 +1,5 @@
+{
+  "Sid": "unigraph",
+  "Name": "Unigraph",
+  "Description": "This domain holds information important for the internal workings of Unigraph. Normally this domain shouldn't be visible in exports and apis as it holds little to no value outside of Unigraph operations."
+}

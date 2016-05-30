@@ -1,5 +1,5 @@
 {
-    "Id": "people.appointment_nominee",
+    "Sid": "people.appointment_nominee",
     "Name": "Appointment Nominee",
     "Description": "A nominee for an appointment is a person who has been officialy declared by the appointer as a candidate for a role or position.",
     "Mediator": false,

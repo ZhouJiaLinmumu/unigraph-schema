@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.vaccine",
+    "Sid": "medicine.vaccine",
     "Name": "Vaccine",
     "Description": "A vaccine is a biological preparation that improves immunity to a particular disease.",
     "Mediator": false,
@@ -12,7 +12,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "medicine.vaccine.developed_by",
+            "Sid": "medicine.vaccine.developed_by",
             "Name": "Developed by",
             "Description": "Person or organization that developed the vaccine.",
             "ObjectType": "medicine.vaccine_developer",

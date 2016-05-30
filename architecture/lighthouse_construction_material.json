@@ -1,5 +1,5 @@
 {
-    "Id": "architecture.lighthouse_construction_material",
+    "Sid": "architecture.lighthouse_construction_material",
     "Name": "Lighthouse construction material",
     "Description": "The construction material used in building a lighthouse structure.",
     "Mediator": false,

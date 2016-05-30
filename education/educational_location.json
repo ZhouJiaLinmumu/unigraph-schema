@@ -1,5 +1,5 @@
 {
-    "Id": "education.educational_location",
+    "Sid": "education.educational_location",
     "Name": "Educational location",
     "Description": "Locations (usually countries, unless divisions of a country have very different systems).",
     "Mediator": false,

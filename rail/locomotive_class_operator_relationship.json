@@ -1,5 +1,5 @@
 {
-    "Id": "rail.locomotive_class_operator_relationship",
+    "Sid": "rail.locomotive_class_operator_relationship",
     "Name": "Locomotive class/operator relationship",
     "Description": "This type holds information about railway operators and the locomotive classes they've historically used.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "rail.locomotive_class_operator_relationship.start_date",
+            "Sid": "rail.locomotive_class_operator_relationship.start_date",
             "Name": "From date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "rail.locomotive_class_operator_relationship.railway_operator",
+            "Sid": "rail.locomotive_class_operator_relationship.railway_operator",
             "Name": "Railway operator",
             "Description": "",
             "ObjectType": "rail.railway_operator",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "rail.locomotive_class_operator_relationship.end_date",
+            "Sid": "rail.locomotive_class_operator_relationship.end_date",
             "Name": "To date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "rail.locomotive_class_operator_relationship.locomotive_class",
+            "Sid": "rail.locomotive_class_operator_relationship.locomotive_class",
             "Name": "Locomotive class",
             "Description": "",
             "ObjectType": "rail.locomotive_class",

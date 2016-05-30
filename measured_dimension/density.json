@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.density",
+    "Sid": "measured_dimension.density",
     "Name": "Density",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.density.measurement_unit",
+            "Sid": "measured_dimension.density.measurement_unit",
             "Name": "Unit of Density",
             "Description": "",
             "ObjectType": "measured_dimension.density_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.density.value",
+            "Sid": "measured_dimension.density.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

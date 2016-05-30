@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.radioactivity",
+    "Sid": "measured_dimension.radioactivity",
     "Name": "Radioactivity",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.radioactivity.measurement_unit",
+            "Sid": "measured_dimension.radioactivity.measurement_unit",
             "Name": "Unit of Radioactivity",
             "Description": "",
             "ObjectType": "measured_dimension.radioactivity_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.radioactivity.value",
+            "Sid": "measured_dimension.radioactivity.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

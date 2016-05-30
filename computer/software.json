@@ -1,5 +1,5 @@
 {
-    "Id": "computer.software",
+    "Sid": "computer.software",
     "Name": "Software",
     "Description": "Any software which runs on a computer, excluding games (which should use the Video Game type instead).",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "computer.software.developer",
+            "Sid": "computer.software.developer",
             "Name": "Developer",
             "Description": "",
             "ObjectType": "computer.software_developer",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "computer.software.first_released",
+            "Sid": "computer.software.first_released",
             "Name": "First Released",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "computer.software.languages_used",
+            "Sid": "computer.software.languages_used",
             "Name": "Programming languages used",
             "Description": "",
             "ObjectType": "computer.programming_language",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "computer.software.latest_release_date",
+            "Sid": "computer.software.latest_release_date",
             "Name": "Latest Release Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "computer.software.latest_version",
+            "Sid": "computer.software.latest_version",
             "Name": "Latest Version",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "computer.software.license",
+            "Sid": "computer.software.license",
             "Name": "License",
             "Description": "",
             "ObjectType": "computer.software_license",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "computer.software.protocols_used",
+            "Sid": "computer.software.protocols_used",
             "Name": "Protocols Used",
             "Description": "",
             "ObjectType": "computer.internet_protocol",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "computer.software.service_network",
+            "Sid": "computer.software.service_network",
             "Name": "Protocols Provider",
             "Description": "",
             "ObjectType": "computer.protocol_provider",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "computer.software.software_genre",
+            "Sid": "computer.software.software_genre",
             "Name": "Software Genre",
             "Description": "",
             "ObjectType": "computer.software_genre",

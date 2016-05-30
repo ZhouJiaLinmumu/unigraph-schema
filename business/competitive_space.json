@@ -1,5 +1,5 @@
 {
-    "Id": "business.competitive_space",
+    "Sid": "business.competitive_space",
     "Name": "Competitive Space",
     "Description": "A competitive space is a way of grouping competing companies. A space is defined in such a way that any two companies in the space and operating in the same geographical regions will necessarily be competitors. It has properties for the total market size of the space as well as ways to specify market share.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.competitive_space.market_size",
+            "Sid": "business.competitive_space.market_size",
             "Name": "Market size",
             "Description": "Total market size of this space",
             "ObjectType": "business.market_size",

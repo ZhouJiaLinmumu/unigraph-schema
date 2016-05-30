@@ -1,5 +1,5 @@
 {
-    "Id": "film.film_collection",
+    "Sid": "film.film_collection",
     "Name": "Film collection",
     "Description": "The Film Collection type is intended to hold ad-hoc collections of films that are neither large or formal enough to be genres. Collections such as top 100 lists can be ordered using the built-in property ordering feature.",
     "Mediator": false,

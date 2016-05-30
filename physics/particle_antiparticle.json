@@ -1,5 +1,5 @@
 {
-    "Id": "physics.particle_antiparticle",
+    "Sid": "physics.particle_antiparticle",
     "Name": "Particle-Antiparticle",
     "Description": "This type is used to hold a particle-antiparticle pair.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "physics.particle_antiparticle.particle",
+            "Sid": "physics.particle_antiparticle.particle",
             "Name": "Particle",
             "Description": "Subatomic particles in the particle-antiparticle relationship.",
             "ObjectType": "physics.particle",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "physics.particle_antiparticle.self_antiparticle",
+            "Sid": "physics.particle_antiparticle.self_antiparticle",
             "Name": "Self antiparticle",
             "Description": "True if this particle is its own antiparticle, false otherwise",
             "ObjectType": "type.boolean",

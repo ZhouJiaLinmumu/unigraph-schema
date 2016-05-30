@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.rocket_assembly_country",
+    "Sid": "spaceflight.rocket_assembly_country",
     "Name": "Country of Origin",
     "Description": "Country in which a rocket has been assembled",
     "Mediator": false,

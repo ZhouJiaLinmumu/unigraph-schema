@@ -1,5 +1,5 @@
 {
-    "Id": "engineering.material_composition",
+    "Sid": "engineering.material_composition",
     "Name": "Material Composition",
     "Description": "Material composition is used to note the mass of material used in a component. If an alloy, particular mixture or compound used;",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "engineering.material_composition.mass",
+            "Sid": "engineering.material_composition.mass",
             "Name": "Mass",
             "Description": "The mass of the material used in this component",
             "ObjectType": "measured_dimension.mass",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "engineering.material_composition.material",
+            "Sid": "engineering.material_composition.material",
             "Name": "Material",
             "Description": "The specific material used",
             "ObjectType": "engineering.material",

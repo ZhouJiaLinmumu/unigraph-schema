@@ -1,5 +1,5 @@
 {
-    "Id": "biology.geologic_period",
+    "Sid": "biology.geologic_period",
     "Name": "Geologic Time Period",
     "Description": "The geologic time period during which a fossil formed.",
     "Mediator": false,

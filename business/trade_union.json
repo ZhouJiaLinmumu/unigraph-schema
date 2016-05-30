@@ -1,5 +1,5 @@
 {
-    "Id": "business.trade_union",
+    "Sid": "business.trade_union",
     "Name": "Trade union",
     "Description": "A trade union (aka labor union) is an organization which represents workers in a certain industry or profession.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "business.trade_union.industry",
+            "Sid": "business.trade_union.industry",
             "Name": "Industry",
             "Description": "The industry or industries that this union is connected to",
             "ObjectType": "business.industry",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "business.trade_union.professions_represented",
+            "Sid": "business.trade_union.professions_represented",
             "Name": "Professions represented",
             "Description": "Professions represented by this union",
             "ObjectType": "business.profession",

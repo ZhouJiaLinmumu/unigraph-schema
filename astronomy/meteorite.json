@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.meteorite",
+    "Sid": "astronomy.meteorite",
     "Name": "Meteorite",
     "Description": "A meteorite is a natural object originating in outer space that survives an impact with the Earth's surface without being destroyed. While in space it is called a meteoroid. Modern classification schemes divide meteorites into groups according to their structure, chemical and isotopic composition and mineralogy.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.meteorite.composition",
+            "Sid": "astronomy.meteorite.composition",
             "Name": "Meteorite composition",
             "Description": "",
             "ObjectType": "astronomy.meteoric_composition",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.meteorite.discovery_date",
+            "Sid": "astronomy.meteorite.discovery_date",
             "Name": "Meteorite discovery date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.meteorite.discovery_location",
+            "Sid": "astronomy.meteorite.discovery_location",
             "Name": "Meteorite discovery location",
             "Description": "The meteorite discovery location may be different from the meteorite fall location",
             "ObjectType": "astronomy.meteorite_discovery_location",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.meteorite.fall_date",
+            "Sid": "astronomy.meteorite.fall_date",
             "Name": "Meteorite fall date",
             "Description": "The meteorite fall date may differ from the meteorite discovery date.",
             "ObjectType": "type.datetime",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.meteorite.fall_geolocation",
+            "Sid": "astronomy.meteorite.fall_geolocation",
             "Name": "Meteorite fall geolocation",
             "Description": "",
             "ObjectType": "location.geocode",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.meteorite.fall_location",
+            "Sid": "astronomy.meteorite.fall_location",
             "Name": "Meteorite fall location",
             "Description": "The meteorite fall location may be different from the meteorite discovery location",
             "ObjectType": "astronomy.meteorite_fall_location",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.meteorite.mass",
+            "Sid": "astronomy.meteorite.mass",
             "Name": "Meteorite Mass",
             "Description": "Mass of the found meteorite in grams.",
             "ObjectType": "measured_dimension.mass",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.meteorite.observer",
+            "Sid": "astronomy.meteorite.observer",
             "Name": "Meteorite observer",
             "Description": "Names of individuals who observed a transit of the meteor prior to its impact with the Earth.",
             "ObjectType": "astronomy.meteorite_observer",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.meteorite.meteorite_surface_crater_earth",
+            "Sid": "astronomy.meteorite.meteorite_surface_crater_earth",
             "Name": "Meteorite surface crater (Earth)",
             "Description": "Is there a visible crater from the meteor's impact with the Earth's surface?",
             "ObjectType": "type.boolean",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.meteorite.source",
+            "Sid": "astronomy.meteorite.source",
             "Name": "Meteorite Source",
             "Description": "The celestial body from which this meteorite originated.",
             "ObjectType": "astronomy.meteorite_source",

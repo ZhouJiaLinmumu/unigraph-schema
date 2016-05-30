@@ -1,5 +1,5 @@
 {
-    "Id": "type.float",
+    "Sid": "type.float",
     "Name": "Floating Point Number",
     "Description": "The concept type of floats.",
     "Mediator": false,

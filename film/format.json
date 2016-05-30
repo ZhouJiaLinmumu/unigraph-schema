@@ -1,5 +1,5 @@
 {
-    "Id": "film.format",
+    "Sid": "film.format",
     "Name": "Film format",
     "Description": "The Film Format type includes all current and historical motion picture film formats.",
     "Mediator": false,

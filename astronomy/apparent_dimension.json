@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.apparent_dimension",
+    "Sid": "astronomy.apparent_dimension",
     "Name": "Apparent dimension",
     "Description": "Apparent dimension of the celestial object. Could be used for galaxies and other astronomical structures and bodies where measurement can best be described in arc minutes.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.apparent_dimension.major_axis",
+            "Sid": "astronomy.apparent_dimension.major_axis",
             "Name": "Major axis",
             "Description": "Major axis of object",
             "ObjectType": "measured_dimension.angle",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "astronomy.apparent_dimension.minor_axis",
+            "Sid": "astronomy.apparent_dimension.minor_axis",
             "Name": "Minor axis",
             "Description": "Minor axis of object",
             "ObjectType": "measured_dimension.angle",

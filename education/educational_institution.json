@@ -1,5 +1,5 @@
 {
-    "Id": "education.educational_institution",
+    "Sid": "education.educational_institution",
     "Name": "Educational Institution",
     "Description": "An educational institution is an organization that provides formal education to students. It provides academic and/or specialized training programs at any level of education, including primary and secondary schools, colleges, universities, and professional and trade schools.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "education.educational_institution.campuses",
+            "Sid": "education.educational_institution.campuses",
             "Name": "Campuses",
             "Description": "Campuses of this institution. A campus represents the grounds on which an educational institution is located. Most institutions will have at least one campus, and many have multiple campuses (sometimes called satellite campuses).",
             "ObjectType": "education.educational_institution_campus",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "education.educational_institution.colors",
+            "Sid": "education.educational_institution.colors",
             "Name": "Colors",
             "Description": "The school's colors. Each color separately.",
             "ObjectType": "education.school_color",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "education.educational_institution.faculty",
+            "Sid": "education.educational_institution.faculty",
             "Name": "Number of faculty",
             "Description": "The number of non-student lecturers, teachers and researchers at this institution.  These are typically staff members with an education/academic focus.",
             "ObjectType": "measured_dimension.dated_int",
@@ -35,7 +35,7 @@
             "Required": false
         },
         {
-            "Id": "education.educational_institution.mascot",
+            "Sid": "education.educational_institution.mascot",
             "Name": "Mascot",
             "Description": "A school's mascot may be a particular character (e.g. the University of Oklahoma's Sooner Schooner) or a general type of thing (e.g. Tiger, Bear, Spartan, etc.)",
             "ObjectType": "education.school_mascot",
@@ -43,7 +43,7 @@
             "Required": false
         },
         {
-            "Id": "education.educational_institution.motto",
+            "Sid": "education.educational_institution.motto",
             "Name": "Motto",
             "Description": "The motto of the institution",
             "ObjectType": "type.text",
@@ -51,7 +51,7 @@
             "Required": false
         },
         {
-            "Id": "education.educational_institution.newspaper",
+            "Sid": "education.educational_institution.newspaper",
             "Name": "Newspaper",
             "Description": "Newpapers published by the student body.",
             "ObjectType": "education.school_newspaper",
@@ -59,7 +59,7 @@
             "Required": false
         },
         {
-            "Id": "education.educational_institution.nickname",
+            "Sid": "education.educational_institution.nickname",
             "Name": "Nickname",
             "Description": "The nickname for the students or sports teams. This is often different from (or a variant of) the mascot name - e.g. the University of Oklahoma mascot is the Sooner Schooner; the nickname is the Sooners.",
             "ObjectType": "type.text",
@@ -67,7 +67,7 @@
             "Required": false
         },
         {
-            "Id": "education.educational_institution.number_of_staff",
+            "Sid": "education.educational_institution.number_of_staff",
             "Name": "Number of staff",
             "Description": "The number of non-faculty employees at this institution.",
             "ObjectType": "measured_dimension.dated_int",
@@ -75,7 +75,7 @@
             "Required": false
         },
         {
-            "Id": "education.educational_institution.phone_number",
+            "Sid": "education.educational_institution.phone_number",
             "Name": "Phone number",
             "Description": "The primary or switchboard number for this institution",
             "ObjectType": "common.phone_number",
@@ -83,7 +83,7 @@
             "Required": false
         },
         {
-            "Id": "education.educational_institution.radio_station",
+            "Sid": "education.educational_institution.radio_station",
             "Name": "Radio station",
             "Description": "A radio station run by this institution",
             "ObjectType": "education.student_radio_station",
@@ -91,7 +91,7 @@
             "Required": false
         },
         {
-            "Id": "education.educational_institution.school_magazines",
+            "Sid": "education.educational_institution.school_magazines",
             "Name": "School magazines",
             "Description": "Magazines published by the student body of this institution. Professionally-published magazines and journals should not be entered in this property.",
             "ObjectType": "education.school_magazine",
@@ -99,7 +99,7 @@
             "Required": false
         },
         {
-            "Id": "education.educational_institution.school_type",
+            "Sid": "education.educational_institution.school_type",
             "Name": "School type",
             "Description": "School Categories to which this school belongs, such as Private, Public, Primary, Secondary, College, Community College, Boarding School, National University, and so on.",
             "ObjectType": "education.school_category",
@@ -107,7 +107,7 @@
             "Required": false
         },
         {
-            "Id": "education.educational_institution.subsidiary_or_constituent_schools",
+            "Sid": "education.educational_institution.subsidiary_or_constituent_schools",
             "Name": "Subsidiary Or Constituent Schools",
             "Description": "Subsidiary institutions (such as colleges of a university).",
             "ObjectType": "education.educational_institution",
@@ -115,7 +115,7 @@
             "Required": false
         },
         {
-            "Id": "education.educational_institution.total_enrollment",
+            "Sid": "education.educational_institution.total_enrollment",
             "Name": "Total Enrollment",
             "Description": "The enrollment of the entire student body, by year.",
             "ObjectType": "measured_dimension.dated_int",

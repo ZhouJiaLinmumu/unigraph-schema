@@ -1,5 +1,5 @@
 {
-    "Id": "tv.channel",
+    "Sid": "tv.channel",
     "Name": "TV Channel",
     "Description": "A television channel is a physical or virtual channel over which a television station or television network is distributed. The distribution can be via analog or digital signal over the air or by a cable/satellite service. A television channel may or may not be the sole instance of a television network on the service or in the region via over the air broadcasting.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "tv.channel.cable_availability",
+            "Sid": "tv.channel.cable_availability",
             "Name": "Cable availability",
             "Description": "",
             "ObjectType": "tv.cable_satellite_availability",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "tv.channel.start_date",
+            "Sid": "tv.channel.start_date",
             "Name": "From",
             "Description": "Date channel became operational.",
             "ObjectType": "type.datetime",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "tv.channel.language",
+            "Sid": "tv.channel.language",
             "Name": "Language",
             "Description": "Language of the broadcast content of the TV channel.",
             "ObjectType": "tv.language",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "tv.channel.satellite_availability",
+            "Sid": "tv.channel.satellite_availability",
             "Name": "Satellite availability",
             "Description": "",
             "ObjectType": "tv.cable_satellite_availability",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "tv.channel.end_date",
+            "Sid": "tv.channel.end_date",
             "Name": "To",
             "Description": "Date channel ceased operating.",
             "ObjectType": "type.datetime",

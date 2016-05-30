@@ -1,5 +1,5 @@
 {
-    "Id": "theater.play_country",
+    "Sid": "theater.play_country",
     "Name": "Play country",
     "Description": "The country a play was written in.",
     "Mediator": false,

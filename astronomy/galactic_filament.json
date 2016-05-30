@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.galactic_filament",
+    "Sid": "astronomy.galactic_filament",
     "Name": "Galactic filament",
     "Description": "Largest known physical structure determined so far in the known universe, a filament will contain numerous galactic superclusters.",
     "Mediator": false,

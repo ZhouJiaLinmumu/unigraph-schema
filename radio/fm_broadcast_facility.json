@@ -1,5 +1,5 @@
 {
-    "Id": "radio.fm_broadcast_facility",
+    "Sid": "radio.fm_broadcast_facility",
     "Name": "FM terrestrial broadcast facility",
     "Description": "This type is for Earth-based facilities that broadcast in the FM band of the electromagnetic spectrum.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "radio.fm_broadcast_facility.frequency",
+            "Sid": "radio.fm_broadcast_facility.frequency",
             "Name": "Frequency",
             "Description": "",
             "ObjectType": "measured_dimension.frequency",

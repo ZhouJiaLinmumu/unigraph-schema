@@ -1,5 +1,5 @@
 {
-    "Id": "broadcast.radio_station",
+    "Sid": "broadcast.radio_station",
     "Name": "Radio Station",
     "Description": "A radio station is a specific type of broadcaster which transmits primarily audio via radio waves, satellite or the internet.",
     "Mediator": false,

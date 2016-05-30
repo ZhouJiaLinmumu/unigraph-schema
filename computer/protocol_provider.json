@@ -1,5 +1,5 @@
 {
-    "Id": "computer.protocol_provider",
+    "Sid": "computer.protocol_provider",
     "Name": "Protocol Provider",
     "Description": "The organization responsible or created the protocol (rules determining the format and transmission of data for computers).",
     "Mediator": false,

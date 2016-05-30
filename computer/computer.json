@@ -1,5 +1,5 @@
 {
-    "Id": "computer.computer",
+    "Sid": "computer.computer",
     "Name": "Computer",
     "Description": "Any computer, including desktop machines, games consoles and portable devices.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "computer.computer.discontinued",
+            "Sid": "computer.computer.discontinued",
             "Name": "Discontinued",
             "Description": "The date when manufacturing of this computer stopped",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "computer.computer.includes_models",
+            "Sid": "computer.computer.includes_models",
             "Name": "Includes Models",
             "Description": "Any sub-models of this computer",
             "ObjectType": "computer.computer",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "computer.computer.introduced",
+            "Sid": "computer.computer.introduced",
             "Name": "Introduced",
             "Description": "The date when this computer was first made available to the general public",
             "ObjectType": "type.datetime",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "computer.computer.key_designers",
+            "Sid": "computer.computer.key_designers",
             "Name": "Key Designers",
             "Description": "The most important people involved in the design this computer",
             "ObjectType": "computer.computer_designer",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "computer.computer.manufacturer",
+            "Sid": "computer.computer.manufacturer",
             "Name": "Manufacturer",
             "Description": "The organisations or people reponsible for the construction of this computer",
             "ObjectType": "computer.computer_manufacturer_brand",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "computer.computer.processor",
+            "Sid": "computer.computer.processor",
             "Name": "Processor",
             "Description": "The processor(s) used in this computer",
             "ObjectType": "computer.processor",

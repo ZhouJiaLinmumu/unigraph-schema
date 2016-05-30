@@ -1,5 +1,5 @@
 {
-    "Id": "government.parliamentary_election",
+    "Sid": "government.parliamentary_election",
     "Name": "Parliamentary election",
     "Description": "This type should be used for any general election which includes the election of parliament. It includes properties which are particular to parliamentary elections.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.parliamentary_election.government_formed_by",
+            "Sid": "government.parliamentary_election.government_formed_by",
             "Name": "Government formed by",
             "Description": "For parliamentary and similar systems, the party or parties that formed the government.",
             "ObjectType": "government.political_party",
@@ -19,7 +19,7 @@
             "Required": false
         },
         {
-            "Id": "government.parliamentary_election.resulting_head_of_government",
+            "Sid": "government.parliamentary_election.resulting_head_of_government",
             "Name": "Resulting head of government",
             "Description": "If, as the result of this election, a head of government was chosen (e.g. by the newly-elected parliament), enter that person here.",
             "ObjectType": "government.politician",
@@ -27,7 +27,7 @@
             "Required": false
         },
         {
-            "Id": "government.parliamentary_election.resulting_head_of_state",
+            "Sid": "government.parliamentary_election.resulting_head_of_state",
             "Name": "Resulting head of state",
             "Description": "If, as the result of this election, a head of state was chosen (e.g. by the newly-elected parliament), enter that person here.",
             "ObjectType": "government.politician",

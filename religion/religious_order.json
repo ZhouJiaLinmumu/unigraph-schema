@@ -1,5 +1,5 @@
 {
-    "Id": "religion.religious_order",
+    "Sid": "religion.religious_order",
     "Name": "Religious order",
     "Description": "A religious order is a religious organization whose members live apart from the rest of society.",
     "Mediator": false,
@@ -11,7 +11,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "religion.religious_order.monasteries",
+            "Sid": "religion.religious_order.monasteries",
             "Name": "Monasteries",
             "Description": "",
             "ObjectType": "religion.monastery",

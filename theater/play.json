@@ -1,5 +1,5 @@
 {
-    "Id": "theater.play",
+    "Sid": "theater.play",
     "Name": "Play",
     "Description": "A play is a work written to be performed on stage. Musicals are considered plays for purposes of this type (that is, there is no separate type for musicals).  Plays are also typed as written works.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "theater.play.composer",
+            "Sid": "theater.play.composer",
             "Name": "Composer",
             "Description": "For musicals (and other plays with music), the person(s) who composed the music",
             "ObjectType": "theater.composer",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "theater.play.country_of_origin",
+            "Sid": "theater.play.country_of_origin",
             "Name": "Country of origin",
             "Description": "",
             "ObjectType": "theater.play_country",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "theater.play.first_performance_date",
+            "Sid": "theater.play.first_performance_date",
             "Name": "Date of First Performance",
             "Description": "The date this play was first performed.",
             "ObjectType": "type.datetime",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "theater.play.genre",
+            "Sid": "theater.play.genre",
             "Name": "Genre",
             "Description": "",
             "ObjectType": "theater.genre",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "theater.play.lyricist",
+            "Sid": "theater.play.lyricist",
             "Name": "Lyricist",
             "Description": "For musicals (and other plays with songs), the person(s) who wrote the song lyrics.",
             "ObjectType": "theater.lyricist",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "theater.play.orchestrator",
+            "Sid": "theater.play.orchestrator",
             "Name": "Orchestrator",
             "Description": "For musicals (and other plays with music), the person(s) who orchestrated the music.",
             "ObjectType": "theater.orchestrator",
@@ -58,7 +58,7 @@
             "Required": false
         },
         {
-            "Id": "theater.play.playwright",
+            "Sid": "theater.play.playwright",
             "Name": "Playwright",
             "Description": "The person(s) who wrote the play, or, for musicals, who wrote the book.",
             "ObjectType": "theater.play_author",
@@ -66,7 +66,7 @@
             "Required": false
         },
         {
-            "Id": "theater.play.soundtracks",
+            "Sid": "theater.play.soundtracks",
             "Name": "Soundtracks",
             "Description": "For musicals (and other plays with music), any recordings (live or studio) that have been released of this play's music. Cast recordings may also be entered in the \"soundtracks\" property of the Theater Production topic. Do not include soundtracks from film or TV adaptations of the play.",
             "ObjectType": "theater.musical_soundtrack",

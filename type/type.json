@@ -1,5 +1,5 @@
 {
-    "Id": "type.type",
+    "Sid": "type.type",
     "Name": "Type",
     "Description": "The type of which all other types are instances.",
     "Mediator": false,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "type.type.domain",
+            "Sid": "type.type.domain",
             "Name": "Domain",
             "Description": "The domain containing this type",
             "ObjectType": "type.domain",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "type.type.expected_types",
+            "Sid": "type.type.expected_types",
             "Name": "Expected types",
             "Description": "Used as internal hierarchy of types and data management types.",
             "ObjectType": "type.type",

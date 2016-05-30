@@ -1,5 +1,5 @@
 {
-    "Id": "periodicals.editorial_tenure",
+    "Sid": "periodicals.editorial_tenure",
     "Name": "Editorial tenure",
     "Description": "This is a compound-value type that holds information about editors of periodicals.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "periodicals.editorial_tenure.editor",
+            "Sid": "periodicals.editorial_tenure.editor",
             "Name": "Editor",
             "Description": "An editor of this periodical.",
             "ObjectType": "periodicals.editor",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "periodicals.editorial_tenure.start_date",
+            "Sid": "periodicals.editorial_tenure.start_date",
             "Name": "From",
             "Description": "The date this person began working with this title.",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "periodicals.editorial_tenure.title",
+            "Sid": "periodicals.editorial_tenure.title",
             "Name": "Title",
             "Description": "The title of the editor (e.g. Editor-in-chief, science editor, editor for reviews, etc.) If someone has worked for the same periodical in multiple editorial roles, each should be a separate entry.",
             "ObjectType": "periodicals.editor_title",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "periodicals.editorial_tenure.end_date",
+            "Sid": "periodicals.editorial_tenure.end_date",
             "Name": "To",
             "Description": "The date this person stopped working with this title.",
             "ObjectType": "type.datetime",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "periodicals.editorial_tenure.periodical",
+            "Sid": "periodicals.editorial_tenure.periodical",
             "Name": "Periodical",
             "Description": "The periodical this person edited.",
             "ObjectType": "periodicals.periodical",

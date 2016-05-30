@@ -1,5 +1,5 @@
 {
-    "Id": "organization.board_member",
+    "Sid": "organization.board_member",
     "Name": "Organization leader",
     "Description": "An organization leader is someone who has been in a leadership position for an organization. This includes members of governing bodies of organizations, such as boards of directors or boards of regents, and also includes employees in the highest levels of leadership positions (such as CEOs, presidents, executive directors, etc.). Note that which titles confer leadership will vary depending on context. For example, in a Fortune 500 company, \"vice president\" is not a leadership position, but for a small organization or club, \"vice president\" probably is.",
     "Mediator": false,

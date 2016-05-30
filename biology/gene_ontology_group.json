@@ -1,5 +1,5 @@
 {
-    "Id": "biology.gene_ontology_group",
+    "Sid": "biology.gene_ontology_group",
     "Name": "Gene Ontology Group",
     "Description": "A gene ontology group is a means of categorization of gene groupings by associated biological processes, cellular components and molecular functions.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.gene_ontology_group.broader_group",
+            "Sid": "biology.gene_ontology_group.broader_group",
             "Name": "Broader Group",
             "Description": "",
             "ObjectType": "biology.gene_ontology_group",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "biology.gene_ontology_group.broader_term",
+            "Sid": "biology.gene_ontology_group.broader_term",
             "Name": "Broader Term",
             "Description": "",
             "ObjectType": "type.text",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "biology.gene_ontology_group.description",
+            "Sid": "biology.gene_ontology_group.description",
             "Name": "Description",
             "Description": "",
             "ObjectType": "type.text",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "biology.gene_ontology_group.group_type",
+            "Sid": "biology.gene_ontology_group.group_type",
             "Name": "Group Type",
             "Description": "",
             "ObjectType": "biology.gene_ontology_group_type",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "biology.gene_ontology_group.identifier",
+            "Sid": "biology.gene_ontology_group.identifier",
             "Name": "Identifier",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "biology.gene_ontology_group.narrower_term",
+            "Sid": "biology.gene_ontology_group.narrower_term",
             "Name": "Narrower Term",
             "Description": "",
             "ObjectType": "type.text",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "biology.gene_ontology_group.part_group",
+            "Sid": "biology.gene_ontology_group.part_group",
             "Name": "Part Group",
             "Description": "",
             "ObjectType": "biology.gene_ontology_group",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "biology.gene_ontology_group.related_term",
+            "Sid": "biology.gene_ontology_group.related_term",
             "Name": "Related Term",
             "Description": "",
             "ObjectType": "type.text",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "biology.gene_ontology_group.synonym_term",
+            "Sid": "biology.gene_ontology_group.synonym_term",
             "Name": "Synonym Term",
             "Description": "",
             "ObjectType": "type.text",

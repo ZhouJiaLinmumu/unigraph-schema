@@ -1,5 +1,5 @@
 {
-    "Id": "time.timezone",
+    "Sid": "time.timezone",
     "Name": "Time Zone",
     "Description": "A time zone is a region within which the time is always the same. Regions which have the same standard time, but which have different summer (or daylight saving) times, should be treated as different time zones.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "time.timezone.day_dst_begins",
+            "Sid": "time.timezone.day_dst_begins",
             "Name": "Day DST begins",
             "Description": "The day that daylight saving time begins in the current schedule. This should usually be entered like \"Second Sunday in April\", rather than a specific date, unless the date is always the same.",
             "ObjectType": "time.day_of_year",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "time.timezone.day_dst_ends",
+            "Sid": "time.timezone.day_dst_ends",
             "Name": "Day DST ends",
             "Description": "The day that daylight saving time ends in the current schedule. This should usually be entered like \"Second Sunday in October\", rather than a specific date, unless the date is always the same.",
             "ObjectType": "time.day_of_year",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "time.timezone.dst_utc_offset",
+            "Sid": "time.timezone.dst_utc_offset",
             "Name": "DST offset from UTC",
             "Description": "Offset in hours from UTC during observance of daylight saving time (ie. for PDT in Los Angeles, USA it is -7.00 hours for CHADT in the Chatham Islands it is +13.75).",
             "ObjectType": "measured_dimension.time",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "time.timezone.offset_from_uct",
+            "Sid": "time.timezone.offset_from_uct",
             "Name": "Offset from UTC",
             "Description": "Offset in hours from UTC during non-daylight savings time (ie. CHAST in the Chatham Islands, New Zealand it is +12.45 and for BOT in La Paz, Bolivia it is -4.00).",
             "ObjectType": "measured_dimension.time",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "time.timezone.timezone_abbreviation_dst",
+            "Sid": "time.timezone.timezone_abbreviation_dst",
             "Name": "Time zone abbreviation (DST)",
             "Description": "DST abbreviation for this timezone (ie. PDT for Pacific Daylight Time or CEST for Central European Summer Time). Obsolete abbreviations should be listed in /common/topic/alias.",
             "ObjectType": "type.text",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "time.timezone.timezone_abbreviation_standard",
+            "Sid": "time.timezone.timezone_abbreviation_standard",
             "Name": "Time zone abbreviation (standard)",
             "Description": "Standard time zone abbreviation (ie. CET for Central Europe Standard Time or PST for Pacific Standard Time).",
             "ObjectType": "type.text",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "time.timezone.timezone_name_dst",
+            "Sid": "time.timezone.timezone_name_dst",
             "Name": "Time zone name (DST)",
             "Description": "DST time zone name (ie. Pacific Daylight Time or Central European Summer Time).",
             "ObjectType": "type.text",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "time.timezone.timezone_name_standard",
+            "Sid": "time.timezone.timezone_name_standard",
             "Name": "Time zone name (standard)",
             "Description": "Standard time zone name (ie. Pacific Standard Time or Central European Time).",
             "ObjectType": "type.text",

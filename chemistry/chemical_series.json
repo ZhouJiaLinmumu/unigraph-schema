@@ -1,5 +1,5 @@
 {
-    "Id": "chemistry.chemical_series",
+    "Sid": "chemistry.chemical_series",
     "Name": "Chemical Series",
     "Description": "This type is for groupings of elements that share some set of characteristics.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "chemistry.chemical_series.elements",
+            "Sid": "chemistry.chemical_series.elements",
             "Name": "Elements",
             "Description": "",
             "ObjectType": "chemistry.chemical_element",

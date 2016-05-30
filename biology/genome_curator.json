@@ -1,5 +1,5 @@
 {
-    "Id": "biology.genome_curator",
+    "Sid": "biology.genome_curator",
     "Name": "Genome Curator",
     "Description": "Organization responsible for the genome build.",
     "Mediator": false,

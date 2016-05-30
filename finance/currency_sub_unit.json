@@ -1,5 +1,5 @@
 {
-    "Id": "finance.currency_sub_unit",
+    "Sid": "finance.currency_sub_unit",
     "Name": "Currency sub-unit",
     "Description": "Smaller units of a primary currency (such as a Euro cent, US cent, or Russian kopek). It should not be used for denominations of coins or bills.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "finance.currency_sub_unit.currency",
+            "Sid": "finance.currency_sub_unit.currency",
             "Name": "Currency",
             "Description": "The currency that this is a sub-unit of.",
             "ObjectType": "finance.currency",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "finance.currency_sub_unit.date_introduced",
+            "Sid": "finance.currency_sub_unit.date_introduced",
             "Name": "Date introduced",
             "Description": "The date this sub-unit was first used.",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "finance.currency_sub_unit.date_revoked",
+            "Sid": "finance.currency_sub_unit.date_revoked",
             "Name": "Date revoked",
             "Description": "The date, after which, this sub-unit was no longer legally in use.",
             "ObjectType": "type.datetime",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "finance.currency_sub_unit.quantity",
+            "Sid": "finance.currency_sub_unit.quantity",
             "Name": "Quantity",
             "Description": "The number of sub-units that make up one unit of currency. (E.g., there are 100 cents in 1 euro.)",
             "ObjectType": "type.int",

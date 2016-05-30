@@ -1,5 +1,5 @@
 {
-    "Id": "film.film_country",
+    "Sid": "film.film_country",
     "Name": "Film country",
     "Description": "A country in which a film was produced.",
     "Mediator": false,

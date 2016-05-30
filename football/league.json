@@ -1,5 +1,5 @@
 {
-    "Id": "football.league",
+    "Sid": "football.league",
     "Name": "Football League",
     "Description": "Football League is a collection of football (soccer) teams who play together in a structured system of games.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "football.league.governing_body",
+            "Sid": "football.league.governing_body",
             "Name": "Governing body",
             "Description": "The organization in charge of organizing or regulating this league",
             "ObjectType": "football.governing_federation",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "football.league.league_system",
+            "Sid": "football.league.league_system",
             "Name": "League System",
             "Description": "The league system in which this league is part of",
             "ObjectType": "football.league_system",

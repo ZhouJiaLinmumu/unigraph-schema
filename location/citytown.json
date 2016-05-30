@@ -1,5 +1,5 @@
 {
-    "Id": "location.citytown",
+    "Sid": "location.citytown",
     "Name": "City/Town/Village",
     "Description": "City/town/village refers to all named inhabited places at the most locally recognized level, but above the level of neighborhood. It is the most local region where there is a form of government or self-organization. Cities/towns/villages are larger than neighborhoods, and are typically contained within a larger administrative division such as a county, department, province, etc.",
     "Mediator": false,
@@ -9,10 +9,10 @@
         "location.dated_location",
         "common.topic"
     ],
-    "Enumerated": false,
+    "Enumerated": true,
     "Properties": [
         {
-            "Id": "location.citytown.postal_codes",
+            "Sid": "location.citytown.postal_codes",
             "Name": "Postal codes",
             "Description": "Postal codes in this city/town - this can include postal codes entirely or partially within a city/town, as well as postal codes that wholly encompass a city/town.",
             "ObjectType": "location.postal_code",

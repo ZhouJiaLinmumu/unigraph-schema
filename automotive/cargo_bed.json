@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.cargo_bed",
+    "Sid": "automotive.cargo_bed",
     "Name": "Cargo Bed",
     "Description": "Mediator capturing the dimensions of an automobile truck model's cargo bed by the trim level.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.cargo_bed.length",
+            "Sid": "automotive.cargo_bed.length",
             "Name": "Length",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "automotive.cargo_bed.wall_width",
+            "Sid": "automotive.cargo_bed.wall_width",
             "Name": "Wall Width",
             "Description": "",
             "ObjectType": "measured_dimension.distance",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "automotive.cargo_bed.wheel_well",
+            "Sid": "automotive.cargo_bed.wheel_well",
             "Name": "Width at Wheel Well",
             "Description": "",
             "ObjectType": "measured_dimension.distance",

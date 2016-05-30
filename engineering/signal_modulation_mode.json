@@ -1,5 +1,5 @@
 {
-    "Id": "engineering.signal_modulation_mode",
+    "Sid": "engineering.signal_modulation_mode",
     "Name": "Signal Modulation Mode",
     "Description": "Signals sent by radio (or over long wires or when stored on magnetic media) must be modulated with some method that prevents their signal from degrading before the signals can be received. A transmitter and receiver must use the same mode of modulation to successfully communicate. Some of these are digital modulations, which typically modulate data to intermediate frequencies, which are then modulated to radio frequencies using another modulation mode such as FM or AM.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "engineering.signal_modulation_mode.parent_modulation",
+            "Sid": "engineering.signal_modulation_mode.parent_modulation",
             "Name": "Parent modulation",
             "Description": "The modulation of which this is based on and is a variation of.",
             "ObjectType": "engineering.signal_modulation_mode",

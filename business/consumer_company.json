@@ -1,5 +1,5 @@
 {
-    "Id": "business.consumer_company",
+    "Sid": "business.consumer_company",
     "Name": "Consumer company",
     "Description": "A consumer company is any corporate entity that produces products for sale to consumers.",
     "Mediator": false,

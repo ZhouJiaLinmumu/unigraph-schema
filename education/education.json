@@ -1,5 +1,5 @@
 {
-    "Id": "education.education",
+    "Sid": "education.education",
     "Name": "Education",
     "Description": "This is a compound value type that contains information about a person's education -- the educational institution, the dates they attended, degrees obtained, fields of study, and dissertation topics. The data can be entered from either the person's or the institution's topic.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "education.education.degree",
+            "Sid": "education.education.degree",
             "Name": "Degree",
             "Description": "The academic degree (if any) this student received from this institution.",
             "ObjectType": "education.educational_degree",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "education.education.end_date",
+            "Sid": "education.education.end_date",
             "Name": "End Date",
             "Description": "The date (year is usually sufficient) that this student left this institution (e.g. by graduating, transferring, dropping out, etc.)",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "education.education.institution",
+            "Sid": "education.education.institution",
             "Name": "Institution",
             "Description": "The institution this person's education took place at. At any level of education - primary, secondary, or post-secondary.",
             "ObjectType": "education.educational_institution",
@@ -31,7 +31,7 @@
             "Required": true
         },
         {
-            "Id": "education.education.major",
+            "Sid": "education.education.major",
             "Name": "Major/Field Of Study",
             "Description": "The field the student majored in or the field the degree was awarded in.",
             "ObjectType": "education.field_of_study",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "education.education.minor",
+            "Sid": "education.education.minor",
             "Name": "Minor",
             "Description": "If this student minored in any subjects, they may be entered here.",
             "ObjectType": "education.field_of_study",
@@ -47,7 +47,7 @@
             "Required": false
         },
         {
-            "Id": "education.education.specialization",
+            "Sid": "education.education.specialization",
             "Name": "Specialization",
             "Description": "The specializations taken (if any) within the major field of study. Note that a specialization in one degree program might be a full-fledged major in another.",
             "ObjectType": "education.field_of_study",
@@ -55,7 +55,7 @@
             "Required": false
         },
         {
-            "Id": "education.education.start_date",
+            "Sid": "education.education.start_date",
             "Name": "Start Date",
             "Description": "The date (year is usually sufficient) that this student entered this institution.",
             "ObjectType": "type.datetime",
@@ -63,7 +63,7 @@
             "Required": false
         },
         {
-            "Id": "education.education.student",
+            "Sid": "education.education.student",
             "Name": "Student",
             "Description": "The student or graduate of this institution.",
             "ObjectType": "education.student",

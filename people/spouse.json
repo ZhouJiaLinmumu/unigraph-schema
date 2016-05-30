@@ -1,5 +1,5 @@
 {
-    "Id": "people.spouse",
+    "Sid": "people.spouse",
     "Name": "Spouse",
     "Description": "Spouse",
     "Mediator": false,

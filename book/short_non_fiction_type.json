@@ -1,5 +1,5 @@
 {
-    "Id": "book.short_non_fiction_type",
+    "Sid": "book.short_non_fiction_type",
     "Name": "Short Non-fiction Variety",
     "Description": "This is an enumerated list of possible types of written short non-fiction works, such as essay, article, introduction, etc., and functions primarily as a list to be used by the \"short non-fiction\" type. Please be conservative about adding new topics to this type. Topics such as \"review\" or \"interview\", which are indeed (usually) short works of non-fiction have their own types. (In general, if a variety of non-fiction needs properties beyond author, subject, and place of publication, it should have its own type.)",
     "Mediator": false,

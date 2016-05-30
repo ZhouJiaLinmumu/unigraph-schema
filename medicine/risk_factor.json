@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.risk_factor",
+    "Sid": "medicine.risk_factor",
     "Name": "Risk Factor",
     "Description": "A risk factor is anything that increases a person's likelihood of developing or contracting a disease or medical condition. Can be genetic, environmental, or behavioral.",
     "Mediator": false,

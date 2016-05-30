@@ -1,5 +1,5 @@
 {
-    "Id": "location.country",
+    "Sid": "location.country",
     "Name": "Country",
     "Description": "The most common objects are the current and former independent nations, potentially including composite entities such as empires. It can also be used for autonomous entities within such a composite, such as the four current constituent countries (England, Northern Ireland, Scotland, and Wales) of the United Kingdom.",
     "Mediator": false,
@@ -9,10 +9,10 @@
         "location.dated_location",
         "common.topic"
     ],
-    "Enumerated": false,
+    "Enumerated": true,
     "Properties": [
         {
-            "Id": "location.country.capital",
+            "Sid": "location.country.capital",
             "Name": "Capital",
             "Description": "",
             "ObjectType": "location.citytown",
@@ -20,7 +20,7 @@
             "Required": false
         },
         {
-            "Id": "location.country.government_form",
+            "Sid": "location.country.government_form",
             "Name": "Form of Government",
             "Description": "The form or style of government (i.e. federal republic, monarchy, etc.) of this country.",
             "ObjectType": "location.government_form",
@@ -28,7 +28,7 @@
             "Required": false
         },
         {
-            "Id": "location.country.internet_tld",
+            "Sid": "location.country.internet_tld",
             "Name": "Internet TLD",
             "Description": "The top-level domain(s) specific to this country.",
             "ObjectType": "location.top_level_domain",
@@ -36,7 +36,7 @@
             "Required": false
         },
         {
-            "Id": "location.country.official_language",
+            "Sid": "location.country.official_language",
             "Name": "Official Language",
             "Description": "",
             "ObjectType": "location.language",

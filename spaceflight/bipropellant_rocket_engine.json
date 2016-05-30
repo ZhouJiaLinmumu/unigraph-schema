@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.bipropellant_rocket_engine",
+    "Sid": "spaceflight.bipropellant_rocket_engine",
     "Name": "Bipropellant rocket engine",
     "Description": "An engine that combines two fluids, typically a fuel and and oxidizer, to produce thrust.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "spaceflight.bipropellant_rocket_engine.chamber_pressure",
+            "Sid": "spaceflight.bipropellant_rocket_engine.chamber_pressure",
             "Name": "Chamber pressure",
             "Description": "",
             "ObjectType": "measured_dimension.pressure",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.bipropellant_rocket_engine.engine_cycle",
+            "Sid": "spaceflight.bipropellant_rocket_engine.engine_cycle",
             "Name": "Engine cycle",
             "Description": "",
             "ObjectType": "spaceflight.rocket_engine_cycle",
@@ -26,7 +26,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.bipropellant_rocket_engine.expansion_ratio",
+            "Sid": "spaceflight.bipropellant_rocket_engine.expansion_ratio",
             "Name": "Expansion ratio",
             "Description": "",
             "ObjectType": "type.float",
@@ -34,7 +34,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.bipropellant_rocket_engine.fuel",
+            "Sid": "spaceflight.bipropellant_rocket_engine.fuel",
             "Name": "Fuel",
             "Description": "",
             "ObjectType": "spaceflight.rocket_engine_fuel",
@@ -42,7 +42,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.bipropellant_rocket_engine.chambers",
+            "Sid": "spaceflight.bipropellant_rocket_engine.chambers",
             "Name": "Number of chambers",
             "Description": "",
             "ObjectType": "type.int",
@@ -50,7 +50,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.bipropellant_rocket_engine.oxidizer",
+            "Sid": "spaceflight.bipropellant_rocket_engine.oxidizer",
             "Name": "Oxidizer",
             "Description": "",
             "ObjectType": "spaceflight.rocket_engine_oxidizer",
@@ -58,7 +58,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.bipropellant_rocket_engine.oxidizer_fuel_ratio",
+            "Sid": "spaceflight.bipropellant_rocket_engine.oxidizer_fuel_ratio",
             "Name": "Oxidizer/fuel ratio",
             "Description": "",
             "ObjectType": "type.float",
@@ -66,7 +66,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.bipropellant_rocket_engine.wet_mass",
+            "Sid": "spaceflight.bipropellant_rocket_engine.wet_mass",
             "Name": "Wet mass",
             "Description": "",
             "ObjectType": "measured_dimension.mass",

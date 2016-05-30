@@ -1,5 +1,5 @@
 {
-    "Id": "biology.plant_disease_triangle",
+    "Sid": "biology.plant_disease_triangle",
     "Name": "Plant Disease Triangle",
     "Description": "Compound value holding a plant disease, its cause, and necessary environmental conditions for that disease.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.plant_disease_triangle.host",
+            "Sid": "biology.plant_disease_triangle.host",
             "Name": "Host",
             "Description": "The plant that is affected by this particular disease.",
             "ObjectType": "biology.plant_disease_host",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "biology.plant_disease_triangle.plant_disease_cause",
+            "Sid": "biology.plant_disease_triangle.plant_disease_cause",
             "Name": "Plant Disease Cause",
             "Description": "Cause for a disease, such as a virus, bacteria, etc.",
             "ObjectType": "biology.plant_disease_cause",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "biology.plant_disease_triangle.plant_disease_conditions",
+            "Sid": "biology.plant_disease_triangle.plant_disease_conditions",
             "Name": "Plant Disease Conditions",
             "Description": "Environmental conditions necessary for disease to occur",
             "ObjectType": "biology.plant_disease_conditions",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "biology.plant_disease_triangle.source",
+            "Sid": "biology.plant_disease_triangle.source",
             "Name": "Source(s)",
             "Description": "Written works that document this disease relationship.",
             "ObjectType": "biology.plant_disease_documentation",

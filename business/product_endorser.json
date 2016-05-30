@@ -1,5 +1,5 @@
 {
-    "Id": "business.product_endorser",
+    "Sid": "business.product_endorser",
     "Name": "Product Endorser",
     "Description": "The person figure endorsing a product for another entity.",
     "Mediator": false,

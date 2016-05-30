@@ -1,5 +1,5 @@
 {
-    "Id": "music.video_performance",
+    "Sid": "music.video_performance",
     "Name": "Music video performance",
     "Description": "Music video performance type is a mediator that connects the music video to the performer who appeared in the music video, captures the character being portrayed if there is one, and if there is anything special about the performance (eg. person performing as her/himself, voice only, dancer, etc.).",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "music.video_performance.video_character",
+            "Sid": "music.video_performance.video_character",
             "Name": "Music video character",
             "Description": "The character (if applicable) the performer portrays in the music video performance (if not appearing as him/herself)",
             "ObjectType": "music.video_character",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "music.video_performance.video_performer",
+            "Sid": "music.video_performance.video_performer",
             "Name": "Music video performer",
             "Description": "Person, animal that is performing in the music video.",
             "ObjectType": "music.video_performer",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "music.video_performance.performance_note",
+            "Sid": "music.video_performance.performance_note",
             "Name": "Performance note",
             "Description": "Notes about this performance.",
             "ObjectType": "type.text",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "music.video_performance.video_performance_type",
+            "Sid": "music.video_performance.video_performance_type",
             "Name": "Special music video performance type",
             "Description": "Kind of musical video performance (eg., dancing, singing, voice acting, motion capture model for animation, appearances from archival footage, etc.).",
             "ObjectType": "music.video_performance_type",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "music.video_performance.video",
+            "Sid": "music.video_performance.video",
             "Name": "Music video",
             "Description": "Music video this person, animal or being in fiction performed in.",
             "ObjectType": "music.video",

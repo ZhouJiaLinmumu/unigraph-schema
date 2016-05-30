@@ -1,5 +1,5 @@
 {
-    "Id": "location.government_form",
+    "Sid": "location.government_form",
     "Name": "Form of government",
     "Description": "",
     "Mediator": false,

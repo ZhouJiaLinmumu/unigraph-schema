@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.drug_strength",
+    "Sid": "medicine.drug_strength",
     "Name": "Drug strength",
     "Description": "A type representing the strength of one active ingredient in a labeled drug preparation.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "medicine.drug_strength.active_ingredient",
+            "Sid": "medicine.drug_strength.active_ingredient",
             "Name": "Active ingredient",
             "Description": "The active ingredient to which this strength applies (for disambiguation in multiple-drug preparations).",
             "ObjectType": "medicine.drug_ingredient",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "medicine.drug_strength.strength_units",
+            "Sid": "medicine.drug_strength.strength_units",
             "Name": "Strength units",
             "Description": "Units in which to interpret the strength value, for example, mg/L.  This can be multi-valued, for example in the case of a \"kit\" drug that includes multiple pills with different strengths of the same active ingredient.",
             "ObjectType": "type.text",
@@ -23,7 +23,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.drug_strength.strength_value",
+            "Sid": "medicine.drug_strength.strength_value",
             "Name": "Strength value",
             "Description": "Strength of the active ingredient, value only. This can be multi-valued, for example in the case of a \"kit\" drug that includes multiple pills with different strengths of the same active ingredient.",
             "ObjectType": "type.float",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "medicine.drug_strength.drug_formulations",
+            "Sid": "medicine.drug_strength.drug_formulations",
             "Name": "Drug formulations available in this strength",
             "Description": "Drug formulations available in this strength.",
             "ObjectType": "medicine.drug_formulation",

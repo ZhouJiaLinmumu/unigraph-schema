@@ -1,5 +1,5 @@
 {
-    "Id": "protected_sites.governing_body",
+    "Sid": "protected_sites.governing_body",
     "Name": "Governing Body of Protected Sites",
     "Description": "This can be any type of government agency, non-profit organization, company, etc. that administers a park or other protected site.",
     "Mediator": false,

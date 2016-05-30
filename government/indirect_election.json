@@ -1,5 +1,5 @@
 {
-    "Id": "government.indirect_election",
+    "Sid": "government.indirect_election",
     "Name": "Indirect election",
     "Description": "Indirect elections are elections in which the candidates for office are elected not by the voting public, but by electors who represent the public. Examples include U.S. Presidential elections and French Senate elections.  This type should be added to topics that also have one of the types General Election or  [Election Contest](http://www.UniGraph.com/view/government/election).",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.indirect_election.electors",
+            "Sid": "government.indirect_election.electors",
             "Name": "Electors",
             "Description": "The body of electors (e.g., an electoral college) that votes in this election.",
             "ObjectType": "government.electoral_college",

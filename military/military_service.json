@@ -1,5 +1,5 @@
 {
-    "Id": "military.military_service",
+    "Sid": "military.military_service",
     "Name": "Military Service",
     "Description": "Someone's tenure as a specific military rank in a particular unit.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "military.military_service.start_date",
+            "Sid": "military.military_service.start_date",
             "Name": "From date",
             "Description": "The date this person attained this rank. (If this person held this rank multiple times, separately.)",
             "ObjectType": "type.datetime",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "military.military_service.military_force",
+            "Sid": "military.military_service.military_force",
             "Name": "Military Force",
             "Description": "The armed force that this person served in. (Armed forces are the highest level of a country or other organization's military, such as the RAF, US Army, or Japanese Imperial Navy.) This property could be considered redundant with the \"unit\" property (since units should be linked to their armed forces) but many sources only list a person's armed force and not their unit.",
             "ObjectType": "military.armed_force",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "military.military_service.rank",
+            "Sid": "military.military_service.rank",
             "Name": "Rank",
             "Description": "The rank this person held in this armed force for this period.",
             "ObjectType": "military.military_rank",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "military.military_service.end_date",
+            "Sid": "military.military_service.end_date",
             "Name": "To date",
             "Description": "The date after which this person no longer held this rank.",
             "ObjectType": "type.datetime",
@@ -39,7 +39,7 @@
             "Required": false
         },
         {
-            "Id": "military.military_service.unit",
+            "Sid": "military.military_service.unit",
             "Name": "Unit",
             "Description": "The military unit this person belonged to (e.g. a regiment, division, brigade, etc.). The lowest hierarchical level known.",
             "ObjectType": "military.military_unit",
@@ -47,7 +47,7 @@
             "Required": false
         },
         {
-            "Id": "military.military_service.military_person",
+            "Sid": "military.military_service.military_person",
             "Name": "Military Person",
             "Description": "The person holding this rank, in this armed force, for this period.",
             "ObjectType": "military.military_person",

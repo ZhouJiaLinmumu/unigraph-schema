@@ -1,5 +1,5 @@
 {
-    "Id": "transportation.transit_system_area",
+    "Sid": "transportation.transit_system_area",
     "Name": "Area Served",
     "Description": "The area served by a transit system",
     "Mediator": false,

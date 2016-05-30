@@ -1,5 +1,5 @@
 {
-    "Id": "computer.programming_language",
+    "Sid": "computer.programming_language",
     "Name": "Programming Language",
     "Description": "A language used to give instructions to a computer.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "computer.programming_language.developers",
+            "Sid": "computer.programming_language.developers",
             "Name": "Developers",
             "Description": "",
             "ObjectType": "computer.programming_language_developer",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "computer.programming_language.influenced",
+            "Sid": "computer.programming_language.influenced",
             "Name": "Influenced",
             "Description": "Programming languages influenced by this language.",
             "ObjectType": "computer.programming_language",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "computer.programming_language.introduced",
+            "Sid": "computer.programming_language.introduced",
             "Name": "Introduced",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "computer.programming_language.language_designers",
+            "Sid": "computer.programming_language.language_designers",
             "Name": "Language Designers",
             "Description": "",
             "ObjectType": "computer.programming_language_designer",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "computer.programming_language.language_paradigms",
+            "Sid": "computer.programming_language.language_paradigms",
             "Name": "Language Paradigms",
             "Description": "",
             "ObjectType": "computer.programming_language_paradigm",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "computer.programming_language.parent_language",
+            "Sid": "computer.programming_language.parent_language",
             "Name": "Parent Language",
             "Description": "",
             "ObjectType": "computer.programming_language",

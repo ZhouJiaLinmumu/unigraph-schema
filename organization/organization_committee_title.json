@@ -1,5 +1,5 @@
 {
-    "Id": "organization.organization_committee_title",
+    "Sid": "organization.organization_committee_title",
     "Name": "Organization committee title",
     "Description": "This type is for titles that people have held while serving on the committee of an organization.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "organization.organization_committee_title.members_with_this_title",
+            "Sid": "organization.organization_committee_title.members_with_this_title",
             "Name": "Members with this title",
             "Description": "",
             "ObjectType": "organization.organization_committee_membership",

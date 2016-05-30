@@ -1,5 +1,5 @@
 {
-    "Id": "government.government_service",
+    "Sid": "government.government_service",
     "Name": "Government Service",
     "Description": "A service provided by a government to citizens and businesses. The government entity can be at any level (e.g municipal, regional, national).",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.government_service.government_service_channel",
+            "Sid": "government.government_service.government_service_channel",
             "Name": "Government service channel",
             "Description": "A channel for accessing the service. (e.g. a website, a telephone number, or a physical location.)",
             "ObjectType": "government.government_service_channel",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "government.government_service.government_service_type",
+            "Sid": "government.government_service.government_service_type",
             "Name": "Government service type",
             "Description": "The type of service.",
             "ObjectType": "government.government_service_type",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "government.government_service.issues_permit",
+            "Sid": "government.government_service.issues_permit",
             "Name": "Issues permit",
             "Description": "A permit type that is issued through the service.",
             "ObjectType": "government.government_issued_permit",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "government.government_service.operating_organization",
+            "Sid": "government.government_service.operating_organization",
             "Name": "Operating organization",
             "Description": "An organization that operates the service on behalf of the agency.",
             "ObjectType": "government.government_agency_contractor",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "government.government_service.providing_agency",
+            "Sid": "government.government_service.providing_agency",
             "Name": "Providing agency",
             "Description": "The government agency that provides or sponsors the service.",
             "ObjectType": "government.government_agency",

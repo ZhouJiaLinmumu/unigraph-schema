@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.data_size",
+    "Sid": "measured_dimension.data_size",
     "Name": "Data size",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.data_size.measurement_unit",
+            "Sid": "measured_dimension.data_size.measurement_unit",
             "Name": "Unit of Data size",
             "Description": "",
             "ObjectType": "measured_dimension.data_size_unit",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.data_size.value",
+            "Sid": "measured_dimension.data_size.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",

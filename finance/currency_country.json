@@ -1,5 +1,5 @@
 {
-    "Id": "finance.currency_country",
+    "Sid": "finance.currency_country",
     "Name": "Currency",
     "Description": "Countries Used",
     "Mediator": false,

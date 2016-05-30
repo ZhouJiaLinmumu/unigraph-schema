@@ -1,5 +1,5 @@
 {
-    "Id": "government.political_district_type",
+    "Sid": "government.political_district_type",
     "Name": "Political District Type",
     "Description": "The Type of the political district: County, Borough, etc.",
     "Mediator": false,

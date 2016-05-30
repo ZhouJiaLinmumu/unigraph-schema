@@ -1,5 +1,5 @@
 {
-    "Id": "computer.file_format",
+    "Sid": "computer.file_format",
     "Name": "File Format",
     "Description": "A way that data is encoded in a computer file.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "computer.file_format.container_for",
+            "Sid": "computer.file_format.container_for",
             "Name": "Container For",
             "Description": "",
             "ObjectType": "computer.file_format",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "computer.file_format.creation_date",
+            "Sid": "computer.file_format.creation_date",
             "Name": "Creation Date",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "computer.file_format.extended_to",
+            "Sid": "computer.file_format.extended_to",
             "Name": "Extended To",
             "Description": "",
             "ObjectType": "computer.file_format",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "computer.file_format.extension",
+            "Sid": "computer.file_format.extension",
             "Name": "Extension",
             "Description": "",
             "ObjectType": "type.rawstring",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "computer.file_format.format_creator",
+            "Sid": "computer.file_format.format_creator",
             "Name": "Format Creator",
             "Description": "",
             "ObjectType": "computer.software_developer",
@@ -49,7 +49,7 @@
             "Required": false
         },
         {
-            "Id": "computer.file_format.genre",
+            "Sid": "computer.file_format.genre",
             "Name": "Genre",
             "Description": "",
             "ObjectType": "computer.file_format_class",
@@ -57,7 +57,7 @@
             "Required": false
         },
         {
-            "Id": "computer.file_format.mime_type",
+            "Sid": "computer.file_format.mime_type",
             "Name": "MIME Type",
             "Description": "",
             "ObjectType": "computer.mime_type",
@@ -65,7 +65,7 @@
             "Required": false
         },
         {
-            "Id": "computer.file_format.read_by",
+            "Sid": "computer.file_format.read_by",
             "Name": "Read By",
             "Description": "",
             "ObjectType": "computer.software",
@@ -73,7 +73,7 @@
             "Required": false
         },
         {
-            "Id": "computer.file_format.used_on",
+            "Sid": "computer.file_format.used_on",
             "Name": "Used On",
             "Description": "",
             "ObjectType": "computer.computing_platform",
@@ -81,7 +81,7 @@
             "Required": false
         },
         {
-            "Id": "computer.file_format.written_by",
+            "Sid": "computer.file_format.written_by",
             "Name": "Written By",
             "Description": "",
             "ObjectType": "computer.software",

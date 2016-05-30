@@ -1,5 +1,5 @@
 {
-    "Id": "exhibitions.exhibition",
+    "Sid": "exhibitions.exhibition",
     "Name": "Exhibition",
     "Description": "This type is for exhibitions and galleries - typically those held in public institutions like art galleries and museums, although it could also be used for commercial exhibitions and private art shows.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "exhibitions.exhibition.curators",
+            "Sid": "exhibitions.exhibition.curators",
             "Name": "Curators",
             "Description": "",
             "ObjectType": "exhibitions.curator",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "exhibitions.exhibition.types",
+            "Sid": "exhibitions.exhibition.types",
             "Name": "Exhibition type(s)",
             "Description": "",
             "ObjectType": "exhibitions.type",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "exhibitions.exhibition.exhibits",
+            "Sid": "exhibitions.exhibition.exhibits",
             "Name": "Exhibits",
             "Description": "",
             "ObjectType": "exhibitions.exhibit",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "exhibitions.exhibition.produced_by",
+            "Sid": "exhibitions.exhibition.produced_by",
             "Name": "Produced by",
             "Description": "",
             "ObjectType": "exhibitions.producer",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "exhibitions.exhibition.subject",
+            "Sid": "exhibitions.exhibition.subject",
             "Name": "Subjects",
             "Description": "",
             "ObjectType": "exhibitions.subject",

@@ -1,5 +1,5 @@
 {
-    "Id": "travel.hotel_grade",
+    "Sid": "travel.hotel_grade",
     "Name": "Hotel Grade",
     "Description": "This determines which hotel was awarded with what star rating from which authority. It also allows the rating to change from year to year.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "travel.hotel_grade.awarded_by",
+            "Sid": "travel.hotel_grade.awarded_by",
             "Name": "Awarded By",
             "Description": "The organization who awarded the stars (link back to the Hotel if self-awarded)",
             "ObjectType": "travel.hotel_grading_authority",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "travel.hotel_grade.stars",
+            "Sid": "travel.hotel_grade.stars",
             "Name": "Stars",
             "Description": "Number of 'stars' awarded to the Hotel",
             "ObjectType": "type.int",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "travel.hotel_grade.years_awarded",
+            "Sid": "travel.hotel_grade.years_awarded",
             "Name": "Years Awarded",
             "Description": "The years in which this particular star rating was awarded to this hotel by this grading authority",
             "ObjectType": "type.datetime",

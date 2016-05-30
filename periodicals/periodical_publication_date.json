@@ -1,5 +1,5 @@
 {
-    "Id": "periodicals.periodical_publication_date",
+    "Sid": "periodicals.periodical_publication_date",
     "Name": "Periodical Publication Date",
     "Description": "This is a compound-value type that contains information about a periodical's date of publication, volume, and issue number.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "periodicals.periodical_publication_date.additional_date_info",
+            "Sid": "periodicals.periodical_publication_date.additional_date_info",
             "Name": "Additional date info",
             "Description": "Date information that cannot be made to conform to the standard yyyy-mm-dd model (e.g., Winter; Jan./Feb., etc.).",
             "ObjectType": "type.text",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "periodicals.periodical_publication_date.date",
+            "Sid": "periodicals.periodical_publication_date.date",
             "Name": "Date",
             "Description": "The date of publication (as indicated on the periodical)",
             "ObjectType": "type.datetime",
@@ -23,7 +23,7 @@
             "Required": true
         },
         {
-            "Id": "periodicals.periodical_publication_date.issue_number",
+            "Sid": "periodicals.periodical_publication_date.issue_number",
             "Name": "Issue Number",
             "Description": "This should be the issue within a volume, not the whole number (unless the periodical does not use the volume/issue convention)",
             "ObjectType": "type.rawstring",
@@ -31,7 +31,7 @@
             "Required": false
         },
         {
-            "Id": "periodicals.periodical_publication_date.volume",
+            "Sid": "periodicals.periodical_publication_date.volume",
             "Name": "Volume",
             "Description": "The volume number",
             "ObjectType": "type.rawstring",

@@ -1,5 +1,5 @@
 {
-    "Id": "film.film_cut_type",
+    "Sid": "film.film_cut_type",
     "Name": "Film cut type",
     "Description": "This is a list of different types of film cuts, such as \"theatrical release\" or \"director's cut\".",
     "Mediator": false,

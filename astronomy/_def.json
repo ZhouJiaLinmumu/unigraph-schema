@@ -1,5 +1,5 @@
 {
-  "Id": "astronomy",
+  "Sid": "astronomy",
   "Name": "Astronomy",
   "Description": "The Astronomy domain holds information on all celestial objects and phenomena, including astronomers and science equipment used to document these findings."
 }

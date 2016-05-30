@@ -1,5 +1,5 @@
 {
-    "Id": "government.government_office_or_title",
+    "Sid": "government.government_office_or_title",
     "Name": "Government Office or Title",
     "Description": "This type is for the office, title, or position within a government. The names for topics of these types should be specific to the region they govern (i.e., \"President of the United States\", \"Mayor of Toronto\", \"Member of the Scottish Parliament\" as opposed to simply \"President\", \"Mayor\", or \"Member of Parliament\". This is because the property \"jurisdiction\" connects to the are governed, and is the primary way that politicians and public servants are connected to the places they govern. Thus, the topic \"Prime Minister of Australia\" (and therefore everyone who has held that office) is linked to Australia via this property.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "government.government_office_or_title.category",
+            "Sid": "government.government_office_or_title.category",
             "Name": "Category",
             "Description": "The general category of this office. For example, if the office is \"Mayor of Queensborough\", the category would be \"Mayor\".",
             "ObjectType": "government.government_office_category",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "government.government_office_or_title.jurisdiction",
+            "Sid": "government.government_office_or_title.jurisdiction",
             "Name": "Jurisdiction",
             "Description": "The area over which the office or position has jurisdiction, such as a city, province, or country. If the office belongs to a governmental body, the jurisdiction of the body.",
             "ObjectType": "government.governmental_jurisdiction",

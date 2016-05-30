@@ -1,5 +1,5 @@
 {
-    "Id": "automotive.make",
+    "Sid": "automotive.make",
     "Name": "Automobile Make",
     "Description": "An automotive make is a specific car line a manufacturer produces. For example, Pontiac, Chevrolet, Audi and Volkswagen are all makes.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "automotive.make.model",
+            "Sid": "automotive.make.model",
             "Name": "Model(s)",
             "Description": "",
             "ObjectType": "automotive.model",

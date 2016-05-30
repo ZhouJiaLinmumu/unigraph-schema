@@ -1,5 +1,5 @@
 {
-    "Id": "biology.organism_classification_rank",
+    "Sid": "biology.organism_classification_rank",
     "Name": "Organism Classification Rank",
     "Description": "A Organism Classification Rank is an enumerated list of biological classifications such as Species, Genus, etc. to give a taxon rank to an organism classification.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "biology.organism_classification_rank.lower_rank",
+            "Sid": "biology.organism_classification_rank.lower_rank",
             "Name": "Lower rank",
             "Description": "Lower ranks are the reciprocal of higher ranks.",
             "ObjectType": "biology.organism_classification_rank",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "biology.organism_classification_rank.major_rank",
+            "Sid": "biology.organism_classification_rank.major_rank",
             "Name": "Major Rank",
             "Description": "A major rank is one of the fundamental ranks, i.e. domain, kingdom, phylum/division, class, order, family, genus and species.",
             "ObjectType": "type.boolean",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "biology.organism_classification_rank.scientific_name",
+            "Sid": "biology.organism_classification_rank.scientific_name",
             "Name": "Scientific name",
             "Description": "The scientific (latin) name.",
             "ObjectType": "type.text",

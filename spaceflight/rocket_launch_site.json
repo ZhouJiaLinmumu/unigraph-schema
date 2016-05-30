@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.rocket_launch_site",
+    "Sid": "spaceflight.rocket_launch_site",
     "Name": "Spaceport",
     "Description": "A spaceport is any facility for launching or receiving spacecraft.",
     "Mediator": false,
@@ -10,7 +10,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "spaceflight.rocket_launch_site.controlling_country",
+            "Sid": "spaceflight.rocket_launch_site.controlling_country",
             "Name": "Controlling Country",
             "Description": "",
             "ObjectType": "spaceflight.rocket_launch_country",
@@ -18,7 +18,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.rocket_launch_site.operated_by",
+            "Sid": "spaceflight.rocket_launch_site.operated_by",
             "Name": "Controlling Space Agency",
             "Description": "",
             "ObjectType": "spaceflight.space_agency",

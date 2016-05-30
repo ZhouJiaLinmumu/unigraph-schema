@@ -1,5 +1,5 @@
 {
-    "Id": "aviation.flight_origin",
+    "Sid": "aviation.flight_origin",
     "Name": "Flight Origin",
     "Description": "This type represents the point a flight started from.",
     "Mediator": false,

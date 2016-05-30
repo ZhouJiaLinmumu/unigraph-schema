@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.drug_physiologic_effect",
+    "Sid": "medicine.drug_physiologic_effect",
     "Name": "Drug physiologic effect",
     "Description": "This type describes the physiologic effect that a drug has on the body at a biological or chemical level. For example, \"Decreased platelet production\".",
     "Mediator": false,

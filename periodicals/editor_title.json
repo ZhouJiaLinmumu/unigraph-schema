@@ -1,5 +1,5 @@
 {
-    "Id": "periodicals.editor_title",
+    "Sid": "periodicals.editor_title",
     "Name": "Editor title",
     "Description": "This type holds the titles of editors of periodicals.",
     "Mediator": false,

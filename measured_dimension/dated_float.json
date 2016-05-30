@@ -1,5 +1,5 @@
 {
-    "Id": "measured_dimension.dated_float",
+    "Sid": "measured_dimension.dated_float",
     "Name": "Dated float",
     "Description": "",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "measured_dimension.dated_float.value",
+            "Sid": "measured_dimension.dated_float.value",
             "Name": "Value",
             "Description": "",
             "ObjectType": "type.float",
@@ -15,7 +15,7 @@
             "Required": true
         },
         {
-            "Id": "measured_dimension.dated_float.date",
+            "Sid": "measured_dimension.dated_float.date",
             "Name": "Date",
             "Description": "",
             "ObjectType": "type.datetime",

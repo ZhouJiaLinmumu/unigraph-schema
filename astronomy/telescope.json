@@ -1,5 +1,5 @@
 {
-    "Id": "astronomy.telescope",
+    "Sid": "astronomy.telescope",
     "Name": "Telescope",
     "Description": "A telescope is a device that measures astronomical phenomena.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "astronomy.telescope.housed_in",
+            "Sid": "astronomy.telescope.housed_in",
             "Name": "Housed in",
             "Description": "Where is the telescope housed/functionaing from (usually a land-based observatory, can be a spacecraft such as a satellite)",
             "ObjectType": "astronomy.observatory",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.telescope.operational_altitude",
+            "Sid": "astronomy.telescope.operational_altitude",
             "Name": "Operational altitude",
             "Description": "At what altitude from mean sea level does this device operate at?",
             "ObjectType": "measured_dimension.distance",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.telescope.operational_period",
+            "Sid": "astronomy.telescope.operational_period",
             "Name": "Operational period",
             "Description": "Dated range when this telescope was operational for astronomical observations",
             "ObjectType": "measured_dimension.time_interval",
@@ -33,7 +33,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.telescope.operational_platform",
+            "Sid": "astronomy.telescope.operational_platform",
             "Name": "Operational platform",
             "Description": "Where is this telescope based? Land, aircraft, space station, ship?",
             "ObjectType": "astronomy.telescope_platform",
@@ -41,7 +41,7 @@
             "Required": false
         },
         {
-            "Id": "astronomy.telescope.type_of_telescope",
+            "Sid": "astronomy.telescope.type_of_telescope",
             "Name": "Type of telescope",
             "Description": "What kind of telescope is this?",
             "ObjectType": "astronomy.telescope_type",

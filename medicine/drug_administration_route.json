@@ -1,5 +1,5 @@
 {
-    "Id": "medicine.drug_administration_route",
+    "Sid": "medicine.drug_administration_route",
     "Name": "Drug administration route",
     "Description": "A drug administration route is the path by which a drug is brought into contact with the body. For example, it may be taken orally, applied via a transdermal patch, or delivered with an injection.",
     "Mediator": false,

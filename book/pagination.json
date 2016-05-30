@@ -1,5 +1,5 @@
 {
-    "Id": "book.pagination",
+    "Sid": "book.pagination",
     "Name": "Pagination",
     "Description": "This is a compound-value type that captures information about the pagination of book editions.",
     "Mediator": true,
@@ -7,7 +7,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "book.pagination.front_matter",
+            "Sid": "book.pagination.front_matter",
             "Name": "Front matter",
             "Description": "The highest page number in the front matter (these are typically Roman numerals). Leave blank if there is no front matter or if the front matter is not paginated separately from the rest of the book.",
             "ObjectType": "type.text",
@@ -15,7 +15,7 @@
             "Required": false
         },
         {
-            "Id": "book.pagination.numbered_pages",
+            "Sid": "book.pagination.numbered_pages",
             "Name": "Numbered pages",
             "Description": "The highest page number in the book. Some books (such as omnibuses or Bibles) may have multiple, individually-numbered sections, which should be entered as two separate values.",
             "ObjectType": "type.int",

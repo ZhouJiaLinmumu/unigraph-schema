@@ -1,5 +1,5 @@
 {
-    "Id": "spaceflight.space_program",
+    "Sid": "spaceflight.space_program",
     "Name": "Space program",
     "Description": "A space program consists of a series of space missions, frequently with a unifying purpose.",
     "Mediator": false,
@@ -9,7 +9,7 @@
     "Enumerated": false,
     "Properties": [
         {
-            "Id": "spaceflight.space_program.completed",
+            "Sid": "spaceflight.space_program.completed",
             "Name": "Completed",
             "Description": "",
             "ObjectType": "type.datetime",
@@ -17,7 +17,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.space_program.sponsor",
+            "Sid": "spaceflight.space_program.sponsor",
             "Name": "Sponsor",
             "Description": "",
             "ObjectType": "spaceflight.space_program_sponsor",
@@ -25,7 +25,7 @@
             "Required": false
         },
         {
-            "Id": "spaceflight.space_program.started",
+            "Sid": "spaceflight.space_program.started",
             "Name": "Started",
             "Description": "",
             "ObjectType": "type.datetime",
