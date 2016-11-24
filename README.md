@@ -1,4 +1,10 @@
-# The Unigraph Schema
+# This version is deprecated
+
+Unigraph now employs a combination of the strict freebase schema and the loose ontology of wikidata. The new schema is available for download as .json [here](http://b01.unigraph.rocks:8181/schema.json) and is explained in great detail [here](https://github.com/unigraph/api-docs/wiki/Schema). This repository will no longer be updated, but we've seen serious interest in it as it provides insights as to how data was organized in freebase prior to its closure.
+
+***
+
+# The Unigraph Schema 
 
 The Unigraph Schema is the backbone of the UniGraph Knowledge Graph. It is inspired by [freebase](http://wiki.freebase.com/wiki/Schema) with major modifications in the areas described in more detail below.
 
